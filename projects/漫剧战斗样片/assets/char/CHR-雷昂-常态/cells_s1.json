@@ -1,0 +1,68 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "3x2",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "front",
+   "desc": "standing front view, full body, sword held point down in front of him",
+   "bbox": [
+    28,
+    24,
+    652,
+    996
+   ]
+  },
+  {
+   "key": "back",
+   "desc": "standing back view, full body",
+   "bbox": [
+    700,
+    24,
+    652,
+    996
+   ]
+  },
+  {
+   "key": "left",
+   "desc": "standing left profile, full body",
+   "bbox": [
+    1372,
+    24,
+    652,
+    996
+   ]
+  },
+  {
+   "key": "right",
+   "desc": "standing right profile, full body",
+   "bbox": [
+    28,
+    1036,
+    652,
+    992
+   ]
+  },
+  {
+   "key": "three-quarter",
+   "desc": "standing three-quarter view, full body",
+   "bbox": [
+    700,
+    1036,
+    652,
+    992
+   ]
+  },
+  {
+   "key": "face",
+   "desc": "head and shoulders, front, neutral mouth, eyes level",
+   "bbox": [
+    1372,
+    1036,
+    652,
+    992
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

@@ -1,0 +1,28 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "3x2",
+ "order": "left to right, top to bottom",
+ "note": "bbox 待实测。**别用理论等分** —— 出图模型排的格子不等分。",
+ "cells": [
+  {
+   "key": "front",
+   "desc": "standing front view, full body, holding the book against his chest",
+   "bbox": null
+  },
+  {
+   "key": "against-wall",
+   "desc": "full body, back flat against a vertical surface, shoulders drawn up, the book held tight",
+   "bbox": null
+  },
+  {
+   "key": "face",
+   "desc": "head and shoulders, front, eyes wide, mouth closed",
+   "bbox": null
+  },
+  {
+   "key": "hands-book",
+   "desc": "a close view of the hands and forearms, fingernails pressed into the leather cover of the clasped book",
+   "bbox": null
+  }
+ ]
+}

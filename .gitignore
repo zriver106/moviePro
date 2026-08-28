@@ -1,0 +1,45 @@
+
+# 100 集 × 交付/配音版/完整版/字幕版 会把仓库撑到几十 GB。
+# RunPod API key —— 绝不能进仓库
+# 关键帧指纹是本地状态（记「这张图是按哪版画面字段渲的」），不进版本控制
+# 关键帧生成时按景别裁出来的头肩图，是缓存不是资产 —— 从 ref-body / look 图现算即可
+# 成片、素材、关键帧不进版本控制 —— 单个 mp4 就 48MB，
+# 这些是可再生产物，源头是分镜 + 关键帧 prompt，那才是要版本化的东西。
+*.dl
+*.flac
+*.key
+*.log
+*.mp4
+*.pyc
+*.tmp
+*.wav
+*_candidate*.png
+*_head[0-9][0-9].png
+*_kf.fp
+.DS_Store
+.asm/
+.kfcache/
+.venv/
+__pycache__/
+cells_debug_*.png
+data/
+key/
+keyframes/
+out/
+projects/*/.kfcache/
+projects/*/.mixtmp/
+projects/*/render/
+projects/*/scenes/*/*/render/
+render_api/
+runpod
+runpod.io
+runpod.pub
+secrets.env
+sheet.raw.png
+tg-token
+tg.json
+tmp/
+vendor/
+vendor/drama-skills/**/__pycache__/
+交付/
+输入/_raw.html

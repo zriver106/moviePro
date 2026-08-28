@@ -1,0 +1,156 @@
+<title>决斗三十秒</title>
+<style>
+:root{
+  --ink:#141920; --ink2:#4A5462; --ink3:#7C8797;
+  --bg:#F2F3F5; --panel:#FFFFFF; --line:#DDE0E5;
+  --red:#C4362A; --redw:#FBEDEB; --blue:#2F6BB8; --bluew:#EAF1FA;
+  --band:#EDEFF2;
+  --disp:"Songti SC","STSong","Noto Serif CJK SC",serif;
+  --sans:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  --mono:"SF Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ink:#E6E9ED; --ink2:#A2ADBB; --ink3:#6C7785;
+  --bg:#0E1116; --panel:#161A21; --line:#262C35;
+  --red:#E8695B; --redw:#2A1815; --blue:#6FA3E8; --bluew:#131E2C;
+  --band:#1B2029;
+}}
+:root[data-theme="dark"]{
+  --ink:#E6E9ED; --ink2:#A2ADBB; --ink3:#6C7785;
+  --bg:#0E1116; --panel:#161A21; --line:#262C35;
+  --red:#E8695B; --redw:#2A1815; --blue:#6FA3E8; --bluew:#131E2C;
+  --band:#1B2029;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{max-width:980px;margin:0 auto;padding:56px 24px 96px;display:flex;
+  flex-direction:column;gap:44px}
+h1{font-family:var(--disp);font-size:clamp(30px,5vw,46px);margin:0;letter-spacing:.04em;
+  text-wrap:balance;font-weight:600}
+.sub{color:var(--ink2);margin:10px 0 0;max-width:62ch}
+.stats{display:flex;flex-wrap:wrap;gap:0;border:1px solid var(--line);
+  border-radius:2px;overflow:hidden;background:var(--panel)}
+.stat{flex:1 1 130px;padding:14px 18px;border-right:1px solid var(--line)}
+.stat:last-child{border-right:0}
+.stat b{display:block;font-family:var(--mono);font-size:24px;font-variant-numeric:tabular-nums;
+  letter-spacing:-.02em}
+.stat span{font-size:12px;color:var(--ink3);letter-spacing:.12em}
+h2{font-family:var(--disp);font-size:20px;margin:0 0 14px;font-weight:600;letter-spacing:.06em}
+h2 em{font-style:normal;color:var(--ink3);font-family:var(--sans);font-size:13px;
+  letter-spacing:0;margin-left:10px}
+table{width:100%;border-collapse:collapse;background:var(--panel);
+  border:1px solid var(--line);font-size:14px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child th,tr:last-child td{border-bottom:0}
+th{white-space:nowrap;color:var(--ink2);font-weight:600}
+tr.red th{color:var(--red)} tr.blue th{color:var(--blue)}
+.n{color:var(--ink3);font-size:12px;margin-left:4px}
+.tl{border:1px solid var(--line);background:var(--panel);border-radius:2px;overflow:hidden}
+.band{display:flex;gap:14px;align-items:baseline;padding:11px 16px;background:var(--band);
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.band:first-child{border-top:0}
+.bnum{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--ink3);
+  white-space:nowrap}
+.btxt{font-size:13.5px;color:var(--ink2)}
+.row{display:flex;gap:16px;padding:10px 16px 10px 13px;border-bottom:1px solid var(--line);
+  border-left:3px solid transparent}
+.row:last-child{border-bottom:0}
+.row.s雷{border-left-color:var(--red)}
+.row.s艾{border-left-color:var(--blue)}
+.row.s双{border-left-color:var(--ink3)}
+time{font-family:var(--mono);font-size:13px;color:var(--ink3);font-variant-numeric:tabular-nums;
+  padding-top:2px;min-width:26px}
+.act{font-size:15px}
+.act b{font-weight:600}
+.sep{color:var(--ink3);padding:0 2px}
+.say{margin-top:6px;font-size:14px;padding:5px 11px;border-radius:2px;display:inline-block}
+.say.r{background:var(--redw);color:var(--red)}
+.say.b{background:var(--bluew);color:var(--blue)}
+.who{font-size:11px;letter-spacing:.1em;margin-right:7px;opacity:.75}
+.note{border-left:3px solid var(--ink3);padding:2px 0 2px 16px;color:var(--ink2);font-size:14.5px}
+.note b{color:var(--ink)}
+footer{color:var(--ink3);font-size:13px;border-top:1px solid var(--line);padding-top:18px}
+</style>
+<div class="wrap">
+<header>
+  <h1>决斗三十秒</h1>
+  <p class="sub">《漫剧战斗样片》EP001 · 逐秒分镜第五稿。狂剑士雷昂 vs 守护法师艾琳，
+  废弃神殿夜战。一条 30 秒连续镜头，段内不切。</p>
+</header>
+
+<div class="stats">
+  <div class="stat"><b>30.0</b><span>秒 · 一条</span></div>
+  <div class="stat"><b>0</b><span>次切镜</span></div>
+  <div class="stat"><b>97</b><span>次接触</span></div>
+  <div class="stat"><b>3.2</b><span>次 / 秒</span></div>
+  <div class="stat"><b>6</b><span>句边打边说</span></div>
+</div>
+
+<section>
+  <h2>技能表<em>双方都要有远程和近战，否则一方只能追、另一方贴上来就赢</em></h2>
+  <table><thead><tr><th></th><th>远程</th><th>近战</th></tr></thead><tbody><tr class="red"><th>雷昂</th><td>剑气斩<span class=n>新月剑气高过石柱</span>｜地裂<span class=n>红沟掀起石板</span></td><td>狂澜三连｜残影突进<span class=n>三道残影</span>｜狂血十二连斩</td></tr><tr class="blue"><th>艾琳</th><td>散射光弹<span class=n>12 发彗尾</span>｜贯月光矛<span class=n>粗如石柱</span>｜光柱</td><td>旋杖三连格｜杖尾上挑｜闪身背刺｜杖身横扫</td></tr></tbody></table>
+</section>
+
+<section>
+  <h2>逐秒时间轴<em>灰底行 = 一条新的运镜路径；左侧色条 = 这一秒谁在出招</em></h2>
+  <div class="tl">
+<div class="band"><span class="bnum">运镜 1</span><span class="btxt">俯冲进场</span></div>
+<div class="row s艾"><time>00</time><div class="act">她杖划整圈，银环炸白，前 4 发光弹出膛</div></div>
+<div class="row s双"><time>01</time><div class="act">再射 8 发，共 12 条彗尾照亮两侧石柱<span class=sep>｜</span>他迎着弹幕起跑<div class="say r"><span class="who">雷昂</span>「让开。」</div></div></div>
+<div class="row s雷"><time>02</time><div class="act">剑面连磕 3 发，钢上三次火星连爆</div></div>
+<div class="row s雷"><time>03</time><div class="act">侧滚 2 发<span class=sep>｜</span>起身斩碎 2 发，炸成蓝色碎晶，脚不停</div></div>
+<div class="band"><span class="bnum">运镜 2</span><span class="btxt">越肩升起</span></div>
+<div class="row s雷"><time>04</time><div class="act">血纹爆发：右臂黑纹亮红，血槽从柄到尖灌满红光</div></div>
+<div class="row s雷"><time>05</time><div class="act">剑气斩①：新月剑气高过石柱，横越大殿，地面犁出一道刻痕</div></div>
+<div class="row s双"><time>06</time><div class="act">剑气斩②③<span class=sep>｜</span>她抛袖，左手连点三指（收袖三印）<div class="say b"><span class="who">艾琳</span>「不能。」</div></div></div>
+<div class="row s双"><time>07</time><div class="act">六边形光纹成形<span class=sep>｜</span>三道剑气连环炸在盾上，<b>外层碎</b>成光云</div></div>
+<div class="band"><span class="bnum">运镜 3</span><span class="btxt">急推跟进</span></div>
+<div class="row s雷"><time>08</time><div class="act">残影突进：拖三道残影跨过剩余距离</div></div>
+<div class="row s双"><time>09</time><div class="act">狂澜①横挥 → <b>她旋杖格开</b></div></div>
+<div class="row s双"><time>10</time><div class="act">狂澜②回旋反斩 ③过顶下劈 → 她旋杖格 + 双手横杖硬接</div></div>
+<div class="row s艾"><time>11</time><div class="act"><b>杖尾上挑</b>把剑挑离轨道，他这一刀劈空</div></div>
+<div class="row s艾"><time>12</time><div class="act"><b>闪身背刺</b>：蓝光一闪到他背后，杖身横扫</div></div>
+<div class="row s雷"><time>13</time><div class="act">他护肩架开杖身反手一斩，剑锋削落她耳侧一缕金发<div class="say r"><span class="who">雷昂</span>「书里最后一页能解我妹妹的咒。」</div></div></div>
+<div class="band"><span class="bnum">运镜 4</span><span class="btxt">降到地面</span></div>
+<div class="row s艾"><time>14</time><div class="act">静水领域：蓝色六边形铺满整个大殿地面</div></div>
+<div class="row s艾"><time>15</time><div class="act">冰棱阵：12 根淡蓝冰棱破地而起，高过人头</div></div>
+<div class="row s雷"><time>16</time><div class="act">六记重斩碎 6 根，冰片成片飞散</div></div>
+<div class="row s雷"><time>17</time><div class="act">侧身挤出缺口，身后悬着冰雾<div class="say b"><span class="who">艾琳</span>「凯尔，跑！」</div></div></div>
+<div class="band"><span class="bnum">运镜 5</span><span class="btxt">升起跟拍</span></div>
+<div class="row s艾"><time>18</time><div class="act">贯月光矛：银环吸光，射出粗如石柱的蓝色光矛</div></div>
+<div class="row s雷"><time>19</time><div class="act">地裂：剑插地，红光沟壑犁开石地迎上去，掀起成块石板</div></div>
+<div class="row s双"><time>20</time><div class="act">正面对撞爆开，碎石掀到穹顶<span class=sep>｜</span>凯尔抱书贴柱，被爆光扫过（镜头掠过，不切）</div></div>
+<div class="band"><span class="bnum">运镜 6</span><span class="btxt">仰角上摇</span></div>
+<div class="row s艾"><time>21</time><div class="act">巨型法阵：三个铺满大殿的六边形亮起，三道光柱砸落，地面炸坑<div class="say b"><span class="who">艾琳</span>「翻开它，死的就不止你妹妹。」</div></div></div>
+<div class="row s雷"><time>22</time><div class="act">侧滚避第一道<span class=sep>｜</span>剑气斩 ×2 削断第二、三道光柱</div></div>
+<div class="row s雷"><time>23</time><div class="act">从光柱背面走出，剑上带着火星流</div></div>
+<div class="band"><span class="bnum">运镜 7</span><span class="btxt">狠推脸部</span></div>
+<div class="row s雷"><time>24</time><div class="act"><b>狂化 H2</b>：赤红漫过眼白，黑纹爬到锁骨，白雾涌出，整条剑身化为红光柱</div></div>
+<div class="band"><span class="bnum">运镜 8</span><span class="btxt">拉开环绕</span></div>
+<div class="row s雷"><time>25</time><div class="act">狂血十二连斩：前 4 道红弧连爆，整殿被照亮<div class="say r"><span class="who">雷昂</span>「那也轮不到你替我选。」</div></div></div>
+<div class="row s艾"><time>26</time><div class="act">中 4 道<span class=sep>｜</span><b>她旋杖挡开 2 记</b>，鞋跟在石面拖出长沟</div></div>
+<div class="row s双"><time>27</time><div class="act">末 4 道齐落<span class=sep>｜</span><b>中层深蓝网格全裂</b>如玻璃</div></div>
+<div class="band"><span class="bnum">运镜 9</span><span class="btxt">升起绕背</span></div>
+<div class="row s雷"><time>28</time><div class="act">腾空全力落石，剑是一柱红光，火星上涌</div></div>
+<div class="band"><span class="bnum">运镜 10</span><span class="btxt">急推接触点→猛拉停住</span></div>
+<div class="row s双"><time>29</time><div class="act">她横杖硬接，冲击波环形掀开地尘，<b>内层裂一道缝</b>，两人僵住</div></div>
+  </div>
+</section>
+
+<section>
+  <h2>检查表</h2>
+  <table><tbody><tr><th>时长</th><td>30.0s，逐秒 30 条描述</td></tr><tr><th>密度</th><td>97 次接触 ÷ 30 秒 = <b>3.2 次/秒</b></td></tr><tr><th>切镜</th><td><b>0</b>　30 个切片里只有 10 个带运镜</td></tr><tr><th>技能</th><td>双方各 6 个，都有远程 + 近战</td></tr><tr><th>护盾读数</th><td>三层 → 外层碎 7s → 中层全裂 27s → 内层裂缝 29s</td></tr><tr><th>身体接触</th><td><b>0</b>　全是武器对武器、武器对护盾</td></tr><tr><th>否定词 / 情绪词</th><td>0 / 0　门禁已过</td></tr></tbody></table>
+</section>
+
+<section>
+  <h2>等拍板</h2>
+  <p class="note"><b>台词进不进 prompt。</b>上一版写进去被烧成了画面字幕。
+  现在默认移出、后期挂 —— 代价是模型不生成人声，音轨只有打斗声。</p>
+  <p class="note" style="margin-top:14px"><b>雷昂造型跟设定集打架。</b>
+  设定集写「深灰近黑中长发 + 无袖皮甲」，资产是红发红黑重甲，渲染一直忠实照着资产画。
+  建议改设定集去对资产。</p>
+</section>
+
+<footer>数据来自 <code>分镜/EP001.json</code>，这一页由脚本生成，改分镜重跑即可。</footer>
+</div>

@@ -1,0 +1,38 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "1x3",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "single",
+   "desc": "one ice spike rising the full height of the panel, taller than two storeys, electric blue light running through its facets, its silhouette crisp against flat empty black, and flat empty black filling the rest of the panel out to every border",
+   "bbox": [
+    0,
+    0,
+    2048,
+    824
+   ]
+  },
+  {
+   "key": "wall-twelve",
+   "desc": "twelve ice spikes of that height stood up in a row across the panel from the left border to the right border forming one continuous wall, light running through all of them, with flat empty black showing through the gaps between each pair of spikes and above their tips",
+   "bbox": [
+    0,
+    824,
+    2048,
+    488
+   ]
+  },
+  {
+   "key": "shatter",
+   "desc": "one ice spike bursting apart in mid air at the centre of the panel: a blown out pure white core at the centre, a saturated electric blue body around it, a flat expanding shockwave ring at the outer rim, and shards and sparks flying outward along radial speed lines, every shard a crisp separate piece catching the light, and flat empty black between the flying shards out to every border",
+   "bbox": [
+    0,
+    1312,
+    2048,
+    736
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

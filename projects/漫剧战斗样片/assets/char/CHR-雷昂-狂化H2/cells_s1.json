@@ -1,0 +1,68 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "3x2",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "face",
+   "desc": "in head and shoulders framing, front on, mouth open",
+   "bbox": [
+    0,
+    0,
+    701,
+    1059
+   ]
+  },
+  {
+   "key": "face-tears",
+   "desc": "in head and shoulders framing with two thin scarlet lines running down from the corners of his eyes",
+   "bbox": [
+    701,
+    0,
+    677,
+    1059
+   ]
+  },
+  {
+   "key": "front",
+   "desc": "in a standing front view, full body, sword point down",
+   "bbox": [
+    1378,
+    0,
+    670,
+    1059
+   ]
+  },
+  {
+   "key": "three-quarter",
+   "desc": "in a standing three quarter view, full body",
+   "bbox": [
+    0,
+    1059,
+    701,
+    989
+   ]
+  },
+  {
+   "key": "drag-back",
+   "desc": "stepping backward with the sword tip dragging on the ground, full body",
+   "bbox": [
+    701,
+    1059,
+    677,
+    989
+   ]
+  },
+  {
+   "key": "still-ready",
+   "desc": "standing perfectly still, sword tip resting on the ground beside him, full body",
+   "bbox": [
+    1378,
+    1059,
+    670,
+    989
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

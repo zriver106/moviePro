@@ -1,0 +1,712 @@
+{
+ "project": "漫剧战斗样片",
+ "note": "资产定义。2026-08-17 按 Andy 给的三张参考图重做：风格从赛璐璐平涂改成高精度 CG 渲染。**质感差的两个真因**：一是风格定错，二是 24 格挤一张图每格只剩一百多像素。现在每张 sheet 最多 6 格、2048×2048，每格约 680px；另出一张定妆图判质感。 2026-08-17 补 VFX：特效之前一个资产都没有，全靠 prompt 文字，而文字锁不住外观 —— 护盾三档读数是观众判断战况的唯一依据，没有资产等于没写。**黑底不是透明底**：Seedream 只返回 JPEG，没有 alpha 通道，能量特效本来就走加色/滤色合成，黑底在 screen 下等价于透明且比抠图干净。配色跟实际定妆图走：艾琳是黑金不是蓝（设定集文字过时了），雷昂是赤红。 2026-08-17 特效返工：(1) 尺度按 Andy「巨大杀伤范围、炸裂效果、鲜艳彩色、夸张动作」全面上调，每个爆开态必须画出三层（过曝白热核／饱和本色／冲击波环＋碎屑速度线）；(2) 艾琳系改回**电蓝→青白**，不是金 —— 分镜逐秒稿写的是蓝，而且金配红都是暖色，红蓝对立这条视觉主轴用金撑不起来；她的**铠甲**仍是黑金，改的是她的**法术**颜色，两者不冲突；(3) 特效风格串从角色串里分出来（`styles.vfx`）；(4) 成品是 RGBA 透明底，黑底只是出图中间态。",
+ "style": "ultra detailed 3D CG render, cinematic key light with strong rim light separating the figure, ornate layered fantasy armour with filigree and glowing inlays, volumetric energy particles and embers in the air, deep blacks with high dynamic range, sharp micro detail on metal, cloth and leather, artstation quality character art. ",
+ "assets": [
+  {
+   "id": "CHR-雷昂-常态",
+   "type": "char",
+   "who": "a man in his early thirties in heavy fantasy plate armour, square jaw, a diagonal scar from his left brow ridge across his cheekbone, spiked crimson hair swept upward, dark brown eyes; the armour is black and deep crimson with layered spiked pauldrons, a chest plate cut with glowing red filigree lines, articulated gauntlets and greaves, and a tattered crimson battle skirt hanging to his shins; his right arm is bound shoulder to wrist in dark cloth over the plating; he carries a greatsword taller than his own torso, the blade etched with a channel of red energy running its length, a heavy geared crossguard and a wrapped grip",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "3x2",
+     "cells": [
+      [
+       "front",
+       "standing front view, full body, sword held point down in front of him"
+      ],
+      [
+       "back",
+       "standing back view, full body"
+      ],
+      [
+       "left",
+       "standing left profile, full body"
+      ],
+      [
+       "right",
+       "standing right profile, full body"
+      ],
+      [
+       "three-quarter",
+       "standing three-quarter view, full body"
+      ],
+      [
+       "face",
+       "head and shoulders, front, neutral mouth, eyes level"
+      ]
+     ]
+    },
+    {
+     "name": "s2",
+     "grid": "3x2",
+     "cells": [
+      [
+       "raise-overhead",
+       "full body, both hands raising the greatsword overhead, body still, weight settled"
+      ],
+      [
+       "chop-down",
+       "full body, the greatsword swung down in front of him, arms extended low"
+      ],
+      [
+       "side-swing",
+       "full body, one-handed horizontal swing, waist turned a half circle"
+      ],
+      [
+       "press-forward",
+       "full body, both hands pushing the sword forward at chest height, tendons standing out on his forearms"
+      ],
+      [
+       "elbow-guard",
+       "full body, left forearm raised across his face so the iron pauldron faces forward"
+      ],
+      [
+       "low-ground-cut",
+       "full body, deep knee bend, the sword driven forward flat along the ground"
+      ]
+     ]
+    },
+    {
+     "name": "s3",
+     "grid": "3x2",
+     "cells": [
+      [
+       "drag-back",
+       "full body, stepping backward with the sword tip dragging on the ground behind him"
+      ],
+      [
+       "knocked-back",
+       "full body, driven backward, torso tilted back, one arm out for balance"
+      ],
+      [
+       "triple-chop",
+       "full body, mid combination, sword high on the return of a second cut"
+      ],
+      [
+       "rise-cut",
+       "full body, upward rising cut, sword sweeping up from low to high"
+      ],
+      [
+       "spin-cut",
+       "full body, mid-air spinning return cut, both feet off the ground"
+      ],
+      [
+       "land-crouch",
+       "full body, landing in a crouch, sword arm extended behind"
+      ]
+     ]
+    },
+    {
+     "name": "s4",
+     "grid": "3x2",
+     "cells": [
+      [
+       "breathe",
+       "head and shoulders, mouth open, breathing hard"
+      ],
+      [
+       "look-up",
+       "head and shoulders, chin lifted, eyes level ahead"
+      ],
+      [
+       "grip-two-hands",
+       "a close view of the two hands and forearms gripping the leather-wrapped hilt"
+      ],
+      [
+       "arm-wrapped",
+       "a close view of the right arm from shoulder to wrist, wrapped in dark cloth, fingers bare"
+      ],
+      [
+       "sword-alone",
+       "the greatsword alone, held upright, full length"
+      ],
+      [
+       "shoulder-pauldron",
+       "a close view of the left shoulder and upper arm showing the iron pauldron with the notch in its rim"
+      ]
+     ]
+    }
+   ],
+   "hero": true
+  },
+  {
+   "id": "CHR-雷昂-狂化H1",
+   "type": "char",
+   "derives_from": "CHR-雷昂-常态",
+   "note": "**从 `CHR-雷昂-常态/hero.png` 走 edit 派生，脸不动。** 第一版是 text-to-image 各画各的，出来是黑短发＋银甲的另一个人 —— 三档看起来是三个人，狂化那一段的戏剧效果（同一个人变了）直接归零。`change` 里只列设定集写死的那几样，其余靠 `keep_clause()` 逐条重申。 只有 SH11 用，所以只要四格。",
+   "who": "the same armoured man, identical face and identical armour, and in this form his irises burn crimson with the sclera threaded red, thin embers rising off his pauldrons, and black veins surfacing over the cloth wraps on his right arm as far as the elbow",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "2x2",
+     "cells": [
+      [
+       "face",
+       "in head and shoulders framing, front on, jaw set"
+      ],
+      [
+       "three-quarter",
+       "in a standing three quarter view, full body, sword point down"
+      ],
+      [
+       "arm-lines",
+       "with his right arm raised across the frame so the marked forearm reads clearly, upper body"
+      ],
+      [
+       "front",
+       "in a standing front view, full body, sword held out to one side"
+      ]
+     ]
+    }
+   ],
+   "hero": true,
+   "edit_from": "CHR-雷昂-常态",
+   "change": "Change exactly these things about him and leave the rest of the picture alone: his irises turn scarlet red and the whites of his eyes fill with fine red threads; black vein like markings surface under the dark cloth wrapping on his right arm and run from the shoulder as far as the elbow. "
+  },
+  {
+   "id": "CHR-雷昂-狂化H2",
+   "type": "char",
+   "derives_from": "CHR-雷昂-常态",
+   "note": "**从 `CHR-雷昂-常态/hero.png` 走 edit 派生，脸不动。** 第一版是 text-to-image 各画各的，出来是黑短发＋银甲的另一个人 —— 三档看起来是三个人，狂化那一段的戏剧效果（同一个人变了）直接归零。`change` 里只列设定集写死的那几样，其余靠 `keep_clause()` 逐条重申。 大招段全部用它。",
+   "who": "the same armoured man, identical face and identical armour, and in this form both eyes glow solid crimson edge to edge, red flame streams upward off both pauldrons and off his hair, black veins cover his right arm and cross his collarbone, and the red channel along the greatsword blade burns at full brightness",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "3x2",
+     "cells": [
+      [
+       "face",
+       "in head and shoulders framing, front on, mouth open"
+      ],
+      [
+       "face-tears",
+       "in head and shoulders framing with two thin scarlet lines running down from the corners of his eyes"
+      ],
+      [
+       "front",
+       "in a standing front view, full body, sword point down"
+      ],
+      [
+       "three-quarter",
+       "in a standing three quarter view, full body"
+      ],
+      [
+       "drag-back",
+       "stepping backward with the sword tip dragging on the ground, full body"
+      ],
+      [
+       "still-ready",
+       "standing perfectly still, sword tip resting on the ground beside him, full body"
+      ]
+     ]
+    },
+    {
+     "name": "s2",
+     "grid": "3x2",
+     "cells": [
+      [
+       "rise-cut",
+       "swinging the sword upward from low to high, full body"
+      ],
+      [
+       "spin-cut",
+       "in a mid air spinning return cut with both feet off the ground, full body"
+      ],
+      [
+       "land-crouch",
+       "landing in a deep crouch with the sword arm extended behind him, full body"
+      ],
+      [
+       "press-core",
+       "pushing the sword forward at chest height with both hands and his shoulders low, full body"
+      ],
+      [
+       "chest-collar",
+       "in chest and collarbone framing so the markings crossing the collarbone read clearly"
+      ],
+      [
+       "blur-run",
+       "leaning far forward at the start of a sprint with the sword trailing behind him, full body"
+      ]
+     ]
+    }
+   ],
+   "hero": true,
+   "edit_from": "CHR-雷昂-常态",
+   "change": "Change exactly these things about him and leave the rest of the picture alone: scarlet floods past his irises until each whole eyeball glows red edge to edge; the black vein like markings spread up his right arm, climb the right side of his neck and cross his collarbone above the armour; a thin wisp of white vapour drifts from his mouth and falls away sideways below his jaw, so his mouth, jaw and the scar on his cheekbone stay clear and fully visible. ",
+   "retry": "第二版。第一版白雾糊住了整个下半张脸 —— hero 是 sheet 的母板，母板上看不清嘴和下颌，往下每一格都跟着看不清。白雾改成从嘴角侧下方飘走，同时把黑纹明确写到颈侧（锁骨被护颈挡住，不写颈侧就永远画不出来）。"
+  },
+  {
+   "id": "CHR-艾琳",
+   "type": "char",
+   "who": "a woman of twenty-eight in a hooded mage's mantle over black and gold precision armour, her face visible inside the hood and lit softly, oval face with a small mole under her right eye, pale blonde hair in a high ponytail falling past the hood onto her shoulder blades; the mantle is heavy dark cloth clasped at the throat by a round gold medallion, the armour beneath is black plate cut with glowing gold inlay across the breastplate, the vambraces and the thigh plates, fine gold bead chains hanging from the belt; ribbons of gold light and gold particles coil around her body, and she carries a tall black twisted staff whose head is an open gold ring with a faceted crystal suspended inside it clear of the metal",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "3x2",
+     "cells": [
+      [
+       "front",
+       "standing front view, full body, staff held vertical at her side"
+      ],
+      [
+       "back",
+       "standing back view, full body, the ponytail falling to her shoulder blades"
+      ],
+      [
+       "left",
+       "standing left profile, full body"
+      ],
+      [
+       "right",
+       "standing right profile, full body"
+      ],
+      [
+       "three-quarter",
+       "standing three-quarter view, full body"
+      ],
+      [
+       "face",
+       "head and shoulders, front, mouth closed, eyes level"
+      ]
+     ]
+    },
+    {
+     "name": "s2",
+     "grid": "3x2",
+     "cells": [
+      [
+       "staff-horizontal",
+       "full body, both hands holding the staff horizontally in front of her face"
+      ],
+      [
+       "brace-block",
+       "full body, both hands on the staff braced overhead, knees bent, taking weight from above"
+      ],
+      [
+       "plant-staff",
+       "full body, the staff tip planted on the ground, knee bent, weight sinking, sliding back"
+      ],
+      [
+       "sweep-staff",
+       "full body, sweeping the staff shaft across at waist height"
+      ],
+      [
+       "push-ring",
+       "full body, one hand pushing the ringed head of the staff forward, crystal lit"
+      ],
+      [
+       "sleeve-fall",
+       "upper body, one arm lifted so the wide sleeve falls back to show the silver-grey lining"
+      ]
+     ]
+    },
+    {
+     "name": "s3",
+     "grid": "3x2",
+     "cells": [
+      [
+       "sleeve-fall-both",
+       "upper body, both arms lifted at once so both sleeves fall back"
+      ],
+      [
+       "seal-fingers",
+       "a close view of the hands and forearms, thumb touching the tips of index, middle and ring fingers in turn"
+      ],
+      [
+       "staff-upright",
+       "full body, staff planted upright directly in front of her, both hands at her sides"
+      ],
+      [
+       "look-up",
+       "head and shoulders, chin lifted slightly, eyes level ahead"
+      ],
+      [
+       "teeth-set",
+       "head and shoulders, jaw set, lips pressed together"
+      ],
+      [
+       "breathe",
+       "head and shoulders, mouth open, breathing hard"
+      ]
+     ]
+    },
+    {
+     "name": "s4",
+     "grid": "3x2",
+     "cells": [
+      [
+       "step-back",
+       "full body, sliding back half a step, staff angled across her body"
+      ],
+      [
+       "hair-cut",
+       "head and shoulders, one strand of pale blonde hair drifting free past her left ear"
+      ],
+      [
+       "hands-grip",
+       "a close view of the two hands and forearms gripping the grooved shaft, knuckles pale"
+      ],
+      [
+       "staff-alone",
+       "the staff alone, upright, full length, the crystal suspended inside the open silver ring"
+      ],
+      [
+       "ring-detail",
+       "a close view of the staff head showing the open silver ring with the faceted blue crystal hanging clear inside it"
+      ],
+      [
+       "robe-buttons",
+       "a close view of the torso showing the column of seven round silver buttons from collar to waist"
+      ]
+     ]
+    }
+   ],
+   "hero": true
+  },
+  {
+   "id": "CHR-凯尔",
+   "type": "char",
+   "who": "a boy of about fifteen in a plain grey travelling tunic and worn boots, short brown hair, holding a thick leather book shut by a heavy copper clasp tight against his chest, a faint gold glow leaking from the edges of the pages",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "2x2",
+     "cells": [
+      [
+       "front",
+       "standing front view, full body, holding the book against his chest"
+      ],
+      [
+       "against-wall",
+       "full body, back flat against a vertical surface, shoulders drawn up, the book held tight"
+      ],
+      [
+       "face",
+       "head and shoulders, front, eyes wide, mouth closed"
+      ],
+      [
+       "hands-book",
+       "a close view of the hands and forearms, fingernails pressed into the leather cover of the clasped book"
+      ]
+     ]
+    }
+   ],
+   "hero": true
+  },
+  {
+   "id": "PROP-断影",
+   "type": "prop",
+   "who": "a single greatsword alone, taller than a man's torso, the blade etched with a deep channel of red energy running its full length, a heavy geared iron crossguard, a wrapped leather grip, a chip missing from the pommel, faint embers drifting off the steel",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "1x1",
+     "cells": [
+      [
+       "plate",
+       "the whole sword, upright, seen from the flat of the blade"
+      ]
+     ]
+    }
+   ],
+   "hero": true
+  },
+  {
+   "id": "PROP-静水",
+   "type": "prop",
+   "who": "a single tall staff alone, a black twisted shaft with three spiral grooves, the head an open gold ring with a faceted blue crystal suspended inside it clear of the metal, threads of gold light coiling around the shaft",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "1x1",
+     "cells": [
+      [
+       "plate",
+       "the whole staff, upright, full length"
+      ]
+     ]
+    }
+   ],
+   "hero": true
+  },
+  {
+   "id": "PROP-古书",
+   "type": "prop",
+   "who": "a single thick old book alone, dark tooled leather cover, a heavy copper clasp across the fore edge, thick uneven page block, a faint gold glow at the page edges",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "2x1",
+     "cells": [
+      [
+       "closed",
+       "the book closed, clasp fastened, seen from three-quarter above"
+      ],
+      [
+       "clasp-open",
+       "the same book with the copper clasp sprung open and one page lifting, a line of gold characters glowing on the raised page"
+      ]
+     ]
+    }
+   ],
+   "hero": true
+  },
+  {
+   "id": "LOC-神殿",
+   "type": "location",
+   "note": "多机位一次生成再切。分开生成必漂 —— 换机位时柱子和地面的形制会跟着一起漂。四个格位对应分镜里用到的四个机位。",
+   "who": "the interior of a vast abandoned mountain temple at night, colossal weathered stone statues rising along both sides into the dark, tiered stone galleries and broken wooden bridges overhead, a crack in the domed ceiling letting one shaft of cold moonlight down onto a flagstone floor strewn with rubble, drifting mist and dust motes, deep desaturated blue-grey palette, epic scale, matte painting quality",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "2x2",
+     "cells": [
+      [
+       "side-two-shot",
+       "a side-on view across the middle of the hall at standing eye height, floor and both column rows visible"
+      ],
+      [
+       "over-shoulder",
+       "a view from between two columns looking across the hall, one column filling the near edge of frame"
+      ],
+      [
+       "pillar-corner",
+       "a close view of one stone column and the wall behind it"
+      ],
+      [
+       "wide-floor",
+       "a wide low view along the flagstone floor with the columns receding and the ceiling crack overhead"
+      ]
+     ]
+    }
+   ],
+   "hero": false
+  },
+  {
+   "id": "VFX-护盾三层",
+   "type": "vfx",
+   "hero": false,
+   "note": "特效资产。**出图是纯黑底，成品是 RGBA 透明底** —— Seedream 只返回 JPEG，没有 alpha 通道，所以黑底出图再由 `scripts/vfx_alpha.py` 按亮度抠成透明。发光特效在黑底上抠比白底干净得多：辉光边缘是加色的，黑底抠出来的 alpha 更接近真实。尺度按「一招覆盖大半个大殿」写，画幅内用**满幅占比**表达 —— 孤立在黑底上的特效没有比例参照，只有相对画幅的比例能传下去。",
+   "who": "a colossal layered hexagonal energy barrier seen face on, wide enough to shelter a standing person with room to spare, built from three concentric rings: an outer ring of electric blue light grains, a middle ring of dense electric blue hexagonal mesh with every cell of the mesh picked out by a hard line, and an inner disc of solid silver white",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "2x2",
+     "cells": [
+      [
+       "intact",
+       "all three rings whole and blazing at full brightness, filling the panel edge to edge, the outer grains drifting outward, electric blue shading out to cyan white at the edges, with a white hot core"
+      ],
+      [
+       "outer-burst",
+       "the outer ring of light grains blowing apart into a wide cloud of drifting points that reaches the panel border, while the middle mesh and the silver white core hold, a blown out pure white core at the centre, a saturated electric blue body around it, a flat expanding shockwave ring at the outer rim, and shards and sparks flying outward along radial speed lines"
+      ],
+      [
+       "mesh-crack",
+       "the hexagonal mesh ring split wide open from one impact point with cracks branching all the way across it like a windscreen, wedges of mesh tipping free, the silver white core whole behind it, a blown out pure white core at the centre, a saturated electric blue body around it, a flat expanding shockwave ring at the outer rim, and shards and sparks flying outward along radial speed lines"
+      ],
+      [
+       "core-fissure",
+       "a single silver white disc filling the panel with one thin fissure running clean across it, the lips of the fissure blazing cyan white, fine light grains lifting off the crack"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "VFX-剑气",
+   "type": "vfx",
+   "hero": false,
+   "note": "特效资产。**出图是纯黑底，成品是 RGBA 透明底** —— Seedream 只返回 JPEG，没有 alpha 通道，所以黑底出图再由 `scripts/vfx_alpha.py` 按亮度抠成透明。发光特效在黑底上抠比白底干净得多：辉光边缘是加色的，黑底抠出来的 alpha 更接近真实。尺度按「一招覆盖大半个大殿」写，画幅内用**满幅占比**表达 —— 孤立在黑底上的特效没有比例参照，只有相对画幅的比例能传下去。",
+   "who": "a colossal crescent blade of energy travelling through the air, the leading edge a hard white line and the tail feathering into embers, incandescent scarlet red shading out to orange gold at the edges, with a white hot core",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "1x3",
+     "cells": [
+      [
+       "single",
+       "one crescent spanning the panel from the left border to the right border, its arc as tall as the panel, the leading edge a hard white line, three long ribbon tails streaming behind it into embers, the whole crescent hanging free in empty black"
+      ],
+      [
+       "triple",
+       "three crescents of the same shape stacked one behind another and fanned apart, each spanning the panel from border to border, travelling together with their tails overlapping into a single sheet of embers, all three hanging free in empty black"
+      ],
+      [
+       "impact-flash",
+       "a crescent bursting in mid air at the centre of the panel: a blown out pure white core at the centre, a saturated scarlet red body around it, a flat expanding shockwave ring at the outer rim, and shards and sparks flying outward along radial speed lines, the burst and every flying fragment hanging free in empty black"
+      ]
+     ]
+    }
+   ],
+   "retry": "第二版。第一版把连续的场景几何画了进来（剑气：石柱＋石地；光弹：一把剑刃；法阵：整块石板地；地裂：满幅石板地），这种东西抠不成 alpha —— 地面整块跟着进来，叠到真神殿上就是两层地板，光弹那格还会多出第二把剑。改成正面写「悬在空中、四周是空黑」，**一个否定词都没加** —— 靠说要什么，不靠说不要什么。"
+  },
+  {
+   "id": "VFX-光弹",
+   "type": "vfx",
+   "hero": false,
+   "note": "特效资产。**出图是纯黑底，成品是 RGBA 透明底** —— Seedream 只返回 JPEG，没有 alpha 通道，所以黑底出图再由 `scripts/vfx_alpha.py` 按亮度抠成透明。发光特效在黑底上抠比白底干净得多：辉光边缘是加色的，黑底抠出来的 alpha 更接近真实。尺度按「一招覆盖大半个大殿」写，画幅内用**满幅占比**表达 —— 孤立在黑底上的特效没有比例参照，只有相对画幅的比例能传下去。",
+   "who": "a bolt of energy with a comet tail, the head dense and white hot, the tail thinning into sparks, electric blue shading out to cyan white at the edges, with a white hot core",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "1x3",
+     "cells": [
+      [
+       "single",
+       "one bolt in flight across the panel, its comet tail stretching back to the far border, the head a hard white point, hanging free in empty black"
+      ],
+      [
+       "fan-twelve",
+       "twelve bolts fanned out in a wide spread that fills the panel from border to border, each with its own comet tail, the twelve tails raking the whole frame, all of them hanging free in empty black"
+      ],
+      [
+       "deflected",
+       "one bolt bursting sideways in mid air at the centre of the panel as though it had glanced off something: a blown out pure white core at the centre, a saturated electric blue body around it, a flat expanding shockwave ring at the outer rim, and shards and sparks flying outward along radial speed lines, the whole spray raked off to one side and hanging free in empty black"
+      ]
+     ]
+    }
+   ],
+   "retry": "第二版。第一版把连续的场景几何画了进来（剑气：石柱＋石地；光弹：一把剑刃；法阵：整块石板地；地裂：满幅石板地），这种东西抠不成 alpha —— 地面整块跟着进来，叠到真神殿上就是两层地板，光弹那格还会多出第二把剑。改成正面写「悬在空中、四周是空黑」，**一个否定词都没加** —— 靠说要什么，不靠说不要什么。"
+  },
+  {
+   "id": "VFX-冰棱阵",
+   "type": "vfx",
+   "hero": false,
+   "note": "特效资产。**出图是纯黑底，成品是 RGBA 透明底** —— Seedream 只返回 JPEG，没有 alpha 通道，所以黑底出图再由 `scripts/vfx_alpha.py` 按亮度抠成透明。发光特效在黑底上抠比白底干净得多：辉光边缘是加色的，黑底抠出来的 alpha 更接近真实。尺度按「一招覆盖大半个大殿」写，画幅内用**满幅占比**表达 —— 孤立在黑底上的特效没有比例参照，只有相对画幅的比例能传下去。",
+   "who": "a spike of clear faceted ice shot through with light, sharp at the tip, electric blue shading out to cyan white at the edges, with a white hot core",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "1x3",
+     "cells": [
+      [
+       "single",
+       "one ice spike rising the full height of the panel, taller than two storeys, electric blue light running through its facets, its silhouette crisp against flat empty black, and flat empty black filling the rest of the panel out to every border"
+      ],
+      [
+       "wall-twelve",
+       "twelve ice spikes of that height stood up in a row across the panel from the left border to the right border forming one continuous wall, light running through all of them, with flat empty black showing through the gaps between each pair of spikes and above their tips"
+      ],
+      [
+       "shatter",
+       "one ice spike bursting apart in mid air at the centre of the panel: a blown out pure white core at the centre, a saturated electric blue body around it, a flat expanding shockwave ring at the outer rim, and shards and sparks flying outward along radial speed lines, every shard a crisp separate piece catching the light, and flat empty black between the flying shards out to every border"
+      ]
+     ]
+    }
+   ],
+   "retry": "第二版。第一版整块画幅垫了一层蓝灰雾（实测抠完全透只剩 8.8–31%，灰纱 41–62%）—— 冰雾糊满格子，抠出来是一张半透明的蓝矩形，叠上去等于给整个镜头蒙一层蓝纱。改成逐格点名「缝隙之间是空黑」，**一个否定词都没加**：说黑在哪，不说雾不要有。"
+  },
+  {
+   "id": "VFX-贯月光矛",
+   "type": "vfx",
+   "hero": false,
+   "note": "特效资产。**出图是纯黑底，成品是 RGBA 透明底** —— Seedream 只返回 JPEG，没有 alpha 通道，所以黑底出图再由 `scripts/vfx_alpha.py` 按亮度抠成透明。发光特效在黑底上抠比白底干净得多：辉光边缘是加色的，黑底抠出来的 alpha 更接近真实。尺度按「一招覆盖大半个大殿」写，画幅内用**满幅占比**表达 —— 孤立在黑底上的特效没有比例参照，只有相对画幅的比例能传下去。",
+   "who": "a lance of energy as thick as a stone column, a hard white core with spiralling light wound around it, electric blue shading out to cyan white at the edges, with a white hot core",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "1x3",
+     "cells": [
+      [
+       "charge",
+       "an open ring drawing streams of light inward from every side of the panel into one blinding point at its centre, the streams stretched into long curved trails"
+      ],
+      [
+       "flight",
+       "a lance as thick as a stone column driving across the panel from border to border, a hard white core with light spiralling around it and a trail of flame filling the frame behind it"
+      ],
+      [
+       "clash",
+       "a blue lance meeting a scarlet crescent head on at the centre of the panel: a blown out pure white sphere at the point of contact, a saturated blue body on one side and a saturated scarlet body on the other, a flat expanding shockwave ring across the whole panel, and shards and sparks flying outward along radial speed lines"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "VFX-法阵",
+   "type": "vfx",
+   "hero": false,
+   "note": "特效资产。**出图是纯黑底，成品是 RGBA 透明底** —— Seedream 只返回 JPEG，没有 alpha 通道，所以黑底出图再由 `scripts/vfx_alpha.py` 按亮度抠成透明。发光特效在黑底上抠比白底干净得多：辉光边缘是加色的，黑底抠出来的 alpha 更接近真实。尺度按「一招覆盖大半个大殿」写，画幅内用**满幅占比**表达 —— 孤立在黑底上的特效没有比例参照，只有相对画幅的比例能传下去。",
+   "who": "a hexagonal magic circle lying flat on a stone floor, fine glyph work inside it, light rising off its edges, electric blue shading out to cyan white at the edges, with a white hot core",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "1x3",
+     "cells": [
+      [
+       "single",
+       "one hexagonal ring of glowing glyph lines lying flat in steep perspective, spread wide enough to cover the floor of a great hall and running out to every border of the panel, drawn purely as lines of light with flat empty black showing through between every line"
+      ],
+      [
+       "triple",
+       "three of those hexagonal glyph rings lit at once and overlapping at their edges, together filling the panel, drawn purely as lines of light with flat empty black showing through between every line"
+      ],
+      [
+       "pillar",
+       "a column of light as wide as the glyph ring dropping straight down out of the dark onto one ring and splashing outward where it lands: a blown out pure white core at the centre, a saturated electric blue body around it, a flat expanding shockwave ring at the outer rim, and shards and sparks flying outward along radial speed lines, the glyph ring drawn purely as lines of light and the black showing through between them"
+      ]
+     ]
+    }
+   ],
+   "retry": "第二版。第一版把连续的场景几何画了进来（剑气：石柱＋石地；光弹：一把剑刃；法阵：整块石板地；地裂：满幅石板地），这种东西抠不成 alpha —— 地面整块跟着进来，叠到真神殿上就是两层地板，光弹那格还会多出第二把剑。改成正面写「悬在空中、四周是空黑」，**一个否定词都没加** —— 靠说要什么，不靠说不要什么。"
+  },
+  {
+   "id": "VFX-残影",
+   "type": "vfx",
+   "hero": false,
+   "note": "特效资产。**出图是纯黑底，成品是 RGBA 透明底** —— Seedream 只返回 JPEG，没有 alpha 通道，所以黑底出图再由 `scripts/vfx_alpha.py` 按亮度抠成透明。发光特效在黑底上抠比白底干净得多：辉光边缘是加色的，黑底抠出来的 alpha 更接近真实。尺度按「一招覆盖大半个大殿」写，画幅内用**满幅占比**表达 —— 孤立在黑底上的特效没有比例参照，只有相对画幅的比例能传下去。",
+   "who": "three overlapping translucent silhouettes of a charging armoured figure stretched far along the direction of travel, the leading one solid and the trailing ones fading away, incandescent scarlet red shading out to orange gold at the edges, with a white hot core",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "1x2",
+     "cells": [
+      [
+       "trail",
+       "the three silhouettes strung across the panel from the left border to the right border, the bodies elongated and whip like from the speed, scarlet trails feathering off every edge, the trailing pair thinning into the black"
+      ],
+      [
+       "burst",
+       "the three silhouettes tearing apart into a sheet of scarlet speed lines that rake the whole panel, a blown out pure white core at the centre, a saturated scarlet red body around it, a flat expanding shockwave ring at the outer rim, and shards and sparks flying outward along radial speed lines"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "VFX-地裂",
+   "type": "vfx",
+   "hero": false,
+   "note": "特效资产。**出图是纯黑底，成品是 RGBA 透明底** —— Seedream 只返回 JPEG，没有 alpha 通道，所以黑底出图再由 `scripts/vfx_alpha.py` 按亮度抠成透明。发光特效在黑底上抠比白底干净得多：辉光边缘是加色的，黑底抠出来的 alpha 更接近真实。尺度按「一招覆盖大半个大殿」写，画幅内用**满幅占比**表达 —— 孤立在黑底上的特效没有比例参照，只有相对画幅的比例能传下去。",
+   "who": "a fissure torn open across a stone flagstone floor with light burning up out of it, incandescent scarlet red shading out to orange gold at the edges, with a white hot core",
+   "sheets": [
+    {
+     "name": "s1",
+     "grid": "1x2",
+     "cells": [
+      [
+       "furrow",
+       "one long jagged ribbon of scarlet light running across the panel from the near border to the far border and widening as it comes, shaped like the glowing inside of a torn open crack, with flat empty black on both sides of it out to every border"
+      ],
+      [
+       "upheave",
+       "that same ribbon of scarlet light with a scatter of separate broken stone slabs tipped up on end along both of its lips, each slab a free standing chunk lit scarlet from below, grit and sparks lifting along radial speed lines, everything hanging free with flat empty black between the pieces"
+      ]
+     ]
+    }
+   ],
+   "retry": "第二版。第一版把连续的场景几何画了进来（剑气：石柱＋石地；光弹：一把剑刃；法阵：整块石板地；地裂：满幅石板地），这种东西抠不成 alpha —— 地面整块跟着进来，叠到真神殿上就是两层地板，光弹那格还会多出第二把剑。改成正面写「悬在空中、四周是空黑」，**一个否定词都没加** —— 靠说要什么，不靠说不要什么。"
+  }
+ ],
+ "sheet_bg": "The figure stands on a flat neutral dark grey backdrop lit evenly enough to read every detail, with clean gutters of equal width between the cells. ",
+ "hero_bg": "The figure stands alone on a near black backdrop, lit by a strong rim light from behind and one soft key from the front, energy particles drifting through the air around it, full body inside the frame, vertical composition. ",
+ "vfx_bg": "Every panel sits on a solid pure black field so the effect can be keyed to transparency and composited with an additive screen blend. Each panel holds one effect by itself: the effect and the debris thrown out of it hang free in mid air, with flat empty black behind them, beneath them and out to every border of the panel, and the glow falling off smoothly into that black. The whole picture is made of light, sparks and flying fragments, drawn as a free floating overlay element for compositing. Clean gutters of equal width separate the panels. ",
+ "styles": {
+  "vfx": "japanese anime battle effect plate, drawn as a bold graphic shape with a crisp hard outer edge and two step cel shading inside it, a blown out white hot core reading as pure white, a heavily saturated colour body around that core, and an expanding flat shockwave ring at the outer rim; radial speed lines rake outward, and debris shards, light grains and sparks fly out along them with stretched motion trails; exaggerated sakuga dynamics with elongated forms and whip like tails; extreme contrast, luminous, vivid, high energy. "
+ }
+}

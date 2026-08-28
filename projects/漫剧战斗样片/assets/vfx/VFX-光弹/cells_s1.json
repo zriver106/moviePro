@@ -1,0 +1,38 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "1x3",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "single",
+   "desc": "one bolt in flight across the panel, its comet tail stretching back to the far border, the head a hard white point, hanging free in empty black",
+   "bbox": [
+    0,
+    0,
+    2048,
+    683
+   ]
+  },
+  {
+   "key": "fan-twelve",
+   "desc": "twelve bolts fanned out in a wide spread that fills the panel from border to border, each with its own comet tail, the twelve tails raking the whole frame, all of them hanging free in empty black",
+   "bbox": [
+    0,
+    683,
+    2048,
+    672
+   ]
+  },
+  {
+   "key": "deflected",
+   "desc": "one bolt bursting sideways in mid air at the centre of the panel as though it had glanced off something: a blown out pure white core at the centre, a saturated electric blue body around it, a flat expanding shockwave ring at the outer rim, and shards and sparks flying outward along radial speed lines, the whole spray raked off to one side and hanging free in empty black",
+   "bbox": [
+    0,
+    1355,
+    2048,
+    693
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

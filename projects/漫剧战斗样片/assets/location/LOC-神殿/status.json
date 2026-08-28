@@ -1,0 +1,18 @@
+{
+ "id": "LOC-神殿",
+ "type": "location",
+ "status": "approved",
+ "status_note": "刚出图，没人看过。**逐格对完脸再改 ready_for_review**",
+ "hero": false,
+ "sheets": [
+  "s1"
+ ],
+ "cells": 4,
+ "generation": {
+  "api": "https://fal.run/fal-ai/bytedance/seedream/v5/lite/text-to-image",
+  "seed": 70701,
+  "negation_scan": "pass（0 个否定词）"
+ },
+ "derives_from": null,
+ "status_reason": "2026-08-17 为 30 秒样片（SH01–SH08）放行。审查依据：sheet 四格逐格看过（柱式/穹顶/碎石一致，无人无字）。**这是抽检不是全检** —— 后 30 秒开工前要补全检。"
+}

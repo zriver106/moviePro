@@ -1,0 +1,38 @@
+{
+ "sheet": "sheet_s4.png",
+ "grid": "3x2",
+ "order": "left to right, top to bottom",
+ "note": "bbox 待实测。**别用理论等分** —— 出图模型排的格子不等分。",
+ "cells": [
+  {
+   "key": "breathe",
+   "desc": "head and shoulders, mouth open, breathing hard",
+   "bbox": null
+  },
+  {
+   "key": "look-up",
+   "desc": "head and shoulders, chin lifted, eyes level ahead",
+   "bbox": null
+  },
+  {
+   "key": "grip-two-hands",
+   "desc": "a close view of the two hands and forearms gripping the leather-wrapped hilt",
+   "bbox": null
+  },
+  {
+   "key": "arm-wrapped",
+   "desc": "a close view of the right arm from shoulder to wrist, wrapped in dark cloth, fingers bare",
+   "bbox": null
+  },
+  {
+   "key": "sword-alone",
+   "desc": "the greatsword alone, held upright, full length",
+   "bbox": null
+  },
+  {
+   "key": "shoulder-pauldron",
+   "desc": "a close view of the left shoulder and upper arm showing the iron pauldron with the notch in its rim",
+   "bbox": null
+  }
+ ]
+}

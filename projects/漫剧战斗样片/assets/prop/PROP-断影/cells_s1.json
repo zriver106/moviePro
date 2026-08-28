@@ -1,0 +1,18 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "1x1",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "plate",
+   "desc": "the whole sword, upright, seen from the flat of the blade",
+   "bbox": [
+    0,
+    0,
+    2048,
+    2048
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

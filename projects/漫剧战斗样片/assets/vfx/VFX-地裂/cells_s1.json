@@ -1,0 +1,28 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "1x2",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "furrow",
+   "desc": "one long jagged ribbon of scarlet light running across the panel from the near border to the far border and widening as it comes, shaped like the glowing inside of a torn open crack, with flat empty black on both sides of it out to every border",
+   "bbox": [
+    0,
+    0,
+    2048,
+    1040
+   ]
+  },
+  {
+   "key": "upheave",
+   "desc": "that same ribbon of scarlet light with a scatter of separate broken stone slabs tipped up on end along both of its lips, each slab a free standing chunk lit scarlet from below, grit and sparks lifting along radial speed lines, everything hanging free with flat empty black between the pieces",
+   "bbox": [
+    0,
+    1040,
+    2048,
+    1008
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

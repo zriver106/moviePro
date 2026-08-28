@@ -1,0 +1,68 @@
+{
+ "sheet": "sheet_s2.png",
+ "grid": "3x2",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "rise-cut",
+   "desc": "swinging the sword upward from low to high, full body",
+   "bbox": [
+    0,
+    0,
+    722,
+    1050
+   ]
+  },
+  {
+   "key": "spin-cut",
+   "desc": "in a mid air spinning return cut with both feet off the ground, full body",
+   "bbox": [
+    664,
+    0,
+    720,
+    1050
+   ]
+  },
+  {
+   "key": "land-crouch",
+   "desc": "landing in a deep crouch with the sword arm extended behind him, full body",
+   "bbox": [
+    1352,
+    0,
+    696,
+    1050
+   ]
+  },
+  {
+   "key": "press-core",
+   "desc": "pushing the sword forward at chest height with both hands and his shoulders low, full body",
+   "bbox": [
+    0,
+    1008,
+    718,
+    1040
+   ]
+  },
+  {
+   "key": "chest-collar",
+   "desc": "in chest and collarbone framing so the markings crossing the collarbone read clearly",
+   "bbox": [
+    662,
+    1008,
+    726,
+    1040
+   ]
+  },
+  {
+   "key": "blur-run",
+   "desc": "leaning far forward at the start of a sprint with the sword trailing behind him, full body",
+   "bbox": [
+    1352,
+    1008,
+    696,
+    1040
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

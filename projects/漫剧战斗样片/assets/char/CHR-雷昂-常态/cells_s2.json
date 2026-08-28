@@ -1,0 +1,38 @@
+{
+ "sheet": "sheet_s2.png",
+ "grid": "3x2",
+ "order": "left to right, top to bottom",
+ "note": "bbox 待实测。**别用理论等分** —— 出图模型排的格子不等分。",
+ "cells": [
+  {
+   "key": "raise-overhead",
+   "desc": "full body, both hands raising the greatsword overhead, body still, weight settled",
+   "bbox": null
+  },
+  {
+   "key": "chop-down",
+   "desc": "full body, the greatsword swung down in front of him, arms extended low",
+   "bbox": null
+  },
+  {
+   "key": "side-swing",
+   "desc": "full body, one-handed horizontal swing, waist turned a half circle",
+   "bbox": null
+  },
+  {
+   "key": "press-forward",
+   "desc": "full body, both hands pushing the sword forward at chest height, tendons standing out on his forearms",
+   "bbox": null
+  },
+  {
+   "key": "elbow-guard",
+   "desc": "full body, left forearm raised across his face so the iron pauldron faces forward",
+   "bbox": null
+  },
+  {
+   "key": "low-ground-cut",
+   "desc": "full body, deep knee bend, the sword driven forward flat along the ground",
+   "bbox": null
+  }
+ ]
+}

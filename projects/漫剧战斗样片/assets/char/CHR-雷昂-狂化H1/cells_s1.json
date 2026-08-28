@@ -1,0 +1,48 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "2x2",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "face",
+   "desc": "in head and shoulders framing, front on, jaw set",
+   "bbox": [
+    0,
+    0,
+    1050,
+    1027
+   ]
+  },
+  {
+   "key": "three-quarter",
+   "desc": "in a standing three quarter view, full body, sword point down",
+   "bbox": [
+    1050,
+    0,
+    998,
+    1027
+   ]
+  },
+  {
+   "key": "arm-lines",
+   "desc": "with his right arm raised across the frame so the marked forearm reads clearly, upper body",
+   "bbox": [
+    0,
+    1027,
+    1050,
+    1021
+   ]
+  },
+  {
+   "key": "front",
+   "desc": "in a standing front view, full body, sword held out to one side",
+   "bbox": [
+    1050,
+    1027,
+    998,
+    1021
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

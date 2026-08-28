@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "webnovel-writer-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "lingfengQAQ/webnovel-writer"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "webnovel-writer@webnovel-writer-marketplace": true
+  }
+}

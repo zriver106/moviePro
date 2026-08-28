@@ -1,0 +1,1149 @@
+{
+ "ep": 1,
+ "title": "古书",
+ "target_seconds": 30.0,
+ "hook_at": 0.0,
+ "note": "30 秒样片 = 一条一镜到底（EP001_ONE），0 次切镜，24 个时间切片，20 次攻防。切镜是拖节奏的元凶，镜头黏在两人身上不放。",
+ "era_en": "Japanese cel-shaded anime, bold black outlines, two-step hard shading, high contrast",
+ "cast_en": {
+  "雷昂": "a man in his early thirties, square jaw, a diagonal scar running from his left brow ridge down across his cheekbone, dark grey hair falling to his jawline and swept back with two strands hanging over his eyebrows, a sleeveless dark brown leather chest guard with three horizontal straps, a single iron pauldron on his left shoulder with a notch in its rim, his right arm wrapped from shoulder to wrist in dark cloth, dark grey trousers with calf wraps",
+  "艾琳": "a woman of twenty-eight, oval face with a small mole under her right eye, pale blonde hair in a high ponytail tied high at the back of her head falling to her shoulder blades with one loose strand in front of her left ear, a dark blue high-collared robe with a column of seven round silver buttons from collar to waist, wide sleeves lined in silver-grey, a wide leather belt with three small pouches at her left hip",
+  "凯尔": "a teenage boy with short brown hair and a plain grey tunic, holding a thick book shut with a copper clasp against his chest"
+ },
+ "loc_en": {
+  "LOC-神殿": "the interior of an abandoned stone temple at night, tall broken columns along both sides, moonlight falling through a crack in the domed ceiling, loose rubble scattered across the flagstone floor, cool blue moonlight from above as the single light source"
+ },
+ "shots": [
+  {
+   "id": "EP001_ONE",
+   "seconds": 30.0,
+   "beat": "决斗（狂化三档 · 巨型技能）",
+   "intent": "狂化做成**三档递进**，每档换资产：常态 0–10s、H1 10–21s、H2 21–30s。上一稿只在 24 秒写了一句形容词，两个狂化资产一次都没进 uses —— 狂化是这个角色的核心机制，不能当形容词用。技能全面巨大化：剑气横跨全殿、法阵铺满地面、冰棱两人高、光矛粗如石柱、地裂从这头到那头。每次命中按日式动画爆炸三层写：白热核 → 饱和冲击波环 → 碎屑速度线。",
+   "cast": [
+    {
+     "name": "雷昂",
+     "look": "CHR-雷昂-常态",
+     "state": "0–10s 常态｜10–21s H1｜21–30s H2"
+    },
+    {
+     "name": "艾琳",
+     "look": "CHR-艾琳",
+     "state": "远程压制 + 旋杖近战格挡反打"
+    },
+    {
+     "name": "凯尔",
+     "look": "CHR-凯尔",
+     "state": "柱后抱书，第 20 秒被冲击波扫过"
+    }
+   ],
+   "forms": [
+    {
+     "at": [
+      0,
+      10
+     ],
+     "asset": "CHR-雷昂-常态",
+     "cn": "常态：虹膜深褐"
+    },
+    {
+     "at": [
+      10,
+      21
+     ],
+     "asset": "CHR-雷昂-狂化H1",
+     "cn": "H1：虹膜赤红、眼白血丝、右臂黑纹到肘"
+    },
+    {
+     "at": [
+      21,
+      30
+     ],
+     "asset": "CHR-雷昂-狂化H2",
+     "cn": "H2：眼球全红、黑纹到锁骨、呼气白雾、剑身化红光柱"
+    }
+   ],
+   "location": {
+    "id": "LOC-神殿",
+    "desc": "镜头在大殿里连续飞行"
+   },
+   "camera": {
+    "size": "moving",
+    "angle": "varies",
+    "move": "continuous"
+   },
+   "camera_cn": "10 条飞行路径覆盖 30 秒",
+   "transition_cn": "0 次切镜。30 个逐秒切片里**只有 5 个带运镜**，而且每条都写成「同一条运动的延续」—— 实测切点数跟着运镜指令条数走：11 条→9 刀，7 条→0 刀",
+   "action": {
+    "start": "12 发散射光弹开场",
+    "beat": "横跨全殿剑气→残影突进 vs 旋杖近战→H1→冰墙→光矛对撞→巨型法阵→H2 十二连斩",
+    "end": "腾空通天落石对横杖，冲击波扫过全场，内层裂缝，定格"
+   },
+   "dialogue": null,
+   "lines": [
+    {
+     "at": 1.8,
+     "speaker": "雷昂",
+     "text": "让开。"
+    },
+    {
+     "at": 6.4,
+     "speaker": "艾琳",
+     "text": "不能。"
+    },
+    {
+     "at": 13.4,
+     "speaker": "雷昂",
+     "text": "书里最后一页能解我妹妹的咒。"
+    },
+    {
+     "at": 17.6,
+     "speaker": "艾琳",
+     "text": "凯尔，跑！"
+    },
+    {
+     "at": 21.2,
+     "speaker": "艾琳",
+     "text": "翻开它，死的就不止你妹妹。"
+    },
+    {
+     "at": 25.0,
+     "speaker": "雷昂",
+     "text": "那也轮不到你替我选。"
+    }
+   ],
+   "overlay": null,
+   "sound": "钢铁交击、剑气破空、冰墙崩塌、光矛爆炸、石板掀飞，全程无空档",
+   "continuity_out": "两人僵持，内层裂一道缝",
+   "qc": {
+    "headcount": 2,
+    "fail_if": [
+     "画面中途出现硬切",
+     "武器落在对方身体上",
+     "画面里出现烧录的文字",
+     "出现第四个人",
+     "任何一秒里两人停下不动",
+     "法师全程只后退",
+     "狂化三档看起来是三个人（脸必须一致）",
+     "技能范围缩水成小特效"
+    ]
+   },
+   "uses": {
+    "char": [
+     {
+      "id": "CHR-雷昂-常态",
+      "cells": []
+     },
+     {
+      "id": "CHR-雷昂-狂化H1",
+      "cells": []
+     },
+     {
+      "id": "CHR-雷昂-狂化H2",
+      "cells": []
+     },
+     {
+      "id": "CHR-艾琳",
+      "cells": []
+     },
+     {
+      "id": "CHR-凯尔",
+      "cells": []
+     }
+    ],
+    "prop": [
+     {
+      "id": "PROP-断影",
+      "cells": []
+     },
+     {
+      "id": "PROP-静水",
+      "cells": []
+     },
+     {
+      "id": "PROP-古书",
+      "cells": []
+     }
+    ],
+    "vfx": [
+     {
+      "id": "VFX-护盾三层",
+      "cells": []
+     },
+     {
+      "id": "VFX-剑气",
+      "cells": []
+     },
+     {
+      "id": "VFX-光弹",
+      "cells": []
+     },
+     {
+      "id": "VFX-冰棱阵",
+      "cells": []
+     },
+     {
+      "id": "VFX-贯月光矛",
+      "cells": []
+     },
+     {
+      "id": "VFX-法阵",
+      "cells": []
+     },
+     {
+      "id": "VFX-残影",
+      "cells": []
+     },
+     {
+      "id": "VFX-地裂",
+      "cells": []
+     }
+    ],
+    "location": {
+     "id": "LOC-神殿",
+     "cells": [
+      "wide-floor"
+     ]
+    }
+   },
+   "render": {
+    "sound_en": "continuous clashes of steel, crescents of energy tearing the air, a wall of ice collapsing, light lances detonating and slabs of stone blowing apart, running through the whole take over a low hall echo",
+    "beats_en": [
+     {
+      "at": [
+       0,
+       1
+      ],
+      "action": "the red-haired swordsman in red-and-black armour with the huge red-edged greatsword stands at one end of the hall and the blonde woman in the dark blue robe with the ringed staff at the other; she sweeps the staff through a full circle and the ring flares white-hot as the first four electric-blue rhombic bolts leave it",
+      "cn": "俯冲进场｜她杖划整圈，银环白热炸开，前 4 发电蓝光弹出膛",
+      "form": "常态",
+      "move": "the take opens as one single unbroken camera flight that runs for the whole thirty seconds: it dives the length of the hall at knee height, banks around her and swings across to fly beside him",
+      "size": "a moving shot that stays with the fight"
+     },
+     {
+      "at": [
+       1,
+       2
+      ],
+      "action": "eight more bolts fan out behind the first four so twelve long comet tails of blue-white light rake down both rows of columns and throw moving shadows across the walls, and he breaks into a run straight into the spread",
+      "cn": "再射 8 发｜12 条青白彗尾扫过两排石柱，墙上投出跑动的阴影｜他迎着弹幕冲",
+      "form": "常态"
+     },
+     {
+      "at": [
+       2,
+       3
+      ],
+      "action": "he turns the flat of the blade into three bolts in succession and each one goes off against the steel with a frame of blown-out white at the core, then a saturated shockwave ring spreading outward, then debris and speed lines flying off",
+      "cn": "剑面连磕 3 发，每一发都是白热核→蓝色冲击波环→碎光四散",
+      "form": "常态"
+     },
+     {
+      "at": [
+       3,
+       4
+      ],
+      "action": "he rolls under two more and comes up cutting, splitting two bolts in the air so they burst into wide sprays of blue shards while he keeps closing",
+      "cn": "侧滚 2 发｜起身斩碎 2 发，炸成大片蓝色碎晶",
+      "form": "常态"
+     },
+     {
+      "at": [
+       4,
+       5
+      ],
+      "action": "he drops his shoulder and drags the greatsword back low behind him as the black lines on his right arm blaze orange-red and the blood groove floods with white-hot light from hilt to tip",
+      "cn": "越肩升起｜**他沉肩、把巨剑往身后低低拖开蓄力**，右臂黑纹亮成橙红，血槽从柄到尖灌满白热光",
+      "form": "常态"
+     },
+     {
+      "at": [
+       5,
+       6
+      ],
+      "action": "he swings and a crescent of white-cored crimson light as wide as the whole hall leaves the sword, tearing a trench across the flagstones and shearing chunks off the columns on both sides as it travels",
+      "cn": "**剑气斩·横跨全殿**：新月弧宽及整个大殿，白热核+炽红边，地面犁出深沟，两侧石柱被削掉大块",
+      "form": "常态"
+     },
+     {
+      "at": [
+       6,
+       7
+      ],
+      "action": "the crescent slams into a pale blue hexagonal lattice she throws up in front of her with a frame of blown-out white at the core, then a saturated shockwave ring spreading outward, then debris and speed lines flying off, and the outer layer breaks apart into a cloud of drifting light",
+      "cn": "她抛袖三印，六边形光纹成形｜剑气命中：白热核→蓝色冲击波环→**外层碎**成光云",
+      "form": "常态"
+     },
+     {
+      "at": [
+       7,
+       8
+      ],
+      "action": "she gives ground two steps under the pressure and the wash of light throws her shadow long across the floor behind her",
+      "cn": "她被压得退两步，光把她的影子在地上拉得很长",
+      "form": "常态"
+     },
+     {
+      "at": [
+       8,
+       9
+      ],
+      "action": "he stamps once and crosses the remaining ground with three fading afterimages strung out behind him, each one edged in orange-red light",
+      "cn": "急推跟进｜残影突进：三道橙红描边的残影拖在身后",
+      "form": "常态",
+      "move": "the same unbroken flight now carries the camera forward with him and around the pair, orbiting them and staying in motion the whole way round",
+      "size": "a moving shot that stays with the fight"
+     },
+     {
+      "at": [
+       9,
+       10
+      ],
+      "action": "he opens with a flat horizontal swing and she spins the staff in front of her and turns it aside in a blur of shaft, sparks raking off the contact",
+      "cn": "狂澜①横挥 → **她旋杖格开**，接触点刮出火星带",
+      "form": "常态"
+     },
+     {
+      "at": [
+       10,
+       11
+      ],
+      "action": "his irises turn crimson and blood threads spread across the whites of his eyes, and black lines climb out from under the wrappings on his right arm as far as the elbow; he follows with a spinning reverse cut and an overhead chop, and she turns the first aside and takes the second square on the shaft with both hands",
+      "cn": "推眼睛再拉开｜**狂化 H1**：虹膜转赤红、眼白布血丝、右臂黑纹爬到肘｜狂澜②③ → 她旋杖格+双手硬接",
+      "form": "H1"
+     },
+     {
+      "at": [
+       11,
+       12
+      ],
+      "action": "she snaps the butt of the staff up under his blade and lifts it off line so his swing goes wide over her shoulder and cuts a gouge out of the column behind her",
+      "cn": "**杖尾上挑**把剑挑离轨道，他劈空，一刀在她身后的石柱上砍出大缺口",
+      "form": "H1"
+     },
+     {
+      "at": [
+       12,
+       13
+      ],
+      "action": "she steps through him in a flash of blue light, appears at his back and sweeps the shaft across at him",
+      "cn": "**闪身背刺**：蓝光一闪到他背后，杖身横扫",
+      "form": "H1"
+     },
+     {
+      "at": [
+       13,
+       14
+      ],
+      "action": "he turns the shaft away with the iron pauldron and counters, and the edge takes one strand of blonde hair from beside her ear",
+      "cn": "他护肩架开反手一斩，剑锋削落她耳侧一缕金发",
+      "form": "H1"
+     },
+     {
+      "at": [
+       14,
+       15
+      ],
+      "action": "she drives the staff tip into the flagstones and a blue hexagonal field floods outward and covers the entire floor of the hall in a glowing lattice",
+      "cn": "降到地面｜**静水领域铺满整个大殿地面**，整块地在发光",
+      "form": "H1",
+      "move": "still the same unbroken flight, the camera sinks to floor level, threads forward between the rising shapes and cranes back up with her",
+      "size": "a moving shot that stays with the fight"
+     },
+     {
+      "at": [
+       15,
+       16
+      ],
+      "action": "she pushes the staff head forward and twelve columns of glowing blue ice erupt out of that field between them, each one twice the height of a man, locking together into a wall across the hall while he skids to a stop in front of it",
+      "cn": "**她推杖催阵** → 12 根发光冰棱破地而起结成冰墙｜**他急刹在墙前**",
+      "form": "H1"
+     },
+     {
+      "at": [
+       16,
+       17
+      ],
+      "action": "he goes straight at the wall and six heavy swings shatter six columns, each break throwing a frame of blown-out white at the core, then a saturated shockwave ring spreading outward, then debris and speed lines flying off",
+      "cn": "六记重斩碎 6 根，每一根都是白热核→蓝冲击环→冰片暴风",
+      "form": "H1"
+     },
+     {
+      "at": [
+       17,
+       18
+      ],
+      "action": "he shoulders out through the gap and swings the blade once more to knock the last hanging shards aside, ice dust rolling off his back",
+      "cn": "**他挤出缺口，再补一刀磕开最后几片悬冰**，冰雾从背上翻下来",
+      "form": "H1"
+     },
+     {
+      "at": [
+       18,
+       19
+      ],
+      "action": "the ring draws light inward until it goes white and throws out a lance of blue-white light as thick as one of the columns, its tail of flame filling the frame behind it",
+      "cn": "升起跟拍｜**贯月光矛**：银环吸光到发白，射出粗如石柱的青白光矛，尾焰拖满画面",
+      "form": "H1"
+     },
+     {
+      "at": [
+       19,
+       20
+      ],
+      "action": "he plants the sword point and a seam of white-cored red light splits the floor and races out to meet it, throwing whole slabs of flagstone up into the air along its path",
+      "cn": "**地裂**：剑插地，白热核红光沟壑从这头裂到那头，整块石板被掀上天",
+      "form": "H1"
+     },
+     {
+      "at": [
+       20,
+       21
+      ],
+      "action": "the two forces meet at the centre of the hall and blow apart, hurling rubble to the ceiling; she plants the staff and braces behind it while he throws his forearm up across his face, and a boy pressed against a column with a clasped book passes through the edge of frame as the blast light washes over him",
+      "cn": "正面对撞爆开、碎石掀到穹顶｜**她顿杖撑住、他抬臂挡脸**｜凯尔抱书贴柱被爆光扫过",
+      "form": "H1"
+     },
+     {
+      "at": [
+       21,
+       22
+      ],
+      "action": "she sweeps the staff in a circle overhead and three hexagonal sigils each as wide as the hall stack up on the floor around him, and three columns of light slam down in sequence as he breaks sideways into a run",
+      "cn": "**她抡杖过顶起阵** → 三个铺满大殿的法阵叠起、三道光柱砸落｜**他侧身起跑**",
+      "form": "H1",
+      "move": "still the same flight, the camera tilts up to the domed ceiling and weaves back down between the falling shafts alongside him",
+      "size": "a moving shot that stays with the fight"
+     },
+     {
+      "at": [
+       22,
+       23
+      ],
+      "action": "he rolls past the first and cuts two more crescents that carve clean through the second and third shafts and scatter them into falling sparks",
+      "cn": "侧滚避第一道｜剑气斩 ×2 削断第二、三道光柱，碎成落火",
+      "form": "H1"
+     },
+     {
+      "at": [
+       23,
+       24
+      ],
+      "action": "he strides out of the far side of the shafts, whips the blade around into a low guard and drags the tip across the stone so sparks rake up behind him, the craters still burning at his back",
+      "cn": "**他大步走出光柱、反手把剑抡到低位架起、剑尖犁地拉出火星**，身后弹坑还在烧",
+      "form": "H1"
+     },
+     {
+      "at": [
+       24,
+       25
+      ],
+      "action": "crimson floods out past his irises until the whites of his eyes are fully red, the black lines climb to his collarbone, white vapour pours from his mouth and the whole blade turns into a bar of white-hot red light",
+      "cn": "狠推脸部｜**狂化 H2**：赤红漫满眼球、黑纹爬到锁骨、白雾涌出、整条剑身化为白热红光柱",
+      "form": "H2"
+     },
+     {
+      "at": [
+       25,
+       26
+      ],
+      "action": "he drives the first four of twelve red arcs across the hexagonal lattice while she sets her feet and takes each one on the shaft, every impact going off with a white core and a shockwave ring that lights the whole hall",
+      "cn": "**他劈出十二连斩的前 4 道** ｜**她扎稳下盘、逐记用杖身接**，每记白热核+冲击环照亮全殿",
+      "form": "H2"
+     },
+     {
+      "at": [
+       26,
+       27
+      ],
+      "action": "four more arcs land in the same chain, she spins the staff and deflects two wide, and her heels drag long glowing grooves back across the stone",
+      "cn": "中 4 道｜**她旋杖挡开 2 记**，鞋跟在石面拖出两条发亮的沟",
+      "form": "H2"
+     },
+     {
+      "at": [
+       27,
+       28
+      ],
+      "action": "he lands the last four arcs together and she drops to one knee behind the shaft as the deep blue hexagonal mesh cracks open from the point of contact",
+      "cn": "**他末 4 道齐落**｜**她单膝跪撑在杖后**，中层深蓝网格从受击点裂开",
+      "form": "H2"
+     },
+     {
+      "at": [
+       28,
+       29
+      ],
+      "action": "he leaps high and lifts the greatsword overhead with both hands, the blade a column of white-hot red light reaching up toward the ceiling with embers streaming around him, and brings it straight down",
+      "cn": "升起绕背｜**腾空全力落石**：剑是一柱通天白热红光，火星环身上涌",
+      "form": "H2",
+      "move": "the same flight finally cranes up behind him, rushes in to the point of contact and pulls back into the hall, where it comes to rest for the first time",
+      "size": "a moving shot that stays with the fight"
+     },
+     {
+      "at": [
+       29,
+       30
+      ],
+      "action": "she takes it on the horizontal staff with the ring blazing white, the impact blowing a ring of dust and light outward across the whole floor, a single crack opens across the silver-white inner layer, and the two of them hold against each other at the centre of the hall",
+      "cn": "急推接触点→猛拉停住｜她横杖硬接，冲击波环扫过整个地面，**内层裂一道缝**，两人僵住",
+      "form": "H2"
+     }
+    ],
+    "prompt": "Japanese cel-shaded anime, bold black outlines, two-step hard shading, high contrast, photorealistic cinematic footage, fine film grain, 16:9 landscape. The headcount is exactly 3 for every frame of this shot: a man in his early thirties, square jaw, a diagonal scar running from his left brow ridge down across his cheekbone, dark grey hair falling to his jawline and swept back with two strands hanging over his eyebrows, a sleeveless dark brown leather chest guard with three horizontal straps, a single iron pauldron on his left shoulder with a notch in its rim, his right arm wrapped from shoulder to wrist in dark cloth, dark grey trousers with calf wraps; and a woman of twenty-eight, oval face with a small mole under her right eye, pale blonde hair in a high ponytail tied high at the back of her head falling to her shoulder blades with one loose strand in front of her left ear, a dark blue high-collared robe with a column of seven round silver buttons from collar to waist, wide sleeves lined in silver-grey, a wide leather belt with three small pouches at her left hip; and a teenage boy with short brown hair and a plain grey tunic, holding a thick book shut with a copper clasp against his chest. The headcount stays exactly 3 from the first frame to the last. The whole shot takes place in the interior of an abandoned stone temple at night, tall broken columns along both sides, moonlight falling through a crack in the domed ceiling, loose rubble scattered across the flagstone floor, cool blue moonlight from above as the single light source. Every frame shows that same place. 0–1s, the take opens as one single unbroken camera flight that runs for the whole thirty seconds: it dives the length of the hall at knee height, banks around her and swings across to fly beside him, ending on a moving shot that stays with the fight, the red-haired swordsman in red-and-black armour with the huge red-edged greatsword stands at one end of the hall and the blonde woman in the dark blue robe with the ringed staff at the other; she sweeps the staff through a full circle and the ring flares white-hot as the first four electric-blue rhombic bolts leave it. 1–2s, eight more bolts fan out behind the first four so twelve long comet tails of blue-white light rake down both rows of columns and throw moving shadows across the walls, and he breaks into a run straight into the spread. 2–3s, he turns the flat of the blade into three bolts in succession and each one goes off against the steel with a frame of blown-out white at the core, then a saturated shockwave ring spreading outward, then debris and speed lines flying off. 3–4s, he rolls under two more and comes up cutting, splitting two bolts in the air so they burst into wide sprays of blue shards while he keeps closing. 4–5s, he drops his shoulder and drags the greatsword back low behind him as the black lines on his right arm blaze orange-red and the blood groove floods with white-hot light from hilt to tip. 5–6s, he swings and a crescent of white-cored crimson light as wide as the whole hall leaves the sword, tearing a trench across the flagstones and shearing chunks off the columns on both sides as it travels. 6–7s, the crescent slams into a pale blue hexagonal lattice she throws up in front of her with a frame of blown-out white at the core, then a saturated shockwave ring spreading outward, then debris and speed lines flying off, and the outer layer breaks apart into a cloud of drifting light. 7–8s, she gives ground two steps under the pressure and the wash of light throws her shadow long across the floor behind her. 8–9s, the same unbroken flight now carries the camera forward with him and around the pair, orbiting them and staying in motion the whole way round, ending on a moving shot that stays with the fight, he stamps once and crosses the remaining ground with three fading afterimages strung out behind him, each one edged in orange-red light. 9–10s, he opens with a flat horizontal swing and she spins the staff in front of her and turns it aside in a blur of shaft, sparks raking off the contact. 10–11s, his irises turn crimson and blood threads spread across the whites of his eyes, and black lines climb out from under the wrappings on his right arm as far as the elbow; he follows with a spinning reverse cut and an overhead chop, and she turns the first aside and takes the second square on the shaft with both hands. 11–12s, she snaps the butt of the staff up under his blade and lifts it off line so his swing goes wide over her shoulder and cuts a gouge out of the column behind her. 12–13s, she steps through him in a flash of blue light, appears at his back and sweeps the shaft across at him. 13–14s, he turns the shaft away with the iron pauldron and counters, and the edge takes one strand of blonde hair from beside her ear. 14–15s, still the same unbroken flight, the camera sinks to floor level, threads forward between the rising shapes and cranes back up with her, ending on a moving shot that stays with the fight, she drives the staff tip into the flagstones and a blue hexagonal field floods outward and covers the entire floor of the hall in a glowing lattice. 15–16s, she pushes the staff head forward and twelve columns of glowing blue ice erupt out of that field between them, each one twice the height of a man, locking together into a wall across the hall while he skids to a stop in front of it. 16–17s, he goes straight at the wall and six heavy swings shatter six columns, each break throwing a frame of blown-out white at the core, then a saturated shockwave ring spreading outward, then debris and speed lines flying off. 17–18s, he shoulders out through the gap and swings the blade once more to knock the last hanging shards aside, ice dust rolling off his back. 18–19s, the ring draws light inward until it goes white and throws out a lance of blue-white light as thick as one of the columns, its tail of flame filling the frame behind it. 19–20s, he plants the sword point and a seam of white-cored red light splits the floor and races out to meet it, throwing whole slabs of flagstone up into the air along its path. 20–21s, the two forces meet at the centre of the hall and blow apart, hurling rubble to the ceiling; she plants the staff and braces behind it while he throws his forearm up across his face, and a boy pressed against a column with a clasped book passes through the edge of frame as the blast light washes over him. 21–22s, still the same flight, the camera tilts up to the domed ceiling and weaves back down between the falling shafts alongside him, ending on a moving shot that stays with the fight, she sweeps the staff in a circle overhead and three hexagonal sigils each as wide as the hall stack up on the floor around him, and three columns of light slam down in sequence as he breaks sideways into a run. 22–23s, he rolls past the first and cuts two more crescents that carve clean through the second and third shafts and scatter them into falling sparks. 23–24s, he strides out of the far side of the shafts, whips the blade around into a low guard and drags the tip across the stone so sparks rake up behind him, the craters still burning at his back. 24–25s, crimson floods out past his irises until the whites of his eyes are fully red, the black lines climb to his collarbone, white vapour pours from his mouth and the whole blade turns into a bar of white-hot red light. 25–26s, he drives the first four of twelve red arcs across the hexagonal lattice while she sets her feet and takes each one on the shaft, every impact going off with a white core and a shockwave ring that lights the whole hall. 26–27s, four more arcs land in the same chain, she spins the staff and deflects two wide, and her heels drag long glowing grooves back across the stone. 27–28s, he lands the last four arcs together and she drops to one knee behind the shaft as the deep blue hexagonal mesh cracks open from the point of contact. 28–29s, the same flight finally cranes up behind him, rushes in to the point of contact and pulls back into the hall, where it comes to rest for the first time, ending on a moving shot that stays with the fight, he leaps high and lifts the greatsword overhead with both hands, the blade a column of white-hot red light reaching up toward the ceiling with embers streaming around him, and brings it straight down. 29–30s, she takes it on the horizontal staff with the ring blazing white, the impact blowing a ring of dust and light outward across the whole floor, a single crack opens across the silver-white inner layer, and the two of them hold against each other at the centre of the hall. The take starts exactly at the reference image. The whole thing is one single unbroken take: the camera follows exactly the path described above, in one continuous move, and stays inside that same room the entire time. Sound: continuous clashes of steel, crescents of energy tearing the air, a wall of ice collapsing, light lances detonating and slabs of stone blowing apart, running through the whole take over a low hall echo.",
+    "negation": [],
+    "emotion_words": []
+   }
+  },
+  {
+   "id": "EP001_SH10",
+   "seconds": 4.0,
+   "beat": "台词②",
+   "intent": "她的台词在结印过程中说，手没有停 —— 同样不为说话停下动作",
+   "cast": [
+    {
+     "name": "艾琳",
+     "look": "CHR-艾琳",
+     "state": "格挡中结印"
+    }
+   ],
+   "location": {
+    "id": "LOC-神殿",
+    "desc": "艾琳单人近景，杖身在画面前景震颤"
+   },
+   "camera": {
+    "size": "close",
+    "angle": "level",
+    "move": "moving"
+   },
+   "action": {
+    "start": "艾琳杖身在格挡中震颤",
+    "beat": "左手拇指依次触食指、中指、无名指，手没有停",
+    "end": "三点亮起"
+   },
+   "dialogue": {
+    "speaker": "艾琳",
+    "text": "三年前火里你丢下我。今天这本书，我替凯尔守。",
+    "at": 0.4,
+    "delivery": "咬着牙，手上没停"
+   },
+   "sound": "杖身震颤的持续低频，她的喘息",
+   "continuity_out": "护盾仍是内层核一层",
+   "qc": {
+    "headcount": 1,
+    "fail_if": [
+     "说话时手停下来了",
+     "画面里出现第二个人"
+    ]
+   },
+   "uses": {
+    "char": [
+     {
+      "id": "CHR-艾琳",
+      "cells": []
+     }
+    ],
+    "prop": [
+     {
+      "id": "PROP-静水",
+      "cells": []
+     }
+    ],
+    "location": {
+     "id": "LOC-神殿",
+     "cells": [
+      "side-two-shot"
+     ]
+    }
+   },
+   "render": {
+    "sound_en": "a sustained low tremor through the staff and her breathing",
+    "beats_en": [
+     {
+      "at": [
+       0,
+       2
+      ],
+      "move": "the camera eases in on her face",
+      "action": "the staff shakes in her grip as she holds the block, and her thumb keeps working through the three fingertips in one continuous run",
+      "says": {
+       "who_en": "The woman holding the staff",
+       "text": "三年前火里你丢下我。"
+      },
+      "size": "a close shot of her face"
+     },
+     {
+      "at": [
+       2,
+       4
+      ],
+      "move": "static",
+      "action": "she drives the butt of the staff down into the flagstones and pushes up off her back foot as three points of light come up in front of her chest",
+      "says": {
+       "who_en": "The woman holding the staff",
+       "text": "今天这本书，我替凯尔守。"
+      }
+     }
+    ],
+    "prompt": "Japanese cel-shaded anime, bold black outlines, two-step hard shading, high contrast, photorealistic cinematic footage, fine film grain, 16:9 landscape. The headcount is exactly 1 for every frame of this shot: a woman of twenty-eight, oval face with a small mole under her right eye, pale blonde hair in a high ponytail tied high at the back of her head falling to her shoulder blades with one loose strand in front of her left ear, a dark blue high-collared robe with a column of seven round silver buttons from collar to waist, wide sleeves lined in silver-grey, a wide leather belt with three small pouches at her left hip. The headcount stays exactly 1 from the first frame to the last. 0–2s, the camera eases in on her face, ending on a close shot of her face, the staff shakes in her grip as she holds the block, and her thumb keeps working through the three fingertips in one continuous run. The woman holding the staff says in Chinese: 三年前火里你丢下我。 2–4s, she drives the butt of the staff down into the flagstones and pushes up off her back foot as three points of light come up in front of her chest. The woman holding the staff says in Chinese: 今天这本书，我替凯尔守。 The take starts exactly at the reference image. The whole thing is one single unbroken take: the camera follows exactly the path described above, in one continuous move, and stays inside that same room the entire time. Sound: a sustained low tremor through the staff and her breathing.",
+    "negation": [],
+    "emotion_words": []
+   },
+   "strategy": "全新",
+   "strategy_why": "新起一镜，和上一镜之间有切点"
+  },
+  {
+   "id": "EP001_SH11",
+   "seconds": 3.0,
+   "beat": "狂化",
+   "intent": "黑纹是「有人借他的手」这条线索的视觉佐证。医生指出：暗示了受控却没有视觉证据，悬念就变成噪音",
+   "cast": [
+    {
+     "name": "雷昂",
+     "look": "CHR-雷昂-狂化H1",
+     "state": "单人，黑纹爬升"
+    }
+   ],
+   "location": {
+    "id": "LOC-神殿",
+    "desc": "雷昂单人近景，从右臂摇到脸"
+   },
+   "camera": {
+    "size": "close",
+    "angle": "level",
+    "move": "moving"
+   },
+   "action": {
+    "start": "右臂布条下透出黑色纹路，爬到肘部",
+    "beat": "黑纹爬过锁骨",
+    "end": "赤红溢出虹膜，整只眼球泛红，呼气可见白雾"
+   },
+   "dialogue": null,
+   "sound": "低频的搏动声，像心跳压过一切",
+   "continuity_out": "雷昂进入 H2 形态：整只眼球泛红，黑纹到锁骨",
+   "qc": {
+    "headcount": 1,
+    "fail_if": [
+     "黑纹没有出现",
+     "换了一张脸"
+    ]
+   },
+   "uses": {
+    "char": [
+     {
+      "id": "CHR-雷昂-狂化H1",
+      "cells": []
+     }
+    ],
+    "location": {
+     "id": "LOC-神殿",
+     "cells": [
+      "side-two-shot"
+     ]
+    }
+   },
+   "render": {
+    "sound_en": "a low pulsing throb, like a heartbeat pushing over everything else",
+    "beats_en": [
+     {
+      "at": [
+       0,
+       1.5
+      ],
+      "move": "the camera tilts up along his right arm toward his face",
+      "size": "ending on a close shot of his face",
+      "action": "he grips his right forearm with his left hand and holds it hard against his chest as black lines surface under the cloth wraps and climb to the elbow"
+     },
+     {
+      "at": [
+       1.5,
+       3
+      ],
+      "move": "static",
+      "action": "he throws his head back and drags a breath in through his teeth as the black lines cross his collarbone, crimson floods out of the iris until the whole eyeball is red, and his breath leaves him as visible white vapour"
+     }
+    ],
+    "prompt": "Japanese cel-shaded anime, bold black outlines, two-step hard shading, high contrast, photorealistic cinematic footage, fine film grain, 16:9 landscape. The headcount is exactly 1 for every frame of this shot: a man in his early thirties, square jaw, a diagonal scar running from his left brow ridge down across his cheekbone, dark grey hair falling to his jawline and swept back with two strands hanging over his eyebrows, a sleeveless dark brown leather chest guard with three horizontal straps, a single iron pauldron on his left shoulder with a notch in its rim, his right arm wrapped from shoulder to wrist in dark cloth, dark grey trousers with calf wraps. The headcount stays exactly 1 from the first frame to the last. 0–1.5s, the camera tilts up along his right arm toward his face, ending on ending on a close shot of his face, he grips his right forearm with his left hand and holds it hard against his chest as black lines surface under the cloth wraps and climb to the elbow. 1.5–3s, he throws his head back and drags a breath in through his teeth as the black lines cross his collarbone, crimson floods out of the iris until the whole eyeball is red, and his breath leaves him as visible white vapour. The take starts exactly at the reference image. The whole thing is one single unbroken take: the camera follows exactly the path described above, in one continuous move, and stays inside that same room the entire time. Sound: a low pulsing throb, like a heartbeat pushing over everything else.",
+    "negation": [],
+    "emotion_words": []
+   },
+   "strategy": "全新",
+   "strategy_why": "新起一镜，和上一镜之间有切点"
+  },
+  {
+   "id": "EP001_SH12",
+   "seconds": 3.0,
+   "beat": "大招预备",
+   "intent": "预备段几乎完全静止 —— 帅感来自预备与爆发之间的速度反差，预备越静爆发越锐",
+   "cast": [
+    {
+     "name": "雷昂",
+     "look": "CHR-雷昂-狂化H2",
+     "state": "拖剑后撤，静止"
+    }
+   ],
+   "location": {
+    "id": "LOC-神殿",
+    "desc": "雷昂单人全景，画面留出他前方的空地"
+   },
+   "camera": {
+    "size": "wide",
+    "angle": "low",
+    "move": "moving"
+   },
+   "action": {
+    "start": "剑尖拖地后撤三步，地面划出一道火星线",
+    "beat": "赤红从眼角溢出成两道细线",
+    "end": "全身静止，只有布条和发梢在动"
+   },
+   "dialogue": null,
+   "sound": "剑尖刮地的长音收束成寂静，只剩风声",
+   "continuity_out": "雷昂停在远端，剑尖点地，身前是一条火星划痕",
+   "qc": {
+    "headcount": 1,
+    "fail_if": [
+     "预备段人在动",
+     "看不到火星线"
+    ]
+   },
+   "uses": {
+    "char": [
+     {
+      "id": "CHR-雷昂-狂化H2",
+      "cells": []
+     }
+    ],
+    "prop": [
+     {
+      "id": "PROP-断影",
+      "cells": []
+     }
+    ],
+    "location": {
+     "id": "LOC-神殿",
+     "cells": [
+      "wide-floor"
+     ]
+    }
+   },
+   "render": {
+    "sound_en": "the long scrape of a blade tip settling into silence, leaving wind",
+    "beats_en": [
+     {
+      "at": [
+       0,
+       1.5
+      ],
+      "move": "the camera tracks back with him low along the floor",
+      "action": "the man backs off three steps with the sword tip dragging, cutting a line of sparks across the flagstones",
+      "size": "a wide low shot"
+     },
+     {
+      "at": [
+       1.5,
+       3
+      ],
+      "move": "static",
+      "action": "two thin crimson lines run out from the corners of his eyes and he goes completely still while the cloth wraps and the ends of his hair drift"
+     }
+    ],
+    "prompt": "Japanese cel-shaded anime, bold black outlines, two-step hard shading, high contrast, photorealistic cinematic footage, fine film grain, 16:9 landscape. The headcount is exactly 1 for every frame of this shot: a man in his early thirties, square jaw, a diagonal scar running from his left brow ridge down across his cheekbone, dark grey hair falling to his jawline and swept back with two strands hanging over his eyebrows, a sleeveless dark brown leather chest guard with three horizontal straps, a single iron pauldron on his left shoulder with a notch in its rim, his right arm wrapped from shoulder to wrist in dark cloth, dark grey trousers with calf wraps. The headcount stays exactly 1 from the first frame to the last. The whole shot takes place in the interior of an abandoned stone temple at night, tall broken columns along both sides, moonlight falling through a crack in the domed ceiling, loose rubble scattered across the flagstone floor, cool blue moonlight from above as the single light source. Every frame shows that same place. 0–1.5s, the camera tracks back with him low along the floor, ending on a wide low shot, the man backs off three steps with the sword tip dragging, cutting a line of sparks across the flagstones. 1.5–3s, two thin crimson lines run out from the corners of his eyes and he goes completely still while the cloth wraps and the ends of his hair drift. The take starts exactly at the reference image. The whole thing is one single unbroken take: the camera follows exactly the path described above, in one continuous move, and stays inside that same room the entire time. Sound: the long scrape of a blade tip settling into silence, leaving wind.",
+    "negation": [],
+    "emotion_words": []
+   },
+   "strategy": "全新",
+   "strategy_why": "新起一镜，和上一镜之间有切点"
+  },
+  {
+   "id": "EP001_SH13",
+   "seconds": 5.0,
+   "beat": "大招·断影三重残",
+   "intent": "爆发段不画过程，只画残像和轨迹光。这是漫剧比写实便宜的地方：用符号代替物理",
+   "cast": [
+    {
+     "name": "雷昂",
+     "look": "CHR-雷昂-狂化H2",
+     "state": "三重残像与三连击"
+    }
+   ],
+   "location": {
+    "id": "LOC-神殿",
+    "desc": "全景，画面横向留足残像拉开的空间"
+   },
+   "camera": {
+    "size": "wide",
+    "angle": "level",
+    "move": "moving"
+   },
+   "action": {
+    "start": "人从原地消失",
+    "beat": "三重半透明残像沿地面拉开，撩剑上挑、空中转体回劈、落地贴地斩接连击出",
+    "end": "三道赤红轨迹光并列，凝在半空，画面静止，只有光屑在动"
+   },
+   "dialogue": null,
+   "sound": "三下极短促的破空叠成一声，然后骤然安静",
+   "continuity_out": "半空中留着三道并列的赤红弧",
+   "qc": {
+    "headcount": 1,
+    "fail_if": [
+     "残像只有一重或两重",
+     "三道轨迹没有并列"
+    ]
+   },
+   "uses": {
+    "char": [
+     {
+      "id": "CHR-雷昂-狂化H2",
+      "cells": []
+     }
+    ],
+    "prop": [
+     {
+      "id": "PROP-断影",
+      "cells": []
+     }
+    ],
+    "location": {
+     "id": "LOC-神殿",
+     "cells": [
+      "wide-floor"
+     ]
+    }
+   },
+   "render": {
+    "sound_en": "three very short air-splits stacking into one report, then abrupt silence",
+    "beats_en": [
+     {
+      "at": [
+       0,
+       1.6
+      ],
+      "move": "the camera whips across the hall following the afterimages",
+      "action": "he drives off his back foot and charges, leaving the spot where he stood empty, three overlapping translucent copies of him stretching away along the floor behind him",
+      "size": "a wide shot"
+     },
+     {
+      "at": [
+       1.6,
+       3.4
+      ],
+      "move": "the camera swings up and around with the spinning cut",
+      "action": "an upward rising cut, a spinning mid-air return cut and a landing ground-level cut come out one after another, drawn as three crimson trails of light",
+      "size": "a low angle"
+     },
+     {
+      "at": [
+       3.4,
+       5
+      ],
+      "move": "static",
+      "action": "he lands in a crouch and plants the sword tip into the flagstones while the three crimson arcs hang side by side in the air and motes of light drift"
+     }
+    ],
+    "prompt": "Japanese cel-shaded anime, bold black outlines, two-step hard shading, high contrast, photorealistic cinematic footage, fine film grain, 16:9 landscape. The headcount is exactly 1 for every frame of this shot: a man in his early thirties, square jaw, a diagonal scar running from his left brow ridge down across his cheekbone, dark grey hair falling to his jawline and swept back with two strands hanging over his eyebrows, a sleeveless dark brown leather chest guard with three horizontal straps, a single iron pauldron on his left shoulder with a notch in its rim, his right arm wrapped from shoulder to wrist in dark cloth, dark grey trousers with calf wraps. The headcount stays exactly 1 from the first frame to the last. The whole shot takes place in the interior of an abandoned stone temple at night, tall broken columns along both sides, moonlight falling through a crack in the domed ceiling, loose rubble scattered across the flagstone floor, cool blue moonlight from above as the single light source. Every frame shows that same place. 0–1.6s, the camera whips across the hall following the afterimages, ending on a wide shot, he drives off his back foot and charges, leaving the spot where he stood empty, three overlapping translucent copies of him stretching away along the floor behind him. 1.6–3.4s, the camera swings up and around with the spinning cut, ending on a low angle, an upward rising cut, a spinning mid-air return cut and a landing ground-level cut come out one after another, drawn as three crimson trails of light. 3.4–5s, he lands in a crouch and plants the sword tip into the flagstones while the three crimson arcs hang side by side in the air and motes of light drift. The take starts exactly at the reference image. The whole thing is one single unbroken take: the camera follows exactly the path described above, in one continuous move, and stays inside that same room the entire time. Sound: three very short air-splits stacking into one report, then abrupt silence.",
+    "negation": [],
+    "emotion_words": []
+   },
+   "strategy": "延长优先",
+   "strategy_why": "接 SH12 的蓄力，预备到爆发之间不能有切点"
+  },
+  {
+   "id": "EP001_SH14",
+   "seconds": 4.0,
+   "beat": "大招·静水九环",
+   "intent": "她的大招签名：六片晶体绕着一个人高的银环旋转。护盾九层是给观众数的",
+   "cast": [
+    {
+     "name": "艾琳",
+     "look": "CHR-艾琳",
+     "state": "双臂同时收袖，展开九环"
+    }
+   ],
+   "location": {
+    "id": "LOC-神殿",
+    "desc": "艾琳单人全景，银环在她身前放大"
+   },
+   "camera": {
+    "size": "wide",
+    "angle": "level",
+    "move": "moving"
+   },
+   "action": {
+    "start": "艾琳双臂同时收袖，法杖竖直立于身前，晶体从银环里升起悬在她头顶",
+    "beat": "银环脱离杖顶，悬空放大到与她等高，晶体炸成六片绕环旋转",
+    "end": "六边形光纹从环内连续吐出，一层压一层，共九层"
+   },
+   "dialogue": null,
+   "sound": "上升的持续和音，九层依次成形的连续清音",
+   "continuity_out": "她身前是九层六边形光纹，银环悬空，六片晶体绕环",
+   "qc": {
+    "headcount": 1,
+    "fail_if": [
+     "层数不是九层",
+     "晶体不是六片",
+     "银环还在杖顶上"
+    ]
+   },
+   "uses": {
+    "char": [
+     {
+      "id": "CHR-艾琳",
+      "cells": []
+     }
+    ],
+    "prop": [
+     {
+      "id": "PROP-静水",
+      "cells": []
+     }
+    ],
+    "location": {
+     "id": "LOC-神殿",
+     "cells": [
+      "wide-floor"
+     ]
+    }
+   },
+   "render": {
+    "sound_en": "a rising sustained chord and nine clear tones as each layer forms",
+    "beats_en": [
+     {
+      "at": [
+       0,
+       1.3
+      ],
+      "move": "the camera cranes up as the ring lifts",
+      "action": "the woman lifts both arms at once so both wide sleeves fall back, plants the staff upright in front of her, and the blue crystal rises out of the silver ring to hover above her head",
+      "size": "a low angle looking up at her"
+     },
+     {
+      "at": [
+       1.3,
+       2.6
+      ],
+      "move": "the camera circles around the ring",
+      "action": "the silver ring lifts off the staff, hangs in the air and grows until it stands as tall as she does, and the crystal bursts into six shards that circle around the ring",
+      "size": "a three-quarter view"
+     },
+     {
+      "at": [
+       2.6,
+       4
+      ],
+      "move": "static",
+      "action": "she sweeps both arms open and braces her stance as hexagonal light layers pour out from inside the ring one on top of another until nine of them stand stacked in front of her"
+     }
+    ],
+    "prompt": "Japanese cel-shaded anime, bold black outlines, two-step hard shading, high contrast, photorealistic cinematic footage, fine film grain, 16:9 landscape. The headcount is exactly 1 for every frame of this shot: a woman of twenty-eight, oval face with a small mole under her right eye, pale blonde hair in a high ponytail tied high at the back of her head falling to her shoulder blades with one loose strand in front of her left ear, a dark blue high-collared robe with a column of seven round silver buttons from collar to waist, wide sleeves lined in silver-grey, a wide leather belt with three small pouches at her left hip. The headcount stays exactly 1 from the first frame to the last. The whole shot takes place in the interior of an abandoned stone temple at night, tall broken columns along both sides, moonlight falling through a crack in the domed ceiling, loose rubble scattered across the flagstone floor, cool blue moonlight from above as the single light source. Every frame shows that same place. 0–1.3s, the camera cranes up as the ring lifts, ending on a low angle looking up at her, the woman lifts both arms at once so both wide sleeves fall back, plants the staff upright in front of her, and the blue crystal rises out of the silver ring to hover above her head. 1.3–2.6s, the camera circles around the ring, ending on a three-quarter view, the silver ring lifts off the staff, hangs in the air and grows until it stands as tall as she does, and the crystal bursts into six shards that circle around the ring. 2.6–4s, she sweeps both arms open and braces her stance as hexagonal light layers pour out from inside the ring one on top of another until nine of them stand stacked in front of her. The take starts exactly at the reference image. The whole thing is one single unbroken take: the camera follows exactly the path described above, in one continuous move, and stays inside that same room the entire time. Sound: a rising sustained chord and nine clear tones as each layer forms.",
+    "negation": [],
+    "emotion_words": []
+   },
+   "strategy": "全新",
+   "strategy_why": "新起一镜，和上一镜之间有切点"
+  },
+  {
+   "id": "EP001_SH15",
+   "seconds": 4.0,
+   "beat": "对撞",
+   "intent": "九层碎到一层，观众是数着看的。把「激烈」变成可读的东西，不靠形容词",
+   "cast": [
+    {
+     "name": "雷昂",
+     "look": "CHR-雷昂-狂化H2",
+     "state": "三道轨迹撞入"
+    },
+    {
+     "name": "艾琳",
+     "look": "CHR-艾琳",
+     "state": "九环承受"
+    }
+   ],
+   "location": {
+    "id": "LOC-神殿",
+    "desc": "侧向双人全景，九环与三道轨迹同框"
+   },
+   "camera": {
+    "size": "wide",
+    "angle": "level",
+    "move": "moving"
+   },
+   "action": {
+    "start": "三道赤红轨迹分别撞在九环的三个角度",
+    "beat": "九层从外往内一次碎三层，连碎三轮",
+    "end": "只剩内层银白核"
+   },
+   "dialogue": null,
+   "sound": "三轮连续的爆碎，一轮比一轮闷",
+   "continuity_out": "九层全碎，只剩一层银白核；六片晶体已熄",
+   "qc": {
+    "headcount": 2,
+    "fail_if": [
+     "碎完还剩两层以上",
+     "碎的顺序是从内往外"
+    ]
+   },
+   "uses": {
+    "char": [
+     {
+      "id": "CHR-雷昂-狂化H2",
+      "cells": []
+     },
+     {
+      "id": "CHR-艾琳",
+      "cells": []
+     }
+    ],
+    "prop": [
+     {
+      "id": "PROP-断影",
+      "cells": []
+     },
+     {
+      "id": "PROP-静水",
+      "cells": []
+     }
+    ],
+    "location": {
+     "id": "LOC-神殿",
+     "cells": [
+      "wide-floor"
+     ]
+    }
+   },
+   "render": {
+    "sound_en": "three rounds of bursting light, each one duller than the last",
+    "beats_en": [
+     {
+      "at": [
+       0,
+       1.3
+      ],
+      "move": "the camera pushes in hard on the point of contact",
+      "action": "the three crimson arcs strike the stack of nine hexagonal layers at three different angles",
+      "size": "a close shot"
+     },
+     {
+      "at": [
+       1.3,
+       2.6
+      ],
+      "move": "the camera pulls back with each round of breaking layers",
+      "action": "he drives the blade in and she staggers back a step behind the staff as the layers break three at a time from the outside inward, three rounds in a row, shards spraying outward",
+      "size": "a medium two shot"
+     },
+     {
+      "at": [
+       2.6,
+       4
+      ],
+      "move": "static",
+      "action": "she plants both feet and shoves the staff forward while he pushes his shoulder into the hilt, and one silver-white core layer is left standing between the two of them"
+     }
+    ],
+    "prompt": "Japanese cel-shaded anime, bold black outlines, two-step hard shading, high contrast, photorealistic cinematic footage, fine film grain, 16:9 landscape. The headcount is exactly 2 for every frame of this shot: a man in his early thirties, square jaw, a diagonal scar running from his left brow ridge down across his cheekbone, dark grey hair falling to his jawline and swept back with two strands hanging over his eyebrows, a sleeveless dark brown leather chest guard with three horizontal straps, a single iron pauldron on his left shoulder with a notch in its rim, his right arm wrapped from shoulder to wrist in dark cloth, dark grey trousers with calf wraps; and a woman of twenty-eight, oval face with a small mole under her right eye, pale blonde hair in a high ponytail tied high at the back of her head falling to her shoulder blades with one loose strand in front of her left ear, a dark blue high-collared robe with a column of seven round silver buttons from collar to waist, wide sleeves lined in silver-grey, a wide leather belt with three small pouches at her left hip. The headcount stays exactly 2 from the first frame to the last. The whole shot takes place in the interior of an abandoned stone temple at night, tall broken columns along both sides, moonlight falling through a crack in the domed ceiling, loose rubble scattered across the flagstone floor, cool blue moonlight from above as the single light source. Every frame shows that same place. 0–1.3s, the camera pushes in hard on the point of contact, ending on a close shot, the three crimson arcs strike the stack of nine hexagonal layers at three different angles. 1.3–2.6s, the camera pulls back with each round of breaking layers, ending on a medium two shot, he drives the blade in and she staggers back a step behind the staff as the layers break three at a time from the outside inward, three rounds in a row, shards spraying outward. 2.6–4s, she plants both feet and shoves the staff forward while he pushes his shoulder into the hilt, and one silver-white core layer is left standing between the two of them. The take starts exactly at the reference image. The whole thing is one single unbroken take: the camera follows exactly the path described above, in one continuous move, and stays inside that same room the entire time. Sound: three rounds of bursting light, each one duller than the last.",
+    "negation": [],
+    "emotion_words": []
+   },
+   "strategy": "延长优先",
+   "strategy_why": "接 SH13/SH14 两招放完，对撞是同一个动作的落点"
+  },
+  {
+   "id": "EP001_SH16",
+   "seconds": 4.0,
+   "beat": "僵局",
+   "intent": "不分胜负，停在两人都下不了手也退不了的僵局上。最后一帧给下一集的钩子",
+   "cast": [
+    {
+     "name": "雷昂",
+     "look": "CHR-雷昂-狂化H2",
+     "state": "剑压核，前推"
+    },
+    {
+     "name": "艾琳",
+     "look": "CHR-艾琳",
+     "state": "横杖顶住，前推"
+    }
+   ],
+   "location": {
+    "id": "LOC-神殿",
+    "desc": "侧向双人中景，剑与核在画面正中"
+   },
+   "camera": {
+    "size": "medium",
+    "angle": "level",
+    "move": "moving"
+   },
+   "action": {
+    "start": "剑锋压在核上",
+    "beat": "核裂一道缝，缝停住",
+    "end": "两人同时发力，剑与杖都往前推，布条和袖口同时绷紧"
+   },
+   "dialogue": null,
+   "post": "同一帧切到石柱后：凯尔怀里的古书铜扣自行弹开，一页翻起，浮出一行金字「献祭者方可开启」",
+   "sound": "一道细微的裂纹音，然后是两人对抗的持续低频；末尾一声铜扣弹开的清响",
+   "continuity_out": "僵局未解，古书铜扣已开",
+   "qc": {
+    "headcount": 2,
+    "fail_if": [
+     "分出了胜负",
+     "裂缝继续扩大或合拢"
+    ]
+   },
+   "uses": {
+    "char": [
+     {
+      "id": "CHR-雷昂-狂化H2",
+      "cells": []
+     },
+     {
+      "id": "CHR-艾琳",
+      "cells": []
+     }
+    ],
+    "prop": [
+     {
+      "id": "PROP-断影",
+      "cells": []
+     },
+     {
+      "id": "PROP-静水",
+      "cells": []
+     }
+    ],
+    "location": {
+     "id": "LOC-神殿",
+     "cells": [
+      "side-two-shot"
+     ]
+    }
+   },
+   "render": {
+    "sound_en": "one fine cracking note, then the sustained low strain of two people pushing against each other",
+    "beats_en": [
+     {
+      "at": [
+       0,
+       1.6
+      ],
+      "move": "the camera creeps in on the crack",
+      "action": "the edge of the greatsword rests hard against the silver-white core layer and a single crack opens across it and stops there",
+      "size": "a tight close shot of the fissure"
+     },
+     {
+      "at": [
+       1.6,
+       4
+      ],
+      "move": "the camera pulls back to hold both of them",
+      "action": "both of them push at the same moment, the sword and the staff each driving forward, the cloth wraps on his arm and the sleeves of her robe pulling taut together",
+      "size": "a wide two shot"
+     }
+    ],
+    "prompt": "Japanese cel-shaded anime, bold black outlines, two-step hard shading, high contrast, photorealistic cinematic footage, fine film grain, 16:9 landscape. The headcount is exactly 2 for every frame of this shot: a man in his early thirties, square jaw, a diagonal scar running from his left brow ridge down across his cheekbone, dark grey hair falling to his jawline and swept back with two strands hanging over his eyebrows, a sleeveless dark brown leather chest guard with three horizontal straps, a single iron pauldron on his left shoulder with a notch in its rim, his right arm wrapped from shoulder to wrist in dark cloth, dark grey trousers with calf wraps; and a woman of twenty-eight, oval face with a small mole under her right eye, pale blonde hair in a high ponytail tied high at the back of her head falling to her shoulder blades with one loose strand in front of her left ear, a dark blue high-collared robe with a column of seven round silver buttons from collar to waist, wide sleeves lined in silver-grey, a wide leather belt with three small pouches at her left hip. The headcount stays exactly 2 from the first frame to the last. The whole shot takes place in the interior of an abandoned stone temple at night, tall broken columns along both sides, moonlight falling through a crack in the domed ceiling, loose rubble scattered across the flagstone floor, cool blue moonlight from above as the single light source. Every frame shows that same place. 0–1.6s, the camera creeps in on the crack, ending on a tight close shot of the fissure, the edge of the greatsword rests hard against the silver-white core layer and a single crack opens across it and stops there. 1.6–4s, the camera pulls back to hold both of them, ending on a wide two shot, both of them push at the same moment, the sword and the staff each driving forward, the cloth wraps on his arm and the sleeves of her robe pulling taut together. The take starts exactly at the reference image. The whole thing is one single unbroken take: the camera follows exactly the path described above, in one continuous move, and stays inside that same room the entire time. Sound: one fine cracking note, then the sustained low strain of two people pushing against each other.",
+    "negation": [],
+    "emotion_words": []
+   },
+   "strategy": "全新",
+   "strategy_why": "新起一镜，和上一镜之间有切点"
+  }
+ ]
+}

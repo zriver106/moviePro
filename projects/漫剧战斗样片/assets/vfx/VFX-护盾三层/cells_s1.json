@@ -1,0 +1,48 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "2x2",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "intact",
+   "desc": "all three rings whole and blazing at full brightness, filling the panel edge to edge, the outer grains drifting outward, electric blue shading out to cyan white at the edges, with a white hot core",
+   "bbox": [
+    0,
+    0,
+    1034,
+    1006
+   ]
+  },
+  {
+   "key": "outer-burst",
+   "desc": "the outer ring of light grains blowing apart into a wide cloud of drifting points that reaches the panel border, while the middle mesh and the silver white core hold, a blown out pure white core at the centre, a saturated electric blue body around it, a flat expanding shockwave ring at the outer rim, and shards and sparks flying outward along radial speed lines",
+   "bbox": [
+    1034,
+    0,
+    1014,
+    1006
+   ]
+  },
+  {
+   "key": "mesh-crack",
+   "desc": "the hexagonal mesh ring split wide open from one impact point with cracks branching all the way across it like a windscreen, wedges of mesh tipping free, the silver white core whole behind it, a blown out pure white core at the centre, a saturated electric blue body around it, a flat expanding shockwave ring at the outer rim, and shards and sparks flying outward along radial speed lines",
+   "bbox": [
+    0,
+    1006,
+    1034,
+    1042
+   ]
+  },
+  {
+   "key": "core-fissure",
+   "desc": "a single silver white disc filling the panel with one thin fissure running clean across it, the lips of the fissure blazing cyan white, fine light grains lifting off the crack",
+   "bbox": [
+    1034,
+    1006,
+    1014,
+    1042
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

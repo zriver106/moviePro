@@ -1,0 +1,68 @@
+{
+ "sheet": "sheet_s4.png",
+ "grid": "3x2",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "step-back",
+   "desc": "full body, sliding back half a step, staff angled across her body",
+   "bbox": [
+    0,
+    0,
+    718,
+    1018
+   ]
+  },
+  {
+   "key": "hair-cut",
+   "desc": "head and shoulders, one strand of pale blonde hair drifting free past her left ear",
+   "bbox": [
+    666,
+    0,
+    710,
+    1018
+   ]
+  },
+  {
+   "key": "hands-grip",
+   "desc": "a close view of the two hands and forearms gripping the grooved shaft, knuckles pale",
+   "bbox": [
+    1350,
+    0,
+    698,
+    1018
+   ]
+  },
+  {
+   "key": "staff-alone",
+   "desc": "the staff alone, upright, full length, the crystal suspended inside the open silver ring",
+   "bbox": [
+    0,
+    1000,
+    700,
+    1048
+   ]
+  },
+  {
+   "key": "ring-detail",
+   "desc": "a close view of the staff head showing the open silver ring with the faceted blue crystal hanging clear inside it",
+   "bbox": [
+    670,
+    1000,
+    706,
+    1048
+   ]
+  },
+  {
+   "key": "robe-buttons",
+   "desc": "a close view of the torso showing the column of seven round silver buttons from collar to waist",
+   "bbox": [
+    1348,
+    1000,
+    700,
+    1048
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

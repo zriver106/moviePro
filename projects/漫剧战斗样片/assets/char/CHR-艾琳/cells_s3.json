@@ -1,0 +1,68 @@
+{
+ "sheet": "sheet_s3.png",
+ "grid": "3x2",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "sleeve-fall-both",
+   "desc": "upper body, both arms lifted at once so both sleeves fall back",
+   "bbox": [
+    0,
+    0,
+    728,
+    1056
+   ]
+  },
+  {
+   "key": "seal-fingers",
+   "desc": "a close view of the hands and forearms, thumb touching the tips of index, middle and ring fingers in turn",
+   "bbox": [
+    664,
+    0,
+    720,
+    1056
+   ]
+  },
+  {
+   "key": "staff-upright",
+   "desc": "full body, staff planted upright directly in front of her, both hands at her sides",
+   "bbox": [
+    1346,
+    0,
+    702,
+    1056
+   ]
+  },
+  {
+   "key": "look-up",
+   "desc": "head and shoulders, chin lifted slightly, eyes level ahead",
+   "bbox": [
+    0,
+    1010,
+    728,
+    1038
+   ]
+  },
+  {
+   "key": "teeth-set",
+   "desc": "head and shoulders, jaw set, lips pressed together",
+   "bbox": [
+    664,
+    1010,
+    720,
+    1038
+   ]
+  },
+  {
+   "key": "breathe",
+   "desc": "head and shoulders, mouth open, breathing hard",
+   "bbox": [
+    1344,
+    1010,
+    704,
+    1038
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

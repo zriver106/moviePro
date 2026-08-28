@@ -1,0 +1,38 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "1x3",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "charge",
+   "desc": "an open ring drawing streams of light inward from every side of the panel into one blinding point at its centre, the streams stretched into long curved trails",
+   "bbox": [
+    0,
+    0,
+    2048,
+    704
+   ]
+  },
+  {
+   "key": "flight",
+   "desc": "a lance as thick as a stone column driving across the panel from border to border, a hard white core with light spiralling around it and a trail of flame filling the frame behind it",
+   "bbox": [
+    0,
+    704,
+    2048,
+    627
+   ]
+  },
+  {
+   "key": "clash",
+   "desc": "a blue lance meeting a scarlet crescent head on at the centre of the panel: a blown out pure white sphere at the point of contact, a saturated blue body on one side and a saturated scarlet body on the other, a flat expanding shockwave ring across the whole panel, and shards and sparks flying outward along radial speed lines",
+   "bbox": [
+    0,
+    1331,
+    2048,
+    717
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

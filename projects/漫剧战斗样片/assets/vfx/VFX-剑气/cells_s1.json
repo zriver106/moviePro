@@ -1,0 +1,38 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "1x3",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "single",
+   "desc": "one crescent spanning the panel from the left border to the right border, its arc as tall as the panel, the leading edge a hard white line, three long ribbon tails streaming behind it into embers, the whole crescent hanging free in empty black",
+   "bbox": [
+    0,
+    0,
+    2048,
+    736
+   ]
+  },
+  {
+   "key": "triple",
+   "desc": "three crescents of the same shape stacked one behind another and fanned apart, each spanning the panel from border to border, travelling together with their tails overlapping into a single sheet of embers, all three hanging free in empty black",
+   "bbox": [
+    0,
+    736,
+    2048,
+    552
+   ]
+  },
+  {
+   "key": "impact-flash",
+   "desc": "a crescent bursting in mid air at the centre of the panel: a blown out pure white core at the centre, a saturated scarlet red body around it, a flat expanding shockwave ring at the outer rim, and shards and sparks flying outward along radial speed lines, the burst and every flying fragment hanging free in empty black",
+   "bbox": [
+    0,
+    1288,
+    2048,
+    760
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

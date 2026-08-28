@@ -1,0 +1,45 @@
+{
+ "refs": [
+  "projects/漫剧战斗样片/assets/char/CHR-雷昂-常态/hero.png",
+  "projects/漫剧战斗样片/assets/char/CHR-艾琳/hero.png",
+  "projects/漫剧战斗样片/assets/char/CHR-凯尔/hero.png",
+  "projects/漫剧战斗样片/assets/prop/PROP-断影/hero.png",
+  "projects/漫剧战斗样片/assets/prop/PROP-静水/hero.png",
+  "projects/漫剧战斗样片/assets/prop/PROP-古书/hero.png",
+  "projects/漫剧战斗样片/keyframes/EP001/LOC-侧.png",
+  "projects/漫剧战斗样片/keyframes/EP001/LOC-过肩.png",
+  "projects/漫剧战斗样片/keyframes/EP001/LOC-柱.png"
+ ],
+ "takes": [
+  {
+   "id": "EP001_A",
+   "seconds": 16.0,
+   "covers": [
+    "EP001_SH01",
+    "EP001_SH02",
+    "EP001_SH03",
+    "EP001_SH04"
+   ],
+   "prompt": "Japanese cel-shaded anime, bold black outlines, two-step hard shading, high contrast, 16:9 landscape. @Image1 is the swordsman. @Image2 is the woman mage. @Image3 is the teenage boy. @Image4 is the greatsword. @Image5 is the staff. @Image6 is the thick book. @Image7 is the ruined temple hall seen from the side. @Image8 is the same hall seen over a shoulder. @Image9 is the stone column corner of that same hall. Every shot keeps these exact designs: the same faces, the same hair, the same armour and robe, the same weapons, and the same hall with the same columns, the same floor and the same light direction. The headcount stays exactly as described in each shot. Every shot in this video happens in one and the same ruined stone temple hall at night. The cuts between shots are straight hard cuts. [Shot 1] the greatsword blade presses down into the outer layer of a pale blue hexagonal light lattice, the light grains dimpling inward under the edge; the man holds it there with both hands and the woman braces her staff horizontally against it. The man behind the sword says in Chinese: 艾琳。 [Shot 2] Cut to the two of them hold the lock across the blade, her arms straight, his shoulders dropping as he leans more weight onto the sword. The woman behind the staff says in Chinese: 雷昂。 [Shot 3] Cut to the man raises the greatsword overhead with both hands and holds completely still, only the cloth wraps on his arm drifting. [Shot 4] Cut to the blade is already down at the lattice and a single crimson arc of trailing light hangs along the path it took, the background behind him turned to radial speed lines. [Shot 5] Cut to the pale blue outer layer bursts into fine drifting points of light and a flat white shockwave ring spreads out from the point of impact while she holds the staff horizontal with both hands. [Shot 6] Cut to the man swings the greatsword one-handed on a flat horizontal path, his waist turning a half circle with it, a crimson trail marking the arc. [Shot 7] Cut to a single cut strand of pale blonde hair drifts down past the woman's left ear. [Shot 8] Cut to she plants the tip of her staff on the flagstones, her knee bending and her weight sinking, and slides back half a step. [Shot 9] Cut to the woman sweeps the shaft of her staff across and the man brings his left forearm up in front of his face so the iron pauldron on his shoulder takes it; both of them bounce back half a step. [Shot 10] Cut to she pushes the silver ring at the top of the staff forward one-handed and the blue crystal inside it lights up. [Shot 11] Cut to he is driven backward with the sword tip dragging along the flagstones, throwing a line of sparks. Sound: a sustained metallic hum where the blade grinds against the light lattice, stone reverb a whip of air, then a bright brittle shatter of breaking light a low whistle of a horizontal swing, then a dull knock of wood on stone a blunt knock of wood against iron, a low resonant pulse, and the scrape of a blade tip along stone",
+   "lines": [
+    "艾琳。",
+    "雷昂。"
+   ]
+  },
+  {
+   "id": "EP001_B",
+   "seconds": 14.0,
+   "covers": [
+    "EP001_SH05",
+    "EP001_SH06",
+    "EP001_SH07",
+    "EP001_SH08"
+   ],
+   "prompt": "Japanese cel-shaded anime, bold black outlines, two-step hard shading, high contrast, 16:9 landscape. @Image1 is the swordsman. @Image2 is the woman mage. @Image3 is the teenage boy. @Image4 is the greatsword. @Image5 is the staff. @Image6 is the thick book. @Image7 is the ruined temple hall seen from the side. @Image8 is the same hall seen over a shoulder. @Image9 is the stone column corner of that same hall. Every shot keeps these exact designs: the same faces, the same hair, the same armour and robe, the same weapons, and the same hall with the same columns, the same floor and the same light direction. The headcount stays exactly as described in each shot. Every shot in this video happens in one and the same ruined stone temple hall at night. The cuts between shots are straight hard cuts. [Shot 1] the man leans the blade back onto the lattice and drives the tip forward, the light grains dimpling deeper under it. The man pressing the sword says in Chinese: 书里最后一页能解我妹妹的咒。 [Shot 2] Cut to the tendons stand out along his forearms and the blade sinks another inch. The man pressing the sword says in Chinese: 错过今夜，她天亮就死。 [Shot 3] Cut to a teenage boy stands with his back flat against a stone column, holding a thick book shut with a copper clasp against his chest. [Shot 4] Cut to his fingernails dig into the leather cover and his shoulders jerk once. [Shot 5] Cut to the woman lifts her arm and the wide sleeve falls back to show the silver-grey lining underneath. [Shot 6] Cut to her thumb touches her index finger, then her middle finger, then her ring finger, and three small points of light come up in front of her chest. [Shot 7] Cut to a fresh pale blue hexagonal layer knits itself onto the outside of the lattice in front of her. [Shot 8] Cut to the man drops into a deep knee bend and drives the greatsword forward flat along the floor, throwing up loose rubble. [Shot 9] Cut to the woman pushes the silver ring forward one-handed and the whole background turns into radial speed lines behind them. [Shot 10] Cut to the two forces meet and the deep blue hexagonal mesh layer cracks open from the point of contact like glass. Sound: the sustained grinding hum of blade on light, and two people breathing hard the ring of weapons echoing from further off, and his own held breath a soft flap of falling cloth and a clear chiming tone as light knits together a long scrape of steel along stone and a muffled burst where two forces meet",
+   "lines": [
+    "书里最后一页能解我妹妹的咒。",
+    "错过今夜，她天亮就死。"
+   ]
+  }
+ ]
+}

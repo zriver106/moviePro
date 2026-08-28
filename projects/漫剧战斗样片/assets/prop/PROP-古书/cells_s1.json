@@ -1,0 +1,28 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "2x1",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "closed",
+   "desc": "the book closed, clasp fastened, seen from three-quarter above",
+   "bbox": [
+    26,
+    30,
+    996,
+    1990
+   ]
+  },
+  {
+   "key": "clasp-open",
+   "desc": "the same book with the copper clasp sprung open and one page lifting, a line of gold characters glowing on the raised page",
+   "bbox": [
+    1026,
+    30,
+    998,
+    1990
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

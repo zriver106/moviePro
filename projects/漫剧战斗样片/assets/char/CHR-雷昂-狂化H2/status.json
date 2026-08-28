@@ -1,0 +1,19 @@
+{
+ "id": "CHR-雷昂-狂化H2",
+ "type": "char",
+ "status": "draft",
+ "status_note": "刚出图，没人看过。**逐格对完脸再改 ready_for_review**",
+ "hero": true,
+ "sheets": [
+  "s1",
+  "s2"
+ ],
+ "cells": 12,
+ "generation": {
+  "api": "https://fal.run/fal-ai/bytedance/seedream/v5/lite/edit",
+  "seed": 70701,
+  "edit_from": "CHR-雷昂-常态",
+  "negation_scan": "pass（0 个否定词）"
+ },
+ "derives_from": "CHR-雷昂-常态"
+}

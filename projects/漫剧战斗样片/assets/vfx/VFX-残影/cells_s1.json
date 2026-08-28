@@ -1,0 +1,28 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "1x2",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "trail",
+   "desc": "the three silhouettes strung across the panel from the left border to the right border, the bodies elongated and whip like from the speed, scarlet trails feathering off every edge, the trailing pair thinning into the black",
+   "bbox": [
+    0,
+    0,
+    2048,
+    1024
+   ]
+  },
+  {
+   "key": "burst",
+   "desc": "the three silhouettes tearing apart into a sheet of scarlet speed lines that rake the whole panel, a blown out pure white core at the centre, a saturated scarlet red body around it, a flat expanding shockwave ring at the outer rim, and shards and sparks flying outward along radial speed lines",
+   "bbox": [
+    0,
+    1024,
+    2048,
+    1024
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

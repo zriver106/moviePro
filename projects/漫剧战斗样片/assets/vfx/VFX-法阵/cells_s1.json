@@ -1,0 +1,38 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "1x3",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "single",
+   "desc": "one hexagonal ring of glowing glyph lines lying flat in steep perspective, spread wide enough to cover the floor of a great hall and running out to every border of the panel, drawn purely as lines of light with flat empty black showing through between every line",
+   "bbox": [
+    0,
+    0,
+    2048,
+    688
+   ]
+  },
+  {
+   "key": "triple",
+   "desc": "three of those hexagonal glyph rings lit at once and overlapping at their edges, together filling the panel, drawn purely as lines of light with flat empty black showing through between every line",
+   "bbox": [
+    0,
+    688,
+    2048,
+    672
+   ]
+  },
+  {
+   "key": "pillar",
+   "desc": "a column of light as wide as the glyph ring dropping straight down out of the dark onto one ring and splashing outward where it lands: a blown out pure white core at the centre, a saturated electric blue body around it, a flat expanding shockwave ring at the outer rim, and shards and sparks flying outward along radial speed lines, the glyph ring drawn purely as lines of light and the black showing through between them",
+   "bbox": [
+    0,
+    1360,
+    2048,
+    688
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

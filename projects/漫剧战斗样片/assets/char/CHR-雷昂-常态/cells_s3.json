@@ -1,0 +1,68 @@
+{
+ "sheet": "sheet_s3.png",
+ "grid": "3x2",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "drag-back",
+   "desc": "full body, stepping backward with the sword tip dragging on the ground behind him",
+   "bbox": [
+    0,
+    64,
+    680,
+    948
+   ]
+  },
+  {
+   "key": "knocked-back",
+   "desc": "full body, driven backward, torso tilted back, one arm out for balance",
+   "bbox": [
+    692,
+    64,
+    668,
+    948
+   ]
+  },
+  {
+   "key": "triple-chop",
+   "desc": "full body, mid combination, sword high on the return of a second cut",
+   "bbox": [
+    1368,
+    64,
+    680,
+    948
+   ]
+  },
+  {
+   "key": "rise-cut",
+   "desc": "full body, upward rising cut, sword sweeping up from low to high",
+   "bbox": [
+    0,
+    1068,
+    680,
+    940
+   ]
+  },
+  {
+   "key": "spin-cut",
+   "desc": "full body, mid-air spinning return cut, both feet off the ground",
+   "bbox": [
+    692,
+    1068,
+    668,
+    940
+   ]
+  },
+  {
+   "key": "land-crouch",
+   "desc": "full body, landing in a crouch, sword arm extended behind",
+   "bbox": [
+    1368,
+    1068,
+    680,
+    940
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

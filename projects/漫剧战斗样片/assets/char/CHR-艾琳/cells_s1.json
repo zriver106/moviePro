@@ -1,0 +1,38 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "3x2",
+ "order": "left to right, top to bottom",
+ "note": "bbox 待实测。**别用理论等分** —— 出图模型排的格子不等分。",
+ "cells": [
+  {
+   "key": "front",
+   "desc": "standing front view, full body, staff held vertical at her side",
+   "bbox": null
+  },
+  {
+   "key": "back",
+   "desc": "standing back view, full body, the ponytail falling to her shoulder blades",
+   "bbox": null
+  },
+  {
+   "key": "left",
+   "desc": "standing left profile, full body",
+   "bbox": null
+  },
+  {
+   "key": "right",
+   "desc": "standing right profile, full body",
+   "bbox": null
+  },
+  {
+   "key": "three-quarter",
+   "desc": "standing three-quarter view, full body",
+   "bbox": null
+  },
+  {
+   "key": "face",
+   "desc": "head and shoulders, front, mouth closed, eyes level",
+   "bbox": null
+  }
+ ]
+}

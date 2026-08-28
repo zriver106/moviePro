@@ -1,0 +1,25 @@
+{
+ "id": "VFX-冰棱阵",
+ "type": "vfx",
+ "status": "ready_for_review",
+ "status_note": "刚出图，没人看过。**逐格对完脸再改 ready_for_review**",
+ "hero": false,
+ "sheets": [
+  "s1"
+ ],
+ "cells": 3,
+ "generation": {
+  "api": "https://fal.run/fal-ai/bytedance/seedream/v5/lite/text-to-image",
+  "seed": 70701,
+  "edit_from": null,
+  "negation_scan": "pass（0 个否定词）"
+ },
+ "derives_from": null,
+ "status_reason": "2026-08-17 新建。逐格裁出来在棋盘底上看过（23 格全过）：无串格、无烧进图里的编号、颜色分阵营（雷昂系炽红→橙金，艾琳系电蓝→青白，两边都带白热核）。alpha 抽像素验过，`scripts/vfx_alpha.py` 31 项全过。**没让 Andy 看过，所以不是 approved。**",
+ "deliverable": "cells/<key>.png（RGBA 透明底）。sheet_s1.png 是黑底中间态。",
+ "checks": {
+  "alpha": "pass（vfx_alpha.py：整张外圈中位<10、每格全透≥20%、灰纱≤35%）",
+  "negation_scan": "pass（0 个否定词，negwords.py 扫过）",
+  "bbox": "实测（measure_cells.py 发光式最暗缝法），非理论等分"
+ }
+}

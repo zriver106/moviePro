@@ -1,0 +1,48 @@
+{
+ "sheet": "sheet_s1.png",
+ "grid": "2x2",
+ "order": "left to right, top to bottom",
+ "cells": [
+  {
+   "key": "side-two-shot",
+   "desc": "a side-on view across the middle of the hall at standing eye height, floor and both column rows visible",
+   "bbox": [
+    6,
+    4,
+    1030,
+    1030
+   ]
+  },
+  {
+   "key": "over-shoulder",
+   "desc": "a view from between two columns looking across the hall, one column filling the near edge of frame",
+   "bbox": [
+    1012,
+    4,
+    1030,
+    1030
+   ]
+  },
+  {
+   "key": "pillar-corner",
+   "desc": "a close view of one stone column and the wall behind it",
+   "bbox": [
+    2,
+    1012,
+    1036,
+    1034
+   ]
+  },
+  {
+   "key": "wide-floor",
+   "desc": "a wide low view along the flagstone floor with the columns receding and the ceiling crack overhead",
+   "bbox": [
+    1012,
+    1012,
+    1030,
+    1034
+   ]
+  }
+ ],
+ "bbox_note": "实测内容外接框（scripts/measure_cells.py），非理论等分"
+}

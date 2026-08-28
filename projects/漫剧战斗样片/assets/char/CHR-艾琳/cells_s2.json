@@ -1,0 +1,38 @@
+{
+ "sheet": "sheet_s2.png",
+ "grid": "3x2",
+ "order": "left to right, top to bottom",
+ "note": "bbox 待实测。**别用理论等分** —— 出图模型排的格子不等分。",
+ "cells": [
+  {
+   "key": "staff-horizontal",
+   "desc": "full body, both hands holding the staff horizontally in front of her face",
+   "bbox": null
+  },
+  {
+   "key": "brace-block",
+   "desc": "full body, both hands on the staff braced overhead, knees bent, taking weight from above",
+   "bbox": null
+  },
+  {
+   "key": "plant-staff",
+   "desc": "full body, the staff tip planted on the ground, knee bent, weight sinking, sliding back",
+   "bbox": null
+  },
+  {
+   "key": "sweep-staff",
+   "desc": "full body, sweeping the staff shaft across at waist height",
+   "bbox": null
+  },
+  {
+   "key": "push-ring",
+   "desc": "full body, one hand pushing the ringed head of the staff forward, crystal lit",
+   "bbox": null
+  },
+  {
+   "key": "sleeve-fall",
+   "desc": "upper body, one arm lifted so the wide sleeve falls back to show the silver-grey lining",
+   "bbox": null
+  }
+ ]
+}
