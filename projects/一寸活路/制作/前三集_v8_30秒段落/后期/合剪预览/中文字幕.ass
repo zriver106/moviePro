@@ -1,0 +1,38 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Heiti SC,52,&H00FFFFFF,&H00FFFFFF,&H00101010,&H90000000,0,0,0,0,100,100,1,0,1,3,1,2,110,110,66,1
+Style: Notice,Heiti SC,28,&H00FFFFFF,&H00FFFFFF,&H00101010,&H90000000,0,0,0,0,100,100,0,0,1,2,1,7,38,38,28,1
+Style: Time,Heiti SC,42,&H00FFFFFF,&H00FFFFFF,&H00101010,&H90000000,0,0,0,0,100,100,0,0,1,2,1,7,80,80,95,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.00,Dialogue,,0,0,0,,一寸活路 · 第一集
+Dialogue: 0,0:00:07.22,0:00:09.52,Dialogue,,0,0,0,,二百四十铜，够姐姐歇十二天。
+Dialogue: 0,0:00:10.42,0:00:11.86,Dialogue,,0,0,0,,三个人！开门！
+Dialogue: 0,0:00:18.54,0:00:20.92,Dialogue,,0,0,0,,省点力气。门不用开了。
+Dialogue: 0,0:00:21.68,0:00:22.50,Dialogue,,0,0,0,,他们还活着。
+Dialogue: 0,0:00:23.06,0:00:26.26,Dialogue,,0,0,0,,账上没有。
+Dialogue: 0,0:00:28.68,0:00:29.80,Dialogue,,0,0,0,,这点钱买命？
+Dialogue: 0,0:00:32.00,0:00:35.00,Dialogue,,0,0,0,,第一集后半段尚未生成
+Dialogue: 0,0:00:35.00,0:00:37.00,Dialogue,,0,0,0,,一寸活路 · 第二集
+Dialogue: 0,0:00:51.32,0:00:52.80,Dialogue,,0,0,0,,封舱！谁让出来的？
+Dialogue: 0,0:00:53.38,0:00:56.26,Dialogue,,0,0,0,,活人我保。封舱损单，你签。
+Dialogue: 0,0:00:58.26,0:00:59.00,Dialogue,,0,0,0,,他封的门。
+Dialogue: 0,0:00:59.04,0:00:59.76,Dialogue,,0,0,0,,带去问话。
+Dialogue: 0,0:01:02.54,0:01:04.46,Dialogue,,0,0,0,,二百四十。你的工钱。
+Dialogue: 0,0:01:10.54,0:01:19.18,Dialogue,,0,0,0,,每人只算一次。痕永不消，能一直添。
+Dialogue: 0,0:01:21.44,0:01:24.96,Dialogue,,0,0,0,,活人不用吃剩的。
+Dialogue: 0,0:01:28.72,0:01:30.88,Dialogue,,0,0,0,,爹的青蟹号。三千铜。
+Dialogue: 0,0:01:33.32,0:01:35.62,Dialogue,,0,0,0,,先不借。我们挣。
+Dialogue: 0,0:01:37.00,0:01:39.00,Dialogue,,0,0,0,,一寸活路 · 第三集
+Dialogue: 0,0:01:41.96,0:01:42.54,Dialogue,,0,0,0,,六十铜。
+Dialogue: 0,0:01:46.20,0:01:47.48,Dialogue,,0,0,0,,照子，跟我走。
+Dialogue: 0,0:01:50.26,0:01:50.66,Dialogue,,0,0,0,,先放他。
+Dialogue: 0,0:02:09.00,0:02:12.00,Dialogue,,0,0,0,,第三集后半段尚未生成

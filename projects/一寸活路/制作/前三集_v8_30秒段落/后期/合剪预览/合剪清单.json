@@ -1,0 +1,241 @@
+{
+  "output": "制作/前三集_v8_30秒段落/后期/合剪预览/一寸活路_前三集现有素材合剪_中文字幕.mp4",
+  "sha256": "a4fd8c0afcc83cea1008e34fa0b5499d7c3d0ef115a07f502388957626d368c7",
+  "duration": 132,
+  "footage_seconds": 120,
+  "missing_segments": [
+    "EP001_B",
+    "EP003_B"
+  ],
+  "preview": true,
+  "delivery_ready": false,
+  "timeline": [
+    {
+      "type": "status_card",
+      "text": "一寸活路 · 第一集",
+      "start": 0,
+      "end": 2,
+      "source": "制作/前三集_v8_30秒段落/后期/合剪预览/card_00/card.mp4",
+      "sha256": "d798e92b21099de1259cfb99e968a00d0acb2f1b698f3aa17cb103e0ccb7e273"
+    },
+    {
+      "type": "clip",
+      "segment": "EP001_A",
+      "take": 2,
+      "start": 2,
+      "end": 32,
+      "source": "制作/前三集_v8_30秒段落/后期/试听样片/EP001_A/take_02/中文字幕_低音量配乐.mp4",
+      "sha256": "5cd1c9dbd43646f43a8910215653e421a2db82268d93d240064ec7b676560708"
+    },
+    {
+      "type": "status_card",
+      "text": "第一集后半段尚未生成",
+      "start": 32,
+      "end": 35,
+      "source": "制作/前三集_v8_30秒段落/后期/合剪预览/card_02/card.mp4",
+      "sha256": "99babb1b2ba816a72a8b94f41513db15261ec99e1ef962ad86ef10c16e1818d3"
+    },
+    {
+      "type": "status_card",
+      "text": "一寸活路 · 第二集",
+      "start": 35,
+      "end": 37,
+      "source": "制作/前三集_v8_30秒段落/后期/合剪预览/card_03/card.mp4",
+      "sha256": "448ff431069ab57afb44d9bb7fa0c146dd5e7174a295b54252d80e925572981c"
+    },
+    {
+      "type": "clip",
+      "segment": "EP002_A",
+      "take": 2,
+      "start": 37,
+      "end": 67,
+      "source": "制作/前三集_v8_30秒段落/后期/试听样片/EP002_A/take_02/中文字幕_低音量配乐.mp4",
+      "sha256": "566c582e51144a8301ae9a8490036864b8b541da5547baf7ace30ac6478a0499"
+    },
+    {
+      "type": "clip",
+      "segment": "EP002_B",
+      "take": 7,
+      "start": 67,
+      "end": 97,
+      "source": "制作/前三集_v8_30秒段落/后期/试听样片/EP002_B/take_07/中文字幕_低音量配乐.mp4",
+      "sha256": "b95961b9ff9e1b41b45dcdb0282e94aa438808832ba2859920f7abb6fbc1cadd"
+    },
+    {
+      "type": "status_card",
+      "text": "一寸活路 · 第三集",
+      "start": 97,
+      "end": 99,
+      "source": "制作/前三集_v8_30秒段落/后期/合剪预览/card_06/card.mp4",
+      "sha256": "64dcd3c694e9cbe9d65088c03f9a87c92a78bea0c41e9a74867682bb494c7d60"
+    },
+    {
+      "type": "clip",
+      "segment": "EP003_A",
+      "take": 2,
+      "start": 99,
+      "end": 129,
+      "source": "制作/前三集_v8_30秒段落/后期/试听样片/EP003_A/take_02/中文字幕_低音量配乐.mp4",
+      "sha256": "4fe99faaa78ded9936b7b6661a671cdddc59f622ff839d7a00f6305cbebca33f"
+    },
+    {
+      "type": "status_card",
+      "text": "第三集后半段尚未生成",
+      "start": 129,
+      "end": 132,
+      "source": "制作/前三集_v8_30秒段落/后期/合剪预览/card_08/card.mp4",
+      "sha256": "059dc5f72ff21e98326021ac38191d568dca878eda335f7b5190aafd6d9d8cb9"
+    }
+  ],
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001e",
+        "width": 854,
+        "height": 480,
+        "coded_width": 854,
+        "coded_height": 480,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "427:240",
+        "pix_fmt": "yuv420p",
+        "level": 30,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1622016,
+        "duration": "132.000000",
+        "bit_rate": "1531433",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "3168",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.101 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 6336000,
+        "duration": "132.000000",
+        "bit_rate": "176904",
+        "nb_frames": "6184",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/后期/合剪预览/一寸活路_前三集现有素材合剪_中文字幕.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "132.000000",
+      "size": "28280575",
+      "bit_rate": "1713974",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.101"
+      }
+    }
+  },
+  "verification": {
+    "full_decode": "passed",
+    "checked_frames_seconds": [
+      1,
+      8,
+      33,
+      36,
+      54,
+      83,
+      98,
+      109,
+      130
+    ],
+    "visual_result": "三集顺序、中文字幕、集标题与两张缺段提示正常；原画面未验收状态保留"
+  }
+}

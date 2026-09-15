@@ -1,0 +1,46 @@
+{
+  "segment": "EP003_A",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "timing_approved": false,
+  "on_screen_text": [
+    {
+      "text": "翌日",
+      "method": "post_composite",
+      "placement": "左上角时间字幕",
+      "generation_surface": "blank",
+      "start": 0,
+      "end": 2
+    }
+  ],
+  "onscreen_text_approved": false,
+  "status": "asr_aligned_draft",
+  "source": "制作/前三集_v8_30秒段落/视频/EP003_A/take_02_480p.mp4",
+  "video_sha256": "92d563d03a72fc225e220fa82e93fbe68a092114393dca686721631ecd6cffce",
+  "asr_sha256": "5312c66ae413392c3f26cd671b1dfb166cd0aea71841e1c9914ab7445811569f",
+  "lines": [
+    {
+      "start": 2.959,
+      "end": 3.539,
+      "text": "六十铜。",
+      "speaker": "水槽货主",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 1.0
+    },
+    {
+      "start": 7.199000000000001,
+      "end": 8.48,
+      "text": "照子，跟我走。",
+      "speaker": "葛牙",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 0.8
+    },
+    {
+      "start": 11.259,
+      "end": 11.659,
+      "text": "先放他。",
+      "speaker": "陆照",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 0.667
+    }
+  ]
+}
