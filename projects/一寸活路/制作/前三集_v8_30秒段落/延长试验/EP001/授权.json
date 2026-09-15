@@ -1,0 +1,13 @@
+{
+  "user_instruction": "每集先生成30秒视频，然后利用官方的api延长到60秒，把接下来的剧情接上，尝试这种做法看看",
+  "episode": "EP001",
+  "task": "extension",
+  "max_requests": 1,
+  "source": "制作/前三集_v8_30秒段落/视频/EP001_A/take_02_480p.mp4",
+  "source_sha256": "17b78f1ebaf038d2514b6c01ee8a9c1b3668df33609c6b9a55c703af0458182f",
+  "new_seconds": 30,
+  "preserve_existing": true,
+  "trial_then_assess": true,
+  "retry": false,
+  "fallback_to_regeneration": false
+}

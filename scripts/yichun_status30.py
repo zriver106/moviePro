@@ -31,8 +31,13 @@ previews=sorted((k/'后期/试听样片').glob('*/*/中文字幕_低音量配乐
 complete=k/'后期/完整合剪/完整合剪清单.json'
 compilation=read(complete) if complete.exists() else None
 status['postproduction']={'music_directory':'kim-bgm','bgm_enabled':False,'music_plan':'制作/前三集_v8_30秒段落/后期/配乐方案.json','subtitles_required':True,'planned_subtitle_segments':len(list((k/'后期/字幕').glob('*/计划/中文字幕.srt'))),'historical_previews':[str(f.relative_to(p)) for f in previews],'preview_is_final':False,'complete_compilation':compilation}
+extension_file=k/'延长试验/EP001/输出清单.json'
+extension=read(extension_file) if extension_file.exists() else None
+status['extension_experiment']=extension
 write(p/'制作状态.json',status)
 rows=[]
+if extension:
+    rows.append('<section><h2>第一集 · 30秒原片加30秒延长</h2><p>延长接口已返回；人物连续性检查见试验验收记录，现有合剪保留。</p><video controls preload="metadata" src="'+html.escape(extension['output'])+'" style="width:100%"></video></section>')
 if compilation:
     rows.append('<section><h2>前三集完整合剪 · 180秒</h2><p>单层中文字幕，不添加BGM，无行政提示卡或水印。</p><video controls preload="metadata" src="'+html.escape(compilation['output'])+'" style="width:100%"></video></section>')
 labels={'not_submitted':'未提交','preparing':'准备素材中','uploading':'参考上传中','submitted':'服务端生成中','generated_pending_visual_and_dialogue_check':'已生成候选','failed_or_uncertain':'请求失败或结果未确认','pending':'待验收','rejected':'退回修正','accepted':'验收通过'}

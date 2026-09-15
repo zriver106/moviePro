@@ -1,0 +1,26 @@
+{
+  "status": "rejected",
+  "api_extension_succeeded": true,
+  "returned_duration": 30,
+  "returned_content": "追加剧情30秒，未包含原30秒",
+  "source_preserved": true,
+  "video_sha256": "37eb3ccbfdbd3c21e645b6751cf1cb334924e3e7b5fed5e57844d520b9cfbf78",
+  "inspection": "每秒抽帧、0.5秒间隔底部字幕OCR；不等于逐帧或人工听审",
+  "blocking_issues": [
+    {
+      "time": "0–6",
+      "finding": "开头承接相同轮架、双手和原锥，但约4秒切到麻铎，未按定稿保持0–6秒连续镜头；坠石落承架及棘爪未清楚呈现。"
+    },
+    {
+      "time": "19–29",
+      "finding": "被救灰胡子工人的外貌和服装变成麻铎（棕衣帽子黑须）；反派和获救者身份混淆。"
+    },
+    {
+      "time": "19–29",
+      "finding": "救援发生在高窗开口和台面，未忠实完成定稿开门后低地排水的空间动作。"
+    }
+  ],
+  "batch_rollout": false,
+  "next_correction_mode": "已有视频editing；不自动重生成",
+  "subtitle_ocr_rows": 0
+}

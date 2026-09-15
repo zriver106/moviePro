@@ -1,0 +1,115 @@
+{
+  "source_sha256": "37eb3ccbfdbd3c21e645b6751cf1cb334924e3e7b5fed5e57844d520b9cfbf78",
+  "result": {
+    "text": "胜过真敌，只此天一痕。阿旅。 ",
+    "language_code": "zho",
+    "language_probability": 1.0,
+    "words": [
+      {
+        "text": "胜",
+        "start": 10.139,
+        "end": 10.259,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "过",
+        "start": 10.26,
+        "end": 10.42,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "真",
+        "start": 10.42,
+        "end": 10.599,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "敌",
+        "start": 10.599,
+        "end": 10.8,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "，",
+        "start": 10.8,
+        "end": 11.279,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "只",
+        "start": 11.279,
+        "end": 11.46,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "此",
+        "start": 11.46,
+        "end": 11.699,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "天",
+        "start": 11.699,
+        "end": 11.819,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "一",
+        "start": 11.819,
+        "end": 11.979,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "痕",
+        "start": 11.979,
+        "end": 12.279,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 12.279,
+        "end": 12.279,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "阿",
+        "start": 23.399,
+        "end": 24.039,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "旅",
+        "start": 24.039,
+        "end": 24.379,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 24.379,
+        "end": 24.379,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": " ",
+        "start": 24.379,
+        "end": 24.379,
+        "type": "spacing",
+        "speaker_id": "speaker_1"
+      }
+    ]
+  }
+}
