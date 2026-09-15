@@ -53,6 +53,7 @@ BACKENDS = {
         "t2i": "https://fal.run/fal-ai/bytedance/seedream/v5/lite/text-to-image",
         "edit": "https://fal.run/fal-ai/bytedance/seedream/v5/lite/edit",
         "asr": "https://fal.run/fal-ai/whisper",
+        "asr_scribe": "https://fal.run/fal-ai/elevenlabs/speech-to-text/scribe-v2",
         "video": {
             ("2.0", "i2v"): "https://fal.run/bytedance/seedance-2.0/fast/image-to-video",
             ("2.0", "ref"): "https://fal.run/bytedance/seedance-2.0/reference-to-video",
@@ -173,6 +174,14 @@ def transcribe(path, language="zh", chunk_level=None):
         body["chunk_level"] = chunk_level
     r, err = _post(_cfg()["asr"], body, timeout=900)
     return (None, err) if err else (r, None)
+
+
+def transcribe_scribe(path, language="zho"):
+    """独立音轨复核：Scribe V2，不提供原台词或偏置词。"""
+    body = {"audio_url": upload(path), "language_code": language,
+            "tag_audio_events": False, "diarize": True}
+    result, err = _post(_cfg()["asr_scribe"], body, timeout=900)
+    return (None, err) if err else (result, None)
 
 
 def fetch(url, dst):

@@ -38,6 +38,13 @@ class Video30Gates(unittest.TestCase):
             with patch.object(v,'build') as build,patch.object(v.provider,'video') as paid:
                 with self.assertRaisesRegex(ValueError,'另一进程'):v.run('EP002_B')
                 build.assert_not_called();paid.assert_not_called()
+    def test_stale_asr_cannot_be_reused_for_changed_video(self):
+        folder=self.root/'视频/EP002_B';folder.mkdir(parents=True)
+        (folder/'take_01_480p.mp4').write_bytes(b'changed video')
+        v.write(folder/'take_01_480p.asr.json',{'source_sha256':'old'})
+        with patch.object(sys,'argv',['video30','asr','--segment','EP002_B']),patch.object(v.provider,'transcribe') as paid:
+            with self.assertRaisesRegex(ValueError,'听写所据视频已变更'):v.main()
+            paid.assert_not_called()
     def test_exact_plan_source_gate_passes_on_real_files(self):
         self.patch.stop()
         try:

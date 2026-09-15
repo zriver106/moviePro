@@ -35,7 +35,7 @@ def inspect_video(video, plan):
             'technical_duration_pass':29.8<=duration<=30.2,
             'content_status':'pending_human_visual_and_dialogue_review',
             'contact_sheets':sheets,'expected_dialogue':[line for b in segment['timeline'] for line in b['lines']],
-            'expected_camera':segment['camera_plan'],'probe':probe}
+            'expected_camera':segment['camera_plan'],'expected_beats':segment['timeline'],'probe':probe}
     (output/'inspection.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     return {k:result[k] for k in ('video','duration','audio_streams','contact_sheets','content_status')}
 

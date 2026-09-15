@@ -149,18 +149,26 @@ def _run(segment_id,take=1,resolution='480p'):
         raise
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('command',choices=['preflight','run','asr']);ap.add_argument('--segment',action='append',required=True);ap.add_argument('--take',type=int,default=1);ap.add_argument('--resolution',default='480p');ap.add_argument('--workers',type=int,default=2);a=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('command',choices=['preflight','run','asr']);ap.add_argument('--segment',action='append',required=True);ap.add_argument('--take',type=int,default=1);ap.add_argument('--resolution',default='480p');ap.add_argument('--workers',type=int,default=2);ap.add_argument('--decoder',choices=['whisper','scribe'],default='whisper');a=ap.parse_args()
     if not 1<=a.workers<=6 or a.take<1:ap.error('并发1–6，take为正数')
     if a.command=='preflight':
         for ident in a.segment:
             t=build(ident,a.take,a.resolution);write(K/'请求'/f'{ident}_take{a.take:02d}.json',t);print(json.dumps({'segment':ident,'refs':len(t['references']),'prompt_chars':len(t['prompt']),'seconds':t['seconds']},ensure_ascii=False))
     elif a.command=='asr':
         for ident in a.segment:
-            f=K/'视频'/ident/f'take_{a.take:02d}_{a.resolution}.mp4';out=f.with_suffix('.asr.json')
-            if out.exists():print(ident,'ASR existing');continue
-            d,e=provider.transcribe(str(f),language='zh',chunk_level='segment')
+            f=K/'视频'/ident/f'take_{a.take:02d}_{a.resolution}.mp4';out=f.with_suffix('.scribe.json' if a.decoder=='scribe' else '.asr.json')
+            digest=sha(f)
+            if out.exists():
+                if read(out).get('source_sha256')!=digest:raise ValueError('听写所据视频已变更或缺来源指纹')
+                print(ident,'ASR existing');continue
+            if a.decoder=='scribe':
+                wav=f.with_suffix('.wav')
+                subprocess.run(['ffmpeg','-v','error','-y','-i',str(f),'-vn','-ac','1','-ar','48000',str(wav)],check=True)
+                d,e=provider.transcribe_scribe(str(wav))
+            else:d,e=provider.transcribe(str(f),language='zh',chunk_level='segment')
             if e:raise RuntimeError(e)
-            write(out,{'source_sha256':sha(f),'result':d});print(ident,'ASR saved')
+            if sha(f)!=digest:raise ValueError('听写期间源视频变更')
+            write(out,{'source_sha256':digest,'decoder':a.decoder,'text_hints':False,'result':d});print(ident,'ASR saved')
     else:
         failed=False
         with concurrent.futures.ThreadPoolExecutor(max_workers=a.workers) as pool:
