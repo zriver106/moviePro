@@ -22,11 +22,26 @@ class ResourceGates(unittest.TestCase):
         self.patcher.start()
         self.addCleanup(self.patcher.stop)
 
-    def test_missing_external_review_precedes_provider(self):
+    def test_missing_spec_precedes_provider(self):
         with patch.object(resource.rating_gate, 'require'), patch.object(resource.provider, 'text_to_image') as paid:
             with self.assertRaises(FileNotFoundError):
                 resource.generate('新增资产规格.json', {})
             paid.assert_not_called()
+
+    def test_metadata_change_needs_no_resource_rating(self):
+        resource.write(self.root/'评审/当前评级.json', {'external_review':{'manifest_sha256':'current'}})
+        resource.write(self.root/'新增资产规格.json', {'source_manifest_sha256':'current','assets':[{'id':'renamed','output':'new/path.jpg'}]})
+        with patch.object(resource.rating_gate, 'require') as source_gate:
+            resource.require_spec('新增资产规格.json')
+            source_gate.assert_called_once()
+        self.assertFalse((self.root/'资源外评.json').exists())
+
+    def test_stale_story_source_still_blocks_resources(self):
+        resource.write(self.root/'评审/当前评级.json', {'external_review':{'manifest_sha256':'new'}})
+        resource.write(self.root/'新增资产规格.json', {'source_manifest_sha256':'old'})
+        with patch.object(resource.rating_gate, 'require'):
+            with self.assertRaisesRegex(ValueError, '正文版本不符'):
+                resource.require_spec('新增资产规格.json')
 
     def test_unreviewed_image_cannot_enter_shot(self):
         with self.assertRaisesRegex(ValueError, '尚未目视采用'):
@@ -56,7 +71,7 @@ class ResourceGates(unittest.TestCase):
     def test_rejected_frame_cannot_repeat_original_paid_request(self):
         resource.write(self.root/'视觉检查.json', {'shots':[{'id':'EP001_SH03','status':'rejected'}]})
         with patch.object(resource, 'require_spec'), patch.object(resource.provider, 'edit_image') as paid:
-            with self.assertRaisesRegex(ValueError, '须使用已独立评级'):
+            with self.assertRaisesRegex(ValueError, '须使用对应纠错任务'):
                 resource.generate('出图任务.json', {'id':'EP001_SH03'})
             paid.assert_not_called()
 

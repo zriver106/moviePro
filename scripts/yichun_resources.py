@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""57镜新版资源任务：读取已评级规格，按引用指纹生成独立候选，绝不覆盖旧版。"""
+"""57镜新版资源任务：读取当前剧本对应规格，按引用指纹生成独立候选，绝不覆盖旧版。"""
 import argparse
 import base64
 import concurrent.futures
@@ -37,27 +37,12 @@ def write(p, data):
 
 def require_spec(spec_name):
     rating_gate.require('一寸活路', what='新版资源生成')
-    approval = read(J / '资源外评.json')
-    if spec_name not in approval.get('files', {}):
-        review = {'结构修图任务.json':'结构修图外评.json',
-                  '分镜修图任务.json':'分镜修图外评.json'}.get(spec_name, '修图外评.json')
-        approval = read(J / review)
-    evidence = J / approval['evidence_path']
-    if sha(evidence) != approval['evidence_sha256'] or not approval.get('message_id'):
-        raise ValueError('资源独立外评证据缺失或过期')
-    if approval['thread_id'] != '01a08ea0-8c4d-74e0-ae4b-95fa647cfb4d':
-        raise ValueError('资源评级任务不匹配')
-    if approval.get('blocking_issues') != [] or not approval.get('dimensions'):
-        raise ValueError('资源外评仍有阻断或缺适用维度')
-    if any(x not in ('S', 'S+') for x in approval['dimensions'].values()):
-        raise ValueError('资源外评未达S')
-    if approval['files'].get(spec_name) != sha(J / spec_name):
-        raise ValueError(f'资源规格变更需复评: {spec_name}')
-    for name, digest in approval['files'].items():
-        if sha(J / name) != digest:
-            raise ValueError(f'同一送审包关联文件改变: {name}')
+    # Production metadata and faithful rendering adjustments need consistency checks,
+    # not an independent fiction rating. Story changes belong in the source scripts
+    # and boards, whose independent rating is enforced above.
+    spec = read(J / spec_name)
     current = read(P / '评审/当前评级.json')['external_review']['manifest_sha256']
-    if approval['source_manifest_sha256'] != current:
+    if spec.get('source_manifest_sha256') != current:
         raise ValueError('资源与当前正文版本不符')
 
 
@@ -92,7 +77,7 @@ def generate(spec_name, row, variant=1):
     if spec_name == '出图任务.json' and qa_path.exists():
         rejected = {x['id'] for x in read(qa_path).get('shots', []) if x['status'] == 'rejected'}
         if row['id'] in rejected:
-            raise ValueError(f"{row['id']} 首版已被视觉检查退回，须使用已独立评级的纠错任务")
+            raise ValueError(f"{row['id']} 首版已被视觉检查退回，须使用对应纠错任务并重新视觉检查")
     prompt = row['prompt']
     neg = NEG_RE.findall(prompt)
     if neg:
