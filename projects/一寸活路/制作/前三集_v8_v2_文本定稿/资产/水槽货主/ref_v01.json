@@ -1,0 +1,13 @@
+{
+  "id": "水槽货主",
+  "request_sha256": "b251b8f6f2b395a3b947b48b321be797ed565c3715e86b2cadab233c8a0b21f6",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {},
+  "image_sha256": "23b0d677fba3fe3a6570d83a96e9650333be8d24fb8494bd58788b05d06f0ec3",
+  "dimensions": [
+    1920,
+    2560
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

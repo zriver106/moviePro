@@ -1,0 +1,15 @@
+{
+  "id": "葛牙_落帽束腕",
+  "request_sha256": "d2658a5a8ac238b786582e366ea829ae53397189d153cc504ab46e4904e61698",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/葛牙/cell_01.jpg": "d2820c27545132b4cd142e0cc4d67e054bc696a597b8ff88a520b650da83dbca"
+  },
+  "image_sha256": "145a61447627cc6b45f45491ff4705e01ff1c0c2d6943a98ebe57df1c39682a8",
+  "dimensions": [
+    1920,
+    2560
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

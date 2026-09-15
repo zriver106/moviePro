@@ -1,0 +1,19 @@
+{
+  "id": "EP002_SH17",
+  "request_sha256": "cb8d4a0c3eebfca53a4fec43037563954538f60b16224e0a6539e741a18b3c6b",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/repair_v03.jpg": "da41d3a3084ac4e3ea84eb60682803141e1a4bd0bb08a3a14f469bd85f54927f",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg": "06284023eadc1c447de50e0fdf1ee8eb8203bf3ab4ccaf131943b3eba2e99e79",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg": "c33bd6505ec57eefc0b4c3426fea31bd37d635bdbe060136a2bd99dbab83a423",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/售船纸_01.jpg": "edc406e0d207ba3a87011c7c7e214e2d65f71144dd5ca86029e843e58344ebec",
+    "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg": "603e830fa960a300d91ffda91b3bdd7bac766f20ecd92ccd2110b90423612b18"
+  },
+  "image_sha256": "4cea0fe0c884a1daeeb18eba10c813020c29e080d1b79ba470f8570a782ebeaa",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

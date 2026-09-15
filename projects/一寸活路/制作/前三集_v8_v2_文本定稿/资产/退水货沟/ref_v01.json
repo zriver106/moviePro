@@ -1,0 +1,16 @@
+{
+  "id": "退水货沟",
+  "request_sha256": "d9fcf4a4d4f337620efc2f8db682f92d9e891040a41b868f4a8910d5dfe7ae66",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/闸舱/sheet_v01.jpg": "5681cb405ab726c6987b291dda05338b0df95ba4d0f1868af3572ea9d56eba50",
+    "制作/前三集_v8_v1/资产/保单货箱/cell_01.jpg": "e940e488567a207e1437cca6d6a8967d2de26b98e6b182520f2ee1b454037cf3"
+  },
+  "image_sha256": "dadb6571409457a4784d38a53258d4e5f2eab1fe9fcddd338045c7f3367a5fa6",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

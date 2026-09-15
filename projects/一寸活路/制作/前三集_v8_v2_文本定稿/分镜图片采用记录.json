@@ -1,0 +1,72 @@
+{
+  "EP001_SH01": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH01/frame_text_v01.jpg",
+    "sha256": "7b858c6463817a856058508ed73a09fa6cb802f4bcf8043f393da9e751987a52",
+    "status": "accepted_storyboard",
+    "reviewer": "Codex visual inspection",
+    "scope": "木牌文字准确可读、手部特写；静态分镜，翻牌动作未模拟"
+  },
+  "EP002_SH14": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH14/frame_v01.jpg",
+    "sha256": "e39f1c5a8c6471f8788ec3516b388397e0d21b156a174a3e8e71f9a5a1d0be87",
+    "status": "accepted_storyboard",
+    "reviewer": "Codex visual inspection",
+    "scope": "陆照与陆禾身份服装一致，姐姐拿走旧碗的起始关系可辨"
+  },
+  "EP001_SH02": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH02/frame_v01.jpg",
+    "sha256": "5c3f72ed8109a3e791d33dc159227778720fa9de51f0b8873e10c7447bc4933c",
+    "status": "accepted_storyboard",
+    "reviewer": "Codex visual inspection",
+    "scope": "下梯入浅水的起始帧，左梯右门轴线可辨；仅静态制作参考，非成片验收"
+  },
+  "EP001_SH16": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH16/frame_v01.jpg",
+    "sha256": "c8bf7f643421cb25dedb2b033c72d58b8a5b482786548516d0592d1275be39d7",
+    "status": "accepted_storyboard",
+    "reviewer": "Codex visual inspection",
+    "scope": "回到修台的起始站位，抵榫发力属于后续动作；仅静态制作参考，非成片验收"
+  },
+  "EP001_SH17": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH17/frame_v01.jpg",
+    "sha256": "4de88cac08b1e85fafb503df69fb1b8674d5581cf8d404024d677f23a34bdb67",
+    "status": "accepted_storyboard",
+    "reviewer": "Codex visual inspection",
+    "scope": "闻溪唇边水线、检修口和高处灯位置可辨；仅静态制作参考，非成片验收"
+  },
+  "EP002_SH06": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH06/frame_v01.jpg",
+    "sha256": "27d39f4d9567e349551676832ca1bae1ed9fe5fcc91f9635a18407f62afc4714",
+    "status": "accepted_storyboard",
+    "reviewer": "Codex visual inspection",
+    "scope": "岑鹿保单贴拦棍、守卫检查的起始关系可辨；仅静态制作参考，非成片验收"
+  },
+  "EP002_SH12": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH12/frame_v01.jpg",
+    "sha256": "122cf370a6cca0da941513e2f22aa95bbc345c4278240471b4fd656e2e7bdc4c",
+    "status": "accepted_storyboard",
+    "reviewer": "Codex visual inspection",
+    "scope": "老人手扶原锥手的回忆近景；身份与胸伤语境沿前镜；仅静态制作参考，非成片验收"
+  },
+  "EP002_SH15": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH15/frame_v01.jpg",
+    "sha256": "dd5db6d4a87c81ce55923afe1c92d2a339e042811726af29bbfa17eca1a0a8fd",
+    "status": "accepted_storyboard",
+    "reviewer": "Codex visual inspection",
+    "scope": "两只完整饭碗、姐弟身份及蒸汽可辨，分肉属于后续动作；仅静态制作参考，非成片验收"
+  },
+  "EP003_SH02": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH02/frame_v01.jpg",
+    "sha256": "c7d933b7b1b1ab84bf43bbfe210479a7cda1652afd7ad675e18b222e692bb90c",
+    "status": "accepted_storyboard",
+    "reviewer": "Codex visual inspection",
+    "scope": "水槽货主交钱，闻溪后方，锥已入鞘；仅静态制作参考，非成片验收"
+  },
+  "EP003_SH04": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH04/frame_v01.jpg",
+    "sha256": "fa65526c5b9af42a985e30171e93320aa967b0282b3a59f2840739cc52dc4940",
+    "status": "accepted_storyboard",
+    "reviewer": "Codex visual inspection",
+    "scope": "午饭碗放门旁低台的起始动作；仅静态制作参考，非成片验收"
+  }
+}

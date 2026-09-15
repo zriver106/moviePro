@@ -26,10 +26,21 @@
       "storyboard_grade": "S"
     }
   ],
-  "stage": "文本评级通过；资产规划已同步；本轮不出图",
+  "stage": "资源文件同步完成；图片未全部验收",
   "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
   "historical_version": "前三集_v8_v1",
   "historical_generation_enabled": false,
-  "generated_images_this_turn": 0,
-  "assets_approved_for_new_version": 0
+  "generated_images_this_turn": 88,
+  "assets_approved_for_new_version": 64,
+  "approval_scope": "内部静态参考采用，不代表整集图片或成片批准",
+  "resource_sync": "complete",
+  "image_delivery_ready": false,
+  "generated_shot_candidates": 40,
+  "unique_reference_paths": 66,
+  "accepted_storyboard_frames": 10,
+  "rejected_storyboard_frames": 27,
+  "pending_close_review_frames": 3,
+  "not_generated_frames": 17,
+  "sync_audit": "制作/前三集_v8_v2_文本定稿/资源同步核验.json",
+  "visual_audit": "制作/前三集_v8_v2_文本定稿/视觉检查.json"
 }

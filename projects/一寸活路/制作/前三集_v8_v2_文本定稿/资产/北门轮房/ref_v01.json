@@ -1,0 +1,15 @@
+{
+  "id": "北门轮房",
+  "request_sha256": "ddf306996afc5c77861706ef72152280d971a6f6905ea31b173b7a65466138cc",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/北门/sheet_v02.jpg": "3ae9d1c32f0b0c4987e4ce3768b3d305408e9d010e3b7c22310f4c7cebadacae"
+  },
+  "image_sha256": "5c7f26cdfb804b9996beb8d65d20a3d145b2d04abfcb42265f7a3f9230b92b50",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "陆照_左肩伤包掌",
+  "request_sha256": "7f9a73c603e48adce8cf4a1ad577be77b69cde15d764f19f3d0b7bfcd4f40401",
+  "spec_sha256": "43f2cee4e261ddfac815b20964ddb0f805896ff498565f2e9c84bde9c7a7b44a",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/陆照/cell_01.jpg": "fae19e1d4274a88a19762e40b7f2d517a20f23a33776d97bf82a4fd3d40d74cd"
+  },
+  "image_sha256": "f6dda959887c19dfa2928970a4ad060d752489ec6e0da6778fd004e3c8caaf0d",
+  "dimensions": [
+    1920,
+    2560
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

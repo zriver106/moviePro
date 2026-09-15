@@ -1,0 +1,13 @@
+{
+  "id": "余烬老人",
+  "request_sha256": "4e71928e93443d4b809b492bf077c9a61f4362d565ab60da2d3beca982ece8bf",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {},
+  "image_sha256": "3c90442e53173653b7f3e229f006afff4831205b3d2ee40bd285f99a25654183",
+  "dimensions": [
+    1920,
+    2560
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

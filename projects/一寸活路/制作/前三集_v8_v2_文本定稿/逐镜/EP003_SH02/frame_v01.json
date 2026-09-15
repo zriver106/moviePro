@@ -1,0 +1,19 @@
+{
+  "id": "EP003_SH02",
+  "request_sha256": "a311546dd3468d8e5f01c3755735ed10370f633492a7467973aba354eaadb75c",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v02.jpg": "c98bec122745e05ddfdc0eee7c3d4d362f4ff0eeb0783bc4959a41967936bdaf",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg": "2754fefd3398e60ef449f9d3289d049aa223327ec49e434d1f3a46ed13e35d07",
+    "制作/前三集_v8_v2_文本定稿/资产/水槽货主/ref_v01.jpg": "23b0d677fba3fe3a6570d83a96e9650333be8d24fb8494bd58788b05d06f0ec3",
+    "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg": "b839a6548578af7e7af023493a3e24946298fae924abf748df38ccca82a5e265",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+  },
+  "image_sha256": "c7d933b7b1b1ab84bf43bbfe210479a7cda1652afd7ad675e18b222e692bb90c",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

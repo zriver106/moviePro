@@ -1,0 +1,18 @@
+{
+  "thread_id": "01a08ea0-8c4d-74e0-ae4b-95fa647cfb4d",
+  "message_id": "msg_07d663443608dd60016aa8993cb67087d1833a572c5a02401a",
+  "evidence_path": "修图真实外评.json",
+  "evidence_sha256": "e586e23aa4b9e812f137f74500461ffd9203e4a1108f08044496d48cacf0f310",
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "files": {
+    "修图任务.json": "43f2cee4e261ddfac815b20964ddb0f805896ff498565f2e9c84bde9c7a7b44a"
+  },
+  "dimensions": {
+    "原稿一致性": "S",
+    "人物状态连续性": "S",
+    "机关空间执行": "S",
+    "渲染语义": "S"
+  },
+  "blocking_issues": [],
+  "scope": "7项纠错全文基线与胸伤项局部复核；像素未评"
+}

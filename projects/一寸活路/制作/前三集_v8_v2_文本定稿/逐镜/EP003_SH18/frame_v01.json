@@ -1,0 +1,17 @@
+{
+  "id": "EP003_SH18",
+  "request_sha256": "0ab732a3a70573c329e8e1330096265cbe6632dc2746dc665c0784921f182905",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg": "b022241e95628b32a037b57538e0e9d8d6a1e9b59470de4e78fc2fbe4319e715",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg": "a3a218ac22307538ae4345f59290a4f43546b57c3dccab1521ef101f31c72901",
+    "制作/前三集_v8_v2_文本定稿/资产/码头绳摊/ref_v01.jpg": "5d4e51ad22b0f4ecdd6d2964f4a36d4a49c11030181192996f96853118bedb56"
+  },
+  "image_sha256": "a496bd559f39a55a05dcfc26571dea259bac9d5b396cbdeb9a6fe58d510b68ff",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

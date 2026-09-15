@@ -1,0 +1,17 @@
+{
+  "id": "EP001_SH17",
+  "request_sha256": "0c68ed02c475c158d0f09bb69cde8d26634047adc15251204489d236ca8f020c",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg": "64c1ea1e4dafba9cb6c138118bf2c5a86511039606b129d9a81c5f2d938ffecd",
+    "制作/前三集_v8_v2_文本定稿/资产/北门内室/ref_v01.jpg": "c81ef2f2843cc411b520c460a3e659ec6ed68ab954900088289a24e2cb8ca25f",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/油灯_01.jpg": "a77f20faebbbb44790e9c25f18f18e125e242b33225e4329943e9c3dbb6042a7"
+  },
+  "image_sha256": "4de88cac08b1e85fafb503df69fb1b8674d5581cf8d404024d677f23a34bdb67",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

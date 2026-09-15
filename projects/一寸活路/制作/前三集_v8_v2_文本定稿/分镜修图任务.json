@@ -1,0 +1,313 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "scope": "13镜静态起始帧纠错，原分镜不改；全包送独立文字评级后才生成",
+  "shots": [
+    {
+      "id": "EP001_SH03",
+      "prompt": "Sculpted Chinese 3D animated feature style, dimensional faces and woven fabric, soft cinematic lighting. Medium side view INSIDE the flooded locked room. Exactly three trapped people immersed to their upper chests: Wen Xi in pale mint at left, grey-bearded worker center holding the wooden jamb, Ali in dark blue at right pressing his two empty bare palms against the lower timber door panel. All three bodies descend into deep water, feet submerged. Wen Xi reaches up to place her small lantern on the high inspection-opening ledge just above her face. The small high opening, inner wooden door face and deep water fill the entire background. Faces urgent, wet clothes heavy. One instantaneous frame at the approved shot start. Reference 1 defines Wen Xi identity and clothing. Reference 2 defines the grey-bearded rescued worker identity and clothing. Reference 3 defines Ali identity and clothing. Reference 4 defines environment materials and spatial anchors. Reference 5 defines oil lantern. Reference portraits define appearance; the explicit current shot sets the pose, count, crop and object scale. Lettering surfaces are blank for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门内室/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/油灯_01.jpg"
+      ],
+      "ref_roles": [
+        "Wen Xi identity and clothing",
+        "the grey-bearded rescued worker identity and clothing",
+        "Ali identity and clothing",
+        "environment materials and spatial anchors",
+        "oil lantern"
+      ],
+      "output": "逐镜/EP001_SH03/repair_v02.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 948000,
+      "reason": "首版像素偏离已批准起始动作，按当前原分镜纠正；文本分镜不变。"
+    },
+    {
+      "id": "EP001_SH04",
+      "prompt": "Sculpted Chinese 3D animated feature style, dimensional faces and woven fabric, soft cinematic lighting. Side wide shot. Lu Zhao crouches on the narrow raised wooden repair ledge, both soles braced against two wooden foot pegs. Both hands grip the same small hemp-handled black awl, its tip against the LEFT half of the palm-sized copper latch plate. The copper face is continuous and intact. The palm-sized plate is held by two shallow edge tabs, one at top and one at bottom. A small inspection opening above reveals the closed wooden latch tongue. Wet lower trouser legs, dry repair ledge above ankle-deep chamber water. This instant is before the first push. One instantaneous frame at the approved shot start. Reference 1 defines Lu Zhao identity and clothing. Reference 2 defines environment materials and spatial anchors. Reference 3 defines short black awl. Reference 4 defines copper latch plate. Reference portraits define appearance; the explicit current shot sets the pose, count, crop and object scale. Lettering surfaces are blank for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_完好/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl",
+        "copper latch plate"
+      ],
+      "output": "逐镜/EP001_SH04/repair_v02.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 948001,
+      "reason": "首版像素偏离已批准起始动作，按当前原分镜纠正；文本分镜不变。"
+    },
+    {
+      "id": "EP001_SH15",
+      "prompt": "Sculpted Chinese 3D animated feature style, dimensional faces and woven fabric, soft cinematic lighting. Medium side view of Lu Zhao just rising from his kneel beside the low timber post on its raised base. A single thin faint amber line glows inside his sternum under his teal collar. Behind him, the stocky wet Ma Duo remains half-reclined against the raised post base, his two wrists still tightly bound to the SAME LOW FOOT of the post in the established position. His ankles remain looped. The restrained man strains while his head stays above shallow water. Lu Zhao looks toward the closed north door. The original small awl lies flat on the raised repair ledge, purse nearby. Closed locked door, shallow chamber water. One instantaneous frame at the approved shot start. Reference 1 defines Lu Zhao identity and clothing. Reference 2 defines Ma Duo identity and clothing. Reference 3 defines environment materials and spatial anchors. Reference 4 defines short black awl. Reference portraits define appearance; the explicit current shot sets the pose, count, crop and object scale. Lettering surfaces are blank for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ma Duo identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH15/repair_v02.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 948002,
+      "reason": "首版像素偏离已批准起始动作，按当前原分镜纠正；文本分镜不变。"
+    },
+    {
+      "id": "EP001_SH18",
+      "prompt": "Sculpted Chinese 3D animated feature style, dimensional faces and woven fabric, soft cinematic lighting. Extreme close view of a palm-sized COPPER PLATE and the tiny awl point touching its RIGHT side. The LEFT half has one four-millimeter shallow round dimple. The RIGHT half is flat intact continuous copper at this starting instant, with the awl point resting on it. Copper surface occupies most of frame. Upper and lower shallow retaining tabs hold the plate flat on the timber. A closed wooden tongue remains seated behind the cover. The two black-wrapped hands grip the short old awl for a straight push. Minute surface marks, close object scale. One instantaneous frame at the approved shot start. Reference 1 defines Lu Zhao identity and clothing. Reference 2 defines short black awl. Reference 3 defines copper latch plate. Reference portraits define appearance; the explicit current shot sets the pose, count, crop and object scale. Lettering surfaces are blank for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "short black awl",
+        "copper latch plate"
+      ],
+      "output": "逐镜/EP001_SH18/repair_v02.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 948003,
+      "reason": "首版像素偏离已批准起始动作，按当前原分镜纠正；文本分镜不变。"
+    },
+    {
+      "id": "EP001_SH20",
+      "prompt": "Sculpted Chinese 3D animated feature style, dimensional faces and woven fabric, soft cinematic lighting. Wide rescue view, camera level with the raised repair ledge. Lu Zhao is kneeling firmly ON the dry raised ledge at screen left. Wen Xi has one knee already ON that same ledge while her trailing leg remains at the open doorway, and Lu Zhao grips her forearm to help her climb. The grey-bearded worker waits upright against the INNER doorway threshold at right. Three distinct people, one of each. Water flows on the LOWER floor below the elevated ledge. The open door remains at screen right, ladder far left. Visible raised ledge supports Lu Zhao and Wen Xi. One instantaneous frame at the approved shot start. Reference 1 defines Lu Zhao identity and clothing. Reference 2 defines Wen Xi identity and clothing. Reference 3 defines the grey-bearded rescued worker identity and clothing. Reference 4 defines environment materials and spatial anchors. Reference 5 defines short black awl. Reference portraits define appearance; the explicit current shot sets the pose, count, crop and object scale. Lettering surfaces are blank for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Wen Xi identity and clothing",
+        "the grey-bearded rescued worker identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH20/repair_v02.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 948004,
+      "reason": "首版像素偏离已批准起始动作，按当前原分镜纠正；文本分镜不变。"
+    },
+    {
+      "id": "EP001_SH21",
+      "prompt": "Sculpted Chinese 3D animated feature style, dimensional faces and woven fabric, soft cinematic lighting. Medium side rescue view of exactly THREE people: Lu Zhao in teal, Wen Xi in pale mint, Ali in dark blue. Lu Zhao kneels with both knees firmly on the RAISED repair ledge, bends toward the right-hand doorway and grips Ali forearm. Ali clings to the INNER door jamb at right, his bent knee caught below the wooden threshold. Wen Xi KNEELS directly behind Lu Zhao ON the same raised ledge and grips his waist belt with both hands to anchor him. One Wen Xi, one Lu Zhao, one Ali. Lower floor water is below the ledge. Ali face and trapped knee visible. This frame precedes the lift. One instantaneous frame at the approved shot start. Reference 1 defines Lu Zhao identity and clothing. Reference 2 defines Wen Xi identity and clothing. Reference 3 defines Ali identity and clothing. Reference 4 defines environment materials and spatial anchors. Reference 5 defines short black awl. Reference portraits define appearance; the explicit current shot sets the pose, count, crop and object scale. Lettering surfaces are blank for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Wen Xi identity and clothing",
+        "Ali identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH21/repair_v02.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 948005,
+      "reason": "首版像素偏离已批准起始动作，按当前原分镜纠正；文本分镜不变。"
+    },
+    {
+      "id": "EP002_SH03",
+      "prompt": "Sculpted Chinese 3D animated feature style, dimensional faces and woven fabric, soft cinematic lighting. Extreme low CLOSE-UP of the wooden DRAIN STOPPER at floor level, shallow water rippling around it and a narrow runoff channel sloping outward toward the low-tide river. A teal cuff and bare fingers enter the edge of frame poised to lift the stopper. Crop ends at the wrist. The drain, fingers and sloping channel occupy the whole frame. Weathered timber, dull bronze stopper fitting, physically connected water path. One instantaneous frame at the approved shot start. Reference 1 defines Lu Zhao identity and clothing. Reference 2 defines visible prop reference. Reference 3 defines visible prop reference. Reference portraits define appearance; the explicit current shot sets the pose, count, crop and object scale. Lettering surfaces are blank for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/退水栓_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "visible prop reference",
+        "visible prop reference"
+      ],
+      "output": "逐镜/EP002_SH03/repair_v02.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 948006,
+      "reason": "首版像素偏离已批准起始动作，按当前原分镜纠正；文本分镜不变。"
+    },
+    {
+      "id": "EP002_SH08",
+      "prompt": "Sculpted Chinese 3D animated feature style, dimensional faces and woven fabric, soft cinematic lighting. Medium close view at a dockside timber payment table. Cen Lu in purple is weighing a small coin purse on a tiny balance scale. Lu Zhao in damp teal stands beside her. A broad BLANK rectangular payment slip lies clearly on the tabletop next to the scale, its face unobstructed for later Chinese wage typography. Small strings of copper coins rest beside it. The scale and blank receipt dominate the lower half of composition. Their identities match the references, their current hands follow the weighing action. One instantaneous frame at the approved shot start. Reference 1 defines Cen Lu identity and clothing. Reference 2 defines Lu Zhao identity and clothing. Reference 3 defines environment materials and spatial anchors. Reference portraits define appearance; the explicit current shot sets the pose, count, crop and object scale. Lettering surfaces are blank for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/码头_01.jpg"
+      ],
+      "ref_roles": [
+        "Cen Lu identity and clothing",
+        "Lu Zhao identity and clothing",
+        "environment materials and spatial anchors"
+      ],
+      "output": "逐镜/EP002_SH08/repair_v02.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 948007,
+      "reason": "首版像素偏离已批准起始动作，按当前原分镜纠正；文本分镜不变。"
+    },
+    {
+      "id": "EP002_SH09",
+      "prompt": "Sculpted Chinese 3D animated feature style, dimensional faces and woven fabric, soft cinematic lighting. Extreme CLOSE-UP of Lu Zhao RIGHT PALM facing upward on a small treatment table. A narrow white medicinal cloth already circles his right PALM, thumb and fingertips exposed. Wen Xi slender fingers hold the final loose cloth tail poised for the last turn around his palm. Teal cuff and black wrist wrap end at the edge of the shot. His other bare hand rests beside a stationary small string of medical-fee coins at the table edge. Camera crops at both wrists: palms, fingers, cloth and coins fill the picture. The treatment is on the palm skin. One instantaneous frame at the approved shot start. Reference 1 defines Lu Zhao identity and clothing. Reference 2 defines Wen Xi identity and clothing. Reference 3 defines visible prop reference. Reference 4 defines visible prop reference. Reference portraits define appearance; the explicit current shot sets the pose, count, crop and object scale. Lettering surfaces are blank for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/药布_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Wen Xi identity and clothing",
+        "visible prop reference",
+        "visible prop reference"
+      ],
+      "output": "逐镜/EP002_SH09/repair_v02.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 948008,
+      "reason": "首版像素偏离已批准起始动作，按当前原分镜纠正；文本分镜不变。"
+    },
+    {
+      "id": "EP002_SH10",
+      "prompt": "Sculpted Chinese 3D animated feature style, dimensional faces and woven fabric, soft cinematic lighting. Extreme CLOSE-UP of Lu Zhao waist and hands at the sheath stall. A small EMPTY dark-brown leather awl sheath is newly tied vertically to his tan waist sash beside the soft coin pouch, sheath length about a palm. His bandaged RIGHT PALM holds the single original short black awl by its old hemp-wrapped handle, steel point poised directly ABOVE the empty sheath mouth. The other hand steadies the small sheath. Crop from ribs to upper thighs. Several paid coins lie on the nearby stall cloth. The awl and sheath are ordinary small hand tools. One instantaneous frame at the approved shot start. Reference 1 defines Lu Zhao identity and clothing. Reference 2 defines visible prop reference. Reference 3 defines short black awl. Reference 4 defines visible prop reference. Reference portraits define appearance; the explicit current shot sets the pose, count, crop and object scale. Lettering surfaces are blank for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "visible prop reference",
+        "short black awl",
+        "visible prop reference"
+      ],
+      "output": "逐镜/EP002_SH10/repair_v02.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 948009,
+      "reason": "首版像素偏离已批准起始动作，按当前原分镜纠正；文本分镜不变。"
+    },
+    {
+      "id": "EP002_SH11",
+      "prompt": "Sculpted Chinese 3D animated feature style, dimensional faces and woven fabric, soft cinematic lighting. Cool dim flashback in an abandoned wooden boat. Medium view of young Lu Zhao in teal, collar opened just enough to expose a small OLD wound on his upper CHEST. The gaunt clean-shaven elder has a conspicuous RED cloth strip tied around his RIGHT WRIST. With his bare right fingers the elder holds a THIN RED EMBER poised in front of the chest wound, ready for the subsequent pressing action. His other hand supports an intact tiny old box. Bare fingers touching ember, intimate small gesture. Lu Zhao holds his original short awl lower down. Low ember glow remains confined to the thin object in the elder fingers. One instantaneous frame at the approved shot start. Reference 1 defines Lu Zhao identity and clothing. Reference 2 defines the gaunt clean-shaven elder identity and clothing. Reference 3 defines environment materials and spatial anchors. Reference 4 defines short black awl. Reference portraits define appearance; the explicit current shot sets the pose, count, crop and object scale. Lettering surfaces are blank for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/废船_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "the gaunt clean-shaven elder identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP002_SH11/repair_v02.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 948010,
+      "reason": "首版像素偏离已批准起始动作，按当前原分镜纠正；文本分镜不变。"
+    },
+    {
+      "id": "EP002_SH16",
+      "prompt": "Sculpted Chinese 3D animated feature style, dimensional faces and woven fabric, soft cinematic lighting. Medium domestic view of Lu He in orange apron pressing one corner of a large cream PAPER sale notice spread FLAT on the table. On the paper upper third is a modest ink sketch of a small old WOODEN BOAT with a visibly repaired bow. The paper lower half is plain blank cream reserved for Chinese price typography. Lu Zhao sits at left with bandaged right palm and a tiny ordinary awl sheathed AT HIS WAIST. Exactly two intact ceramic rice bowls stand on the small crooked dining table. The TABLETOP contains those two bowls, the flat sheet of paper, the already-tied strings of two hundred copper coins and the small coin purse, ready for the following shot to gather the strings into the purse; warm modest home background. One instantaneous frame at the approved shot start. Reference 1 defines Lu Zhao identity and clothing. Reference 2 defines Lu He identity and clothing. Reference 3 defines environment materials and spatial anchors. Reference 4 defines boat sale paper. Reference 5 defines two intact rice bowls. Reference portraits define appearance; the explicit current shot sets the pose, count, crop and object scale. Lettering surfaces are blank for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/售船纸_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Lu He identity and clothing",
+        "environment materials and spatial anchors",
+        "boat sale paper",
+        "two intact rice bowls"
+      ],
+      "output": "逐镜/EP002_SH16/repair_v02.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 948011,
+      "reason": "首版像素偏离已批准起始动作，按当前原分镜纠正；文本分镜不变。"
+    },
+    {
+      "id": "EP003_SH03",
+      "prompt": "Sculpted Chinese 3D animated feature style, dimensional faces and woven fabric, soft cinematic lighting. Wide tense hostage composition along the quay net rack. At SCREEN RIGHT, brown-hooded Ge Ya stands immediately behind the dark-blue-clothed young Ali, twists Ali RIGHT ARM behind his back with his left hand, and holds his short knife in his right hand against Ali ribs. At SCREEN LEFT, teal-clothed Lu Zhao stands beside his sister closed wooden house door. Pale-mint Wen Xi has just stopped beside Lu Zhao, looking toward ALI, both hands still lowered at her sides before the subsequent reaching action. Four distinct characters: brown Ge Ya, blue Ali, teal Lu Zhao, mint Wen Xi. Their respective faces follow their labeled references. The knife belongs to Ge Ya and touches Ali ribs. One instantaneous frame at the approved shot start. Reference 1 defines Ge Ya identity and clothing. Reference 2 defines Ali identity and clothing. Reference 3 defines Lu Zhao identity and clothing. Reference 4 defines Wen Xi identity and clothing. Reference 5 defines environment materials and spatial anchors. Reference 6 defines short knife. Reference 7 defines short black awl. Reference portraits define appearance; the explicit current shot sets the pose, count, crop and object scale. Lettering surfaces are blank for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Ge Ya identity and clothing",
+        "Ali identity and clothing",
+        "Lu Zhao identity and clothing",
+        "Wen Xi identity and clothing",
+        "environment materials and spatial anchors",
+        "short knife",
+        "short black awl"
+      ],
+      "output": "逐镜/EP003_SH03/repair_v02.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 948012,
+      "reason": "首版像素偏离已批准起始动作，按当前原分镜纠正；文本分镜不变。"
+    }
+  ]
+}

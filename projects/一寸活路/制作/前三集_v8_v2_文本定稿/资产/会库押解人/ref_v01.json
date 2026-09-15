@@ -1,0 +1,13 @@
+{
+  "id": "会库押解人",
+  "request_sha256": "b62827a8c9857893f011a64f8404b2bba05a5c9ce8c53613cafb1c26330d1154",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {},
+  "image_sha256": "1917304d848e74a06a16ec83ebaaf41b999b66ad676e2c4ce8ef72bab3aaa964",
+  "dimensions": [
+    1920,
+    2560
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

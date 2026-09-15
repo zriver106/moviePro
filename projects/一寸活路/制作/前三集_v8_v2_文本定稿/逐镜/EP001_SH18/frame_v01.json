@@ -1,0 +1,17 @@
+{
+  "id": "EP001_SH18",
+  "request_sha256": "72c4c62405d5e2cb2a838922ae8f9cc37c47984073789343de5097848ec7c557",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c",
+    "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg": "c7276c3b570c5294731ec280868bb504b2cb4203946b05648d9b1001d1f75e70"
+  },
+  "image_sha256": "4c91e05fb6ef59a7ab3c82970b498e8366fac1a2b0600ee2eee64478065fe041",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

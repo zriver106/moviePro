@@ -1,0 +1,18 @@
+{
+  "id": "EP002_SH11",
+  "request_sha256": "91528e84eca48aee047c9186099dcd1e9c10724a0ca3861f87174ee273d0ffcf",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/repair_v03.jpg": "73270676c95e6aebe38fcbfc3a3df422079e321d81ec70af648e19cbd32b10ca",
+    "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg": "3c90442e53173653b7f3e229f006afff4831205b3d2ee40bd285f99a25654183",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/废船_01.jpg": "d2986c8844344df704dd57629f5c2610ee9952b35e201ac25313f5f07bcf0a51",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+  },
+  "image_sha256": "c55a28572879fff19e389d781112b45af5ae1d49501f0a6594707224c37b3384",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

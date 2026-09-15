@@ -1,0 +1,16 @@
+{
+  "id": "码头绳摊",
+  "request_sha256": "2fc2e571ae445eb08f75129990ad6bb919efdc5ce3494c7564bc11de18533bb7",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/码头/sheet_v01.jpg": "c0c00c1a7fd0f5e8774510b5aa7be0be83b2d6ff6b22f5089a160d3c934967af",
+    "制作/前三集_v8_v1/资产/新绳/cell_01.jpg": "98289bcb88c676549e429debad569cdd37228d11d7900322dc22122e1c4bb7a2"
+  },
+  "image_sha256": "5d4e51ad22b0f4ecdd6d2964f4a36d4a49c11030181192996f96853118bedb56",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "盐棚门网轴线",
+  "request_sha256": "8b30d0de17b427fbfed16a24ad3403938feb67811aaab0641a60617b4b3a1424",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/盐棚外/sheet_v01.jpg": "92e8b4517875a948b6a9726e0a0dde60e2c0fef1af78833841aeca8f6a463c58"
+  },
+  "image_sha256": "b839a6548578af7e7af023493a3e24946298fae924abf748df38ccca82a5e265",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

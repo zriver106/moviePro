@@ -1,0 +1,22 @@
+{
+  "id": "EP002_SH07",
+  "request_sha256": "0e028313eb284f5ac26382dbb3c49bf7d416acd4c2eccb54d8a4df9cc65f26cc",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg": "c0d1fa7ea2459f4f38ceefe1370752744ef83032f88d1fa11bbc09e810bf6f66",
+    "制作/前三集_v8_v2_文本定稿/资产/会库押解人/ref_v01.jpg": "1917304d848e74a06a16ec83ebaaf41b999b66ad676e2c4ce8ef72bab3aaa964",
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg": "eb825b0e45140a85b9e62980573046876bc0d26227385d0576fd4ce9cfefac99",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg": "64c1ea1e4dafba9cb6c138118bf2c5a86511039606b129d9a81c5f2d938ffecd",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg": "47ef2919d77733639159be89d5dbb31e522ae4c0dfab75db37ff876746336213",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg": "ef8f1acda1cab8b1109650e88c024a6db2b4611677a0ccc4aeb4046bc6aead41",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/码头_01.jpg": "c0c00c1a7fd0f5e8774510b5aa7be0be83b2d6ff6b22f5089a160d3c934967af"
+  },
+  "image_sha256": "21e48bca1875d42bac541e426549220d7ec14a6fc2b2dcf09907f687f73b63b1",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

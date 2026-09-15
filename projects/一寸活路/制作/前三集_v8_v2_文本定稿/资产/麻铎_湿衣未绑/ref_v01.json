@@ -1,0 +1,15 @@
+{
+  "id": "麻铎_湿衣未绑",
+  "request_sha256": "d123397a17317dd39ad96cb9f36b3f18045b1351db15b686d0cb500c0db3ef37",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/麻铎/cell_01.jpg": "dc99a87afada14bce67464ec31134885fe1bd8ac6730b6e14b7a0b3cd8d05c84"
+  },
+  "image_sha256": "79a431cdef091f96148efae5940cc7b142609efd9d62b0446e47c1acc55cde50",
+  "dimensions": [
+    1920,
+    2560
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

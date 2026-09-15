@@ -1,0 +1,18 @@
+{
+  "thread_id": "01a08ea0-8c4d-74e0-ae4b-95fa647cfb4d",
+  "message_id": "msg_07d663443608dd60016aa89c2e782487d1ae0b6c60ac695cb8",
+  "evidence_path": "分镜修图真实外评.json",
+  "evidence_sha256": "165ef4b1b629bfaea3d65481b5cc75031f487cdd385b79cb3aaf6ab7b425a1f4",
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "files": {
+    "分镜修图任务.json": "0f2af85a81f2b81171259a132d0c02a8e04d4fbdc7e81104347289f607f64c72"
+  },
+  "dimensions": {
+    "叙事一致性": "S",
+    "物理空间": "S",
+    "连续性": "S",
+    "可执行性": "S"
+  },
+  "blocking_issues": [],
+  "scope": "13镜提示词完整审阅基线及5镜局部复核；未生成纠错图片"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "陆照_三月前旧伤",
+  "request_sha256": "ee5335ea9e1fa21c5de6a4624ea616bc54f0c38ad5d27d8cb81fd7351abf3f60",
+  "spec_sha256": "43f2cee4e261ddfac815b20964ddb0f805896ff498565f2e9c84bde9c7a7b44a",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/陆照/cell_01.jpg": "fae19e1d4274a88a19762e40b7f2d517a20f23a33776d97bf82a4fd3d40d74cd"
+  },
+  "image_sha256": "73270676c95e6aebe38fcbfc3a3df422079e321d81ec70af648e19cbd32b10ca",
+  "dimensions": [
+    1920,
+    2560
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

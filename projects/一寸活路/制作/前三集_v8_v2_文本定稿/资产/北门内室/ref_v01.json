@@ -1,0 +1,15 @@
+{
+  "id": "北门内室",
+  "request_sha256": "dfd8e3d64e1054760fc1c21262d47f14157944fa2c807dcfc61d880d8065190d",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/北门/sheet_v02.jpg": "3ae9d1c32f0b0c4987e4ce3768b3d305408e9d010e3b7c22310f4c7cebadacae"
+  },
+  "image_sha256": "c81ef2f2843cc411b520c460a3e659ec6ed68ab954900088289a24e2cb8ca25f",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

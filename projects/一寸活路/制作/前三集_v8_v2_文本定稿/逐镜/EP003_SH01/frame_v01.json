@@ -1,0 +1,18 @@
+{
+  "id": "EP003_SH01",
+  "request_sha256": "3e5ae079107d10b9426341921945db2f9c75b27926d603f7e6ef4360eea6dbfa",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v02.jpg": "c98bec122745e05ddfdc0eee7c3d4d362f4ff0eeb0783bc4959a41967936bdaf",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg": "ba8a3fa037fd1088e5476dbd24e6d33af09f41552dc77bc5fa7741ff0ac55a35",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/铜塞水桶_01.jpg": "cc22ce31a6b9d5f6ab53d180bd4a6a6bbb2f2483fb2d82db25b71a025d5a7c9e"
+  },
+  "image_sha256": "de3ab0a261a3e043ac12b84fe13d67f402d9d465896eceae6d3936b378d4933c",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

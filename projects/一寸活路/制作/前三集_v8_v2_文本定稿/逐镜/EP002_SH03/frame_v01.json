@@ -1,0 +1,17 @@
+{
+  "id": "EP002_SH03",
+  "request_sha256": "eca5ba974562b96ea2621116cf43fd8f47ffe148a66c08d03f634a66391968d4",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/退水栓_01.jpg": "518ab766836ac56251ba12b51170ba595759daf6bdd8aa4a8ab43afc3e61a5ac",
+    "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg": "dadb6571409457a4784d38a53258d4e5f2eab1fe9fcddd338045c7f3367a5fa6"
+  },
+  "image_sha256": "f10bc56571a98249f611e29cebe59e79b57f0cf18b4b097b0bdde866a9cd6d77",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

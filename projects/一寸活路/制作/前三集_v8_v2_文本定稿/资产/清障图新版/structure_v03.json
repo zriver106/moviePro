@@ -1,0 +1,13 @@
+{
+  "id": "清障图新版",
+  "request_sha256": "e0f9af48273d6bea360dd5cdf69cedad43992f84a4b891a80f300a31d3ef749b",
+  "spec_sha256": "d585c132b6e6292f6ecee28024cc4c6e7de59618bacd159742ba6504cdcca60c",
+  "refs_sha256": {},
+  "image_sha256": "d3bb8876f910a14d18ac81bda02ae2083e4152d9a69f21a838e150d6931f32e8",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

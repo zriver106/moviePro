@@ -1,0 +1,13 @@
+{
+  "id": "北门轮房",
+  "request_sha256": "0df056acea891e5da60df9e1b4f2c8fe2c17b8a6e32e3d5221a52162f3245019",
+  "spec_sha256": "d585c132b6e6292f6ecee28024cc4c6e7de59618bacd159742ba6504cdcca60c",
+  "refs_sha256": {},
+  "image_sha256": "a96c12399fb24fdafbdc972e6778ad780ae199d9d7d12e3633f15d24e1d901d5",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

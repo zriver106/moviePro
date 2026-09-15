@@ -1,0 +1,19 @@
+{
+  "id": "EP003_SH12",
+  "request_sha256": "e0db2b677c0699868952ad4b25dd1048f47a822a37f73ee0e3274ea156d12cc8",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg": "02b7108af67b823e8139a525012be6330e328fb670a92d6f869aebdc013e63cb",
+    "制作/前三集_v8_v2_文本定稿/资产/葛牙_落帽束腕/ref_v01.jpg": "145a61447627cc6b45f45491ff4705e01ff1c0c2d6943a98ebe57df1c39682a8",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg": "a3a218ac22307538ae4345f59290a4f43546b57c3dccab1521ef101f31c72901",
+    "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg": "60392021b01b91ca06e537f8a66d79a3b0df00e8ee03211712ccfa5c196557e0",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+  },
+  "image_sha256": "43aef90b92630c5e16ca5032e4fc7336e1f470cd5d3241800311caf536ca38e3",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

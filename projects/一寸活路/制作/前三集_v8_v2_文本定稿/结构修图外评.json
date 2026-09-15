@@ -1,0 +1,18 @@
+{
+  "thread_id": "01a08ea0-8c4d-74e0-ae4b-95fa647cfb4d",
+  "message_id": "msg_07d663443608dd60016aa89b906b1087d1897d3d1757c357ea",
+  "evidence_path": "结构修图真实外评.json",
+  "evidence_sha256": "a5101778443b78efdaeded6a42b4950aa468938e9ae01bf4531b434bb975c90e",
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "files": {
+    "结构修图任务.json": "d585c132b6e6292f6ecee28024cc4c6e7de59618bacd159742ba6504cdcca60c"
+  },
+  "dimensions": {
+    "叙事一致性": "S",
+    "物理与空间逻辑": "S",
+    "连续性": "S",
+    "可执行性": "S"
+  },
+  "blocking_issues": [],
+  "scope": "4项结构修图文字，完整基线及铜片局部复核；像素待验"
+}

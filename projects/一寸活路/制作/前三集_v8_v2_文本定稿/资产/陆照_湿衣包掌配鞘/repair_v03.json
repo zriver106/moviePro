@@ -1,0 +1,15 @@
+{
+  "id": "陆照_湿衣包掌配鞘",
+  "request_sha256": "4d88e4bec7161977ff0b974ae6416de359400c8adda0f3f5cfdf0cc1458c4534",
+  "spec_sha256": "43f2cee4e261ddfac815b20964ddb0f805896ff498565f2e9c84bde9c7a7b44a",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/陆照/cell_01.jpg": "fae19e1d4274a88a19762e40b7f2d517a20f23a33776d97bf82a4fd3d40d74cd"
+  },
+  "image_sha256": "da41d3a3084ac4e3ea84eb60682803141e1a4bd0bb08a3a14f469bd85f54927f",
+  "dimensions": [
+    1920,
+    2560
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

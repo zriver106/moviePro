@@ -1,0 +1,21 @@
+{
+  "thread_id": "01a08ea0-8c4d-74e0-ae4b-95fa647cfb4d",
+  "message_id": "msg_07d663443608dd60016aa8986b052487d1b2aeb6c53c1b39c6",
+  "evidence_path": "资源绑定真实外评.json",
+  "evidence_sha256": "79a1104a67d6c432bf44ef8833956cc8cadb8bb51f79de388acf1ed979060171",
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "files": {
+    "新增资产规格.json": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+    "逐镜资源规格.json": "aeb7c50f2329bb8b55c7a694a5ac974bd53892a88f6281bd6ac16b23fd1f8b42",
+    "逐镜绑定.json": "ebf0bd37d6ec517bc09b98b44ac09661d906d4804b3396a0d5425d8970cff6d3",
+    "出图任务.json": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6"
+  },
+  "dimensions": {
+    "原稿一致性": "S",
+    "人物状态连续性": "S",
+    "机关空间执行": "S",
+    "渲染语义": "S"
+  },
+  "blocking_issues": [],
+  "scope": "31项资源规格、57项绑定与出图任务；全文基线与两轮问题局部复核；图片未评"
+}

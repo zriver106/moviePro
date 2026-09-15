@@ -1,0 +1,574 @@
+{
+  "制作/前三集_v8_v2_文本定稿/资产/复用/陆照_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/陆照_01.jpg",
+    "sha256": "fae19e1d4274a88a19762e40b7f2d517a20f23a33776d97bf82a4fd3d40d74cd",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg",
+    "sha256": "3ae9d1c32f0b0c4987e4ce3768b3d305408e9d010e3b7c22310f4c7cebadacae",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/废船_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/废船_01.jpg",
+    "sha256": "d2986c8844344df704dd57629f5c2610ee9952b35e201ac25313f5f07bcf0a51",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/梯口_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/梯口_01.jpg",
+    "sha256": "f2dc38b16dbab92e486a279b0c5b272311b02c71672550fc259746a39813b5dd",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg",
+    "sha256": "c33bd6505ec57eefc0b4c3426fea31bd37d635bdbe060136a2bd99dbab83a423",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/码头_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/码头_01.jpg",
+    "sha256": "c0c00c1a7fd0f5e8774510b5aa7be0be83b2d6ff6b22f5089a160d3c934967af",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg",
+    "sha256": "5681cb405ab726c6987b291dda05338b0df95ba4d0f1868af3572ea9d56eba50",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/双碗_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/双碗_01.jpg",
+    "sha256": "8cacca7f9a3aad89634b0a2c0f6b0e77bb29d33b141d15af58207b5c0048e6cc",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/余烬_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/余烬_01.jpg",
+    "sha256": "2aac0b202d1a1018a30fd436f62b1388130a2bd25a0994bf430f7c5b86a62ba3",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/保单货箱_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/保单货箱_01.jpg",
+    "sha256": "e940e488567a207e1437cca6d6a8967d2de26b98e6b182520f2ee1b454037cf3",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/药布_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/药布_01.jpg",
+    "sha256": "123879183b2ec02a40909d961a5314d83eb75f218bd44549aa1c17ed0ee3f257",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/售船纸_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/售船纸_01.jpg",
+    "sha256": "edc406e0d207ba3a87011c7c7e214e2d65f71144dd5ca86029e843e58344ebec",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/绳轮机关_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/绳轮机关_01.jpg",
+    "sha256": "b9c85ea6530f924790e8766bad067e4270c5d150d644bfdfe9b931260bea9bc7",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/工具箱_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/工具箱_01.jpg",
+    "sha256": "13733be67104c3890274ae6868c194bee67a3361e576c83dfa30e6f2fc6fe37b",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/新绳_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/新绳_01.jpg",
+    "sha256": "98289bcb88c676549e429debad569cdd37228d11d7900322dc22122e1c4bb7a2",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/晒网架_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/晒网架_01.jpg",
+    "sha256": "ce1e5d8a426106eb6ddafef8e9a977dd3eb83eb649a677cdea91ae9c7d809221",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+    "sha256": "d2820c27545132b4cd142e0cc4d67e054bc696a597b8ff88a520b650da83dbca",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/死期牌_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/死期牌_01.jpg",
+    "sha256": "0b3e39fcec8097ba75f6620bbbb89ab52e8da118357406646c180a13d2451c64",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/铜塞水桶_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜塞水桶_01.jpg",
+    "sha256": "cc22ce31a6b9d5f6ab53d180bd4a6a6bbb2f2483fb2d82db25b71a025d5a7c9e",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/油灯_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/油灯_01.jpg",
+    "sha256": "a77f20faebbbb44790e9c25f18f18e125e242b33225e4329943e9c3dbb6042a7",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/清障图_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/清障图_01.jpg",
+    "sha256": "f2de4e4320fc636cee097f11d74833d429696eb82eab20fd79b6cbdb7a8ccb65",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/湿网_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/湿网_01.jpg",
+    "sha256": "286f1762accaff102622192ea1500f3146ccedf26005b8439e053ec49cac95c0",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg",
+    "sha256": "ba8a3fa037fd1088e5476dbd24e6d33af09f41552dc77bc5fa7741ff0ac55a35",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+    "sha256": "b8df93521fbbcc65c0cf7cc1f3d7da386af2b6a95c466d6c445264e67fc181ff",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/工牌_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/工牌_01.jpg",
+    "sha256": "c56875a2149f9d782cde02455d1549a0930701072e978517d30ed1dfa435966d",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/船叉_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/船叉_01.jpg",
+    "sha256": "facc4ac935bb256be92235432d07a18e10f619513c6a399a55f6e4dfb7f8c84c",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/钱袋铜钱_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/钱袋铜钱_01.jpg",
+    "sha256": "20fc38ad8d1cf7b21980a158ccc982afbb11f6b9a01062b38098fb75aaa2b9b6",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/铜轮柄_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜轮柄_01.jpg",
+    "sha256": "0318faba8d8f8a07887875733cadfcc8070341bb8ce81be2ae94077151ad1b99",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/退水栓_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/退水栓_01.jpg",
+    "sha256": "518ab766836ac56251ba12b51170ba595759daf6bdd8aa4a8ab43afc3e61a5ac",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/铜销_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜销_01.jpg",
+    "sha256": "3109f3629bf78f5553fef367efacf03238e2d95ff2914c14d5bf831775a2513d",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/铜鱼牌_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜鱼牌_01.jpg",
+    "sha256": "a67173962a16527adf1447d05d352fd290aad6d0df44572af0466d0934bb40ca",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+    "sha256": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/晒网架_03.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/晒网架_03.jpg",
+    "sha256": "cca182b39e9bd9bae724b25f6c11f8daa49c970ace9e604467f9f9fb44170d0e",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_01.jpg",
+    "sha256": "dc99a87afada14bce67464ec31134885fe1bd8ac6730b6e14b7a0b3cd8d05c84",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+    "sha256": "64c1ea1e4dafba9cb6c138118bf2c5a86511039606b129d9a81c5f2d938ffecd",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+    "sha256": "ef8f1acda1cab8b1109650e88c024a6db2b4611677a0ccc4aeb4046bc6aead41",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+    "sha256": "47ef2919d77733639159be89d5dbb31e522ae4c0dfab75db37ff876746336213",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+    "sha256": "eb825b0e45140a85b9e62980573046876bc0d26227385d0576fd4ce9cfefac99",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg",
+    "sha256": "c0d1fa7ea2459f4f38ceefe1370752744ef83032f88d1fa11bbc09e810bf6f66",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg",
+    "sha256": "f6fc3e1e9695bc828fa37c88d99b96d3eec367d6802a116031a8c497a41d9a01",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+    "sha256": "06284023eadc1c447de50e0fdf1ee8eb8203bf3ab4ccaf131943b3eba2e99e79",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+    "sha256": "2754fefd3398e60ef449f9d3289d049aa223327ec49e434d1f3a46ed13e35d07",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+    "sha256": "a3a218ac22307538ae4345f59290a4f43546b57c3dccab1521ef101f31c72901",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "对应身份、基础材质和器型参考；历史帧不复用",
+    "evidence": "检查/复用_01.jpg 至 复用_05.jpg"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg",
+    "sha256": "3c90442e53173653b7f3e229f006afff4831205b3d2ee40bd285f99a25654183",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": "严格区分有灰胡子的获救工人"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+    "sha256": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌/ref_v01.jpg",
+    "sha256": "6696cec7a74f567784e755fc98229de6b8969228870d734c8ebbb2ae271c940f",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/repair_v03.jpg",
+    "sha256": "da41d3a3084ac4e3ea84eb60682803141e1a4bd0bb08a3a14f469bd85f54927f",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v02.jpg",
+    "sha256": "c98bec122745e05ddfdc0eee7c3d4d362f4ff0eeb0783bc4959a41967936bdaf",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+    "sha256": "02b7108af67b823e8139a525012be6330e328fb670a92d6f869aebdc013e63cb",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg",
+    "sha256": "b022241e95628b32a037b57538e0e9d8d6a1e9b59470de4e78fc2fbe4319e715",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/repair_v03.jpg",
+    "sha256": "73270676c95e6aebe38fcbfc3a3df422079e321d81ec70af648e19cbd32b10ca",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/会库押解人/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/会库押解人/ref_v01.jpg",
+    "sha256": "1917304d848e74a06a16ec83ebaaf41b999b66ad676e2c4ce8ef72bab3aaa964",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": "新增辅助人物；与蓝衣守船人区分，不扩写背景"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/水槽货主/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/水槽货主/ref_v01.jpg",
+    "sha256": "23b0d677fba3fe3a6570d83a96e9650333be8d24fb8494bd58788b05d06f0ec3",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": "EP003_SH02付钱人物，不替换守船人"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg",
+    "sha256": "79a431cdef091f96148efae5940cc7b142609efd9d62b0446e47c1acc55cde50",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/葛牙_落帽束腕/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/葛牙_落帽束腕/ref_v01.jpg",
+    "sha256": "145a61447627cc6b45f45491ff4705e01ff1c0c2d6943a98ebe57df1c39682a8",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": "兜帽已与人物分离；SH11落地、SH12在地、SH13归守卫，人物颈后不挂帽。"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg",
+    "sha256": "603e830fa960a300d91ffda91b3bdd7bac766f20ecd92ccd2110b90423612b18",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": "只取旧碗材质；两只碗口均完整"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg",
+    "sha256": "70db97c3508baa83b3c088d6694d92c20e59d640e14cd8c5f36330bd97c01a49",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/北门内室/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/北门内室/ref_v01.jpg",
+    "sha256": "c81ef2f2843cc411b520c460a3e659ec6ed68ab954900088289a24e2cb8ca25f",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+    "sha256": "4f23d683569e39be9fffea0c84f0a4ccc7515fd142888251ae1064aafeca54ed",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg",
+    "sha256": "dadb6571409457a4784d38a53258d4e5f2eab1fe9fcddd338045c7f3367a5fa6",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/码头绳摊/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/码头绳摊/ref_v01.jpg",
+    "sha256": "5d4e51ad22b0f4ecdd6d2964f4a36d4a49c11030181192996f96853118bedb56",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/鞘摊/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/鞘摊/ref_v01.jpg",
+    "sha256": "a3ec78accb08a1efc35fc9ab87cddafd0bdd865ecfe7a24828cb508d9a41d04c",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/盐棚水槽/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/盐棚水槽/ref_v01.jpg",
+    "sha256": "c1d14469e31b30419063722afaadc36c49eee8ef6170adfeba323c085fb64bd7",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+    "sha256": "b839a6548578af7e7af023493a3e24946298fae924abf748df38ccca82a5e265",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+    "sha256": "60392021b01b91ca06e537f8a66d79a3b0df00e8ee03211712ccfa5c196557e0",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": ""
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/小物工具/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/小物工具/ref_v01.jpg",
+    "sha256": "e1a8b7f102628c398483289e0d3138210b1902aaad7f65b6e3fceb530ec5af9e",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": "部件可裁切绑定，不冒充同一件；旧盒只用于回忆"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/空白票据/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/空白票据/ref_v01.jpg",
+    "sha256": "0540d829008d54a18051abdea8e7b3cff1eb2971f3397fde17f442eeaacfbfdf",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": "保单/240结工/两天40雇工/住宿费用后期排版，数字按正文"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/落地棕兜帽/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/落地棕兜帽/ref_v01.jpg",
+    "sha256": "87903485984ad46efa70273c35c9e2b4cf55a8511ee05c454fd213924248f6d6",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "新版静态制作参考；逐镜动作和道具位置须按文字分镜复核",
+    "notes": "与葛牙衣领分离的一顶帽；SH11落地、SH12在地、SH13守卫拾走。"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/铜销_完好/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/铜销_完好/ref_v02.jpg",
+    "sha256": "53f2c1bbb4039ea40ecbc01ad39951e90758b75a8ad2175d7e04baca16b0b07b",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "铜片同一器型的完好/左凹起始态参考，右侧铜面完整"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg",
+    "sha256": "c7276c3b570c5294731ec280868bb504b2cb4203946b05648d9b1001d1f75e70",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "铜片同一器型的完好/左凹起始态参考，右侧铜面完整"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/北门轮房/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/北门轮房/structure_v03.jpg",
+    "sha256": "a96c12399fb24fdafbdc972e6778ad780ae199d9d7d12e3633f15d24e1d901d5",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "裸方轴、下方止挡、右进水口，替换带手轮错误候选"
+  },
+  "制作/前三集_v8_v2_文本定稿/资产/清障图新版/ref_v01.jpg": {
+    "selected_path": "制作/前三集_v8_v2_文本定稿/资产/清障图新版/structure_v03.jpg",
+    "sha256": "d3bb8876f910a14d18ac81bda02ae2083e4152d9a69f21a838e150d6931f32e8",
+    "status": "accepted_reference",
+    "reviewer": "Codex visual inspection",
+    "scope": "纸面沟道、木桩、白线、船图与留白；金额文字由分镜后期排版"
+  }
+}

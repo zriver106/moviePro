@@ -1,0 +1,17 @@
+{
+  "id": "EP002_SH08",
+  "request_sha256": "18baee617afd7d22eac28d2795c0f0a312784e11a2c1d4e4525bfc8a1ead07f9",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg": "f6fc3e1e9695bc828fa37c88d99b96d3eec367d6802a116031a8c497a41d9a01",
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/码头_01.jpg": "c0c00c1a7fd0f5e8774510b5aa7be0be83b2d6ff6b22f5089a160d3c934967af"
+  },
+  "image_sha256": "b1eefc762eab58e475a02fc44f6f10b31ae532ec779d92b6dfecb554d2815e21",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

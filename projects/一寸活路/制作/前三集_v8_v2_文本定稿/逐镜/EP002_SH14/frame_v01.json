@@ -1,0 +1,17 @@
+{
+  "id": "EP002_SH14",
+  "request_sha256": "a0e1204d2739adb0491eb8137d232d2e29ee2a4166e4884c0ed8622c4c9ce235",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/repair_v03.jpg": "da41d3a3084ac4e3ea84eb60682803141e1a4bd0bb08a3a14f469bd85f54927f",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg": "06284023eadc1c447de50e0fdf1ee8eb8203bf3ab4ccaf131943b3eba2e99e79",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg": "c33bd6505ec57eefc0b4c3426fea31bd37d635bdbe060136a2bd99dbab83a423"
+  },
+  "image_sha256": "e39f1c5a8c6471f8788ec3516b388397e0d21b156a174a3e8e71f9a5a1d0be87",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

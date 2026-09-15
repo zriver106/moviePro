@@ -1,0 +1,16 @@
+{
+  "id": "网架近景",
+  "request_sha256": "998527d4a3618e8464c4c6533b516c4e390dc174132d70412c54a30b2e67ff58",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/盐棚外/sheet_v01.jpg": "92e8b4517875a948b6a9726e0a0dde60e2c0fef1af78833841aeca8f6a463c58",
+    "制作/前三集_v8_v1/资产/湿网/cell_02.jpg": "a298cb0588ecd98ea21f150a468ed75542acdabfc7ff0345ea97293505fa9a0a"
+  },
+  "image_sha256": "60392021b01b91ca06e537f8a66d79a3b0df00e8ee03211712ccfa5c196557e0",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

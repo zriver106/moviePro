@@ -1,0 +1,15 @@
+{
+  "id": "鞘摊",
+  "request_sha256": "16ce1ffd85e3d7f6b22cc0d6d23c006ca0a15f6e634e1eb92cc1119bee5ab8fa",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/皮鞘/cell_01.jpg": "ba8a3fa037fd1088e5476dbd24e6d33af09f41552dc77bc5fa7741ff0ac55a35"
+  },
+  "image_sha256": "a3ec78accb08a1efc35fc9ab87cddafd0bdd865ecfe7a24828cb508d9a41d04c",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

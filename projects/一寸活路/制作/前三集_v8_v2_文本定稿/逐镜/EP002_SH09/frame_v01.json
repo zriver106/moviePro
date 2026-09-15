@@ -1,0 +1,18 @@
+{
+  "id": "EP002_SH09",
+  "request_sha256": "a66d6ddbd144e355d5c3c5ec780dea08c3dc4d3fd147962a735399273c5273dd",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌/ref_v01.jpg": "6696cec7a74f567784e755fc98229de6b8969228870d734c8ebbb2ae271c940f",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg": "64c1ea1e4dafba9cb6c138118bf2c5a86511039606b129d9a81c5f2d938ffecd",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/药布_01.jpg": "123879183b2ec02a40909d961a5314d83eb75f218bd44549aa1c17ed0ee3f257",
+    "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg": "70db97c3508baa83b3c088d6694d92c20e59d640e14cd8c5f36330bd97c01a49"
+  },
+  "image_sha256": "48cf524f66f376aa4264e98a3051ad48ce6336d5907336b04f2c31d11b48e200",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "EP001_SH16",
+  "request_sha256": "21a5d9d79e3e3e6b555ed31cd8cae5b34d3dcc90998de9a5169ec281ff9adab1",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg": "3ae9d1c32f0b0c4987e4ce3768b3d305408e9d010e3b7c22310f4c7cebadacae",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c",
+    "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg": "c7276c3b570c5294731ec280868bb504b2cb4203946b05648d9b1001d1f75e70"
+  },
+  "image_sha256": "c8bf7f643421cb25dedb2b033c72d58b8a5b482786548516d0592d1275be39d7",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "EP001_SH01",
+  "request_sha256": "f06f21636f74ae7295a0afe8322cd1d3cf5bee2577f1fced1d8d97be3555fb6c",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/复用/陆照_01.jpg": "fae19e1d4274a88a19762e40b7f2d517a20f23a33776d97bf82a4fd3d40d74cd",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_01.jpg": "dc99a87afada14bce67464ec31134885fe1bd8ac6730b6e14b7a0b3cd8d05c84",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/死期牌_01.jpg": "0b3e39fcec8097ba75f6620bbbb89ab52e8da118357406646c180a13d2451c64"
+  },
+  "image_sha256": "8e9551079d2e34efd99a824292088ec1d2bfa37b32dc580c19e8ba146bbd2439",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "小物工具",
+  "request_sha256": "e7f5bb08816dfe60bcaceba191dd1ffb46d4362c6485eee0214fc8ab4fb686bb",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {},
+  "image_sha256": "e1a8b7f102628c398483289e0d3138210b1902aaad7f65b6e3fceb530ec5af9e",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

@@ -1,0 +1,110 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "陆照_下摆湿",
+      "target": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+      "prompt": "Single full-body frontal Lu Zhao, exact facial identity, hair and teal working clothes from the reference, plain warm studio background. The teal cloth above his waist is matte dry fabric. The hem below his sash, loose black trousers and cloth boots are water-darkened with a few droplets. Both hands have bare skin below the black forearm wraps. Sculpted Chinese 3D animated feature aesthetic, sculpted hair and dimensional facial planes, softly lit cloth texture.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/cell_01.jpg"
+      ],
+      "output": "资产/陆照_下摆湿/repair_v03.jpg",
+      "seed": 935000,
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "reason": "落实既有文字规格，修正视觉候选的湿干/包扎范围/锥鞘比例或胸伤位置；空鞘作为持锥时外观参考，入鞘镜另按原分镜放入同一原锥。"
+    },
+    {
+      "id": "陆照_湿衣包掌",
+      "target": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌/ref_v01.jpg",
+      "prompt": "Single full-body frontal Lu Zhao, exact facial identity, hair and teal working clothes from the reference, plain warm studio background. His anatomical right hand, viewer left, has a small white cloth dressing covering the palm and back of the hand, ending at the wrist crease; five bare fingers extend below it. Black fabric wraps cover both forearms all the way to the wrist crease. Teal upper tunic matte dry, hem and trousers water-darkened. A small cloth purse at his sash. Sculpted Chinese 3D animated feature aesthetic, sculpted hair and dimensional facial planes, softly lit cloth texture.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/cell_01.jpg"
+      ],
+      "output": "资产/陆照_湿衣包掌/repair_v03.jpg",
+      "seed": 935001,
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "reason": "落实既有文字规格，修正视觉候选的湿干/包扎范围/锥鞘比例或胸伤位置；空鞘作为持锥时外观参考，入鞘镜另按原分镜放入同一原锥。"
+    },
+    {
+      "id": "陆照_湿衣包掌配鞘",
+      "target": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+      "prompt": "Single full-body frontal Lu Zhao, exact facial identity, hair and teal working clothes from the reference, plain warm studio background. His anatomical right hand, viewer left, has a small white cloth dressing covering the palm and back of the hand, ending at the wrist crease; five bare fingers extend below it. Black fabric wraps cover both forearms all the way to the wrist crease. A compact empty hand-stitched brown awl sheath, twelve centimeters long and three centimeters wide, hangs vertically at the cloth sash beside the small purse. Its dark hollow opening is visible. Upper teal tunic matte dry, hem and trousers damp. Sculpted Chinese 3D animated feature aesthetic, sculpted hair and dimensional facial planes, softly lit cloth texture.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/cell_01.jpg"
+      ],
+      "output": "资产/陆照_湿衣包掌配鞘/repair_v03.jpg",
+      "seed": 935002,
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "reason": "落实既有文字规格，修正视觉候选的湿干/包扎范围/锥鞘比例或胸伤位置；空鞘作为持锥时外观参考，入鞘镜另按原分镜放入同一原锥。"
+    },
+    {
+      "id": "陆照_干衣包掌配鞘",
+      "target": "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg",
+      "prompt": "Single full-body frontal Lu Zhao, exact facial identity, hair and teal working clothes from the reference, plain warm studio background. His anatomical right hand, viewer left, has a small white cloth dressing covering the palm and back of the hand, ending at the wrist crease; five bare fingers extend below it. Black fabric wraps cover both forearms all the way to the wrist crease. A compact empty hand-stitched brown awl sheath, twelve centimeters long and three centimeters wide, hangs vertically at the cloth sash beside the small purse. Its dark hollow opening is visible. Entire teal tunic and black trousers matte dry. Sculpted Chinese 3D animated feature aesthetic, sculpted hair and dimensional facial planes, softly lit cloth texture.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/cell_01.jpg"
+      ],
+      "output": "资产/陆照_干衣包掌配鞘/repair_v03.jpg",
+      "seed": 935003,
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "reason": "落实既有文字规格，修正视觉候选的湿干/包扎范围/锥鞘比例或胸伤位置；空鞘作为持锥时外观参考，入鞘镜另按原分镜放入同一原锥。"
+    },
+    {
+      "id": "陆照_左肩伤包掌",
+      "target": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+      "prompt": "Single full-body frontal Lu Zhao, exact facial identity, hair and teal working clothes from the reference, plain warm studio background. His anatomical right hand, viewer left, has a small white cloth dressing covering the palm and back of the hand, ending at the wrist crease; five bare fingers extend below it. Black fabric wraps cover both forearms all the way to the wrist crease. A compact empty hand-stitched brown awl sheath, twelve centimeters long and three centimeters wide, hangs vertically at the cloth sash beside the small purse. Its dark hollow opening is visible. A small shallow slash with a narrow dark red stain crosses the anatomical LEFT shoulder, viewer RIGHT. The right shoulder is intact teal fabric. Dry outfit. Sculpted Chinese 3D animated feature aesthetic, sculpted hair and dimensional facial planes, softly lit cloth texture.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/cell_01.jpg"
+      ],
+      "output": "资产/陆照_左肩伤包掌/repair_v03.jpg",
+      "seed": 935004,
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "reason": "落实既有文字规格，修正视觉候选的湿干/包扎范围/锥鞘比例或胸伤位置；空鞘作为持锥时外观参考，入鞘镜另按原分镜放入同一原锥。"
+    },
+    {
+      "id": "陆照_左肩敷药包掌",
+      "target": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg",
+      "prompt": "Single full-body frontal Lu Zhao, exact facial identity, hair and teal working clothes from the reference, plain warm studio background. His anatomical right hand, viewer left, has a small white cloth dressing covering the palm and back of the hand, ending at the wrist crease; five bare fingers extend below it. Black fabric wraps cover both forearms all the way to the wrist crease. A compact empty hand-stitched brown awl sheath, twelve centimeters long and three centimeters wide, hangs vertically at the cloth sash beside the small purse. Its dark hollow opening is visible. A small square linen dressing covers the anatomical LEFT shoulder, viewer RIGHT. The right shoulder is intact teal fabric. Dry outfit. Sculpted Chinese 3D animated feature aesthetic, sculpted hair and dimensional facial planes, softly lit cloth texture.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/cell_01.jpg"
+      ],
+      "output": "资产/陆照_左肩敷药包掌/repair_v03.jpg",
+      "seed": 935005,
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "reason": "落实既有文字规格，修正视觉候选的湿干/包扎范围/锥鞘比例或胸伤位置；空鞘作为持锥时外观参考，入鞘镜另按原分镜放入同一原锥。"
+    },
+    {
+      "id": "陆照_三月前旧伤",
+      "target": "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/ref_v01.jpg",
+      "prompt": "Single waist-up frontal character reference of Lu Zhao, both hands visible within the frame, exact facial identity, hair and teal working clothes from the reference, plain warm studio background. His teal upper collar is open down to mid sternum, revealing the center of his upper chest. A small healed red wound lies centrally on his breastbone, below both collarbones, eight centimeters below the neck hollow. Neck has smooth intact skin. Both hands have bare skin below black wrist wraps. Sculpted Chinese 3D animated feature aesthetic, sculpted hair and dimensional facial planes, softly lit cloth texture.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/cell_01.jpg"
+      ],
+      "output": "资产/陆照_三月前旧伤/repair_v03.jpg",
+      "seed": 935006,
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "reason": "落实既有文字规格，修正视觉候选的湿干/包扎范围/锥鞘比例或胸伤位置；空鞘作为持锥时外观参考，入鞘镜另按原分镜放入同一原锥。"
+    }
+  ]
+}

@@ -1,0 +1,2582 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "shots": [
+    {
+      "id": "EP001_SH01",
+      "seconds": 3,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/陆照_01.jpg"
+        },
+        {
+          "name": "麻铎",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "梯口",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/梯口_01.jpg"
+      },
+      "props": [
+        {
+          "name": "死期牌",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/死期牌_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆照_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/死期牌_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH01/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH02",
+      "seconds": 4.5,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "闸舱",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg"
+      },
+      "props": [
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH02/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH03",
+      "seconds": 2.5,
+      "characters": [
+        {
+          "name": "闻溪",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg"
+        },
+        {
+          "name": "灰胡子工人",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg"
+        },
+        {
+          "name": "阿砾",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg"
+        }
+      ],
+      "location": {
+        "name": "北门",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/北门内室/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "油灯",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/油灯_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门内室/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/油灯_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH03/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH04",
+      "seconds": 2.5,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "北门",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg"
+      },
+      "props": [
+        {
+          "name": "木榫",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小物工具/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "铜销",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_完好/ref_v01.jpg"
+        },
+        {
+          "name": "木舌",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_完好/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH04/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH05",
+      "seconds": 4,
+      "characters": [
+        {
+          "name": "麻铎",
+          "state": "wet_boots",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg"
+        },
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "闸舱",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg"
+      },
+      "props": [
+        {
+          "name": "船叉",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/船叉_01.jpg"
+        },
+        {
+          "name": "铜轮柄",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜轮柄_01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "绳轮机关",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH05/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH06",
+      "seconds": 3,
+      "characters": [
+        {
+          "name": "麻铎",
+          "state": "wet_boots",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg"
+        },
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "闸舱",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg"
+      },
+      "props": [
+        {
+          "name": "船叉",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/船叉_01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "绳轮机关",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH06/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH07",
+      "seconds": 3,
+      "characters": [
+        {
+          "name": "麻铎",
+          "state": "wet_boots",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg"
+        },
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "绳轮旁",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "绳轮机关",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "木楔",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "坠石",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "钱袋铜钱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+        },
+        {
+          "name": "船叉",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/船叉_01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "止回棘爪",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH07/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH08",
+      "seconds": 2.5,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_boots",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg"
+        }
+      ],
+      "location": {
+        "name": "绳轮旁",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "钱袋铜钱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "绳轮机关",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "船叉",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/船叉_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH08/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH09",
+      "seconds": 2.5,
+      "characters": [
+        {
+          "name": "麻铎",
+          "state": "wet_boots",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg"
+        },
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "绳轮旁",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "船叉",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/船叉_01.jpg"
+        },
+        {
+          "name": "钱袋铜钱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+        },
+        {
+          "name": "绳轮机关",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH09/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH10",
+      "seconds": 2,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_boots",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg"
+        }
+      ],
+      "location": {
+        "name": "绳轮旁",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "船叉",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/船叉_01.jpg"
+        },
+        {
+          "name": "固定木梁",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "绳轮机关",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH10/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH11",
+      "seconds": 1.5,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "绳轮旁",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "木楔",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "绳轮机关",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH11/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH12",
+      "seconds": 2.5,
+      "characters": [
+        {
+          "name": "麻铎",
+          "state": "wet_from_fall",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "绳轮旁",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "绳轮机关",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "坠石",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "船叉",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/船叉_01.jpg"
+        },
+        {
+          "name": "固定木梁",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "止回棘爪",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH12/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH13",
+      "seconds": 2,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_from_fall",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "绳轮旁",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "搬件短绳",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "立柱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "船叉",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/船叉_01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH13/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH14",
+      "seconds": 1.5,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_from_fall",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg"
+        }
+      ],
+      "location": {
+        "name": "绳轮旁",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "搬件短绳",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "立柱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        },
+        {
+          "name": "船叉",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/船叉_01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH14/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH15",
+      "seconds": 4.5,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_from_fall",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg"
+        }
+      ],
+      "location": {
+        "name": "修台",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg"
+      },
+      "props": [
+        {
+          "name": "余烬",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/余烬_01.jpg"
+        },
+        {
+          "name": "钱袋铜钱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH15/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH16",
+      "seconds": 2,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "北门",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg"
+      },
+      "props": [
+        {
+          "name": "木榫",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小物工具/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "铜销",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg"
+        },
+        {
+          "name": "钱袋铜钱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH16/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH17",
+      "seconds": 1,
+      "characters": [
+        {
+          "name": "闻溪",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg"
+        }
+      ],
+      "location": {
+        "name": "北门",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/北门内室/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "油灯",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/油灯_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门内室/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/油灯_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH17/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH18",
+      "seconds": 2,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "北门",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg"
+      },
+      "props": [
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "铜销",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg"
+        },
+        {
+          "name": "木舌",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH18/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH19",
+      "seconds": 3,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        },
+        {
+          "name": "闻溪",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_from_fall",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg"
+        }
+      ],
+      "location": {
+        "name": "北门",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "北门",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "油灯",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/油灯_01.jpg"
+        },
+        {
+          "name": "立柱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/油灯_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH19/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH20",
+      "seconds": 4.5,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        },
+        {
+          "name": "闻溪",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg"
+        },
+        {
+          "name": "灰胡子工人",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg"
+        }
+      ],
+      "location": {
+        "name": "北门",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "北门",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH20/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH21",
+      "seconds": 4,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        },
+        {
+          "name": "闻溪",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg"
+        },
+        {
+          "name": "阿砾",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg"
+        }
+      ],
+      "location": {
+        "name": "北门",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "北门",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH21/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP001_SH22",
+      "seconds": 2,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        },
+        {
+          "name": "闻溪",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg"
+        },
+        {
+          "name": "灰胡子工人",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg"
+        },
+        {
+          "name": "阿砾",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg"
+        }
+      ],
+      "location": {
+        "name": "修台",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "北门",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg"
+        },
+        {
+          "name": "铜销",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH22/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH01",
+      "seconds": 3,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_from_fall",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg"
+        }
+      ],
+      "location": {
+        "name": "修台",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "铜轮柄",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜轮柄_01.jpg"
+        },
+        {
+          "name": "铜销",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH01/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH02",
+      "seconds": 4,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "北门轮房",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/北门轮房/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "铜轮柄",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜轮柄_01.jpg"
+        },
+        {
+          "name": "轮轴",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/北门轮房/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门轮房/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH02/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH03",
+      "seconds": 3,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "闸舱旁沟",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "退水栓",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/退水栓_01.jpg"
+        },
+        {
+          "name": "旁沟",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/退水栓_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH03/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH04",
+      "seconds": 3,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        },
+        {
+          "name": "闻溪",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg"
+        },
+        {
+          "name": "阿砾",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg"
+        },
+        {
+          "name": "灰胡子工人",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg"
+        }
+      ],
+      "location": {
+        "name": "闸舱货沟",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "水线印",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg"
+        },
+        {
+          "name": "药箱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg"
+        },
+        {
+          "name": "铜销",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH04/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH05",
+      "seconds": 3,
+      "characters": [
+        {
+          "name": "闻溪",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg"
+        },
+        {
+          "name": "阿砾",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg"
+        },
+        {
+          "name": "灰胡子工人",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg"
+        },
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_from_fall",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg"
+        },
+        {
+          "name": "守船人",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg"
+        },
+        {
+          "name": "岑鹿",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "梯口",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/梯口_01.jpg"
+      },
+      "props": [
+        {
+          "name": "保单",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/空白票据/ref_v01.jpg"
+        },
+        {
+          "name": "短绳",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小物工具/ref_v01.jpg"
+        },
+        {
+          "name": "横棍",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/晒网架_03.jpg"
+        },
+        {
+          "name": "铜销",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/梯口_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH05/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH06",
+      "seconds": 4,
+      "characters": [
+        {
+          "name": "岑鹿",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg"
+        },
+        {
+          "name": "守船人",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "梯口",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/梯口_01.jpg"
+      },
+      "props": [
+        {
+          "name": "保单",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/空白票据/ref_v01.jpg"
+        },
+        {
+          "name": "横棍",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/晒网架_03.jpg"
+        },
+        {
+          "name": "药箱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/梯口_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH06/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH07",
+      "seconds": 4,
+      "characters": [
+        {
+          "name": "守船人",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg"
+        },
+        {
+          "name": "会库押解人",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/会库押解人/ref_v01.jpg"
+        },
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_from_fall",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg"
+        },
+        {
+          "name": "闻溪",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg"
+        },
+        {
+          "name": "阿砾",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg"
+        },
+        {
+          "name": "灰胡子工人",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg"
+        }
+      ],
+      "location": {
+        "name": "码头",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/码头_01.jpg"
+      },
+      "props": [
+        {
+          "name": "药箱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg"
+        },
+        {
+          "name": "短绳",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小物工具/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/会库押解人/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/码头_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH07/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH08",
+      "seconds": 4,
+      "characters": [
+        {
+          "name": "岑鹿",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg"
+        },
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "码头",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/码头_01.jpg"
+      },
+      "props": [
+        {
+          "name": "秤",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小物工具/ref_v01.jpg"
+        },
+        {
+          "name": "钱袋铜钱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+        },
+        {
+          "name": "结工纸",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/空白票据/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/码头_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH08/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH09",
+      "seconds": 2.5,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌/ref_v01.jpg"
+        },
+        {
+          "name": "闻溪",
+          "state": "wet",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg"
+        }
+      ],
+      "location": {
+        "name": "码头",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/码头_01.jpg"
+      },
+      "props": [
+        {
+          "name": "药布",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/药布_01.jpg"
+        },
+        {
+          "name": "药钱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/药布_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH09/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH10",
+      "seconds": 2.5,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "鞘摊",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/鞘摊/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "皮鞘",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "铜钱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH10/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH11",
+      "seconds": 2,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "flashback_chest_wound",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/ref_v01.jpg"
+        },
+        {
+          "name": "余烬老人",
+          "state": "gaunt_clean_shaven_red_wrist",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "废船回忆",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/废船_01.jpg"
+      },
+      "props": [
+        {
+          "name": "余烬",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/余烬_01.jpg"
+        },
+        {
+          "name": "旧盒",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小物工具/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/废船_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH11/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH12",
+      "seconds": 5,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "flashback_chest_wound",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/ref_v01.jpg"
+        },
+        {
+          "name": "余烬老人",
+          "state": "gaunt_clean_shaven_red_wrist",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "废船回忆",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/废船_01.jpg"
+      },
+      "props": [
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "余烬",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/余烬_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/废船_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH12/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH13",
+      "seconds": 3,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "damp_lower_tunic_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg"
+        },
+        {
+          "name": "陆禾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "盐棚住屋",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg"
+      },
+      "props": [
+        {
+          "name": "钱袋铜钱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+        },
+        {
+          "name": "桌",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg"
+        },
+        {
+          "name": "饭碗",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH13/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH14",
+      "seconds": 5,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "damp_lower_tunic_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg"
+        },
+        {
+          "name": "陆禾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "盐棚住屋",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg"
+      },
+      "props": [
+        {
+          "name": "完整饭碗",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+        },
+        {
+          "name": "缺口碗",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/双碗_01.jpg"
+        },
+        {
+          "name": "肉",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH14/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH15",
+      "seconds": 3,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "damp_lower_tunic_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg"
+        },
+        {
+          "name": "陆禾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "盐棚住屋",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg"
+      },
+      "props": [
+        {
+          "name": "两只完整碗",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+        },
+        {
+          "name": "肉",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH15/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH16",
+      "seconds": 5,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "damp_lower_tunic_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg"
+        },
+        {
+          "name": "陆禾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "盐棚住屋",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg"
+      },
+      "props": [
+        {
+          "name": "售船纸",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/售船纸_01.jpg"
+        },
+        {
+          "name": "两只完整碗",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+        },
+        {
+          "name": "铜钱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/售船纸_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH16/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP002_SH17",
+      "seconds": 4,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "damp_lower_tunic_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg"
+        },
+        {
+          "name": "陆禾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "盐棚住屋",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg"
+      },
+      "props": [
+        {
+          "name": "钱袋铜钱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+        },
+        {
+          "name": "售船纸",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/售船纸_01.jpg"
+        },
+        {
+          "name": "两只完整碗",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/售船纸_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH17/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH01",
+      "seconds": 2,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "dry_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "盐棚水槽",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/盐棚水槽/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "皮鞘",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg"
+        },
+        {
+          "name": "铜塞",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜塞水桶_01.jpg"
+        },
+        {
+          "name": "水桶",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜塞水桶_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/铜塞水桶_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH01/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH02",
+      "seconds": 2,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "dry_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg"
+        },
+        {
+          "name": "闻溪",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg"
+        },
+        {
+          "name": "水槽货主",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/水槽货主/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "盐棚门口",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "铜钱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+        },
+        {
+          "name": "饭碗",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "皮鞘",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/水槽货主/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH02/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH03",
+      "seconds": 4,
+      "characters": [
+        {
+          "name": "葛牙",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg"
+        },
+        {
+          "name": "阿砾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg"
+        },
+        {
+          "name": "陆照",
+          "state": "dry_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg"
+        },
+        {
+          "name": "闻溪",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "盐棚外",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "短刀",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "皮鞘",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH03/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH04",
+      "seconds": 2,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "dry_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg"
+        },
+        {
+          "name": "阿砾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg"
+        },
+        {
+          "name": "闻溪",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "盐棚外",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "饭碗",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "皮鞘",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg"
+        },
+        {
+          "name": "短刀",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH04/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH05",
+      "seconds": 3.5,
+      "characters": [
+        {
+          "name": "葛牙",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg"
+        },
+        {
+          "name": "阿砾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg"
+        },
+        {
+          "name": "闻溪",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg"
+        },
+        {
+          "name": "陆照",
+          "state": "left_shoulder_fresh_cut_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "盐棚外",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "短刀",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "皮鞘",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH05/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH06",
+      "seconds": 3,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_fresh_cut_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg"
+        },
+        {
+          "name": "闻溪",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg"
+        },
+        {
+          "name": "阿砾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "盐棚外",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "短刀",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+        },
+        {
+          "name": "晒网架",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH06/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH07",
+      "seconds": 2,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_fresh_cut_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "晒网架",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "湿网",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/湿网_01.jpg"
+        },
+        {
+          "name": "横杆",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+        },
+        {
+          "name": "短刀",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH07/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH08",
+      "seconds": 1.5,
+      "characters": [
+        {
+          "name": "葛牙",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg"
+        },
+        {
+          "name": "陆照",
+          "state": "left_shoulder_fresh_cut_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "晒网架",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "短刀",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+        },
+        {
+          "name": "湿网",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/湿网_01.jpg"
+        },
+        {
+          "name": "横杆",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/湿网_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH08/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH09",
+      "seconds": 3,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_fresh_cut_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "晒网架",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "湿网",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/湿网_01.jpg"
+        },
+        {
+          "name": "横杆",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+        },
+        {
+          "name": "短刀",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH09/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH10",
+      "seconds": 4,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_fresh_cut_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "晒网架",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "短刀",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+        },
+        {
+          "name": "湿网",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/湿网_01.jpg"
+        },
+        {
+          "name": "横杆",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH10/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH11",
+      "seconds": 3,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_bleeding_ear_struck_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "晒网架",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "晒网架",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "棕兜帽",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/落地棕兜帽/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH11/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH12",
+      "seconds": 4,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_bleeding_ear_struck_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/葛牙_落帽束腕/ref_v01.jpg"
+        },
+        {
+          "name": "阿砾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "晒网架",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "系网短绳",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小物工具/ref_v01.jpg"
+        },
+        {
+          "name": "架柱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/葛牙_落帽束腕/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH12/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH13",
+      "seconds": 3,
+      "characters": [
+        {
+          "name": "阿砾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg"
+        },
+        {
+          "name": "守船人",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg"
+        },
+        {
+          "name": "会库押解人",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/会库押解人/ref_v01.jpg"
+        },
+        {
+          "name": "闻溪",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/葛牙_落帽束腕/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "盐棚外",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "短刀",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+        },
+        {
+          "name": "棕兜帽",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/落地棕兜帽/ref_v01.jpg"
+        },
+        {
+          "name": "铜鱼牌",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜鱼牌_01.jpg"
+        },
+        {
+          "name": "架柱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/会库押解人/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/葛牙_落帽束腕/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH13/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH14",
+      "seconds": 2,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_bleeding_ear_struck_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg"
+        }
+      ],
+      "location": {
+        "name": "晒网架",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "余烬",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/余烬_01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "湿网",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/湿网_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH14/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH15",
+      "seconds": 4,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_dressed_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg"
+        },
+        {
+          "name": "闻溪",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg"
+        },
+        {
+          "name": "陆禾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "盐棚门口",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "剪刀",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小物工具/ref_v01.jpg"
+        },
+        {
+          "name": "肩药布",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/药布_01.jpg"
+        },
+        {
+          "name": "皮鞘",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg"
+        },
+        {
+          "name": "黑钢锥",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+        },
+        {
+          "name": "饭碗",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH15/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH16",
+      "seconds": 5,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_dressed_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg"
+        },
+        {
+          "name": "陆禾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "盐棚门口",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "肩药布",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/药布_01.jpg"
+        },
+        {
+          "name": "完整饭碗",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+        },
+        {
+          "name": "皮鞘",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH16/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH17",
+      "seconds": 6,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_dressed_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg"
+        },
+        {
+          "name": "岑鹿",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg"
+        },
+        {
+          "name": "阿砾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "码头绳摊",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/码头绳摊/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "清障图",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/清障图新版/ref_v01.jpg"
+        },
+        {
+          "name": "工具箱标记",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/清障图新版/ref_v01.jpg"
+        },
+        {
+          "name": "铜钱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/码头绳摊/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/清障图新版/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH17/frame_v01.jpg",
+      "status": "pending_generation"
+    },
+    {
+      "id": "EP003_SH18",
+      "seconds": 6,
+      "characters": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_dressed_bandaged_palm",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg"
+        },
+        {
+          "name": "阿砾",
+          "state": "dry",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg"
+        }
+      ],
+      "location": {
+        "name": "码头绳摊",
+        "path": "制作/前三集_v8_v2_文本定稿/资产/码头绳摊/ref_v01.jpg"
+      },
+      "props": [
+        {
+          "name": "铜钱",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+        },
+        {
+          "name": "雇工条",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/空白票据/ref_v01.jpg"
+        },
+        {
+          "name": "新绳",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/新绳_01.jpg"
+        },
+        {
+          "name": "皮鞘",
+          "path": "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg"
+        }
+      ],
+      "selected_refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/码头绳摊/ref_v01.jpg"
+      ],
+      "image": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH18/frame_v01.jpg",
+      "status": "pending_generation"
+    }
+  ]
+}

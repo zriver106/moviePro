@@ -1,0 +1,13 @@
+{
+  "id": "铜销_完好",
+  "request_sha256": "000458e30ae9822aaaf6632e2b7cb4b05e389599ddaa9a59a4fda0fb1b6bbfdd",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {},
+  "image_sha256": "53f2c1bbb4039ea40ecbc01ad39951e90758b75a8ad2175d7e04baca16b0b07b",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

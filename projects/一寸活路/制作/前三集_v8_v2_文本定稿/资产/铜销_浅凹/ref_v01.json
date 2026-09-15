@@ -1,0 +1,13 @@
+{
+  "id": "铜销_浅凹",
+  "request_sha256": "2149e7d48d841a70348449390ccca46b8cc8159db9a753da937800f6a3e3c933",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {},
+  "image_sha256": "c7276c3b570c5294731ec280868bb504b2cb4203946b05648d9b1001d1f75e70",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "EP003_SH08",
+  "request_sha256": "c123f941526a79a5a02e5238a4b2390ee39d4c19d4fd42f9e9f9a4f3e65c8418",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg": "d2820c27545132b4cd142e0cc4d67e054bc696a597b8ff88a520b650da83dbca",
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg": "02b7108af67b823e8139a525012be6330e328fb670a92d6f869aebdc013e63cb",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg": "b8df93521fbbcc65c0cf7cc1f3d7da386af2b6a95c466d6c445264e67fc181ff",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/湿网_01.jpg": "286f1762accaff102622192ea1500f3146ccedf26005b8439e053ec49cac95c0",
+    "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg": "60392021b01b91ca06e537f8a66d79a3b0df00e8ee03211712ccfa5c196557e0",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+  },
+  "image_sha256": "4de942d4d5538d9ca2243ff7ded28b0852336735c9d85f5ecb0386f48536471d",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

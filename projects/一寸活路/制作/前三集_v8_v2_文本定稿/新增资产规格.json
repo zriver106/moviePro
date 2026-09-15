@@ -1,0 +1,461 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "陆照_下摆湿",
+      "type": "人物",
+      "prompt": "Single full body frontal character reference on a warm plain studio backdrop. Lu Zhao has exactly the face, hair and teal cloth working outfit of reference 1. Both relaxed hands visible at hip level, fingers separated. Tunic wet from waist downward, water-darkened loose black trousers and cloth boots. His upper chest and shoulders are dry intact teal fabric, dark cloth wrist wraps. A small plain purse hangs from his cloth sash. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/cell_01.jpg"
+      ],
+      "output": "资产/陆照_下摆湿/ref_v01.jpg",
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "note": "",
+      "seed": 915078
+    },
+    {
+      "id": "陆照_湿衣包掌",
+      "type": "人物",
+      "prompt": "Single full body frontal character reference on a warm plain studio backdrop. Lu Zhao has exactly the face, hair and teal cloth working outfit of reference 1. Both relaxed hands visible at hip level, fingers separated. A small white linen bandage wraps his scraped right palm and back of hand, fingers exposed, dark forearm cloth wraps retained. Lower tunic and trousers water-darkened. Waist carries a cloth purse. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/cell_01.jpg"
+      ],
+      "output": "资产/陆照_湿衣包掌/ref_v01.jpg",
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "note": "",
+      "seed": 915092
+    },
+    {
+      "id": "陆照_湿衣包掌配鞘",
+      "type": "人物",
+      "prompt": "Single full body frontal character reference on a warm plain studio backdrop. Lu Zhao has exactly the face, hair and teal cloth working outfit of reference 1. Both relaxed hands visible at hip level, fingers separated. A small white linen bandage wraps his right palm, fingers exposed. Lower tunic and trousers damp. Small brown leather awl sheath from reference 2 tied to his cloth sash; the short hemp awl handle protrudes from the sheath. Small cloth purse beside it. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/cell_01.jpg",
+        "制作/前三集_v8_v1/资产/皮鞘/cell_01.jpg",
+        "制作/前三集_v8_v1/资产/黑钢锥/cell_01.jpg"
+      ],
+      "output": "资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "note": "",
+      "seed": 915119
+    },
+    {
+      "id": "陆照_干衣包掌配鞘",
+      "type": "人物",
+      "prompt": "Single full body frontal character reference on a warm plain studio backdrop. Lu Zhao has exactly the face, hair and teal cloth working outfit of reference 1. Both relaxed hands visible at hip level, fingers separated. Dry teal tunic and black trousers. A small white linen bandage wraps his right palm, fingers exposed. Small brown leather awl sheath from reference 2 tied to his cloth sash, short hemp awl handle protrudes. Small cloth purse. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/cell_01.jpg",
+        "制作/前三集_v8_v1/资产/皮鞘/cell_01.jpg",
+        "制作/前三集_v8_v1/资产/黑钢锥/cell_01.jpg"
+      ],
+      "output": "资产/陆照_干衣包掌配鞘/ref_v01.jpg",
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "note": "",
+      "seed": 915120
+    },
+    {
+      "id": "陆照_左肩伤包掌",
+      "type": "人物",
+      "prompt": "Single full body frontal character reference on a warm plain studio backdrop. Lu Zhao has exactly the face, hair and teal cloth working outfit of reference 1. Both relaxed hands visible at hip level, fingers separated. A narrow shallow cut with a small dark red cloth stain sits on his anatomical LEFT shoulder, viewer RIGHT in this frontal view, matching reference 2. His anatomical right shoulder remains intact teal fabric. White linen wraps his right palm, fingers exposed. Small awl sheath from reference 3 and purse tied to his cloth sash. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/cell_01.jpg",
+        "制作/前三集_v8_v1/资产/陆照伤势/cell_01.jpg",
+        "制作/前三集_v8_v1/资产/皮鞘/cell_01.jpg"
+      ],
+      "output": "资产/陆照_左肩伤包掌/ref_v01.jpg",
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "note": "",
+      "seed": 915108
+    },
+    {
+      "id": "陆照_左肩敷药包掌",
+      "type": "人物",
+      "prompt": "Single full body frontal character reference on a warm plain studio backdrop. Lu Zhao has exactly the face, hair and teal cloth working outfit of reference 1. Both relaxed hands visible at hip level, fingers separated. A small square linen dressing is secured over his anatomical LEFT shoulder, viewer RIGHT in this frontal view, matching reference 2. His anatomical right shoulder remains intact teal cloth. White linen wraps his right palm, fingers exposed. Small awl sheath from reference 3 and purse tied to his cloth sash. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/cell_01.jpg",
+        "制作/前三集_v8_v1/资产/陆照伤势/cell_02.jpg",
+        "制作/前三集_v8_v1/资产/皮鞘/cell_01.jpg"
+      ],
+      "output": "资产/陆照_左肩敷药包掌/ref_v01.jpg",
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "note": "",
+      "seed": 915122
+    },
+    {
+      "id": "陆照_三月前旧伤",
+      "type": "人物",
+      "prompt": "Single full body frontal character reference on a warm plain studio backdrop. Lu Zhao has exactly the face, hair and teal cloth working outfit of reference 1. Both relaxed hands visible at hip level, fingers separated. His teal collar is parted a little to reveal a small old reddish wound high on his chest. Both hands have exposed skin below dark cloth wrist wraps. Cloth sash and small purse at waist. Subdued cool light. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/cell_01.jpg"
+      ],
+      "output": "资产/陆照_三月前旧伤/ref_v01.jpg",
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "note": "",
+      "seed": 915110
+    },
+    {
+      "id": "会库押解人",
+      "type": "人物",
+      "prompt": "Single full body frontal character reference, plain studio backdrop. A sturdy adult male harbor assistant, broad square face, cropped black hair tied in a short knot, clean shaved jaw. Muted slate-grey coarse cloth short coat with a rust-red cloth belt, dark trousers and simple cloth shoes. Relaxed empty hands. Distinct from the lean blue-coated watchman. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [],
+      "output": "资产/会库押解人/ref_v01.jpg",
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "note": "新增辅助人物；与蓝衣守船人区分，不扩写背景",
+      "seed": 915072
+    },
+    {
+      "id": "水槽货主",
+      "type": "人物",
+      "prompt": "Single full body frontal character reference, plain studio backdrop. Middle-aged harbor water-trough owner, round weathered face, receding hair tied in a small knot, small moustache, sand-beige linen shirt, faded moss-green waist apron, brown loose trousers and cloth shoes. Relaxed empty hands. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [],
+      "output": "资产/水槽货主/ref_v01.jpg",
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "note": "EP003_SH02付钱人物，不替换守船人",
+      "seed": 915060
+    },
+    {
+      "id": "余烬老人",
+      "type": "人物",
+      "prompt": "Single full body frontal character reference on plain backdrop. Gaunt elderly Chinese man, thin clean-shaven face, hollow cheeks, sparse silver hair tied behind, tired clear eyes. Frayed charcoal linen robe with pale inner collar, cloth shoes. A faded red cloth strip wraps his anatomical RIGHT wrist, viewer LEFT. Both long thin hands visible. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [],
+      "output": "资产/余烬老人/ref_v01.jpg",
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "note": "严格区分有灰胡子的获救工人",
+      "seed": 915061
+    },
+    {
+      "id": "麻铎_湿衣未绑",
+      "type": "人物",
+      "prompt": "Single full body frontal character reference. Preserve reference face, headband, stocky body, brown vest and ochre coat. Entire outfit water-darkened, both relaxed hands open beside body, ankles apart, plain backdrop. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/麻铎/cell_01.jpg"
+      ],
+      "output": "资产/麻铎_湿衣未绑/ref_v01.jpg",
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "note": "",
+      "seed": 915101
+    },
+    {
+      "id": "葛牙_落帽束腕",
+      "type": "人物",
+      "prompt": "Single full body frontal character reference. Same thin rough-faced hooded man as reference, missing tooth visible between parted lips. Exposed head, visible hair and neck above a plain collar, dark brown rough clothes. Wrists together in front, a short hemp rope around both wrists. Plain backdrop. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/葛牙/cell_01.jpg"
+      ],
+      "output": "资产/葛牙_落帽束腕/ref_v01.jpg",
+      "size": {
+        "width": 1536,
+        "height": 2048
+      },
+      "note": "兜帽已与人物分离；SH11落地、SH12在地、SH13归守卫，人物颈后不挂帽。",
+      "seed": 915102
+    },
+    {
+      "id": "双完整饭碗",
+      "type": "道具",
+      "prompt": "Product close-up on plain neutral backdrop. Two simple matching ivory glazed rice bowls with thin brown rims, both circular rims continuous and intact. Both hold steamed white rice and a modest slice of braised meat. Plain small wooden chopsticks beside them. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/双碗/cell_03.jpg"
+      ],
+      "output": "资产/双完整饭碗/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "只取旧碗材质；两只碗口均完整",
+      "seed": 915077
+    },
+    {
+      "id": "小钱袋成串铜钱",
+      "type": "道具",
+      "prompt": "Product close-up on plain backdrop. Palm-sized closed undyed linen drawstring purse, beside three compact tied strings of small round bronze cash coins with square holes. Coarse thin hemp strings pass through square holes. Modest household scale. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/钱袋铜钱/cell_02.jpg"
+      ],
+      "output": "资产/小钱袋成串铜钱/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "",
+      "seed": 915104
+    },
+    {
+      "id": "铜销_浅凹",
+      "type": "道具",
+      "prompt": "Macro product close-up. A palm-sized rectangular thin copper latch cover held across a timber latch by two shallow hooked copper retaining tabs. On the left half is a tiny awl-tip dimple about 4 millimeters wide; the broad right half is flat hammered copper. A narrow wooden sliding tongue sits directly behind this copper cover. Single three-quarter view, real hand-tool scale. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting.  The retaining tabs bear against the closed latch keeper. When the keeper moves back, the upper tab loosens and the plate remains hanging from its lower tab, ready to lift by hand.",
+      "refs": [],
+      "output": "资产/铜销_浅凹/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "拒绝旧巨大凹坑；左浅凹、右完好；扣片压住闭锁木舌，顶退木舌开门后上扣松脱、下扣暂挂，EP002_SH04徒手取下。",
+      "seed": 915079
+    },
+    {
+      "id": "铜销_穿孔",
+      "type": "道具",
+      "prompt": "Macro product close-up. A palm-sized rectangular thin copper latch cover held across a timber latch by two shallow hooked copper retaining tabs. A tiny 4 millimeter awl dimple on the left half, and a distinct 8 millimeter square taper puncture on the right half. Angled view exposes the wooden sliding tongue immediately behind the right hole, pushed back from its keeper. Real hand-tool scale. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting.  The retaining tabs bear against the closed latch keeper. When the keeper moves back, the upper tab loosens and the plate remains hanging from its lower tab, ready to lift by hand.",
+      "refs": [],
+      "output": "资产/铜销_穿孔/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "同一铜片左浅凹与右穿孔并存；扣片压住闭锁木舌，顶退木舌开门后上扣松脱、下扣暂挂，EP002_SH04徒手取下。",
+      "seed": 915080
+    },
+    {
+      "id": "棘爪绳轮机关",
+      "type": "场景",
+      "prompt": "Three-quarter technical cinematic close view of a compact timber lifting winch beside a raised wooden ledge inside a shallow flooded harbor lock chamber. An open slack rope loop lies on the floor at foreground right; its line winds onto a horizontal drum, and the other end passes over an upper guide pulley to a stone weight suspended fifteen centimeters above a stout catch shelf. A removable wooden brake wedge sits under the wheel rim. A clearly visible separate hinged iron ratchet pawl rests in a tooth of the ratchet wheel to hold the drum against reverse rotation. A fixed timber beam stands beyond the wheel with a broad clear gap from rotating parts. Every rope segment is visibly continuous. Timber column beside the ledge. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [],
+      "output": "资产/棘爪绳轮机关/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "制动楔放轮、独立棘爪止回，石头落架后仍锁索；固定梁与轮分开",
+      "seed": 915094
+    },
+    {
+      "id": "北门内室",
+      "type": "场景",
+      "prompt": "Wide empty set view from inside the north lock room toward its heavy timber door. A small high inspection opening catches warm lantern light. Deep still water fills this interior almost to the opening. A narrow raised threshold and slim raised maintenance ledge beside the doorway. Rough dark planks, bronze fittings, blue-green reflected water, dim amber practical light. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/北门/sheet_v02.jpg"
+      ],
+      "output": "资产/北门内室/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "",
+      "seed": 915069
+    },
+    {
+      "id": "北门轮房",
+      "type": "场景",
+      "prompt": "Medium empty set view inside an opened timber lock room. A square bronze valve spindle protrudes from the timber wall beside an inlet slot, a simple mechanical end-stop below the spindle. Shallow flooded floor and elevated narrow maintenance ledge. Doorway visible at the side with copper latch cover still attached. Warm reflected lantern light. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/北门/sheet_v02.jpg"
+      ],
+      "output": "资产/北门轮房/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "",
+      "seed": 915070
+    },
+    {
+      "id": "北门开启修台",
+      "type": "场景",
+      "prompt": "Wide empty set view of the reference lock chamber with the north door at screen right swung inward to the camera-side outer room. A raised west maintenance ledge extends behind toward the south stair at screen left. The door arc lies beside the ledge; ledge is higher than threshold. Water spills through the door down the central floor toward the south sump. A short column on an elevated base is near the south end of the ledge away from the central flow. Copper latch cover remains on the open door. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/闸舱/sheet_v01.jpg"
+      ],
+      "output": "资产/北门开启修台/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "",
+      "seed": 915097
+    },
+    {
+      "id": "退水货沟",
+      "type": "场景",
+      "prompt": "Wide empty set view inside a timber harbor lock room with a shallow sloping stone side drain running to the low-tide outer river. An upright removable wooden drain stopper sits at its socket. A scratch waterline on a timber pillar is two finger widths above current water. Three tiers of small medicine crates beside the raised ledge: bottom tiers water-darkened, a dry third tier visible through a gap. Warm subdued light. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/闸舱/sheet_v01.jpg",
+        "制作/前三集_v8_v1/资产/保单货箱/cell_01.jpg"
+      ],
+      "output": "资产/退水货沟/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "",
+      "seed": 915072
+    },
+    {
+      "id": "码头绳摊",
+      "type": "场景",
+      "prompt": "Medium empty harbor rope stall beside a stone quay and water. Coils of coarse hemp rope under a timber awning, waist-high plain wooden counter ready for a map, two stools and a small tool chest placed at the side. Daylight, subdued historical Chinese harbor materials. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/码头/sheet_v01.jpg",
+        "制作/前三集_v8_v1/资产/新绳/cell_01.jpg"
+      ],
+      "output": "资产/码头绳摊/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "",
+      "seed": 915073
+    },
+    {
+      "id": "鞘摊",
+      "type": "场景",
+      "prompt": "Medium close empty historical harbor leatherworker stall. Coarse cloth spread over a wooden counter, a few small simple brown hand-stitched leather awl sheaths and copper cash coins, harbor timber posts softly out of focus. Afternoon daylight. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/皮鞘/cell_01.jpg"
+      ],
+      "output": "资产/鞘摊/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "",
+      "seed": 915048
+    },
+    {
+      "id": "盐棚水槽",
+      "type": "场景",
+      "prompt": "Medium empty set view along a timber salt-shed wall. A waist-high wooden water trough ends in a small round copper plug directly above an empty wooden bucket. Paved stone floor, muted morning sun, simple working harbor setting. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/铜塞水桶/cell_01.jpg"
+      ],
+      "output": "资产/盐棚水槽/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "",
+      "seed": 915075
+    },
+    {
+      "id": "盐棚门网轴线",
+      "type": "场景",
+      "prompt": "Wide empty working harbor alley, sculpted timber and plaster buildings. On screen LEFT is a humble closed plank house door with a low lunch stand. On screen RIGHT, three steps away, a sturdy timber net rack with a waist-high crossbar and vertical post. A dark wet fishing net is tied along the top rail; its lower edge forms a loose heavy heap on the paving at the right post. A shallow stone gutter runs along the foreground RIGHT. Open quay lane behind the rack. Morning light. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/盐棚外/sheet_v01.jpg"
+      ],
+      "output": "资产/盐棚门网轴线/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "",
+      "seed": 915102
+    },
+    {
+      "id": "网架近景",
+      "type": "场景",
+      "prompt": "Medium empty set view of a sturdy timber fishing-net rack at the right side of a harbor alley. Waist-high weathered wooden crossbar and a vertical post. Wet coarse mesh tied to top rail, bottom corner lying in a loose heap near the post. Shallow stone gutter at lower right. Humble house door far left in soft focus. Morning light. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [
+        "制作/前三集_v8_v1/资产/盐棚外/sheet_v01.jpg",
+        "制作/前三集_v8_v1/资产/湿网/cell_02.jpg"
+      ],
+      "output": "资产/网架近景/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "",
+      "seed": 915077
+    },
+    {
+      "id": "小物工具",
+      "type": "道具",
+      "prompt": "Product still life on plain backdrop. A small closed charred wooden keepsake box, an old brass balance scale with two shallow pans, compact iron dressing scissors, short loose hemp tie, two plain timber wedges and two short wooden foot pegs. Historical Chinese harbor hand tools, visibly separated items. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [],
+      "output": "资产/小物工具/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "部件可裁切绑定，不冒充同一件；旧盒只用于回忆",
+      "seed": 915078
+    },
+    {
+      "id": "空白票据",
+      "type": "道具",
+      "prompt": "Top-down product view of four separate small weathered cream paper slips laid flat, smooth blank rectangular writing surfaces, lightly worn edges, one simple ink border on each sheet. A short reed pen beside them. Soft neutral lighting. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [],
+      "output": "资产/空白票据/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "保单/240结工/两天40雇工/住宿费用后期排版，数字按正文",
+      "seed": 915079
+    },
+    {
+      "id": "清障图新版",
+      "type": "道具",
+      "prompt": "Top-down close view of a handmade harbor drainage map on cream paper. Clear simple ink sketch of a main outlet channel blocked by one submerged timber pile; a thick pale white chalk delivery line crosses beyond the obstruction. Small workboat outline with open stern; a separate small movable rectangular toolbox marker beside the paper. Large clean blank margin reserved for typeset price and two cable-worker names. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting. ",
+      "refs": [],
+      "output": "资产/清障图新版/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "600是桩过白线才支付的报价；200余款+60收入−40雇工，船价3000",
+      "seed": 915093
+    },
+    {
+      "id": "铜销_完好",
+      "type": "道具",
+      "prompt": "Macro product close-up. A palm-sized rectangular thin copper latch cover held across a timber latch by two shallow hooked copper retaining tabs. The entire broad face is flat hammered copper, lit clearly across both halves. A narrow wooden sliding tongue sits directly behind this copper cover. Single three-quarter view, real hand-tool scale. Sculpted Chinese 3D animated feature aesthetic, dimensional facial planes, coherent sculpted hair locks, woven cloth, weathered timber and restrained bronze, soft physically based lighting.  The retaining tabs bear against the closed latch keeper. When the keeper moves back, the upper tab loosens and the plate remains hanging from its lower tab, ready to lift by hand.",
+      "refs": [],
+      "output": "资产/铜销_完好/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "note": "EP001_SH04受力前完好铜片，保持同一可松脱扣片安装",
+      "seed": 915499
+    },
+    {
+      "id": "落地棕兜帽",
+      "type": "道具",
+      "prompt": "Single detached brown coarse-cloth hood lying collapsed on a plain neutral surface, open neck hem and folded crown visibly separate from a person. Sculpted Chinese 3D animated feature aesthetic, woven frayed cloth, soft physically based lighting.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/葛牙/cell_01.jpg"
+      ],
+      "output": "资产/落地棕兜帽/ref_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 915500,
+      "note": "与葛牙衣领分离的一顶帽；SH11落地、SH12在地、SH13守卫拾走。"
+    }
+  ]
+}

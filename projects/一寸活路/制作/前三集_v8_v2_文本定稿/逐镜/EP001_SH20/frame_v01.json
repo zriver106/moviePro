@@ -1,0 +1,19 @@
+{
+  "id": "EP001_SH20",
+  "request_sha256": "3e3aa14aee1b3e5afe779376cc24896b58969ea87136a3f24a50dc12085b9ea4",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg": "64c1ea1e4dafba9cb6c138118bf2c5a86511039606b129d9a81c5f2d938ffecd",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg": "ef8f1acda1cab8b1109650e88c024a6db2b4611677a0ccc4aeb4046bc6aead41",
+    "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg": "4f23d683569e39be9fffea0c84f0a4ccc7515fd142888251ae1064aafeca54ed",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+  },
+  "image_sha256": "d3ac2993b2dcbad9c6f64e20de4bcb3767589d046d7d6c626f7c5e8128e6c4a9",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

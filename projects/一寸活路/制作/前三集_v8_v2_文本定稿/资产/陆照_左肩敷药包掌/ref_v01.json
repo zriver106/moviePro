@@ -1,0 +1,17 @@
+{
+  "id": "陆照_左肩敷药包掌",
+  "request_sha256": "6db49f600ed316d8de347952dfdd19431055a70b659dd023ab51f7145eb29de1",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/陆照/cell_01.jpg": "fae19e1d4274a88a19762e40b7f2d517a20f23a33776d97bf82a4fd3d40d74cd",
+    "制作/前三集_v8_v1/资产/陆照伤势/cell_02.jpg": "4a5fa4bd091a84f09d6aac87721054eee295cad992158615c3a2520beaef17db",
+    "制作/前三集_v8_v1/资产/皮鞘/cell_01.jpg": "ba8a3fa037fd1088e5476dbd24e6d33af09f41552dc77bc5fa7741ff0ac55a35"
+  },
+  "image_sha256": "b022241e95628b32a037b57538e0e9d8d6a1e9b59470de4e78fc2fbe4319e715",
+  "dimensions": [
+    1920,
+    2560
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "EP001_SH15",
+  "request_sha256": "178113cf0591a8b3aac4bb803ded1076ed8f66ad16dd338efb1dbcff1fec638a",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg": "eb825b0e45140a85b9e62980573046876bc0d26227385d0576fd4ce9cfefac99",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg": "5681cb405ab726c6987b291dda05338b0df95ba4d0f1868af3572ea9d56eba50",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+  },
+  "image_sha256": "4f5816ad0eec38189e305340f35c89d898e866f407bf40631f26cf07f1c66887",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

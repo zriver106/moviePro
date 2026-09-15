@@ -1,0 +1,346 @@
+[
+  {
+    "id": "陆照_01",
+    "source": "制作/前三集_v8_v1/资产/陆照/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/陆照_01.jpg",
+    "sha256": "fae19e1d4274a88a19762e40b7f2d517a20f23a33776d97bf82a4fd3d40d74cd",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "北门_01",
+    "source": "制作/前三集_v8_v1/资产/北门/sheet_v02.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg",
+    "sha256": "3ae9d1c32f0b0c4987e4ce3768b3d305408e9d010e3b7c22310f4c7cebadacae",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "废船_01",
+    "source": "制作/前三集_v8_v1/资产/废船/sheet_v01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/废船_01.jpg",
+    "sha256": "d2986c8844344df704dd57629f5c2610ee9952b35e201ac25313f5f07bcf0a51",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "梯口_01",
+    "source": "制作/前三集_v8_v1/资产/梯口/sheet_v01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/梯口_01.jpg",
+    "sha256": "f2dc38b16dbab92e486a279b0c5b272311b02c71672550fc259746a39813b5dd",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "住屋_01",
+    "source": "制作/前三集_v8_v1/资产/住屋/sheet_v01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg",
+    "sha256": "c33bd6505ec57eefc0b4c3426fea31bd37d635bdbe060136a2bd99dbab83a423",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "码头_01",
+    "source": "制作/前三集_v8_v1/资产/码头/sheet_v01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/码头_01.jpg",
+    "sha256": "c0c00c1a7fd0f5e8774510b5aa7be0be83b2d6ff6b22f5089a160d3c934967af",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "闸舱_01",
+    "source": "制作/前三集_v8_v1/资产/闸舱/sheet_v01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg",
+    "sha256": "5681cb405ab726c6987b291dda05338b0df95ba4d0f1868af3572ea9d56eba50",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "双碗_01",
+    "source": "制作/前三集_v8_v1/资产/双碗/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/双碗_01.jpg",
+    "sha256": "8cacca7f9a3aad89634b0a2c0f6b0e77bb29d33b141d15af58207b5c0048e6cc",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "余烬_01",
+    "source": "制作/前三集_v8_v1/资产/余烬/sheet_v01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/余烬_01.jpg",
+    "sha256": "2aac0b202d1a1018a30fd436f62b1388130a2bd25a0994bf430f7c5b86a62ba3",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "保单货箱_01",
+    "source": "制作/前三集_v8_v1/资产/保单货箱/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/保单货箱_01.jpg",
+    "sha256": "e940e488567a207e1437cca6d6a8967d2de26b98e6b182520f2ee1b454037cf3",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "药布_01",
+    "source": "制作/前三集_v8_v1/资产/药布/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/药布_01.jpg",
+    "sha256": "123879183b2ec02a40909d961a5314d83eb75f218bd44549aa1c17ed0ee3f257",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "售船纸_01",
+    "source": "制作/前三集_v8_v1/资产/售船纸/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/售船纸_01.jpg",
+    "sha256": "edc406e0d207ba3a87011c7c7e214e2d65f71144dd5ca86029e843e58344ebec",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "绳轮机关_01",
+    "source": "制作/前三集_v8_v1/资产/绳轮机关/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/绳轮机关_01.jpg",
+    "sha256": "b9c85ea6530f924790e8766bad067e4270c5d150d644bfdfe9b931260bea9bc7",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "工具箱_01",
+    "source": "制作/前三集_v8_v1/资产/工具箱/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/工具箱_01.jpg",
+    "sha256": "13733be67104c3890274ae6868c194bee67a3361e576c83dfa30e6f2fc6fe37b",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "新绳_01",
+    "source": "制作/前三集_v8_v1/资产/新绳/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/新绳_01.jpg",
+    "sha256": "98289bcb88c676549e429debad569cdd37228d11d7900322dc22122e1c4bb7a2",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "晒网架_01",
+    "source": "制作/前三集_v8_v1/资产/晒网架/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/晒网架_01.jpg",
+    "sha256": "ce1e5d8a426106eb6ddafef8e9a977dd3eb83eb649a677cdea91ae9c7d809221",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "葛牙_01",
+    "source": "制作/前三集_v8_v1/资产/葛牙/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+    "sha256": "d2820c27545132b4cd142e0cc4d67e054bc696a597b8ff88a520b650da83dbca",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "死期牌_01",
+    "source": "制作/前三集_v8_v1/资产/死期牌/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/死期牌_01.jpg",
+    "sha256": "0b3e39fcec8097ba75f6620bbbb89ab52e8da118357406646c180a13d2451c64",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "铜塞水桶_01",
+    "source": "制作/前三集_v8_v1/资产/铜塞水桶/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜塞水桶_01.jpg",
+    "sha256": "cc22ce31a6b9d5f6ab53d180bd4a6a6bbb2f2483fb2d82db25b71a025d5a7c9e",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "油灯_01",
+    "source": "制作/前三集_v8_v1/资产/油灯/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/油灯_01.jpg",
+    "sha256": "a77f20faebbbb44790e9c25f18f18e125e242b33225e4329943e9c3dbb6042a7",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "清障图_01",
+    "source": "制作/前三集_v8_v1/资产/清障图/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/清障图_01.jpg",
+    "sha256": "f2de4e4320fc636cee097f11d74833d429696eb82eab20fd79b6cbdb7a8ccb65",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "湿网_01",
+    "source": "制作/前三集_v8_v1/资产/湿网/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/湿网_01.jpg",
+    "sha256": "286f1762accaff102622192ea1500f3146ccedf26005b8439e053ec49cac95c0",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "皮鞘_01",
+    "source": "制作/前三集_v8_v1/资产/皮鞘/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg",
+    "sha256": "ba8a3fa037fd1088e5476dbd24e6d33af09f41552dc77bc5fa7741ff0ac55a35",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "短刀_01",
+    "source": "制作/前三集_v8_v1/资产/短刀/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+    "sha256": "b8df93521fbbcc65c0cf7cc1f3d7da386af2b6a95c466d6c445264e67fc181ff",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "工牌_01",
+    "source": "制作/前三集_v8_v1/资产/工牌/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/工牌_01.jpg",
+    "sha256": "c56875a2149f9d782cde02455d1549a0930701072e978517d30ed1dfa435966d",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "船叉_01",
+    "source": "制作/前三集_v8_v1/资产/船叉/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/船叉_01.jpg",
+    "sha256": "facc4ac935bb256be92235432d07a18e10f619513c6a399a55f6e4dfb7f8c84c",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "钱袋铜钱_01",
+    "source": "制作/前三集_v8_v1/资产/钱袋铜钱/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/钱袋铜钱_01.jpg",
+    "sha256": "20fc38ad8d1cf7b21980a158ccc982afbb11f6b9a01062b38098fb75aaa2b9b6",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "铜轮柄_01",
+    "source": "制作/前三集_v8_v1/资产/铜轮柄/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜轮柄_01.jpg",
+    "sha256": "0318faba8d8f8a07887875733cadfcc8070341bb8ce81be2ae94077151ad1b99",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "退水栓_01",
+    "source": "制作/前三集_v8_v1/资产/退水栓/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/退水栓_01.jpg",
+    "sha256": "518ab766836ac56251ba12b51170ba595759daf6bdd8aa4a8ab43afc3e61a5ac",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "铜销_01",
+    "source": "制作/前三集_v8_v1/资产/铜销/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜销_01.jpg",
+    "sha256": "3109f3629bf78f5553fef367efacf03238e2d95ff2914c14d5bf831775a2513d",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "铜鱼牌_01",
+    "source": "制作/前三集_v8_v1/资产/铜鱼牌/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜鱼牌_01.jpg",
+    "sha256": "a67173962a16527adf1447d05d352fd290aad6d0df44572af0466d0934bb40ca",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "黑钢锥_01",
+    "source": "制作/前三集_v8_v1/资产/黑钢锥/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+    "sha256": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "晒网架_03",
+    "source": "制作/前三集_v8_v1/资产/晒网架/cell_03.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/晒网架_03.jpg",
+    "sha256": "cca182b39e9bd9bae724b25f6c11f8daa49c970ace9e604467f9f9fb44170d0e",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "麻铎_01",
+    "source": "制作/前三集_v8_v1/资产/麻铎/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_01.jpg",
+    "sha256": "dc99a87afada14bce67464ec31134885fe1bd8ac6730b6e14b7a0b3cd8d05c84",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "闻溪_04",
+    "source": "制作/前三集_v8_v1/资产/闻溪/cell_04.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+    "sha256": "64c1ea1e4dafba9cb6c138118bf2c5a86511039606b129d9a81c5f2d938ffecd",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "灰胡子工人_04",
+    "source": "制作/前三集_v8_v1/资产/灰胡子工人/cell_04.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+    "sha256": "ef8f1acda1cab8b1109650e88c024a6db2b4611677a0ccc4aeb4046bc6aead41",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "阿砾_04",
+    "source": "制作/前三集_v8_v1/资产/阿砾/cell_04.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+    "sha256": "47ef2919d77733639159be89d5dbb31e522ae4c0dfab75db37ff876746336213",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "麻铎_04",
+    "source": "制作/前三集_v8_v1/资产/麻铎/cell_04.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+    "sha256": "eb825b0e45140a85b9e62980573046876bc0d26227385d0576fd4ce9cfefac99",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "守船人_01",
+    "source": "制作/前三集_v8_v1/资产/守船人/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg",
+    "sha256": "c0d1fa7ea2459f4f38ceefe1370752744ef83032f88d1fa11bbc09e810bf6f66",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "岑鹿_01",
+    "source": "制作/前三集_v8_v1/资产/岑鹿/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg",
+    "sha256": "f6fc3e1e9695bc828fa37c88d99b96d3eec367d6802a116031a8c497a41d9a01",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "陆禾_01",
+    "source": "制作/前三集_v8_v1/资产/陆禾/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+    "sha256": "06284023eadc1c447de50e0fdf1ee8eb8203bf3ab4ccaf131943b3eba2e99e79",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "闻溪_01",
+    "source": "制作/前三集_v8_v1/资产/闻溪/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+    "sha256": "2754fefd3398e60ef449f9d3289d049aa223327ec49e434d1f3a46ed13e35d07",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  },
+  {
+    "id": "阿砾_01",
+    "source": "制作/前三集_v8_v1/资产/阿砾/cell_01.jpg",
+    "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+    "sha256": "a3a218ac22307538ae4345f59290a4f43546b57c3dccab1521ef101f31c72901",
+    "status": "reused_scoped_reference",
+    "scope": "按新稿引用的材质/身份/基础器型；不继承历史逐镜验收"
+  }
+]

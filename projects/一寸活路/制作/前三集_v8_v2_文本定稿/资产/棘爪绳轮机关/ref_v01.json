@@ -1,0 +1,13 @@
+{
+  "id": "棘爪绳轮机关",
+  "request_sha256": "0e6005174a4b39f2fddcb8d6d9461e52bff7577b6f890f9ef4cad59024512d1a",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {},
+  "image_sha256": "cefc5738c2a0738ca521cc82c811aaf0f974cfa0c678d99e270006c3ec1c20fc",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

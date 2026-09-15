@@ -1,0 +1,21 @@
+{
+  "id": "EP003_SH13",
+  "request_sha256": "8330babd8f68850db51d0f2641ad14d2987dd692bb2e6c5675323c00d7881e17",
+  "spec_sha256": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg": "a3a218ac22307538ae4345f59290a4f43546b57c3dccab1521ef101f31c72901",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg": "c0d1fa7ea2459f4f38ceefe1370752744ef83032f88d1fa11bbc09e810bf6f66",
+    "制作/前三集_v8_v2_文本定稿/资产/会库押解人/ref_v01.jpg": "1917304d848e74a06a16ec83ebaaf41b999b66ad676e2c4ce8ef72bab3aaa964",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg": "2754fefd3398e60ef449f9d3289d049aa223327ec49e434d1f3a46ed13e35d07",
+    "制作/前三集_v8_v2_文本定稿/资产/葛牙_落帽束腕/ref_v01.jpg": "145a61447627cc6b45f45491ff4705e01ff1c0c2d6943a98ebe57df1c39682a8",
+    "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg": "b839a6548578af7e7af023493a3e24946298fae924abf748df38ccca82a5e265",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg": "b8df93521fbbcc65c0cf7cc1f3d7da386af2b6a95c466d6c445264e67fc181ff"
+  },
+  "image_sha256": "a8517bfea90c27b343debdfa00635ef931f597a8dbfbd9fc4933ba169ac909a6",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

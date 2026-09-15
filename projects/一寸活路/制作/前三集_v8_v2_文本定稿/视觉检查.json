@@ -1,0 +1,485 @@
+{
+  "scope": "内部逐图检查；独立文字评级不等于像素通过",
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "铜销_穿孔",
+      "status": "rejected",
+      "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/structure_v03.jpg",
+      "sha256": "1b5025a28f4785fe6a54a105831895c0cdb46b7367aa078c8fd3a2fdc90ef962",
+      "reason": "三次候选孔径均失真；v03分成两片并添加英文，木舌退扣未明确，禁止引用"
+    },
+    {
+      "id": "棘爪绳轮机关",
+      "status": "rejected",
+      "path": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/structure_v03.jpg",
+      "sha256": "decd81caaccbc9499eb566e3ce04532e1d7d016db23dc7a6fbfdc5826840bb22",
+      "reason": "v03承台已固定，但棘爪未接棘齿、绳端与卷筒连接仍不成立，禁止引用"
+    }
+  ],
+  "shots": [
+    {
+      "id": "EP001_SH01",
+      "status": "accepted_storyboard",
+      "reason": "木牌文字准确可读、手部特写；静态分镜，翻牌动作未模拟",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH01/frame_v01.jpg",
+      "candidate_sha256": "8e9551079d2e34efd99a824292088ec1d2bfa37b32dc580c19e8ba146bbd2439",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH02",
+      "status": "accepted_storyboard",
+      "reason": "下梯入浅水的起始帧，左梯右门轴线可辨；仅静态制作参考，非成片验收",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH02/frame_v01.jpg",
+      "candidate_sha256": "5c3f72ed8109a3e791d33dc159227778720fa9de51f0b8873e10c7447bc4933c",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH03",
+      "status": "rejected",
+      "reason": "阿砾凭空持镐，人物水深及内室关系偏离；纠错文字已外评S",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH03/frame_v01.jpg",
+      "candidate_sha256": "5619236c476aa0c83588854b17da1cf5ebcb335a373ce9afff26ef34d4540e27",
+      "repair_text_spec": "分镜修图任务.json"
+    },
+    {
+      "id": "EP001_SH04",
+      "status": "rejected",
+      "reason": "铜片扣件变为螺钉，左面试锥关系需修；纠错文字已外评S",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH04/frame_v01.jpg",
+      "candidate_sha256": "f44eb0b213da4972c796270c02b1c695fc5c33de63ec3dd8a1d59e050640a3fd",
+      "repair_text_spec": "分镜修图任务.json"
+    },
+    {
+      "id": "EP001_SH05",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH06",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH07",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH08",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH09",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH10",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH11",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH12",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH13",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH14",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH15",
+      "status": "rejected",
+      "reason": "麻铎站立，柱脚束缚关系错误，地面锥尺度过大；纠错文字已外评S",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH15/frame_v01.jpg",
+      "candidate_sha256": "4f5816ad0eec38189e305340f35c89d898e866f407bf40631f26cf07f1c66887",
+      "repair_text_spec": "分镜修图任务.json"
+    },
+    {
+      "id": "EP001_SH16",
+      "status": "accepted_storyboard",
+      "reason": "回到修台的起始站位，抵榫发力属于后续动作；仅静态制作参考，非成片验收",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH16/frame_v01.jpg",
+      "candidate_sha256": "c8bf7f643421cb25dedb2b033c72d58b8a5b482786548516d0592d1275be39d7",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH17",
+      "status": "accepted_storyboard",
+      "reason": "闻溪唇边水线、检修口和高处灯位置可辨；仅静态制作参考，非成片验收",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH17/frame_v01.jpg",
+      "candidate_sha256": "4de88cac08b1e85fafb503df69fb1b8674d5581cf8d404024d677f23a34bdb67",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH18",
+      "status": "rejected",
+      "reason": "右侧起始铜面已穿孔且孔位错误；纠错文字已外评S",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH18/frame_v01.jpg",
+      "candidate_sha256": "4c91e05fb6ef59a7ab3c82970b498e8366fac1a2b0600ee2eee64478065fe041",
+      "repair_text_spec": "分镜修图任务.json"
+    },
+    {
+      "id": "EP001_SH19",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP001_SH20",
+      "status": "rejected",
+      "reason": "陆照与闻溪未在高于水流的修台上；纠错文字已外评S",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH20/frame_v01.jpg",
+      "candidate_sha256": "d3ac2993b2dcbad9c6f64e20de4bcb3767589d046d7d6c626f7c5e8128e6c4a9",
+      "repair_text_spec": "分镜修图任务.json"
+    },
+    {
+      "id": "EP001_SH21",
+      "status": "rejected",
+      "reason": "闻溪重复出现，救援支撑位置错误；纠错文字已外评S",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH21/frame_v01.jpg",
+      "candidate_sha256": "8e81ae23ae7747c0f2c08e65747e742223cf450835504602491a49fba6cd884b",
+      "repair_text_spec": "分镜修图任务.json"
+    },
+    {
+      "id": "EP001_SH22",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP002_SH01",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP002_SH02",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP002_SH03",
+      "status": "rejected",
+      "reason": "退水栓特写变为人物全身；纠错文字已外评S",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH03/frame_v01.jpg",
+      "candidate_sha256": "f10bc56571a98249f611e29cebe59e79b57f0cf18b4b097b0bdde866a9cd6d77",
+      "repair_text_spec": "分镜修图任务.json"
+    },
+    {
+      "id": "EP002_SH04",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP002_SH05",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP002_SH06",
+      "status": "accepted_storyboard",
+      "reason": "岑鹿保单贴拦棍、守卫检查的起始关系可辨；仅静态制作参考，非成片验收",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH06/frame_v01.jpg",
+      "candidate_sha256": "27d39f4d9567e349551676832ca1bae1ed9fe5fcc91f9635a18407f62afc4714",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP002_SH07",
+      "status": "rejected",
+      "reason": "押解群像人数、陆照与灰胡子工人可见性不足",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH07/frame_v01.jpg",
+      "candidate_sha256": "21e48bca1875d42bac541e426549220d7ec14a6fc2b2dcf09907f687f73b63b1",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP002_SH08",
+      "status": "rejected",
+      "reason": "秤和240结工纸未按镜头呈现；纠错文字已外评S",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH08/frame_v01.jpg",
+      "candidate_sha256": "b1eefc762eab58e475a02fc44f6f10b31ae532ec779d92b6dfecb554d2815e21",
+      "repair_text_spec": "分镜修图任务.json"
+    },
+    {
+      "id": "EP002_SH09",
+      "status": "rejected",
+      "reason": "右掌包扎变为左臂治疗；纠错文字已外评S",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH09/frame_v01.jpg",
+      "candidate_sha256": "48cf524f66f376aa4264e98a3051ad48ce6336d5907336b04f2c31d11b48e200",
+      "repair_text_spec": "分镜修图任务.json"
+    },
+    {
+      "id": "EP002_SH10",
+      "status": "rejected",
+      "reason": "皮鞘巨大且位置升至胸前；纠错文字已外评S",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH10/frame_v01.jpg",
+      "candidate_sha256": "379b22a3a2ffecbcb9c3616f878bc89fd0733b4263b6a6173f8e6b52e1f46509",
+      "repair_text_spec": "分镜修图任务.json"
+    },
+    {
+      "id": "EP002_SH11",
+      "status": "rejected",
+      "reason": "老人拿锥指胸，缺红右腕与指持薄余烬关系；纠错文字已外评S",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH11/frame_v01.jpg",
+      "candidate_sha256": "c55a28572879fff19e389d781112b45af5ae1d49501f0a6594707224c37b3384",
+      "repair_text_spec": "分镜修图任务.json"
+    },
+    {
+      "id": "EP002_SH12",
+      "status": "accepted_storyboard",
+      "reason": "老人手扶原锥手的回忆近景；身份与胸伤语境沿前镜；仅静态制作参考，非成片验收",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH12/frame_v01.jpg",
+      "candidate_sha256": "122cf370a6cca0da941513e2f22aa95bbc345c4278240471b4fd656e2e7bdc4c",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP002_SH13",
+      "status": "pending_close_review",
+      "reason": "已生成候选，未列入正式采用",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH13/frame_v01.jpg",
+      "candidate_sha256": "295a76f5acd41145414762b30f452d69cbf122e4fddaaee4952e76cb5db1be1e",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP002_SH14",
+      "status": "accepted_storyboard",
+      "reason": "陆照与陆禾身份服装一致，姐姐拿走旧碗的起始关系可辨",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH14/frame_v01.jpg",
+      "candidate_sha256": "e39f1c5a8c6471f8788ec3516b388397e0d21b156a174a3e8e71f9a5a1d0be87",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP002_SH15",
+      "status": "accepted_storyboard",
+      "reason": "两只完整饭碗、姐弟身份及蒸汽可辨，分肉属于后续动作；仅静态制作参考，非成片验收",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH15/frame_v01.jpg",
+      "candidate_sha256": "dd5db6d4a87c81ce55923afe1c92d2a339e042811726af29bbfa17eca1a0a8fd",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP002_SH16",
+      "status": "rejected",
+      "reason": "售船纸生成实体弓，缺纸面金额、桌上串钱；纠错文字已外评S",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH16/frame_v01.jpg",
+      "candidate_sha256": "4a1a3f786d29a5bd3c644c72d156789e567f844ebc892bceead89db8d86a02f7",
+      "repair_text_spec": "分镜修图任务.json"
+    },
+    {
+      "id": "EP002_SH17",
+      "status": "pending_close_review",
+      "reason": "已生成候选，未列入正式采用",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP002_SH17/frame_v01.jpg",
+      "candidate_sha256": "4cea0fe0c884a1daeeb18eba10c813020c29e080d1b79ba470f8570a782ebeaa",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH01",
+      "status": "rejected",
+      "reason": "铜塞已空孔，工位背景与桶槽关系待修，翌日角标未排",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH01/frame_v01.jpg",
+      "candidate_sha256": "de3ab0a261a3e043ac12b84fe13d67f402d9d465896eceae6d3936b378d4933c",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH02",
+      "status": "accepted_storyboard",
+      "reason": "水槽货主交钱，闻溪后方，锥已入鞘；仅静态制作参考，非成片验收",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH02/frame_v01.jpg",
+      "candidate_sha256": "c7d933b7b1b1ab84bf43bbfe210479a7cda1652afd7ad675e18b222e692bb90c",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH03",
+      "status": "rejected",
+      "reason": "受控对象与站位错误，阿砾缺失；纠错文字已外评S",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH03/frame_v01.jpg",
+      "candidate_sha256": "7570caed8b7ceda500a20f65ef2cbd6481988edad7a5350dca0e236a2557f567",
+      "repair_text_spec": "分镜修图任务.json"
+    },
+    {
+      "id": "EP003_SH04",
+      "status": "accepted_storyboard",
+      "reason": "午饭碗放门旁低台的起始动作；仅静态制作参考，非成片验收",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH04/frame_v01.jpg",
+      "candidate_sha256": "fa65526c5b9af42a985e30171e93320aa967b0282b3a59f2840739cc52dc4940",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH05",
+      "status": "rejected",
+      "reason": "阿砾与陆照身份及交接关系混杂，起始肩伤状态需修",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH05/frame_v01.jpg",
+      "candidate_sha256": "81cc74c9f3540c63773314627e3e30cac8ef745214db4024464eee5c465032fb",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH06",
+      "status": "rejected",
+      "reason": "伤口镜像至解剖右肩，后退避门关系不明确",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH06/frame_v01.jpg",
+      "candidate_sha256": "b00b40e5479e86706164c37f78219312debf3cdcba4e2cc22c236ab0a9805c36",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH07",
+      "status": "rejected",
+      "reason": "空站且原锥落地，持锥与踢网角起始关系错误",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH07/frame_v01.jpg",
+      "candidate_sha256": "7d2291ebea5fdffe11b0cdbf32d9a27b070ac47bd7c4996df96909d7289cb14e",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH08",
+      "status": "rejected",
+      "reason": "刀和持刀人变成陆照与锥，网缠刀脊未呈现",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH08/frame_v01.jpg",
+      "candidate_sha256": "4de942d4d5538d9ca2243ff7ded28b0852336735c9d85f5ecb0386f48536471d",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH09",
+      "status": "rejected",
+      "reason": "锥尖未进入折网角与木横杆，几何关系不成立",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH09/frame_v01.jpg",
+      "candidate_sha256": "55df2418f03241c4613cb7ba6dee54d2f09e9799d0af3eaae30f9acb79e5feaa",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH10",
+      "status": "rejected",
+      "reason": "刀持有者/压肘/反腕关系错误",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH10/frame_v01.jpg",
+      "candidate_sha256": "0f1a94ae0065897bc91d50ab57b3e9cdcaeeeb7594923ea78e46ea0a1208aba0",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH11",
+      "status": "rejected",
+      "reason": "压右肘关系变为推胸，葛牙坐下且罩帽状态错误",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH11/frame_v01.jpg",
+      "candidate_sha256": "a958feb276481aae25352bb74bccf44e7ae945da99d64dc07e9f1e28a56b1c18",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH12",
+      "status": "rejected",
+      "reason": "陆照压右肩和阿砾结绳缺失，不能沿用",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH12/frame_v01.jpg",
+      "candidate_sha256": "43aef90b92630c5e16ca5032e4fc7336e1f470cd5d3241800311caf536ca38e3",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH13",
+      "status": "rejected",
+      "reason": "仅一守卫、刀尖未朝下、取帽鱼牌动作缺失",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH13/frame_v01.jpg",
+      "candidate_sha256": "a8517bfea90c27b343debdfa00635ef931f597a8dbfbd9fc4933ba169ac909a6",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH14",
+      "status": "rejected",
+      "reason": "胸口两痕未呈现，原锥提前回手，腰鞘比例异常",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH14/frame_v01.jpg",
+      "candidate_sha256": "c3fb28e5bb2bcd501af4f0386fd0c98e7cd311854706812ecb3aa3c215a08c94",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH15",
+      "status": "pending_close_review",
+      "reason": "已生成候选，未列入正式采用",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH15/frame_v01.jpg",
+      "candidate_sha256": "539694fd3d1c27dfff00e42a1ad260552dbf6e0467504a8d9c6e1475a671f03d",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH16",
+      "status": "rejected",
+      "reason": "左肩变成右肩，伤势敷药连续性不符",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH16/frame_v01.jpg",
+      "candidate_sha256": "af94e0ccc088ccc28a1e72d1f0f4dc862f95bb9ffff53eb79f8ae1704bec66e5",
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH17",
+      "status": "not_generated",
+      "reason": "等待参考资源及逐镜视觉核验",
+      "candidate_path": null,
+      "candidate_sha256": null,
+      "repair_text_spec": null
+    },
+    {
+      "id": "EP003_SH18",
+      "status": "rejected",
+      "reason": "缺两日工条及40金额排版，暂不能作为交付帧",
+      "candidate_path": "制作/前三集_v8_v2_文本定稿/逐镜/EP003_SH18/frame_v01.jpg",
+      "candidate_sha256": "a496bd559f39a55a05dcfc26571dea259bac9d5b396cbdeb9a6fe58d510b68ff",
+      "repair_text_spec": null
+    }
+  ],
+  "summary": {
+    "accepted_storyboard": 10,
+    "rejected": 27,
+    "not_generated": 17,
+    "pending_close_review": 3
+  },
+  "repair_images_generated": false
+}

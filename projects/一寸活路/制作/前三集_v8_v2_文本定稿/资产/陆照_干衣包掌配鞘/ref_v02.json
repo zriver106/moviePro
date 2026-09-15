@@ -1,0 +1,17 @@
+{
+  "id": "陆照_干衣包掌配鞘",
+  "request_sha256": "b6716a13db841f0f037cb1ccea70ad47de640f2c53637e2be5f55c742b5a9c1e",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/陆照/cell_01.jpg": "fae19e1d4274a88a19762e40b7f2d517a20f23a33776d97bf82a4fd3d40d74cd",
+    "制作/前三集_v8_v1/资产/皮鞘/cell_01.jpg": "ba8a3fa037fd1088e5476dbd24e6d33af09f41552dc77bc5fa7741ff0ac55a35",
+    "制作/前三集_v8_v1/资产/黑钢锥/cell_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+  },
+  "image_sha256": "c98bec122745e05ddfdc0eee7c3d4d362f4ff0eeb0783bc4959a41967936bdaf",
+  "dimensions": [
+    1920,
+    2560
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

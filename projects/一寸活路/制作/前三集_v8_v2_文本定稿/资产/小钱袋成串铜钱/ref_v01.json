@@ -1,0 +1,15 @@
+{
+  "id": "小钱袋成串铜钱",
+  "request_sha256": "f6690f4d7f46f10f0b9f52fa28e48a2a74788e318545e1a4b77d76c649350ef3",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/钱袋铜钱/cell_02.jpg": "ec94c70ae8a60a3217690536be1c8df32d97945b517339cd525602b07296af20"
+  },
+  "image_sha256": "70db97c3508baa83b3c088d6694d92c20e59d640e14cd8c5f36330bd97c01a49",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

@@ -1,0 +1,47 @@
+{
+  "status": "resource_files_synchronized",
+  "scope": "源文本、资源清单、状态绑定、调用表、外评证据、视觉退回、入口与生成门禁同步；不等于图片全部完成",
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "shots": {
+    "EP001": 22,
+    "EP002": 17,
+    "EP003": 18
+  },
+  "logical_resource_groups": 85,
+  "unique_reference_paths": 66,
+  "accepted_reference_paths": 64,
+  "blocked_reference_paths": [
+    "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+    "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/ref_v01.jpg"
+  ],
+  "generated_image_candidates": 88,
+  "generated_shot_candidates": 40,
+  "shot_visual_status": {
+    "accepted_storyboard": 10,
+    "rejected": 27,
+    "not_generated": 17,
+    "pending_close_review": 3
+  },
+  "original_source_modified": false,
+  "old_84_shots_in_active_bindings": false,
+  "image_delivery_ready": false,
+  "tests": {
+    "rating_gate": 13,
+    "resource_gate": 5,
+    "failures": 0
+  },
+  "files_sha256": {
+    "新增资产规格.json": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+    "逐镜资源规格.json": "aeb7c50f2329bb8b55c7a694a5ac974bd53892a88f6281bd6ac16b23fd1f8b42",
+    "逐镜绑定.json": "ebf0bd37d6ec517bc09b98b44ac09661d906d4804b3396a0d5425d8970cff6d3",
+    "出图任务.json": "cc7eecb6897162c1226a99bf75ad9c88515717947d61c9a8f9308a3621e56aa6",
+    "资源外评.json": "bf9e80c088bb0c06fa29aefe9e2c0aab64782d05cf498027e6172c660e054963",
+    "资产衔接计划.json": "f8e75b6e2037256bb1afdd89345bc88b2de4441105ea6fc130ca1fe1bb9943fc",
+    "图片采用记录.json": "b4b5f30859cebad4a34a2f9ce339164d308c03ddbccdb756fe717ea2aa54fc1d",
+    "分镜图片采用记录.json": "05f96e03e051b90399fc2d1f63ac0d5ebd225ac370069eec6258b8377029b644",
+    "视觉检查.json": "d6f9ddb3f5b433be13d046d2c41b5ce48f6750f60204a1ce76453d05f56635d2",
+    "分镜修图任务.json": "0f2af85a81f2b81171259a132d0c02a8e04d4fbdc7e81104347289f607f64c72",
+    "分镜修图外评.json": "909d531fa1c33e7b223c85dc771b764a5f619db197d7870496957d78a8f81d1e",
+    "逐镜资源调用.tsv": "98af3de9dbb036ddc851284334fa53c1c616087103984905289351e8bbeede59"
+  }
+}

@@ -1,0 +1,1319 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "shots": [
+    {
+      "id": "EP001_SH01",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  detail shot, 65mm lens. A wooden death-register tag fills the frame; the tag carries a blank tracked surface for post-composited name and death entry. Lu Zhao's scraped fingertip presses his name. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ma Duo identity and clothing. Reference 3 supplies death-register tag. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆照_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/死期牌_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ma Duo identity and clothing",
+        "death-register tag"
+      ],
+      "output": "逐镜/EP001_SH01/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925101
+    },
+    {
+      "id": "EP001_SH02",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Lu Zhao descends the south ladder at screen left into ankle-deep water. A raised repair ledge connects the ladder area to the north door at screen right; pounding comes from its high inspection opening. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies environment materials and spatial anchors. Reference 3 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH02/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925102
+    },
+    {
+      "id": "EP001_SH03",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Inside the flooded room, camera faces sideways toward the inspection opening. Wen Xi places the lamp on its inner ledge, a grey-bearded worker holds the jamb and Ali pounds the panel lower down. Render one single instantaneous cinematic frame. Reference 1 supplies Wen Xi identity and clothing. Reference 2 supplies the grey-bearded rescued worker identity and clothing. Reference 3 supplies Ali identity and clothing. Reference 4 supplies environment materials and spatial anchors. Reference 5 supplies oil lantern. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门内室/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/油灯_01.jpg"
+      ],
+      "ref_roles": [
+        "Wen Xi identity and clothing",
+        "the grey-bearded rescued worker identity and clothing",
+        "Ali identity and clothing",
+        "environment materials and spatial anchors",
+        "oil lantern"
+      ],
+      "output": "逐镜/EP001_SH03/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925103
+    },
+    {
+      "id": "EP001_SH04",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Side wide view shows Lu Zhao braced at the wooden foot stops, holding the awl in both hands against the door lock. The latch is visible through the inspection opening. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies environment materials and spatial anchors. Reference 3 supplies short black awl. Reference 4 supplies copper latch plate. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_完好/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl",
+        "copper latch plate"
+      ],
+      "output": "逐镜/EP001_SH04/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925104
+    },
+    {
+      "id": "EP001_SH05",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Ma Duo steps into the shallow water by the south ladder at screen left; a detached bronze crank hangs from his belt. Render one single instantaneous cinematic frame. Reference 1 supplies Ma Duo identity and clothing. Reference 2 supplies Lu Zhao identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Ma Duo identity and clothing",
+        "Lu Zhao identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH05/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925105
+    },
+    {
+      "id": "EP001_SH06",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Ma Duo stands left and Lu Zhao right with the fork between them. Lu Zhao glances toward the trapped people as he speaks. Render one single instantaneous cinematic frame. Reference 1 supplies Ma Duo identity and clothing. Reference 2 supplies Lu Zhao identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Ma Duo identity and clothing",
+        "Lu Zhao identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH06/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925106
+    },
+    {
+      "id": "EP001_SH07",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. A low wide side angle clearly shows one continuous rope from an open cargo loop in the shallow water over the winch to a stone weight, with a handspan gap above its catch-frame; the projecting brake wedge holds the drum. Lu Zhao at right reaches for his purse. The existing ratchet pawl rests against the gear back, permitting forward rotation and stopping reverse movement. Render one single instantaneous cinematic frame. Reference 1 supplies Ma Duo identity and clothing. Reference 2 supplies Lu Zhao identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Ma Duo identity and clothing",
+        "Lu Zhao identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH07/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925107
+    },
+    {
+      "id": "EP001_SH08",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao keeps the awl in his left hand and tosses the small purse with his right during a pounding sound from the door. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ma Duo identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ma Duo identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH08/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925108
+    },
+    {
+      "id": "EP001_SH09",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Ma Duo keeps the fork aimed at Lu Zhao, steps beyond the purse and brings his rear foot into the broad cargo loop while thrusting. Render one single instantaneous cinematic frame. Reference 1 supplies Ma Duo identity and clothing. Reference 2 supplies Lu Zhao identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Ma Duo identity and clothing",
+        "Lu Zhao identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH09/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925109
+    },
+    {
+      "id": "EP001_SH10",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao slips aside; the fork embeds in a fixed wooden beam beside the winch, with a visible gap between beam and rotating drum. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ma Duo identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ma Duo identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH10/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925110
+    },
+    {
+      "id": "EP001_SH11",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  detail shot, 65mm lens. The awl rests visibly on the ledge above Lu Zhao's hands. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies visible prop reference. Reference 3 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "visible prop reference",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH11/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925111
+    },
+    {
+      "id": "EP001_SH12",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Return to the established low side angle. The weight drops a handspan onto the catch-frame as the ratchet clicks forward. Render one single instantaneous cinematic frame. Reference 1 supplies Ma Duo identity and clothing. Reference 2 supplies environment materials and spatial anchors. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Ma Duo identity and clothing",
+        "environment materials and spatial anchors"
+      ],
+      "output": "逐镜/EP001_SH12/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925112
+    },
+    {
+      "id": "EP001_SH13",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Ma Duo struggles to reach the embedded fork. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ma Duo identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ma Duo identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH13/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925113
+    },
+    {
+      "id": "EP001_SH14",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. An explicit same-angle time cut skips the repetitive wrapping. The short rope is already around the wrists and post and Lu Zhao still pins the chest with his knee. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ma Duo identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ma Duo identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH14/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925114
+    },
+    {
+      "id": "EP001_SH15",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao rises as a thin amber mark glows beneath his sternum; the bound soaked Ma Duo strains in the background. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ma Duo identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography. The north door remains closed and latched; shallow water covers the outer chamber floor.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ma Duo identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH15/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925115
+    },
+    {
+      "id": "EP001_SH16",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao returns to the same ledge position, with the recovered purse secured at his waist. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies environment materials and spatial anchors. Reference 3 supplies short black awl. Reference 4 supplies copper latch plate. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/北门_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl",
+        "copper latch plate"
+      ],
+      "output": "逐镜/EP001_SH16/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925116
+    },
+    {
+      "id": "EP001_SH17",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  close shot, 65mm lens. Water trembles at Wen Xi's lower lip; her lantern rests against the upper lip of the inspection opening. Render one single instantaneous cinematic frame. Reference 1 supplies Wen Xi identity and clothing. Reference 2 supplies environment materials and spatial anchors. Reference 3 supplies oil lantern. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门内室/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/油灯_01.jpg"
+      ],
+      "ref_roles": [
+        "Wen Xi identity and clothing",
+        "environment materials and spatial anchors",
+        "oil lantern"
+      ],
+      "output": "逐镜/EP001_SH17/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925117
+    },
+    {
+      "id": "EP001_SH18",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  detail shot, 65mm lens. The old dent at left and intact copper at right share the frame with the awl. Render one single instantaneous cinematic frame.     Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies short black awl. Reference 3 supplies copper latch plate. The timber tongue remains seated in its closed keeper behind the intact right half of the copper plate.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "short black awl",
+        "copper latch plate"
+      ],
+      "output": "逐镜/EP001_SH18/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925118
+    },
+    {
+      "id": "EP001_SH19",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Wide view of the falling latch. Lu Zhao steps sideways on the raised west ledge and tucks the awl into his belt clear of the door swing. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Wen Xi identity and clothing. Reference 3 supplies Ma Duo identity and clothing. Reference 4 supplies environment materials and spatial anchors. Reference 5 supplies short black awl. Reference 6 supplies oil lantern. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/油灯_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Wen Xi identity and clothing",
+        "Ma Duo identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl",
+        "oil lantern"
+      ],
+      "output": "逐镜/EP001_SH19/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925119
+    },
+    {
+      "id": "EP001_SH20",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Wen Xi already has one knee on the raised ledge and Lu Zhao holds her forearm; the old worker waits against the threshold. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Wen Xi identity and clothing. Reference 3 supplies the grey-bearded rescued worker identity and clothing. Reference 4 supplies environment materials and spatial anchors. Reference 5 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Wen Xi identity and clothing",
+        "the grey-bearded rescued worker identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH20/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925120
+    },
+    {
+      "id": "EP001_SH21",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Ali clings to the inside jamb with his leg caught below the threshold. Wen Xi kneels on the ledge and anchors Lu Zhao by his belt. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Wen Xi identity and clothing. Reference 3 supplies Ali identity and clothing. Reference 4 supplies environment materials and spatial anchors. Reference 5 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Wen Xi identity and clothing",
+        "Ali identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH21/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925121
+    },
+    {
+      "id": "EP001_SH22",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. All three rescued people share the raised ledge: Wen Xi supports the grey-bearded worker and Ali raises his head after coughing. The pierced copper plate remains attached to the opened lock. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Wen Xi identity and clothing. Reference 3 supplies the grey-bearded rescued worker identity and clothing. Reference 4 supplies Ali identity and clothing. Reference 5 supplies environment materials and spatial anchors. Reference 6 supplies copper latch plate. Reference 7 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Wen Xi identity and clothing",
+        "the grey-bearded rescued worker identity and clothing",
+        "Ali identity and clothing",
+        "environment materials and spatial anchors",
+        "copper latch plate",
+        "short black awl"
+      ],
+      "output": "逐镜/EP001_SH22/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925122
+    },
+    {
+      "id": "EP002_SH01",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Water still enters through a wall gap; the pierced copper plate stays on the door. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ma Duo identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies copper latch plate. Reference 5 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ma Duo identity and clothing",
+        "environment materials and spatial anchors",
+        "copper latch plate",
+        "short black awl"
+      ],
+      "output": "逐镜/EP002_SH01/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925201
+    },
+    {
+      "id": "EP002_SH02",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Inside the opened north room, the empty valve spindle and the bronze crank in Lu Zhao's hands share the frame. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies environment materials and spatial anchors. Reference 3 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门轮房/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP002_SH02/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925202
+    },
+    {
+      "id": "EP002_SH03",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  detail shot, 65mm lens. Low close detail shows the drain plug, shallow water and channel sloping toward the low-tide outer river. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies visible prop reference. Reference 3 supplies visible prop reference. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/退水栓_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "visible prop reference",
+        "visible prop reference"
+      ],
+      "output": "逐镜/EP002_SH03/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925203
+    },
+    {
+      "id": "EP002_SH04",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Elliptical cut: water now lies two fingers below Lu Zhao's earlier scratch mark while the three survivors walk along the ledge. Dry third-tier medicine crates are visible through an existing gap behind two wet crates. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Wen Xi identity and clothing. Reference 3 supplies Ali identity and clothing. Reference 4 supplies the grey-bearded rescued worker identity and clothing. Reference 5 supplies environment materials and spatial anchors. Reference 6 supplies copper latch plate. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Wen Xi identity and clothing",
+        "Ali identity and clothing",
+        "the grey-bearded rescued worker identity and clothing",
+        "environment materials and spatial anchors",
+        "copper latch plate"
+      ],
+      "output": "逐镜/EP002_SH04/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925204
+    },
+    {
+      "id": "EP002_SH05",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. At the hatch, Wen Xi leads Ali and the grey-bearded worker; Lu Zhao follows holding Ma Duo's wrist tether, with his ankle rope removed after the time cut. A guard bars the hatch with a pole. Render one single instantaneous cinematic frame. Reference 1 supplies Wen Xi identity and clothing. Reference 2 supplies Ali identity and clothing. Reference 3 supplies the grey-bearded rescued worker identity and clothing. Reference 4 supplies Lu Zhao identity and clothing. Reference 5 supplies Ma Duo identity and clothing. Reference 6 supplies the blue-coated watchman identity and clothing. Reference 7 supplies Cen Lu identity and clothing. Reference 8 supplies environment materials and spatial anchors. Reference 9 supplies copper latch plate. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/梯口_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Wen Xi identity and clothing",
+        "Ali identity and clothing",
+        "the grey-bearded rescued worker identity and clothing",
+        "Lu Zhao identity and clothing",
+        "Ma Duo identity and clothing",
+        "the blue-coated watchman identity and clothing",
+        "Cen Lu identity and clothing",
+        "environment materials and spatial anchors",
+        "copper latch plate"
+      ],
+      "output": "逐镜/EP002_SH05/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925205
+    },
+    {
+      "id": "EP002_SH06",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Cen Lu presses her cargo bond against the blocking pole and signs to guarantee the three survivors. The guard reads her name. Render one single instantaneous cinematic frame. Reference 1 supplies Cen Lu identity and clothing. Reference 2 supplies the blue-coated watchman identity and clothing. Reference 3 supplies environment materials and spatial anchors. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/梯口_01.jpg"
+      ],
+      "ref_roles": [
+        "Cen Lu identity and clothing",
+        "the blue-coated watchman identity and clothing",
+        "environment materials and spatial anchors"
+      ],
+      "output": "逐镜/EP002_SH06/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925206
+    },
+    {
+      "id": "EP002_SH07",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. After the cargo inspection time cut, the guard takes Ma Duo's wrist tether in front of all three survivors, with Lu Zhao at the side. Render one single instantaneous cinematic frame. Reference 1 supplies the blue-coated watchman identity and clothing. Reference 2 supplies the slate-grey harbor assistant identity and clothing. Reference 3 supplies Lu Zhao identity and clothing. Reference 4 supplies Ma Duo identity and clothing. Reference 5 supplies Wen Xi identity and clothing. Reference 6 supplies Ali identity and clothing. Reference 7 supplies the grey-bearded rescued worker identity and clothing. Reference 8 supplies environment materials and spatial anchors. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/会库押解人/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/码头_01.jpg"
+      ],
+      "ref_roles": [
+        "the blue-coated watchman identity and clothing",
+        "the slate-grey harbor assistant identity and clothing",
+        "Lu Zhao identity and clothing",
+        "Ma Duo identity and clothing",
+        "Wen Xi identity and clothing",
+        "Ali identity and clothing",
+        "the grey-bearded rescued worker identity and clothing",
+        "environment materials and spatial anchors"
+      ],
+      "output": "逐镜/EP002_SH07/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925207
+    },
+    {
+      "id": "EP002_SH08",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Cen Lu finishes weighing a purse next to a blank payment slip for post-composited 240-copper salvage wages. Render one single instantaneous cinematic frame. Reference 1 supplies Cen Lu identity and clothing. Reference 2 supplies Lu Zhao identity and clothing. Reference 3 supplies environment materials and spatial anchors. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/码头_01.jpg"
+      ],
+      "ref_roles": [
+        "Cen Lu identity and clothing",
+        "Lu Zhao identity and clothing",
+        "environment materials and spatial anchors"
+      ],
+      "output": "逐镜/EP002_SH08/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925208
+    },
+    {
+      "id": "EP002_SH09",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  detail shot, 65mm lens. A treatment time cut: ointment has been applied and the final bandage turn remains, with the dressing fee already on the table. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Wen Xi identity and clothing. Reference 3 supplies visible prop reference. Reference 4 supplies visible prop reference. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/药布_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Wen Xi identity and clothing",
+        "visible prop reference",
+        "visible prop reference"
+      ],
+      "output": "逐镜/EP002_SH09/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925209
+    },
+    {
+      "id": "EP002_SH10",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  detail shot, 65mm lens. After the sheath purchase time cut, the new sheath is already fastened to Lu Zhao's belt, paid coins rest on the stall cloth and the original awl is in his hand. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies visible prop reference. Reference 3 supplies short black awl. Reference 4 supplies visible prop reference. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography. Lu Zhao wears a small empty awl sheath; the single original awl occupies the position specified in this shot.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "visible prop reference",
+        "short black awl",
+        "visible prop reference"
+      ],
+      "output": "逐镜/EP002_SH10/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925210
+    },
+    {
+      "id": "EP002_SH11",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Cool flashback color. A gaunt clean-shaven elder wearing a red wrist strip presses a thin ember into an old wound on Lu Zhao's chest. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies the gaunt clean-shaven elder identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/废船_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "the gaunt clean-shaven elder identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP002_SH11/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925211
+    },
+    {
+      "id": "EP002_SH12",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  close shot, 65mm lens. The gaunt elder's hand rests on Lu Zhao's awl hand as the chest glow fades. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies the gaunt clean-shaven elder identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/废船_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "the gaunt clean-shaven elder identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP002_SH12/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925212
+    },
+    {
+      "id": "EP002_SH13",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. At dusk Lu Zhao enters the cramped room and tips his remaining tied coin strings onto the crooked table; a paid lodging slip sits at his purse edge. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Lu He identity and clothing. Reference 3 supplies environment materials and spatial anchors. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Lu He identity and clothing",
+        "environment materials and spatial anchors"
+      ],
+      "output": "逐镜/EP002_SH13/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925213
+    },
+    {
+      "id": "EP002_SH14",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao reaches for a chipped bowl, but Lu He takes it away first. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Lu He identity and clothing. Reference 3 supplies environment materials and spatial anchors. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Lu He identity and clothing",
+        "environment materials and spatial anchors"
+      ],
+      "output": "逐镜/EP002_SH14/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925214
+    },
+    {
+      "id": "EP002_SH15",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  close shot, 65mm lens. Steam rises from the whole bowl. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Lu He identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies two intact rice bowls. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Lu He identity and clothing",
+        "environment materials and spatial anchors",
+        "two intact rice bowls"
+      ],
+      "output": "逐镜/EP002_SH15/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925215
+    },
+    {
+      "id": "EP002_SH16",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu He unfolds the sale notice for the Blue Crab beside their two bowls; a familiar repaired bow and the post-composited three-thousand-copper price are visible. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Lu He identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies boat sale paper. Reference 5 supplies two intact rice bowls. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/售船纸_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Lu He identity and clothing",
+        "environment materials and spatial anchors",
+        "boat sale paper",
+        "two intact rice bowls"
+      ],
+      "output": "逐镜/EP002_SH16/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925216
+    },
+    {
+      "id": "EP002_SH17",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao gathers the already tied coin strings into the purse beside the boat notice. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Lu He identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies boat sale paper. Reference 5 supplies two intact rice bowls. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/售船纸_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Lu He identity and clothing",
+        "environment materials and spatial anchors",
+        "boat sale paper",
+        "two intact rice bowls"
+      ],
+      "output": "逐镜/EP002_SH17/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925217
+    },
+    {
+      "id": "EP003_SH01",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  detail shot, 65mm lens. Lu Zhao's bandaged hand already holds the original awl against the copper plug. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies short black awl. Reference 3 supplies visible prop reference. Reference 4 supplies visible prop reference. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography. Lu Zhao wears a small empty awl sheath; the single original awl occupies the position specified in this shot.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/皮鞘_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/铜塞水桶_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "short black awl",
+        "visible prop reference",
+        "visible prop reference"
+      ],
+      "output": "逐镜/EP003_SH01/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925301
+    },
+    {
+      "id": "EP003_SH02",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Cut to payment time: the original awl is already sheathed at Lu Zhao's belt as the trough owner places sixty copper coins in his hand. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Wen Xi identity and clothing. Reference 3 supplies the beige-shirt water-trough owner identity and clothing. Reference 4 supplies environment materials and spatial anchors. Reference 5 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/水槽货主/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Wen Xi identity and clothing",
+        "the beige-shirt water-trough owner identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP003_SH02/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925302
+    },
+    {
+      "id": "EP003_SH03",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Ge Ya at screen right twists Ali's right arm and holds a short knife against his ribs. Lu Zhao and his sister's door remain at screen left. Render one single instantaneous cinematic frame. Reference 1 supplies Ge Ya identity and clothing. Reference 2 supplies Ali identity and clothing. Reference 3 supplies Lu Zhao identity and clothing. Reference 4 supplies Wen Xi identity and clothing. Reference 5 supplies environment materials and spatial anchors. Reference 6 supplies short knife. Reference 7 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Ge Ya identity and clothing",
+        "Ali identity and clothing",
+        "Lu Zhao identity and clothing",
+        "Wen Xi identity and clothing",
+        "environment materials and spatial anchors",
+        "short knife",
+        "short black awl"
+      ],
+      "output": "逐镜/EP003_SH03/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925303
+    },
+    {
+      "id": "EP003_SH04",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao sets the lunch bowl firmly on the low stand by the door. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ge Ya identity and clothing. Reference 3 supplies Ali identity and clothing. Reference 4 supplies Wen Xi identity and clothing. Reference 5 supplies environment materials and spatial anchors. Reference 6 supplies short black awl. Reference 7 supplies short knife. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ge Ya identity and clothing",
+        "Ali identity and clothing",
+        "Wen Xi identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl",
+        "short knife"
+      ],
+      "output": "逐镜/EP003_SH04/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925304
+    },
+    {
+      "id": "EP003_SH05",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Ge Ya releases Ali into Wen Xi's arms. Render one single instantaneous cinematic frame. Reference 1 supplies Ge Ya identity and clothing. Reference 2 supplies Ali identity and clothing. Reference 3 supplies Wen Xi identity and clothing. Reference 4 supplies Lu Zhao identity and clothing. Reference 5 supplies environment materials and spatial anchors. Reference 6 supplies short knife. Reference 7 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography. At this starting instant Lu Zhao still has intact teal shoulder cloth and his awl in its sheath; his right palm is bandaged.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Ge Ya identity and clothing",
+        "Ali identity and clothing",
+        "Wen Xi identity and clothing",
+        "Lu Zhao identity and clothing",
+        "environment materials and spatial anchors",
+        "short knife",
+        "short black awl"
+      ],
+      "output": "逐镜/EP003_SH05/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925305
+    },
+    {
+      "id": "EP003_SH06",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Lu Zhao's retreat puts his sister's door just behind his left shoulder, with the closed house door behind him. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ge Ya identity and clothing. Reference 3 supplies Wen Xi identity and clothing. Reference 4 supplies Ali identity and clothing. Reference 5 supplies environment materials and spatial anchors. Reference 6 supplies short black awl. Reference 7 supplies short knife. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography. Lu Zhao wears a small empty awl sheath; the single original awl occupies the position specified in this shot.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ge Ya identity and clothing",
+        "Wen Xi identity and clothing",
+        "Ali identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl",
+        "short knife"
+      ],
+      "output": "逐镜/EP003_SH06/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925306
+    },
+    {
+      "id": "EP003_SH07",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. The net curtain is tied along the top rail and hangs in a loose wet heap beside Lu Zhao's foot. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ge Ya identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short knife. Reference 5 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography. Lu Zhao wears a small empty awl sheath; the single original awl occupies the position specified in this shot.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ge Ya identity and clothing",
+        "environment materials and spatial anchors",
+        "short knife",
+        "short black awl"
+      ],
+      "output": "逐镜/EP003_SH07/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925307
+    },
+    {
+      "id": "EP003_SH08",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  detail shot, 65mm lens. Close detail shows mesh wrapped around the knife spine while Ge Ya grips the handle outside. Render one single instantaneous cinematic frame. Reference 1 supplies Ge Ya identity and clothing. Reference 2 supplies Lu Zhao identity and clothing. Reference 3 supplies short knife. Reference 4 supplies visible prop reference. Reference 5 supplies visible prop reference. Reference 6 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography. Lu Zhao wears a small empty awl sheath; the single original awl occupies the position specified in this shot.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/湿网_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Ge Ya identity and clothing",
+        "Lu Zhao identity and clothing",
+        "short knife",
+        "visible prop reference",
+        "visible prop reference",
+        "short black awl"
+      ],
+      "output": "逐镜/EP003_SH08/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925308
+    },
+    {
+      "id": "EP003_SH09",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. A side view includes Lu Zhao's two-handed grip, the folded net corner and the wooden rail, with his injured left shoulder visible. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ge Ya identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short black awl. Reference 5 supplies short knife. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography. Lu Zhao wears a small empty awl sheath; the single original awl occupies the position specified in this shot.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ge Ya identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl",
+        "short knife"
+      ],
+      "output": "逐镜/EP003_SH09/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925309
+    },
+    {
+      "id": "EP003_SH10",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Ge Ya still grips the knife in his right hand with the net taut. Lu Zhao braces his right elbow against the rail with his left palm and bends the knife wrist back with his right hand. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ge Ya identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short knife. Reference 5 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography. Lu Zhao wears a small empty awl sheath; the single original awl occupies the position specified in this shot.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ge Ya identity and clothing",
+        "environment materials and spatial anchors",
+        "short knife",
+        "short black awl"
+      ],
+      "output": "逐镜/EP003_SH10/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925310
+    },
+    {
+      "id": "EP003_SH11",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao's left palm pins Ge Ya's right elbow against the rail; his right hand has just released the knife into the gutter. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ge Ya identity and clothing. Reference 3 supplies environment materials and spatial anchors. Reference 4 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography. Lu Zhao wears a small empty awl sheath; the single original awl occupies the position specified in this shot.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ge Ya identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP003_SH11/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925311
+    },
+    {
+      "id": "EP003_SH12",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. The tie has already been wrapped. Lu Zhao still wedges Ge Ya against the post with his uninjured right shoulder and controls one wrist in each hand; Ali has looped the short rope around wrists and post from the safe side. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ge Ya identity and clothing. Reference 3 supplies Ali identity and clothing. Reference 4 supplies environment materials and spatial anchors. Reference 5 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography. Lu Zhao wears a small empty awl sheath; the single original awl occupies the position specified in this shot. Ge Ya has exposed hair and neck; his detached brown hood lies beside his left foot.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/葛牙_落帽束腕/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ge Ya identity and clothing",
+        "Ali identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP003_SH12/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925312
+    },
+    {
+      "id": "EP003_SH13",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Time cut: two watchmen have arrived from the visible quay lane. Ali stands by the gutter handing the recovered knife point-down to one. Render one single instantaneous cinematic frame. Reference 1 supplies Ali identity and clothing. Reference 2 supplies the blue-coated watchman identity and clothing. Reference 3 supplies the slate-grey harbor assistant identity and clothing. Reference 4 supplies Wen Xi identity and clothing. Reference 5 supplies Ge Ya identity and clothing. Reference 6 supplies environment materials and spatial anchors. Reference 7 supplies short knife. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography. Ge Ya has exposed hair and neck; his detached brown hood lies beside his left foot.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/会库押解人/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/葛牙_落帽束腕/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg"
+      ],
+      "ref_roles": [
+        "Ali identity and clothing",
+        "the blue-coated watchman identity and clothing",
+        "the slate-grey harbor assistant identity and clothing",
+        "Wen Xi identity and clothing",
+        "Ge Ya identity and clothing",
+        "environment materials and spatial anchors",
+        "short knife"
+      ],
+      "output": "逐镜/EP003_SH13/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925313
+    },
+    {
+      "id": "EP003_SH14",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  close shot, 65mm lens. With the watchmen taking custody of Ge Ya, Lu Zhao catches his breath. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies environment materials and spatial anchors. Reference 3 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography. Lu Zhao wears a small empty awl sheath; the single original awl occupies the position specified in this shot.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP003_SH14/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925314
+    },
+    {
+      "id": "EP003_SH15",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao sits by the lunch stand with the awl sheathed. Wen Xi cuts the left shoulder cloth and presses a dressing onto the shallow wound. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Wen Xi identity and clothing. Reference 3 supplies Lu He identity and clothing. Reference 4 supplies environment materials and spatial anchors. Reference 5 supplies short black awl. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Wen Xi identity and clothing",
+        "Lu He identity and clothing",
+        "environment materials and spatial anchors",
+        "short black awl"
+      ],
+      "output": "逐镜/EP003_SH15/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925315
+    },
+    {
+      "id": "EP003_SH16",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao starts to turn his uninjured shoulder toward his sister to hide the bloody cloth, then stops. Lu He uses flour-dusted fingers to smooth the collar away from the wound, holds the collar with her fingers while he looks at her. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Lu He identity and clothing. Reference 3 supplies environment materials and spatial anchors. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Lu He identity and clothing",
+        "environment materials and spatial anchors"
+      ],
+      "output": "逐镜/EP003_SH16/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925316
+    },
+    {
+      "id": "EP003_SH17",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Afternoon cut: Lu Zhao's left shoulder is dressed. Cen Lu spreads a chart showing a sunken pile blocking the main drain and the white delivery line, with Ali beside them. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Cen Lu identity and clothing. Reference 3 supplies Ali identity and clothing. Reference 4 supplies environment materials and spatial anchors. Reference 5 supplies drainage plan. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/码头绳摊/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/清障图新版/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Cen Lu identity and clothing",
+        "Ali identity and clothing",
+        "environment materials and spatial anchors",
+        "drainage plan"
+      ],
+      "output": "逐镜/EP003_SH17/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925317
+    },
+    {
+      "id": "EP003_SH18",
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao places a pre-counted string of forty copper coins in Ali's hand beside the prepared two-day wage slip. Render one single instantaneous cinematic frame. Reference 1 supplies Lu Zhao identity and clothing. Reference 2 supplies Ali identity and clothing. Reference 3 supplies environment materials and spatial anchors. Human anatomy follows the shot crop and composition; reference identity is carried by the visible clothing and anatomy. All lettering surfaces remain plain for later typography.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/码头绳摊/ref_v01.jpg"
+      ],
+      "ref_roles": [
+        "Lu Zhao identity and clothing",
+        "Ali identity and clothing",
+        "environment materials and spatial anchors"
+      ],
+      "output": "逐镜/EP003_SH18/frame_v01.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 925318
+    }
+  ]
+}

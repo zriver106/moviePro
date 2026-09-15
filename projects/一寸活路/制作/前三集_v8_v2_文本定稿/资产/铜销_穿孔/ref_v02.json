@@ -1,0 +1,13 @@
+{
+  "id": "铜销_穿孔",
+  "request_sha256": "d11a38902167cf623c2fac5e3ba9533349dbfb40229fe38363422ac60fe9cd2c",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {},
+  "image_sha256": "3d5ff03aa0ce87d47b1ccf9f4ee44a918df27596e7777b2ad48dd0f3cf53fc12",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

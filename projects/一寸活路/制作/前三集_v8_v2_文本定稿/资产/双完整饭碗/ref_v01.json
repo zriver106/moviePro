@@ -1,0 +1,15 @@
+{
+  "id": "双完整饭碗",
+  "request_sha256": "d7b775d1b837f1d563af66ddff899228d2c80ce673ff26daeac502ec83108049",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/双碗/cell_03.jpg": "17628ade714976589e3d073b5708cd80e7e5e31e26e46aa16749875a0290e5f4"
+  },
+  "image_sha256": "603e830fa960a300d91ffda91b3bdd7bac766f20ecd92ccd2110b90423612b18",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

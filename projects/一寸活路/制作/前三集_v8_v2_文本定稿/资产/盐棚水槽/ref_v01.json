@@ -1,0 +1,15 @@
+{
+  "id": "盐棚水槽",
+  "request_sha256": "d5b1b5591cfe942453f5317d8a943ac9d80bd1d21e7d795867a696d3dd920b63",
+  "spec_sha256": "92183284ab1850c9a35fac30643d8c31b6e554ddc2a943b8deaf5ba2122babb9",
+  "refs_sha256": {
+    "制作/前三集_v8_v1/资产/铜塞水桶/cell_01.jpg": "cc22ce31a6b9d5f6ab53d180bd4a6a6bbb2f2483fb2d82db25b71a025d5a7c9e"
+  },
+  "image_sha256": "c1d14469e31b30419063722afaadc36c49eee8ef6170adfeba323c085fb64bd7",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "visual_status": "pending_inspection"
+}

@@ -1,0 +1,53 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "铜销_穿孔",
+      "target": "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/ref_v01.jpg",
+      "prompt": "Straight-on macro close-up of the same palm-sized flat rectangular copper latch cover, with identical outer dimensions and retaining-tab positions as the intact and dimpled states. The left half has a four millimeter shallow dimple. The right half has an eight millimeter square tapered awl puncture. Broad continuous copper surrounds these two small marks. The wooden tongue behind the puncture is retracted clear of its keeper. The upper retaining tab is released and the plate remains attached by the lower tab. Clear readable mechanical state, warm old wood and restrained copper, sculpted Chinese 3D animated production design.",
+      "refs": [],
+      "output": "资产/铜销_穿孔/structure_v03.jpg",
+      "seed": 945000,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    },
+    {
+      "id": "棘爪绳轮机关",
+      "target": "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/ref_v01.jpg",
+      "prompt": "Side elevation technical illustration of a timber lifting winch. One connected assembly on a solid raised timber base. At left a slack rope floor loop; its continuous rope winds onto the center horizontal drum, then runs diagonally up to a single fixed pulley at upper right, bends over the pulley and drops vertically to a small stone weight. The stone hangs fifteen centimeters above a thick catch shelf bolted to the same timber base by two solid legs. Every segment of rope is visible. A separate hinged iron pawl directly touches a tooth on the drum ratchet wheel. A small triangular removable wooden brake wedge contacts the bottom of the wheel. A fixed beam stands beyond the wheel separated by clear space. Clean readable sculpted wooden and bronze parts, soft neutral background, Chinese 3D animated production design.",
+      "refs": [],
+      "output": "资产/棘爪绳轮机关/structure_v03.jpg",
+      "seed": 945001,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    },
+    {
+      "id": "北门轮房",
+      "target": "制作/前三集_v8_v2_文本定稿/资产/北门轮房/ref_v01.jpg",
+      "prompt": "Medium close empty set view inside a weathered timber lock-room. Center frame a short BARE square bronze shaft protrudes horizontally from the timber wall, exposing its square end ready to receive a detachable crank. A small stop peg sits below it. At right a narrow wall inlet slot feeds shallow water. At far left the edge of an opened timber door and a raised ledge. Warm dim lantern reflection. Sculpted Chinese 3D animation environment, detailed old wood and restrained bronze.",
+      "refs": [],
+      "output": "资产/北门轮房/structure_v03.jpg",
+      "seed": 945002,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    },
+    {
+      "id": "清障图新版",
+      "target": "制作/前三集_v8_v2_文本定稿/资产/清障图新版/ref_v01.jpg",
+      "prompt": "Top-down view of cream paper with a simple black ink drawing: a main drainage channel blocked by one small sunken wooden pile, a white chalk delivery line beyond the pile, and a small open-stern workboat. Beside the paper sits a tiny movable wood toolbox marker. The lower third of the paper is a broad blank cream surface reserved for later typography. Soft daylight, sculpted Chinese 3D animated feature material style, old paper on a timber tabletop.",
+      "refs": [],
+      "output": "资产/清障图新版/structure_v03.jpg",
+      "seed": 945003,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    }
+  ]
+}
