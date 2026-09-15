@@ -1,0 +1,387 @@
+{
+  "video": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP003_B/take_01_480p.mp4",
+  "video_sha256": "dd1b9573a1871fcbc04d7badc6b48c8746b70e6797ca9651785bbe6c66067184",
+  "duration": 30.041667,
+  "audio_streams": 1,
+  "technical_duration_pass": true,
+  "content_status": "pending_human_visual_and_dialogue_review",
+  "contact_sheets": [
+    "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP003_B/take_01_480p_qc/contact_00.jpg",
+    "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP003_B/take_01_480p_qc/contact_16.jpg"
+  ],
+  "expected_dialogue": [
+    {
+      "speaker": "阿砾",
+      "text": "有人持刀！",
+      "off_screen": false,
+      "at": 2.5,
+      "end": 3.8
+    },
+    {
+      "speaker": "闻溪",
+      "text": "能刺，也得躲刀。",
+      "off_screen": false,
+      "at": 9.4,
+      "end": 12
+    },
+    {
+      "speaker": "陆禾",
+      "text": "下次先叫我关门。",
+      "off_screen": false,
+      "at": 13.5,
+      "end": 15.9
+    },
+    {
+      "speaker": "陆照",
+      "text": "嗯。",
+      "off_screen": false,
+      "at": 16.3,
+      "end": 16.9
+    },
+    {
+      "speaker": "岑鹿",
+      "text": "六百铜。桩过白线才付，我出两个人。",
+      "off_screen": false,
+      "at": 18.4,
+      "end": 23.7
+    },
+    {
+      "speaker": "陆照",
+      "text": "两天工钱。帮我看水。",
+      "off_screen": false,
+      "at": 24.1,
+      "end": 27
+    },
+    {
+      "speaker": "阿砾",
+      "text": "喊了你听？",
+      "off_screen": false,
+      "at": 27.1,
+      "end": 28.6
+    },
+    {
+      "speaker": "陆照",
+      "text": "听。",
+      "off_screen": false,
+      "at": 28.8,
+      "end": 29.5
+    }
+  ],
+  "expected_camera": {
+    "cn": "0秒同机位时间省略到阿砾短绳已绕柱，0–4秒拍末结和喊人；4秒时间省略到两守卫接手，4–9秒连续中景分别交刀、捡帽鱼牌、胸口添第二痕、拔回锥。9秒切门边敷药，9–18秒同一镜头从闻溪左肩敷药侧移到陆禾开门、抚领、推饭。18秒明确下午转场至绳摊，18–30秒一镜到底：岑鹿摊图指桩及白线，陆照移工具箱标记给伤员腾位；镜头侧移到陆照交40铜及雇工条给阿砾，顺视线落到窄水道结束。",
+    "en": "At 0s make an explicit same-angle time ellipsis to Ali having already wrapped the wrist-and-post rope. Show the final knot and call over 0–4s. At 4s time-cut to two guards taking custody. Keep a continuous medium view over 4–9s as Ali hands over the knife point-down, the other guard retrieves hood and fish token, the second ember appears and Lu Zhao retrieves the original awl. At 9s cut to dressing at the doorway. From 9s to 18s use one continuous shot from Wen Xi treating the anatomical left shoulder to Lu He opening the door, smoothing the collar and moving lunch nearer. At 18s make an explicit afternoon location cut to the rope stall. From 18s to 30s use a single continuous take: Cen Lu spreads the drainage chart, points at pile and delivery line, Lu Zhao shifts the toolbox marker away from the injured-person stern space; slide sideways to the forty-copper string and employment paper handed to Ali, ending along both eyelines toward the narrow waterway."
+  },
+  "expected_beats": [
+    {
+      "source_shot": "EP003_SH12",
+      "start": 0,
+      "end": 4,
+      "action_cn": {
+        "start": "时间省略硬切：陆照右肩仍将葛牙抵住架柱，双手分别把住两腕；阿砾已从安全侧把短绳绕过腕柱",
+        "beat": "阿砾拉紧末结，葛牙挣动，两臂仍受陆照和柱面压制；阿砾向码头喊人",
+        "end": "绳扣吃紧后陆照才松肩，葛牙留在柱边"
+      },
+      "action_en": "An explicit time cut skips fetching and wrapping the tie. Lu Zhao still wedges Ge Ya against the post with his uninjured right shoulder and controls one wrist in each hand; Ali has looped the short rope around wrists and post from the safe side. Then Ali tightens the last knot and calls toward the quay while Lu Zhao maintains body pressure; once the knot holds Lu Zhao eases his shoulder, leaving Ge Ya secured.",
+      "lines": [
+        {
+          "speaker": "阿砾",
+          "text": "有人持刀！",
+          "off_screen": false,
+          "at": 2.5,
+          "end": 3.8
+        }
+      ],
+      "on_screen_text": [],
+      "continuity_out": "绳扣吃紧后陆照才松肩，葛牙留在柱边"
+    },
+    {
+      "source_shot": "EP003_SH13",
+      "start": 4,
+      "end": 7,
+      "action_cn": {
+        "start": "时间省略：两名守船人已从码头路口赶到；阿砾站在石沟边把拾起的短刀刀尖向下交给一人",
+        "beat": "闻溪指向葛牙左脚旁的掉落兜帽，铜鱼牌露出半边；另一守船人蹲下捡起帽牌",
+        "end": "一人拿刀，一人拿帽牌，葛牙仍被绑在柱上"
+      },
+      "action_en": "Time cut: two watchmen have arrived from the visible quay lane. Ali stands by the gutter handing the recovered knife point-down to one. Then Wen Xi points at Ge Ya's fallen hood by his left foot, where half a copper fish token is visible; the second watchman stoops and collects the hood and token. One holds the knife, the other the hood and token, while Ge Ya remains tied to the post.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "一人拿刀，一人拿帽牌，葛牙仍被绑在柱上"
+    },
+    {
+      "source_shot": "EP003_SH14",
+      "start": 7,
+      "end": 9,
+      "action_cn": {
+        "start": "守船人已接管葛牙，陆照低头喘气",
+        "beat": "胸骨位置亮出两道短痕，旧的一道旁新增一道",
+        "end": "他右手拔回横杆上的锥，松开的网角落下"
+      },
+      "action_en": "With the watchmen taking custody of Ge Ya, Lu Zhao catches his breath. Then two short marks glow beneath his sternum, the new one beside the old; he pulls the awl from the rail with his right hand and the freed net corner falls.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "他右手拔回横杆上的锥，松开的网角落下"
+    },
+    {
+      "source_shot": "EP003_SH15",
+      "start": 9,
+      "end": 13,
+      "action_cn": {
+        "start": "时间省略：葛牙已被带走，陆照坐在门边矮台旁，锥已收鞘；闻溪剪开左肩衣料",
+        "beat": "闻溪压好药布，陆照试抬左臂便停住",
+        "end": "门从身后打开，陆禾看见血衣"
+      },
+      "action_en": "After the watchmen leave with Ge Ya, Lu Zhao sits by the lunch stand with the awl sheathed. Wen Xi cuts the left shoulder cloth and presses a dressing onto the shallow wound. Then he starts to lift that arm and stops at the pain as his sister opens the door behind him.",
+      "lines": [
+        {
+          "speaker": "闻溪",
+          "text": "能刺，也得躲刀。",
+          "off_screen": false,
+          "at": 9.4,
+          "end": 12
+        }
+      ],
+      "on_screen_text": [],
+      "continuity_out": "门从身后打开，陆禾看见血衣"
+    },
+    {
+      "source_shot": "EP003_SH16",
+      "start": 13,
+      "end": 18,
+      "action_cn": {
+        "start": "陆照看见姐姐，想用右肩挡一下血衣，随即停住",
+        "beat": "陆禾用沾面粉的手摊平伤侧领边，说完停一拍；陆照低低应声",
+        "end": "她伸手把午饭往他身边推，完整碗仍在"
+      },
+      "action_en": "Lu Zhao starts to turn his uninjured shoulder toward his sister to hide the bloody cloth, then stops. Lu He uses flour-dusted fingers to smooth the collar away from the wound, speaks and waits; he answers quietly. Then she slides the waiting whole lunch bowl closer to him.",
+      "lines": [
+        {
+          "speaker": "陆禾",
+          "text": "下次先叫我关门。",
+          "off_screen": false,
+          "at": 13.5,
+          "end": 15.9
+        },
+        {
+          "speaker": "陆照",
+          "text": "嗯。",
+          "off_screen": false,
+          "at": 16.3,
+          "end": 16.9
+        }
+      ],
+      "on_screen_text": [],
+      "continuity_out": "她伸手把午饭往他身边推，完整碗仍在"
+    },
+    {
+      "source_shot": "EP003_SH17",
+      "start": 18,
+      "end": 24,
+      "action_cn": {
+        "start": "下午时间切：陆照左肩已包扎；岑鹿摊图，同框见沉桩堵主排水口、拖行白线，阿砾站旁",
+        "beat": "岑鹿指桩、再指白线，露出图边两名拉缆工的名字与暂未盖收讫的六百铜报价",
+        "end": "陆照用右手将工具箱标记移离后舷伤员空位，看向阿砾"
+      },
+      "action_en": "Afternoon cut: Lu Zhao's left shoulder is dressed. Cen Lu spreads a chart showing a sunken pile blocking the main drain and the white delivery line, with Ali beside them. Then she points from the pile to the line; a blank caption area lists two assigned rope workers and a six-hundred-copper completion quote, still unpaid. Lu Zhao uses his right hand to move a toolbox marker away from the rear casualty space and looks at Ali.",
+      "lines": [
+        {
+          "speaker": "岑鹿",
+          "text": "六百铜。桩过白线才付，我出两个人。",
+          "off_screen": false,
+          "at": 18.4,
+          "end": 23.7
+        }
+      ],
+      "on_screen_text": [
+        {
+          "text": "完工付600铜\n配拉缆工二名",
+          "method": "post_composite",
+          "placement": "图旁报价单",
+          "generation_surface": "blank"
+        },
+        {
+          "text": "伤员位",
+          "method": "post_composite",
+          "placement": "后舷图例",
+          "generation_surface": "blank"
+        }
+      ],
+      "continuity_out": "陆照用右手将工具箱标记移离后舷伤员空位，看向阿砾"
+    },
+    {
+      "source_shot": "EP003_SH18",
+      "start": 24,
+      "end": 30,
+      "action_cn": {
+        "start": "陆照把预先数好的四十铜一串交到阿砾手上，摊布已有写好两日工钱的雇工条",
+        "beat": "阿砾看一眼钱，再抬头问陆照；陆照应下，右手将绳头推近",
+        "end": "阿砾握住绳头，笑着和陆照一起看向窄水道"
+      },
+      "action_en": "Lu Zhao places a pre-counted string of forty copper coins in Ali's hand beside the prepared two-day wage slip. Then Ali glances at the coins and asks Lu Zhao his question; Lu Zhao answers and slides the rope end closer with his right hand. Ali grips the rope, smiling as they both look toward the narrow channel.",
+      "lines": [
+        {
+          "speaker": "陆照",
+          "text": "两天工钱。帮我看水。",
+          "off_screen": false,
+          "at": 24.1,
+          "end": 27
+        },
+        {
+          "speaker": "阿砾",
+          "text": "喊了你听？",
+          "off_screen": false,
+          "at": 27.1,
+          "end": 28.6
+        },
+        {
+          "speaker": "陆照",
+          "text": "听。",
+          "off_screen": false,
+          "at": 28.8,
+          "end": 29.5
+        }
+      ],
+      "on_screen_text": [
+        {
+          "text": "两日工钱 40铜",
+          "method": "post_composite",
+          "placement": "雇工条",
+          "generation_surface": "blank"
+        }
+      ],
+      "continuity_out": "阿砾握住绳头，笑着和陆照一起看向窄水道"
+    }
+  ],
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001e",
+        "width": 854,
+        "height": 480,
+        "coded_width": 854,
+        "coded_height": 480,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 30,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 369152,
+        "duration": "30.041667",
+        "bit_rate": "3294669",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "721",
+        "extradata_size": 44,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "32000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/32000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 958464,
+        "duration": "29.952000",
+        "bit_rate": "193361",
+        "nb_frames": "937",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP003_B/take_01_480p.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "30.041667",
+      "size": "13120834",
+      "bit_rate": "3494036",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41"
+      }
+    }
+  }
+}

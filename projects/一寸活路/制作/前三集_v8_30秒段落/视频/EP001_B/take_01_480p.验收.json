@@ -1,0 +1,18 @@
+{
+  "status": "rejected",
+  "video_sha256": "54e06921d4d0ec1e4b48279999b043906fef23451329bada0359c89d3d757d6f",
+  "review_method": "每秒实际帧及两种ASR（EP003_B）；非逐帧运动/人工听审通过",
+  "content_coverage": "30秒缺段首次素材已到齐",
+  "blocking_issues": [
+    {
+      "time": "16–29",
+      "finding": "抽帧显示开门救人及四人汇合齐备；水向门外流出的方向与定稿流向仍需逐帧核对。"
+    },
+    {
+      "time": "3.9–5.1",
+      "finding": "ASR回读额外好还你，需后续对原音轨核对处理。"
+    }
+  ],
+  "correction_policy": "现有视频编辑或本机后期；不重生成",
+  "source_preserved": true
+}

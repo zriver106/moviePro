@@ -1,0 +1,30 @@
+{
+  "segment": "EP001_B",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "timing_approved": false,
+  "on_screen_text": [],
+  "onscreen_text_approved": true,
+  "status": "asr_aligned_draft",
+  "source": "制作/前三集_v8_30秒段落/视频/EP001_B/take_01_480p.mp4",
+  "video_sha256": "54e06921d4d0ec1e4b48279999b043906fef23451329bada0359c89d3d757d6f",
+  "asr_sha256": "7ba481d225b48087131422fb9767e26b90532e9198f576d2347dcc540a9eddcd",
+  "lines": [
+    {
+      "start": 9.16,
+      "end": 12.379000000000001,
+      "text": "胜过真敌，直刺添一痕。",
+      "speaker": "老人",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 0.667
+    },
+    {
+      "start": 24.059,
+      "end": 25.04,
+      "text": "阿砾！",
+      "speaker": "闻溪",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 0.5
+    }
+  ],
+  "timing_check": "按Scribe完整阿砾二字时段校正，保持定稿姓名"
+}

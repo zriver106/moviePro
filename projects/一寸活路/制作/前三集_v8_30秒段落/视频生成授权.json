@@ -1,0 +1,15 @@
+{
+  "user_instruction": "1.先不要重复生成视频，需要我同意 2.把缺失的内容补上 3.给我输出完整的内容 不要使用提示卡",
+  "repeat_generation_requires_explicit_user_approval": true,
+  "authorized_first_generation": [
+    "EP001_B",
+    "EP003_B"
+  ],
+  "authorized_take": 1,
+  "preserve_existing_videos": true,
+  "assembly": "完整180秒，单层中文字幕，无行政提示卡及水印，不加BGM",
+  "allow_existing_video_editing": true,
+  "correction_mode": "existing_video_editing_only",
+  "fallback_to_regeneration": false,
+  "reference_thread": "01a0a3e4-e369-7ec2-8434-9744970c7c5d"
+}

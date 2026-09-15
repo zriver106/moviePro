@@ -53,7 +53,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     for l in lines:
         value=wrap(l['text']).replace('\n',r'\N').replace('{','').replace('}','')
         ass+=f'Dialogue: 0,{timestamp(l["start"],True)},{timestamp(l["end"],True)},Dialogue,,0,0,0,,{value}\n'
-    if preview:ass+='Dialogue: 1,0:00:00.00,0:00:30.00,Notice,,0,0,0,,后期试听样片 · 画面未通过验收\n'
+    # 用户要求所有导出画面都不带内部验收/试听水印，状态只保存在JSON。
     for card in cards:
         if card['placement']=='左上角时间字幕':
             ass+=f'Dialogue: 0,{timestamp(card["start"],True)},{timestamp(card["end"],True)},Time,,0,0,0,,{card["text"]}\n'
@@ -105,15 +105,15 @@ def release_gate(source,meta,preview):
         if meta.get('on_screen_text') and not meta.get('onscreen_text_approved'):raise ValueError('画内中文尚未合成验收')
 
 
-def render(segment,take,preview=False):
+def render(segment,take,preview=False,output_root=None,cleanup=None,add_bgm=False):
     require_plan()
     folder=POST/'字幕'/segment/f'take_{take:02}';meta=read(folder/'字幕校对.json');source=P/meta['source']
     release_gate(source,meta,preview)
-    config=read(POST/'配乐方案.json');cues=config['segments'][segment]['cues'];lines=meta['lines']
+    config=read(POST/'配乐方案.json');cues=config['segments'][segment]['cues'] if add_bgm else [];lines=meta['lines']
     if any(l['start']<0 or l['end']>30 or l['end']<=l['start'] for l in lines):raise ValueError('字幕时间异常')
-    output_dir=POST/('试听样片' if preview else '交付')/segment/f'take_{take:02}';output_dir.mkdir(parents=True,exist_ok=True)
+    output_dir=(output_root or POST/('试听样片' if preview else '交付'))/segment/f'take_{take:02}';output_dir.mkdir(parents=True,exist_ok=True)
     write_subtitles(output_dir,lines,preview,meta.get('on_screen_text',[]))
-    output=output_dir/'中文字幕_低音量配乐.mp4'
+    output=output_dir/('中文字幕_低音量配乐.mp4' if add_bgm else '中文字幕_无配乐.mp4')
     command=[FF,'-v','error','-y','-i',str(source)];filters=['[0:a]atrim=0:30,asetpts=PTS-STARTPTS,loudnorm=I=-16:TP=-1.5:LRA=9,aresample=48000[dialogue]'];inputs=['[dialogue]']
     for i,cue in enumerate(cues,1):
         music=P/cue['source']
@@ -131,11 +131,19 @@ def render(segment,take,preview=False):
     # 预留AAC编码后的真峰值余量，交付复测目标仍为不高于-1.5dBTP。
     filters.append(''.join(inputs)+f'amix=inputs={len(inputs)}:normalize=0:duration=first,alimiter=limit=0.794328:level=false,atrim=0:30[aout]')
     # 固定的本地字幕文件名，从输出目录启动ffmpeg，避免路径转义破坏滤镜。
-    command+=['-filter_complex',';'.join(filters),'-map','0:v:0','-map','[aout]','-vf','ass=中文字幕.ass','-t','30','-c:v','libx264','-crf','18','-pix_fmt','yuv420p','-c:a','aac','-b:a','192k','-movflags','+faststart',str(output)]
+    vf=[]
+    if cleanup:
+        if cleanup['source_sha256']!=sha(source):raise ValueError('字幕清理所据原片变更')
+        for box in cleanup['regions']:
+            x,y,w,h=box['rect'];start,end=box['start'],box['end']
+            if min(x,y)<1 or min(w,h)<1 or not 0<=start<end<=30:raise ValueError('字幕清理区域异常')
+            vf.append(f"delogo=x={x}:y={y}:w={w}:h={h}:enable='between(t,{start},{end})'")
+    vf.append('ass=中文字幕.ass')
+    command+=['-filter_complex',';'.join(filters),'-map','0:v:0','-map','[aout]','-vf',','.join(vf),'-t','30','-c:v','libx264','-crf','18','-pix_fmt','yuv420p','-c:a','aac','-b:a','192k','-movflags','+faststart',str(output)]
     subprocess.run(command,cwd=output_dir,check=True)
     measured=subprocess.run([FF,'-hide_banner','-i',str(output),'-af','loudnorm=I=-16:TP=-1.5:LRA=9:print_format=json','-f','null','-'],capture_output=True,text=True,check=True).stderr
     stats=json.JSONDecoder().raw_decode(measured[measured.rfind('{'):])[0]
-    write(output.with_suffix('.json'),{'segment':segment,'source':str(source.relative_to(P)),'source_sha256':sha(source),'output_sha256':sha(output),'preview':preview,'delivery_ready':False,'hard_chinese_subtitles':True,'subtitle_metadata_sha256':sha(folder/'字幕校对.json'),'music_plan_sha256':sha(POST/'配乐方案.json'),'music_target_lufs_between_dialogue':-34,'music_target_lufs_under_dialogue':-40,'mix_loudness':stats,'status':'rendered_pending_listening_and_visual_check'})
+    write(output.with_suffix('.json'),{'segment':segment,'source':str(source.relative_to(P)),'source_sha256':sha(source),'output_sha256':sha(output),'preview':preview,'delivery_ready':False,'visible_review_watermark':False,'caption_cleanup':cleanup,'hard_chinese_subtitles':True,'subtitle_metadata_sha256':sha(folder/'字幕校对.json'),'music_plan_sha256':sha(POST/'配乐方案.json'),'bgm_added':bool(cues),'music_target_lufs_between_dialogue':-34 if cues else None,'music_target_lufs_under_dialogue':-40 if cues else None,'mix_loudness':stats,'status':'rendered_pending_listening_and_visual_check'})
     return output
 
 

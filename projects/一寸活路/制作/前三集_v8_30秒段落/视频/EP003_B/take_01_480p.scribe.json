@@ -1,0 +1,418 @@
+{
+  "source_sha256": "dd1b9573a1871fcbc04d7badc6b48c8746b70e6797ca9651785bbe6c66067184",
+  "decoder": "scribe",
+  "text_hints": false,
+  "result": {
+    "text": "有人起刀。 下次先叫我关门。 嗯。 六百桶，装过白县财赋。我出两个人。 两天工钱，帮我看水。 哦，喊了你听？ 听。 ",
+    "language_code": "zho",
+    "language_probability": 1.0,
+    "words": [
+      {
+        "text": "有",
+        "start": 2.599,
+        "end": 2.779,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "人",
+        "start": 2.779,
+        "end": 2.799,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "起",
+        "start": 2.799,
+        "end": 2.98,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "刀",
+        "start": 2.98,
+        "end": 10.119,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 10.119,
+        "end": 10.119,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": " ",
+        "start": 10.119,
+        "end": 10.119,
+        "type": "spacing",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "下",
+        "start": 15.159,
+        "end": 15.299,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "次",
+        "start": 15.299,
+        "end": 15.439,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "先",
+        "start": 15.439,
+        "end": 15.559,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "叫",
+        "start": 15.559,
+        "end": 15.639,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "我",
+        "start": 15.639,
+        "end": 15.839,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "关",
+        "start": 15.839,
+        "end": 15.999,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "门",
+        "start": 16.0,
+        "end": 16.159,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 16.159,
+        "end": 16.159,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": " ",
+        "start": 16.159,
+        "end": 16.739,
+        "type": "spacing",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "嗯",
+        "start": 16.739,
+        "end": 17.799,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "。",
+        "start": 17.799,
+        "end": 17.799,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": " ",
+        "start": 17.799,
+        "end": 18.76,
+        "type": "spacing",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "六",
+        "start": 18.76,
+        "end": 18.939,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "百",
+        "start": 18.939,
+        "end": 19.099,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "桶",
+        "start": 19.1,
+        "end": 19.139,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "，",
+        "start": 19.139,
+        "end": 19.799,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "装",
+        "start": 19.799,
+        "end": 19.92,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "过",
+        "start": 19.92,
+        "end": 20.1,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "白",
+        "start": 20.1,
+        "end": 20.18,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "县",
+        "start": 20.18,
+        "end": 20.359,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "财",
+        "start": 20.359,
+        "end": 20.519,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "赋",
+        "start": 20.52,
+        "end": 20.579,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 20.579,
+        "end": 20.579,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "我",
+        "start": 21.039,
+        "end": 21.099,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "出",
+        "start": 21.1,
+        "end": 21.279,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "两",
+        "start": 21.279,
+        "end": 21.379,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "个",
+        "start": 21.379,
+        "end": 21.479,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "人",
+        "start": 21.479,
+        "end": 21.619,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 21.619,
+        "end": 21.619,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": " ",
+        "start": 21.619,
+        "end": 21.619,
+        "type": "spacing",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "两",
+        "start": 23.18,
+        "end": 23.26,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "天",
+        "start": 23.26,
+        "end": 23.439,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "工",
+        "start": 23.439,
+        "end": 23.559,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "钱",
+        "start": 23.559,
+        "end": 23.699,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "，",
+        "start": 23.699,
+        "end": 24.099,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "帮",
+        "start": 24.1,
+        "end": 24.199,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "我",
+        "start": 24.199,
+        "end": 24.339,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "看",
+        "start": 24.34,
+        "end": 24.459,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "水",
+        "start": 24.459,
+        "end": 24.659,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "。",
+        "start": 24.659,
+        "end": 24.659,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": " ",
+        "start": 24.659,
+        "end": 24.659,
+        "type": "spacing",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "哦",
+        "start": 26.079,
+        "end": 26.26,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "，",
+        "start": 26.26,
+        "end": 26.819,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "喊",
+        "start": 26.819,
+        "end": 26.92,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "了",
+        "start": 26.92,
+        "end": 27.059,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "你",
+        "start": 27.059,
+        "end": 27.219,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "听",
+        "start": 27.219,
+        "end": 27.359,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "？",
+        "start": 27.359,
+        "end": 27.739,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": " ",
+        "start": 27.739,
+        "end": 27.84,
+        "type": "spacing",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "听",
+        "start": 27.84,
+        "end": 27.92,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "。",
+        "start": 27.92,
+        "end": 27.92,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": " ",
+        "start": 27.92,
+        "end": 27.92,
+        "type": "spacing",
+        "speaker_id": "speaker_2"
+      }
+    ]
+  }
+}

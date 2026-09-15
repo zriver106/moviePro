@@ -1,0 +1,22 @@
+{
+  "status": "rejected",
+  "video_sha256": "dd1b9573a1871fcbc04d7badc6b48c8746b70e6797ca9651785bbe6c66067184",
+  "review_method": "每秒实际帧及两种ASR（EP003_B）；非逐帧运动/人工听审通过",
+  "content_coverage": "30秒缺段首次素材已到齐",
+  "blocking_issues": [
+    {
+      "time": "9–13",
+      "finding": "原音轨缺能刺也得躲刀；4秒原片editing返回422疑似真人肖像，保留错误及原片，未重试或回退生成。"
+    },
+    {
+      "time": "28.8–30",
+      "finding": "末尾叠化到绳桩示意图，未保持18–30秒绳摊一镜到底。"
+    },
+    {
+      "time": "18–30",
+      "finding": "报价单、伤员位及雇工条画内中文尚未完成可读性校对。"
+    }
+  ],
+  "correction_policy": "现有视频编辑或本机后期；不重生成",
+  "source_preserved": true
+}

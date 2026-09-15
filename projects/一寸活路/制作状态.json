@@ -79,16 +79,31 @@
     {
       "id": "EP001_B",
       "seconds_planned": 30,
-      "seconds_actual": null,
-      "generation_status": "not_submitted",
-      "visual_status": "pending",
-      "blocking_issues": [],
-      "history": [],
-      "references_ready": false,
-      "missing_references": [
-        "制作/前三集_v8_30秒段落/参考/EP001_A_end.png"
+      "seconds_actual": 30.041667,
+      "generation_status": "generated_pending_visual_and_dialogue_check",
+      "visual_status": "rejected",
+      "blocking_issues": [
+        {
+          "time": "16–29",
+          "finding": "抽帧显示开门救人及四人汇合齐备；水向门外流出的方向与定稿流向仍需逐帧核对。"
+        },
+        {
+          "time": "3.9–5.1",
+          "finding": "ASR回读额外好还你，需后续对原音轨核对处理。"
+        }
       ],
-      "video": null
+      "history": [
+        {
+          "take": 1,
+          "generation_status": "generated_pending_visual_and_dialogue_check",
+          "visual_status": "rejected",
+          "video": "制作/前三集_v8_30秒段落/视频/EP001_B/take_01_480p.mp4",
+          "qa": "制作/前三集_v8_30秒段落/视频/EP001_B/take_01_480p.验收.json"
+        }
+      ],
+      "references_ready": true,
+      "missing_references": [],
+      "video": "制作/前三集_v8_30秒段落/视频/EP001_B/take_01_480p.mp4"
     },
     {
       "id": "EP002_A",
@@ -247,32 +262,269 @@
     {
       "id": "EP003_B",
       "seconds_planned": 30,
-      "seconds_actual": null,
-      "generation_status": "not_submitted",
-      "visual_status": "pending",
-      "blocking_issues": [],
-      "history": [],
-      "references_ready": false,
-      "missing_references": [
-        "制作/前三集_v8_30秒段落/参考/EP003_A_end.png"
+      "seconds_actual": 30.041667,
+      "generation_status": "generated_pending_visual_and_dialogue_check",
+      "visual_status": "rejected",
+      "blocking_issues": [
+        {
+          "time": "9–13",
+          "finding": "原音轨缺能刺也得躲刀；4秒原片editing返回422疑似真人肖像，保留错误及原片，未重试或回退生成。"
+        },
+        {
+          "time": "28.8–30",
+          "finding": "末尾叠化到绳桩示意图，未保持18–30秒绳摊一镜到底。"
+        },
+        {
+          "time": "18–30",
+          "finding": "报价单、伤员位及雇工条画内中文尚未完成可读性校对。"
+        }
       ],
-      "video": null
+      "history": [
+        {
+          "take": 1,
+          "generation_status": "generated_pending_visual_and_dialogue_check",
+          "visual_status": "rejected",
+          "video": "制作/前三集_v8_30秒段落/视频/EP003_B/take_01_480p.mp4",
+          "qa": "制作/前三集_v8_30秒段落/视频/EP003_B/take_01_480p.验收.json"
+        }
+      ],
+      "references_ready": true,
+      "missing_references": [],
+      "video": "制作/前三集_v8_30秒段落/视频/EP003_B/take_01_480p.mp4"
     }
   ],
   "delivery_ready": false,
   "rating_scope": "剧本、分镜及直接改变剧情的规划须独立评级；资产ID、技术引用和忠实修正不单独评级",
   "historical_resource_status": "制作/前三集_v8_30秒段落/历史逐镜制作状态.json",
   "accepted_segments": 0,
-  "generated_candidates": 12,
+  "generated_candidates": 14,
   "postproduction": {
     "music_directory": "kim-bgm",
+    "bgm_enabled": false,
     "music_plan": "制作/前三集_v8_30秒段落/后期/配乐方案.json",
     "subtitles_required": true,
     "planned_subtitle_segments": 6,
-    "previews": [
+    "historical_previews": [
+      "制作/前三集_v8_30秒段落/后期/试听样片/EP001_A/take_02/中文字幕_低音量配乐.mp4",
+      "制作/前三集_v8_30秒段落/后期/试听样片/EP002_A/take_02/中文字幕_低音量配乐.mp4",
       "制作/前三集_v8_30秒段落/后期/试听样片/EP002_B/take_04/中文字幕_低音量配乐.mp4",
-      "制作/前三集_v8_30秒段落/后期/试听样片/EP002_B/take_07/中文字幕_低音量配乐.mp4"
+      "制作/前三集_v8_30秒段落/后期/试听样片/EP002_B/take_07/中文字幕_低音量配乐.mp4",
+      "制作/前三集_v8_30秒段落/后期/试听样片/EP003_A/take_02/中文字幕_低音量配乐.mp4"
     ],
-    "preview_is_final": false
+    "preview_is_final": false,
+    "complete_compilation": {
+      "output": "制作/前三集_v8_30秒段落/后期/完整合剪/一寸活路_前三集完整合剪_无BGM.mp4",
+      "sha256": "3811924f841b5c9c6675b4ef7abee91cdbdd0c217226b82393c42e3883b912f5",
+      "duration": 180,
+      "content_complete": false,
+      "segment_coverage_complete": true,
+      "missing_segments": [],
+      "unresolved_dialogue": [
+        {
+          "segment": "EP003_B",
+          "start": 159.4,
+          "end": 162.1,
+          "text": "能刺，也得躲刀。",
+          "status": "原音轨缺句；4秒原片editing被服务端422拒绝，未重试或回退生成"
+        }
+      ],
+      "title_or_missing_cards": false,
+      "visible_review_watermark": false,
+      "bgm_added": false,
+      "hard_chinese_subtitle_sets": 1,
+      "quality_approval": "独立保留各原片验收记录，合剪不改变质量评级",
+      "timeline": [
+        {
+          "segment": "EP001_A",
+          "take": 2,
+          "start": 0,
+          "end": 30,
+          "source": "制作/前三集_v8_30秒段落/后期/完整合剪/段落/EP001_A/take_02/中文字幕_无配乐.mp4",
+          "sha256": "3aab4888872b5e9c306b1f605136bde13460bb6b7eed74d57c45aec173ad49a3",
+          "original_sha256": "17b78f1ebaf038d2514b6c01ee8a9c1b3668df33609c6b9a55c703af0458182f"
+        },
+        {
+          "segment": "EP001_B",
+          "take": 1,
+          "start": 30,
+          "end": 60,
+          "source": "制作/前三集_v8_30秒段落/后期/完整合剪/段落/EP001_B/take_01/中文字幕_无配乐.mp4",
+          "sha256": "2f62e83a76aedd14d3afe07d4f0d6a6ac0f93fc00ef08ebd24f4b536929d1d6c",
+          "original_sha256": "54e06921d4d0ec1e4b48279999b043906fef23451329bada0359c89d3d757d6f"
+        },
+        {
+          "segment": "EP002_A",
+          "take": 2,
+          "start": 60,
+          "end": 90,
+          "source": "制作/前三集_v8_30秒段落/后期/完整合剪/段落/EP002_A/take_02/中文字幕_无配乐.mp4",
+          "sha256": "c1ec924942dfedb246df0ddfc28f7cfd5ed358cb9cc2545235396a7ddfef94a7",
+          "original_sha256": "82f88ab67c7b3f468f9cb5043654324607bd72091765c342fe11c41b1570003b"
+        },
+        {
+          "segment": "EP002_B",
+          "take": 7,
+          "start": 90,
+          "end": 120,
+          "source": "制作/前三集_v8_30秒段落/后期/完整合剪/段落/EP002_B/take_07/中文字幕_无配乐.mp4",
+          "sha256": "2634d77bb2559d9f24092d8821c93c3822131b28af384419d29a5e7fb951d3cb",
+          "original_sha256": "a051cfa8724aa24d5043404dde1c9ac1f6e47a7f960c871836768cc9d3fdc344"
+        },
+        {
+          "segment": "EP003_A",
+          "take": 2,
+          "start": 120,
+          "end": 150,
+          "source": "制作/前三集_v8_30秒段落/后期/完整合剪/段落/EP003_A/take_02/中文字幕_无配乐.mp4",
+          "sha256": "f413c6a7c8a4f17cb55a4e107dab6d11f8705f45ff1ea8f2d001258ba77b2b15",
+          "original_sha256": "92d563d03a72fc225e220fa82e93fbe68a092114393dca686721631ecd6cffce"
+        },
+        {
+          "segment": "EP003_B",
+          "take": 1,
+          "start": 150,
+          "end": 180,
+          "source": "制作/前三集_v8_30秒段落/后期/完整合剪/段落/EP003_B/take_01/中文字幕_无配乐.mp4",
+          "sha256": "c64f9a48b5cf7176598f5b6c7d9634ad593fe5bb59d25d16f49ae868234d1a30",
+          "original_sha256": "dd1b9573a1871fcbc04d7badc6b48c8746b70e6797ca9651785bbe6c66067184"
+        }
+      ],
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.64001e",
+            "width": 854,
+            "height": 480,
+            "coded_width": 854,
+            "coded_height": 480,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "427:240",
+            "pix_fmt": "yuv420p",
+            "level": 30,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 2211840,
+            "duration": "180.000000",
+            "bit_rate": "1643958",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "4320",
+            "extradata_size": 47,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "encoder": "Lavc63.1.101 libx264"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 8640000,
+            "duration": "180.000000",
+            "bit_rate": "194085",
+            "nb_frames": "8430",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/后期/完整合剪/一寸活路_前三集完整合剪_无BGM.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "180.000000",
+          "size": "41482362",
+          "bit_rate": "1843660",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf63.1.101"
+          }
+        }
+      }
+    }
   }
 }

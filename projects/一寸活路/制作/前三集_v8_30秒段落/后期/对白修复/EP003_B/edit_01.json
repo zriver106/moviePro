@@ -1,0 +1,14 @@
+{
+  "source": "制作/前三集_v8_30秒段落/视频/EP003_B/take_01_480p.mp4",
+  "source_sha256": "dd1b9573a1871fcbc04d7badc6b48c8746b70e6797ca9651785bbe6c66067184",
+  "start": 9,
+  "end": 13,
+  "task": "editing",
+  "model": "2.5",
+  "resolution": "480p",
+  "fallback_to_regeneration": false,
+  "prompt": "Edit @Video1, this existing four-second stylized 3D Chinese animation shot. Preserve the shot, characters, wardrobe, camera, dressing action and room ambience. Restore the missing Mandarin dialogue: the woman in pale green speaks clearly from 0.4 to 2.9 seconds, exactly: “能刺，也得躲刀。” Her voice is calm, firm and warm. Keep the injured man silent. Maintain synchronized speech and natural cloth sounds. The frame stays clean for later subtitle compositing. Audio consists of dialogue and diegetic sounds only.",
+  "status": "failed_no_fallback",
+  "error": "422 内容策略：疑似真人肖像（换 2.0，或换非写实素材）",
+  "completed_at": 1789456701.03835
+}

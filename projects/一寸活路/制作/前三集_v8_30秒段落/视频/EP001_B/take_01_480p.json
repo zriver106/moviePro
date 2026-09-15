@@ -1,0 +1,319 @@
+{
+  "segment": "EP001_B",
+  "take": 1,
+  "strategy": "scoped_references",
+  "scope": "faithful_execution_repair",
+  "generation_kind": "first_missing_segment",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "references": [
+    {
+      "path": "制作/前三集_v8_30秒段落/参考/EP001_A_end.png",
+      "role": "exact ending camera and physical state of previous segment",
+      "kind": "opening",
+      "sha256": "61c69e270d658e6353e6547df07f7590fb27affbae6d2ec0daa8780bf901023e",
+      "start": 0,
+      "end": 1.5
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+      "role": "Lu Zhao 陆照, teal clothes, lower trousers wet, bare palms",
+      "kind": "asset",
+      "sha256": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea",
+      "start": 0,
+      "end": 30
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg",
+      "role": "Ma Duo 麻铎 identity and wet brown clothing; restraint follows the timeline",
+      "kind": "asset",
+      "sha256": "79a431cdef091f96148efae5940cc7b142609efd9d62b0446e47c1acc55cde50",
+      "start": 0,
+      "end": 12
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+      "role": "Wen Xi 闻溪, mint clothing wet",
+      "kind": "asset",
+      "sha256": "64c1ea1e4dafba9cb6c138118bf2c5a86511039606b129d9a81c5f2d938ffecd",
+      "start": 13.5,
+      "end": 30
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+      "role": "the grey-bearded rescued worker, distinct from the flashback elder",
+      "kind": "asset",
+      "sha256": "ef8f1acda1cab8b1109650e88c024a6db2b4611677a0ccc4aeb4046bc6aead41",
+      "start": 19.5,
+      "end": 30
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+      "role": "Ali 阿砾, blue clothes wet",
+      "kind": "asset",
+      "sha256": "47ef2919d77733639159be89d5dbb31e522ae4c0dfab75db37ff876746336213",
+      "start": 24,
+      "end": 30
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+      "role": "open north doorway, raised rescue ledge and lower water floor",
+      "kind": "asset",
+      "sha256": "4f23d683569e39be9fffea0c84f0a4ccc7515fd142888251ae1064aafeca54ed",
+      "start": 16.5,
+      "end": 30
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg",
+      "role": "copper before second thrust, left dimple and intact right face",
+      "kind": "asset",
+      "sha256": "c7276c3b570c5294731ec280868bb504b2cb4203946b05648d9b1001d1f75e70",
+      "start": 11.5,
+      "end": 16.5
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+      "role": "one ordinary short black awl with old hemp-wrapped grip",
+      "kind": "asset",
+      "sha256": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c",
+      "start": 0,
+      "end": 30
+    },
+    {
+      "path": "制作/前三集_v8_30秒段落/参考/绳轮受力结构_v2.png",
+      "role": "winch connectivity and pawl holding reverse rotation after stone rests",
+      "kind": "asset",
+      "sha256": "bf398b1d2d9222ee5d8ce3b28f9a7a65f2b49491d74d0d3c69a9c8df9d5f0f52",
+      "start": 0,
+      "end": 6
+    }
+  ],
+  "seed": 965101,
+  "prompt": "画面不生成任何对白字幕或提示卡，中文字幕由后期统一添加。\n完整30秒16:9立体国漫动画，严格沿用参考人物定妆，普通话同期对白与自然口型。自然水声、衣料、木头、脚步音效，音乐和中文字幕后期合成。人物在真实连续空间动作，物品沿手部轨迹移动。\n参考图按指定时段取用，人物图只定义身份服装，实际动作按时间轴。第一帧承接@Image1的镜位与身体姿势。\n@Image1，0–1.5秒：exact ending camera and physical state of previous segment。\n@Image2，0–30秒：Lu Zhao 陆照, teal clothes, lower trousers wet, bare palms。\n@Image3，0–12秒：Ma Duo 麻铎 identity and wet brown clothing; restraint follows the timeline。\n@Image4，13.5–30秒：Wen Xi 闻溪, mint clothing wet。\n@Image5，19.5–30秒：the grey-bearded rescued worker, distinct from the flashback elder。\n@Image6，24–30秒：Ali 阿砾, blue clothes wet。\n@Image7，16.5–30秒：open north doorway, raised rescue ledge and lower water floor。\n@Image8，11.5–16.5秒：copper before second thrust, left dimple and intact right face。\n@Image9，0–30秒：one ordinary short black awl with old hemp-wrapped grip。\n@Image10，0–6秒：winch connectivity and pawl holding reverse rotation after stone rests。\n摄影剪辑：0–6秒接前段同机位连续拍抽楔、坠石落架锁索、膝压控腕；6秒同机位明确时间省略到末结，避免假装瞬间缠完。7.5秒缓抬至胸痕与拾钱锥。11.5秒跟回原修台，13.5秒切闻溪唇边水；14.5秒切铜面推进到穿孔，16.5秒切外侧全景。16.5–30秒一镜到底拍门开水流、闻溪上台、合扶老人和托膝救阿砾，靠横移和微推看清手脚支点，最后四人在修台喘息。\n0–1.5秒：锥已静放修台，陆照双手扣住轮下外伸木楔；双手向外抽楔；转轮启动，绳瞬间绷直。\n1.5–4.0秒：沿已建立低侧角，坠石落到半尺下的承架，棘爪随轮跳过齿背；同根绳将麻铎双踝收拢；他仰倒浅水，松开叉柄；坠石停稳，棘爪扣齿锁住回转，脚索仍紧；叉留固定梁上。\n4.0–6.0秒：麻铎挣着伸手够叉，陆照扑到身侧；陆照膝压胸口，把麻铎双腕牢牢压到低柱脚，麻铎脚索仍紧；麻铎再挣，手离固定梁上的叉还差一截。\n6.0–7.5秒：同机位时间省略硬切：短绳已绕腕柱，陆照仍膝压胸；陆照双手收紧最后一扣；他试松膝，麻铎双腕被短绳留在柱脚。\n7.5–11.5秒：陆照松开压制，胸骨内亮起一线暖红；麻铎在后景再次挣动；陆照右手压胸，回忆中老人的声音响起；视线转向北门的铜销；他左手拾回钱袋扣进腰带，右手拿起台上原锥。7.8–11.3秒，老人画外回忆声：“胜过真敌，直刺添一痕。”\n11.5–13.5秒：陆照回到原修台位置，钱袋已挂腰；双脚重新抵同一木榫，双手握原锥；锥尖对准左凹旁右侧完好铜面。\n13.5–14.5秒：闻溪唇边水一颤，灯在检修口上沿；她闭唇抬眼；拍门手垂下，声音骤静。\n14.5–16.5秒：左凹右侧的完整铜与锥尖同框；双手直推，黑锥穿透右侧铜面，锥尖顶开后方木舌；扣牙落下；锥马上沿原方向抽回。\n16.5–19.5秒：接扣牙落地，陆照已侧站西壁高修台、锥插回腰环，避开门扇弧线；北门被内水推开；水从中间低地冲向南梯下集水洼，麻铎在南侧柱旁高基座边、头高于冲流；陆照肩抵住门边，右手伸给闻溪；灯留门内检修口上沿。\n19.5–24.0秒：闻溪已一膝攀上修台，陆照拉住她前臂；老人贴着门槛；闻溪攀稳后与陆照各扶老人一侧，一起把他带上台；老人坐稳，闻溪马上指回门内：阿砾。23.0–23.8秒，闻溪说：“阿砾！”\n24.0–28.0秒：阿砾一手抓住内门框，膝腿卡门槛；闻溪跪台边扶住陆照腰带；陆照双膝落稳，一手抓阿砾前臂，一手托膝，将腿抬过槛；阿砾翻到修台吐水，陆照仍撑在他旁边。\n28.0–30.0秒：三名获救者都在修台：闻溪扶老人，阿砾吐水后撑起头；铜片仍留在打开的门锁上；阿砾吸进第一大口气，陆照肩头松下来；三人的喘息压过水声，切黑。\n陆照两只手掌始终裸露。锥是短小麻绳柄黑钢直锥，不是刀。救援最后四个人：陆照、闻溪、灰胡子工人、阿砾。开门后的13.5秒救人全部为同一持续镜头，手脚接触与承重清楚。",
+  "repeat_generation_authorized": false,
+  "authorization_sha256": "205540ff30c8f7ea66d2890ba17cf815c8c0c61ef02c7e13fa47778fe63ea0f4",
+  "model": "2.5",
+  "mode": "ref",
+  "seconds": 30,
+  "api_duration": "30",
+  "resolution": "480p",
+  "audio": true,
+  "request_sha256": "5ff241be5d4bd4f0da3dffb8918c036a4e84385caa57c065fae6604d53b4a141",
+  "status": "generated_pending_visual_and_dialogue_check",
+  "input_video": [
+    {
+      "path": "制作/前三集_v8_30秒段落/参考/EP001_A_end.png",
+      "role": "exact ending camera and physical state of previous segment",
+      "kind": "opening",
+      "sha256": "61c69e270d658e6353e6547df07f7590fb27affbae6d2ec0daa8780bf901023e",
+      "start": 0,
+      "end": 1.5
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+      "role": "Lu Zhao 陆照, teal clothes, lower trousers wet, bare palms",
+      "kind": "asset",
+      "sha256": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea",
+      "start": 0,
+      "end": 30
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg",
+      "role": "Ma Duo 麻铎 identity and wet brown clothing; restraint follows the timeline",
+      "kind": "asset",
+      "sha256": "79a431cdef091f96148efae5940cc7b142609efd9d62b0446e47c1acc55cde50",
+      "start": 0,
+      "end": 12
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+      "role": "Wen Xi 闻溪, mint clothing wet",
+      "kind": "asset",
+      "sha256": "64c1ea1e4dafba9cb6c138118bf2c5a86511039606b129d9a81c5f2d938ffecd",
+      "start": 13.5,
+      "end": 30
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+      "role": "the grey-bearded rescued worker, distinct from the flashback elder",
+      "kind": "asset",
+      "sha256": "ef8f1acda1cab8b1109650e88c024a6db2b4611677a0ccc4aeb4046bc6aead41",
+      "start": 19.5,
+      "end": 30
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+      "role": "Ali 阿砾, blue clothes wet",
+      "kind": "asset",
+      "sha256": "47ef2919d77733639159be89d5dbb31e522ae4c0dfab75db37ff876746336213",
+      "start": 24,
+      "end": 30
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+      "role": "open north doorway, raised rescue ledge and lower water floor",
+      "kind": "asset",
+      "sha256": "4f23d683569e39be9fffea0c84f0a4ccc7515fd142888251ae1064aafeca54ed",
+      "start": 16.5,
+      "end": 30
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg",
+      "role": "copper before second thrust, left dimple and intact right face",
+      "kind": "asset",
+      "sha256": "c7276c3b570c5294731ec280868bb504b2cb4203946b05648d9b1001d1f75e70",
+      "start": 11.5,
+      "end": 16.5
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+      "role": "one ordinary short black awl with old hemp-wrapped grip",
+      "kind": "asset",
+      "sha256": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c",
+      "start": 0,
+      "end": 30
+    },
+    {
+      "path": "制作/前三集_v8_30秒段落/参考/绳轮受力结构_v2.png",
+      "role": "winch connectivity and pawl holding reverse rotation after stone rests",
+      "kind": "asset",
+      "sha256": "bf398b1d2d9222ee5d8ce3b28f9a7a65f2b49491d74d0d3c69a9c8df9d5f0f52",
+      "start": 0,
+      "end": 6
+    }
+  ],
+  "video_sha256": "54e06921d4d0ec1e4b48279999b043906fef23451329bada0359c89d3d757d6f",
+  "duration": 30.041667,
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001e",
+        "width": 854,
+        "height": 480,
+        "coded_width": 854,
+        "coded_height": 480,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 30,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 369152,
+        "duration": "30.041667",
+        "bit_rate": "5430163",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "721",
+        "extradata_size": 44,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "32000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/32000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 958464,
+        "duration": "29.952000",
+        "bit_rate": "194596",
+        "nb_frames": "937",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP001_B/take_01_480p.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "30.041667",
+      "size": "21144592",
+      "bit_rate": "5630737",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41"
+      }
+    }
+  },
+  "completed_at": 1789456547.6661131
+}

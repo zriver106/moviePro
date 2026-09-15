@@ -46,10 +46,10 @@ def test_pair_reference_requires_actual_adoption(tmp_path,monkeypatch):
     with pytest.raises(ValueError,match='首尾参考未采用'):repair.build(spec)
 
 
-def test_subtitle_preview_has_chinese_and_unapproved_notice(tmp_path):
+def test_subtitle_preview_has_chinese_without_review_watermark(tmp_path):
     post.write_subtitles(tmp_path,[{'start':1.5,'end':3,'text':'先不借。我们挣。'}],True)
     text=(tmp_path/'中文字幕.ass').read_text()
-    assert '先不借。我们挣。' in text and '画面未通过验收' in text
+    assert '先不借。我们挣。' in text and '画面未通过验收' not in text and '后期试听样片' not in text
     assert '0:00:01.50,0:00:03.00' in text
 
 

@@ -10,6 +10,18 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 import yichun_video30 as v
 
 class Video30Gates(unittest.TestCase):
+    def test_user_first_only_policy_blocks_new_take_after_any_submission(self):
+        with tempfile.TemporaryDirectory() as folder,patch.object(v,'K',Path(folder)):
+            root=Path(folder)
+            v.write(root/'视频生成授权.json',{'repeat_generation_requires_explicit_user_approval':True,'authorized_first_generation':['EP001_B','EP003_B'],'authorized_take':1})
+            v.require_generation_authorization('EP001_B',1)
+            with self.assertRaisesRegex(ValueError,'重复生成'):v.require_generation_authorization('EP002_B',9)
+            v.write(root/'视频/EP001_B/take_01_480p.json',{'status':'failed_or_uncertain'})
+            with self.assertRaisesRegex(ValueError,'重复生成'):v.require_generation_authorization('EP001_B',1)
+            with self.assertRaisesRegex(ValueError,'重复生成'):v.require_generation_authorization('EP001_B',2)
+            policy=v.read(root/'视频生成授权.json');policy['allow_existing_video_editing']=True;v.write(root/'视频生成授权.json',policy)
+            v.require_generation_authorization('EP001_B',2,editing=True)
+            with self.assertRaisesRegex(ValueError,'重复生成'):v.require_generation_authorization('EP001_B',2)
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name)
         self.patch=patch.multiple(v,P=self.root,K=self.root);self.patch.start();self.addCleanup(self.patch.stop)

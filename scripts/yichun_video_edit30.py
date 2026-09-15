@@ -7,7 +7,7 @@ import json
 import subprocess
 import time
 import provider
-from yichun_video30 import K, P, read, write, sha, require_plan, uploaded
+from yichun_video30 import K, P, read, write, sha, require_plan, uploaded, require_generation_authorization
 
 
 def build(spec_path):
@@ -52,6 +52,7 @@ def run(spec_path):
             if old.get('request_sha256')==task['request_sha256'] and out.exists() and old.get('video_sha256')==sha(out):
                 return {'status':'existing','path':str(out.relative_to(P))}
             raise ValueError('该take已有请求记录，禁止重复提交')
+        require_generation_authorization(task['segment'],task['take'],editing=task.get('task')=='editing')
         write(log,dict(task,status='preparing',started_at=time.time()))
         try:
             if task['mode']=='i2v':

@@ -25,6 +25,17 @@ def write(p,d):
     p=Path(p);p.parent.mkdir(parents=True,exist_ok=True)
     tmp=p.with_suffix(p.suffix+'.tmp');tmp.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n');tmp.replace(p)
 
+def require_generation_authorization(segment,take,*,editing=False):
+    policy_path=K/'视频生成授权.json'
+    if not policy_path.exists():return
+    policy=read(policy_path)
+    if editing and policy.get('allow_existing_video_editing'):
+        return
+    if not policy.get('repeat_generation_requires_explicit_user_approval'):return
+    prior=[p for p in (K/'视频'/segment).glob('take_*.json') if re.fullmatch(r'take_\d+_(480p|720p|1080p)\.json',p.name)]
+    if segment not in policy.get('authorized_first_generation',[]) or take!=policy.get('authorized_take') or prior:
+        raise ValueError('用户要求重复生成先获同意；本次仅授权缺段首次请求，禁止付费重试')
+
 def require_plan():
     rating_gate.require('一寸活路',what='30秒视频制作')
     plan=read(K/'30秒分段方案.json');approval=read(K/'分段外评.json')
@@ -150,6 +161,7 @@ def _run(segment_id,take=1,resolution='480p'):
         if old['request_sha256']!=task['request_sha256']:raise ValueError('同版本请求已改变，须新take')
         if out.exists() and old.get('video_sha256')==sha(out):return {'segment':segment_id,'status':'existing','path':str(out.relative_to(P))}
         raise ValueError('已有未完成/失败请求，请检查记录后决定新take，禁止自动重复扣费')
+    require_generation_authorization(segment_id,take)
     write(log,dict(task,status='uploading',started_at=time.time()))
     try:
         urls=[uploaded(r) for r in task['references']]

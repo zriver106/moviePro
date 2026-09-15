@@ -1,0 +1,30 @@
+{
+  "segment": "EP003_B",
+  "source": "制作/前三集_v8_30秒段落/视频/EP003_B/take_01_480p.mp4",
+  "source_sha256": "dd1b9573a1871fcbc04d7badc6b48c8746b70e6797ca9651785bbe6c66067184",
+  "output_sha256": "c64f9a48b5cf7176598f5b6c7d9634ad593fe5bb59d25d16f49ae868234d1a30",
+  "preview": true,
+  "delivery_ready": false,
+  "visible_review_watermark": false,
+  "caption_cleanup": null,
+  "audio_patch": null,
+  "hard_chinese_subtitles": true,
+  "subtitle_metadata_sha256": "55f51b8ab3d2c110c9278df13987aef33b12ed7c924ff09ede24eb6970fc9f92",
+  "music_plan_sha256": "8365056d993a2c46881fa2d2b1f605a9585027929400c252fedc9f3fa2aa15fe",
+  "bgm_added": false,
+  "music_target_lufs_between_dialogue": null,
+  "music_target_lufs_under_dialogue": null,
+  "mix_loudness": {
+    "input_i": "-17.31",
+    "input_tp": "-1.95",
+    "input_lra": "7.50",
+    "input_thresh": "-28.86",
+    "output_i": "-16.09",
+    "output_tp": "-1.50",
+    "output_lra": "5.80",
+    "output_thresh": "-27.49",
+    "normalization_type": "dynamic",
+    "target_offset": "0.09"
+  },
+  "status": "rendered_pending_listening_and_visual_check"
+}

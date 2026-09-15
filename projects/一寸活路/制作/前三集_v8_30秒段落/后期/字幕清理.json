@@ -1,0 +1,52 @@
+{
+  "EP003_A": {
+    "source_sha256": "92d563d03a72fc225e220fa82e93fbe68a092114393dca686721631ecd6cffce",
+    "method": "ffmpeg delogo仅覆盖实际原生对白字幕区域",
+    "regions": [
+      {
+        "start": 6.5,
+        "end": 9.2,
+        "rect": [
+          370,
+          400,
+          130,
+          49
+        ]
+      },
+      {
+        "start": 10.8,
+        "end": 12.8,
+        "rect": [
+          370,
+          400,
+          130,
+          49
+        ]
+      }
+    ],
+    "verified_native_text": [
+      "照子",
+      "跟我走",
+      "先放他"
+    ]
+  },
+  "EP001_B": {
+    "source_sha256": "54e06921d4d0ec1e4b48279999b043906fef23451329bada0359c89d3d757d6f",
+    "method": "仅清理实际原生对白字幕",
+    "regions": [
+      {
+        "start": 24.0,
+        "end": 25.3,
+        "rect": [
+          390,
+          422,
+          77,
+          40
+        ]
+      }
+    ],
+    "verified_native_text": [
+      "阿麗"
+    ]
+  }
+}

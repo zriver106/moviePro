@@ -1,7 +1,7 @@
 {
   "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
   "user_instruction": "使用项目根目录kim-bgm，音量小，按剧情选择出入点；最终挂中文字幕",
-  "status": "mix_plan_ready_pending_final_picture",
+  "status": "paused_by_user_no_bgm",
   "music_source_check": "幻昼5.0前30秒Scribe未检测到歌词；仍须实际听审，自动识别不等于纯器乐保证",
   "dialogue_target_lufs": -16,
   "music_between_dialogue_lufs": -34,
@@ -80,5 +80,7 @@
     "04": "本轮不加入",
     "05": "本轮不加入",
     "06": "本轮不加入"
-  }
+  },
+  "enabled": false,
+  "latest_user_instruction": "BGM 先别加了"
 }

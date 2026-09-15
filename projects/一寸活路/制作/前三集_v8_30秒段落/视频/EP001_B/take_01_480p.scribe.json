@@ -1,0 +1,152 @@
+{
+  "source_sha256": "54e06921d4d0ec1e4b48279999b043906fef23451329bada0359c89d3d757d6f",
+  "decoder": "scribe",
+  "text_hints": false,
+  "result": {
+    "text": "好，还你。胜过真敌，只此天一痕。 阿离。",
+    "language_code": "zho",
+    "language_probability": 1.0,
+    "words": [
+      {
+        "text": "好",
+        "start": 3.919,
+        "end": 4.239,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "，",
+        "start": 4.239,
+        "end": 4.36,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "还",
+        "start": 4.36,
+        "end": 4.579,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "你",
+        "start": 4.579,
+        "end": 5.119,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 5.119,
+        "end": 5.119,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "胜",
+        "start": 9.22,
+        "end": 9.46,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "过",
+        "start": 9.46,
+        "end": 9.819,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "真",
+        "start": 9.819,
+        "end": 10.0,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "敌",
+        "start": 10.0,
+        "end": 10.139,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "，",
+        "start": 10.139,
+        "end": 10.739,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "只",
+        "start": 10.739,
+        "end": 10.899,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "此",
+        "start": 10.899,
+        "end": 11.46,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "天",
+        "start": 11.46,
+        "end": 11.699,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "一",
+        "start": 11.699,
+        "end": 11.92,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "痕",
+        "start": 11.92,
+        "end": 12.239,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 12.239,
+        "end": 12.239,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": " ",
+        "start": 12.239,
+        "end": 12.479,
+        "type": "spacing",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "阿",
+        "start": 24.119,
+        "end": 24.579,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "离",
+        "start": 24.579,
+        "end": 24.899,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 24.899,
+        "end": 24.899,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      }
+    ]
+  }
+}

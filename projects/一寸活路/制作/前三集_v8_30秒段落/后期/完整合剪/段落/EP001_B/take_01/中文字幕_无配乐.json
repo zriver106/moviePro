@@ -1,0 +1,47 @@
+{
+  "segment": "EP001_B",
+  "source": "制作/前三集_v8_30秒段落/视频/EP001_B/take_01_480p.mp4",
+  "source_sha256": "54e06921d4d0ec1e4b48279999b043906fef23451329bada0359c89d3d757d6f",
+  "output_sha256": "2f62e83a76aedd14d3afe07d4f0d6a6ac0f93fc00ef08ebd24f4b536929d1d6c",
+  "preview": true,
+  "delivery_ready": false,
+  "visible_review_watermark": false,
+  "caption_cleanup": {
+    "source_sha256": "54e06921d4d0ec1e4b48279999b043906fef23451329bada0359c89d3d757d6f",
+    "method": "仅清理实际原生对白字幕",
+    "regions": [
+      {
+        "start": 24.0,
+        "end": 25.3,
+        "rect": [
+          390,
+          422,
+          77,
+          40
+        ]
+      }
+    ],
+    "verified_native_text": [
+      "阿麗"
+    ]
+  },
+  "hard_chinese_subtitles": true,
+  "subtitle_metadata_sha256": "32139d51dcd18c33395e17d996cb6c34f0c926de3b0e9a9c5be49e5342c7535e",
+  "music_plan_sha256": "8365056d993a2c46881fa2d2b1f605a9585027929400c252fedc9f3fa2aa15fe",
+  "bgm_added": false,
+  "music_target_lufs_between_dialogue": null,
+  "music_target_lufs_under_dialogue": null,
+  "mix_loudness": {
+    "input_i": "-18.41",
+    "input_tp": "-1.59",
+    "input_lra": "6.30",
+    "input_thresh": "-28.92",
+    "output_i": "-16.82",
+    "output_tp": "-1.50",
+    "output_lra": "4.70",
+    "output_thresh": "-27.16",
+    "normalization_type": "dynamic",
+    "target_offset": "0.82"
+  },
+  "status": "rendered_pending_listening_and_visual_check"
+}

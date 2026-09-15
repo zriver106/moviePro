@@ -1,0 +1,103 @@
+{
+  "segment": "EP003_B",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "timing_approved": false,
+  "on_screen_text": [
+    {
+      "text": "完工付600铜\n配拉缆工二名",
+      "method": "post_composite",
+      "placement": "图旁报价单",
+      "generation_surface": "blank",
+      "start": 18,
+      "end": 24
+    },
+    {
+      "text": "伤员位",
+      "method": "post_composite",
+      "placement": "后舷图例",
+      "generation_surface": "blank",
+      "start": 18,
+      "end": 24
+    },
+    {
+      "text": "两日工钱 40铜",
+      "method": "post_composite",
+      "placement": "雇工条",
+      "generation_surface": "blank",
+      "start": 24,
+      "end": 30
+    }
+  ],
+  "onscreen_text_approved": false,
+  "status": "asr_aligned_draft",
+  "source": "制作/前三集_v8_30秒段落/视频/EP003_B/take_01_480p.mp4",
+  "video_sha256": "dd1b9573a1871fcbc04d7badc6b48c8746b70e6797ca9651785bbe6c66067184",
+  "asr_sha256": "07917d58be16ba7d3cdf075d76b7e44d289bc6405358df3e336ab1e4883ad102",
+  "lines": [
+    {
+      "start": 2.54,
+      "end": 3.35,
+      "text": "有人持刀！",
+      "speaker": "阿砾",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 0.5
+    },
+    {
+      "start": 9.4,
+      "end": 12.1,
+      "text": "能刺，也得躲刀。",
+      "speaker": "闻溪",
+      "timing_source": "approved_plan_audio_missing",
+      "alignment_coverage": 0.167
+    },
+    {
+      "start": 15.099,
+      "end": 16.299,
+      "text": "下次先叫我关门。",
+      "speaker": "陆禾",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 1.0
+    },
+    {
+      "start": 16.679000000000002,
+      "end": 17.939,
+      "text": "嗯。",
+      "speaker": "陆照",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 1.0
+    },
+    {
+      "start": 18.700000000000003,
+      "end": 21.759,
+      "text": "六百铜。桩过白线才付，我出两个人。",
+      "speaker": "岑鹿",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 0.643
+    },
+    {
+      "start": 23.12,
+      "end": 24.799,
+      "text": "两天工钱。帮我看水。",
+      "speaker": "陆照",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 1.0
+    },
+    {
+      "start": 26.759,
+      "end": 27.499000000000002,
+      "text": "喊了你听？",
+      "speaker": "阿砾",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 1.0
+    },
+    {
+      "start": 27.78,
+      "end": 28.060000000000002,
+      "text": "听。",
+      "speaker": "陆照",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 1.0
+    }
+  ],
+  "timing_check": "前句2.54–3.35；漏读包扎句保持定稿9.4–12.1，4秒editing遭服务端422拒绝，原音轨未补回"
+}

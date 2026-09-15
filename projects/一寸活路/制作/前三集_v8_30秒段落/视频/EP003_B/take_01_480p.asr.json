@@ -1,0 +1,86 @@
+{
+  "source_sha256": "dd1b9573a1871fcbc04d7badc6b48c8746b70e6797ca9651785bbe6c66067184",
+  "decoder": "whisper",
+  "text_hints": false,
+  "result": {
+    "text": "有人起刀下次先叫我关门六百铜装过白线财富我出两个人两天工钱帮我开水喊了你听听",
+    "chunks": [
+      {
+        "timestamp": [
+          0.03096875,
+          3.11096875
+        ],
+        "text": "有人起刀",
+        "speaker": null
+      },
+      {
+        "timestamp": [
+          3.11096875,
+          16.03096875
+        ],
+        "text": "下次先叫我关门",
+        "speaker": null
+      },
+      {
+        "timestamp": [
+          16.03096875,
+          19.110968749999998
+        ],
+        "text": "六百铜",
+        "speaker": null
+      },
+      {
+        "timestamp": [
+          19.110968749999998,
+          20.55096875
+        ],
+        "text": "装过白线财富",
+        "speaker": null
+      },
+      {
+        "timestamp": [
+          20.55096875,
+          21.85096875
+        ],
+        "text": "我出两个人",
+        "speaker": null
+      },
+      {
+        "timestamp": [
+          21.85096875,
+          23.59096875
+        ],
+        "text": "两天工钱",
+        "speaker": null
+      },
+      {
+        "timestamp": [
+          23.59096875,
+          24.51096875
+        ],
+        "text": "帮我开水",
+        "speaker": null
+      },
+      {
+        "timestamp": [
+          24.51096875,
+          27.270968749999998
+        ],
+        "text": "喊了你听",
+        "speaker": null
+      },
+      {
+        "timestamp": [
+          27.270968749999998,
+          27.85096875
+        ],
+        "text": "听",
+        "speaker": null
+      }
+    ],
+    "inferred_languages": [
+      "zh"
+    ],
+    "diarization_segments": []
+  }
+}

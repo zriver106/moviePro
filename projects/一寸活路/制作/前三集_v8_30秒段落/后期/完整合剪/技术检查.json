@@ -1,0 +1,39 @@
+{
+  "output_sha256": "3811924f841b5c9c6675b4ef7abee91cdbdd0c217226b82393c42e3883b912f5",
+  "duration": 180,
+  "full_decode": "passed_no_errors",
+  "streams": [
+    "video",
+    "audio"
+  ],
+  "sampled_seconds": [
+    29.7,
+    30.1,
+    54.5,
+    59.5,
+    60.1,
+    89.7,
+    90.1,
+    119.7,
+    120.1,
+    128,
+    149.7,
+    150.1,
+    160,
+    165.5,
+    179.5
+  ],
+  "sampled_native_caption_cleanup": "single_caption_observed",
+  "visible_administrative_cards": false,
+  "bgm_added": false,
+  "limitations": [
+    {
+      "segment": "EP003_B",
+      "start": 159.4,
+      "end": 162.1,
+      "text": "能刺，也得躲刀。",
+      "status": "原音轨缺句；4秒原片editing被服务端422拒绝，未重试或回退生成"
+    }
+  ],
+  "quality_acceptance_unchanged": true
+}

@@ -1,0 +1,28 @@
+{
+  "method": "原始四段每0.5秒抽帧，macOS Vision中文OCR与关键帧人工目视比较",
+  "scanned_frames": 240,
+  "confirmed_duplicate_segment": "EP003_A",
+  "native_text": [
+    "照子",
+    "跟我走",
+    "先放他"
+  ],
+  "cleanup": "仅对应时间与画面下方小区域去除原生字幕，重新烧录一套中文",
+  "checked_output_seconds": [
+    8,
+    11.5
+  ],
+  "result": "所检查帧只有一套字幕，顶部试听和验收字样已移除",
+  "bgm_instruction": "最终不添加任何外部BGM",
+  "generation_instruction": "只允许EP001_B和EP003_B首次请求，重复请求程序拦截等待用户同意",
+  "new_missing_segments_scanned": [
+    "EP001_B",
+    "EP003_B"
+  ],
+  "new_scan_frames": 120,
+  "new_native_caption": {
+    "EP001_B": "24.0–25.3 阿麗，已局部清理",
+    "EP003_B": "底部每0.5秒OCR及每秒接触表未发现原生对白字幕"
+  },
+  "bgm_added": false
+}
