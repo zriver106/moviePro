@@ -1,0 +1,16 @@
+{
+  "id": "EP002_B_EXCHANGE_GRIP",
+  "request_sha256": "8f41a271a9f4791705232b3c6c64d02edb30d8be72f0c349c2e4276f521f402d",
+  "spec_sha256": "a81fafb87a3fb2f206885f8a4e19f5fc9b13e0438db7659780473e4764024f66",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/exchange_v06.jpg": "0cb999c6e03e1b69086c042ebd6b1281fbff5ef572a2e15206cb699e7fd9c0b8"
+  },
+  "image_sha256": "460e212f87b81d6247e34a8cb2c8ffcd7b80ce6f81cda6dfa2e469c96a822943",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "换碗握持细修.json",
+  "visual_status": "pending_inspection"
+}

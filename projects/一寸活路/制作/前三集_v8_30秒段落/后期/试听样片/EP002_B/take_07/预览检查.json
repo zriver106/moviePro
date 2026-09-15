@@ -1,0 +1,15 @@
+{
+  "output_sha256": "b95961b9ff9e1b41b45dcdb0282e94aa438808832ba2859920f7abb6fbc1cadd",
+  "checked_frames": [
+    6.8,
+    15,
+    23.3,
+    28.25
+  ],
+  "hard_subtitles": "四句中文均可见，字形和位置正常",
+  "encoded_lufs": -17.14,
+  "encoded_true_peak_dbtp": -1.92,
+  "manual_listening": "未完成",
+  "picture_status": "rejected_old_bowl_disappears",
+  "delivery_ready": false
+}

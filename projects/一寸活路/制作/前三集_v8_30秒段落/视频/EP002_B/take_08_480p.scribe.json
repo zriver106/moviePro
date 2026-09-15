@@ -1,0 +1,327 @@
+{
+  "source_sha256": "cc9ca5e7d3a187d7bb53f11db0070c2f8812911532873b278c151b8f89de85d8",
+  "decoder": "scribe",
+  "text_hints": false,
+  "result": {
+    "text": "每人只算一次。恒勇不消，能易知天。 活人不用吃剩的。爹的清蟹号，三千铜。 先不借，我们正。",
+    "language_code": "zho",
+    "language_probability": 1.0,
+    "words": [
+      {
+        "text": "每",
+        "start": 4.259,
+        "end": 4.539,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "人",
+        "start": 4.539,
+        "end": 4.699,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "只",
+        "start": 4.699,
+        "end": 4.919,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "算",
+        "start": 4.92,
+        "end": 5.179,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "一",
+        "start": 5.179,
+        "end": 5.5,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "次",
+        "start": 5.5,
+        "end": 5.639,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 5.639,
+        "end": 5.639,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "恒",
+        "start": 6.839,
+        "end": 7.039,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "勇",
+        "start": 7.039,
+        "end": 7.379,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "不",
+        "start": 7.379,
+        "end": 7.539,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "消",
+        "start": 7.539,
+        "end": 7.779,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "，",
+        "start": 7.779,
+        "end": 8.479,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "能",
+        "start": 8.479,
+        "end": 8.759,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "易",
+        "start": 8.76,
+        "end": 8.979,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "知",
+        "start": 8.979,
+        "end": 9.219,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "天",
+        "start": 9.22,
+        "end": 15.679,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 15.679,
+        "end": 15.679,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": " ",
+        "start": 15.679,
+        "end": 15.679,
+        "type": "spacing",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "活",
+        "start": 18.239,
+        "end": 18.379,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "人",
+        "start": 18.379,
+        "end": 18.519,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "不",
+        "start": 18.52,
+        "end": 18.659,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "用",
+        "start": 18.659,
+        "end": 18.819,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "吃",
+        "start": 18.819,
+        "end": 18.939,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "剩",
+        "start": 18.939,
+        "end": 19.059,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "的",
+        "start": 19.059,
+        "end": 22.759,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 22.759,
+        "end": 22.759,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "爹",
+        "start": 25.34,
+        "end": 25.5,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "的",
+        "start": 25.5,
+        "end": 25.68,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "清",
+        "start": 25.68,
+        "end": 25.819,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "蟹",
+        "start": 25.819,
+        "end": 26.0,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "号",
+        "start": 26.0,
+        "end": 26.139,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "，",
+        "start": 26.139,
+        "end": 26.519,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "三",
+        "start": 26.519,
+        "end": 26.759,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "千",
+        "start": 26.76,
+        "end": 26.779,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "铜",
+        "start": 26.779,
+        "end": 27.039,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 27.039,
+        "end": 27.039,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": " ",
+        "start": 27.039,
+        "end": 27.039,
+        "type": "spacing",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "先",
+        "start": 28.479,
+        "end": 28.619,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "不",
+        "start": 28.619,
+        "end": 28.719,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "借",
+        "start": 28.719,
+        "end": 28.859,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "，",
+        "start": 28.859,
+        "end": 29.459,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "我",
+        "start": 29.459,
+        "end": 29.559,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "们",
+        "start": 29.559,
+        "end": 29.659,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "正",
+        "start": 29.659,
+        "end": 29.799,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "。",
+        "start": 29.799,
+        "end": 29.799,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      }
+    ]
+  }
+}

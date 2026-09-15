@@ -554,5 +554,16 @@
     "sha256": "72690bb5c6d53afe7346a66a0fd8a4f02c3efbdbf3d2cce1a79d6f07c7010e1b",
     "scope": "10–18秒换碗前的场景身份与三碗状态",
     "reason": "青年右掌药布、左手裸露，旧碗明显缺口，妹妹端完整热饭碗，桌上另有一只完整饭碗；袖上纸卷已移除。"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/exchange_v06.jpg": {
+    "status": "rejected_reference",
+    "sha256": "0cb999c6e03e1b69086c042ebd6b1281fbff5ef572a2e15206cb699e7fd9c0b8",
+    "reason": "旧碗悬空，与妹妹左手尚未接触，需修正握持"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/exchange_v07.jpg": {
+    "status": "accepted_reference",
+    "sha256": "460e212f87b81d6247e34a8cb2c8ffcd7b80ce6f81cda6dfa2e469c96a822943",
+    "scope": "13–15秒妹妹左手托旧碗、右手端新碗的动作参考",
+    "reason": "三碗分离，旧碗底与妹妹左掌接触，右手托完整热饭碗，桌上第三碗完整，青年右掌包扎左掌裸露。"
   }
 }

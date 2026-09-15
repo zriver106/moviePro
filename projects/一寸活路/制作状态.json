@@ -1,6 +1,6 @@
 {
   "active_version": "前三集_v8_30秒段落",
-  "stage": "30秒段落生成与验收",
+  "stage": "候选未通过，制作待修正",
   "style": "Seedream立体国漫定妆_v8",
   "video_model": "Seedance 2.5",
   "initial_resolution": "480p",
@@ -133,10 +133,15 @@
     {
       "id": "EP002_B",
       "seconds_planned": 30,
-      "seconds_actual": null,
-      "generation_status": "submitted",
-      "visual_status": "pending",
-      "blocking_issues": [],
+      "seconds_actual": 30.041667,
+      "generation_status": "generated_pending_visual_and_dialogue_check",
+      "visual_status": "rejected",
+      "blocking_issues": [
+        {
+          "time": "17–21",
+          "finding": "旧缺口碗被妹妹拿起后仍留在左手，20秒持筷对着缺口空碗；21秒该手中的碗变为满饭完整碗，桌上第三碗消失，未完成旧碗放架。"
+        }
+      ],
       "history": [
         {
           "take": 1,
@@ -182,15 +187,22 @@
         },
         {
           "take": 7,
-          "generation_status": "submitted",
-          "visual_status": "pending",
-          "video": null,
-          "qa": null
+          "generation_status": "generated_pending_visual_and_dialogue_check",
+          "visual_status": "rejected",
+          "video": "制作/前三集_v8_30秒段落/视频/EP002_B/take_07_480p.mp4",
+          "qa": "制作/前三集_v8_30秒段落/视频/EP002_B/take_07_480p.验收.json"
+        },
+        {
+          "take": 8,
+          "generation_status": "generated_pending_visual_and_dialogue_check",
+          "visual_status": "rejected",
+          "video": "制作/前三集_v8_30秒段落/视频/EP002_B/take_08_480p.mp4",
+          "qa": "制作/前三集_v8_30秒段落/视频/EP002_B/take_08_480p.验收.json"
         }
       ],
       "references_ready": true,
       "missing_references": [],
-      "video": null
+      "video": "制作/前三集_v8_30秒段落/视频/EP002_B/take_08_480p.mp4"
     },
     {
       "id": "EP003_A",
@@ -251,14 +263,15 @@
   "rating_scope": "剧本、分镜及直接改变剧情的规划须独立评级；资产ID、技术引用和忠实修正不单独评级",
   "historical_resource_status": "制作/前三集_v8_30秒段落/历史逐镜制作状态.json",
   "accepted_segments": 0,
-  "generated_candidates": 10,
+  "generated_candidates": 12,
   "postproduction": {
     "music_directory": "kim-bgm",
     "music_plan": "制作/前三集_v8_30秒段落/后期/配乐方案.json",
     "subtitles_required": true,
     "planned_subtitle_segments": 6,
     "previews": [
-      "制作/前三集_v8_30秒段落/后期/试听样片/EP002_B/take_04/中文字幕_低音量配乐.mp4"
+      "制作/前三集_v8_30秒段落/后期/试听样片/EP002_B/take_04/中文字幕_低音量配乐.mp4",
+      "制作/前三集_v8_30秒段落/后期/试听样片/EP002_B/take_07/中文字幕_低音量配乐.mp4"
     ],
     "preview_is_final": false
   }

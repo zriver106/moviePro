@@ -1,0 +1,29 @@
+{
+  "status": "rejected",
+  "take": 7,
+  "video_sha256": "a051cfa8724aa24d5043404dde1c9ac1f6e47a7f960c871836768cc9d3fdc344",
+  "actual_duration": 30.041667,
+  "audio_stream_present": true,
+  "visual_inspection": "0–30秒逐秒接触表，12–16.75秒4fps连续抽帧",
+  "blocking_issues": [
+    {
+      "time": "13.75–14.25",
+      "finding": "缺口旧碗在陆照手前消失，妹妹双手仍托完整饭碗；未完成左手取走旧碗放架再递新碗的连续动作。"
+    }
+  ],
+  "positive_findings": [
+    "闪回青年裸掌，老人无须、右腕红布，覆手与胸前余烬动作可见",
+    "旧碗开始有缺口，换碗后饭碗边缘完整",
+    "家中倒钱、递饭、分肉、展开船纸、拢钱在连续移动构图中呈现"
+  ],
+  "dialogue_review": {
+    "method": "Scribe V2无文本提示自动听写",
+    "text": "每人只算一次，恒勇不消，能一直添。 活人不用吃剩的。嗯。爹的清蟹号，三千铜。 先不结，我们挣。",
+    "status": "四句台词主要音节对应；同音转写差异不直接判断口误，字幕时点仍待精校"
+  },
+  "pending_checks": [
+    "画内售船纸中文需后期",
+    "长镜须最终视频连续性复核，接触表不作为全部硬切的精确判定"
+  ],
+  "delivery_ready": false
+}
