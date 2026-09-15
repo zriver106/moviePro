@@ -1,0 +1,15 @@
+{
+  "reason": "v2水位偏低，老人仍像站在门缝，生成了额外字幕，未采用",
+  "source_is_existing_edit": true,
+  "task": "editing",
+  "generation_fallback": false,
+  "padding": "为满足4秒编辑输入，尾部上下文定格补足；成片只取中间问题镜头，定格不进入成片",
+  "review_targets": [
+    "胸部水面",
+    "老人身后封闭木板",
+    "灯保持水面以上",
+    "三人身份保持"
+  ],
+  "final_audio": "保留60秒原音轨",
+  "final_subtitles": "清除模型原生文字后恢复定稿字幕"
+}

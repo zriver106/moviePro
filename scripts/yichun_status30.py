@@ -38,6 +38,8 @@ tag_repair=read(tag_repair_file) if tag_repair_file.exists() else None
 if extension and tag_repair and tag_repair.get('status')=='local_fix_checked':
     extension['latest_local_repair']=tag_repair
 status['extension_experiment']=extension
+flood_attempt_file=k/'延长试验/EP001/第8秒修复状态.json'
+if flood_attempt_file.exists():status['latest_repair_attempt']=read(flood_attempt_file)
 write(p/'制作状态.json',status)
 rows=[]
 if extension:

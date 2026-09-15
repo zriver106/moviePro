@@ -1828,5 +1828,28 @@
       ],
       "limitation": "本次只处理开头牌面，延长试验原有角色错误保留原验收记录"
     }
+  },
+  "latest_repair_attempt": {
+    "status": "not_fixed",
+    "target": [
+      7.3333333333,
+      10.25
+    ],
+    "api_requests": 4,
+    "invalid_parameter_responses": 1,
+    "returned_edit_versions": 3,
+    "adopted_versions": 0,
+    "generation_requests": 0,
+    "method": "现有视频task=editing；依次补足4秒上下文、基于返回片精修、隔离室内镜头编辑",
+    "last_review": "制作/前三集_v8_30秒段落/延长试验/EP001/进水房间修复_v4/验收.json",
+    "original_preserved": true,
+    "existing_60_second_video_replaced": false,
+    "automatic_calls_stopped": true,
+    "remaining": [
+      "水位不足",
+      "封闭门板关系不清",
+      "灯台位置错误"
+    ],
+    "outcome": "接口返回了编辑结果，但未完成所要求的空间连续性修正；不能宣称修复成功"
   }
 }

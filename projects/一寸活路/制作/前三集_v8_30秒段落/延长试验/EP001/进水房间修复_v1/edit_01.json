@@ -1,0 +1,18 @@
+{
+  "source": "制作/前三集_v8_30秒段落/视频/EP001_A/take_02_480p.mp4",
+  "source_sha256": "17b78f1ebaf038d2514b6c01ee8a9c1b3668df33609c6b9a55c703af0458182f",
+  "base": "制作/前三集_v8_30秒段落/延长试验/EP001/牌面修复_v1/一寸活路_第一集60秒_牌面字放大.mp4",
+  "base_sha256": "663fa9da499d617e6a98a92890e1f72d0848b71ae58285d2a15dc4d16b53228f",
+  "start": 7.333333333333333,
+  "end": 10.25,
+  "frames": 70,
+  "task": "editing",
+  "model": "2.5",
+  "resolution": "480p",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "fallback_to_regeneration": false,
+  "prompt": "Edit @Video1, the existing 2.9167-second stylized 3D Chinese animation shot. Correct the flooded-room continuity while preserving the three existing characters, faces, clothing, camera angle, gesture timing and speaking mouth movements. The camera is inside a sealed wooden compartment. Murky water fills the entire lower room up to the three trapped people's upper chests; their soaked clothing enters the water, and visible ripples lap against their torsos and the closed wooden panels. The blue-clad young man pounds the solid CLOSED door at screen left from its inside face. The grey-bearded worker stands beside him on the SAME inside side of the closed door and grips its fixed jamb. Fill the apparent open gap behind the worker with continuous sealed wooden door planks. The pale-green-clad woman sets her lantern onto the narrow inner sill of a small rectangular inspection hatch above the water. Replace the broad foreground table with this narrow hatch ledge attached to the wall; the foreground below it is visibly flooded water. The hatch is a small opening at head height used to call through. The woman speaks and then turns toward the elderly worker exactly with the existing performance. Keep the image clean for subsequent Chinese subtitle compositing. Preserve the established wood, warm lantern light, animation style and shot duration.",
+  "status": "failed_no_fallback",
+  "error": "422 {\"detail\":[{\"loc\":[\"body\"],\"msg\":\"Invalid parameters in input, please check inputs and try again.\",\"type\":\"invalid_request\",\"url\":\"https://docs.fal.ai/errors#invalid_request\",\"input\":{\"bitrate_mode\":\"standard\",\"prompt\":\"Edit @Video1, the existing 2.9167-second stylized 3D Chinese animation shot. Cor",
+  "completed_at": 1789458459.507822
+}

@@ -1,0 +1,14 @@
+{
+  "source": "进水房间修复_v3/edited_shot.mp4",
+  "selected_frames": [
+    4,
+    67
+  ],
+  "source_frame_count": 63,
+  "editing_input_frame_count": 96,
+  "reason": "独立室内镜头，满足4秒输入；去除前后低水位外景干扰",
+  "method": "仅本机调整编辑输入播放速度；最终依原镜70帧还原时长",
+  "task": "editing",
+  "final_audio": "复制原60秒音轨",
+  "fallback_to_regeneration": false
+}
