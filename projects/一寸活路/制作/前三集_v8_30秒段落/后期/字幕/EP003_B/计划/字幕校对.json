@@ -1,0 +1,91 @@
+{
+  "segment": "EP003_B",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "timing_approved": false,
+  "on_screen_text": [
+    {
+      "text": "完工付600铜\n配拉缆工二名",
+      "method": "post_composite",
+      "placement": "图旁报价单",
+      "generation_surface": "blank",
+      "start": 18,
+      "end": 24
+    },
+    {
+      "text": "伤员位",
+      "method": "post_composite",
+      "placement": "后舷图例",
+      "generation_surface": "blank",
+      "start": 18,
+      "end": 24
+    },
+    {
+      "text": "两日工钱 40铜",
+      "method": "post_composite",
+      "placement": "雇工条",
+      "generation_surface": "blank",
+      "start": 24,
+      "end": 30
+    }
+  ],
+  "onscreen_text_approved": false,
+  "status": "planned",
+  "lines": [
+    {
+      "start": 2.5,
+      "end": 3.8,
+      "text": "有人持刀！",
+      "speaker": "阿砾",
+      "timing_source": "plan"
+    },
+    {
+      "start": 9.4,
+      "end": 12,
+      "text": "能刺，也得躲刀。",
+      "speaker": "闻溪",
+      "timing_source": "plan"
+    },
+    {
+      "start": 13.5,
+      "end": 15.9,
+      "text": "下次先叫我关门。",
+      "speaker": "陆禾",
+      "timing_source": "plan"
+    },
+    {
+      "start": 16.3,
+      "end": 16.9,
+      "text": "嗯。",
+      "speaker": "陆照",
+      "timing_source": "plan"
+    },
+    {
+      "start": 18.4,
+      "end": 23.7,
+      "text": "六百铜。桩过白线才付，我出两个人。",
+      "speaker": "岑鹿",
+      "timing_source": "plan"
+    },
+    {
+      "start": 24.1,
+      "end": 27,
+      "text": "两天工钱。帮我看水。",
+      "speaker": "陆照",
+      "timing_source": "plan"
+    },
+    {
+      "start": 27.1,
+      "end": 28.6,
+      "text": "喊了你听？",
+      "speaker": "阿砾",
+      "timing_source": "plan"
+    },
+    {
+      "start": 28.8,
+      "end": 29.5,
+      "text": "听。",
+      "speaker": "陆照",
+      "timing_source": "plan"
+    }
+  ]
+}

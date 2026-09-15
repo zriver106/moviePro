@@ -1,0 +1,23 @@
+{
+  "segment": "EP002_B",
+  "take": 5,
+  "source": "制作/前三集_v8_30秒段落/视频/EP002_B/take_04_480p.mp4",
+  "source_sha256": "26c797967c59429530fb0800c8af4067123eb11bc10029dc49c8f318e5f119fa",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "scope": "faithful_execution_repair",
+  "seed": 962305,
+  "reason": "改变制作方式：在既有完整30秒视频上编辑已审道具状态，避免重新创造全段",
+  "provider_schema": "https://fal.ai/models/bytedance/seedance-2.5/reference-to-video/api",
+  "prompt": "Edit the supplied complete 30-second fictional Chinese 3D animation @Video1. Preserve the established character identities, sculpted animation style, original Mandarin voices and timing, lighting and room layout. Repair the bowl continuity. During the home exchange around 13–18 seconds, the EMPTY bowl initially held by the young man has one clearly visible chipped rim. His sister takes this chipped empty bowl with her left hand, sets it on the nearby edge shelf, then places the FULL bowl with a complete smooth circular rim into his bandaged right palm. After the exchange, both rice bowls used by the siblings have intact complete smooth rims, including every close view at 21–30 seconds. The single chipped empty bowl stays set aside on the shelf. The young man transfers the meat from his full intact bowl into his sister intact bowl. Preserve the flat boat-sale paper and the final dialogue. The flashback at 3–10 seconds shows the young man bare natural palms, and the old man red wrist strip belongs to the old man. At 0–3 and 10–30 the young man right palm remains bandaged. The home scene 10–30 is one uninterrupted continuous camera take, using a smooth pullback then gentle lateral drift to observe coins, exchange, meat and flat boat paper. Retain exactly the existing story events and total 30-second duration. Natural dialogue, room tone and object sounds carry the soundtrack; music and Chinese captions will be added in post.",
+  "model": "2.5",
+  "mode": "ref",
+  "task": "editing",
+  "seconds": 30,
+  "api_duration": "auto_from_30_second_source",
+  "resolution": "480p",
+  "audio": true,
+  "request_sha256": "630a772fca45a0cb02e87e481eba07ef7930d436406c054f3a1575e3d965a346",
+  "status": "failed_or_uncertain",
+  "error": "422 内容策略：疑似真人肖像（换 2.0，或换非写实素材）",
+  "completed_at": 1789439151.784273
+}

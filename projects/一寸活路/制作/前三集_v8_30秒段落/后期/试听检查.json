@@ -1,0 +1,25 @@
+{
+  "preview": "制作/前三集_v8_30秒段落/后期/试听样片/EP002_B/take_04/中文字幕_低音量配乐.mp4",
+  "output_sha256": "a851ad8c9b5b11c8424220eafb3c8bf654d3c78f1871b429487cdf7a8ac2f079",
+  "visual_checks": [
+    "4.2秒三个月前位于左上，未与候选标记重叠",
+    "6.8秒规则句中文显示正常",
+    "24.8秒青蟹号与三千铜字幕正常",
+    "28.5秒我们挣显示正常"
+  ],
+  "audio_measurement": {
+    "input_i": "-16.72",
+    "input_tp": "-1.82",
+    "input_lra": "5.70",
+    "input_thresh": "-26.89",
+    "output_i": "-16.26",
+    "output_tp": "-1.50",
+    "output_lra": "5.20",
+    "output_thresh": "-26.42",
+    "normalization_type": "dynamic",
+    "target_offset": "0.26"
+  },
+  "manual_listening": "尚未完成实际听审",
+  "picture_status": "rejected",
+  "delivery_ready": false
+}

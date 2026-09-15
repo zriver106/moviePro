@@ -1,0 +1,16 @@
+{
+  "id": "EP002_B_END",
+  "request_sha256": "388abd2ca3490744e1ffcc802120a5ec76c4838da26be058d5ab6279e38470e2",
+  "spec_sha256": "94c716a3ebe53435d918b83748ea3c713ab4449f610d3eea07cbd0da24f02030",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_END/ref_v01.jpg": "97408040666628f8925f6ae78bc9b877e4d1c9abecd30737f1679bab3d725023"
+  },
+  "image_sha256": "82ff07a6e856fea8cdcb3de2b41fe94aea96f8e968d5b368210e7738d9d0220e",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "家中末帧手势细修.json",
+  "visual_status": "pending_inspection"
+}

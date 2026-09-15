@@ -1,0 +1,18 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_B_END",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_END/ref_v01.jpg"
+      ],
+      "output": "段落首帧/EP002_B_END/ref_v02.jpg",
+      "seed": 964202,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "prompt": "Preserve the entire established fictional Chinese 3D animation image: two sibling faces, closed teal clothing, orange apron outfit, warm room, intact rice bowls and flat boat paper. Adjust the woman visible hand: move it from her lap onto the right corner of the boat paper, fingers gently holding the paper flat. The man bare left hand rests beside his bowl. The small purse beside the paper is now filled with gathered tied copper-coin strings, drawstring closed; the previously scattered loose coins on the foreground table have been gathered inside the purse. Keep both eating bowls with complete smooth rims; rice in the man bowl, rice and shared meat in the woman bowl. The man right palm retains its existing dressing. This is the quiet final moment after their agreement to earn the boat money, both looking at each other."
+    }
+  ]
+}

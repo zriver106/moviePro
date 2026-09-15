@@ -1,0 +1,44 @@
+[
+  {
+    "path": "kim-bgm/01-幻昼5.0-Ava Xu-候选.mp3",
+    "sha256": "232d526e6f163eae15d6fad477a35df9ee671010c7ec1ad85ac2fbd8d9be1280",
+    "seconds": 174.521179,
+    "sample_rate": "44100",
+    "channels": 2
+  },
+  {
+    "path": "kim-bgm/02-囚笼-北千川-候选.mp3",
+    "sha256": "65533b78b389b8e8946bdc7556919faf7c8fda06c59d008b2e5474b526b444f6",
+    "seconds": 164.0,
+    "sample_rate": "44100",
+    "channels": 2
+  },
+  {
+    "path": "kim-bgm/03-Life Struggle-K1RO-候选.mp3",
+    "sha256": "609faaa8e4c69c4aa0cdab43a42d7f6e3742af76bfa48ed3e20dfd741225d86d",
+    "seconds": 153.500499,
+    "sample_rate": "44100",
+    "channels": 2
+  },
+  {
+    "path": "kim-bgm/04-Try-P!NK-候选.mp3",
+    "sha256": "9df4c90393238f415003699adfa4232e7af1c15cd1bd3490e12b73c81b1d73f8",
+    "seconds": 247.911882,
+    "sample_rate": "44100",
+    "channels": 2
+  },
+  {
+    "path": "kim-bgm/05-我知道-BY2-候选.mp3",
+    "sha256": "52d17f66e6c04f49f00786483a641530d7df84199f8e40d92dfc0c694a4fbadb",
+    "seconds": 250.027914,
+    "sample_rate": "44100",
+    "channels": 2
+  },
+  {
+    "path": "kim-bgm/06-Amazon-DJ李太白及晚安布布-候选.mp3",
+    "sha256": "8d4783bd05322b0a7080fb33900cabcae4a50f9eb6290f1aec7ed183435e04b5",
+    "seconds": 144.971156,
+    "sample_rate": "44100",
+    "channels": 2
+  }
+]

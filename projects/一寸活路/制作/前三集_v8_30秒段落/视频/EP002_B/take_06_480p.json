@@ -1,0 +1,171 @@
+{
+  "segment": "EP002_B",
+  "take": 6,
+  "strategy": "keyframe_pair",
+  "scope": "faithful_execution_repair",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "seed": 964206,
+  "first_frame": {
+    "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_OPEN/ref_v01.jpg",
+    "sha256": "4b6c19309fa1867adecf908700466cd4db55202e155ab4269764bbf94a3ae8d0"
+  },
+  "last_frame": {
+    "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_END/ref_v02.jpg",
+    "sha256": "82ff07a6e856fea8cdcb3de2b41fe94aea96f8e968d5b368210e7738d9d0220e"
+  },
+  "reason": "改为原始已采用国漫首帧和新建末帧的i2v；不上传含人参考视频。剧情时间轴和摄影计划保持已评级版本。",
+  "prompt": "A complete 30-second narrative segment, 16:9, sculpted Chinese 3D animated feature style. Woven cloth, dimensional faces, cohesive sculpted hair, restrained wood and bronze. Natural Mandarin dialogue with lip synchronization, footsteps, water and cloth sounds. Each timeline interval is an action beat. Camera cuts follow the CAMERA PLAN; continuous takes carry successive beats through one moving camera. Begin by matching the opening composition in the supplied starting frame. Reference portraits define identity and clothing; the current action defines pose and placement. Technical diagrams define mechanical connections translated into the scene materials. Paper surfaces stay suitable for later Chinese typography.\nREFERENCE ROLES:\nthe supplied starting frame: starting frame: original awl about to enter the new waist sheath; RIGHT palm bandaged.\nthe supplied ending frame: ending frame: siblings in their home, two intact eating bowls, flat boat notice, coin purse, RIGHT palm bandaged.\n摄影约束：全段恰好三个摄影镜头。第一镜0–3秒收锥，第二镜3–10秒废船闪回，第三镜10–30秒屋内一镜到底。第三镜是同一摄影机持续20秒的真实连续运动，钱袋、换碗、分肉、船纸和说话全部在同一镜内依次发生；摄影机随动作缓慢后拉、侧移、俯仰，人物和桌面之间保持连续空间视差。Three camera shots total. The third shot is one uninterrupted 20-second take inside the home from 10s through 30s; every subsequent action unfolds within that continuous camera move. During 13–18s the sister lifts the old chipped bowl away with her left hand and gives the intact full bowl from her right hand into Lu Zhao bandaged palm. The old chipped bowl is set aside at the edge shelf. Both bowls used for eating from 18s onward have complete intact rims.\nCAMERA PLAN: At 0s show the already-purchased sheath tied at the waist and slide the original awl into it over three seconds. At 3s match-cut on the old hemp handle texture to the abandoned-boat flashback, cooler light and clean plain upper-left space for later typography. From 3s to 10s use a continuous intimate medium-close view for the ember entering the old chest wound, box breaking and elder hand over the awl hand during his speech. At 10s match-cut on the elder final syllable to a close view of Lu Zhao bandaged RIGHT hand gathering the coin purse inside the dusk home. Within 10–13s pull back and slide as he pours the tied coin strings onto the crooked table. From 10s to 30s maintain this same continuous domestic take: follow the coin strings onto the crooked table, slide sideways as the sister replaces the chipped bowl, move nearer as meat is shared, gently tilt down when the boat paper is spread beside both bowls and the two-hundred-copper strings, then rise toward their faces while Lu Zhao speaks and gathers the money. End on hands, intact bowls, paper and purse together.\nTIMELINE:\n[0–3s] After the sheath purchase time cut, the new sheath is already fastened to Lu Zhao's belt, paid coins rest on the stall cloth and the original awl is in his hand. Then he slides it into the sheath; its old wrapped handle match-cuts to the same handle in memory.\n[3–5s] Flashback color shifts cool with clean plain upper-left space. A gaunt clean-shaven elder wearing a red wrist strip presses a thin ember into an old wound on Lu Zhao's chest. Then the casing crumbles to ash as the red glow settles beneath his sternum.\n[5–10s] The gaunt elder's hand rests on Lu Zhao's awl hand as the chest glow fades. Then he speaks, pauses for breath and tightens his fingers once; his final words bridge to Lu Zhao's present-day bandaged hand closing the purse.\n[5.1–9.7s] 老人, visible speaker with synchronized lips, says exactly in Mandarin: “每人只算一次。痕永不消，能一直添。”\n[10–13s] At dusk Lu Zhao enters the cramped room and tips his remaining tied coin strings onto the crooked table; a paid lodging slip sits at his purse edge. Then one string slides toward the low edge; he braces the table with his bandaged hand as Lu He turns from the stove and notices his damp clothes and dressing.\n[13–18s] Lu Zhao reaches for a chipped bowl, but Lu He takes it away first. Then she places a whole bowl of hot rice into his bandaged palm and adds a piece of meat. He studies its unbroken rim, swallows and sits down.\n[14.2–16.6s] 陆禾, visible speaker with synchronized lips, says exactly in Mandarin: “活人不用吃剩的。”\n[18–21s] Steam rises from the whole bowl. Then Lu Zhao divides the meat and places half into his sister's bowl; Lu He lowers her head to eat it, with a brief brightness in her eyes.\n[21–26s] Lu He unfolds the sale notice for the Blue Crab beside their two bowls; a familiar repair patch on the forward hull of the small wooden boat is visible, with plain paper space for later typography. Then Lu Zhao touches the patch in the drawing while she holds the opposite corner, and both look toward the two hundred coins on the table.\n[21.3–24.5s] 陆禾, visible speaker with synchronized lips, says exactly in Mandarin: “爹的青蟹号。三千铜。”\n[26–30s] Lu Zhao gathers the already tied coin strings into the purse beside the boat notice. Then he looks at his sister and speaks; Lu He holds the opposite corner of the paper, their hands resting by their whole bowls with the purse beside the notice.\n[26.5–29s] 陆照, visible speaker with synchronized lips, says exactly in Mandarin: “先不借。我们挣。”\nRIGHT palm is bandaged in the present at 0–3s and 10–30s. At 3–10s the flashback has bare palms and the old chest wound. In the present the original awl and its palm-sized sheath stay at the waist.\nVISIBLE CONTINUITY: During the flashback both young palms and wrists show uncovered natural skin. The elder red wrist strip belongs to the elder. Lu Zhao holds the one original awl and the elder rests his hand upon that awl hand. In the dusk home, the RIGHT palm cloth visibly wraps the palm and wrist. The chipped bowl has a large visible missing-rim notch. Lu He lifts that chipped bowl away before handing over the intact full bowl; show these two separate bowls exchanging places clearly in the existing 13–18s continuous action. The boat notice lies flat on the table as specified, showing a wooden boat hull and its repair patch. Keep all picture lettering areas plain. Each spoken line begins and finishes inside its specified time window, at a natural brisk Mandarin pace. The elder articulates 痕永不消，能一直添 clearly; the final 陆照 word is 挣, pronounced zhèng. Finish that final word by 29s and hold the final action state through 30s.\nThe original awl stays a single small hemp-handled tool. All characters preserve their reference identities across camera movements. End at the last specified action state at 30 seconds.\nAnimate the supplied starting frame into the supplied ending frame over exactly 30 seconds using the approved three-shot camera plan. The elder in the middle flashback is a gaunt clean-shaven stylized older man with long grey tied hair, plain dark grey rough-cloth robe, and red cloth at his RIGHT wrist. Lu Zhao and Lu He preserve the identities and closed overlapping collars established in the ending frame. The home scene is observed in one continuous medium-wide camera move that keeps the bowl exchange and both complete rims clearly visible.",
+  "model": "2.5",
+  "mode": "i2v",
+  "seconds": 30,
+  "api_duration": "30",
+  "resolution": "480p",
+  "audio": true,
+  "request_sha256": "b490802a1a0ca713d2537f6e79ebbd031387587cc58cf9a1b43fc2c0f9a60cd0",
+  "status": "generated_pending_visual_and_dialogue_check",
+  "input_video": {
+    "first_frame": {
+      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_OPEN/ref_v01.jpg",
+      "sha256": "4b6c19309fa1867adecf908700466cd4db55202e155ab4269764bbf94a3ae8d0"
+    },
+    "last_frame": {
+      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_END/ref_v02.jpg",
+      "sha256": "82ff07a6e856fea8cdcb3de2b41fe94aea96f8e968d5b368210e7738d9d0220e"
+    }
+  },
+  "video_sha256": "9e34e7bee213b9495bd394dd02c7f5f419af3bd1bad60634b1636e473bd80783",
+  "duration": 30.041667,
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001e",
+        "width": 854,
+        "height": 480,
+        "coded_width": 854,
+        "coded_height": 480,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 30,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 369152,
+        "duration": "30.041667",
+        "bit_rate": "4842524",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "721",
+        "extradata_size": 44,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "32000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/32000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 958464,
+        "duration": "29.952000",
+        "bit_rate": "193643",
+        "nb_frames": "937",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP002_B/take_06_480p.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "30.041667",
+      "size": "18934378",
+      "bit_rate": "5042164",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41"
+      }
+    }
+  },
+  "completed_at": 1789439833.750433
+}

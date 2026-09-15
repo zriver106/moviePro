@@ -1,0 +1,23 @@
+{
+  "source": "kim-bgm/01-幻昼5.0-Ava Xu-候选.mp3",
+  "source_sha256": "232d526e6f163eae15d6fad477a35df9ee671010c7ec1ad85ac2fbd8d9be1280",
+  "clip_range": [
+    0,
+    30
+  ],
+  "loudness": {
+    "input_i": "-9.70",
+    "input_tp": "1.00",
+    "input_lra": "3.20",
+    "input_thresh": "-19.91",
+    "output_i": "-28.79",
+    "output_tp": "-15.61",
+    "output_lra": "2.40",
+    "output_thresh": "-38.83",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.21"
+  },
+  "asr_word_count": 0,
+  "asr_text": "",
+  "note": "自动语言检测用于筛选配乐前奏，不等于实际人工试听。"
+}

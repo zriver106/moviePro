@@ -1,0 +1,24 @@
+{
+  "segment": "EP001_B",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "timing_approved": false,
+  "on_screen_text": [],
+  "onscreen_text_approved": true,
+  "status": "planned",
+  "lines": [
+    {
+      "start": 7.8,
+      "end": 11.3,
+      "text": "胜过真敌，直刺添一痕。",
+      "speaker": "老人",
+      "timing_source": "plan"
+    },
+    {
+      "start": 23.0,
+      "end": 23.8,
+      "text": "阿砾！",
+      "speaker": "闻溪",
+      "timing_source": "plan"
+    }
+  ]
+}

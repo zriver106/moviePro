@@ -1,0 +1,40 @@
+{
+  "segment": "EP003_A",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "timing_approved": false,
+  "on_screen_text": [
+    {
+      "text": "翌日",
+      "method": "post_composite",
+      "placement": "左上角时间字幕",
+      "generation_surface": "blank",
+      "start": 0,
+      "end": 2
+    }
+  ],
+  "onscreen_text_approved": false,
+  "status": "planned",
+  "lines": [
+    {
+      "start": 2.1,
+      "end": 3.3,
+      "text": "六十铜。",
+      "speaker": "水槽货主",
+      "timing_source": "plan"
+    },
+    {
+      "start": 4.3,
+      "end": 6.5,
+      "text": "照子，跟我走。",
+      "speaker": "葛牙",
+      "timing_source": "plan"
+    },
+    {
+      "start": 8.2,
+      "end": 9.5,
+      "text": "先放他。",
+      "speaker": "陆照",
+      "timing_source": "plan"
+    }
+  ]
+}

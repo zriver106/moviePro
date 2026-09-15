@@ -1,0 +1,84 @@
+{
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "user_instruction": "使用项目根目录kim-bgm，音量小，按剧情选择出入点；最终挂中文字幕",
+  "status": "mix_plan_ready_pending_final_picture",
+  "music_source_check": "幻昼5.0前30秒Scribe未检测到歌词；仍须实际听审，自动识别不等于纯器乐保证",
+  "dialogue_target_lufs": -16,
+  "music_between_dialogue_lufs": -34,
+  "music_under_dialogue_lufs": -40,
+  "peak_ceiling_dbtp": -1.5,
+  "fade_seconds": 1.2,
+  "segments": {
+    "EP001_A": {
+      "cues": [],
+      "reason": "死亡牌、被困呼救和机关布局以水声、对白、木响为主"
+    },
+    "EP001_B": {
+      "cues": [
+        {
+          "start": 16.5,
+          "end": 30,
+          "source": "kim-bgm/01-幻昼5.0-Ava Xu-候选.mp3",
+          "source_sha256": "232d526e6f163eae15d6fad477a35df9ee671010c7ec1ad85ac2fbd8d9be1280",
+          "source_in": 0,
+          "target_lufs": -34,
+          "dialogue_duck_db": -6
+        }
+      ],
+      "reason": "救人开始后低声进入，仍保留阿砾呼喊与落脚声"
+    },
+    "EP002_A": {
+      "cues": [
+        {
+          "start": 24,
+          "end": 30,
+          "source": "kim-bgm/01-幻昼5.0-Ava Xu-候选.mp3",
+          "source_sha256": "232d526e6f163eae15d6fad477a35df9ee671010c7ec1ad85ac2fbd8d9be1280",
+          "source_in": 0,
+          "target_lufs": -34,
+          "dialogue_duck_db": -6
+        }
+      ],
+      "reason": "封舱争执与物证过程留白，领工钱和包掌时轻轻进入"
+    },
+    "EP002_B": {
+      "cues": [
+        {
+          "start": 10,
+          "end": 30,
+          "source": "kim-bgm/01-幻昼5.0-Ava Xu-候选.mp3",
+          "source_sha256": "232d526e6f163eae15d6fad477a35df9ee671010c7ec1ad85ac2fbd8d9be1280",
+          "source_in": 6,
+          "target_lufs": -34,
+          "dialogue_duck_db": -6
+        }
+      ],
+      "reason": "闪回规则对白留白，回到家后低声承接换碗和船纸"
+    },
+    "EP003_A": {
+      "cues": [],
+      "reason": "打斗一镜到底以脚步、衣料、刀网和呼吸为主，保证动作可听辨"
+    },
+    "EP003_B": {
+      "cues": [
+        {
+          "start": 18,
+          "end": 30,
+          "source": "kim-bgm/01-幻昼5.0-Ava Xu-候选.mp3",
+          "source_sha256": "232d526e6f163eae15d6fad477a35df9ee671010c7ec1ad85ac2fbd8d9be1280",
+          "source_in": 0,
+          "target_lufs": -34,
+          "dialogue_duck_db": -6
+        }
+      ],
+      "reason": "擒人、止血与家人叮嘱留白，下午接活开始轻音乐"
+    }
+  },
+  "unused_tracks": {
+    "02": "本轮不加入，避免曲风堆叠",
+    "03": "前30秒检测到人声，暂不用对白场景",
+    "04": "本轮不加入",
+    "05": "本轮不加入",
+    "06": "本轮不加入"
+  }
+}

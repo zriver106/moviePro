@@ -1,0 +1,23 @@
+{
+  "source": "kim-bgm/03-Life Struggle-K1RO-候选.mp3",
+  "source_sha256": "609faaa8e4c69c4aa0cdab43a42d7f6e3742af76bfa48ed3e20dfd741225d86d",
+  "clip_range": [
+    0,
+    30
+  ],
+  "loudness": {
+    "input_i": "-6.76",
+    "input_tp": "1.66",
+    "input_lra": "0.70",
+    "input_thresh": "-16.82",
+    "output_i": "-29.56",
+    "output_tp": "-18.04",
+    "output_lra": "1.40",
+    "output_thresh": "-39.62",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.44"
+  },
+  "asr_word_count": 2,
+  "asr_text": "Ah shit。Yeah。",
+  "note": "自动语言检测用于筛选配乐前奏，不等于实际人工试听。"
+}

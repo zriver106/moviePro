@@ -1,0 +1,10 @@
+{
+  "EP002_B": {
+    "first": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_OPEN/ref_v01.jpg",
+    "ending_v1": "末帧手放膝上，未扶售船纸角，退回局部修正",
+    "ending_v2": "采用：完整双碗、分肉后状态、陆禾扶纸角、钱袋旁，右掌药布和闭合衣领保持",
+    "generation_strategy": "image-to-video first/end frames, 30 seconds",
+    "source": "原始已采用国漫资产构建，不取被拒参考视频作为输入",
+    "text_revision": false
+  }
+}

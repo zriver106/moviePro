@@ -516,5 +516,11 @@
     "sha256": "0603e642551682777f22c9e4517e8256c9a2e144e01bd8622969f52e7fdc98e5",
     "reviewer": "Codex visual inspection",
     "scope": "左手扶铜片而非包住右拳，板尺度偏大，不能用于双手推锥动作"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_END/ref_v02.jpg": {
+    "status": "accepted_reference",
+    "sha256": "82ff07a6e856fea8cdcb3de2b41fe94aea96f8e968d5b368210e7738d9d0220e",
+    "reviewer": "Codex visual inspection",
+    "scope": "原始国漫资产构建的家中末帧：两只完整碗、右掌药布、闭合衣领、陆禾扶平船纸、钱袋；纸上中文另做后期"
   }
 }

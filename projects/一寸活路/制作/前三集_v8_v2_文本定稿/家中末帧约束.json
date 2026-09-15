@@ -1,0 +1,21 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_B_END",
+      "refs": [
+        "制作/前三集_v8_30秒段落/参考/陆照_身份上身.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg"
+      ],
+      "output": "段落首帧/EP002_B_END/ref_v01.jpg",
+      "seed": 964201,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "prompt": "A new final-frame composition in the established fictional sculpted Chinese 3D animation style. Medium two-person shot in the warm dusk home from the fourth reference, camera near the table looking at the two siblings. Lu Zhao from reference one sits picture left in closed overlapping teal clothing, his RIGHT palm wrapped in plain off-white medicinal cloth. Lu He from reference two sits picture right in the orange blouse and beige apron. They exchange a calm determined glance after agreeing to earn money themselves. On the table between them lies one flat aged paper sheet with a small ink drawing of a wooden fishing boat and plain space below it for later Chinese typography. Exactly TWO eating bowls on the table, both with COMPLETE SMOOTH CIRCULAR RIMS matching reference three: Lu Zhao bowl contains rice, Lu He bowl rice and the shared meat. A small empty purse and copper coins sit toward the far edge. Both bodies and all four hands are anatomically coherent. Their identity, clothing and stylized proportions match the references. The composition is one continuous scene, dimensional animated faces, soft dusk window light and stove glow."
+    }
+  ]
+}

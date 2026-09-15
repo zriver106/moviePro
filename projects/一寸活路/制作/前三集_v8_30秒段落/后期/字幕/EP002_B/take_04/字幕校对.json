@@ -1,0 +1,62 @@
+{
+  "segment": "EP002_B",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "timing_approved": false,
+  "on_screen_text": [
+    {
+      "text": "三个月前",
+      "method": "post_composite",
+      "placement": "左上角时间字幕",
+      "generation_surface": "blank",
+      "start": 3.0,
+      "end": 5.0
+    },
+    {
+      "text": "青蟹号\n售价 三千铜",
+      "method": "post_composite",
+      "placement": "售船纸中央",
+      "generation_surface": "blank",
+      "start": 21.0,
+      "end": 26.0
+    }
+  ],
+  "onscreen_text_approved": false,
+  "status": "asr_aligned_draft",
+  "source": "制作/前三集_v8_30秒段落/视频/EP002_B/take_04_480p.mp4",
+  "video_sha256": "26c797967c59429530fb0800c8af4067123eb11bc10029dc49c8f318e5f119fa",
+  "asr_sha256": "af1e88c6c5abaf1acbe657d4acad5827f7552e39eef4c789ad85fbc6b930eaa7",
+  "lines": [
+    {
+      "start": 3.739,
+      "end": 9.14,
+      "text": "每人只算一次。痕永不消，能一直添。",
+      "speaker": "老人",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 0.714
+    },
+    {
+      "start": 17.559,
+      "end": 22.279,
+      "text": "活人不用吃剩的。",
+      "speaker": "陆禾",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 1.0
+    },
+    {
+      "start": 24.739,
+      "end": 26.779,
+      "text": "爹的青蟹号。三千铜。",
+      "speaker": "陆禾",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 0.875
+    },
+    {
+      "start": 27.899,
+      "end": 29.619,
+      "text": "先不借。我们挣。",
+      "speaker": "陆照",
+      "timing_source": "asr_matching_characters",
+      "alignment_coverage": 1.0
+    }
+  ]
+}

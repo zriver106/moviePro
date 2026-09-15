@@ -1,0 +1,61 @@
+{
+  "segment": "EP001_A",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "timing_approved": false,
+  "on_screen_text": [
+    {
+      "text": "陆照\n溺亡销籍\n登记于六个月前",
+      "method": "post_composite",
+      "placement": "木牌正面",
+      "generation_surface": "blank",
+      "start": 0,
+      "end": 3
+    }
+  ],
+  "onscreen_text_approved": false,
+  "status": "planned",
+  "lines": [
+    {
+      "start": 3.1,
+      "end": 7.1,
+      "text": "二百四十铜，够姐姐歇十二天。",
+      "speaker": "陆照",
+      "timing_source": "plan"
+    },
+    {
+      "start": 7.6,
+      "end": 9.6,
+      "text": "三个人！开门！",
+      "speaker": "闻溪",
+      "timing_source": "plan"
+    },
+    {
+      "start": 12.7,
+      "end": 16.0,
+      "text": "省点力气。门不用开了。",
+      "speaker": "麻铎",
+      "timing_source": "plan"
+    },
+    {
+      "start": 16.6,
+      "end": 17.9,
+      "text": "他们还活着。",
+      "speaker": "陆照",
+      "timing_source": "plan"
+    },
+    {
+      "start": 18.0,
+      "end": 19.3,
+      "text": "账上没有。",
+      "speaker": "麻铎",
+      "timing_source": "plan"
+    },
+    {
+      "start": 25.1,
+      "end": 26.9,
+      "text": "这点钱买命？",
+      "speaker": "麻铎",
+      "timing_source": "plan"
+    }
+  ]
+}

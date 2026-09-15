@@ -138,9 +138,14 @@ def edit_image(prompt, image_urls, size="landscape_16_9", seed=None, n=1):
 
 def video(prompt, *, model="2.5", mode="ref", seconds=None, resolution="720p",
           aspect="16:9", audio=True, seed=None, image_url=None, end_image_url=None,
-          image_urls=None, video_urls=None, audio_urls=None):
+          image_urls=None, video_urls=None, audio_urls=None, task=None):
     """出片。**上限查 capabilities()，超了直接报错，不静默截断。**"""
     caps = capabilities(model)
+    if task is not None:
+        if model != '2.5' or mode != 'ref' or task not in ('reference','editing','extension'):
+            return None, 'task仅适用于2.5/ref的reference、editing或extension'
+        if task in ('editing','extension') and not video_urls:
+            return None, '编辑或延展任务需要源视频'
     if seconds is not None and seconds > caps["max_seconds"]:
         return None, (f"{model} 单段上限 {caps['max_seconds']} 秒（要 {seconds} 秒）。"
                       f"分段或换模型 —— 别让端点静默截断")
@@ -158,6 +163,10 @@ def video(prompt, *, model="2.5", mode="ref", seconds=None, resolution="720p",
         body["duration"] = str(int(round(seconds)))
     if seed is not None:
         body["seed"] = seed
+    if task is not None:
+        body['task'] = task
+        if task in ('editing','extension'):body['aspect_ratio']='auto'
+        if task == 'editing':body['duration']='auto'
     for k, v in (("image_url", image_url), ("end_image_url", end_image_url),
                  ("image_urls", image_urls), ("video_urls", video_urls),
                  ("audio_urls", audio_urls)):

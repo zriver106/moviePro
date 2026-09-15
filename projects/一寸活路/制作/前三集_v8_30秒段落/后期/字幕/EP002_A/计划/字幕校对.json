@@ -1,0 +1,54 @@
+{
+  "segment": "EP002_A",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "timing_approved": false,
+  "on_screen_text": [
+    {
+      "text": "救货工钱 240铜",
+      "method": "post_composite",
+      "placement": "秤旁结工纸",
+      "generation_surface": "blank",
+      "start": 24,
+      "end": 28
+    }
+  ],
+  "onscreen_text_approved": false,
+  "status": "planned",
+  "lines": [
+    {
+      "start": 13.2,
+      "end": 15.8,
+      "text": "封舱！谁让出来的？",
+      "speaker": "守船人",
+      "timing_source": "plan"
+    },
+    {
+      "start": 16.2,
+      "end": 19.6,
+      "text": "活人我保。封舱损单，你签。",
+      "speaker": "岑鹿",
+      "timing_source": "plan"
+    },
+    {
+      "start": 20.2,
+      "end": 21.6,
+      "text": "他封的门。",
+      "speaker": "闻溪",
+      "timing_source": "plan"
+    },
+    {
+      "start": 21.9,
+      "end": 23.4,
+      "text": "带去问话。",
+      "speaker": "守船人",
+      "timing_source": "plan"
+    },
+    {
+      "start": 24.3,
+      "end": 27,
+      "text": "二百四十。你的工钱。",
+      "speaker": "岑鹿",
+      "timing_source": "plan"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "active_version": "前三集_v8_30秒段落",
   "stage": "候选未通过，制作待修正",
   "style": "Seedream立体国漫定妆_v8",
-  "video_model": "Seedance 2.5 reference-to-video",
+  "video_model": "Seedance 2.5",
   "initial_resolution": "480p",
   "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
   "episodes": [
@@ -133,13 +133,21 @@
     {
       "id": "EP002_B",
       "seconds_planned": 30,
-      "seconds_actual": 30.08,
+      "seconds_actual": 30.041667,
       "generation_status": "generated_pending_visual_and_dialogue_check",
       "visual_status": "rejected",
       "blocking_issues": [
         {
-          "time": "17–25",
-          "finding": "17秒被取走的旧碗是完整碗口；25秒陆照吃饭的碗反而出现明显缺口，换成完整碗的剧情没有成立"
+          "time": "3–9",
+          "finding": "三个月前闪回陆照手掌仍包明显白药布，违反旧伤阶段裸掌状态"
+        },
+        {
+          "time": "3–9",
+          "finding": "老人生成明显灰胡须，偏离定妆中消瘦无须老人，与灰胡子工人的区分被破坏"
+        },
+        {
+          "time": "13–18",
+          "finding": "未清楚建立被取走的缺口旧碗，呈现直接递饭碗，换掉破碗的剧情动作不完整"
         }
       ],
       "history": [
@@ -170,11 +178,25 @@
           "visual_status": "rejected",
           "video": "制作/前三集_v8_30秒段落/视频/EP002_B/take_04_480p.mp4",
           "qa": "制作/前三集_v8_30秒段落/视频/EP002_B/take_04_480p.验收.json"
+        },
+        {
+          "take": 5,
+          "generation_status": "failed_or_uncertain",
+          "visual_status": "pending",
+          "video": null,
+          "qa": null
+        },
+        {
+          "take": 6,
+          "generation_status": "generated_pending_visual_and_dialogue_check",
+          "visual_status": "rejected",
+          "video": "制作/前三集_v8_30秒段落/视频/EP002_B/take_06_480p.mp4",
+          "qa": "制作/前三集_v8_30秒段落/视频/EP002_B/take_06_480p.验收.json"
         }
       ],
       "references_ready": true,
       "missing_references": [],
-      "video": "制作/前三集_v8_30秒段落/视频/EP002_B/take_04_480p.mp4"
+      "video": "制作/前三集_v8_30秒段落/视频/EP002_B/take_06_480p.mp4"
     },
     {
       "id": "EP003_A",
@@ -235,5 +257,15 @@
   "rating_scope": "剧本、分镜及直接改变剧情的规划须独立评级；资产ID、技术引用和忠实修正不单独评级",
   "historical_resource_status": "制作/前三集_v8_30秒段落/历史逐镜制作状态.json",
   "accepted_segments": 0,
-  "generated_candidates": 9
+  "generated_candidates": 10,
+  "postproduction": {
+    "music_directory": "kim-bgm",
+    "music_plan": "制作/前三集_v8_30秒段落/后期/配乐方案.json",
+    "subtitles_required": true,
+    "planned_subtitle_segments": 6,
+    "previews": [
+      "制作/前三集_v8_30秒段落/后期/试听样片/EP002_B/take_04/中文字幕_低音量配乐.mp4"
+    ],
+    "preview_is_final": false
+  }
 }

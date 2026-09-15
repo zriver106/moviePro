@@ -1,0 +1,19 @@
+{
+  "id": "EP002_B_END",
+  "request_sha256": "5d0082ad266165c1d16a341787ae3d4a71b387b6f8882b082448c4c1b114434b",
+  "spec_sha256": "47480a8a300475d3e7bf58d9ecb65c5ee70512c16b0e705dd66ff1a40c0f683e",
+  "refs_sha256": {
+    "制作/前三集_v8_30秒段落/参考/陆照_身份上身.jpg": "ede30ef963287512adf947fa41f99c73d46e53e1c735f042cf89da6a356c0a07",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg": "06284023eadc1c447de50e0fdf1ee8eb8203bf3ab4ccaf131943b3eba2e99e79",
+    "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg": "603e830fa960a300d91ffda91b3bdd7bac766f20ecd92ccd2110b90423612b18",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg": "c33bd6505ec57eefc0b4c3426fea31bd37d635bdbe060136a2bd99dbab83a423"
+  },
+  "image_sha256": "97408040666628f8925f6ae78bc9b877e4d1c9abecd30737f1679bab3d725023",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "家中末帧约束.json",
+  "visual_status": "pending_inspection"
+}

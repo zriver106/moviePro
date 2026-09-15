@@ -1,0 +1,55 @@
+{
+  "segment": "EP002_B",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "timing_approved": false,
+  "on_screen_text": [
+    {
+      "text": "三个月前",
+      "method": "post_composite",
+      "placement": "左上角时间字幕",
+      "generation_surface": "blank",
+      "start": 3.0,
+      "end": 5.0
+    },
+    {
+      "text": "青蟹号\n售价 三千铜",
+      "method": "post_composite",
+      "placement": "售船纸中央",
+      "generation_surface": "blank",
+      "start": 21.0,
+      "end": 26.0
+    }
+  ],
+  "onscreen_text_approved": false,
+  "status": "planned",
+  "lines": [
+    {
+      "start": 5.1,
+      "end": 9.7,
+      "text": "每人只算一次。痕永不消，能一直添。",
+      "speaker": "老人",
+      "timing_source": "plan"
+    },
+    {
+      "start": 14.2,
+      "end": 16.6,
+      "text": "活人不用吃剩的。",
+      "speaker": "陆禾",
+      "timing_source": "plan"
+    },
+    {
+      "start": 21.3,
+      "end": 24.5,
+      "text": "爹的青蟹号。三千铜。",
+      "speaker": "陆禾",
+      "timing_source": "plan"
+    },
+    {
+      "start": 26.5,
+      "end": 29.0,
+      "text": "先不借。我们挣。",
+      "speaker": "陆照",
+      "timing_source": "plan"
+    }
+  ]
+}

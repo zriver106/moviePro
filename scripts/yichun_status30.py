@@ -22,14 +22,16 @@ for s in plan['segments']:
         if check.get('video_sha256')!=record.get('video_sha256'):check={}
         history.append({'take':record.get('take'),'generation_status':record.get('status'),'visual_status':check.get('status','pending'),'video':str(media.relative_to(p)) if media.exists() else None,'qa':str(qpath.relative_to(p)) if check else None})
     segments.append({'id':s['id'],'seconds_planned':30,'seconds_actual':latest.get('duration'),'generation_status':latest.get('status','not_submitted'),'visual_status':qc.get('status','pending'),'blocking_issues':qc.get('blocking_issues',[]),'history':history,'references_ready':not missing,'missing_references':missing,'video':str(v.relative_to(p)) if v and v.exists() else None})
-status={'active_version':'前三集_v8_30秒段落','stage':'30秒段落生成与验收','style':'Seedream立体国漫定妆_v8','video_model':'Seedance 2.5 reference-to-video','initial_resolution':'480p','source_manifest_sha256':plan['source_manifest_sha256'],'episodes':old['episodes'],'segments':segments,'delivery_ready':all(s['visual_status']=='accepted' for s in segments),'rating_scope':'剧本、分镜及直接改变剧情的规划须独立评级；资产ID、技术引用和忠实修正不单独评级','historical_resource_status':'制作/前三集_v8_30秒段落/历史逐镜制作状态.json'}
-if not any(s['generation_status'] in ('uploading','submitted') for s in segments) and any(s['visual_status']=='rejected' for s in segments):
+status={'active_version':'前三集_v8_30秒段落','stage':'30秒段落生成与验收','style':'Seedream立体国漫定妆_v8','video_model':'Seedance 2.5','initial_resolution':'480p','source_manifest_sha256':plan['source_manifest_sha256'],'episodes':old['episodes'],'segments':segments,'delivery_ready':all(s['visual_status']=='accepted' for s in segments),'rating_scope':'剧本、分镜及直接改变剧情的规划须独立评级；资产ID、技术引用和忠实修正不单独评级','historical_resource_status':'制作/前三集_v8_30秒段落/历史逐镜制作状态.json'}
+if not any(s['generation_status'] in ('preparing','uploading','submitted') for s in segments) and any(s['visual_status']=='rejected' for s in segments):
     status['stage']='候选未通过，制作待修正'
 status['accepted_segments']=sum(s['visual_status']=='accepted' for s in segments)
 status['generated_candidates']=sum(bool(h['video']) for s in segments for h in s['history'])
+previews=sorted((k/'后期/试听样片').glob('*/*/中文字幕_低音量配乐.mp4'))
+status['postproduction']={'music_directory':'kim-bgm','music_plan':'制作/前三集_v8_30秒段落/后期/配乐方案.json','subtitles_required':True,'planned_subtitle_segments':len(list((k/'后期/字幕').glob('*/计划/中文字幕.srt'))),'previews':[str(f.relative_to(p)) for f in previews],'preview_is_final':False}
 write(p/'制作状态.json',status)
 rows=[]
-labels={'not_submitted':'未提交','uploading':'参考上传中','submitted':'服务端生成中','generated_pending_visual_and_dialogue_check':'已生成候选','failed_or_uncertain':'请求失败或结果未确认','pending':'待验收','rejected':'退回修正','accepted':'验收通过'}
+labels={'not_submitted':'未提交','preparing':'准备素材中','uploading':'参考上传中','submitted':'服务端生成中','generated_pending_visual_and_dialogue_check':'已生成候选','failed_or_uncertain':'请求失败或结果未确认','pending':'待验收','rejected':'退回修正','accepted':'验收通过'}
 esc=lambda x:html.escape(str(x))
 for s in segments:
     vid=f'<video controls preload="metadata" src="{html.escape(s["video"])}" style="width:100%;max-width:700px"></video>' if s['video'] else ''
@@ -41,5 +43,8 @@ for s in segments:
         history.append(f'<li>第{esc(h["take"])}次请求 · {esc(labels.get(h["generation_status"],h["generation_status"]))} · {esc(labels.get(h["visual_status"],h["visual_status"]))} · {links}</li>')
     details='<details><summary>各次请求与历史样片</summary><ul>'+''.join(history)+'</ul></details>' if history else ''
     rows.append(f'<section><h2>{s["id"]} · 30秒</h2><p>{labels.get(s["generation_status"],esc(s["generation_status"]))} · {labels.get(s["visual_status"],esc(s["visual_status"]))} · 参考：{"就绪" if s["references_ready"] else "等待前段合格接点或首帧修正"}</p>{vid}'+(f'<h3>未通过原因</h3><ul>{issues}</ul>' if issues else '')+details+'</section>')
+if previews:
+    videos=''.join(f'<h3>{esc(f.parent.parent.name)} · {esc(f.parent.name)}</h3><video controls preload="metadata" src="{esc(f.relative_to(p))}" style="width:100%;max-width:700px"></video>' for f in previews)
+    rows.append('<section><h2>低音量配乐与中文字幕试听</h2><p>以下仅供检查字幕和混音，画面尚未通过，不是交付成片。配乐取自项目根目录kim-bgm；最终片保留烧入字幕和独立SRT/ASS。</p><p><a href="制作/前三集_v8_30秒段落/后期/README.md">配乐出入点与字幕说明</a></p>'+videos+'</section>')
 (p/'制作入口.html').write_text('''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>一寸活路 · 30秒段落制作</title><style>body{font:17px/1.8 system-ui;background:#101a20;color:#eee;margin:40px auto;max-width:1000px;padding:24px}a{color:#e0bd83}section{border-top:1px solid #456;margin:24px 0}small{color:#bbc}</style><h1>一寸活路 · 前三集</h1><p>Seedream立体国漫定妆_v8 · Seedance 2.5 · 6段×30秒 · 每集60秒预算</p><p>剧本及原57镜均有真实S评级；30秒重排的四项独立复评均S。源57镜作为动作索引，每30秒只提交一个完整视频请求。战斗及家中长镜按段内摄影计划执行。</p><p><b>生成完成不等于验收通过。以下状态来自实际文件，尚未通过的片段均为候选。</b></p><p><a href="制作/前三集_v8_30秒段落/30秒分段方案.md">30秒分段方案</a> · <a href="制作/前三集_v8_30秒段落/分段外评.json">分段真实外评</a> · <a href="评审/当前评级.json">原稿评级</a> · <a href="制作状态.json">当前状态JSON</a></p>'''+''.join(rows)+'''<section><h2>原稿与历史资源</h2><p><a href="分镜/EP001_中文.html">第一集分镜</a> · <a href="分镜/EP002_中文.html">第二集分镜</a> · <a href="分镜/EP003_中文.html">第三集分镜</a></p><p><a href="制作/前三集_v8_v2_文本定稿/总览.html">原逐镜候选与人物道具参考</a>保留历史检查结果；当前按6个段落及实际采用表制作。</p></section></html>''')
 print(json.dumps(segments,ensure_ascii=False))
