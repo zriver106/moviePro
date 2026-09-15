@@ -1,0 +1,15 @@
+{
+  "start": 7.958333333333333,
+  "end": 10.583333333333334,
+  "prompt": "Edit the existing shot in @Video1. The trapped compartment is filled with opaque dark floodwater up to the three people's upper chests. Their heads, shoulders and raised hands remain visible above the rippling water surface. The woman in pale green holds the lamp at the high inspection opening. The grey-haired worker and blue-clad youth stand together inside the same closed timber compartment. Preserve the original three faces, costumes, camera movement, closed wooden walls, inspection opening and lantern position. The water surface intersects their upper chests throughout this shot, reflecting the lamp. Preserve the original dialogue and shot timing.",
+  "source": "制作/前三集_v8_30秒段落/视频/EP001_A/take_01_480p.mp4",
+  "source_sha256": "24d9f8253400b95a0eaebaf4aeccc30f6c943baf16d2c753590bb0b2d1cf22be",
+  "task": "editing",
+  "model": "2.5",
+  "scope": "faithful_execution_repair",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "fallback_to_regeneration": false,
+  "status": "returned_pending_check",
+  "output_sha256": "2c13e2621219c376a79e246d42fab3d5413fb6923ed5bbf309478871f16d2080",
+  "completed_at": 1789460448.745025
+}

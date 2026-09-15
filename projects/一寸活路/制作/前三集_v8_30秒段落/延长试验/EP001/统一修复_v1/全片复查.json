@@ -1,0 +1,38 @@
+{
+  "scope": "当前第一集60秒",
+  "base": "663fa9da499d617e6a98a92890e1f72d0848b71ae58285d2a15dc4d16b53228f",
+  "output": "b280c1e2cb64aa16e938e7645f9f8d0401c6a61ec998cb50233afdf28c77e64b",
+  "fixed": [
+    "0–2.83秒：沿用已放大的牌面文字",
+    "2.83–7.33秒：复用旧入场镜头消除梯子后异常人影",
+    "7.33–10.25秒：编辑为关闭门内、门沿放灯及可见水面",
+    "10.25–14.67秒：编辑为双手锥尖直推铜板、脚落木挡",
+    "30–60秒：复用已有B段，开门救出的人物身份正确"
+  ],
+  "remaining": [
+    "绳轮绊倒麻铎的动作因果仍不充分；本轮绳轮编辑引入钱袋替代重石等新错误，未采用",
+    "水位仅达腰部，未实现上胸编辑目标",
+    "开门后救援路径与水流连续性仍有偏差；本轮救援编辑未修正，还引入结尾渐黑，未采用"
+  ],
+  "checks": {
+    "decode": "passed",
+    "duration": 60,
+    "frames": 1440,
+    "subtitle_ocr_samples": 18,
+    "duplicated_subtitles_observed": false,
+    "cut_and_action_contact_sheets": "全片检查及final_check.jpg；关键片段另有密集抽帧",
+    "audio_review": "保留前半实际原声，后半采用旧B原声并移除3.9–5.15秒多余台词；未进行人工听审"
+  },
+  "editing_requests": 4,
+  "regeneration_requests": 0,
+  "adopted_edits": [
+    "flood",
+    "copper"
+  ],
+  "rejected_edits": [
+    "rope",
+    "rescue"
+  ],
+  "originals_preserved": true,
+  "whole_episode_approved": false
+}

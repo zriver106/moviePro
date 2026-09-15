@@ -1,0 +1,16 @@
+{
+  "start": 0,
+  "end": 5.5,
+  "seconds": 5.5,
+  "source": "制作/前三集_v8_30秒段落/视频/EP001_B/take_01_480p.mp4",
+  "prompt": "Edit the existing action in @Video1. Preserve the same people and winch. As the young man pulls the existing wedge out with both hands, the wooden drum turns, the suspended stone descends a short distance and lands on its timber catch frame. The rope visibly uncoils from this drum and tightens an already-laid low loop around the brown-clad antagonist's ankles. Show the taut rope connecting drum to ankles as his feet are pulled together and he falls backward. The young man stays beside the winch. Keep the original camera sequence, identities, costumes and room geometry. Finish with the antagonist on the same floor, ready for the existing next shot of his wrists being bound.",
+  "source_sha256": "54e06921d4d0ec1e4b48279999b043906fef23451329bada0359c89d3d757d6f",
+  "task": "editing",
+  "model": "2.5",
+  "scope": "faithful_execution_repair",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "fallback_to_regeneration": false,
+  "status": "returned_pending_check",
+  "output_sha256": "4ea1b49b111f0dada4cfd148e16c8ed02017edb4405c1a3d2bd873fdf3282e45",
+  "completed_at": 1789460947.454487
+}

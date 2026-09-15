@@ -1,0 +1,11 @@
+{
+  "status": "rejected",
+  "output_sha256": "4ea1b49b111f0dada4cfd148e16c8ed02017edb4405c1a3d2bd873fdf3282e45",
+  "adopted": false,
+  "issues": [
+    "重物被改成钱袋，与原剧本重石不符",
+    "缺失绳圈收紧并绊倒麻铎的主要动作，直接切成坐地",
+    "湿地被改成干木台，和前后段不连续"
+  ],
+  "generation_fallback": false
+}

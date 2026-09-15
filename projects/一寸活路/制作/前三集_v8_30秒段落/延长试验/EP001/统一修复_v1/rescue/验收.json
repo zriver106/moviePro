@@ -1,0 +1,11 @@
+{
+  "status": "rejected",
+  "output_sha256": "ce4ce29fb9ae63d645dd55e4051a1eeab8a7abfa1e19a7eedf920cd6fefc7448",
+  "adopted": false,
+  "issues": [
+    "三人仍从外侧低处被拉上台，未形成从同一门内依次登台的路径",
+    "结尾额外渐黑",
+    "仍有阿麗等错误画内字幕"
+  ],
+  "generation_fallback": false
+}

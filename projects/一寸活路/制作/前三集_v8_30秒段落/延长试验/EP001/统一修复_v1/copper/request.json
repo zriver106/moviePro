@@ -1,0 +1,21 @@
+{
+  "start": 10.583333333333334,
+  "end": 14.583333333333334,
+  "prompt": "Edit the existing action in @Video1. @Image1 shows the copper latch plate and wooden door used later in this same scene. Match that exact copper plate, latch and door here. The young man plants both bare heels against two fixed wooden floor stops. He grips the same thin steel awl with both hands and pushes its point straight horizontally into the LEFT side of this intact copper plate, at chest height on the closed door. The plate dents slightly and remains intact; he withdraws the awl straight back and looks at the shallow dent. His elbows extend in line with the awl during the push. Preserve his face, teal costume, camera motion, lighting, water level and shot duration. The original inspection opening stays above the copper plate.",
+  "source": "制作/前三集_v8_30秒段落/视频/EP001_A/take_01_480p.mp4",
+  "source_sha256": "24d9f8253400b95a0eaebaf4aeccc30f6c943baf16d2c753590bb0b2d1cf22be",
+  "task": "editing",
+  "model": "2.5",
+  "scope": "faithful_execution_repair",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "fallback_to_regeneration": false,
+  "reference": {
+    "source": "制作/前三集_v8_30秒段落/视频/EP001_B/take_01_480p.mp4",
+    "source_sha256": "54e06921d4d0ec1e4b48279999b043906fef23451329bada0359c89d3d757d6f",
+    "time": 16,
+    "frame_sha256": "7eadf387d4df226242d3a95592537f772d337db3698ccb47ba83b27b4e6c716c"
+  },
+  "status": "returned_pending_check",
+  "output_sha256": "22f236071503ac75f9725de240b1819b389c450cc56ff502c9588583b372e06d",
+  "completed_at": 1789460413.466296
+}

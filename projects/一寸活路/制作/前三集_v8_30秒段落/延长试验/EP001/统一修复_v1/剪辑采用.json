@@ -1,0 +1,56 @@
+{
+  "scope": "第一集当前60秒",
+  "replacements": [
+    {
+      "path": "制作/前三集_v8_30秒段落/视频/EP001_A/take_01_480p.mp4",
+      "sha256": "24d9f8253400b95a0eaebaf4aeccc30f6c943baf16d2c753590bb0b2d1cf22be",
+      "source_frames": [
+        62,
+        191
+      ],
+      "target_frames": [
+        68,
+        176
+      ],
+      "status": "accepted_for_specific_fix",
+      "reason": "采用已有入场镜头；梯子后无异常人影，主角落水后朝门移动"
+    },
+    {
+      "path": "制作/前三集_v8_30秒段落/延长试验/EP001/统一修复_v1/flood/edited.mp4",
+      "sha256": "2c13e2621219c376a79e246d42fab3d5413fb6923ed5bbf309478871f16d2080",
+      "source_frames": [
+        0,
+        89
+      ],
+      "target_frames": [
+        176,
+        246
+      ],
+      "status": "accepted_for_specific_fix",
+      "reason": "原视频编辑：三人同处关闭的门内，出现连续水面，灯置于检修口沿；水位只达腰际，未实现提示中的上胸高度"
+    },
+    {
+      "path": "制作/前三集_v8_30秒段落/延长试验/EP001/统一修复_v1/copper/edited.mp4",
+      "sha256": "22f236071503ac75f9725de240b1819b389c450cc56ff502c9588583b372e06d",
+      "source_frames": [
+        0,
+        89
+      ],
+      "target_frames": [
+        246,
+        352
+      ],
+      "status": "accepted_for_specific_fix",
+      "reason": "原视频编辑：增加与后段同形铜板，锥尖直推铜面、双脚落木挡；取代踩墙撬窗"
+    }
+  ],
+  "existing_rescue": "原有EP001_B take_01；制服麻铎后开门救闻溪、灰衣老工人和阿砾",
+  "regeneration_requests": 0,
+  "editing_requests": 2,
+  "remaining": [
+    "绳轮绊倒麻铎的因果细节仍不充分",
+    "开门后救人位置及水流连续性仍有偏差",
+    "进水镜头水位达到腰部，尚未达到编辑目标的上胸位置"
+  ],
+  "whole_episode_approved": false
+}

@@ -1,0 +1,16 @@
+{
+  "start": 16.708333333333332,
+  "end": 30,
+  "seconds": 13.291666666666668,
+  "source": "制作/前三集_v8_30秒段落/视频/EP001_B/take_01_480p.mp4",
+  "prompt": "Edit the existing rescue shot in @Video1. Preserve the identities of the teal-clad young man, pale-green woman, grey-haired grey-bearded elderly worker, blue-clad young man, and bound brown-clad antagonist. The teal-clad young man stands on the raised wooden repair ledge beside the door throughout the rescue. Water pours from inside the newly opened door down into the lower floor channel. The woman emerges through that opened doorway and crawls onto the raised ledge first. The grey-bearded worker follows from the same doorway; the teal-clad young man and woman each hold one of his upper arms and help him kneel onto the ledge. The blue-clad youth emerges last through the same doorway. The teal-clad man grips his forearm and lifts his knee onto the ledge while the woman anchors the rescuer's waist belt. Finish with all four rescued characters sitting on that dry raised ledge as in the original ending. The bound brown-clad antagonist remains beside his low post in the foreground. Preserve the original duration, animation style and single continuous camera movement. Preserve the spoken Mandarin call exactly: 阿砾！",
+  "source_sha256": "54e06921d4d0ec1e4b48279999b043906fef23451329bada0359c89d3d757d6f",
+  "task": "editing",
+  "model": "2.5",
+  "scope": "faithful_execution_repair",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "fallback_to_regeneration": false,
+  "status": "returned_pending_check",
+  "output_sha256": "ce4ce29fb9ae63d645dd55e4051a1eeab8a7abfa1e19a7eedf920cd6fefc7448",
+  "completed_at": 1789461288.397675
+}

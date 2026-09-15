@@ -1,0 +1,232 @@
+{
+  "output": "制作/前三集_v8_30秒段落/延长试验/EP001/统一修复_v1/一寸活路_第一集60秒_统一修复.mp4",
+  "sha256": "b280c1e2cb64aa16e938e7645f9f8d0401c6a61ec998cb50233afdf28c77e64b",
+  "base_sha256": "663fa9da499d617e6a98a92890e1f72d0848b71ae58285d2a15dc4d16b53228f",
+  "existing_rescue_sha256": "2f62e83a76aedd14d3afe07d4f0d6a6ac0f93fc00ef08ebd24f4b536929d1d6c",
+  "selection": {
+    "scope": "第一集当前60秒",
+    "replacements": [
+      {
+        "path": "制作/前三集_v8_30秒段落/视频/EP001_A/take_01_480p.mp4",
+        "sha256": "24d9f8253400b95a0eaebaf4aeccc30f6c943baf16d2c753590bb0b2d1cf22be",
+        "source_frames": [
+          62,
+          191
+        ],
+        "target_frames": [
+          68,
+          176
+        ],
+        "status": "accepted_for_specific_fix",
+        "reason": "采用已有入场镜头；梯子后无异常人影，主角落水后朝门移动"
+      },
+      {
+        "path": "制作/前三集_v8_30秒段落/延长试验/EP001/统一修复_v1/flood/edited.mp4",
+        "sha256": "2c13e2621219c376a79e246d42fab3d5413fb6923ed5bbf309478871f16d2080",
+        "source_frames": [
+          0,
+          89
+        ],
+        "target_frames": [
+          176,
+          246
+        ],
+        "status": "accepted_for_specific_fix",
+        "reason": "原视频编辑：三人同处关闭的门内，出现连续水面，灯置于检修口沿；水位只达腰际，未实现提示中的上胸高度"
+      },
+      {
+        "path": "制作/前三集_v8_30秒段落/延长试验/EP001/统一修复_v1/copper/edited.mp4",
+        "sha256": "22f236071503ac75f9725de240b1819b389c450cc56ff502c9588583b372e06d",
+        "source_frames": [
+          0,
+          89
+        ],
+        "target_frames": [
+          246,
+          352
+        ],
+        "status": "accepted_for_specific_fix",
+        "reason": "原视频编辑：增加与后段同形铜板，锥尖直推铜面、双脚落木挡；取代踩墙撬窗"
+      }
+    ],
+    "existing_rescue": "原有EP001_B take_01；制服麻铎后开门救闻溪、灰衣老工人和阿砾",
+    "regeneration_requests": 0,
+    "editing_requests": 2,
+    "remaining": [
+      "绳轮绊倒麻铎的因果细节仍不充分",
+      "开门后救人位置及水流连续性仍有偏差",
+      "进水镜头水位达到腰部，尚未达到编辑目标的上胸位置"
+    ],
+    "whole_episode_approved": false
+  },
+  "duration": 60,
+  "frames": 1440,
+  "bgm_added": false,
+  "subtitle_sets": 1,
+  "administrative_cards": false,
+  "method": "既有素材重剪及task:editing局部修复；非纯延长版本",
+  "status": "reviewed_with_remaining_issues",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001e",
+        "width": 854,
+        "height": 480,
+        "coded_width": 854,
+        "coded_height": 480,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "427:240",
+        "pix_fmt": "yuv420p",
+        "level": 30,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 737280,
+        "duration": "60.000000",
+        "bit_rate": "2022591",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "1440",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.101 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2880000,
+        "duration": "60.000000",
+        "bit_rate": "194737",
+        "nb_frames": "2812",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/延长试验/EP001/统一修复_v1/一寸活路_第一集60秒_统一修复.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "60.000000",
+      "size": "16673239",
+      "bit_rate": "2223098",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.101"
+      }
+    }
+  },
+  "whole_episode_approved": false,
+  "checks": {
+    "decode": "passed",
+    "duration": 60,
+    "frames": 1440,
+    "subtitle_ocr_samples": 18,
+    "duplicated_subtitles_observed": false,
+    "cut_and_action_contact_sheets": "全片检查及final_check.jpg；关键片段另有密集抽帧",
+    "audio_review": "保留前半实际原声，后半采用旧B原声并移除3.9–5.15秒多余台词；未进行人工听审"
+  },
+  "fixed": [
+    "0–2.83秒：沿用已放大的牌面文字",
+    "2.83–7.33秒：复用旧入场镜头消除梯子后异常人影",
+    "7.33–10.25秒：编辑为关闭门内、门沿放灯及可见水面",
+    "10.25–14.67秒：编辑为双手锥尖直推铜板、脚落木挡",
+    "30–60秒：复用已有B段，开门救出的人物身份正确"
+  ],
+  "remaining": [
+    "绳轮绊倒麻铎的动作因果仍不充分；本轮绳轮编辑引入钱袋替代重石等新错误，未采用",
+    "水位仅达腰部，未实现上胸编辑目标",
+    "开门后救援路径与水流连续性仍有偏差；本轮救援编辑未修正，还引入结尾渐黑，未采用"
+  ],
+  "regeneration_requests_this_turn": 0,
+  "editing_requests_this_turn": 4,
+  "editing_outputs_adopted": 2,
+  "editing_outputs_rejected": 2,
+  "automatic_additional_calls_stopped": true
+}

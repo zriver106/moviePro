@@ -40,8 +40,27 @@ if extension and tag_repair and tag_repair.get('status')=='local_fix_checked':
 status['extension_experiment']=extension
 flood_attempt_file=k/'延长试验/EP001/第8秒修复状态.json'
 if flood_attempt_file.exists():status['latest_repair_attempt']=read(flood_attempt_file)
+# 已复查的统一修复版单独展示，保留纯延长试验与原180秒合剪。
+repair_bundle=None
+for version in ('统一修复_v2','统一修复_v1'):
+    bundle_file=k/'延长试验/EP001'/version/'输出清单.json'
+    if bundle_file.exists():
+        candidate=read(bundle_file)
+        media=p/candidate['output']
+        if candidate.get('status')=='reviewed_with_remaining_issues' and media.exists():
+            import hashlib
+            if hashlib.sha256(media.read_bytes()).hexdigest()!=candidate['sha256']:
+                raise ValueError('统一修复视频与清单指纹不符')
+            repair_bundle=candidate
+            break
+if repair_bundle:
+    status['reviewed_repair_compilation']=repair_bundle
+    status['historical_repair_attempt']=status.get('latest_repair_attempt')
+    status['latest_repair_attempt']=repair_bundle
 write(p/'制作状态.json',status)
 rows=[]
+if repair_bundle:
+    rows.append('<section><h2>第一集 · 60秒修复合剪</h2><p>复用现有素材并编辑局部画面；一套中文字幕，未加BGM。具体修复和遗留问题见输出清单。</p><video controls preload="metadata" src="'+html.escape(repair_bundle['output'])+'" style="width:100%"></video></section>')
 if extension:
     current=extension.get('latest_local_repair',extension)
     rows.append('<section><h2>第一集 · 30秒原片加30秒延长</h2><p>延长接口已返回；开头牌面修复及人物连续性检查见试验记录，现有合剪保留。</p><video controls preload="metadata" src="'+html.escape(current['output'])+'" style="width:100%"></video></section>')
