@@ -77,9 +77,9 @@ def main():
     for s in binding:
         for kind,entries in [('人物',s['characters']),('场景',[s['location']]),('道具',s['props'])]:
             for a in entries:
-                d=decisions.get(a['path'],{});rows.append([s['id'],kind,a['name'],a.get('state',''),a['path'],d.get('selected_path',''),d.get('sha256','')])
+                d=decisions.get(a['path'],{});rows.append([s['id'],kind,a['name'],a.get('state',''),a['path'],d.get('selected_path','待验'),d.get('sha256','待验')])
     with (J/'逐镜资源调用.tsv').open('w') as f:
-        writer=csv.writer(f,delimiter='\t');writer.writerow(['镜号','类别','资源','镜末状态','逻辑引用','实际采用','SHA256']);writer.writerows(rows)
+        writer=csv.writer(f,delimiter='\t',lineterminator='\n');writer.writerow(['镜号','类别','资源','镜末状态','逻辑引用','实际采用','SHA256']);writer.writerows(rows)
     css='body{margin:0;background:#111e23;color:#eee9dc;font:16px/1.7 system-ui}main{max-width:1280px;margin:auto;padding:36px}h1{font-size:42px}a{color:#debd83}nav{display:flex;gap:20px;flex-wrap:wrap}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}article{background:#1b3037;padding:18px;border-radius:10px}img{width:100%;height:auto}small{color:#b7c4c5}.asset{height:360px;object-fit:contain;background:#e6e5dc}h2{margin-top:55px}.pill{color:#d9b579} @media(max-width:800px){.grid{grid-template-columns:1fr}}'
     h=['<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>一寸活路｜新版资源与57镜分镜</title><style>'+css+'</style><main><p class="pill">SEEDREAM · 立体国漫定妆 v8</p><h1>一寸活路 · 前三集</h1><p>22 / 17 / 18镜 · 每集60秒剪辑预算 · 剧本、文字分镜及资源规格独立外评S</p>',f'<p>已验资源引用 {len(dependencies)-sum(1 for x in dependencies if x not in decisions)} / {len(dependencies)}；已验分镜 {len(frames)} / 57。</p><nav><a href="#assets">资源</a><a href="#EP001">第一集</a><a href="#EP002">第二集</a><a href="#EP003">第三集</a><a href="交付审计.json">审计</a><a href="资源外评.json">独立外评</a><a href="逐镜资源调用.tsv">调用表</a></nav>']
     h.append('<h2 id="assets">新版采用资源</h2><div class="grid">')
