@@ -1,0 +1,28 @@
+{
+  "status": "rejected",
+  "take": 2,
+  "video_sha256": "82f88ab67c7b3f468f9cb5043654324607bd72091765c342fe11c41b1570003b",
+  "actual_duration": 30.08,
+  "audio_stream_present": true,
+  "visual_inspection": "逐秒接触表0–30秒",
+  "blocking_issues": [
+    {
+      "time": "0–27",
+      "finding": "陆照右掌从开场已包药布，提前于28秒包扎；24秒又变裸掌，跨镜状态反复"
+    },
+    {
+      "time": "3–6",
+      "finding": "铜销大板与L形铜轮柄合成一个道具，阀轴器型未保持；开关水动作不可采信"
+    },
+    {
+      "time": "10–13",
+      "finding": "未清楚执行闻溪取下铜销交陆照入袋的动作链"
+    }
+  ],
+  "dialogue_review": {
+    "method": "Scribe V2原音轨无文本提示自动听写",
+    "text": "封仓。谁让出来的？ 活人我保。封仓损丹，你签。怕封了门。 带去问话。 二百四十，你的工钱。",
+    "status": "转写留档，不等于人工音频验收"
+  },
+  "scope": "退回；暂停同类提示反复重试"
+}

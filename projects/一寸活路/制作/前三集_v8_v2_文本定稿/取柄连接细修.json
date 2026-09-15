@@ -1,0 +1,18 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_A_OPEN",
+      "prompt": "Keep the brown wet waist, belt hook and the COMPLETE L-shaped bronze crank hanging at picture right. Move the young bare hand rightward so its fingers curl around the UPPER VERTICAL DARK GRIP that is physically attached to the L-shaped crank below the belt hook. Replace the separate loose dark cylinder previously held at picture left with continuous brown cloth background. Exactly ONE solid connected L-shaped crank: square socket bottom-left, bronze arm across center, perpendicular grip upper-right attached to that arm. The hand grasps this attached upper-right grip. All parts remain joined. The belt hook still supports the crank before it is lifted.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v06.jpg"
+      ],
+      "output": "段落首帧/EP002_A_OPEN/ref_v07.jpg",
+      "seed": 954061,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP001_A_WEDGE_HANDS",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg"
+      ],
+      "output": "段落首帧/EP001_A_WEDGE_HANDS/ref_v01.jpg",
+      "seed": 956011,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "prompt": "Stylized sculpted Chinese 3D animation MECHANICAL HAND STATE reference. Tight view of the bottom of a horizontal wooden winch drum and its sturdy wooden frame. A solid triangular WOODEN BRAKE WEDGE is firmly inserted beneath the drum, with its broad rectangular end protruding toward camera. Lu Zhao two BARE hands emerging from black cuffs and teal sleeves grip that broad protruding wooden end firmly, ready to pull it straight out. The wedge is still fully wedged in place and the drum is stationary. Exactly TWO young hands and one wooden wedge. The original short hemp-handled black awl from image1 lies HORIZONTALLY and securely on the flat dry wooden ledge to the RIGHT of the hands. Keep a clear open gap between the awl and both hands. The frame crops at the wrists and top drum edge. The awl is entirely on the ledge, both hands entirely on the wooden wedge. Simple concrete sculpted forms, clear materials, wood grain, plain dim chamber background."
+    },
+    {
+      "id": "EP001_A_COPPER",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_完好/ref_v02.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg"
+      ],
+      "output": "段落首帧/EP001_A_COPPER/ref_v01.jpg",
+      "seed": 956012,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "prompt": "Sculpted Chinese 3D animated feature. A clear side medium-wide view from two metres away shows Lu Zhao from image1 on the raised dry wooden repair ledge beside the closed north door in image4. Both boots brace firmly against TWO fixed wooden foot-stop blocks on the ledge. Both bare hands hold the single original small hemp-handled black awl from image3 horizontally, its tip pressed directly against the LEFT HALF of the palm-sized copper locking plate matching image2, mounted on the door immediately below its high inspection opening. The copper locking plate, awl tip, two-hand grip and both braced boots are all visible together. The plate has two side tabs, its copper surface still solid and intact before the first failed thrust. Young body leans forward to push. Shallow ankle-depth water is BELOW the raised ledge, the ledge and his feet stay above it. One young man in frame. Preserve exact character design, plain intact teal shoulders and BARE palms. The north-door wooden panel, copper plate and inspection opening are distinct separate surfaces."
+    }
+  ]
+}

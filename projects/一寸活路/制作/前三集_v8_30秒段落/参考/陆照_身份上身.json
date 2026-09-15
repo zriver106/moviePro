@@ -1,0 +1,13 @@
+{
+  "method": "identity_region_extraction",
+  "source": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/repair_v03.jpg",
+  "source_sha256": "da41d3a3084ac4e3ea84eb60682803141e1a4bd0bb08a3a14f469bd85f54927f",
+  "bounds_normalized": [
+    0,
+    0,
+    1,
+    0.4
+  ],
+  "scope": "身份与上身服装参考，手掌伤势由段内时间状态定义",
+  "image_sha256": "ede30ef963287512adf947fa41f99c73d46e53e1c735f042cf89da6a356c0a07"
+}

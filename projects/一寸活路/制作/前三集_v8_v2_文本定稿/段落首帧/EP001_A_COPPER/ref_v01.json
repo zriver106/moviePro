@@ -1,0 +1,19 @@
+{
+  "id": "EP001_A_COPPER",
+  "request_sha256": "2cde9dd82b9933a8d8cbc6da6498711708d7910b4f4145930b13d8c101707de0",
+  "spec_sha256": "4f9600783ee0384be28dff2a5e4d8f856c4db8b007e00a16302d602812da0ded",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea",
+    "制作/前三集_v8_v2_文本定稿/资产/铜销_完好/ref_v02.jpg": "53f2c1bbb4039ea40ecbc01ad39951e90758b75a8ad2175d7e04baca16b0b07b",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg": "5681cb405ab726c6987b291dda05338b0df95ba4d0f1868af3572ea9d56eba50"
+  },
+  "image_sha256": "db529f0d6c4af499c5ea704d496904280584b5776a3f4eab10e1bf0b489ec9a2",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "首集局部动作状态.json",
+  "visual_status": "pending_inspection"
+}

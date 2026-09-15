@@ -1,0 +1,138 @@
+{
+  "source_sha256": "495dd5f6eabc939e517640c088c53162a5107fc9af5c545d43b5634b16664dfd",
+  "decoder": "scribe",
+  "text_hints": false,
+  "result": {
+    "text": "六十通。 赵子，跟我走。 先放他。 ",
+    "language_code": "zho",
+    "language_probability": 1.0,
+    "words": [
+      {
+        "text": "六",
+        "start": 3.0,
+        "end": 3.119,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "十",
+        "start": 3.119,
+        "end": 3.299,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "通",
+        "start": 3.299,
+        "end": 3.419,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 3.419,
+        "end": 3.419,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": " ",
+        "start": 3.419,
+        "end": 3.419,
+        "type": "spacing",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "赵",
+        "start": 5.679,
+        "end": 5.799,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "子",
+        "start": 5.799,
+        "end": 5.96,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "，",
+        "start": 5.96,
+        "end": 6.319,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "跟",
+        "start": 6.319,
+        "end": 6.399,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "我",
+        "start": 6.399,
+        "end": 6.559,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "走",
+        "start": 6.559,
+        "end": 6.759,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 6.759,
+        "end": 6.759,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": " ",
+        "start": 6.759,
+        "end": 6.759,
+        "type": "spacing",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "先",
+        "start": 9.439,
+        "end": 9.559,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "放",
+        "start": 9.559,
+        "end": 9.679,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "他",
+        "start": 9.679,
+        "end": 9.859,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 9.859,
+        "end": 9.859,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": " ",
+        "start": 9.859,
+        "end": 10.46,
+        "type": "spacing",
+        "speaker_id": "speaker_0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_A_OPEN",
+      "prompt": "Create a new tight side detail in sculpted Chinese 3D animation style. The single small L-SHAPED BRONZE CRANK in image1 hangs on a belt hook against the brown waist clothing of reclining Ma Duo from image3. Match this exact simple L silhouette: one short straight bronze arm with a square socket at one end, one short perpendicular dark cylindrical grip at the other end. Overall length about 20cm. Lu Zhao from image2 reaches in from picture left with his BARE right hand and teal sleeve, fingers closing around the dark cylindrical grip, ready to lift the L crank off the hook. Frame tightly around the L-shaped tool, belt hook, brown-clad abdomen and young hand. The frame edges crop the characters above their chests and below their hips. A strip of raised wet wood and shallow water along bottom establishes the chamber. Exactly one L-shaped tool and one young reaching hand occupy the central detail. The bronze square socket remains clearly visible.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/铜轮柄_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg"
+      ],
+      "output": "段落首帧/EP002_A_OPEN/ref_v06.jpg",
+      "seed": 954051,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    }
+  ]
+}

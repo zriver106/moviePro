@@ -1,0 +1,21 @@
+{
+  "id": "EP001_A_WINCH",
+  "request_sha256": "f7d14dc1fa46a01a0b40d5a09b7c58e617943a4502f28380e1cd6fbde5e55be8",
+  "spec_sha256": "55a8c08d52e65aa46660330a9db695c413db0044ac8cf68b305d678bae023ba1",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea",
+    "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg": "79a431cdef091f96148efae5940cc7b142609efd9d62b0446e47c1acc55cde50",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg": "5681cb405ab726c6987b291dda05338b0df95ba4d0f1868af3572ea9d56eba50",
+    "制作/前三集_v8_30秒段落/参考/绳轮受力结构.png": "d83c6f04147a5b7d87311e727eb0556b8fc937152b31b882973ad9676fefc0d8",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/船叉_01.jpg": "facc4ac935bb256be92235432d07a18e10f619513c6a399a55f6e4dfb7f8c84c"
+  },
+  "image_sha256": "438bdebc6a79d47552c9a8a52e99d27ec144d13ee4190f4539aec29ed821ff12",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "首集机关动作参考.json",
+  "visual_status": "pending_inspection"
+}

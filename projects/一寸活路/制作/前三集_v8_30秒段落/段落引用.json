@@ -71,9 +71,14 @@
       "kind": "asset"
     },
     {
-      "path": "制作/前三集_v8_30秒段落/参考/绳轮受力结构.png",
+      "path": "制作/前三集_v8_30秒段落/参考/绳轮受力结构_v2.png",
       "role": "mechanical connection guide for the winch, rendered as timber and bronze inside the lock chamber",
       "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP001_A_WEDGE_HANDS/ref_v02.jpg",
+      "kind": "state_detail",
+      "role": "Final half-second hand state: both bare hands grip the broad protruding end of the horizontal solid brake wedge beneath the timber drum; old short awl rests separately on the ledge. Local hand geometry reference."
     }
   ],
   "EP001_B": [
@@ -138,15 +143,15 @@
       "kind": "asset"
     },
     {
-      "path": "制作/前三集_v8_30秒段落/参考/绳轮受力结构.png",
+      "path": "制作/前三集_v8_30秒段落/参考/绳轮受力结构_v2.png",
       "role": "winch connectivity and pawl holding reverse rotation after stone rests",
       "kind": "asset"
     }
   ],
   "EP002_A": [
     {
-      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v04.jpg",
-      "role": "Opening side detail: Lu Zhao bare hand grasps the small detachable bronze crank still hooked at Ma Duo waist. Ma Duo reclines with head above water. The complete paired-wrist binding at one low post foot is beyond the crop; retain it as the camera follows Lu away.",
+      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v07.jpg",
+      "role": "Opening side detail of the canonical small L-shaped bronze crank hooked to Ma Duo belt. Lu Zhao bare hand grips its attached dark perpendicular grip; the square socket stays visible. Ma Duo reclines with bound wrists outside the detail crop. This is the same L crank that is later installed on the bare square valve shaft.",
       "kind": "opening"
     },
     {
@@ -252,9 +257,9 @@
       "kind": "opening"
     },
     {
-      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/repair_v03.jpg",
-      "role": "Lu Zhao in the present, wet teal clothing, RIGHT palm bandage and small waist sheath",
-      "kind": "asset"
+      "kind": "identity",
+      "path": "制作/前三集_v8_30秒段落/参考/陆照_身份上身.jpg",
+      "role": "Lu Zhao 陆照 identity, hair and teal upper clothing. The identity view ends above hands; palm state follows each timeline period."
     },
     {
       "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/repair_v03.jpg",
@@ -307,14 +312,9 @@
       "kind": "asset"
     },
     {
-      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_FLASH/ref_v02.jpg",
+      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_FLASH/hand_state_v02.jpg",
       "kind": "state_detail",
-      "role": "Flashback state at 5–10s: young Lu Zhao bare palms holding the original small awl, gaunt clean-shaven elder RIGHT red wrist covering his knuckles. Use this bare-hand state throughout the flashback."
-    },
-    {
-      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/bowl_detail.jpg",
-      "kind": "state_detail",
-      "role": "Bowl-exchange detail at 13–18s: sister lifts the chipped empty bowl away, then gives the intact full bowl in her other hand to Lu Zhao bandaged RIGHT palm. Sister own full bowl remains at the left. This detail defines hand/prop contact within the ongoing continuous home camera move."
+      "role": "Stylized hand-state diagram for 3–10s flashback: young bare palm and wrist hold the small awl, elder RED wrist approaches to rest across young gripping knuckles. Maintain natural bare young skin in the flashback. Character identities and boat staging come from their established portrait and location references."
     }
   ],
   "EP003_A": [
@@ -326,11 +326,6 @@
     {
       "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v02.jpg",
       "role": "Lu Zhao begins in dry teal clothes, intact left shoulder, bandaged RIGHT palm",
-      "kind": "asset"
-    },
-    {
-      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
-      "role": "Lu Zhao with anatomical LEFT shoulder cut and RIGHT palm bandage, applies after the knife cut",
       "kind": "asset"
     },
     {

@@ -1,0 +1,327 @@
+{
+  "source_sha256": "82f88ab67c7b3f468f9cb5043654324607bd72091765c342fe11c41b1570003b",
+  "decoder": "scribe",
+  "text_hints": false,
+  "result": {
+    "text": "封仓。谁让出来的？ 活人我保。封仓损丹，你签。怕封了门。 带去问话。 二百四十，你的工钱。",
+    "language_code": "zho",
+    "language_probability": 1.0,
+    "words": [
+      {
+        "text": "封",
+        "start": 14.38,
+        "end": 14.519,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "仓",
+        "start": 14.519,
+        "end": 14.699,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 14.699,
+        "end": 14.699,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "谁",
+        "start": 15.079,
+        "end": 15.199,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "让",
+        "start": 15.199,
+        "end": 15.339,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "出",
+        "start": 15.339,
+        "end": 15.439,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "来",
+        "start": 15.439,
+        "end": 15.519,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "的",
+        "start": 15.519,
+        "end": 15.659,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "？",
+        "start": 15.659,
+        "end": 16.299,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": " ",
+        "start": 16.299,
+        "end": 16.439,
+        "type": "spacing",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "活",
+        "start": 16.44,
+        "end": 16.579,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "人",
+        "start": 16.579,
+        "end": 16.719,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "我",
+        "start": 16.719,
+        "end": 16.92,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "保",
+        "start": 16.92,
+        "end": 17.0,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 17.0,
+        "end": 17.0,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "封",
+        "start": 17.6,
+        "end": 17.62,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "仓",
+        "start": 17.62,
+        "end": 17.94,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "损",
+        "start": 17.94,
+        "end": 18.1,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "丹",
+        "start": 18.1,
+        "end": 18.219,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "，",
+        "start": 18.219,
+        "end": 18.819,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "你",
+        "start": 18.819,
+        "end": 18.959,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "签",
+        "start": 18.959,
+        "end": 19.119,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 19.119,
+        "end": 19.119,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "怕",
+        "start": 21.219,
+        "end": 21.319,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "封",
+        "start": 21.319,
+        "end": 21.439,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "了",
+        "start": 21.439,
+        "end": 21.559,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "门",
+        "start": 21.559,
+        "end": 22.0,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 22.0,
+        "end": 22.0,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": " ",
+        "start": 22.0,
+        "end": 22.099,
+        "type": "spacing",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "带",
+        "start": 22.1,
+        "end": 22.18,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "去",
+        "start": 22.18,
+        "end": 22.26,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "问",
+        "start": 22.26,
+        "end": 22.459,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "话",
+        "start": 22.459,
+        "end": 22.619,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 22.619,
+        "end": 22.619,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": " ",
+        "start": 22.619,
+        "end": 22.619,
+        "type": "spacing",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "二",
+        "start": 25.599,
+        "end": 25.739,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "百",
+        "start": 25.739,
+        "end": 25.92,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "四",
+        "start": 25.92,
+        "end": 26.039,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "十",
+        "start": 26.039,
+        "end": 26.299,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "，",
+        "start": 26.299,
+        "end": 26.759,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "你",
+        "start": 26.76,
+        "end": 26.84,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "的",
+        "start": 26.84,
+        "end": 27.0,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "工",
+        "start": 27.0,
+        "end": 27.199,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "钱",
+        "start": 27.199,
+        "end": 27.319,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 27.319,
+        "end": 27.319,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      }
+    ]
+  }
+}

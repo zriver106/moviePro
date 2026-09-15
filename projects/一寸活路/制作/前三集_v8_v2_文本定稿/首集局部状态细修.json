@@ -1,0 +1,32 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP001_A_WEDGE_HANDS",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/段落首帧/EP001_A_WEDGE_HANDS/ref_v01.jpg"
+      ],
+      "output": "段落首帧/EP001_A_WEDGE_HANDS/ref_v02.jpg",
+      "seed": 956021,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "prompt": "Keep the winch drum and the original awl lying on the right ledge. Replace the upright flat triangular board with a SHORT SOLID DOORSTOP-SHAPED WOODEN WEDGE lying HORIZONTALLY on the tabletop UNDER the bottom of the winch drum. Its thin pointed end slides AWAY from camera into the narrow gap between the drum bottom and table; its broad thick end protrudes TOWARD camera. Wedge dimensions about 20cm long, 12cm wide, 6cm high at the near end, tapering to 1cm at the inserted far tip. Both bare hands grip the two SIDE EDGES of the broad NEAR END, ready to pull it horizontally TOWARD CAMERA. The wedge stays firmly seated in that lower gap. Show the drum bottom resting onto the wedge sloped upper surface and the wedge flat bottom resting on the ledge. Preserve the single awl on the separate right-hand tabletop, and black cuffs with teal sleeves."
+    },
+    {
+      "id": "EP001_A_COPPER",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_完好/ref_v02.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "output": "段落首帧/EP001_A_COPPER/ref_v02.jpg",
+      "seed": 956022,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "prompt": "Sculpted Chinese 3D animation mechanical hand detail at a wooden door. A PALM-SIZED copper locking plate exactly matching image1 is attached to the wood beneath a small inspection opening. Copper plate width is about 12cm, just a little wider than one adult palm; both side tabs stay attached. The one original hemp-handled awl exactly matching image2 is about 18cm overall. Its pointed black tip touches the LEFT HALF of the solid copper surface. Two young BARE hands from black cuffs and teal sleeves hold the same hemp grip: right fingers wrap the short grip, left palm cups the back of the right fist to add straight pushing force. Both hands stay on the grip area, and the black point extends straight to the copper. Camera close detail crops at forearms and wooden plate surround. Clear contact before the first failed thrust, intact copper surface. Exactly one original short awl and two natural hands. Real small everyday tool proportions."
+    }
+  ]
+}

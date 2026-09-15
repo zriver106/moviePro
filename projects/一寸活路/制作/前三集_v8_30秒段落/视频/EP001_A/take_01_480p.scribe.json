@@ -1,0 +1,383 @@
+{
+  "source_sha256": "24d9f8253400b95a0eaebaf4aeccc30f6c943baf16d2c753590bb0b2d1cf22be",
+  "decoder": "scribe",
+  "text_hints": false,
+  "result": {
+    "text": "二百四十铜，够姐姐歇十二天。 三个人，开门！ 省点力气，门不用开了。 他们还活着。 账上没有。这点钱买命。",
+    "language_code": "zho",
+    "language_probability": 1.0,
+    "words": [
+      {
+        "text": "二",
+        "start": 5.879,
+        "end": 6.059,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "百",
+        "start": 6.059,
+        "end": 6.099,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "四",
+        "start": 6.099,
+        "end": 6.319,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "十",
+        "start": 6.319,
+        "end": 6.439,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "铜",
+        "start": 6.44,
+        "end": 6.559,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "，",
+        "start": 6.559,
+        "end": 7.039,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "够",
+        "start": 7.039,
+        "end": 7.199,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "姐",
+        "start": 7.199,
+        "end": 7.319,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "姐",
+        "start": 7.319,
+        "end": 7.399,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "歇",
+        "start": 7.399,
+        "end": 7.579,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "十",
+        "start": 7.579,
+        "end": 7.699,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "二",
+        "start": 7.699,
+        "end": 7.859,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "天",
+        "start": 7.859,
+        "end": 8.039,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 8.039,
+        "end": 8.039,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": " ",
+        "start": 8.039,
+        "end": 8.739,
+        "type": "spacing",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "三",
+        "start": 8.739,
+        "end": 8.88,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "个",
+        "start": 8.88,
+        "end": 9.019,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "人",
+        "start": 9.019,
+        "end": 9.22,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "，",
+        "start": 9.22,
+        "end": 9.679,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "开",
+        "start": 9.679,
+        "end": 9.819,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "门",
+        "start": 9.819,
+        "end": 10.059,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "！",
+        "start": 10.059,
+        "end": 15.939,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": " ",
+        "start": 15.939,
+        "end": 16.619,
+        "type": "spacing",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "省",
+        "start": 16.619,
+        "end": 16.839,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "点",
+        "start": 16.84,
+        "end": 17.1,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "力",
+        "start": 17.1,
+        "end": 17.26,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "气",
+        "start": 17.26,
+        "end": 17.319,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "，",
+        "start": 17.319,
+        "end": 18.039,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "门",
+        "start": 18.039,
+        "end": 18.259,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "不",
+        "start": 18.26,
+        "end": 18.399,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "用",
+        "start": 18.399,
+        "end": 18.639,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "开",
+        "start": 18.639,
+        "end": 18.76,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "了",
+        "start": 18.76,
+        "end": 18.92,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "。",
+        "start": 18.92,
+        "end": 18.92,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": " ",
+        "start": 18.92,
+        "end": 19.779,
+        "type": "spacing",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "他",
+        "start": 19.779,
+        "end": 19.839,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "们",
+        "start": 19.84,
+        "end": 20.0,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "还",
+        "start": 20.0,
+        "end": 20.159,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "活",
+        "start": 20.159,
+        "end": 20.239,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "着",
+        "start": 20.239,
+        "end": 20.379,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 20.379,
+        "end": 20.379,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": " ",
+        "start": 20.379,
+        "end": 21.0,
+        "type": "spacing",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "账",
+        "start": 21.0,
+        "end": 21.1,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "上",
+        "start": 21.1,
+        "end": 21.34,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "没",
+        "start": 21.34,
+        "end": 21.579,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "有",
+        "start": 21.579,
+        "end": 24.5,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "。",
+        "start": 24.5,
+        "end": 24.5,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "这",
+        "start": 27.0,
+        "end": 27.18,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "点",
+        "start": 27.18,
+        "end": 27.399,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "钱",
+        "start": 27.399,
+        "end": 27.579,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "买",
+        "start": 27.579,
+        "end": 27.76,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "命",
+        "start": 27.76,
+        "end": 28.0,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "。",
+        "start": 28.0,
+        "end": 28.0,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      }
+    ]
+  }
+}

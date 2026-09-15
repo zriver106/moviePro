@@ -1,0 +1,16 @@
+{
+  "id": "EP002_A_OPEN",
+  "request_sha256": "39de3a95df3fcc8f0d70d60c7b4f85572db1cfb1b4089bbe6c980ba1884144fb",
+  "spec_sha256": "2020c61581fdf255ef0f6399f815dc888fc07ba2481edc9aa83e9db19de750d9",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v06.jpg": "b02ed6a3e1557fc7504ea750acf9aa246c1f3a2fd58e99fe896e74d0da6ba404"
+  },
+  "image_sha256": "33f22611705ccb429e954f8cc07e274e7ad0840a10880a2017061bbb95117b31",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "取柄连接细修.json",
+  "visual_status": "pending_inspection"
+}

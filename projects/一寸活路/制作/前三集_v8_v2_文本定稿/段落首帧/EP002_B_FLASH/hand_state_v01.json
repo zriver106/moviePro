@@ -1,0 +1,16 @@
+{
+  "id": "EP002_B_FLASH_HANDS",
+  "request_sha256": "6fdc1d0680c1bf3858a66449e1a17cf20959a319000b95861cd0abcd9b41ac2a",
+  "spec_sha256": "e11ec9580e69456207e535afd38fad412ed0f71862dca0c32c6a990711df732f",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+  },
+  "image_sha256": "ff71c601ca6a25f1ec2fc28183e067a0361116dee06fe860df6931817b1dd49f",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "国漫手部状态任务.json",
+  "visual_status": "pending_inspection"
+}

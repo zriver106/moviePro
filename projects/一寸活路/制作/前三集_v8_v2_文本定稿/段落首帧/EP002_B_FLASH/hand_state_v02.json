@@ -1,0 +1,16 @@
+{
+  "id": "EP002_B_FLASH_HANDS",
+  "request_sha256": "ebd3978c69be5a727ffb3a027ae9f0178c6536b2305d7baf96880c356c42d7c9",
+  "spec_sha256": "022e993e33c9eeabcb3c429fcc831a66e229d4ff7dc132c1acff5fb9096d6b08",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_FLASH/hand_state_v01.jpg": "ff71c601ca6a25f1ec2fc28183e067a0361116dee06fe860df6931817b1dd49f"
+  },
+  "image_sha256": "749bbcf42d88835d38218d6635220521025666786c7d4921e3b64d96330566a8",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "国漫手部状态细修.json",
+  "visual_status": "pending_inspection"
+}

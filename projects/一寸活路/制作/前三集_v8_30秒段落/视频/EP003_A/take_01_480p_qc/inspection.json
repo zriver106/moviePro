@@ -1,0 +1,358 @@
+{
+  "video": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP003_A/take_01_480p.mp4",
+  "video_sha256": "495dd5f6eabc939e517640c088c53162a5107fc9af5c545d43b5634b16664dfd",
+  "duration": 30.041667,
+  "audio_streams": 1,
+  "technical_duration_pass": true,
+  "content_status": "pending_human_visual_and_dialogue_review",
+  "contact_sheets": [
+    "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP003_A/take_01_480p_qc/contact_00.jpg",
+    "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP003_A/take_01_480p_qc/contact_16.jpg"
+  ],
+  "expected_dialogue": [
+    {
+      "speaker": "水槽货主",
+      "text": "六十铜。",
+      "off_screen": false,
+      "at": 2.1,
+      "end": 3.3
+    },
+    {
+      "speaker": "葛牙",
+      "text": "照子，跟我走。",
+      "off_screen": false,
+      "at": 4.3,
+      "end": 6.5
+    },
+    {
+      "speaker": "陆照",
+      "text": "先放他。",
+      "off_screen": false,
+      "at": 8.2,
+      "end": 9.5
+    }
+  ],
+  "expected_camera": {
+    "cn": "0–2秒铜塞手部；2秒以水声接切付钱；4秒切门左网右空间全景。4–30秒战斗一镜到底，镜头始终在门与网架轴线同侧：先侧移交人，再随陆照退向门后改向画右跟至网架；网裹刀后下移但不中断，三分之二侧角看清双手刺网角、留锥、压葛牙右肘、折右腕、接刀回送退刃落沟。保持葛牙左拳到陆照右手抓腕的动作连续，缓绕不跨轴，结尾右肩压柱、双腕被控、兜帽落地。",
+    "en": "At 0s show the copper plug hand detail. At 2s sound-bridge the water into a payment cut. At 4s cut to the spatial wide view with the house door on the left and net rack on the right. From 4s to 30s the entire confrontation is one uninterrupted tracking take on the same side of the door-to-net axis. Move sideways for the hostage handover, follow Lu Zhao backward toward the door and then rightward toward the rack. Lower continuously for the mesh catching the knife and maintain a three-quarter side angle that reveals both hands: drive the awl through folded mesh and rail, release the planted awl, press Ge Ya RIGHT elbow with Lu Zhao LEFT palm, bend Ge Ya RIGHT wrist, take the knife, push it inward to slacken mesh, slide it clear and drop it into the lower-right gutter. Maintain visible continuity through Ge Ya left punch and Lu Zhao right hand catching that left wrist. Arc gently on the same side of the axis. End with Lu Zhao uninjured right shoulder pinning Ge Ya to the post, both wrists controlled and the detached hood on the ground."
+  },
+  "expected_beats": [
+    {
+      "source_shot": "EP003_SH01",
+      "start": 0,
+      "end": 2,
+      "action_cn": {
+        "start": "角标“翌日”，陆照包扎的手已经把原锥尖抵在铜塞上",
+        "beat": "一推即穿，清水落入桶",
+        "end": "锥沿原路抽出，水声接下一镜"
+      },
+      "action_en": "Next-day caption. Lu Zhao's bandaged hand already holds the original awl against the copper plug. Then one straight push opens it and clear water falls into the bucket; the awl withdraws along its entry path as the water sound bridges to the next shot.",
+      "lines": [],
+      "on_screen_text": [
+        {
+          "text": "翌日",
+          "method": "post_composite",
+          "placement": "左上角时间字幕",
+          "generation_surface": "blank"
+        }
+      ],
+      "continuity_out": "锥沿原路抽出，水声接下一镜"
+    },
+    {
+      "source_shot": "EP003_SH02",
+      "start": 2,
+      "end": 4,
+      "action_cn": {
+        "start": "切到付工钱时：原锥已经收进腰鞘，水槽货主把六十铜放入陆照手中",
+        "beat": "他将钱收入腰袋，手伸向矮台上的午饭",
+        "end": "闻溪在门外骤然站住，视线越过他的肩"
+      },
+      "action_en": "Cut to payment time: the original awl is already sheathed at Lu Zhao's belt as the trough owner places sixty copper coins in his hand. Then he pockets the coins and reaches toward lunch on the low stand; Wen Xi stops outside and looks past his shoulder.",
+      "lines": [
+        {
+          "speaker": "水槽货主",
+          "text": "六十铜。",
+          "off_screen": false,
+          "at": 2.1,
+          "end": 3.3
+        }
+      ],
+      "on_screen_text": [],
+      "continuity_out": "闻溪在门外骤然站住，视线越过他的肩"
+    },
+    {
+      "source_shot": "EP003_SH03",
+      "start": 4,
+      "end": 8,
+      "action_cn": {
+        "start": "葛牙在画右反拧阿砾右臂，短刀贴肋；陆照与姐姐的门在画左",
+        "beat": "葛牙把阿砾推近半步，点名叫陆照",
+        "end": "闻溪靠向阿砾一侧，手已伸出准备接人"
+      },
+      "action_en": "Ge Ya at screen right twists Ali's right arm and holds a short knife against his ribs. Lu Zhao and his sister's door remain at screen left. Then Ge Ya shoves Ali half a step forward and calls Lu Zhao, while Wen Xi moves within reach to receive Ali.",
+      "lines": [
+        {
+          "speaker": "葛牙",
+          "text": "照子，跟我走。",
+          "off_screen": false,
+          "at": 4.3,
+          "end": 6.5
+        }
+      ],
+      "on_screen_text": [],
+      "continuity_out": "闻溪靠向阿砾一侧，手已伸出准备接人"
+    },
+    {
+      "source_shot": "EP003_SH04",
+      "start": 8,
+      "end": 10,
+      "action_cn": {
+        "start": "陆照将午饭放稳在门边矮台",
+        "beat": "他向葛牙走两步，双手离腰间的锥",
+        "end": "脚停在门外，闻溪站在能接住阿砾的位置"
+      },
+      "action_en": "Lu Zhao sets the lunch bowl firmly on the low stand by the door. Then he takes two steps toward Ge Ya with his hands away from the sheathed awl and stops where Wen Xi can receive Ali.",
+      "lines": [
+        {
+          "speaker": "陆照",
+          "text": "先放他。",
+          "off_screen": false,
+          "at": 8.2,
+          "end": 9.5
+        }
+      ],
+      "on_screen_text": [],
+      "continuity_out": "脚停在门外，闻溪站在能接住阿砾的位置"
+    },
+    {
+      "source_shot": "EP003_SH05",
+      "start": 10,
+      "end": 13.5,
+      "action_cn": {
+        "start": "葛牙推开阿砾，闻溪接住他往门侧退",
+        "beat": "陆照右手刚碰锥柄，葛牙短刀已划过他的左肩",
+        "end": "陆照缩肩退半步，左肩裂口洇红，右手拔锥出鞘"
+      },
+      "action_en": "Ge Ya releases Ali into Wen Xi's arms. Then before Lu Zhao can draw, Ge Ya's knife cuts the cloth at Lu Zhao's left shoulder; Lu Zhao recoils half a step and draws the awl with his right hand as blood spreads at the left shoulder.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "陆照缩肩退半步，左肩裂口洇红，右手拔锥出鞘"
+    },
+    {
+      "source_shot": "EP003_SH06",
+      "start": 13.5,
+      "end": 16.5,
+      "action_cn": {
+        "start": "陆照退一步，左后方就是姐姐的门；门内传来碗筷声",
+        "beat": "他看一眼门，改向画右横移，葛牙持刀追过去；镜头顺势平移",
+        "end": "门与闻溪、阿砾留在左后方，晒网架进入右侧"
+      },
+      "action_en": "Lu Zhao's retreat puts his sister's door just behind his left shoulder, with crockery audible inside. Then he changes direction and moves right toward the drying net frame, drawing Ge Ya after him as the camera tracks; Wen Xi and Ali remain safely by the left-hand door.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "门与闻溪、阿砾留在左后方，晒网架进入右侧"
+    },
+    {
+      "source_shot": "EP003_SH07",
+      "start": 16.5,
+      "end": 18.5,
+      "action_cn": {
+        "start": "网帘上缘绑在横杆，下缘湿重地堆到陆照脚边",
+        "beat": "陆照踢起松垂网角，湿网迎面裹住葛牙追来的短刀",
+        "end": "陆照持锥站到网侧，葛牙隔网伸臂"
+      },
+      "action_en": "The net curtain is tied along the top rail and hangs in a loose wet heap beside Lu Zhao's foot. Then he kicks its loose lower corner over Ge Ya's pursuing knife; the wet mesh wraps the blade while Lu Zhao steps beside the net with his awl.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "陆照持锥站到网侧，葛牙隔网伸臂"
+    },
+    {
+      "source_shot": "EP003_SH08",
+      "start": 18.5,
+      "end": 20.0,
+      "action_cn": {
+        "start": "刀背被网眼裹住，葛牙手在网外握柄",
+        "beat": "他横拉刀口割断两根网线，余下湿网仍裹住刀背",
+        "end": "折起的网角贴到近侧木横杆，陆照锥尖进入画面"
+      },
+      "action_en": "Close detail shows mesh wrapped around the knife spine while Ge Ya grips the handle outside. Then he saws through two strands but the remaining wet net stays wrapped; the folded corner reaches the near wooden rail as Lu Zhao's awl enters frame.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "折起的网角贴到近侧木横杆，陆照锥尖进入画面"
+    },
+    {
+      "source_shot": "EP003_SH09",
+      "start": 20.0,
+      "end": 23.0,
+      "action_cn": {
+        "start": "侧面见陆照双手握锥、网角与横杆，左肩带血",
+        "beat": "他将折起网角压向横杆，双手直刺贯穿木杆，锥柄把网角压住",
+        "end": "葛牙回抽刀，网绷紧将持刀腕牵向横杆；陆照立即松开留在杆上的锥"
+      },
+      "action_en": "A side view includes Lu Zhao's two-handed grip, the folded net corner and the wooden rail, with his injured left shoulder visible. Then he drives the awl straight through the folded mesh into and through the rail so the handle traps the corner; Ge Ya's pulling knife draws his wrist toward the now-taut net. Lu Zhao releases the awl, leaving it fixed in the rail.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "葛牙回抽刀，网绷紧将持刀腕牵向横杆；陆照立即松开留在杆上的锥"
+    },
+    {
+      "source_shot": "EP003_SH10",
+      "start": 23.0,
+      "end": 27.0,
+      "action_cn": {
+        "start": "葛牙右手仍握刀，网绷紧；陆照左掌将其右肘压在横杆，右手反折他的握刀腕",
+        "beat": "葛牙疼得张开五指；陆照右手接握刀柄，向网内回送半寸松去张力，再沿刀背退刃",
+        "end": "刀完全脱网，陆照松手让它落入脚旁画右下石沟；左掌始终借横杆压肘"
+      },
+      "action_en": "Ge Ya still grips the knife in his right hand with the net taut. Lu Zhao braces Ge Ya right elbow against the rail with Lu Zhao left palm and bends the knife wrist back with his right hand. Then Ge Ya opens his fingers in pain; Lu Zhao visibly takes the handle, pushes it slightly into the net to slacken the mesh and slides the blade out along its spine. Once the blade clears the mesh he releases it into the established lower-right gutter beside his foot, keeping the elbow pinned with his left palm.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "刀完全脱网，陆照松手让它落入脚旁画右下石沟；左掌始终借横杆压肘"
+    },
+    {
+      "source_shot": "EP003_SH11",
+      "start": 27.0,
+      "end": 30.0,
+      "action_cn": {
+        "start": "陆照左掌仍借横杆压着葛牙右肘，右手刚松开落沟的刀",
+        "beat": "葛牙左拳打中陆照耳侧；拳收回时，陆照右手抓住这只左腕，把它折向葛牙胸前",
+        "end": "陆照转身用右肩和身体将葛牙挤向架柱，控制住两臂；葛牙兜帽被横杆蹭落"
+      },
+      "action_en": "Lu Zhao's left palm pins Ge Ya's right elbow against the rail; his right hand has just released the knife into the gutter. Then Ge Ya's left fist hits Lu Zhao beside the ear. As the fist retracts, Lu Zhao catches that left wrist with his right hand, folds it across Ge Ya's chest and turns his body and uninjured right shoulder to wedge Ge Ya against the post, controlling both arms. Ge Ya's hood catches the rail and falls.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "陆照转身用右肩和身体将葛牙挤向架柱，控制住两臂；葛牙兜帽被横杆蹭落"
+    }
+  ],
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001e",
+        "width": 854,
+        "height": 480,
+        "coded_width": 854,
+        "coded_height": 480,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 30,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 369152,
+        "duration": "30.041667",
+        "bit_rate": "5432827",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "721",
+        "extradata_size": 44,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "32000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/32000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 958464,
+        "duration": "29.952000",
+        "bit_rate": "193629",
+        "nb_frames": "937",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP003_A/take_01_480p.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "30.041667",
+      "size": "21150979",
+      "bit_rate": "5632438",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "EP002_A_OPEN",
+  "request_sha256": "50b3b816d213b35e780c014a89c6b70be59581b5b15d52aa84e03558e64c7242",
+  "spec_sha256": "f4ffa57776403930dc58df5f3a601950a8d67ab8ac8451f88a7e4a4eeecd6668",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v04.jpg": "cf2b5ce42e85e0fad568373f601bbd2ff7913658711c7e14748e2a488b9aa4bf",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/铜轮柄_01.jpg": "0318faba8d8f8a07887875733cadfcc8070341bb8ce81be2ae94077151ad1b99"
+  },
+  "image_sha256": "b21bef9baecf93f8712507dd8da3a6eaa29856c18c39bae82c62cc4fdfc5d080",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "铜轮柄器型统一.json",
+  "visual_status": "pending_inspection"
+}

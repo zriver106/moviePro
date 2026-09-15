@@ -1,0 +1,17 @@
+{
+  "id": "EP001_A_WEDGE_HANDS",
+  "request_sha256": "b5d17797ba630d9be3cde43c8dfee20d2d4e13ae70cc77ec2692f225abdf6281",
+  "spec_sha256": "4f9600783ee0384be28dff2a5e4d8f856c4db8b007e00a16302d602812da0ded",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c",
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea"
+  },
+  "image_sha256": "9d0f2abb9088dfb103e45266c2e5c804196abf671db9187ef16b8159b869a97f",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "首集局部动作状态.json",
+  "visual_status": "pending_inspection"
+}

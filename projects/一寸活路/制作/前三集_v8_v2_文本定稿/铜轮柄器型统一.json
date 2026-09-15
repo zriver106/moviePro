@@ -1,0 +1,19 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_A_OPEN",
+      "prompt": "Preserve image1 scene, camera, characters and clothes. Replace the ROUND RING WHEEL at Ma Duo belt with the SMALL L-SHAPED BRONZE CRANK from image2. Its straight short metal arm ends at a square socket, with a perpendicular short dark grip at the opposite end. The whole L-shaped crank is about 20cm long, comparable to Lu Zhao bare hand-and-fingers, attached to Ma Duo belt hook. Lu Zhao bare hand grasps the DARK PERPENDICULAR GRIP, ready to unhook this single L-shaped tool. The square socket at the other end stays visible. Match image2 exact silhouette and bronze material at small scale.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v04.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/铜轮柄_01.jpg"
+      ],
+      "output": "段落首帧/EP002_A_OPEN/ref_v05.jpg",
+      "seed": 954041,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    }
+  ]
+}

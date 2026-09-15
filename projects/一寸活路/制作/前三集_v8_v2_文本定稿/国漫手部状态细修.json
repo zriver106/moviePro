@@ -1,0 +1,18 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_B_FLASH_HANDS",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_FLASH/hand_state_v01.jpg"
+      ],
+      "output": "段落首帧/EP002_B_FLASH/hand_state_v02.jpg",
+      "seed": 955032,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "prompt": "Simplify this stylized 3D hand study to exactly TWO hands. Keep the young gripping hand around the awl handle, and keep the elder red-wrist hand resting across those gripping knuckles. Replace BOTH OPEN SUPPORTING HANDS in the LOWER half with plain dark blue background. The young gripping hand connects naturally to ONE bare wrist and forearm entering from lower left; elder hand connects to the red wrist entering upper right. Exactly two wrists and two hands total. Preserve the single small awl and simple sculpted animation style. Show five distinct fingers per hand, young gripping fingers curl naturally around the handle."
+    }
+  ]
+}

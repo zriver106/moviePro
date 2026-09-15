@@ -1,0 +1,16 @@
+{
+  "id": "EP001_A_WEDGE_HANDS",
+  "request_sha256": "914ae5b8d110fd3131ca467dfa4fa62897b4082ab893ecc164fd3adc4c8b0e63",
+  "spec_sha256": "ccaa98c38ef5adf635464df44184a361b2b72cbd240c41c36bee413f87b33914",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/段落首帧/EP001_A_WEDGE_HANDS/ref_v01.jpg": "9d0f2abb9088dfb103e45266c2e5c804196abf671db9187ef16b8159b869a97f"
+  },
+  "image_sha256": "74647771ec08f1bfef36e9c72dc63eab1952e20bb68183a80e4817b44155eb9e",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "首集局部状态细修.json",
+  "visual_status": "pending_inspection"
+}

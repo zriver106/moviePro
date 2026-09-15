@@ -7,14 +7,14 @@
   "resolution": "480p",
   "aspect": "16:9",
   "audio": true,
-  "seed": 961201,
-  "take": 1,
+  "seed": 961202,
+  "take": 2,
   "references": [
     {
-      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v04.jpg",
-      "role": "Opening side detail: Lu Zhao bare hand grasps the small detachable bronze crank still hooked at Ma Duo waist. Ma Duo reclines with head above water. The complete paired-wrist binding at one low post foot is beyond the crop; retain it as the camera follows Lu away.",
+      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v07.jpg",
+      "role": "Opening side detail of the canonical small L-shaped bronze crank hooked to Ma Duo belt. Lu Zhao bare hand grips its attached dark perpendicular grip; the square socket stays visible. Ma Duo reclines with bound wrists outside the detail crop. This is the same L crank that is later installed on the bare square valve shaft.",
       "kind": "opening",
-      "sha256": "cf2b5ce42e85e0fad568373f601bbd2ff7913658711c7e14748e2a488b9aa4bf"
+      "sha256": "33f22611705ccb429e954f8cc07e274e7ad0840a10880a2017061bbb95117b31"
     },
     {
       "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
@@ -131,11 +131,11 @@
       "sha256": "37768fbf1aee8780f4d634f568b3e45e7f47bb8e48b9476abd4fc264eed81b71"
     }
   ],
-  "prompt": "A complete 30-second narrative segment, 16:9, sculpted Chinese 3D animated feature style. Woven cloth, dimensional faces, cohesive sculpted hair, restrained wood and bronze. Natural Mandarin dialogue with lip synchronization, footsteps, water and cloth sounds. Each timeline interval is an action beat. Camera cuts follow the CAMERA PLAN; continuous takes carry successive beats through one moving camera. Begin by matching the opening composition in @Image1. Reference portraits define identity and clothing; the current action defines pose and placement. Technical diagrams define mechanical connections translated into the scene materials. Paper surfaces stay suitable for later Chinese typography.\nREFERENCE ROLES:\n@Image1: Opening side detail: Lu Zhao bare hand grasps the small detachable bronze crank still hooked at Ma Duo waist. Ma Duo reclines with head above water. The complete paired-wrist binding at one low post foot is beyond the crop; retain it as the camera follows Lu away..\n@Image2: Lu Zhao 陆照, teal clothes, lower trousers wet, bare palms.\n@Image3: Ma Duo 麻铎 identity and wet brown clothing; restraint follows the timeline.\n@Image4: Wen Xi 闻溪, mint clothing wet.\n@Image5: the grey-bearded rescued worker, distinct from the flashback elder.\n@Image6: Ali 阿砾, blue clothes wet.\n@Image7: Cen Lu 岑鹿 in purple.\n@Image8: blue-coated guard.\n@Image9: assistant escort, distinct from guard.\n@Image10: bare square valve spindle before crank installation.\n@Image11: detachable small bronze crank.\n@Image12: drain channel and lowered water.\n@Image13: drain stopper.\n@Image14: cargo crates and bond paper.\n@Image15: dockside payment and guard setting.\n@Image16: blank bond and wage slip surfaces.\n@Image17: small balance scale and dressing tools.\n@Image18: small purse and tied strings of copper coins.\n@Image19: Lu Zhao RIGHT palm dressing at the final treatment beat.\n@Image20: loosened pierced copper cover to remove by hand.\nCAMERA PLAN: Carry the previous episode breathing and water ambience into a side view of taking Ma Duo crank. At 3s track through the open north door to the bare spindle and shut the inlet. At 7s cut low to the drain stopper. At 10s make a clear elapsed-time cut to the lowered water mark, dry medicine crates and removal of the loosened copper plate. At 13s cut to the ladder interception. From 13s to 20s maintain a continuous side move from the guard blocking Wen Xi to Cen Lu presenting and signing the bond; finish when the pole is lowered. At 20s use an explicit cargo-inspection time ellipsis to custody transfer. At 24s cut to weighing and paying the wage purse. At 28s use a treatment time ellipsis: ointment already applied, then show the final palm-cloth turn and sliding the medical fee over two seconds.\nTIMELINE:\n[0–3s] Continue Ali's breath as water still enters through a wall gap; the pierced copper plate stays on the door. Then Lu Zhao crouches beside the soaked bound Ma Duo and unhooks the bronze crank from his belt; Ma Duo strains helplessly as it is taken away.\n[3–7s] Inside the opened north room, the empty valve spindle and the bronze crank in Lu Zhao's hands share the frame. Then he seats the crank fully and presses it to its stop; incoming wall flow stops and falls to drops, with the crank remaining on the spindle.\n[7–10s] Low close detail shows the drain plug, shallow water and channel sloping toward the low-tide outer river. Then Lu Zhao lifts the plug and water drains along the channel, exposing a corner of submerged planking.\n[10–13s] Elliptical cut: water now lies two fingers below Lu Zhao's earlier scratch mark while the three survivors walk along the ledge. Dry third-tier medicine crates are visible through an existing gap behind two wet crates. Then Wen Xi removes the already loose copper plate from the open lock as she passes and slips it into Lu Zhao's belt pouch.\n[13–16s] At the hatch, Wen Xi leads Ali and the grey-bearded worker; Lu Zhao follows holding Ma Duo's wrist tether, with his ankle rope removed after the time cut. A guard bars the hatch with a pole. Then merchant Cen Lu enters holding a cargo bond and stops before the pole.\n[13.2–15.8s] 守船人, visible speaker with synchronized lips, says exactly in Mandarin: “封舱！谁让出来的？”\n[16–20s] Cen Lu presses her cargo bond against the blocking pole and signs to guarantee the three survivors. The guard reads her name. Then she moves her finger from her signature to the empty responsibility box for the sealed hold; he lowers the pole and signals his colleague to inspect the cargo and hear the survivors.\n[16.2–19.6s] 岑鹿, visible speaker with synchronized lips, says exactly in Mandarin: “活人我保。封舱损单，你签。”\n[20–24s] After the cargo inspection time cut, the guard takes Ma Duo's wrist tether in front of all three survivors, with Lu Zhao at the side. Then Wen Xi identifies Ma Duo as the man who sealed them in and the guard orders his colleague to take him for questioning. Ma Duo looks back at the living witnesses as he is led out of frame.\n[20.2–21.6s] 闻溪, visible speaker with synchronized lips, says exactly in Mandarin: “他封的门。”\n[21.9–23.4s] 守船人, visible speaker with synchronized lips, says exactly in Mandarin: “带去问话。”\n[24–28s] Cen Lu finishes weighing a purse next to a blank payment slip for post-composited 240-copper salvage wages. Then she places the heavy purse in Lu Zhao's hand; it drops under the weight, he tightens his grip and looks up as she turns to direct the cargo workers.\n[24.3–27s] 岑鹿, visible speaker with synchronized lips, says exactly in Mandarin: “二百四十。你的工钱。”\n[28–30s] A treatment time cut: ointment has been applied and just the final bandage turn remains, with the dressing fee already on the table. Then Wen Xi tucks the cloth tail while Lu Zhao slides the fee closer; she looks up and nods as he withdraws the dressed hand.\nLu Zhao starts with bare palms. The RIGHT palm receives medicinal cloth at 28s. The new leather sheath is purchased in the following segment.\nThe original awl stays a single small hemp-handled tool. All characters preserve their reference identities across camera movements. End at the last specified action state at 30 seconds.",
-  "request_sha256": "90535c1aef0fafc86606e7816441462d3a27250cd2edcea4738d30f82b7ef06c",
+  "prompt": "A complete 30-second narrative segment, 16:9, sculpted Chinese 3D animated feature style. Woven cloth, dimensional faces, cohesive sculpted hair, restrained wood and bronze. Natural Mandarin dialogue with lip synchronization, footsteps, water and cloth sounds. Each timeline interval is an action beat. Camera cuts follow the CAMERA PLAN; continuous takes carry successive beats through one moving camera. Begin by matching the opening composition in @Image1. Reference portraits define identity and clothing; the current action defines pose and placement. Technical diagrams define mechanical connections translated into the scene materials. Paper surfaces stay suitable for later Chinese typography.\nREFERENCE ROLES:\n@Image1: Opening side detail of the canonical small L-shaped bronze crank hooked to Ma Duo belt. Lu Zhao bare hand grips its attached dark perpendicular grip; the square socket stays visible. Ma Duo reclines with bound wrists outside the detail crop. This is the same L crank that is later installed on the bare square valve shaft..\n@Image2: Lu Zhao 陆照, teal clothes, lower trousers wet, bare palms.\n@Image3: Ma Duo 麻铎 identity and wet brown clothing; restraint follows the timeline.\n@Image4: Wen Xi 闻溪, mint clothing wet.\n@Image5: the grey-bearded rescued worker, distinct from the flashback elder.\n@Image6: Ali 阿砾, blue clothes wet.\n@Image7: Cen Lu 岑鹿 in purple.\n@Image8: blue-coated guard.\n@Image9: assistant escort, distinct from guard.\n@Image10: bare square valve spindle before crank installation.\n@Image11: detachable small bronze crank.\n@Image12: drain channel and lowered water.\n@Image13: drain stopper.\n@Image14: cargo crates and bond paper.\n@Image15: dockside payment and guard setting.\n@Image16: blank bond and wage slip surfaces.\n@Image17: small balance scale and dressing tools.\n@Image18: small purse and tied strings of copper coins.\n@Image19: Lu Zhao RIGHT palm dressing at the final treatment beat.\n@Image20: loosened pierced copper cover to remove by hand.\n道具连续性：0–7秒同一把约20厘米的L形铜轮柄，短金属臂一端有方孔，另一端是垂直的深色握把。陆照从麻铎腰钩摘下它，随后把方孔端套到底在裸方轴上，再握住深色握把下压至止点，水才停，L形铜柄留在轴上。摄影约束：13–20秒守卫横棍、岑鹿递保单、指签责栏及守卫收棍是同一条7秒连续侧移镜头，16秒仍在该同机运动中。The small L-shaped bronze crank preserves its exact silhouette across 0–7s. From 13s to 20s one uninterrupted camera move carries the guard confrontation into the cargo-bond exchange.\nCAMERA PLAN: Carry the previous episode breathing and water ambience into a side view of taking Ma Duo crank. At 3s track through the open north door to the bare spindle and shut the inlet. At 7s cut low to the drain stopper. At 10s make a clear elapsed-time cut to the lowered water mark, dry medicine crates and removal of the loosened copper plate. At 13s cut to the ladder interception. From 13s to 20s maintain a continuous side move from the guard blocking Wen Xi to Cen Lu presenting and signing the bond; finish when the pole is lowered. At 20s use an explicit cargo-inspection time ellipsis to custody transfer. At 24s cut to weighing and paying the wage purse. At 28s use a treatment time ellipsis: ointment already applied, then show the final palm-cloth turn and sliding the medical fee over two seconds.\nTIMELINE:\n[0–3s] Continue Ali's breath as water still enters through a wall gap; the pierced copper plate stays on the door. Then Lu Zhao crouches beside the soaked bound Ma Duo and unhooks the bronze small L-shaped bronze crank from his belt; Ma Duo strains helplessly as it is taken away.\n[3–7s] Inside the opened north room, the empty valve spindle and the bronze small L-shaped bronze crank in Lu Zhao's hands share the frame. Then he seats the small L-shaped bronze crank fully and presses it to its stop; incoming wall flow stops and falls to drops, with the small L-shaped bronze crank remaining on the spindle.\n[7–10s] Low close detail shows the drain plug, shallow water and channel sloping toward the low-tide outer river. Then Lu Zhao lifts the plug and water drains along the channel, exposing a corner of submerged planking.\n[10–13s] Elliptical cut: water now lies two fingers below Lu Zhao's earlier scratch mark while the three survivors walk along the ledge. Dry third-tier medicine crates are visible through an existing gap behind two wet crates. Then Wen Xi removes the already loose copper plate from the open lock as she passes and slips it into Lu Zhao's belt pouch.\n[13–16s] At the hatch, Wen Xi leads Ali and the grey-bearded worker; Lu Zhao follows holding Ma Duo's wrist tether, with his ankle rope removed after the time cut. A guard bars the hatch with a pole. Then merchant Cen Lu enters holding a cargo bond and stops before the pole.\n[13.2–15.8s] 守船人, visible speaker with synchronized lips, says exactly in Mandarin: “封舱！谁让出来的？”\n[16–20s] Within the same continuously gliding camera take, Cen Lu presses her cargo bond against the blocking pole and signs to guarantee the three survivors. The guard reads her name. Then she moves her finger from her signature to the empty responsibility box for the sealed hold; he lowers the pole and signals his colleague to inspect the cargo and hear the survivors.\n[16.2–19.6s] 岑鹿, visible speaker with synchronized lips, says exactly in Mandarin: “活人我保。封舱损单，你签。”\n[20–24s] After the cargo inspection time cut, the guard takes Ma Duo's wrist tether in front of all three survivors, with Lu Zhao at the side. Then Wen Xi identifies Ma Duo as the man who sealed them in and the guard orders his colleague to take him for questioning. Ma Duo looks back at the living witnesses as he is led out of frame.\n[20.2–21.6s] 闻溪, visible speaker with synchronized lips, says exactly in Mandarin: “他封的门。”\n[21.9–23.4s] 守船人, visible speaker with synchronized lips, says exactly in Mandarin: “带去问话。”\n[24–28s] Cen Lu finishes weighing a purse next to a blank payment slip for post-composited 240-copper salvage wages. Then she places the heavy purse in Lu Zhao's hand; it drops under the weight, he tightens his grip and looks up as she turns to direct the cargo workers.\n[24.3–27s] 岑鹿, visible speaker with synchronized lips, says exactly in Mandarin: “二百四十。你的工钱。”\n[28–30s] A treatment time cut: ointment has been applied and just the final bandage turn remains, with the dressing fee already on the table. Then Wen Xi tucks the cloth tail while Lu Zhao slides the fee closer; she looks up and nods as he withdraws the dressed hand.\nLu Zhao starts with bare palms. The RIGHT palm receives medicinal cloth at 28s. The new leather sheath is purchased in the following segment.\nThe original awl stays a single small hemp-handled tool. All characters preserve their reference identities across camera movements. End at the last specified action state at 30 seconds.",
+  "request_sha256": "cff55bf8054377d0d8a34d0c790dc88dbc05d9cf922e305ee506d0cb8f461198",
   "status": "generated_pending_visual_and_dialogue_check",
-  "video_sha256": "135a3bb5a9b8671e12e8fc0107751632fa05200082db4f46aa262f5c4753171e",
-  "duration": 30.041667,
+  "video_sha256": "82f88ab67c7b3f468f9cb5043654324607bd72091765c342fe11c41b1570003b",
+  "duration": 30.08,
   "probe": {
     "streams": [
       {
@@ -166,7 +166,7 @@
         "start_time": "0.000000",
         "duration_ts": 369152,
         "duration": "30.041667",
-        "bit_rate": "4560561",
+        "bit_rate": "4156999",
         "bits_per_raw_sample": "8",
         "nb_frames": "721",
         "extradata_size": 44,
@@ -217,10 +217,10 @@
         "time_base": "1/32000",
         "start_pts": 0,
         "start_time": "0.000000",
-        "duration_ts": 958464,
-        "duration": "29.952000",
-        "bit_rate": "194785",
-        "nb_frames": "937",
+        "duration_ts": 962560,
+        "duration": "30.080000",
+        "bit_rate": "193945",
+        "nb_frames": "941",
         "extradata_size": 5,
         "disposition": {
           "default": 1,
@@ -250,16 +250,16 @@
       }
     ],
     "format": {
-      "filename": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP002_A/take_01_480p.mp4",
+      "filename": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP002_A/take_02_480p.mp4",
       "nb_streams": 2,
       "nb_programs": 0,
       "nb_stream_groups": 0,
       "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
       "format_long_name": "QuickTime / MOV",
       "start_time": "0.000000",
-      "duration": "30.041667",
-      "size": "17879761",
-      "bit_rate": "4761323",
+      "duration": "30.080000",
+      "size": "16364306",
+      "bit_rate": "4352209",
       "probe_score": 100,
       "tags": {
         "major_brand": "isom",
@@ -268,5 +268,5 @@
       }
     }
   },
-  "completed_at": 1789437318.152651
+  "completed_at": 1789438363.913698
 }

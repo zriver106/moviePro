@@ -1,0 +1,27 @@
+{
+  "status": "rejected",
+  "take": 2,
+  "video_sha256": "92d563d03a72fc225e220fa82e93fbe68a092114393dca686721631ecd6cffce",
+  "actual_duration": 30.041667,
+  "audio_stream_present": true,
+  "visual_inspection": "逐秒接触表0–30秒",
+  "blocking_issues": [
+    {
+      "time": "6–11",
+      "finding": "门口出现两个相同薄荷色服装女性，闻溪身份重复"
+    },
+    {
+      "time": "17–19、24",
+      "finding": "打斗进入手部独立构图后回到广景，连续长镜验收未通过；逐秒抽帧不能单独判定所有硬切时点。"
+    },
+    {
+      "time": "17–26",
+      "finding": "刀仍在葛牙手中，旧锥固定网栏和松网取刀落沟动作未完整落实；腰鞘仍露工具柄"
+    }
+  ],
+  "positive_findings": [
+    "结尾改成相向抵柱，兜帽落下"
+  ],
+  "scope": "退回，不能用作EP003_B接点；暂停相同生成策略重试",
+  "dialogue_review": "Scribe V2无文本提示听写：六十铜。赵子，跟我走。先放了她。最后一句与定稿“先放他”存在自动听写差异，未据此声称已人工听审通过。"
+}

@@ -463,20 +463,58 @@
   },
   "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v04.jpg": {
     "sha256": "cf2b5ce42e85e0fad568373f601bbd2ff7913658711c7e14748e2a488b9aa4bf",
-    "status": "accepted_reference",
+    "status": "rejected",
     "scope": "侧向取柄局部构图：裸手、小铜柄尚挂腰钩、麻铎半卧；双腕完整绑缚在画外，不用此局部图作为绑缚结构依据",
-    "reviewer": "Codex visual inspection"
+    "reviewer": "Codex visual inspection",
+    "reason": "复核发现圆轮与正式L形铜柄器型冲突"
   },
   "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_FLASH/ref_v02.jpg": {
     "sha256": "c71636c5ca0736cf37cf11caf89cdc665a6659132b0a58ed359be1eeb570b6e8",
     "status": "accepted_reference",
     "scope": "5–10秒闪回手部状态：陆照裸掌握唯一旧锥，老人右红腕覆其握锥手，面部无须",
-    "reviewer": "Codex visual inspection"
+    "reviewer": "Codex visual inspection",
+    "model_compatibility": "EP002_B take2 with this added face closeup was rejected for suspected real-person likeness; response did not identify the specific image. Replace with stylized hand-state diagram."
   },
   "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/bowl_detail.jpg": {
     "sha256": "80e7fee9b0ed8af44afc7be22fd75a03fe1057d8a84b8b88f191fc75c91c317b",
     "status": "accepted_reference",
     "scope": "换碗前局部状态：三只碗可辨，旧缺口空碗退出，新完整饭碗接入；仅道具与手部关系参考",
     "reviewer": "Codex visual inspection"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_FLASH/hand_state_v02.jpg": {
+    "sha256": "749bbcf42d88835d38218d6635220521025666786c7d4921e3b64d96330566a8",
+    "status": "accepted_reference",
+    "scope": "两只风格化国漫手部：年轻人裸掌握原锥，老人红腕手准备覆其指节；仅手部状态，不指定人脸和构图",
+    "reviewer": "Codex visual inspection"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v07.jpg": {
+    "sha256": "33f22611705ccb429e954f8cc07e274e7ad0840a10880a2017061bbb95117b31",
+    "status": "accepted_reference",
+    "scope": "同一完整L形铜柄挂在腰钩，裸手抓连体握把，方孔清楚，待摘取；局部构图不作绑腕依据",
+    "reviewer": "Codex visual cross-check against canonical 铜轮柄_01.jpg"
+  },
+  "制作/前三集_v8_30秒段落/参考/陆照_身份上身.jpg": {
+    "sha256": "ede30ef963287512adf947fa41f99c73d46e53e1c735f042cf89da6a356c0a07",
+    "status": "accepted_reference",
+    "scope": "角色身份、发型及上身衣料；画幅截止上臂，手掌现时/过去状态由时间轴确定",
+    "reviewer": "Codex visual inspection"
+  },
+  "制作/前三集_v8_30秒段落/参考/绳轮受力结构_v2.png": {
+    "status": "accepted_reference",
+    "sha256": "bf398b1d2d9222ee5d8ce3b28f9a7a65f2b49491d74d0d3c69a9c8df9d5f0f52",
+    "reviewer": "Codex visual inspection",
+    "scope": "受力连接示意；固定梁悬空于绳圈上方、独立棘爪及15厘米承台间隙，转换为场景木铜材质"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP001_A_WEDGE_HANDS/ref_v02.jpg": {
+    "status": "accepted_reference",
+    "sha256": "74647771ec08f1bfef36e9c72dc63eab1952e20bb68183a80e4817b44155eb9e",
+    "reviewer": "Codex visual inspection",
+    "scope": "双手握水平楔宽端、旧锥另放台面；局部动作参考，完整绳路依技术图"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP001_A_COPPER/ref_v02.jpg": {
+    "status": "rejected",
+    "sha256": "0603e642551682777f22c9e4517e8256c9a2e144e01bd8622969f52e7fdc98e5",
+    "reviewer": "Codex visual inspection",
+    "scope": "左手扶铜片而非包住右拳，板尺度偏大，不能用于双手推锥动作"
   }
 }

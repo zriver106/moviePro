@@ -1,0 +1,391 @@
+{
+  "video": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP001_A/take_02_480p.mp4",
+  "video_sha256": "17b78f1ebaf038d2514b6c01ee8a9c1b3668df33609c6b9a55c703af0458182f",
+  "duration": 30.08,
+  "audio_streams": 1,
+  "technical_duration_pass": true,
+  "content_status": "pending_human_visual_and_dialogue_review",
+  "contact_sheets": [
+    "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP001_A/take_02_480p_qc/contact_00.jpg",
+    "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP001_A/take_02_480p_qc/contact_16.jpg"
+  ],
+  "expected_dialogue": [
+    {
+      "speaker": "陆照",
+      "text": "二百四十铜，够姐姐歇十二天。",
+      "off_screen": true,
+      "at": 3.1,
+      "end": 7.1
+    },
+    {
+      "speaker": "闻溪",
+      "text": "三个人！开门！",
+      "off_screen": false,
+      "at": 7.6,
+      "end": 9.6
+    },
+    {
+      "speaker": "麻铎",
+      "text": "省点力气。门不用开了。",
+      "off_screen": false,
+      "at": 12.7,
+      "end": 16.0
+    },
+    {
+      "speaker": "陆照",
+      "text": "他们还活着。",
+      "off_screen": false,
+      "at": 16.6,
+      "end": 17.9
+    },
+    {
+      "speaker": "麻铎",
+      "text": "账上没有。",
+      "off_screen": false,
+      "at": 18.0,
+      "end": 19.3
+    },
+    {
+      "speaker": "麻铎",
+      "text": "这点钱买命？",
+      "off_screen": false,
+      "at": 25.1,
+      "end": 26.9
+    }
+  ],
+  "expected_camera": {
+    "cn": "0–3秒牌面特写；3秒动作接切下梯全景；7.5秒切门内三人；10秒切第一次顶铜。12.5–30秒同一条低侧跟拍：从麻铎封梯跟到陆照退至轮架，缓降让索圈、石与楔同框，再随掷钱及追刺横移到固定梁。结尾叉卡梁，锥已放稳修台，新增的最后0.5秒陆照双手扣住木楔；楔未移、绳未收、叉仍卡梁，镜头定住。",
+    "en": "At 0s start in the wooden tag detail. At 3s action-cut to the ladder wide view. At 7.5s hard cut inside the flooded locked room. At 10s cut to the first awl attempt. From 12.5s to 30s use one continuous low side tracking take: follow Ma Duo blocking the ladder and Lu Zhao retreating toward the drum, lower gently to reveal the rope loop, stone, pawl and wedge together, then track the purse toss and fork thrust toward the fixed beam. Finish steady on the lodged fork, the awl resting on the ledge and Lu Zhao using the final added half-second to firmly grip the wedge with both hands. The wedge stays seated, rope remains slack and fork stays lodged."
+  },
+  "expected_beats": [
+    {
+      "source_shot": "EP001_SH01",
+      "start": 0,
+      "end": 3,
+      "action_cn": {
+        "start": "木牌正面占画面，后期贴“陆照／溺亡销籍”，小字“登记于六个月前”",
+        "beat": "陆照指尖压住自己的名字，指腹仍有鲜红擦口",
+        "end": "麻铎的手从上方翻走木牌"
+      },
+      "action_en": "A wooden death-register tag fills the frame; the tag carries a blank tracked surface for post-composited name and death entry. Lu Zhao's scraped fingertip presses his name. Then Ma Duo's hand turns the tag away.",
+      "lines": [],
+      "on_screen_text": [
+        {
+          "text": "陆照\n溺亡销籍\n登记于六个月前",
+          "method": "post_composite",
+          "placement": "木牌正面",
+          "generation_surface": "blank"
+        }
+      ],
+      "continuity_out": "麻铎的手从上方翻走木牌"
+    },
+    {
+      "source_shot": "EP001_SH02",
+      "start": 3,
+      "end": 7.5,
+      "action_cn": {
+        "start": "陆照沿画左南梯下到浅水，画右北门高处传出拍击",
+        "beat": "他抬头看门，沿西壁修台靠过去；锥挂腰边",
+        "end": "右门检修口透出灯光，进水声盖住脚步"
+      },
+      "action_en": "Lu Zhao descends the south ladder at screen left into ankle-deep water. A raised repair ledge connects the ladder area to the north door at screen right; pounding comes from its high inspection opening. Then the camera tracks with him toward the lit opening; his black awl stays at his belt and his boots and lower tunic become wet.",
+      "lines": [
+        {
+          "speaker": "陆照",
+          "text": "二百四十铜，够姐姐歇十二天。",
+          "off_screen": true,
+          "at": 3.1,
+          "end": 7.1
+        }
+      ],
+      "on_screen_text": [],
+      "continuity_out": "右门检修口透出灯光，进水声盖住脚步"
+    },
+    {
+      "source_shot": "EP001_SH03",
+      "start": 7.5,
+      "end": 10.0,
+      "action_cn": {
+        "start": "门内朝检修口侧拍：闻溪把灯搁上沿，灰胡子工人扶门框，低处阿砾手拍门",
+        "beat": "闻溪朝检修口喊“三个人！开门！”",
+        "end": "阿砾手滑下，闻溪回身托住老人"
+      },
+      "action_en": "Inside the flooded room, camera faces sideways toward the inspection opening. Wen Xi places the lamp on its inner ledge, a grey-bearded worker holds the jamb and Ali pounds the panel lower down. Then she calls toward the opening; Ali's hand slips down and she turns to support the worker.",
+      "lines": [
+        {
+          "speaker": "闻溪",
+          "text": "三个人！开门！",
+          "off_screen": false,
+          "at": 7.6,
+          "end": 9.6
+        }
+      ],
+      "on_screen_text": [],
+      "continuity_out": "阿砾手滑下，闻溪回身托住老人"
+    },
+    {
+      "source_shot": "EP001_SH04",
+      "start": 10.0,
+      "end": 12.5,
+      "action_cn": {
+        "start": "侧面全景同框陆照抵木榫的双脚、双手与门锁，木舌从检修口可见",
+        "beat": "双手直推黑锥，传来钝响，双手被顶回",
+        "end": "他收锥；铜面仅留浅凹，门仍锁着"
+      },
+      "action_en": "Side wide view shows Lu Zhao braced at the wooden foot stops, holding the awl in both hands against the door lock. The latch is visible through the inspection opening. Then he thrusts, recoils at a dull impact and draws back; the copper is only dented and the door stays shut.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "他收锥；铜面仅留浅凹，门仍锁着"
+    },
+    {
+      "source_shot": "EP001_SH05",
+      "start": 12.5,
+      "end": 16.5,
+      "action_cn": {
+        "start": "麻铎持叉踏到南梯脚，腰间铜轮柄晃动",
+        "beat": "他用叉封住陆照回梯的方向，逼陆照往修台南端退",
+        "end": "陆照停在绳轮侧，北门仍在画右"
+      },
+      "action_en": "Ma Duo steps into the shallow water by the south ladder at screen left; a detached bronze crank hangs from his belt. Then he blocks Lu Zhao's retreat with his fork and drives him toward the south end of the repair ledge beside the winch. The north door remains at screen right.",
+      "lines": [
+        {
+          "speaker": "麻铎",
+          "text": "省点力气。门不用开了。",
+          "off_screen": false,
+          "at": 12.7,
+          "end": 16.0
+        }
+      ],
+      "on_screen_text": [],
+      "continuity_out": "陆照停在绳轮侧，北门仍在画右"
+    },
+    {
+      "source_shot": "EP001_SH06",
+      "start": 16.5,
+      "end": 19.5,
+      "action_cn": {
+        "start": "麻铎画左、陆照画右，叉尖横在两人之间",
+        "beat": "陆照朝北门偏一下脸；麻铎把叉再送近",
+        "end": "陆照后腰抵上绳轮轴架"
+      },
+      "action_en": "Ma Duo stands left and Lu Zhao right with the fork between them. Lu Zhao glances toward the trapped people as he speaks. Then Ma Duo answers and presses forward until Lu Zhao's hip meets the winch frame.",
+      "lines": [
+        {
+          "speaker": "陆照",
+          "text": "他们还活着。",
+          "off_screen": false,
+          "at": 16.6,
+          "end": 17.9
+        },
+        {
+          "speaker": "麻铎",
+          "text": "账上没有。",
+          "off_screen": false,
+          "at": 18.0,
+          "end": 19.3
+        }
+      ],
+      "on_screen_text": [],
+      "continuity_out": "陆照后腰抵上绳轮轴架"
+    },
+    {
+      "source_shot": "EP001_SH07",
+      "start": 19.5,
+      "end": 22.5,
+      "action_cn": {
+        "start": "低侧角同框：轮下外伸木楔、浅水里的搬件索圈、向上绕过轮轴的绳与坠石，轮边已有的止回棘爪搭住齿背；陆照在右边",
+        "beat": "钱袋被陆照从腰边摸出；坠石下方承架与石底相距半尺",
+        "end": "麻铎左脚逼近索圈边缘，叉朝陆照上身；北门拍响"
+      },
+      "action_en": "A low wide side angle clearly shows one continuous rope from an open cargo loop in the shallow water over the winch to a stone weight, with a handspan gap above its catch-frame; the projecting brake wedge holds the drum. Lu Zhao at right reaches for his purse. Then Ma Duo's leading foot at left approaches the loop as the north door pounds; his fork targets Lu Zhao above the rope. An existing ratchet pawl rests on the gear back, allowing forward rotation and preventing reverse unwinding.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "麻铎左脚逼近索圈边缘，叉朝陆照上身；北门拍响"
+    },
+    {
+      "source_shot": "EP001_SH08",
+      "start": 22.5,
+      "end": 25.0,
+      "action_cn": {
+        "start": "陆照右手掷钱袋，左手仍握锥；北门又一记拍响使麻铎偏头",
+        "beat": "钱袋落在麻铎进攻线路上的索圈中央，铜钱轻响",
+        "end": "麻铎目光落袋，立即再看陆照"
+      },
+      "action_en": "Lu Zhao keeps the awl in his left hand and tosses the small purse with his right during a pounding sound from the door. Then the purse lands inside the cargo loop directly on Ma Duo's forward attack path; Ma Duo glances down at the clink and back at Lu Zhao.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "麻铎目光落袋，立即再看陆照"
+    },
+    {
+      "source_shot": "EP001_SH09",
+      "start": 25.0,
+      "end": 27.5,
+      "action_cn": {
+        "start": "麻铎仍以叉控制陆照，前脚越过钱袋",
+        "beat": "他追刺上台边的陆照，后脚踏进宽索圈",
+        "end": "陆照向轴架外侧让身"
+      },
+      "action_en": "Ma Duo keeps the fork aimed at Lu Zhao, steps beyond the purse and brings his rear foot into the broad cargo loop while thrusting. Then Lu Zhao pivots outside the axle frame; the fork travels toward a timber beam separate from the moving drum.",
+      "lines": [
+        {
+          "speaker": "麻铎",
+          "text": "这点钱买命？",
+          "off_screen": false,
+          "at": 25.1,
+          "end": 26.9
+        }
+      ],
+      "on_screen_text": [],
+      "continuity_out": "陆照向轴架外侧让身"
+    },
+    {
+      "source_shot": "EP001_SH10",
+      "start": 27.5,
+      "end": 30.0,
+      "action_cn": {
+        "start": "陆照闪开，叉尖擦过他的腰侧",
+        "beat": "叉尖扎进绳轮旁的固定木梁；梁与转轮之间留有清楚空隙",
+        "end": "麻铎两手握住卡梁叉柄；原锥已放稳修台，陆照双手已扣住木楔；楔未移、绳未收。"
+      },
+      "action_en": "Lu Zhao slips aside; the fork embeds in a fixed wooden beam beside the winch, with a visible gap between beam and rotating drum. Then Ma Duo grips the shaft to pull it free while Lu Zhao lays the awl sideways on the ledge beside him.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "麻铎两手回抽叉柄；陆照将锥横搁身侧修台",
+      "bridge_action_cn": "29.5–30秒：锥放稳后双手已扣住木楔，楔未移、绳未收、叉仍卡固定梁。",
+      "bridge_action_en": "During 29.5–30s, after the awl rests securely, Lu Zhao grips the wedge with both hands. The wedge remains seated, rope stays slack and fork remains lodged in the fixed beam.",
+      "source_end": "麻铎两手回抽叉柄；陆照将锥横搁身侧修台"
+    }
+  ],
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001e",
+        "width": 854,
+        "height": 480,
+        "coded_width": 854,
+        "coded_height": 480,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 30,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 369152,
+        "duration": "30.041667",
+        "bit_rate": "4891945",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "721",
+        "extradata_size": 44,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "32000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/32000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 962560,
+        "duration": "30.080000",
+        "bit_rate": "194740",
+        "nb_frames": "941",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP001_A/take_02_480p.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "30.080000",
+      "size": "19127140",
+      "bit_rate": "5087005",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41"
+      }
+    }
+  }
+}

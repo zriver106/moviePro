@@ -1,0 +1,230 @@
+{
+  "segment": "EP003_A",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "model": "2.5",
+  "mode": "ref",
+  "seconds": 30,
+  "resolution": "480p",
+  "aspect": "16:9",
+  "audio": true,
+  "seed": 961402,
+  "take": 2,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP003_A_OPEN/ref_v02.jpg",
+      "role": "opening intact copper plug, right bandaged palm and awl point",
+      "kind": "opening",
+      "sha256": "391173edeef1393fe32511698a11d325c209aed4365bcd824259d5344080f741"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v02.jpg",
+      "role": "Lu Zhao begins in dry teal clothes, intact left shoulder, bandaged RIGHT palm",
+      "kind": "asset",
+      "sha256": "c98bec122745e05ddfdc0eee7c3d4d362f4ff0eeb0783bc4959a41967936bdaf"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+      "role": "Ge Ya 葛牙 brown hood and short hair identity",
+      "kind": "asset",
+      "sha256": "d2820c27545132b4cd142e0cc4d67e054bc696a597b8ff88a520b650da83dbca"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+      "role": "Ali 阿砾 blue clothing",
+      "kind": "asset",
+      "sha256": "a3a218ac22307538ae4345f59290a4f43546b57c3dccab1521ef101f31c72901"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+      "role": "Wen Xi 闻溪 mint clothing",
+      "kind": "asset",
+      "sha256": "2754fefd3398e60ef449f9d3289d049aa223327ec49e434d1f3a46ed13e35d07"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/水槽货主/ref_v01.jpg",
+      "role": "water-trough owner 水槽货主 in beige and green apron",
+      "kind": "asset",
+      "sha256": "23b0d677fba3fe3a6570d83a96e9650333be8d24fb8494bd58788b05d06f0ec3"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+      "role": "house door LEFT, net rack RIGHT, stone gutter lower right",
+      "kind": "asset",
+      "sha256": "b839a6548578af7e7af023493a3e24946298fae924abf748df38ccca82a5e265"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+      "role": "wood rail and upper-tied net with loose heavy lower corner",
+      "kind": "asset",
+      "sha256": "60392021b01b91ca06e537f8a66d79a3b0df00e8ee03211712ccfa5c196557e0"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+      "role": "Ge Ya short knife",
+      "kind": "asset",
+      "sha256": "b8df93521fbbcc65c0cf7cc1f3d7da386af2b6a95c466d6c445264e67fc181ff"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+      "role": "one ordinary short black awl with old hemp-wrapped grip",
+      "kind": "asset",
+      "sha256": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/落地棕兜帽/ref_v01.jpg",
+      "role": "detached brown hood after the final body pin",
+      "kind": "asset",
+      "sha256": "87903485984ad46efa70273c35c9e2b4cf55a8511ee05c454fd213924248f6d6"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg",
+      "role": "intact lunch bowl on low door stand",
+      "kind": "asset",
+      "sha256": "603e830fa960a300d91ffda91b3bdd7bac766f20ecd92ccd2110b90423612b18"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg",
+      "role": "small purse and tied strings of copper coins",
+      "kind": "asset",
+      "sha256": "70db97c3508baa83b3c088d6694d92c20e59d640e14cd8c5f36330bd97c01a49"
+    }
+  ],
+  "prompt": "A complete 30-second narrative segment, 16:9, sculpted Chinese 3D animated feature style. Woven cloth, dimensional faces, cohesive sculpted hair, restrained wood and bronze. Natural Mandarin dialogue with lip synchronization, footsteps, water and cloth sounds. Each timeline interval is an action beat. Camera cuts follow the CAMERA PLAN; continuous takes carry successive beats through one moving camera. Begin by matching the opening composition in @Image1. Reference portraits define identity and clothing; the current action defines pose and placement. Technical diagrams define mechanical connections translated into the scene materials. Paper surfaces stay suitable for later Chinese typography.\nREFERENCE ROLES:\n@Image1: opening intact copper plug, right bandaged palm and awl point.\n@Image2: Lu Zhao begins in dry teal clothes, intact left shoulder, bandaged RIGHT palm.\n@Image3: Ge Ya 葛牙 brown hood and short hair identity.\n@Image4: Ali 阿砾 blue clothing.\n@Image5: Wen Xi 闻溪 mint clothing.\n@Image6: water-trough owner 水槽货主 in beige and green apron.\n@Image7: house door LEFT, net rack RIGHT, stone gutter lower right.\n@Image8: wood rail and upper-tied net with loose heavy lower corner.\n@Image9: Ge Ya short knife.\n@Image10: one ordinary short black awl with old hemp-wrapped grip.\n@Image11: detached brown hood after the final body pin.\n@Image12: intact lunch bowl on low door stand.\n@Image13: small purse and tied strings of copper coins.\n摄影约束：全片恰好三个摄影镜头：0–2秒铜塞局部，2–4秒付钱，4–30秒为同一台摄影机连续拍完的26秒长镜。战斗中的每一个时间段都是这一条长镜里的连续动作。摄影机依次横移、前移、稍降及小幅绕行，保持真实连续的空间视差和运动。Three camera shots total; the third is one uninterrupted 26-second take from 4s through 30s. Within that take, close observations happen through a continuous camera glide.\nCAMERA PLAN: At 0s show the copper plug hand detail. At 2s sound-bridge the water into a payment cut. At 4s cut to the spatial wide view with the house door on the left and net rack on the right. From 4s to 30s the entire confrontation is one uninterrupted tracking take on the same side of the door-to-net axis. Move sideways for the hostage handover, follow Lu Zhao backward toward the door and then rightward toward the rack. Lower continuously for the mesh catching the knife and maintain a three-quarter side angle that reveals both hands: drive the awl through folded mesh and rail, release the planted awl, press Ge Ya RIGHT elbow with Lu Zhao LEFT palm, bend Ge Ya RIGHT wrist, take the knife, push it inward to slacken mesh, slide it clear and drop it into the lower-right gutter. Maintain visible continuity through Ge Ya left punch and Lu Zhao right hand catching that left wrist. Arc gently on the same side of the axis. End with Lu Zhao uninjured right shoulder pinning Ge Ya to the post, both wrists controlled and the detached hood on the ground.\nTIMELINE:\n[0–2s] Clean plain upper-left space for later typography. Lu Zhao's bandaged hand already holds the original slender hemp-handled awl against the copper plug. Then one straight push opens it and clear water falls into the bucket; the slender hemp-handled awl withdraws along its entry path as the water sound bridges to the next shot.\n[2–4s] Cut to payment time: the original slender hemp-handled awl is already sheathed at Lu Zhao's belt as the trough owner places sixty copper coins in his hand. Then he pockets the coins and reaches toward lunch on the low stand; Wen Xi stops outside and looks past his shoulder.\n[2.1–3.3s] 水槽货主, visible speaker with synchronized lips, says exactly in Mandarin: “六十铜。”\n[4–8s] Ge Ya at screen right twists Ali's right arm and holds a short wood-handled short knife against his ribs. Lu Zhao and his sister's door remain at screen left. Then Ge Ya shoves Ali half a step forward and calls Lu Zhao, while Wen Xi moves within reach to receive Ali.\n[4.3–6.5s] 葛牙, visible speaker with synchronized lips, says exactly in Mandarin: “照子，跟我走。”\n[8–10s] Lu Zhao sets the lunch bowl firmly on the low stand by the door. Then he takes two steps toward Ge Ya with his hands away from the sheathed slender hemp-handled awl and stops where Wen Xi can receive Ali.\n[8.2–9.5s] 陆照, visible speaker with synchronized lips, says exactly in Mandarin: “先放他。”\n[10–13.5s] Ge Ya releases Ali into Wen Xi's arms. Then before Lu Zhao can draw, Ge Ya's wood-handled short knife cuts the cloth at Lu Zhao's left shoulder; Lu Zhao recoils half a step and draws the slender hemp-handled awl with his right hand as blood spreads at the left shoulder.\n[13.5–16.5s] Lu Zhao's retreat puts his sister's door just behind his left shoulder, with crockery audible inside. Then he changes direction and moves right toward the drying net frame, drawing Ge Ya after him as the camera tracks; Wen Xi and Ali remain safely by the left-hand door.\n[16.5–18.5s] The net curtain is tied along the top rail and hangs in a loose wet heap beside Lu Zhao's foot. Then he kicks its loose lower corner over Ge Ya's pursuing wood-handled short knife; the wet mesh wraps the blade while Lu Zhao steps beside the net with his slender hemp-handled awl.\n[18.5–20s] The same continuously moving camera glides nearer to reveal mesh wrapped around the wood-handled short knife spine while Ge Ya grips the handle outside. Then he saws through two strands but the remaining wet net stays wrapped; the folded corner reaches the near wooden rail as Lu Zhao's slender hemp-handled awl enters frame.\n[20–23s] The same camera continuously eases to a three-quarter side angle that includes Lu Zhao's two-handed grip, the folded net corner and the wooden rail, with his injured left shoulder visible. Then he drives the slender hemp-handled awl straight through the folded mesh into and through the rail so the handle traps the corner; Ge Ya's pulling wood-handled short knife draws his wrist toward the now-taut net. Lu Zhao releases the slender hemp-handled awl, leaving it fixed in the rail.\n[23–27s] Ge Ya still grips the wood-handled short knife in his right hand with the net taut. Lu Zhao braces Ge Ya right elbow against the rail with Lu Zhao left palm and bends the wood-handled short knife wrist back with his right hand. Then Ge Ya opens his fingers in pain; Lu Zhao visibly takes the handle, pushes it slightly into the net to slacken the mesh and slides the blade out along its spine. Once the blade clears the mesh he releases it into the established lower-right gutter beside his foot, keeping the elbow pinned with his left palm.\n[27–30s] Lu Zhao's left palm pins Ge Ya's right elbow against the rail; his right hand has just released the wood-handled short knife into the gutter. Then Ge Ya's left fist hits Lu Zhao beside the ear. As the fist retracts, Lu Zhao catches that left wrist with his right hand, folds it across Ge Ya's chest and turns his body and uninjured right shoulder to wedge Ge Ya against the post, controlling both arms. Ge Ya's hood catches the rail and falls.\nRIGHT palm is bandaged throughout. LEFT shoulder cloth begins intact, gets cut during 10–13.5s and retains that small wound afterward. The uninjured RIGHT shoulder performs the final body pin. Awl sheath is palm-sized at waist.\n动作连续性：陆照左肩衣料在10秒前完整，挨刀后才出现同一处小伤。短刀是葛牙手里的木柄宽刃，原锥是陆照的一支麻绳柄细尖工具，两个器型严格区分。原锥离开腰鞘后，鞘口保持空；20–23秒双手将原锥直刺穿折起网角和木栏后，原锥固定留在木栏内，双手放开它再夺刀。23–27秒左掌压葛牙右肘、右手折右腕，接刀、回送松网、顺刃退出、落右下石沟依次连续发生。最后两人保持相向：葛牙背部贴立柱，陆照用自己的右肩抵葛牙胸前，把他压实在柱上；左掌仍控其右肘，右手抓其左腕折在胸前。双人的手臂控制点保持在胸口以下，右肩抵胸是明确的最终接触点。The final continuous camera view shows Ge Ya back against the post and Lu Zhao facing him, Lu Zhao RIGHT shoulder pressing Ge Ya upper chest into the post, hands maintaining the stated elbow and wrist control. All contact positions remain visible through the final frame.\nThe original awl stays a single small hemp-handled tool. All characters preserve their reference identities across camera movements. End at the last specified action state at 30 seconds.",
+  "request_sha256": "4b37e2a12da514b8761b66e290a87e2535c23b940005618e9aa1399cb403cf66",
+  "status": "generated_pending_visual_and_dialogue_check",
+  "video_sha256": "92d563d03a72fc225e220fa82e93fbe68a092114393dca686721631ecd6cffce",
+  "duration": 30.041667,
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001e",
+        "width": 854,
+        "height": 480,
+        "coded_width": 854,
+        "coded_height": 480,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 30,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 369152,
+        "duration": "30.041667",
+        "bit_rate": "6255235",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "721",
+        "extradata_size": 44,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "32000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/32000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 958464,
+        "duration": "29.952000",
+        "bit_rate": "194065",
+        "nb_frames": "937",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP003_A/take_02_480p.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "30.041667",
+      "size": "24240792",
+      "bit_rate": "6455245",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41"
+      }
+    }
+  },
+  "completed_at": 1789437925.872836
+}

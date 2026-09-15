@@ -1,0 +1,17 @@
+{
+  "id": "EP001_A_COPPER",
+  "request_sha256": "92de6548542954b3a4de88d04e5ea5dab5d8664bb89ec6e977bc25be90a30362",
+  "spec_sha256": "ccaa98c38ef5adf635464df44184a361b2b72cbd240c41c36bee413f87b33914",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/铜销_完好/ref_v02.jpg": "53f2c1bbb4039ea40ecbc01ad39951e90758b75a8ad2175d7e04baca16b0b07b",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+  },
+  "image_sha256": "0603e642551682777f22c9e4517e8256c9a2e144e01bd8622969f52e7fdc98e5",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "首集局部状态细修.json",
+  "visual_status": "pending_inspection"
+}

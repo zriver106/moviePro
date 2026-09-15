@@ -1,0 +1,18 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_B_FLASH_HANDS",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "output": "段落首帧/EP002_B_FLASH/hand_state_v01.jpg",
+      "seed": 955031,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "prompt": "A clearly stylized sculpted Chinese 3D animation HAND PROP STUDY, smooth shaped polygonal animation surfaces, simplified skin like an animated feature maquette, neutral dark blue background. Frame consists of exactly THREE hands and one small hemp-handled black awl matching the reference. The young man RIGHT bare hand grips the hemp handle, his LEFT bare hand supports underneath it. BOTH young palms and wrists show uncovered smooth natural skin all the way to the black cloth sleeve cuffs. A slender elderly RIGHT hand wearing a RED wrist strip rests gently across the young gripping knuckles. All fingers are separate and countable, exactly five fingers per hand, natural joints. The small awl is about one palm-and-finger length overall, its black point projects toward picture left away from the hands. Composition isolates the three hands and their forearms; plain background fills the rest. This is a stylized animation prop-contact diagram with clear simple shapes and sculpted smooth shading."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "EP002_A_OPEN",
+  "request_sha256": "58732d4902ce9cc74fe9ea019c1d93671d611a727ff4a9db09f997dd3d7b1c54",
+  "spec_sha256": "81fe0cfeac78a088f378c67a393b93a624b52e1b7b30b7ff0ccc464db643b9f5",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/复用/铜轮柄_01.jpg": "0318faba8d8f8a07887875733cadfcc8070341bb8ce81be2ae94077151ad1b99",
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea",
+    "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg": "79a431cdef091f96148efae5940cc7b142609efd9d62b0446e47c1acc55cde50"
+  },
+  "image_sha256": "b02ed6a3e1557fc7504ea750acf9aa246c1f3a2fd58e99fe896e74d0da6ba404",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "取柄局部重构.json",
+  "visual_status": "pending_inspection"
+}

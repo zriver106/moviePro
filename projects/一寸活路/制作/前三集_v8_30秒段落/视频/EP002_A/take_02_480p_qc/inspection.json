@@ -1,0 +1,359 @@
+{
+  "video": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP002_A/take_02_480p.mp4",
+  "video_sha256": "82f88ab67c7b3f468f9cb5043654324607bd72091765c342fe11c41b1570003b",
+  "duration": 30.08,
+  "audio_streams": 1,
+  "technical_duration_pass": true,
+  "content_status": "pending_human_visual_and_dialogue_review",
+  "contact_sheets": [
+    "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP002_A/take_02_480p_qc/contact_00.jpg",
+    "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP002_A/take_02_480p_qc/contact_16.jpg"
+  ],
+  "expected_dialogue": [
+    {
+      "speaker": "守船人",
+      "text": "封舱！谁让出来的？",
+      "off_screen": false,
+      "at": 13.2,
+      "end": 15.8
+    },
+    {
+      "speaker": "岑鹿",
+      "text": "活人我保。封舱损单，你签。",
+      "off_screen": false,
+      "at": 16.2,
+      "end": 19.6
+    },
+    {
+      "speaker": "闻溪",
+      "text": "他封的门。",
+      "off_screen": false,
+      "at": 20.2,
+      "end": 21.6
+    },
+    {
+      "speaker": "守船人",
+      "text": "带去问话。",
+      "off_screen": false,
+      "at": 21.9,
+      "end": 23.4
+    },
+    {
+      "speaker": "岑鹿",
+      "text": "二百四十。你的工钱。",
+      "off_screen": false,
+      "at": 24.3,
+      "end": 27
+    }
+  ],
+  "expected_camera": {
+    "cn": "0–3秒接前集环境声，侧拍摘麻铎轮柄；3秒跟进北门拍装柄止水；7秒切低位退水栓；10秒明确省略到水线下降并取铜片；13秒切梯口拦截，13–20秒保持同场连续侧移，从守卫转到岑鹿保单，收棍时结束。20秒省略核货转押解；24秒切秤和付工钱；28秒省略药已涂好，2秒拍掌布最后一圈及推药钱。",
+    "en": "Carry the previous episode breathing and water ambience into a side view of taking Ma Duo crank. At 3s track through the open north door to the bare spindle and shut the inlet. At 7s cut low to the drain stopper. At 10s make a clear elapsed-time cut to the lowered water mark, dry medicine crates and removal of the loosened copper plate. At 13s cut to the ladder interception. From 13s to 20s maintain a continuous side move from the guard blocking Wen Xi to Cen Lu presenting and signing the bond; finish when the pole is lowered. At 20s use an explicit cargo-inspection time ellipsis to custody transfer. At 24s cut to weighing and paying the wage purse. At 28s use a treatment time ellipsis: ointment already applied, then show the final palm-cloth turn and sliding the medical fee over two seconds."
+  },
+  "expected_beats": [
+    {
+      "source_shot": "EP002_SH01",
+      "start": 0,
+      "end": 3,
+      "action_cn": {
+        "start": "接前集阿砾喘息，墙缝仍注水；铜片留在门锁上",
+        "beat": "陆照蹲到麻铎身侧摘下铜轮柄",
+        "end": "麻铎伸不了手，眼看轮柄离开自己的腰"
+      },
+      "action_en": "Continue Ali's breath as water still enters through a wall gap; the pierced copper plate stays on the door. Then Lu Zhao crouches beside the soaked bound Ma Duo and unhooks the bronze crank from his belt; Ma Duo strains helplessly as it is taken away.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "麻铎伸不了手，眼看轮柄离开自己的腰"
+    },
+    {
+      "source_shot": "EP002_SH02",
+      "start": 3,
+      "end": 7,
+      "action_cn": {
+        "start": "穿过已打开的北门，空轮轴与陆照手中轮柄同框",
+        "beat": "轮柄插到轴底，他握柄向下压至止点",
+        "end": "墙缝水流断成滴；轮柄留在轴上"
+      },
+      "action_en": "Inside the opened north room, the empty valve spindle and the bronze crank in Lu Zhao's hands share the frame. Then he seats the crank fully and presses it to its stop; incoming wall flow stops and falls to drops, with the crank remaining on the spindle.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "墙缝水流断成滴；轮柄留在轴上"
+    },
+    {
+      "source_shot": "EP002_SH03",
+      "start": 7,
+      "end": 10,
+      "action_cn": {
+        "start": "低机位同框退水栓、浅水与向外河下倾的沟口",
+        "beat": "陆照提起栓，水奔入旁沟",
+        "end": "镜尾水面露出原被淹的木板角"
+      },
+      "action_en": "Low close detail shows the drain plug, shallow water and channel sloping toward the low-tide outer river. Then Lu Zhao lifts the plug and water drains along the channel, exposing a corner of submerged planking.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "镜尾水面露出原被淹的木板角"
+    },
+    {
+      "source_shot": "EP002_SH04",
+      "start": 10,
+      "end": 13,
+      "action_cn": {
+        "start": "时间省略硬切：水线已降到陆照先前划印以下两指；三名获救者沿修台走向南梯",
+        "beat": "镜头从原有箱隙看见高处第三层干药箱，前两箱外皮湿、后箱干燥",
+        "end": "闻溪经过敞门，掰下已经松脱的铜片，塞进陆照腰袋"
+      },
+      "action_en": "Elliptical cut: water now lies two fingers below Lu Zhao's earlier scratch mark while the three survivors walk along the ledge. Dry third-tier medicine crates are visible through an existing gap behind two wet crates. Then Wen Xi removes the already loose copper plate from the open lock as she passes and slips it into Lu Zhao's belt pouch.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "闻溪经过敞门，掰下已经松脱的铜片，塞进陆照腰袋"
+    },
+    {
+      "source_shot": "EP002_SH05",
+      "start": 13,
+      "end": 16,
+      "action_cn": {
+        "start": "闻溪带老人、阿砾已到梯口；陆照牵麻铎在后，麻铎脚索已解除、腕仍缚",
+        "beat": "守船人横棍截住最前面的闻溪",
+        "end": "岑鹿手持保单进入画面，棍前停下"
+      },
+      "action_en": "At the hatch, Wen Xi leads Ali and the grey-bearded worker; Lu Zhao follows holding Ma Duo's wrist tether, with his ankle rope removed after the time cut. A guard bars the hatch with a pole. Then merchant Cen Lu enters holding a cargo bond and stops before the pole.",
+      "lines": [
+        {
+          "speaker": "守船人",
+          "text": "封舱！谁让出来的？",
+          "off_screen": false,
+          "at": 13.2,
+          "end": 15.8
+        }
+      ],
+      "on_screen_text": [],
+      "continuity_out": "岑鹿手持保单进入画面，棍前停下"
+    },
+    {
+      "source_shot": "EP002_SH06",
+      "start": 16,
+      "end": 20,
+      "action_cn": {
+        "start": "岑鹿将保单压在横棍上，签名担保三名活人；守船人低头看她的名字",
+        "beat": "她手指从自己的签名移到空着的封舱签责栏",
+        "end": "守船人收棍，示意同伴下梯核货并听获救者说话"
+      },
+      "action_en": "Cen Lu presses her cargo bond against the blocking pole and signs to guarantee the three survivors. The guard reads her name. Then she moves her finger from her signature to the empty responsibility box for the sealed hold; he lowers the pole and signals his colleague to inspect the cargo and hear the survivors.",
+      "lines": [
+        {
+          "speaker": "岑鹿",
+          "text": "活人我保。封舱损单，你签。",
+          "off_screen": false,
+          "at": 16.2,
+          "end": 19.6
+        }
+      ],
+      "on_screen_text": [],
+      "continuity_out": "守船人收棍，示意同伴下梯核货并听获救者说话"
+    },
+    {
+      "source_shot": "EP002_SH07",
+      "start": 20,
+      "end": 24,
+      "action_cn": {
+        "start": "省略核货耗时：守船人已确认干药箱，在三名获救者面前接过麻铎腕绳；麻铎和陆照都在侧边",
+        "beat": "闻溪指认麻铎，守船人让同伴带他去问话",
+        "end": "麻铎回头看三名活人，押解人将他带出画面"
+      },
+      "action_en": "After the cargo inspection time cut, the guard takes Ma Duo's wrist tether in front of all three survivors, with Lu Zhao at the side. Then Wen Xi identifies Ma Duo as the man who sealed them in and the guard orders his colleague to take him for questioning. Ma Duo looks back at the living witnesses as he is led out of frame.",
+      "lines": [
+        {
+          "speaker": "闻溪",
+          "text": "他封的门。",
+          "off_screen": false,
+          "at": 20.2,
+          "end": 21.6
+        },
+        {
+          "speaker": "守船人",
+          "text": "带去问话。",
+          "off_screen": false,
+          "at": 21.9,
+          "end": 23.4
+        }
+      ],
+      "on_screen_text": [],
+      "continuity_out": "麻铎回头看三名活人，押解人将他带出画面"
+    },
+    {
+      "source_shot": "EP002_SH08",
+      "start": 24,
+      "end": 28,
+      "action_cn": {
+        "start": "岑鹿在秤上核足钱袋，秤旁结工纸后期贴“救货工钱240铜”",
+        "beat": "她把钱袋放进陆照掌心，重量把他的手压低",
+        "end": "陆照攥紧袋口，抬头看她，岑鹿已转去指挥搬货"
+      },
+      "action_en": "Cen Lu finishes weighing a purse next to a blank payment slip for post-composited 240-copper salvage wages. Then she places the heavy purse in Lu Zhao's hand; it drops under the weight, he tightens his grip and looks up as she turns to direct the cargo workers.",
+      "lines": [
+        {
+          "speaker": "岑鹿",
+          "text": "二百四十。你的工钱。",
+          "off_screen": false,
+          "at": 24.3,
+          "end": 27
+        }
+      ],
+      "on_screen_text": [
+        {
+          "text": "救货工钱 240铜",
+          "method": "post_composite",
+          "placement": "秤旁结工纸",
+          "generation_surface": "blank"
+        }
+      ],
+      "continuity_out": "陆照攥紧袋口，抬头看她，岑鹿已转去指挥搬货"
+    },
+    {
+      "source_shot": "EP002_SH09",
+      "start": 28,
+      "end": 30.0,
+      "action_cn": {
+        "start": "时间省略：药已涂好，掌心药布只剩最后一圈；药钱已放在桌边",
+        "beat": "闻溪收紧布尾，陆照另一手将药钱推近",
+        "end": "闻溪抬眼点头，陆照收回包扎手"
+      },
+      "action_en": "A treatment time cut: ointment has been applied and only the final bandage turn remains, with the dressing fee already on the table. Then Wen Xi tucks the cloth tail while Lu Zhao slides the fee closer; she looks up and nods as he withdraws the dressed hand.",
+      "lines": [],
+      "on_screen_text": [],
+      "continuity_out": "闻溪抬眼点头，陆照收回包扎手"
+    }
+  ],
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001e",
+        "width": 854,
+        "height": 480,
+        "coded_width": 854,
+        "coded_height": 480,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 30,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 369152,
+        "duration": "30.041667",
+        "bit_rate": "4156999",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "721",
+        "extradata_size": 44,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "32000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/32000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 962560,
+        "duration": "30.080000",
+        "bit_rate": "193945",
+        "nb_frames": "941",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/andy/moviePro/projects/一寸活路/制作/前三集_v8_30秒段落/视频/EP002_A/take_02_480p.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "30.080000",
+      "size": "16364306",
+      "bit_rate": "4352209",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41"
+      }
+    }
+  }
+}

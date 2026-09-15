@@ -1,6 +1,6 @@
 {
   "active_version": "前三集_v8_30秒段落",
-  "stage": "30秒段落生成与验收",
+  "stage": "候选未通过，制作待修正",
   "style": "Seedream立体国漫定妆_v8",
   "video_model": "Seedance 2.5 reference-to-video",
   "initial_resolution": "480p",
@@ -35,12 +35,46 @@
     {
       "id": "EP001_A",
       "seconds_planned": 30,
-      "seconds_actual": null,
-      "generation_status": "submitted",
-      "visual_status": "pending",
+      "seconds_actual": 30.08,
+      "generation_status": "generated_pending_visual_and_dialogue_check",
+      "visual_status": "rejected",
+      "blocking_issues": [
+        {
+          "time": "11–14",
+          "finding": "推锥触点生成木门铁横条，随后出现孔洞；未保持铜片左半第一次浅凹失败的因果"
+        },
+        {
+          "time": "15–27",
+          "finding": "麻铎保持画右、陆照画左，两人在低处水中对峙，未落实已审空间与陆照高台位置"
+        },
+        {
+          "time": "23–24",
+          "finding": "坠石在上方台面静置，未显示悬石及下方15厘米承台间隙，机关受力状态不可接续"
+        },
+        {
+          "time": "19、23、28–30",
+          "finding": "连续对峙分成独立机关特写和动作特写，未完成12.5–30秒的一条连续长镜"
+        }
+      ],
+      "history": [
+        {
+          "take": 1,
+          "generation_status": "generated_pending_visual_and_dialogue_check",
+          "visual_status": "rejected",
+          "video": "制作/前三集_v8_30秒段落/视频/EP001_A/take_01_480p.mp4",
+          "qa": "制作/前三集_v8_30秒段落/视频/EP001_A/take_01_480p.验收.json"
+        },
+        {
+          "take": 2,
+          "generation_status": "generated_pending_visual_and_dialogue_check",
+          "visual_status": "rejected",
+          "video": "制作/前三集_v8_30秒段落/视频/EP001_A/take_02_480p.mp4",
+          "qa": "制作/前三集_v8_30秒段落/视频/EP001_A/take_02_480p.验收.json"
+        }
+      ],
       "references_ready": true,
       "missing_references": [],
-      "video": null
+      "video": "制作/前三集_v8_30秒段落/视频/EP001_A/take_02_480p.mp4"
     },
     {
       "id": "EP001_B",
@@ -48,6 +82,8 @@
       "seconds_actual": null,
       "generation_status": "not_submitted",
       "visual_status": "pending",
+      "blocking_issues": [],
+      "history": [],
       "references_ready": false,
       "missing_references": [
         "制作/前三集_v8_30秒段落/参考/EP001_A_end.png"
@@ -57,32 +93,128 @@
     {
       "id": "EP002_A",
       "seconds_planned": 30,
-      "seconds_actual": null,
-      "generation_status": "submitted",
-      "visual_status": "pending",
+      "seconds_actual": 30.08,
+      "generation_status": "generated_pending_visual_and_dialogue_check",
+      "visual_status": "rejected",
+      "blocking_issues": [
+        {
+          "time": "0–27",
+          "finding": "陆照右掌从开场已包药布，提前于28秒包扎；24秒又变裸掌，跨镜状态反复"
+        },
+        {
+          "time": "3–6",
+          "finding": "铜销大板与L形铜轮柄合成一个道具，阀轴器型未保持；开关水动作不可采信"
+        },
+        {
+          "time": "10–13",
+          "finding": "未清楚执行闻溪取下铜销交陆照入袋的动作链"
+        }
+      ],
+      "history": [
+        {
+          "take": 1,
+          "generation_status": "generated_pending_visual_and_dialogue_check",
+          "visual_status": "rejected",
+          "video": "制作/前三集_v8_30秒段落/视频/EP002_A/take_01_480p.mp4",
+          "qa": "制作/前三集_v8_30秒段落/视频/EP002_A/take_01_480p.验收.json"
+        },
+        {
+          "take": 2,
+          "generation_status": "generated_pending_visual_and_dialogue_check",
+          "visual_status": "rejected",
+          "video": "制作/前三集_v8_30秒段落/视频/EP002_A/take_02_480p.mp4",
+          "qa": "制作/前三集_v8_30秒段落/视频/EP002_A/take_02_480p.验收.json"
+        }
+      ],
       "references_ready": true,
       "missing_references": [],
-      "video": null
+      "video": "制作/前三集_v8_30秒段落/视频/EP002_A/take_02_480p.mp4"
     },
     {
       "id": "EP002_B",
       "seconds_planned": 30,
-      "seconds_actual": null,
-      "generation_status": "failed_or_uncertain",
-      "visual_status": "pending",
+      "seconds_actual": 30.08,
+      "generation_status": "generated_pending_visual_and_dialogue_check",
+      "visual_status": "rejected",
+      "blocking_issues": [
+        {
+          "time": "17–25",
+          "finding": "17秒被取走的旧碗是完整碗口；25秒陆照吃饭的碗反而出现明显缺口，换成完整碗的剧情没有成立"
+        }
+      ],
+      "history": [
+        {
+          "take": 1,
+          "generation_status": "generated_pending_visual_and_dialogue_check",
+          "visual_status": "rejected",
+          "video": "制作/前三集_v8_30秒段落/视频/EP002_B/take_01_480p.mp4",
+          "qa": "制作/前三集_v8_30秒段落/视频/EP002_B/take_01_480p.验收.json"
+        },
+        {
+          "take": 2,
+          "generation_status": "failed_or_uncertain",
+          "visual_status": "pending",
+          "video": null,
+          "qa": null
+        },
+        {
+          "take": 3,
+          "generation_status": "generated_pending_visual_and_dialogue_check",
+          "visual_status": "rejected",
+          "video": "制作/前三集_v8_30秒段落/视频/EP002_B/take_03_480p.mp4",
+          "qa": "制作/前三集_v8_30秒段落/视频/EP002_B/take_03_480p.验收.json"
+        },
+        {
+          "take": 4,
+          "generation_status": "generated_pending_visual_and_dialogue_check",
+          "visual_status": "rejected",
+          "video": "制作/前三集_v8_30秒段落/视频/EP002_B/take_04_480p.mp4",
+          "qa": "制作/前三集_v8_30秒段落/视频/EP002_B/take_04_480p.验收.json"
+        }
+      ],
       "references_ready": true,
       "missing_references": [],
-      "video": null
+      "video": "制作/前三集_v8_30秒段落/视频/EP002_B/take_04_480p.mp4"
     },
     {
       "id": "EP003_A",
       "seconds_planned": 30,
-      "seconds_actual": null,
-      "generation_status": "submitted",
-      "visual_status": "pending",
+      "seconds_actual": 30.041667,
+      "generation_status": "generated_pending_visual_and_dialogue_check",
+      "visual_status": "rejected",
+      "blocking_issues": [
+        {
+          "time": "6–11",
+          "finding": "门口出现两个相同薄荷色服装女性，闻溪身份重复"
+        },
+        {
+          "time": "17–19、24",
+          "finding": "打斗进入手部独立构图后回到广景，连续长镜验收未通过；逐秒抽帧不能单独判定所有硬切时点。"
+        },
+        {
+          "time": "17–26",
+          "finding": "刀仍在葛牙手中，旧锥固定网栏和松网取刀落沟动作未完整落实；腰鞘仍露工具柄"
+        }
+      ],
+      "history": [
+        {
+          "take": 1,
+          "generation_status": "generated_pending_visual_and_dialogue_check",
+          "visual_status": "rejected",
+          "video": "制作/前三集_v8_30秒段落/视频/EP003_A/take_01_480p.mp4",
+          "qa": "制作/前三集_v8_30秒段落/视频/EP003_A/take_01_480p.验收.json"
+        },
+        {
+          "take": 2,
+          "generation_status": "generated_pending_visual_and_dialogue_check",
+          "visual_status": "rejected",
+          "video": "制作/前三集_v8_30秒段落/视频/EP003_A/take_02_480p.mp4",
+          "qa": "制作/前三集_v8_30秒段落/视频/EP003_A/take_02_480p.验收.json"
+        }
+      ],
       "references_ready": true,
       "missing_references": [],
-      "video": null
+      "video": "制作/前三集_v8_30秒段落/视频/EP003_A/take_02_480p.mp4"
     },
     {
       "id": "EP003_B",
@@ -90,6 +222,8 @@
       "seconds_actual": null,
       "generation_status": "not_submitted",
       "visual_status": "pending",
+      "blocking_issues": [],
+      "history": [],
       "references_ready": false,
       "missing_references": [
         "制作/前三集_v8_30秒段落/参考/EP003_A_end.png"
@@ -99,5 +233,7 @@
   ],
   "delivery_ready": false,
   "rating_scope": "剧本、分镜及直接改变剧情的规划须独立评级；资产ID、技术引用和忠实修正不单独评级",
-  "historical_resource_status": "制作/前三集_v8_30秒段落/历史逐镜制作状态.json"
+  "historical_resource_status": "制作/前三集_v8_30秒段落/历史逐镜制作状态.json",
+  "accepted_segments": 0,
+  "generated_candidates": 9
 }
