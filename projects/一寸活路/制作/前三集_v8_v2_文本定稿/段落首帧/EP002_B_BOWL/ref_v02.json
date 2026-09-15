@@ -1,0 +1,16 @@
+{
+  "id": "EP002_B_BOWL",
+  "request_sha256": "b181ede0b004992677f648cac45470bcb41a58a982371400498704652def67e0",
+  "spec_sha256": "49f93eb8d62ea5dfe795b2e3aa23c32c6cfe9e673e9501ea8194af0b30862dac",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/ref_v01.jpg": "58024982ec2f365301620b3636c9288e08d20c813edce762287bee8e85f383dd"
+  },
+  "image_sha256": "cdb92941e255e5c1c84d28a85855ef6f1d06e91cf2f0aae2b953bf668578e63b",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "样片状态细修.json",
+  "visual_status": "pending_inspection"
+}

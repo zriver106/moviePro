@@ -305,6 +305,16 @@
       "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg",
       "role": "small purse and tied strings of copper coins",
       "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_FLASH/ref_v02.jpg",
+      "kind": "state_detail",
+      "role": "Flashback state at 5–10s: young Lu Zhao bare palms holding the original small awl, gaunt clean-shaven elder RIGHT red wrist covering his knuckles. Use this bare-hand state throughout the flashback."
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/bowl_detail.jpg",
+      "kind": "state_detail",
+      "role": "Bowl-exchange detail at 13–18s: sister lifts the chipped empty bowl away, then gives the intact full bowl in her other hand to Lu Zhao bandaged RIGHT palm. Sister own full bowl remains at the left. This detail defines hand/prop contact within the ongoing continuous home camera move."
     }
   ],
   "EP003_A": [

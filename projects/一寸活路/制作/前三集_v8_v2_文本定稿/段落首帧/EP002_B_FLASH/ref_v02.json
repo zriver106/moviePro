@@ -1,0 +1,17 @@
+{
+  "id": "EP002_B_FLASH",
+  "request_sha256": "eafa0bd9be8c9e1049abc183656b855a2c6842a60c9efec8bb6497120cb8c516",
+  "spec_sha256": "49f93eb8d62ea5dfe795b2e3aa23c32c6cfe9e673e9501ea8194af0b30862dac",
+  "refs_sha256": {
+    "制作/前三集_v8_30秒段落/视频/EP002_B/take_01_480p_qc/09.jpg": "dcae2ff8d205862e521547b1671c2f690c5288543d115ac4025b40ca54a9bc92",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+  },
+  "image_sha256": "c71636c5ca0736cf37cf11caf89cdc665a6659132b0a58ed359be1eeb570b6e8",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "样片状态细修.json",
+  "visual_status": "pending_inspection"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "EP002_B_BOWL",
+  "request_sha256": "feb2102c806bc0b296f531aeab6613eafd9757163c4faab7ac6c9d348afc97db",
+  "spec_sha256": "17b09ed66cb33c293a275e8bb9ac5575aaf9e5b0a8ba3bf28e20b558178010d0",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/repair_v03.jpg": "da41d3a3084ac4e3ea84eb60682803141e1a4bd0bb08a3a14f469bd85f54927f",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg": "06284023eadc1c447de50e0fdf1ee8eb8203bf3ab4ccaf131943b3eba2e99e79",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg": "c33bd6505ec57eefc0b4c3426fea31bd37d635bdbe060136a2bd99dbab83a423",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/双碗_01.jpg": "8cacca7f9a3aad89634b0a2c0f6b0e77bb29d33b141d15af58207b5c0048e6cc",
+    "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg": "603e830fa960a300d91ffda91b3bdd7bac766f20ecd92ccd2110b90423612b18",
+    "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg": "70db97c3508baa83b3c088d6694d92c20e59d640e14cd8c5f36330bd97c01a49"
+  },
+  "image_sha256": "58024982ec2f365301620b3636c9288e08d20c813edce762287bee8e85f383dd",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "样片状态修正.json",
+  "visual_status": "pending_inspection"
+}

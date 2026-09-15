@@ -1,0 +1,86 @@
+{
+  "reviewer": "Codex visual inspection",
+  "scope": "本轮段落首帧与几何参考；不改变原剧情",
+  "results": [
+    {
+      "path": "../前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/repair_v04.jpg",
+      "status": "rejected",
+      "reason": "棘爪仍指向轴心、卷筒与索圈连接不清；改用受力结构技术图限定连接，非最终场景首帧"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/资产/铜销_穿孔/repair_v04.jpg",
+      "status": "rejected",
+      "reason": "左浅凹看成第二孔"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/资产/铜销_穿孔/repair_v05.jpg",
+      "status": "rejected",
+      "reason": "左凹有铜底但尺寸过大"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/段落首帧/铜销_浅凹微缩/ref_v01.jpg",
+      "status": "accepted_reference",
+      "reason": "左浅凹铜底、右方孔和同一器型可辨；仅状态材质参考，不宣称毫米级尺寸测量"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v01.jpg",
+      "status": "rejected",
+      "reason": "两臂分开，绑腕位置错误"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v02.jpg",
+      "status": "rejected",
+      "reason": "只明确显示单侧腕，不能证明双腕同柱"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v03.jpg",
+      "status": "rejected",
+      "reason": "只抬起单手，未落实双腕成对绑缚"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v04.jpg",
+      "status": "accepted_reference",
+      "reason": "同侧取柄局部构图，铜柄尚连腰钩、陆照裸手持柄；完整双腕位于画外，绑缚按原分镜限定"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/段落首帧/EP002_B_OPEN/ref_v01.jpg",
+      "status": "accepted_reference",
+      "reason": "右掌药布、唯一旧锥、新空鞘，能从收锥前状态起动"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/段落首帧/EP003_A_OPEN/ref_v01.jpg",
+      "status": "rejected",
+      "reason": "开场铜塞已开孔，与一推即穿的起始状态冲突"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/段落首帧/EP003_A_OPEN/ref_v02.jpg",
+      "status": "accepted_reference",
+      "reason": "铜面完整、锥尖抵铜、右掌药布，符合穿刺前状态"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/段落首帧/EP002_B_FLASH/ref_v01.jpg",
+      "status": "rejected",
+      "reason": "老人长出胡须、原锥过大，闪回身份与器型不符"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/段落首帧/EP002_B_FLASH/ref_v02.jpg",
+      "status": "accepted_reference",
+      "reason": "用样片9秒图修正裸掌及持锥，保留老人无须脸和右红腕"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/ref_v01.jpg",
+      "status": "rejected",
+      "reason": "出现第四只碗"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/ref_v02.jpg",
+      "status": "partial_reference",
+      "reason": "三碗和换碗关系已修正，但完整图腰鞘仍有尖端；不采用完整图"
+    },
+    {
+      "path": "../前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/bowl_detail.jpg",
+      "status": "accepted_reference",
+      "reason": "提取实际三碗与双人手部范围，作为换碗道具接触关系参考"
+    }
+  ]
+}

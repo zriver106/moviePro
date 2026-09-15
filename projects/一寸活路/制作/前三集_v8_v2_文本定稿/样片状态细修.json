@@ -1,0 +1,32 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_B_FLASH",
+      "refs": [
+        "制作/前三集_v8_30秒段落/视频/EP002_B/take_01_480p_qc/09.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "output": "段落首帧/EP002_B_FLASH/ref_v02.jpg",
+      "seed": 955011,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "prompt": "Edit image1 preserving its composition, faces, gaunt clean-shaven elder, elder red RIGHT wrist strip, boat background and young chest wound. The young man BOTH wrists and palms are exposed natural bare skin between his black sleeve cuffs and fingertips. Replace the pale wrap on his hand beneath the elder hand with matching young bare skin. Put the original small hemp-gripped awl from image2 into the young man hand beneath the elder hand. His fingers encircle the grip and the elder palm covers his knuckles. The short black awl tip extends sideways a little beyond the held grip, away from their bodies. Keep the entire tool palm-sized, about 18cm in total. The elder face retains exposed clean-shaven chin skin."
+    },
+    {
+      "id": "EP002_B_BOWL",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/ref_v01.jpg"
+      ],
+      "output": "段落首帧/EP002_B_BOWL/ref_v02.jpg",
+      "seed": 955012,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "prompt": "Keep this scene and faces. Replace the LARGE EMPTY INTACT BOWL in front of the young man at picture right with continuous bare wooden tabletop. Keep exactly THREE bowls: the small CHIPPED EMPTY bowl near center, the full intact bowl in sister right hand, and her full intact bowl at left table edge. Move sister left fingertips to grip the rim of the CHIPPED center bowl, ready to take it away; the young bandaged right hand reaches toward this same chipped bowl. At the young man waist, the sheath opening shows a short blunt hemp-wrapped awl HANDLE, with the metal point concealed inside leather. Preserve right-palm bandage and scene arrangement."
+    }
+  ]
+}

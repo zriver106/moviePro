@@ -1,5 +1,6 @@
 """30秒付费入口：版本、视觉参考及防重复扣费保护；全部离线。"""
 import json
+import fcntl
 from pathlib import Path
 import sys
 import tempfile
@@ -30,6 +31,13 @@ class Video30Gates(unittest.TestCase):
         with patch.object(v,'build',return_value={'request_sha256':'same'}),patch.object(v.provider,'video') as paid:
             with self.assertRaisesRegex(ValueError,'禁止自动重复扣费'):v.run('EP002_B')
             paid.assert_not_called()
+    def test_parallel_process_lock_blocks_before_paid_call(self):
+        folder=self.root/'视频/EP002_B';folder.mkdir(parents=True)
+        with (folder/'take_01_480p.lock').open('a') as lock:
+            fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+            with patch.object(v,'build') as build,patch.object(v.provider,'video') as paid:
+                with self.assertRaisesRegex(ValueError,'另一进程'):v.run('EP002_B')
+                build.assert_not_called();paid.assert_not_called()
     def test_exact_plan_source_gate_passes_on_real_files(self):
         self.patch.stop()
         try:

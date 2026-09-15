@@ -1,0 +1,19 @@
+{
+  "id": "EP002_B_FLASH",
+  "request_sha256": "49bbcab367d987ecff7ca33a1b011fbb713a096671b62e0f4cc856a6ad2fa08f",
+  "spec_sha256": "17b09ed66cb33c293a275e8bb9ac5575aaf9e5b0a8ba3bf28e20b558178010d0",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/repair_v03.jpg": "73270676c95e6aebe38fcbfc3a3df422079e321d81ec70af648e19cbd32b10ca",
+    "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg": "3c90442e53173653b7f3e229f006afff4831205b3d2ee40bd285f99a25654183",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/废船_01.jpg": "d2986c8844344df704dd57629f5c2610ee9952b35e201ac25313f5f07bcf0a51",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+  },
+  "image_sha256": "730064f6a9331b8715c49da2454668809a06dc4eedc139dd54eea40ab387ed18",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "样片状态修正.json",
+  "visual_status": "pending_inspection"
+}

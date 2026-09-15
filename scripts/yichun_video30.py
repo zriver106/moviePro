@@ -2,6 +2,7 @@
 """一寸活路：每次请求一个完整30秒段落，保留正文/分段外评及实际图片门禁。"""
 import argparse
 import concurrent.futures
+import fcntl
 import hashlib
 import json
 import re
@@ -67,9 +68,15 @@ def compile_prompt(s,refs):
     lines=['A complete 30-second narrative segment, 16:9, sculpted Chinese 3D animated feature style. Woven cloth, dimensional faces, cohesive sculpted hair, restrained wood and bronze. Natural Mandarin dialogue with lip synchronization, footsteps, water and cloth sounds. Each timeline interval is an action beat. Camera cuts follow the CAMERA PLAN; continuous takes carry successive beats through one moving camera. Begin by matching the opening composition in @Image1. Reference portraits define identity and clothing; the current action defines pose and placement. Technical diagrams define mechanical connections translated into the scene materials. Paper surfaces stay suitable for later Chinese typography.',
            'REFERENCE ROLES:']
     lines += [f'@Image{i+1}: {r["role"]}.' for i,r in enumerate(refs)]
-    lines += ['CAMERA PLAN: '+s['camera_plan']['en'],'TIMELINE:']
+    camera=s['camera_plan']['en']
+    if s['id']=='EP002_B':
+        camera=camera.replace('cooler light and the clear time caption three months earlier','cooler light and clean plain upper-left space for later typography')
+    lines += ['CAMERA PLAN: '+camera,'TIMELINE:']
     for b in s['timeline']:
         action=re.sub(r'\bonly\b','just',b['action_en'],flags=re.I)
+        if s['id']=='EP002_B':
+            action=action.replace('with a post-composited three-months-earlier caption','with clean plain upper-left space')
+            action=action.replace('a familiar repaired bow and the post-composited three-thousand-copper price are visible','a familiar repair patch on the forward hull of the small wooden boat is visible, with plain paper space for later typography')
         lines.append(f'[{b["start"]:g}–{b["end"]:g}s] '+action)
         if b.get('bridge_action_en'):lines.append(b['bridge_action_en'])
         for l in b['lines']:
@@ -83,6 +90,8 @@ def compile_prompt(s,refs):
         'EP003_A':'RIGHT palm is bandaged throughout. LEFT shoulder cloth begins intact, gets cut during 10–13.5s and retains that small wound afterward. The uninjured RIGHT shoulder performs the final body pin. Awl sheath is palm-sized at waist.',
         'EP003_B':'RIGHT palm remains bandaged. The anatomical LEFT shoulder wound receives a dressing at 9–13s and retains it afterward. The uninjured RIGHT shoulder performs the opening body pin. The original awl is retrieved at 7–9s and then stays sheathed at waist.'}
     lines.append(states[s['id']])
+    if s['id']=='EP002_B':
+        lines.append('VISIBLE CONTINUITY: During the flashback both young palms and wrists show uncovered natural skin. The elder red wrist strip belongs to the elder. Lu Zhao holds the one original awl and the elder rests his hand upon that awl hand. In the dusk home, the RIGHT palm cloth visibly wraps the palm and wrist. The chipped bowl has a large visible missing-rim notch. Lu He lifts that chipped bowl away before handing over the intact full bowl; show these two separate bowls exchanging places clearly in the existing 13–18s continuous action. The boat notice lies flat on the table as specified, showing a wooden boat hull and its repair patch. Keep all picture lettering areas plain. Each spoken line begins and finishes inside its specified time window, at a natural brisk Mandarin pace. The elder articulates 痕永不消，能一直添 clearly; the final 陆照 word is 挣, pronounced zhèng. Finish that final word by 29s and hold the final action state through 30s.')
     lines.append('The original awl stays a single small hemp-handled tool. All characters preserve their reference identities across camera movements. End at the last specified action state at 30 seconds.')
     prompt='\n'.join(lines)
     if NEG_RE.search(prompt):raise ValueError('提示词含否定词: '+str(NEG_RE.findall(prompt)))
@@ -97,7 +106,8 @@ def build(segment_id,take=1,resolution='480p'):
 
 def uploaded(ref):
     # One shared cache: serialized uploads prevent duplicate copies of common references.
-    with UPLOAD_LOCK:
+    with UPLOAD_LOCK, (K/'上传缓存.lock').open('a') as lock:
+        fcntl.flock(lock,fcntl.LOCK_EX)
         cachefile=K/'上传缓存.json';cache=read(cachefile) if cachefile.exists() else {}
         digest=ref['sha256']
         if digest not in cache:
@@ -105,6 +115,13 @@ def uploaded(ref):
         return cache[digest]
 
 def run(segment_id,take=1,resolution='480p'):
+    folder=K/'视频'/segment_id;folder.mkdir(parents=True,exist_ok=True)
+    with (folder/f'take_{take:02d}_{resolution}.lock').open('a') as lock:
+        try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+        except BlockingIOError:raise ValueError('同一take正在另一进程执行，禁止重复扣费')
+        return _run(segment_id,take,resolution)
+
+def _run(segment_id,take=1,resolution='480p'):
     task=build(segment_id,take,resolution);folder=K/'视频'/segment_id;folder.mkdir(parents=True,exist_ok=True)
     out=folder/f'take_{take:02d}_{resolution}.mp4';log=out.with_suffix('.json')
     if log.exists():

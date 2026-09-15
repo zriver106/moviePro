@@ -1,0 +1,39 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_B_FLASH",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/repair_v03.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/废船_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "output": "段落首帧/EP002_B_FLASH/ref_v01.jpg",
+      "seed": 955001,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "prompt": "Sculpted Chinese 3D animated feature. Medium close side view inside the cool dim abandoned wooden boat. Lu Zhao from image1 reclines with open teal collar exposing his OLD CHEST scratch. His BOTH PALMS AND WRISTS show natural uncovered bare skin, visible fingers around the old short hemp-handled awl from image4 resting beside his lower chest. The gaunt clean-shaven elder from image2 leans close; his RIGHT wrist has its RED strip. That elder right hand holds a small flat thin red ember just ABOVE the chest scratch, ready to press it into the wound. A fragile empty small casing sits beside the ember hand, ready to crumble. Show bare young hands clearly distinct from the elder red wrist. Teal sleeve cuffs end before young bare wrists. Lighting from abandoned-boat opening. Faces preserve references. Clean picture and plain upper-left background."
+    },
+    {
+      "id": "EP002_B_BOWL",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/repair_v03.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/双碗_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg"
+      ],
+      "output": "段落首帧/EP002_B_BOWL/ref_v01.jpg",
+      "seed": 955002,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "prompt": "Sculpted Chinese 3D animated feature, warm dusk cramped home from image3. Continuous scene at the moment BEFORE replacing the chipped bowl. Lu Zhao from image1 at RIGHT of crooked table reaches his RIGHT bandaged palm toward ONE old chipped empty bowl at table center; its large broken rim notch faces camera clearly. Lu He from image2 at LEFT brings ONE intact bowl of hot rice and meat in her right hand. Her left hand is reaching the old chipped bowl to lift it away. Another intact bowl for herself rests at far left. Exactly THREE bowls in this before-swap state: old chipped bowl centered nearest Lu Zhao, replacement full intact bowl in Lu He hand, sister full intact bowl at far left. Two tied strings of coins and small purse sit at table right. Lu Zhao original short awl stays in small waist sheath. Faces and clothes preserve references, right palm wrapped in white cloth, left palm bare. Clean picture, both exchanging hands clearly countable."
+    }
+  ]
+}

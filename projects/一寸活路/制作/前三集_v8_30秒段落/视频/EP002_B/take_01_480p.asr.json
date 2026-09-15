@@ -1,0 +1,68 @@
+{
+  "source_sha256": "cc8e56ad42d0182042c7614181e2a41553b01e87a055ecf33ee96739c81c4d10",
+  "result": {
+    "text": "每人只算一次恨勇不消能一之天活人不用吃剩的爹的倾蟹号三千銅先不借我們就",
+    "chunks": [
+      {
+        "timestamp": [
+          4.08096875,
+          6.08096875
+        ],
+        "text": "每人只算一次",
+        "speaker": null
+      },
+      {
+        "timestamp": [
+          6.640968750000001,
+          9.92096875
+        ],
+        "text": "恨勇不消能一之天",
+        "speaker": null
+      },
+      {
+        "timestamp": [
+          16.60096875,
+          17.92096875
+        ],
+        "text": "活人不用吃剩的",
+        "speaker": null
+      },
+      {
+        "timestamp": [
+          23.12096875,
+          24.32096875
+        ],
+        "text": "爹的倾蟹号",
+        "speaker": null
+      },
+      {
+        "timestamp": [
+          24.68096875,
+          25.64096875
+        ],
+        "text": "三千銅",
+        "speaker": null
+      },
+      {
+        "timestamp": [
+          27.96096875,
+          28.76096875
+        ],
+        "text": "先不借",
+        "speaker": null
+      },
+      {
+        "timestamp": [
+          29.24096875,
+          30.04096875
+        ],
+        "text": "我們就",
+        "speaker": null
+      }
+    ],
+    "inferred_languages": [
+      "zh"
+    ],
+    "diarization_segments": []
+  }
+}

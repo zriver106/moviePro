@@ -1,0 +1,13 @@
+{
+  "method": "reference_region_extraction",
+  "source": "段落首帧/EP002_B_BOWL/ref_v02.jpg",
+  "source_sha256": "cdb92941e255e5c1c84d28a85855ef6f1d06e91cf2f0aae2b953bf668578e63b",
+  "bounds_normalized": [
+    0.1,
+    0.53,
+    0.6,
+    0.995
+  ],
+  "image_sha256": "80e7fee9b0ed8af44afc7be22fd75a03fe1057d8a84b8b88f191fc75c91c317b",
+  "scope": "仅换碗手部关系参考，完整图腰鞘细节不采用"
+}

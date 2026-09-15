@@ -466,5 +466,17 @@
     "status": "accepted_reference",
     "scope": "侧向取柄局部构图：裸手、小铜柄尚挂腰钩、麻铎半卧；双腕完整绑缚在画外，不用此局部图作为绑缚结构依据",
     "reviewer": "Codex visual inspection"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_FLASH/ref_v02.jpg": {
+    "sha256": "c71636c5ca0736cf37cf11caf89cdc665a6659132b0a58ed359be1eeb570b6e8",
+    "status": "accepted_reference",
+    "scope": "5–10秒闪回手部状态：陆照裸掌握唯一旧锥，老人右红腕覆其握锥手，面部无须",
+    "reviewer": "Codex visual inspection"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/bowl_detail.jpg": {
+    "sha256": "80e7fee9b0ed8af44afc7be22fd75a03fe1057d8a84b8b88f191fc75c91c317b",
+    "status": "accepted_reference",
+    "scope": "换碗前局部状态：三只碗可辨，旧缺口空碗退出，新完整饭碗接入；仅道具与手部关系参考",
+    "reviewer": "Codex visual inspection"
   }
 }
