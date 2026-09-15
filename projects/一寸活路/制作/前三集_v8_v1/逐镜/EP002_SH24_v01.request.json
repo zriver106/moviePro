@@ -1,0 +1,25 @@
+{
+  "id": "EP002_SH24",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: Lu He, same adult female face and tied brown-black hair as reference, faded ochre jacket, cream inner blouse, faded rust skirt, worn cream work apron, flat cloth shoes, empty relaxed hands. Image 2: An empty tiny rented room attached to an old salt shed, modest rough timber and limewashed brick. Image 3: one matched pair of plain cream glazed pottery rice bowls with thin brown rims, the sister bowl has one clearly chipped lip and the brother bowl has a complete smooth rim. Medium close shot, 65mm lens. Lu He stands at the small hearth with her worn apron and a rice bowl. ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890224,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/陆禾/ref_v01.jpg",
+      "sha256": "06284023eadc1c447de50e0fdf1ee8eb8203bf3ab4ccaf131943b3eba2e99e79"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/住屋/ref_v01.jpg",
+      "sha256": "da50b73939ec93a267025046b998be9a9d097dd54e379150c0507cfdead3c676"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/双碗/ref_v01.jpg",
+      "sha256": "8cacca7f9a3aad89634b0a2c0f6b0e77bb29d33b141d15af58207b5c0048e6cc"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

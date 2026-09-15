@@ -1,0 +1,87 @@
+{
+  "grid": [
+    2,
+    2
+  ],
+  "separator_x": [
+    0,
+    1519,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1547,
+    3072
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "dry full body front view",
+      "bbox": [
+        8,
+        8,
+        1511,
+        1539
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        18,
+        1503,
+        1531
+      ],
+      "path": "制作/前三集_v8_v1/资产/闻溪/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "dry left profile",
+      "bbox": [
+        1527,
+        8,
+        3064,
+        1539
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        0,
+        1537,
+        1531
+      ],
+      "path": "制作/前三集_v8_v1/资产/闻溪/cell_02.jpg"
+    },
+    {
+      "index": 3,
+      "name": "dry full body back view",
+      "bbox": [
+        8,
+        1555,
+        1511,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        96,
+        6,
+        1160,
+        1509
+      ],
+      "path": "制作/前三集_v8_v1/资产/闻溪/cell_03.jpg"
+    },
+    {
+      "index": 4,
+      "name": "wet front view, soaked skirt and damp strands against the cheeks",
+      "bbox": [
+        1527,
+        1555,
+        3064,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        0,
+        1189,
+        1509
+      ],
+      "path": "制作/前三集_v8_v1/资产/闻溪/cell_04.jpg"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "84镜唯一编号",
+    "台词起点与时长",
+    "原文锚点逐条存在",
+    "角色场景道具引用闭合",
+    "剧本指纹一致",
+    "英文正向提示词否定词扫描"
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "shots": 24,
+      "seconds": 126.7,
+      "dialogue_lines": 11
+    },
+    {
+      "episode": 2,
+      "shots": 30,
+      "seconds": 207.1,
+      "dialogue_lines": 15
+    },
+    {
+      "episode": 3,
+      "shots": 30,
+      "seconds": 208.0,
+      "dialogue_lines": 18
+    }
+  ],
+  "issues": [],
+  "note": "纯结构检查，视觉检查另列；不冒充自动剧本医生PASS"
+}

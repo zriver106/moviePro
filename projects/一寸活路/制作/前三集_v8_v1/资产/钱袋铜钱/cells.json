@@ -1,0 +1,52 @@
+{
+  "grid": [
+    2,
+    1
+  ],
+  "separator_x": [
+    0,
+    1536,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "small pouch open with eight coins beside it",
+      "bbox": [
+        8,
+        8,
+        1528,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        117,
+        43,
+        1520,
+        1469
+      ],
+      "path": "制作/前三集_v8_v1/资产/钱袋铜钱/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "bulging tied pouch beside a loose cluster of matching coins",
+      "bbox": [
+        1544,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        127,
+        349,
+        1413,
+        1207
+      ],
+      "path": "制作/前三集_v8_v1/资产/钱袋铜钱/cell_02.jpg"
+    }
+  ]
+}

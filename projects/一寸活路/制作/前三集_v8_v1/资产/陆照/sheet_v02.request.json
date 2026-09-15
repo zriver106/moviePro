@@ -1,0 +1,17 @@
+{
+  "id": "陆照",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of Lu Zhao, the same young adult face, black half-up hair and teal color identity as the opening-chapter full-body reference. Opening-chapter outfit: worn plain teal cross-collar short tunic, dark trousers, cloth wrist wraps, plain cloth belt and black cloth boots. Both hands are empty and relaxed; waist carries a small cloth purse. Exactly 3 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows dry full body front view, intact shoulders. The top middle cell shows dry full body left profile, intact shoulders. The top right cell shows dry full body back view, intact shoulders. The bottom left cell shows wet full body front view, darker soaked lower tunic and wet hair, intact shoulders. The bottom middle cell shows front view with small superficial scrape and a dark red cloth stain at anatomical left shoulder, right shoulder intact. The bottom right cell shows front view with clean linen bandage covering anatomical left shoulder beneath the opened collar, right shoulder intact. Every cell repeats the plain tan cloth waist sash and soft cloth wrist wraps visible in the reference. The belt carries the small cloth purse. Forearms are covered by woven fabric.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 884402,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照开篇母板/base_v01.jpg",
+      "sha256": "6d61daf93ba1d80e2961a76f28f67be9b9e1b0ad9159572813464937e04789ed"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

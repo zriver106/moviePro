@@ -1,0 +1,12 @@
+{
+  "id": "船叉",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one long wooden-shafted river work fork with a dark iron two-pronged head, worn brown shaft, compact practical proportions. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows whole fork side view. The right cell shows close view of its two-pronged iron head.",
+  "size": {
+    "width": 3072,
+    "height": 1536
+  },
+  "seed": 880121,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

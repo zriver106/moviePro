@@ -1,0 +1,87 @@
+{
+  "grid": [
+    2,
+    2
+  ],
+  "separator_x": [
+    0,
+    1535,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1538,
+    3072
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "dry full body front view",
+      "bbox": [
+        8,
+        8,
+        1527,
+        1530
+      ],
+      "subject_bbox_in_cell": [
+        301,
+        133,
+        1033,
+        1431
+      ],
+      "path": "制作/前三集_v8_v1/资产/灰胡子工人/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "dry left profile",
+      "bbox": [
+        1543,
+        8,
+        3064,
+        1530
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        0,
+        982,
+        1522
+      ],
+      "path": "制作/前三集_v8_v1/资产/灰胡子工人/cell_02.jpg"
+    },
+    {
+      "index": 3,
+      "name": "dry full body back view",
+      "bbox": [
+        8,
+        1546,
+        1527,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        253,
+        133,
+        1036,
+        1445
+      ],
+      "path": "制作/前三集_v8_v1/资产/灰胡子工人/cell_03.jpg"
+    },
+    {
+      "index": 4,
+      "name": "wet full body front view with drenched clothing",
+      "bbox": [
+        1543,
+        1546,
+        3064,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        0,
+        1016,
+        1518
+      ],
+      "path": "制作/前三集_v8_v1/资产/灰胡子工人/cell_04.jpg"
+    }
+  ]
+}

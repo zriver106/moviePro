@@ -1,0 +1,25 @@
+{
+  "id": "EP002_SH20",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: An empty close interior beneath the broken hull of an old wooden river boat at night. Image 2: a short straight black steel awl, a single tapering spike twenty-five centimeters long including a ten-centimeter handle wrapped with old tan hemp cord, simple working tool. Image 3: A restrained tiny ember-red fragment and a soft amber pinprick glow, practical subtle supernatural effect, deep black background. Close shot, 85mm lens. An elderly hand rests beside a hemp-wrapped awl handle in the dim broken hull. ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890220,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/废船/ref_v01.jpg",
+      "sha256": "6710036cdfd336e92ed588ea78081d75c8700bb87a4160e52decdddc88989311"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/黑钢锥/ref_v01.jpg",
+      "sha256": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/余烬/ref_v01.jpg",
+      "sha256": "8912dda7ad7ebec8c407cab994b5d531f4cf7831d1903403c1e9323b6aaec8bf"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "EP001_SH24",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, woven cloth, weathered timber and copper. Extreme close-up. A rectangular copper locking plate is bolted flat onto a vertical timber door, facing the camera. A tiny shallow dimple appears on the left half of the plate. A hand with a dark cloth wrist wrap enters from frame right holding a short hemp-gripped black steel awl horizontally, its sharp tip pressed firmly against the middle of the right half of the copper plate. The tiny left dimple and the right contact point are clearly separated. The fixed copper plate fills most of the frame. Image 1 establishes the wood and copper door, image 2 establishes the short black steel awl.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 891124,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/北门/ref_v01.jpg",
+      "sha256": "c04fa10bad8b2cde09270cfa91811a119f383817e3cc727b031cdd630da56c25"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/黑钢锥/ref_v01.jpg",
+      "sha256": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

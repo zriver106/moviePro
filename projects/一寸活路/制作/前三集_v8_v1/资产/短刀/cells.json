@@ -1,0 +1,52 @@
+{
+  "grid": [
+    2,
+    1
+  ],
+  "separator_x": [
+    0,
+    1536,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "complete knife side view",
+      "bbox": [
+        8,
+        8,
+        1528,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        41,
+        0,
+        1484,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/短刀/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "angled view of grip and blade",
+      "bbox": [
+        1544,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        235,
+        89,
+        1265,
+        1246
+      ],
+      "path": "制作/前三集_v8_v1/资产/短刀/cell_02.jpg"
+    }
+  ]
+}

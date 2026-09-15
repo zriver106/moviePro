@@ -1,0 +1,29 @@
+{
+  "id": "EP001_SH22",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: Lu Zhao, the same young adult face, black half-up hair and teal color identity as the reference. Image 2: An empty old timber sluice chamber of a working river dock. Image 3: one worn tan cloth drawstring money pouch and round copper cash coins with square holes. Image 4: a short straight black steel awl, a single tapering spike twenty-five centimeters long including a ten-centimeter handle wrapped with old tan hemp cord, simple working tool. Medium shot, 50mm lens. Lu Zhao crouches beside the fallen purse with the short awl resting on the repair ledge. Lu Zhao has wet boots and a water-darkened lower tunic.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890122,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照/cell_04.jpg",
+      "sha256": "c26e0b85281b9d63fac836f8ac30efe44850cf916dcf98e59cbf6f0185125ec0"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/闸舱/ref_v01.jpg",
+      "sha256": "e1a0eb20cc6b324b2b3e59b316ae1f4214160ddc2985f6a027ae58ba6db57573"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/钱袋铜钱/ref_v01.jpg",
+      "sha256": "20fc38ad8d1cf7b21980a158ccc982afbb11f6b9a01062b38098fb75aaa2b9b6"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/黑钢锥/ref_v01.jpg",
+      "sha256": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

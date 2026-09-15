@@ -1,0 +1,33 @@
+{
+  "id": "EP003_SH06",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: Ge Ya, an adult lean dock enforcer age thirty-five, narrow face, a clearly missing upper front tooth, dark close-cropped hair under a brown cloth hood, brown sleeveless short coat over dirty grey sleeves, patched dark trousers and cloth shoes. Image 2: Lu Zhao, the same young adult face, black half-up hair and teal color identity as the reference. Image 3: An empty narrow old harbor salt-shed alley. Image 4: one short dock knife with a twenty-centimeter dark iron blade, straight working edge and plain brown wood handle. Image 5: a short straight black steel awl, a single tapering spike twenty-five centimeters long including a ten-centimeter handle wrapped with old tan hemp cord, simple working tool. Medium shot, 50mm lens. Lu Zhao reaches toward his awl as Ge Ya's knife approaches his left shoulder. ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890306,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/葛牙/ref_v01.jpg",
+      "sha256": "d2820c27545132b4cd142e0cc4d67e054bc696a597b8ff88a520b650da83dbca"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照/ref_v01.jpg",
+      "sha256": "fae19e1d4274a88a19762e40b7f2d517a20f23a33776d97bf82a4fd3d40d74cd"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/盐棚外/ref_v01.jpg",
+      "sha256": "5788f07c0221f6059435a38310c342e2fdf90bea46faf1778e899219712162fa"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/短刀/ref_v01.jpg",
+      "sha256": "b8df93521fbbcc65c0cf7cc1f3d7da386af2b6a95c466d6c445264e67fc181ff"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/黑钢锥/ref_v01.jpg",
+      "sha256": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

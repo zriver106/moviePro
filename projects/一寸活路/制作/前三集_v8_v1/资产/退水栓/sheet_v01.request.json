@@ -1,0 +1,12 @@
+{
+  "id": "退水栓",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one old sluice drainage stopper, tapered dark wood plug with short upright handle and a stone-lined channel socket. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows stopper seated in channel socket. The right cell shows stopper lifted beside open socket.",
+  "size": {
+    "width": 3072,
+    "height": 1536
+  },
+  "seed": 880132,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

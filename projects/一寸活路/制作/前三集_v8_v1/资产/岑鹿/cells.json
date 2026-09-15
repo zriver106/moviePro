@@ -1,0 +1,87 @@
+{
+  "grid": [
+    2,
+    2
+  ],
+  "separator_x": [
+    0,
+    1536,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536,
+    3072
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "full body front view",
+      "bbox": [
+        8,
+        8,
+        1528,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        0,
+        1520,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/岑鹿/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "left profile",
+      "bbox": [
+        1544,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        50,
+        1520,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/岑鹿/cell_02.jpg"
+    },
+    {
+      "index": 3,
+      "name": "full body back view",
+      "bbox": [
+        8,
+        1544,
+        1528,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        452,
+        0,
+        1518,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/岑鹿/cell_03.jpg"
+    },
+    {
+      "index": 4,
+      "name": "waist-up face and hands view",
+      "bbox": [
+        1544,
+        1544,
+        3064,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        114,
+        16,
+        1230,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/岑鹿/cell_04.jpg"
+    }
+  ]
+}

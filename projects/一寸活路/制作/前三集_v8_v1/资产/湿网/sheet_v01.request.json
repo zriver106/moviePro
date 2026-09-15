@@ -1,0 +1,12 @@
+{
+  "id": "湿网",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one coarse old brown hemp fishing net, wet dark strands, diamond-shaped open mesh and reinforced corner loop. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows net hanging open as a rectangle. The right cell shows net loosely folded with corner loop visible.",
+  "size": {
+    "width": 3072,
+    "height": 1536
+  },
+  "seed": 880134,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

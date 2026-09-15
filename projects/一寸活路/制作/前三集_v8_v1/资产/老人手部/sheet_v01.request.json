@@ -1,0 +1,12 @@
+{
+  "id": "老人手部",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of a pair of frail elderly human hands with prominent tendons, deep wrinkles, warm grey skin and plain frayed linen cuffs. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows both hands open, palms upward. The top right cell shows both hands with fingers slightly curled. The bottom left cell shows right hand palm down showing knuckles. The bottom right cell shows right hand fingers extended above a folded linen cloth.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 880109,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

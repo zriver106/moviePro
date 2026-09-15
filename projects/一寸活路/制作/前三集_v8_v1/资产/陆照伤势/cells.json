@@ -1,0 +1,52 @@
+{
+  "grid": [
+    2,
+    1
+  ],
+  "separator_x": [
+    0,
+    1282,
+    2560
+  ],
+  "separator_y": [
+    0,
+    1920
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "left shoulder shallow scrape",
+      "bbox": [
+        8,
+        8,
+        1274,
+        1912
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        19,
+        1266,
+        1904
+      ],
+      "path": "制作/前三集_v8_v1/资产/陆照伤势/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "left shoulder small dressing",
+      "bbox": [
+        1290,
+        8,
+        2552,
+        1912
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        6,
+        1262,
+        1904
+      ],
+      "path": "制作/前三集_v8_v1/资产/陆照伤势/cell_02.jpg"
+    }
+  ]
+}

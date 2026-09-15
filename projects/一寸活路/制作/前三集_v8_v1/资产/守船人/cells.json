@@ -1,0 +1,87 @@
+{
+  "grid": [
+    2,
+    2
+  ],
+  "separator_x": [
+    0,
+    1536,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1542,
+    3072
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "full body front view",
+      "bbox": [
+        8,
+        8,
+        1528,
+        1534
+      ],
+      "subject_bbox_in_cell": [
+        19,
+        20,
+        1520,
+        1526
+      ],
+      "path": "制作/前三集_v8_v1/资产/守船人/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "left profile",
+      "bbox": [
+        1544,
+        8,
+        3064,
+        1534
+      ],
+      "subject_bbox_in_cell": [
+        224,
+        284,
+        1502,
+        1526
+      ],
+      "path": "制作/前三集_v8_v1/资产/守船人/cell_02.jpg"
+    },
+    {
+      "index": 3,
+      "name": "full body back view",
+      "bbox": [
+        8,
+        1550,
+        1528,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        507,
+        0,
+        1520,
+        1496
+      ],
+      "path": "制作/前三集_v8_v1/资产/守船人/cell_03.jpg"
+    },
+    {
+      "index": 4,
+      "name": "waist-up front view",
+      "bbox": [
+        1544,
+        1550,
+        3064,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        306,
+        146,
+        1197,
+        1505
+      ],
+      "path": "制作/前三集_v8_v1/资产/守船人/cell_04.jpg"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "EP003_SH24",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: Lu Zhao, the same young adult face, black half-up hair and teal color identity as the reference. Image 2: A Li, same young adult male face and black tied-up hair as reference, in an old blue long tunic reaching mid-thigh, patched cloth belt, dark blue trousers and cloth boots. Image 3: An empty old Chinese river harbor stone landing in the architecture and material style of the reference. Image 4: one newly purchased coil of pale tan hemp rope, finger-thick three-strand twist with a tied end. Image 5: one worn tan cloth drawstring money pouch and round copper cash coins with square holes. Medium shot, 50mm lens. Lu Zhao stands beside a newly coiled rope with forty copper coins on the table before A Li. A clean linen dressing covers Lu Zhao's anatomical left shoulder beneath the parted collar.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890324,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照伤势/cell_02.jpg",
+      "sha256": "4a5fa4bd091a84f09d6aac87721054eee295cad992158615c3a2520beaef17db"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/阿砾/ref_v01.jpg",
+      "sha256": "a3a218ac22307538ae4345f59290a4f43546b57c3dccab1521ef101f31c72901"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/码头/ref_v01.jpg",
+      "sha256": "c9849de7ac36eab16429ebef25577513da031c9e6f8b2a712337425d56fa63e0"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/新绳/ref_v01.jpg",
+      "sha256": "98289bcb88c676549e429debad569cdd37228d11d7900322dc22122e1c4bb7a2"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/钱袋铜钱/ref_v01.jpg",
+      "sha256": "20fc38ad8d1cf7b21980a158ccc982afbb11f6b9a01062b38098fb75aaa2b9b6"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

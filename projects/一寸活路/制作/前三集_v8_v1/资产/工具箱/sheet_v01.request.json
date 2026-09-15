@@ -1,0 +1,12 @@
+{
+  "id": "工具箱",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one small plain wooden working-tool chest with iron latch and short rope handle. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows closed chest three-quarter view. The right cell shows same chest open showing separated hand-tool slots.",
+  "size": {
+    "width": 3072,
+    "height": 1536
+  },
+  "seed": 880140,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

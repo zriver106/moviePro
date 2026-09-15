@@ -1,0 +1,12 @@
+{
+  "id": "晒网架",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one weathered wooden fishing-net drying rack, two upright posts joined by a sturdy horizontal beam, spare short hemp cord hanging from right post. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows whole rack front view. The top right cell shows angled side view showing solid crossbar. The bottom left cell shows close view of intact timber crossbar. The bottom right cell shows same crossbar with a narrow awl puncture through its thickness.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 880133,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

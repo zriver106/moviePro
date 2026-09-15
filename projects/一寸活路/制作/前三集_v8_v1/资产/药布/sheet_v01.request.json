@@ -1,0 +1,12 @@
+{
+  "id": "药布",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one compact cloth medical dressing kit, cream linen strip, small ceramic ointment jar and short iron scissors arranged together. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows folded kit with closed jar. The right cell shows opened kit with rolled dressing and scissors.",
+  "size": {
+    "width": 3072,
+    "height": 1536
+  },
+  "seed": 880127,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

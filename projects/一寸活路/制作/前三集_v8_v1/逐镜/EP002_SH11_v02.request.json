@@ -1,0 +1,25 @@
+{
+  "id": "EP002_SH11",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, woven cloth and weathered harbor wood. Image 1 establishes the stocky prisoner Ma Duo, image 2 establishes the free young worker Lu Zhao, image 3 establishes the harbor stair entrance. A two-person medium shot. The stocky brown-clad Ma Duo stands at frame left, half a step behind Lu Zhao, wrists tied together in front of his own belly with hemp rope. The slim blue-clad Lu Zhao stands in the foreground at frame right holding the loose end of that rope in his right hand. Lu Zhao's left hand rests freely at his own waist. The stocky man looks anxious, the young man looks stern.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 891211,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/麻铎/ref_v01.jpg",
+      "sha256": "dc99a87afada14bce67464ec31134885fe1bd8ac6730b6e14b7a0b3cd8d05c84"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照/ref_v01.jpg",
+      "sha256": "fae19e1d4274a88a19762e40b7f2d517a20f23a33776d97bf82a4fd3d40d74cd"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/梯口/ref_v01.jpg",
+      "sha256": "81030b494cbb94fe5bc291424f8a6aba59f84ee89fe997f15e27a90d3dea99bb"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

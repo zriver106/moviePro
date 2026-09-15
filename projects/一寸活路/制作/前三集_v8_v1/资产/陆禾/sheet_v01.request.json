@@ -1,0 +1,17 @@
+{
+  "id": "陆禾",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of Lu He, same adult female face and tied brown-black hair as reference, faded ochre jacket, cream inner blouse, faded rust skirt, worn cream work apron, flat cloth shoes, empty relaxed hands. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows full body front view. The top right cell shows left profile. The bottom left cell shows full body back view. The bottom right cell shows waist-up view with a light dusting of flour on fingers and apron.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 880103,
+  "references": [
+    {
+      "path": "定稿/Seedream立体国漫定妆_v8/05_陆禾.jpg",
+      "sha256": "649f2aa957c29eebb098f5155d860c05763af6f036e525d0cd0051e49fa8a7c1"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

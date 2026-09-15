@@ -1,0 +1,17 @@
+{
+  "id": "铜销",
+  "prompt": "Four equal rectangular cells in two columns and two rows. Each cell shows the same small thin flat rectangular yellow copper plate in the reference, viewed straight from the front on pure white. The plate is about 12 centimeters wide and 6 centimeters tall. Top left: its entire front face is smooth and flat. Top right: a tiny shallow circular recessed dimple, eight millimeters across, is visible on the LEFT half of the flat front surface. Bottom left: that same tiny recessed dimple remains on the LEFT, while a distinct rough puncture eight millimeters across goes through the RIGHT half. Bottom right: an oblique edge view shows the thin plate with a small wooden latch tongue aligned behind the right-hand puncture. The dimple and puncture are small relative to the broad flat copper surface. Subtle copper highlights, blank white margins.",
+  "size": {
+    "width": 2560,
+    "height": 1440
+  },
+  "seed": 886101,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/铜销/intact_source.jpg",
+      "sha256": "d27f9f050bbfcbdeb30c0971b679141ce508220b09b2414539d35cfba8a4fed1"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

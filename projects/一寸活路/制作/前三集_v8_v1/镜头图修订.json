@@ -1,0 +1,90 @@
+{
+  "design_sha256": "0b390f528c0907be90caff1a499cbd8d6be980cef35dd02505d8841e46e93b4c",
+  "shots": {
+    "EP001_SH07": {
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: An empty close environment view of the northern timber sluice door inside the old chamber. Image 2: one rectangular yellow copper door locking plate with a small timber latch tongue behind it. Image 3: a short straight black steel awl, a single tapering spike twenty-five centimeters long including a ten-centimeter handle wrapped with old tan hemp cord, simple working tool. Extreme close-up of a door-mounted copper locking plate filling the screen, fixed with two dark iron bolts to vertical wet timber. Lu Zhao's cloth-wrapped hands enter from the bottom edge. His right hand presses the tip of a short hemp-gripped black steel awl into the left half of the fixed plate, his left hand braces his right wrist. A tiny shallow pinprick marks the metal.",
+      "seed": 891107,
+      "output": "逐镜/EP001_SH07_v02.jpg"
+    },
+    "EP001_SH08": {
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: Wen Xi, exactly the same adult female face, pinned brown-black hair, pale mint sleeveless overcoat, cream sleeves, grey pleated skirt, dark green boots and medicine pouches as the reference. Image 2: An empty close environment view of the northern timber sluice door inside the old chamber. Image 3: one small hand-carried river work lantern, dark brass cage, clear glass reservoir, curved carry handle and warm short wick flame. Image 4: one rectangular yellow copper door locking plate with a small timber latch tongue behind it. The timber door fills the frame. Wen Xi's wet face and raised index finger appear through a small square inspection opening in the door. Her hand grips a small lantern at the bottom of that same opening. The solid timber wall surrounds the opening on four sides. Close framing of her face within this square window.",
+      "seed": 891108,
+      "output": "逐镜/EP001_SH08_v02.jpg"
+    },
+    "EP001_SH15": {
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Image 1 establishes An empty old timber sluice chamber of a working river dock. Extreme close-up of a young man's cloth-wrapped right hand holding a tiny worn cloth purse the size of his palm. The tied purse has a closed mouth and holds eight coins internally. His hand enters from the upper right, the closed little purse hangs a few centimeters above a rough hemp rope loop floating on shallow dark water. The hand, tiny closed purse and loop fill the frame.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/闸舱/ref_v01.jpg"
+      ],
+      "seed": 891115,
+      "output": "逐镜/EP001_SH15_v02.jpg"
+    },
+    "EP001_SH16": {
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Image 1 establishes Ma Duo, an adult stocky harbor overseer age forty-five, broad square face, heavy eyelids, cropped black hair under a dark brown tied headcloth, sparse moustache, weathered brown padded vest over ochre tunic, dark work trousers, stout cloth boots and belt hook. Image 2 establishes An empty old timber sluice chamber of a working river dock. Full shot of Ma Duo carrying his two-prong boat fork, his feet immediately before an open rope loop on the wet floor of the chamber. A tiny tied closed brown coin pouch, the size of a palm, rests in the center of the rope loop. He looks down toward the pouch. The stone winch stands at frame left.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/麻铎/ref_v01.jpg",
+        "制作/前三集_v8_v1/资产/闸舱/ref_v01.jpg"
+      ],
+      "seed": 891116,
+      "output": "逐镜/EP001_SH16_v02.jpg"
+    },
+    "EP001_SH24": {
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, woven cloth, weathered timber and copper. Extreme close-up. A rectangular copper locking plate is bolted flat onto a vertical timber door, facing the camera. A tiny shallow dimple appears on the left half of the plate. A hand with a dark cloth wrist wrap enters from frame right holding a short hemp-gripped black steel awl horizontally, its sharp tip pressed firmly against the middle of the right half of the copper plate. The tiny left dimple and the right contact point are clearly separated. The fixed copper plate fills most of the frame. Image 1 establishes the wood and copper door, image 2 establishes the short black steel awl.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/北门/ref_v01.jpg",
+        "制作/前三集_v8_v1/资产/黑钢锥/ref_v01.jpg"
+      ],
+      "seed": 891124,
+      "output": "逐镜/EP001_SH24_v02.jpg"
+    },
+    "EP002_SH11": {
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, woven cloth and weathered harbor wood. Image 1 establishes the stocky prisoner Ma Duo, image 2 establishes the free young worker Lu Zhao, image 3 establishes the harbor stair entrance. A two-person medium shot. The stocky brown-clad Ma Duo stands at frame left, half a step behind Lu Zhao, wrists tied together in front of his own belly with hemp rope. The slim blue-clad Lu Zhao stands in the foreground at frame right holding the loose end of that rope in his right hand. Lu Zhao's left hand rests freely at his own waist. The stocky man looks anxious, the young man looks stern.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/麻铎/ref_v01.jpg",
+        "制作/前三集_v8_v1/资产/陆照/ref_v01.jpg",
+        "制作/前三集_v8_v1/资产/梯口/ref_v01.jpg"
+      ],
+      "seed": 891211,
+      "output": "逐镜/EP002_SH11_v02.jpg"
+    },
+    "EP002_SH29": {
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, woven cloth and weathered wood. Image 1 establishes Lu Zhao's blue sleeves and dark cloth wrist wraps, image 2 establishes the rented home. Extreme close-up, top-down view of the tabletop filling the frame. Two hands in blue sleeves and dark cloth wrist wraps enter from the bottom corners, tying the drawstrings of a small brown cloth coin pouch resting on the table. Focus on the fingers, knot and little purse.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照/ref_v01.jpg",
+        "制作/前三集_v8_v1/资产/住屋/ref_v01.jpg"
+      ],
+      "seed": 891229,
+      "output": "逐镜/EP002_SH29_v02.jpg"
+    }
+  },
+  "pending_shots": {
+    "EP002_SH30": {
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, woven cloth and weathered wood. Image 1 establishes Lu He, her hair and ochre yellow clothing. Image 2 establishes the two matching cream bowls, one chipped and one intact. Image 3 establishes the rented home. Close shot of Lu He in ochre yellow clothing seated at the worn wooden table, holding an old cream-colored boat sale paper with both hands above the two bowls. A small ink drawing of a narrow wooden boat appears on the paper. Warm stove light and a hopeful focused expression.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆禾/ref_v01.jpg",
+        "制作/前三集_v8_v1/资产/双碗/ref_v01.jpg",
+        "制作/前三集_v8_v1/资产/住屋/ref_v01.jpg"
+      ],
+      "seed": 891230,
+      "output": "逐镜/EP002_SH30_v02.jpg"
+    },
+    "EP003_SH10": {
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, woven cloth and weathered wood. Image 1 establishes Lu Zhao's identity, blue robe and small wound on his anatomical left shoulder. Image 2 establishes the rough drying rack and fish net. A tight chest-level view of Lu Zhao fully dressed in that blue robe and dark cloth wrist wraps, holding a short hemp-gripped black steel awl against a rope lashing on the wooden drying rack. His torso and both cloth-wrapped forearms fill the left half of the frame; the rough wooden pole and rope lashing fill the right half. The awl tip is pressed into the rope knot.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照伤势/cell_01.jpg",
+        "制作/前三集_v8_v1/资产/晒网架/ref_v01.jpg"
+      ],
+      "seed": 891310,
+      "output": "逐镜/EP003_SH10_v02.jpg"
+    },
+    "EP003_SH16": {
+      "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, woven cloth and weathered wood. Image 1 establishes Lu Zhao's exact identity and intact blue robe with a small wound at his anatomical left shoulder, on the viewer-right side. Image 2 establishes the wooden net rack. Medium close-up of Lu Zhao wearing that blue robe, facing the camera. A small red patch marks his left shoulder on the viewer-right side. His right hand grips the hemp-wrapped handle of a short black awl lodged into the horizontal wooden crossbar at the viewer-left side. Warm sunlight falls on his focused face.",
+      "refs": [
+        "制作/前三集_v8_v1/资产/陆照伤势/cell_01.jpg",
+        "制作/前三集_v8_v1/资产/晒网架/ref_v01.jpg"
+      ],
+      "seed": 891316,
+      "output": "逐镜/EP003_SH16_v02.jpg"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "grid": [
+    2,
+    1
+  ],
+  "separator_x": [
+    0,
+    1536,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "whole fork side view",
+      "bbox": [
+        8,
+        8,
+        1528,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        65,
+        38,
+        1505,
+        915
+      ],
+      "path": "制作/前三集_v8_v1/资产/船叉/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "close view of its two-pronged iron head",
+      "bbox": [
+        1544,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        54,
+        0,
+        1303,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/船叉/cell_02.jpg"
+    }
+  ]
+}

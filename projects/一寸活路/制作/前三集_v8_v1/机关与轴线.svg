@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900">
+<rect width="1500" height="900" fill="#13232d"/>
+<style>text{font-family:Arial,'Heiti SC',sans-serif;fill:#ede8d9}.title{font-size:32px}.label{font-size:23px}.small{font-size:18px}.wall{fill:#334750;stroke:#c4a474;stroke-width:3}.rope{fill:none;stroke:#deb96d;stroke-width:9}</style>
+<defs><marker id="a" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto"><path d="M0 0L10 5L0 10" fill="#e8b872"/></marker></defs>
+<text x="45" y="60" class="title">一寸活路 · 闸舱与门外三步 / 镜头关系示意</text>
+<text x="45" y="98" class="small">示意图约束站位、信息先后和银幕方向；道具图提供材质。不是实物机械施工图。</text>
+<rect x="45" y="135" width="680" height="335" rx="14" fill="#1c313c"/>
+<text x="65" y="175" class="label">EP001–002  闸舱：相机在东，朝西拍</text>
+<rect x="90" y="235" width="95" height="185" class="wall"/><text x="105" y="290" class="label">南梯</text><text x="105" y="325" class="small">出口</text>
+<rect x="555" y="220" width="115" height="210" class="wall"/><text x="575" y="270" class="label">北门</text><rect x="592" y="289" width="40" height="33" fill="#e0a651"/>
+<rect x="215" y="205" width="300" height="45" class="wall"/><text x="270" y="235" class="label">西壁修台</text>
+<circle cx="272" cy="304" r="36" fill="#967951"/><text x="228" y="369" class="label">绳轮</text>
+<circle cx="445" cy="329" r="21" fill="#4099a4"/><text x="395" y="392" class="label">陆照 → 门</text>
+<path d="M467 329H547" stroke="#e8b872" stroke-width="4" marker-end="url(#a)"/>
+<text x="60" y="453" class="small">同侧覆盖：南梯始终在左，北门在右。不开新的旁门。</text>
+<rect x="760" y="135" width="690" height="335" rx="14" fill="#1c313c"/>
+<text x="785" y="175" class="label">机关因果：楔止轮 → 抽楔 → 坠石落 → 索圈紧</text>
+<circle cx="980" cy="285" r="57" fill="#715736" stroke="#dcb77a" stroke-width="5"/>
+<path d="M950 343L1016 343L975 315Z" fill="#d9af76"/>
+<text x="925" y="392" class="label">制动木楔</text>
+<path class="rope" d="M1035 285H1255V330"/>
+<rect x="1214" y="331" width="82" height="47" fill="#9fa9ac"/>
+<path d="M1280 383V405" stroke="#e8b872" stroke-width="4" marker-end="url(#a)"/>
+<rect x="1198" y="421" width="120" height="15" fill="#715736"/>
+<text x="1322" y="375" class="small">落半尺</text>
+<path class="rope" d="M924 284H850V390"/><ellipse cx="854" cy="416" rx="54" ry="17" class="rope"/>
+<text x="790" y="455" class="small">八铜钱袋诱入索圈；叉卡轮后才抽楔。</text>
+<rect x="45" y="505" width="680" height="310" rx="14" fill="#1c313c"/>
+<text x="65" y="550" class="label">铜销：第二刺必须换到旁边完整铜面</text>
+<rect x="95" y="597" width="230" height="105" rx="12" fill="#bd8d49"/>
+<ellipse cx="151" cy="649" rx="16" ry="11" fill="#876a46"/>
+<text x="125" y="745" class="label">第一次：左浅凹</text>
+<path d="M351 650H415" stroke="#e8b872" stroke-width="4" marker-end="url(#a)"/>
+<rect x="445" y="597" width="230" height="105" rx="12" fill="#bd8d49"/>
+<ellipse cx="500" cy="649" rx="16" ry="11" fill="#876a46"/><circle cx="611" cy="649" r="14" fill="#172630"/>
+<text x="460" y="745" class="label">第二次：右透孔</text>
+<text x="67" y="789" class="small">EP002拆下作为证据；浅凹不变成透孔，右孔不移到左边。</text>
+<rect x="760" y="505" width="690" height="310" rx="14" fill="#1c313c"/>
+<text x="785" y="550" class="label">EP003  门外三步：不把敌人引向姐姐</text>
+<rect x="803" y="590" width="111" height="88" class="wall"/><text x="824" y="641" class="label">姐姐门</text>
+<path d="M1230 590V720M1360 590V720M1210 603H1380" stroke="#ba945d" stroke-width="12"/>
+<text x="1260" y="752" class="label">晒网架</text>
+<circle cx="998" cy="682" r="22" fill="#925943"/><text x="951" y="748" class="label">葛牙</text>
+<circle cx="1110" cy="682" r="22" fill="#4099a4"/><text x="1067" y="748" class="label">陆照</text>
+<path d="M1139 682H1225" stroke="#e8b872" stroke-width="4" marker-end="url(#a)"/>
+<text x="786" y="789" class="small">横移向右 → 踢网裹刀 → 锥穿横杆 → 压肘夺刀 → 绑腕</text>
+<text x="45" y="861" class="label">左肩 = 解剖学左侧 = 正面图的画面右侧；伤痕与包扎必须同侧。</text>
+</svg>

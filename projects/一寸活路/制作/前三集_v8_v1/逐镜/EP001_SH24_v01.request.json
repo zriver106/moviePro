@@ -1,0 +1,25 @@
+{
+  "id": "EP001_SH24",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: An empty close environment view of the northern timber sluice door inside the old chamber. Image 2: one rectangular yellow copper door locking plate with a small timber latch tongue behind it. Image 3: a short straight black steel awl, a single tapering spike twenty-five centimeters long including a ten-centimeter handle wrapped with old tan hemp cord, simple working tool. Close shot, 85mm lens. Lu Zhao's hands brace the awl against intact copper to the right of the earlier dent. ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890124,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/北门/ref_v01.jpg",
+      "sha256": "c04fa10bad8b2cde09270cfa91811a119f383817e3cc727b031cdd630da56c25"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/铜销/cell_02.jpg",
+      "sha256": "1ee7b9e19133ae88648a8740ce27665744cdfb18f46eb9995f9b89960d258c63"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/黑钢锥/ref_v01.jpg",
+      "sha256": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

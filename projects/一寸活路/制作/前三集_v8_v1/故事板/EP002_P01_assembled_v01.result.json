@@ -1,0 +1,30 @@
+{
+  "status": "assembled_pending_visual_review",
+  "sha256": "aa644332d4ce67b5529c9814ba5d61da4f05ddf75d40c1316e4ea7d662dfbb4d",
+  "shots": [
+    {
+      "id": "EP002_SH01",
+      "sha256": "7523d79a6a646f740cf5d5ab6afe465e8e30c9672f6d4a8ffaa0d5c3b69d008b"
+    },
+    {
+      "id": "EP002_SH02",
+      "sha256": "0c773030d77e9c6382820d56374c4210b1b1eb6bc08d91efd8a4c1af820d69d7"
+    },
+    {
+      "id": "EP002_SH03",
+      "sha256": "9fccb47a47bc2e91b5c4f06fbfaeacbea88412560f5bdede907674f16c5c1b91"
+    },
+    {
+      "id": "EP002_SH04",
+      "sha256": "65767267e214b36c2bca6a39fa65364bed1404fd321b7f410f9cb70b734bb864"
+    },
+    {
+      "id": "EP002_SH05",
+      "sha256": "a80c194b314cbe018d18b23353dfeb528b0f81fa292f5567255234e2ae9bda74"
+    },
+    {
+      "id": "EP002_SH06",
+      "sha256": "e39668c3ea6fe3a7018e84e52c5de7bcad78c250398575e2286990ce5a50d75a"
+    }
+  ]
+}

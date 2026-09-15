@@ -1,0 +1,87 @@
+{
+  "grid": [
+    2,
+    2
+  ],
+  "separator_x": [
+    0,
+    1536,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536,
+    3072
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "complete assembly, weight suspended a handspan above support and line ending in a loose floor loop",
+      "bbox": [
+        8,
+        8,
+        1528,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        109,
+        155,
+        1428,
+        1392
+      ],
+      "path": "制作/前三集_v8_v1/资产/绳轮机关/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "side view showing line path from weight through drum to loop",
+      "bbox": [
+        1544,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        25,
+        155,
+        1345,
+        1372
+      ],
+      "path": "制作/前三集_v8_v1/资产/绳轮机关/cell_02.jpg"
+    },
+    {
+      "index": 3,
+      "name": "close view of brake wedge seated beneath toothed wheel",
+      "bbox": [
+        8,
+        1544,
+        1528,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        109,
+        101,
+        1485,
+        1396
+      ],
+      "path": "制作/前三集_v8_v1/资产/绳轮机关/cell_03.jpg"
+    },
+    {
+      "index": 4,
+      "name": "released mechanism with stone resting on support and loop drawn tight",
+      "bbox": [
+        1544,
+        1544,
+        3064,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        25,
+        101,
+        1338,
+        1315
+      ],
+      "path": "制作/前三集_v8_v1/资产/绳轮机关/cell_04.jpg"
+    }
+  ]
+}

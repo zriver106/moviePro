@@ -1,0 +1,25 @@
+{
+  "id": "EP001_SH15",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: An empty old timber sluice chamber of a working river dock. Image 2: one worn tan cloth drawstring money pouch and round copper cash coins with square holes. Image 3: one old sluice rope-winch assembly made of oak drum, axle, toothed wheel, pillar, overhead stone counterweight frame, removable oak brake wedge and hemp lifting line. Close shot, 85mm lens. Lu Zhao's right hand holds a small worn purse containing eight copper coins above the open rope loop in shallow water. ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890115,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/闸舱/ref_v01.jpg",
+      "sha256": "e1a0eb20cc6b324b2b3e59b316ae1f4214160ddc2985f6a027ae58ba6db57573"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/钱袋铜钱/ref_v01.jpg",
+      "sha256": "20fc38ad8d1cf7b21980a158ccc982afbb11f6b9a01062b38098fb75aaa2b9b6"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/绳轮机关/ref_v01.jpg",
+      "sha256": "b9c85ea6530f924790e8766bad067e4270c5d150d644bfdfe9b931260bea9bc7"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

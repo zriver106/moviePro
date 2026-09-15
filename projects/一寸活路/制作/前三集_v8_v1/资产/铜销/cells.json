@@ -1,0 +1,87 @@
+{
+  "grid": [
+    2,
+    2
+  ],
+  "separator_x": [
+    0,
+    1280,
+    2560
+  ],
+  "separator_y": [
+    0,
+    720,
+    1440
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "intact front surface",
+      "bbox": [
+        8,
+        8,
+        1272,
+        712
+      ],
+      "subject_bbox_in_cell": [
+        160,
+        123,
+        1181,
+        671
+      ],
+      "path": "制作/前三集_v8_v1/资产/铜销/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "front surface with shallow dent on left half",
+      "bbox": [
+        1288,
+        8,
+        2552,
+        712
+      ],
+      "subject_bbox_in_cell": [
+        76,
+        123,
+        1110,
+        672
+      ],
+      "path": "制作/前三集_v8_v1/资产/铜销/cell_02.jpg"
+    },
+    {
+      "index": 3,
+      "name": "front surface with same left dent and a clean puncture through right half",
+      "bbox": [
+        8,
+        728,
+        1272,
+        1432
+      ],
+      "subject_bbox_in_cell": [
+        160,
+        57,
+        1179,
+        555
+      ],
+      "path": "制作/前三集_v8_v1/资产/铜销/cell_03.jpg"
+    },
+    {
+      "index": 4,
+      "name": "oblique rear view showing puncture passing toward the timber tongue",
+      "bbox": [
+        1288,
+        728,
+        2552,
+        1432
+      ],
+      "subject_bbox_in_cell": [
+        88,
+        74,
+        1110,
+        512
+      ],
+      "path": "制作/前三集_v8_v1/资产/铜销/cell_04.jpg"
+    }
+  ]
+}

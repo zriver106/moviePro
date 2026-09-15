@@ -1,0 +1,25 @@
+{
+  "id": "EP001_SH02",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: Ma Duo, an adult stocky harbor overseer age forty-five, broad square face, heavy eyelids, cropped black hair under a dark brown tied headcloth, sparse moustache, weathered brown padded vest over ochre tunic, dark work trousers, stout cloth boots and belt hook. Image 2: An empty old harbor sluice hatch exit at the top of a steep southern timber ladder. Image 3: one weathered narrow wooden worker tag hanging from a short hemp loop, flat clean brown writing face. Medium close shot, 65mm lens. Ma Duo grips the corner of the hanging tag beside the hatch. ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890102,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/麻铎/ref_v01.jpg",
+      "sha256": "dc99a87afada14bce67464ec31134885fe1bd8ac6730b6e14b7a0b3cd8d05c84"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/梯口/ref_v01.jpg",
+      "sha256": "81030b494cbb94fe5bc291424f8a6aba59f84ee89fe997f15e27a90d3dea99bb"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/死期牌/ref_v01.jpg",
+      "sha256": "0b3e39fcec8097ba75f6620bbbb89ab52e8da118357406646c180a13d2451c64"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

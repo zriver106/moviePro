@@ -1,0 +1,17 @@
+{
+  "id": "废船",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. An empty close interior beneath the broken hull of an old wooden river boat at night. Curved wet ribs and low planking, rough linen cloth laid across a timber support. A narrow cool skylight enters from upper left with a small dim amber reflection. Tight intimate composition focused on a hands-sized area.",
+  "size": {
+    "width": 2560,
+    "height": 1440
+  },
+  "seed": 880116,
+  "references": [
+    {
+      "path": "定稿/Seedream立体国漫基础场景_v8配套/01_本埠公码头.jpg",
+      "sha256": "b354fb160064050d70a6648570ab16680583a562736513b86d16f4e203fa96be"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

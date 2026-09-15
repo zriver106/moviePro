@@ -1,0 +1,52 @@
+{
+  "grid": [
+    2,
+    1
+  ],
+  "separator_x": [
+    0,
+    1548,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "stopper seated in channel socket",
+      "bbox": [
+        8,
+        8,
+        1540,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        174,
+        0,
+        1532,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/退水栓/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "stopper lifted beside open socket",
+      "bbox": [
+        1556,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        126,
+        90,
+        1508,
+        1314
+      ],
+      "path": "制作/前三集_v8_v1/资产/退水栓/cell_02.jpg"
+    }
+  ]
+}

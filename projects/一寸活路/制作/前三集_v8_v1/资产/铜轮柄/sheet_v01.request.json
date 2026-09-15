@@ -1,0 +1,12 @@
+{
+  "id": "铜轮柄",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one detachable L-shaped bronze crank handle with square socket, darkened grip and yellow worn edges. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows whole crank front view. The right cell shows socket end close-up.",
+  "size": {
+    "width": 3072,
+    "height": 1536
+  },
+  "seed": 880120,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

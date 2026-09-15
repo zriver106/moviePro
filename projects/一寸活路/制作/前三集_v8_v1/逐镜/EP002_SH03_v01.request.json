@@ -1,0 +1,25 @@
+{
+  "id": "EP002_SH03",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: Lu Zhao, the same young adult face, black half-up hair and teal color identity as the reference. Image 2: A Li, same young adult male face and black tied-up hair as reference, in an old blue long tunic reaching mid-thigh, patched cloth belt, dark blue trousers and cloth boots. Image 3: An empty close environment view of the northern timber sluice door inside the old chamber. Medium shot, 50mm lens. Lu Zhao leans over the repair ledge toward A Li's raised hand and trapped leg at the threshold. Lu Zhao has wet boots and a water-darkened lower tunic. A Li has soaked clothing and wet hair.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890203,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照/cell_04.jpg",
+      "sha256": "c26e0b85281b9d63fac836f8ac30efe44850cf916dcf98e59cbf6f0185125ec0"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/阿砾/cell_04.jpg",
+      "sha256": "47ef2919d77733639159be89d5dbb31e522ae4c0dfab75db37ff876746336213"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/北门/ref_v01.jpg",
+      "sha256": "c04fa10bad8b2cde09270cfa91811a119f383817e3cc727b031cdd630da56c25"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

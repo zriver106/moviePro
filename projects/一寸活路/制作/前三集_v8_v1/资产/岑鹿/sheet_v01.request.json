@@ -1,0 +1,17 @@
+{
+  "id": "岑鹿",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of Cen Lu, exactly the same adult female face, hairstyle, gold hair comb, dark plum short cape with geometric woven texture, violet blouse, long dark plum skirt and small belt pouch as the reference. Empty relaxed hands. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows full body front view. The top right cell shows left profile. The bottom left cell shows full body back view. The bottom right cell shows waist-up face and hands view.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 880104,
+  "references": [
+    {
+      "path": "定稿/Seedream立体国漫定妆_v8/10_岑鹿.jpg",
+      "sha256": "eee778d0545bf6e2c33f52743caa419fe2c1e8f3b4305ef044398e1ada9ec796"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

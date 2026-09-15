@@ -1,0 +1,25 @@
+{
+  "id": "EP003_SH10",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: An empty narrow old harbor salt-shed alley. Image 2: a short straight black steel awl, a single tapering spike twenty-five centimeters long including a ten-centimeter handle wrapped with old tan hemp cord, simple working tool. Image 3: one coarse old brown hemp fishing net, wet dark strands, diamond-shaped open mesh and reinforced corner loop. Close shot, 85mm lens. Lu Zhao's face and both hands appear beside the mesh, his short awl aligned with a rope opening and the timber crossbar. Lu Zhao has a small dark red stain and superficial scrape at his anatomical left shoulder, the right shoulder intact.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890310,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/盐棚外/ref_v01.jpg",
+      "sha256": "5788f07c0221f6059435a38310c342e2fdf90bea46faf1778e899219712162fa"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/黑钢锥/ref_v01.jpg",
+      "sha256": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/湿网/ref_v01.jpg",
+      "sha256": "286f1762accaff102622192ea1500f3146ccedf26005b8439e053ec49cac95c0"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

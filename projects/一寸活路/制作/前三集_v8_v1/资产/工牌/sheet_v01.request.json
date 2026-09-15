@@ -1,0 +1,12 @@
+{
+  "id": "工牌",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one small rectangular timber operating-instruction plaque with two corner holes and clean worn writing surface. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows front face ready for separately composited lettering. The right cell shows angled view showing slim wood thickness.",
+  "size": {
+    "width": 3072,
+    "height": 1536
+  },
+  "seed": 880129,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

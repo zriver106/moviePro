@@ -1,0 +1,25 @@
+{
+  "id": "EP002_SH18",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: An empty old Chinese river harbor stone landing in the architecture and material style of the reference. Image 2: a short straight black steel awl, a single tapering spike twenty-five centimeters long including a ten-centimeter handle wrapped with old tan hemp cord, simple working tool. Image 3: one plain brown leather sheath sized for a short twenty-five centimeter steel awl, narrow stitched edges, simple cloth belt loop. Close shot, 85mm lens. Lu Zhao's wrapped hand holds a plain brown leather sheath beside the rope-wrapped black awl. ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890218,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/码头/ref_v01.jpg",
+      "sha256": "c9849de7ac36eab16429ebef25577513da031c9e6f8b2a712337425d56fa63e0"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/黑钢锥/ref_v01.jpg",
+      "sha256": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/皮鞘/ref_v01.jpg",
+      "sha256": "ba8a3fa037fd1088e5476dbd24e6d33af09f41552dc77bc5fa7741ff0ac55a35"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

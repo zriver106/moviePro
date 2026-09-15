@@ -1,0 +1,33 @@
+{
+  "id": "EP003_SH12",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: Lu Zhao, the same young adult face, black half-up hair and teal color identity as the reference. Image 2: Ge Ya, an adult lean dock enforcer age thirty-five, narrow face, a clearly missing upper front tooth, dark close-cropped hair under a brown cloth hood, brown sleeveless short coat over dirty grey sleeves, patched dark trousers and cloth shoes. Image 3: An empty narrow old harbor salt-shed alley. Image 4: one short dock knife with a twenty-centimeter dark iron blade, straight working edge and plain brown wood handle. Image 5: one weathered wooden fishing-net drying rack, two upright posts joined by a sturdy horizontal beam, spare short hemp cord hanging from right post. Medium shot, 50mm lens. Lu Zhao braces Ge Ya's right elbow against the rack, the knife still in Ge Ya's hand. Lu Zhao has a small dark red stain and superficial scrape at his anatomical left shoulder, the right shoulder intact.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890312,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照伤势/cell_01.jpg",
+      "sha256": "6f6c88d4a87c665379239319c26425f1074fa55faa792610a0a6cc671335b911"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/葛牙/ref_v01.jpg",
+      "sha256": "d2820c27545132b4cd142e0cc4d67e054bc696a597b8ff88a520b650da83dbca"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/盐棚外/ref_v01.jpg",
+      "sha256": "5788f07c0221f6059435a38310c342e2fdf90bea46faf1778e899219712162fa"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/短刀/ref_v01.jpg",
+      "sha256": "b8df93521fbbcc65c0cf7cc1f3d7da386af2b6a95c466d6c445264e67fc181ff"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/晒网架/ref_v01.jpg",
+      "sha256": "ce1e5d8a426106eb6ddafef8e9a977dd3eb83eb649a677cdea91ae9c7d809221"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

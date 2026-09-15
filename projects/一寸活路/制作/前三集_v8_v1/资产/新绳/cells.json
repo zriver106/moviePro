@@ -1,0 +1,52 @@
+{
+  "grid": [
+    2,
+    1
+  ],
+  "separator_x": [
+    0,
+    1525,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "complete neat coil",
+      "bbox": [
+        8,
+        8,
+        1517,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        205,
+        517,
+        1169,
+        1109
+      ],
+      "path": "制作/前三集_v8_v1/资产/新绳/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "close detail of three-strand fibers and tied end",
+      "bbox": [
+        1533,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        0,
+        1520,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/新绳/cell_02.jpg"
+    }
+  ]
+}

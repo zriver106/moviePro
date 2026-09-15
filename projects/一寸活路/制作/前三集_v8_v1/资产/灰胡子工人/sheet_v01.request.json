@@ -1,0 +1,12 @@
+{
+  "id": "灰胡子工人",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of an elderly male dock worker age sixty, grey short beard, sunken cheeks, thin build, faded grey linen work tunic, dark loose trousers and cloth shoes. Empty hands. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows dry full body front view. The top right cell shows dry left profile. The bottom left cell shows dry full body back view. The bottom right cell shows wet full body front view with drenched clothing.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 880107,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

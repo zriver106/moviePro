@@ -1,0 +1,87 @@
+{
+  "grid": [
+    2,
+    2
+  ],
+  "separator_x": [
+    0,
+    1539,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536,
+    3072
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "whole rack front view",
+      "bbox": [
+        8,
+        8,
+        1531,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        345,
+        366,
+        1293,
+        1382
+      ],
+      "path": "制作/前三集_v8_v1/资产/晒网架/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "angled side view showing solid crossbar",
+      "bbox": [
+        1547,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        285,
+        442,
+        1205,
+        1395
+      ],
+      "path": "制作/前三集_v8_v1/资产/晒网架/cell_02.jpg"
+    },
+    {
+      "index": 3,
+      "name": "close view of intact timber crossbar",
+      "bbox": [
+        8,
+        1544,
+        1531,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        119,
+        322,
+        1473,
+        1246
+      ],
+      "path": "制作/前三集_v8_v1/资产/晒网架/cell_03.jpg"
+    },
+    {
+      "index": 4,
+      "name": "same crossbar with a narrow awl puncture through its thickness",
+      "bbox": [
+        1547,
+        1544,
+        3064,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        75,
+        304,
+        1400,
+        1241
+      ],
+      "path": "制作/前三集_v8_v1/资产/晒网架/cell_04.jpg"
+    }
+  ]
+}

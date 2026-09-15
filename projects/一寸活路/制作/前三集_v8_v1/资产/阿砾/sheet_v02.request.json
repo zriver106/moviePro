@@ -1,0 +1,17 @@
+{
+  "id": "阿砾",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of A Li, same young adult male face and black tied-up hair as reference, in an old blue long tunic reaching just above the knees, patched cloth belt, dark blue trousers and cloth boots. Bare cloth belt and empty relaxed hands. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows dry full body front view. The top right cell shows dry left profile. The bottom left cell shows dry full body back view. The bottom right cell shows wet front view, soaked blue tunic and wet hair. Every cell repeats the plain old blue knee-length tunic and continuous soft cloth waist sash of the full-body reference.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 884502,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/阿砾开篇母板/base_v01.jpg",
+      "sha256": "3679e015a29f39766956b28e2e7fa08feb76da02198e54a19b37e54bc83d2650"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

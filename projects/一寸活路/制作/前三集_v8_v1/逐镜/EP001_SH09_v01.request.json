@@ -1,0 +1,29 @@
+{
+  "id": "EP001_SH09",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: Ma Duo, an adult stocky harbor overseer age forty-five, broad square face, heavy eyelids, cropped black hair under a dark brown tied headcloth, sparse moustache, weathered brown padded vest over ochre tunic, dark work trousers, stout cloth boots and belt hook. Image 2: An empty old timber sluice chamber of a working river dock. Image 3: one long wooden-shafted river work fork with a dark iron two-pronged head, worn brown shaft, compact practical proportions. Image 4: one detachable L-shaped bronze crank handle with square socket, darkened grip and yellow worn edges. Wide shot, 35mm lens. Ma Duo stands at the southern ladder, a fork in both hands and a detached bronze crank hanging at his belt. ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890109,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/麻铎/ref_v01.jpg",
+      "sha256": "dc99a87afada14bce67464ec31134885fe1bd8ac6730b6e14b7a0b3cd8d05c84"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/闸舱/ref_v01.jpg",
+      "sha256": "e1a0eb20cc6b324b2b3e59b316ae1f4214160ddc2985f6a027ae58ba6db57573"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/船叉/ref_v01.jpg",
+      "sha256": "facc4ac935bb256be92235432d07a18e10f619513c6a399a55f6e4dfb7f8c84c"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/铜轮柄/ref_v01.jpg",
+      "sha256": "0318faba8d8f8a07887875733cadfcc8070341bb8ce81be2ae94077151ad1b99"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "钱袋铜钱",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one worn tan cloth drawstring money pouch and round copper cash coins with square holes. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows small pouch open with eight coins beside it. The right cell shows bulging tied pouch beside a loose cluster of matching coins.",
+  "size": {
+    "width": 3072,
+    "height": 1536
+  },
+  "seed": 880124,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

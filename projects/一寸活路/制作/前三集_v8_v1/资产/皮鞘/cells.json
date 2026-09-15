@@ -1,0 +1,52 @@
+{
+  "grid": [
+    2,
+    1
+  ],
+  "separator_x": [
+    0,
+    1545,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "empty sheath side view",
+      "bbox": [
+        8,
+        8,
+        1537,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        508,
+        0,
+        1529,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/皮鞘/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "angled view of sheath opening and belt loop",
+      "bbox": [
+        1553,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        333,
+        365,
+        1143,
+        1202
+      ],
+      "path": "制作/前三集_v8_v1/资产/皮鞘/cell_02.jpg"
+    }
+  ]
+}

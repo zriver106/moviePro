@@ -1,0 +1,21 @@
+{
+  "id": "EP003_SH29",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: An empty old Chinese river harbor stone landing in the architecture and material style of the reference. Image 2: one matched pair of plain cream glazed pottery rice bowls with thin brown rims, the sister bowl has one clearly chipped lip and the brother bowl has a complete smooth rim. Close shot, 85mm lens. Lu He supports a cloth bundle around the same two bowls opposite Lu Zhao's open hands. A clean linen dressing covers Lu Zhao's anatomical left shoulder beneath the parted collar.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890329,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/码头/ref_v01.jpg",
+      "sha256": "c9849de7ac36eab16429ebef25577513da031c9e6f8b2a712337425d56fa63e0"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/双碗/ref_v01.jpg",
+      "sha256": "8cacca7f9a3aad89634b0a2c0f6b0e77bb29d33b141d15af58207b5c0048e6cc"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

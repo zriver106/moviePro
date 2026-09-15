@@ -1,0 +1,87 @@
+{
+  "grid": [
+    2,
+    2
+  ],
+  "separator_x": [
+    0,
+    1541,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1531,
+    3072
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "dry crate and folded document",
+      "bbox": [
+        8,
+        8,
+        1533,
+        1523
+      ],
+      "subject_bbox_in_cell": [
+        223,
+        16,
+        1525,
+        1515
+      ],
+      "path": "制作/前三集_v8_v1/资产/保单货箱/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "same crate with lower boards water-darkened",
+      "bbox": [
+        1549,
+        8,
+        3064,
+        1523
+      ],
+      "subject_bbox_in_cell": [
+        235,
+        351,
+        1390,
+        1296
+      ],
+      "path": "制作/前三集_v8_v1/资产/保单货箱/cell_02.jpg"
+    },
+    {
+      "index": 3,
+      "name": "open crate showing wrapped medicine packages",
+      "bbox": [
+        8,
+        1539,
+        1533,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        4,
+        0,
+        1525,
+        1525
+      ],
+      "path": "制作/前三集_v8_v1/资产/保单货箱/cell_03.jpg"
+    },
+    {
+      "index": 4,
+      "name": "document unfolded on crate ready for later typeset text",
+      "bbox": [
+        1549,
+        1539,
+        3064,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        51,
+        1,
+        1515,
+        1290
+      ],
+      "path": "制作/前三集_v8_v1/资产/保单货箱/cell_04.jpg"
+    }
+  ]
+}

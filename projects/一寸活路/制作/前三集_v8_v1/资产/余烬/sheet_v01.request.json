@@ -1,0 +1,12 @@
+{
+  "id": "余烬",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. A restrained tiny ember-red fragment and a soft amber pinprick glow, practical subtle supernatural effect, deep black background. Two separate samples side by side: a thin ember-red flake at left, a small soft amber point with gentle falloff at right. Compact scale appropriate to a glow beneath clothing.",
+  "size": {
+    "width": 2560,
+    "height": 1440
+  },
+  "seed": 880142,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

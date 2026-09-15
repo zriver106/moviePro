@@ -1,0 +1,52 @@
+{
+  "grid": [
+    2,
+    1
+  ],
+  "separator_x": [
+    0,
+    1539,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "unfolded paper viewed from above",
+      "bbox": [
+        8,
+        8,
+        1531,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        225,
+        220,
+        1435,
+        1309
+      ],
+      "path": "制作/前三集_v8_v1/资产/售船纸/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "same sheet folded in half",
+      "bbox": [
+        1547,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        250,
+        195,
+        1244,
+        1376
+      ],
+      "path": "制作/前三集_v8_v1/资产/售船纸/cell_02.jpg"
+    }
+  ]
+}

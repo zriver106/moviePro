@@ -1,0 +1,17 @@
+{
+  "id": "闻溪",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of Wen Xi, exactly the same adult female face, pinned brown-black hair, pale mint sleeveless overcoat, cream sleeves, grey pleated skirt, dark green boots and medicine pouches as the reference. Empty relaxed hands. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows dry full body front view. The top right cell shows dry left profile. The bottom left cell shows dry full body back view. The bottom right cell shows wet front view, soaked skirt and damp strands against the cheeks.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 880101,
+  "references": [
+    {
+      "path": "定稿/Seedream立体国漫定妆_v8/02_闻溪.jpg",
+      "sha256": "73fdf08b1741ac8ce150fff0661c0fca183c1f455b64d4430ab5353142fbb223"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "EP002_SH14",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: an adult male guild dock guard age thirty, broad cheekbones, tied black hair, dark slate-blue short work jacket, muted grey trousers, hemp waist cord and flat black cloth shoes. Image 2: Ma Duo, an adult stocky harbor overseer age forty-five, broad square face, heavy eyelids, cropped black hair under a dark brown tied headcloth, sparse moustache, weathered brown padded vest over ochre tunic, dark work trousers, stout cloth boots and belt hook. Image 3: An empty old harbor sluice hatch exit at the top of a steep southern timber ladder. Image 4: one practical medicine freight crate with rough pine boards, rope binding and a folded cream insurance document laid flat on its top, clean paper surface. Image 5: one old sluice rope-winch assembly made of oak drum, axle, toothed wheel, pillar, overhead stone counterweight frame, removable oak brake wedge and hemp lifting line. Wide shot, 35mm lens. The dock guard emerges from the hatch beside two wet crates with dry crates stacked behind. ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890214,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/守船人/ref_v01.jpg",
+      "sha256": "c0d1fa7ea2459f4f38ceefe1370752744ef83032f88d1fa11bbc09e810bf6f66"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/麻铎/ref_v01.jpg",
+      "sha256": "dc99a87afada14bce67464ec31134885fe1bd8ac6730b6e14b7a0b3cd8d05c84"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/梯口/ref_v01.jpg",
+      "sha256": "81030b494cbb94fe5bc291424f8a6aba59f84ee89fe997f15e27a90d3dea99bb"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/保单货箱/ref_v01.jpg",
+      "sha256": "e940e488567a207e1437cca6d6a8967d2de26b98e6b182520f2ee1b454037cf3"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/绳轮机关/ref_v01.jpg",
+      "sha256": "b9c85ea6530f924790e8766bad067e4270c5d150d644bfdfe9b931260bea9bc7"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

@@ -1,0 +1,211 @@
+{
+  "scope": "历史84镜版内部视觉复核；5镜未通过；不是用户批准",
+  "pages": [
+    {
+      "page": "EP001_P01",
+      "sha256": "aa5b5306d4324d1ac2fcf944280f8377c6c55a19c73fd93610364185c3355008",
+      "shots": [
+        "EP001_SH01",
+        "EP001_SH02",
+        "EP001_SH03",
+        "EP001_SH04",
+        "EP001_SH05",
+        "EP001_SH06"
+      ],
+      "status": "historical_composition_preview",
+      "issues": {}
+    },
+    {
+      "page": "EP001_P02",
+      "sha256": "622fb83df1c6d5e60f350cacc01b7628d232875f739f3a3a5f69210be53e47c1",
+      "shots": [
+        "EP001_SH07",
+        "EP001_SH08",
+        "EP001_SH09",
+        "EP001_SH10",
+        "EP001_SH11",
+        "EP001_SH12"
+      ],
+      "status": "historical_composition_preview",
+      "issues": {}
+    },
+    {
+      "page": "EP001_P03",
+      "sha256": "f73f326e8a516a1bb908a3fbbb32948c0ddcefe6dbdd6c2dce5cd4f2f93e256a",
+      "shots": [
+        "EP001_SH13",
+        "EP001_SH14",
+        "EP001_SH15",
+        "EP001_SH16",
+        "EP001_SH17",
+        "EP001_SH18"
+      ],
+      "status": "historical_composition_preview",
+      "issues": {}
+    },
+    {
+      "page": "EP001_P04",
+      "sha256": "f717b0447276d97a928fd1ad3da73a006b6c1376d67aa8f5d2879397f8010d94",
+      "shots": [
+        "EP001_SH19",
+        "EP001_SH20",
+        "EP001_SH21",
+        "EP001_SH22",
+        "EP001_SH23",
+        "EP001_SH24"
+      ],
+      "status": "historical_composition_preview",
+      "issues": {}
+    },
+    {
+      "page": "EP002_P01",
+      "sha256": "aa644332d4ce67b5529c9814ba5d61da4f05ddf75d40c1316e4ea7d662dfbb4d",
+      "shots": [
+        "EP002_SH01",
+        "EP002_SH02",
+        "EP002_SH03",
+        "EP002_SH04",
+        "EP002_SH05",
+        "EP002_SH06"
+      ],
+      "status": "historical_composition_preview",
+      "issues": {}
+    },
+    {
+      "page": "EP002_P02",
+      "sha256": "906b1323f593cf992c595da1611229c32e05aed889a452954772979e55a0bb17",
+      "shots": [
+        "EP002_SH07",
+        "EP002_SH08",
+        "EP002_SH09",
+        "EP002_SH10",
+        "EP002_SH11",
+        "EP002_SH12"
+      ],
+      "status": "historical_composition_preview",
+      "issues": {}
+    },
+    {
+      "page": "EP002_P03",
+      "sha256": "65317d606cf223511df78f383b443160a0778039e1b75ef1d94c48307095e0ef",
+      "shots": [
+        "EP002_SH13",
+        "EP002_SH14",
+        "EP002_SH15",
+        "EP002_SH16",
+        "EP002_SH17",
+        "EP002_SH18"
+      ],
+      "status": "historical_composition_preview",
+      "issues": {}
+    },
+    {
+      "page": "EP002_P04",
+      "sha256": "97e1346e3861f3c98baa9cf860323d196dc65298baa88dcea7b877baf52bd1c3",
+      "shots": [
+        "EP002_SH19",
+        "EP002_SH20",
+        "EP002_SH21",
+        "EP002_SH22",
+        "EP002_SH23",
+        "EP002_SH24"
+      ],
+      "status": "historical_composition_preview",
+      "issues": {}
+    },
+    {
+      "page": "EP002_P05",
+      "sha256": "8061ee73786b8761935bac1228d28dc374fab1806e2f166e51a4f6a4bf06bba4",
+      "shots": [
+        "EP002_SH25",
+        "EP002_SH26",
+        "EP002_SH27",
+        "EP002_SH28",
+        "EP002_SH29",
+        "EP002_SH30"
+      ],
+      "status": "needs_revision",
+      "issues": {
+        "EP002_SH30": "陆禾衣服与身份漂移，修订提示词已准备，未出图"
+      }
+    },
+    {
+      "page": "EP003_P01",
+      "sha256": "653d72c9706183d8caca2f81c05a593c7892748dcc93dabec957b4a3c5f2dd93",
+      "shots": [
+        "EP003_SH01",
+        "EP003_SH02",
+        "EP003_SH03",
+        "EP003_SH04",
+        "EP003_SH05",
+        "EP003_SH06"
+      ],
+      "status": "historical_composition_preview",
+      "issues": {}
+    },
+    {
+      "page": "EP003_P02",
+      "sha256": "81a1a6fef9628aeb52091c21fe7644cd9af7448024bc564f9b07e926aca52c8c",
+      "shots": [
+        "EP003_SH07",
+        "EP003_SH08",
+        "EP003_SH09",
+        "EP003_SH10",
+        "EP003_SH11",
+        "EP003_SH12"
+      ],
+      "status": "needs_revision",
+      "issues": {
+        "EP003_SH10": "陆照服装与身份漂移，修订提示词已准备，未出图"
+      }
+    },
+    {
+      "page": "EP003_P03",
+      "sha256": "01b2a424f6f5934ac3a042d7ae84099b824ec1baaee719385b428b91821ac3db",
+      "shots": [
+        "EP003_SH13",
+        "EP003_SH14",
+        "EP003_SH15",
+        "EP003_SH16",
+        "EP003_SH17",
+        "EP003_SH18"
+      ],
+      "status": "needs_revision",
+      "issues": {
+        "EP003_SH16": "陆照服装、身份与伤势侧漂移，修订提示词已准备，未出图"
+      }
+    },
+    {
+      "page": "EP003_P04",
+      "sha256": "638804a47a99f04126fbb9df5f4094a8a01f83f165cce5f7ce740cc5378a66ac",
+      "shots": [
+        "EP003_SH19",
+        "EP003_SH20",
+        "EP003_SH21",
+        "EP003_SH22",
+        "EP003_SH23",
+        "EP003_SH24"
+      ],
+      "status": "needs_revision",
+      "issues": {
+        "EP003_SH23": "画面多出一名陆照，待去除重复人物"
+      }
+    },
+    {
+      "page": "EP003_P05",
+      "sha256": "eee2bebfda043babca09558f44f430f9168d68533dfde373e472cfa0a7f605ef",
+      "shots": [
+        "EP003_SH25",
+        "EP003_SH26",
+        "EP003_SH27",
+        "EP003_SH28",
+        "EP003_SH29",
+        "EP003_SH30"
+      ],
+      "status": "needs_revision",
+      "issues": {
+        "EP003_SH29": "双碗交接镜头人物错配，待重新绑定陆禾与陆照"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "麻铎",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of Ma Duo, an adult stocky harbor overseer age forty-five, broad square face, heavy eyelids, cropped black hair under a dark brown tied headcloth, sparse moustache, weathered brown padded vest over ochre tunic, dark work trousers, stout cloth boots and belt hook. Empty hands. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows full body front view. The top right cell shows left profile. The bottom left cell shows full body back view. The bottom right cell shows wet front view with wrists tied together by short hemp rope.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 880105,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

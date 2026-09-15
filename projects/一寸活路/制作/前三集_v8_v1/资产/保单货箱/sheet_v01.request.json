@@ -1,0 +1,12 @@
+{
+  "id": "保单货箱",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one practical medicine freight crate with rough pine boards, rope binding and a folded cream insurance document laid flat on its top, clean paper surface. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows dry crate and folded document. The top right cell shows same crate with lower boards water-darkened. The bottom left cell shows open crate showing wrapped medicine packages. The bottom right cell shows document unfolded on crate ready for later typeset text.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 880130,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "铜销",
+  "prompt": "A four-cell 2 by 2 production prop reference sheet of the same thin rectangular yellow copper plate. Clean white backgrounds and blank white margins. Top left: perfectly flat intact plate seen from front. Top right: the same flat plate with a tiny shallow round inward depression on its left half, the size of the awl tip, recessed one millimeter below the flat face. Bottom left: the same tiny shallow left depression plus a small rough-edged puncture hole on the right half, the two marks clearly separate. Bottom right: back-side oblique view of the thin plate with the same right-side hole and a small wooden locking tongue aligned behind that hole. All cells preserve the rectangular proportions and matte yellow copper material of the reference. Each plate occupies the center of its cell.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 885102,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/铜销/sheet_v01.jpg",
+      "sha256": "10fe3172bde8721ca003148a27230f125877d3ab02b9a714f7b70f9af77b3fe8"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

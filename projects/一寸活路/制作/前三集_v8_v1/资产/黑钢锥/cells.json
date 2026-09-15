@@ -1,0 +1,52 @@
+{
+  "grid": [
+    2,
+    1
+  ],
+  "separator_x": [
+    0,
+    1540,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "side profile of the complete awl",
+      "bbox": [
+        8,
+        8,
+        1532,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        158,
+        37,
+        1524,
+        1510
+      ],
+      "path": "制作/前三集_v8_v1/资产/黑钢锥/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "angled view revealing square-section taper and hemp-wrapped handle",
+      "bbox": [
+        1548,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        157,
+        602,
+        1355,
+        889
+      ],
+      "path": "制作/前三集_v8_v1/资产/黑钢锥/cell_02.jpg"
+    }
+  ]
+}

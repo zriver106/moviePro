@@ -1,0 +1,87 @@
+{
+  "grid": [
+    2,
+    2
+  ],
+  "separator_x": [
+    0,
+    1525,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536,
+    3072
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "both bowls side by side, left chipped and right intact",
+      "bbox": [
+        8,
+        8,
+        1517,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        17,
+        699,
+        1439,
+        1064
+      ],
+      "path": "制作/前三集_v8_v1/资产/双碗/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "same pair seen from above",
+      "bbox": [
+        1533,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        163,
+        494,
+        1398,
+        1060
+      ],
+      "path": "制作/前三集_v8_v1/资产/双碗/cell_02.jpg"
+    },
+    {
+      "index": 3,
+      "name": "same pair filled with rice and two modest meat pieces",
+      "bbox": [
+        8,
+        1544,
+        1517,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        15,
+        609,
+        1419,
+        1150
+      ],
+      "path": "制作/前三集_v8_v1/资产/双碗/cell_03.jpg"
+    },
+    {
+      "index": 4,
+      "name": "same two bowls nested inside a loosely opened blue-grey cloth carrying wrap",
+      "bbox": [
+        1533,
+        1544,
+        3064,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        115,
+        241,
+        1485,
+        1192
+      ],
+      "path": "制作/前三集_v8_v1/资产/双碗/cell_04.jpg"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "铜销",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one rectangular yellow copper door locking plate with a small timber latch tongue behind it. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows intact front surface. The top right cell shows front surface with shallow dent on left half. The bottom left cell shows front surface with same left dent and a clean puncture through right half. The bottom right cell shows oblique rear view showing puncture passing toward the timber tongue.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 880118,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

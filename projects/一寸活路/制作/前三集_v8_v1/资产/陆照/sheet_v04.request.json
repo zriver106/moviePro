@@ -1,0 +1,17 @@
+{
+  "id": "陆照",
+  "prompt": "Chinese 3D animated character reference sheet of exactly the same Lu Zhao from the full-body reference, identical face, hair, worn teal cloth tunic, tan cloth sash, cloth wrist wraps, black trousers and cloth boots. Four equal panels in two columns and two rows. Full head-to-feet figures inside each cell, with generous white margin around each figure and neutral soft light. Top left: full-body front view in dry clothing. Top right: full-body left profile in dry clothing. Bottom left: full-body back view in dry clothing. Bottom right: full-body front view in soaked clothing and damp hair, still in the same costume. Both shoulders are intact and fully covered by teal cloth in every cell. All hands are empty. Every cell has a pure white background.",
+  "size": {
+    "width": 2048,
+    "height": 3072
+  },
+  "seed": 886001,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照开篇母板/base_v01.jpg",
+      "sha256": "6d61daf93ba1d80e2961a76f28f67be9b9e1b0ad9159572813464937e04789ed"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

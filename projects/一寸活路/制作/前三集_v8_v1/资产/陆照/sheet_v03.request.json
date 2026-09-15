@@ -1,0 +1,17 @@
+{
+  "id": "陆照",
+  "prompt": "Keep the same six-cell character reference sheet, identical face, hair, costume, cloth belt, purse, proportions and white background. Correct the injury placement in the bottom middle and bottom right cells. In the bottom middle cell the small shallow wound and dark red cloth stain are placed at the shoulder on the RIGHT SIDE OF THE IMAGE, immediately above the existing brown upper-arm tie on the RIGHT SIDE OF THE IMAGE. The shoulder on the LEFT SIDE OF THE IMAGE has continuous intact teal cloth. The injury is a small scrape and a coin-sized cloth stain. In the bottom right cell a small linen dressing covers that same shoulder on the RIGHT SIDE OF THE IMAGE, just above that existing upper-arm tie. The chest remains covered by the normal cross-collar tunic. All other cells and details remain exactly as shown in the reference.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 884601,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照/sheet_v02.jpg",
+      "sha256": "4015093fb5e23ad7847470e04ad684067a38a66ccd74e099bb41e8f4bb82ce7b"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

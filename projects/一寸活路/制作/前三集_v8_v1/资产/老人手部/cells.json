@@ -1,0 +1,87 @@
+{
+  "grid": [
+    2,
+    2
+  ],
+  "separator_x": [
+    0,
+    1536,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1544,
+    3072
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "both hands open, palms upward",
+      "bbox": [
+        8,
+        8,
+        1528,
+        1536
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        0,
+        1520,
+        1528
+      ],
+      "path": "制作/前三集_v8_v1/资产/老人手部/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "both hands with fingers slightly curled",
+      "bbox": [
+        1544,
+        8,
+        3064,
+        1536
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        349,
+        1480,
+        1528
+      ],
+      "path": "制作/前三集_v8_v1/资产/老人手部/cell_02.jpg"
+    },
+    {
+      "index": 3,
+      "name": "right hand palm down showing knuckles",
+      "bbox": [
+        8,
+        1552,
+        1528,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        309,
+        0,
+        1520,
+        1512
+      ],
+      "path": "制作/前三集_v8_v1/资产/老人手部/cell_03.jpg"
+    },
+    {
+      "index": 4,
+      "name": "right hand fingers extended above a folded linen cloth",
+      "bbox": [
+        1544,
+        1552,
+        3064,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        192,
+        89,
+        1290,
+        1275
+      ],
+      "path": "制作/前三集_v8_v1/资产/老人手部/cell_04.jpg"
+    }
+  ]
+}

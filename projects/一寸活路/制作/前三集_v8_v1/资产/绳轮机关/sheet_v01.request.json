@@ -1,0 +1,12 @@
+{
+  "id": "绳轮机关",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one old sluice rope-winch assembly made of oak drum, axle, toothed wheel, pillar, overhead stone counterweight frame, removable oak brake wedge and hemp lifting line. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows complete assembly, weight suspended a handspan above support and line ending in a loose floor loop. The top right cell shows side view showing line path from weight through drum to loop. The bottom left cell shows close view of brake wedge seated beneath toothed wheel. The bottom right cell shows released mechanism with stone resting on support and loop drawn tight.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 880119,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

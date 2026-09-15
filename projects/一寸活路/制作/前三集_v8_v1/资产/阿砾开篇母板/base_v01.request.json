@@ -1,0 +1,17 @@
+{
+  "id": "阿砾开篇母板",
+  "prompt": "Sculpted Chinese 3D animated young adult, same exact face and tied-up black hair identity as the portrait reference. Single full body front view with empty relaxed hands, neutral soft lighting, pure white backdrop. His entire outfit is an old faded blue linen long tunic with hem just above the knees, plain loose sleeves and patched cloth surface, a single soft dark brown cloth sash tied at the waist, loose dark blue trousers and simple flat dark cloth shoes. The waist is a continuous soft fabric sash. Bare hands hang beside his thighs. Frayed hems and visible hand-sewn patches express poor dock laborer clothing.",
+  "size": {
+    "width": 1536,
+    "height": 2304
+  },
+  "seed": 884501,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/阿砾/face_source_v8.jpg",
+      "sha256": "c39baf500696ed0304647638579245d7bbba20b91f899071cf77fe482f827877"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

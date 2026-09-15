@@ -1,0 +1,184 @@
+[
+  {
+    "id": "EP001_P01",
+    "output": "故事板/EP001_P01_assembled_v01.jpg",
+    "shots": [
+      "EP001_SH01",
+      "EP001_SH02",
+      "EP001_SH03",
+      "EP001_SH04",
+      "EP001_SH05",
+      "EP001_SH06"
+    ],
+    "method": "locally assembled from individually generated shots"
+  },
+  {
+    "id": "EP001_P02",
+    "output": "故事板/EP001_P02_assembled_v01.jpg",
+    "shots": [
+      "EP001_SH07",
+      "EP001_SH08",
+      "EP001_SH09",
+      "EP001_SH10",
+      "EP001_SH11",
+      "EP001_SH12"
+    ],
+    "method": "locally assembled from individually generated shots"
+  },
+  {
+    "id": "EP001_P03",
+    "output": "故事板/EP001_P03_assembled_v01.jpg",
+    "shots": [
+      "EP001_SH13",
+      "EP001_SH14",
+      "EP001_SH15",
+      "EP001_SH16",
+      "EP001_SH17",
+      "EP001_SH18"
+    ],
+    "method": "locally assembled from individually generated shots"
+  },
+  {
+    "id": "EP001_P04",
+    "output": "故事板/EP001_P04_assembled_v01.jpg",
+    "shots": [
+      "EP001_SH19",
+      "EP001_SH20",
+      "EP001_SH21",
+      "EP001_SH22",
+      "EP001_SH23",
+      "EP001_SH24"
+    ],
+    "method": "locally assembled from individually generated shots"
+  },
+  {
+    "id": "EP002_P01",
+    "output": "故事板/EP002_P01_assembled_v01.jpg",
+    "shots": [
+      "EP002_SH01",
+      "EP002_SH02",
+      "EP002_SH03",
+      "EP002_SH04",
+      "EP002_SH05",
+      "EP002_SH06"
+    ],
+    "method": "locally assembled from individually generated shots"
+  },
+  {
+    "id": "EP002_P02",
+    "output": "故事板/EP002_P02_assembled_v01.jpg",
+    "shots": [
+      "EP002_SH07",
+      "EP002_SH08",
+      "EP002_SH09",
+      "EP002_SH10",
+      "EP002_SH11",
+      "EP002_SH12"
+    ],
+    "method": "locally assembled from individually generated shots"
+  },
+  {
+    "id": "EP002_P03",
+    "output": "故事板/EP002_P03_assembled_v01.jpg",
+    "shots": [
+      "EP002_SH13",
+      "EP002_SH14",
+      "EP002_SH15",
+      "EP002_SH16",
+      "EP002_SH17",
+      "EP002_SH18"
+    ],
+    "method": "locally assembled from individually generated shots"
+  },
+  {
+    "id": "EP002_P04",
+    "output": "故事板/EP002_P04_assembled_v01.jpg",
+    "shots": [
+      "EP002_SH19",
+      "EP002_SH20",
+      "EP002_SH21",
+      "EP002_SH22",
+      "EP002_SH23",
+      "EP002_SH24"
+    ],
+    "method": "locally assembled from individually generated shots"
+  },
+  {
+    "id": "EP002_P05",
+    "output": "故事板/EP002_P05_assembled_v01.jpg",
+    "shots": [
+      "EP002_SH25",
+      "EP002_SH26",
+      "EP002_SH27",
+      "EP002_SH28",
+      "EP002_SH29",
+      "EP002_SH30"
+    ],
+    "method": "locally assembled from individually generated shots"
+  },
+  {
+    "id": "EP003_P01",
+    "output": "故事板/EP003_P01_assembled_v01.jpg",
+    "shots": [
+      "EP003_SH01",
+      "EP003_SH02",
+      "EP003_SH03",
+      "EP003_SH04",
+      "EP003_SH05",
+      "EP003_SH06"
+    ],
+    "method": "locally assembled from individually generated shots"
+  },
+  {
+    "id": "EP003_P02",
+    "output": "故事板/EP003_P02_assembled_v01.jpg",
+    "shots": [
+      "EP003_SH07",
+      "EP003_SH08",
+      "EP003_SH09",
+      "EP003_SH10",
+      "EP003_SH11",
+      "EP003_SH12"
+    ],
+    "method": "locally assembled from individually generated shots"
+  },
+  {
+    "id": "EP003_P03",
+    "output": "故事板/EP003_P03_assembled_v01.jpg",
+    "shots": [
+      "EP003_SH13",
+      "EP003_SH14",
+      "EP003_SH15",
+      "EP003_SH16",
+      "EP003_SH17",
+      "EP003_SH18"
+    ],
+    "method": "locally assembled from individually generated shots"
+  },
+  {
+    "id": "EP003_P04",
+    "output": "故事板/EP003_P04_assembled_v01.jpg",
+    "shots": [
+      "EP003_SH19",
+      "EP003_SH20",
+      "EP003_SH21",
+      "EP003_SH22",
+      "EP003_SH23",
+      "EP003_SH24"
+    ],
+    "method": "locally assembled from individually generated shots"
+  },
+  {
+    "id": "EP003_P05",
+    "output": "故事板/EP003_P05_assembled_v01.jpg",
+    "shots": [
+      "EP003_SH25",
+      "EP003_SH26",
+      "EP003_SH27",
+      "EP003_SH28",
+      "EP003_SH29",
+      "EP003_SH30"
+    ],
+    "method": "locally assembled from individually generated shots"
+  }
+]

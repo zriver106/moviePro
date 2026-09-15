@@ -1,0 +1,17 @@
+{
+  "id": "陆照伤势",
+  "prompt": "Two-panel waist-up production reference of exactly the same Chinese 3D animated Lu Zhao as the source portrait, identical face, hair, teal tunic, tan cloth sash and cloth wrist wraps. Pure white background, neutral lighting. Each panel shows a front-facing portrait from head to waist. The brown upper-arm tie visible on the RIGHT SIDE OF THE SOURCE IMAGE is the landmark. Left panel: a small shallow scrape with a tiny dark red stain is located DIRECTLY ABOVE THAT BROWN UPPER-ARM TIE on the RIGHT SIDE OF THE IMAGE. His other shoulder on the left of the image is completely covered with intact teal fabric. Right panel: a small square cream dressing covers that exact same scrape DIRECTLY ABOVE THE BROWN UPPER-ARM TIE on the RIGHT SIDE OF THE IMAGE; the teal collar continues to cover his chest. The injury and dressing are on the same shoulder in both portraits.",
+  "size": {
+    "width": 2048,
+    "height": 1536
+  },
+  "seed": 886002,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照开篇母板/base_v01.jpg",
+      "sha256": "6d61daf93ba1d80e2961a76f28f67be9b9e1b0ad9159572813464937e04789ed"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

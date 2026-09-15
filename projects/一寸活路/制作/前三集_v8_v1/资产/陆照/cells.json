@@ -1,0 +1,87 @@
+{
+  "grid": [
+    2,
+    2
+  ],
+  "separator_x": [
+    0,
+    1024,
+    2048
+  ],
+  "separator_y": [
+    0,
+    1537,
+    3072
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "dry full body front",
+      "bbox": [
+        8,
+        8,
+        1016,
+        1529
+      ],
+      "subject_bbox_in_cell": [
+        25,
+        22,
+        994,
+        1521
+      ],
+      "path": "制作/前三集_v8_v1/资产/陆照/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "dry left profile",
+      "bbox": [
+        1032,
+        8,
+        2040,
+        1529
+      ],
+      "subject_bbox_in_cell": [
+        15,
+        22,
+        982,
+        1521
+      ],
+      "path": "制作/前三集_v8_v1/资产/陆照/cell_02.jpg"
+    },
+    {
+      "index": 3,
+      "name": "dry full body back",
+      "bbox": [
+        8,
+        1545,
+        1016,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        25,
+        25,
+        994,
+        1500
+      ],
+      "path": "制作/前三集_v8_v1/资产/陆照/cell_03.jpg"
+    },
+    {
+      "index": 4,
+      "name": "wet full body front",
+      "bbox": [
+        1032,
+        1545,
+        2040,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        15,
+        25,
+        982,
+        1500
+      ],
+      "path": "制作/前三集_v8_v1/资产/陆照/cell_04.jpg"
+    }
+  ]
+}

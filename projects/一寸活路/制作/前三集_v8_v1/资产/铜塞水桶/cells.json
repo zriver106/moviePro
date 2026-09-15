@@ -1,0 +1,52 @@
+{
+  "grid": [
+    2,
+    1
+  ],
+  "separator_x": [
+    0,
+    1513,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "copper plug intact over empty bucket",
+      "bbox": [
+        8,
+        8,
+        1505,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        266,
+        1104,
+        1507
+      ],
+      "path": "制作/前三集_v8_v1/资产/铜塞水桶/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "plug pierced with water streaming into same bucket",
+      "bbox": [
+        1521,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        0,
+        1113,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/铜塞水桶/cell_02.jpg"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "grid": [
+    2,
+    1
+  ],
+  "separator_x": [
+    0,
+    1544,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "folded kit with closed jar",
+      "bbox": [
+        8,
+        8,
+        1536,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        269,
+        0,
+        1528,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/药布/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "opened kit with rolled dressing and scissors",
+      "bbox": [
+        1552,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        141,
+        447,
+        1359,
+        1233
+      ],
+      "path": "制作/前三集_v8_v1/资产/药布/cell_02.jpg"
+    }
+  ]
+}

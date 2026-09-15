@@ -1,0 +1,52 @@
+{
+  "grid": [
+    2,
+    1
+  ],
+  "separator_x": [
+    0,
+    1536,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "whole plan laid flat",
+      "bbox": [
+        8,
+        8,
+        1528,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        39,
+        56,
+        1501,
+        1474
+      ],
+      "path": "制作/前三集_v8_v1/资产/清障图/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "close detail of boat stern and submerged pile symbols",
+      "bbox": [
+        1544,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        27,
+        55,
+        1483,
+        1474
+      ],
+      "path": "制作/前三集_v8_v1/资产/清障图/cell_02.jpg"
+    }
+  ]
+}

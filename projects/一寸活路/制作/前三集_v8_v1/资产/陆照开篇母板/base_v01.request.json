@@ -1,0 +1,17 @@
+{
+  "id": "陆照开篇母板",
+  "prompt": "Sculpted Chinese 3D animated character, same exact face and hair identity as the portrait reference. Single full-body front view, standing with empty relaxed hands, neutral soft light, pure white backdrop. His entire outfit is a plain faded teal cross-collar linen tunic ending at mid-thigh, narrow cream inner collar, soft dark cloth wrist wraps, loose black linen trousers and simple soft black cloth boots. A single tan cloth sash is tied around his waist, carrying a small undyed drawstring cloth purse. All garment surfaces are soft woven cloth, with modest wear and hand-sewn seams. His silhouette is that of a poor harbor worker. The waist and forearms clearly show plain fabric. Both shoulders are intact.",
+  "size": {
+    "width": 1536,
+    "height": 2304
+  },
+  "seed": 884401,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照/face_source_v8.jpg",
+      "sha256": "9b6c446fd30017f06b530e6b4bbf45fae982d4d098f63ff0802c995cb28ea8b3"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

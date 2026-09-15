@@ -1,0 +1,12 @@
+{
+  "id": "皮鞘",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one plain brown leather sheath sized for a short twenty-five centimeter steel awl, narrow stitched edges, simple cloth belt loop. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows empty sheath side view. The right cell shows angled view of sheath opening and belt loop.",
+  "size": {
+    "width": 3072,
+    "height": 1536
+  },
+  "seed": 880126,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

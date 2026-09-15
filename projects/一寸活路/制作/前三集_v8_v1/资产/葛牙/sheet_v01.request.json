@@ -1,0 +1,12 @@
+{
+  "id": "葛牙",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of Ge Ya, an adult lean dock enforcer age thirty-five, narrow face, a clearly missing upper front tooth, dark close-cropped hair under a brown cloth hood, brown sleeveless short coat over dirty grey sleeves, patched dark trousers and cloth shoes. Empty hands. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows full body front view with hood up. The top right cell shows left profile with hood up. The bottom left cell shows full body back view. The bottom right cell shows face close-up with hood lowered and mouth slightly open showing the missing tooth.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 880106,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

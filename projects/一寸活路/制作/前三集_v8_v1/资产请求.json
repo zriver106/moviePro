@@ -1,0 +1,1118 @@
+[
+  {
+    "id": "陆照开篇母板",
+    "type": "char",
+    "label_en": "Lu Zhao in his opening-chapter working clothes",
+    "prompt": "Sculpted Chinese 3D animated character, same exact face and hair identity as the portrait reference. Single full-body front view, standing with empty relaxed hands, neutral soft light, pure white backdrop. His entire outfit is a plain faded teal cross-collar linen tunic ending at mid-thigh, narrow cream inner collar, soft dark cloth wrist wraps, loose black linen trousers and simple soft black cloth boots. A single tan cloth sash is tied around his waist, carrying a small undyed drawstring cloth purse. All garment surfaces are soft woven cloth, with modest wear and hand-sewn seams. His silhouette is that of a poor harbor worker. The waist and forearms clearly show plain fabric. Both shoulders are intact.",
+    "refs": [
+      "制作/前三集_v8_v1/资产/陆照/face_source_v8.jpg"
+    ],
+    "seed": 884401,
+    "size": {
+      "width": 1536,
+      "height": 2304
+    },
+    "grid": [
+      1,
+      1
+    ],
+    "cells": [
+      "master"
+    ],
+    "output": "资产/陆照开篇母板/base_v01.jpg",
+    "binding_ref": "资产/陆照开篇母板/ref_v01.jpg",
+    "note": "v8面部裁图派生；开篇单张母板；布护腕、布腰带、无购鞘提前穿帮"
+  },
+  {
+    "id": "陆照",
+    "type": "char",
+    "label_en": "Lu Zhao, the same young adult face, black half-up hair and teal color identity as the reference",
+    "prompt": "Chinese 3D animated character reference sheet of exactly the same Lu Zhao from the full-body reference, identical face, hair, worn teal cloth tunic, tan cloth sash, cloth wrist wraps, black trousers and cloth boots. Four equal panels in two columns and two rows. Full head-to-feet figures inside each cell, with generous white margin around each figure and neutral soft light. Top left: full-body front view in dry clothing. Top right: full-body left profile in dry clothing. Bottom left: full-body back view in dry clothing. Bottom right: full-body front view in soaked clothing and damp hair, still in the same costume. Both shoulders are intact and fully covered by teal cloth in every cell. All hands are empty. Every cell has a pure white background.",
+    "refs": [
+      "制作/前三集_v8_v1/资产/陆照开篇母板/base_v01.jpg"
+    ],
+    "seed": 886001,
+    "size": {
+      "width": 2048,
+      "height": 3072
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/陆照/sheet_v04.jpg",
+    "binding_ref": "资产/陆照/ref_v01.jpg",
+    "note": "v8开篇服装四视图／干湿状态；左肩伤势见独立伤势板",
+    "cells": [
+      "dry full body front",
+      "dry left profile",
+      "dry full body back",
+      "wet full body front"
+    ]
+  },
+  {
+    "id": "陆照伤势",
+    "type": "char",
+    "label_en": "Lu Zhao with his anatomical left shoulder injury",
+    "refs": [
+      "制作/前三集_v8_v1/资产/陆照开篇母板/base_v01.jpg"
+    ],
+    "seed": 886002,
+    "size": {
+      "width": 2048,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "cells": [
+      "left shoulder shallow scrape",
+      "left shoulder small dressing"
+    ],
+    "output": "资产/陆照伤势/sheet_v01.jpg",
+    "binding_ref": "资产/陆照伤势/ref_v01.jpg",
+    "note": "独立左肩浅伤／敷药状态；伤处紧靠原图棕色上臂系带上方，正面画右",
+    "prompt": "Two-panel waist-up production reference of exactly the same Chinese 3D animated Lu Zhao as the source portrait, identical face, hair, teal tunic, tan cloth sash and cloth wrist wraps. Pure white background, neutral lighting. Each panel shows a front-facing portrait from head to waist. The brown upper-arm tie visible on the RIGHT SIDE OF THE SOURCE IMAGE is the landmark. Left panel: a small shallow scrape with a tiny dark red stain is located DIRECTLY ABOVE THAT BROWN UPPER-ARM TIE on the RIGHT SIDE OF THE IMAGE. His other shoulder on the left of the image is completely covered with intact teal fabric. Right panel: a small square cream dressing covers that exact same scrape DIRECTLY ABOVE THE BROWN UPPER-ARM TIE on the RIGHT SIDE OF THE IMAGE; the teal collar continues to cover his chest. The injury and dressing are on the same shoulder in both portraits."
+  },
+  {
+    "id": "阿砾开篇母板",
+    "type": "char",
+    "label_en": "A Li in an old blue long tunic",
+    "prompt": "Sculpted Chinese 3D animated young adult, same exact face and tied-up black hair identity as the portrait reference. Single full body front view with empty relaxed hands, neutral soft lighting, pure white backdrop. His entire outfit is an old faded blue linen long tunic with hem just above the knees, plain loose sleeves and patched cloth surface, a single soft dark brown cloth sash tied at the waist, loose dark blue trousers and simple flat dark cloth shoes. The waist is a continuous soft fabric sash. Bare hands hang beside his thighs. Frayed hems and visible hand-sewn patches express poor dock laborer clothing.",
+    "refs": [
+      "制作/前三集_v8_v1/资产/阿砾/face_source_v8.jpg"
+    ],
+    "seed": 884501,
+    "size": {
+      "width": 1536,
+      "height": 2304
+    },
+    "grid": [
+      1,
+      1
+    ],
+    "cells": [
+      "master"
+    ],
+    "output": "资产/阿砾开篇母板/base_v01.jpg",
+    "binding_ref": "资产/阿砾开篇母板/ref_v01.jpg",
+    "note": "v8脸部参考派生；开篇旧蓝长衫单张母板"
+  },
+  {
+    "id": "闻溪",
+    "type": "char",
+    "label_en": "Wen Xi, exactly the same adult female face, pinned brown-black hair, pale mint sleeveless overcoat, cream sleeves, grey pleated skirt, dark green boots and medicine pouches as the reference",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of Wen Xi, exactly the same adult female face, pinned brown-black hair, pale mint sleeveless overcoat, cream sleeves, grey pleated skirt, dark green boots and medicine pouches as the reference. Empty relaxed hands. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows dry full body front view. The top right cell shows dry left profile. The bottom left cell shows dry full body back view. The bottom right cell shows wet front view, soaked skirt and damp strands against the cheeks.",
+    "refs": [
+      "定稿/Seedream立体国漫定妆_v8/02_闻溪.jpg"
+    ],
+    "seed": 880101,
+    "size": {
+      "width": 3072,
+      "height": 3072
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/闻溪/sheet_v01.jpg",
+    "binding_ref": "资产/闻溪/ref_v01.jpg",
+    "note": "v8脸与服装；干湿状态",
+    "cells": [
+      "dry full body front view",
+      "dry left profile",
+      "dry full body back view",
+      "wet front view, soaked skirt and damp strands against the cheeks"
+    ]
+  },
+  {
+    "id": "阿砾",
+    "type": "char",
+    "label_en": "A Li, same young adult male face and black tied-up hair as reference, in an old blue long tunic reaching mid-thigh, patched cloth belt, dark blue trousers and cloth boots",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of A Li, same young adult male face and black tied-up hair as reference, in an old blue long tunic reaching just above the knees, patched cloth belt, dark blue trousers and cloth boots. Bare cloth belt and empty relaxed hands. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows dry full body front view. The top right cell shows dry left profile. The bottom left cell shows dry full body back view. The bottom right cell shows wet front view, soaked blue tunic and wet hair. Every cell repeats the plain old blue knee-length tunic and continuous soft cloth waist sash of the full-body reference.",
+    "refs": [
+      "制作/前三集_v8_v1/资产/阿砾开篇母板/base_v01.jpg"
+    ],
+    "seed": 884502,
+    "size": {
+      "width": 3072,
+      "height": 3072
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/阿砾/sheet_v02.jpg",
+    "binding_ref": "资产/阿砾/ref_v01.jpg",
+    "note": "v8脸；恢复开篇旧蓝衫，移除后期账牌",
+    "cells": [
+      "dry full body front view",
+      "dry left profile",
+      "dry full body back view",
+      "wet front view, soaked blue tunic and wet hair"
+    ]
+  },
+  {
+    "id": "陆禾",
+    "type": "char",
+    "label_en": "Lu He, same adult female face and tied brown-black hair as reference, faded ochre jacket, cream inner blouse, faded rust skirt, worn cream work apron, flat cloth shoes, empty relaxed hands",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of Lu He, same adult female face and tied brown-black hair as reference, faded ochre jacket, cream inner blouse, faded rust skirt, worn cream work apron, flat cloth shoes, empty relaxed hands. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows full body front view. The top right cell shows left profile. The bottom left cell shows full body back view. The bottom right cell shows waist-up view with a light dusting of flour on fingers and apron.",
+    "refs": [
+      "定稿/Seedream立体国漫定妆_v8/05_陆禾.jpg"
+    ],
+    "seed": 880103,
+    "size": {
+      "width": 3072,
+      "height": 3072
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/陆禾/sheet_v01.jpg",
+    "binding_ref": "资产/陆禾/ref_v01.jpg",
+    "note": "v8脸；盐棚刷锅阶段旧围裙",
+    "cells": [
+      "full body front view",
+      "left profile",
+      "full body back view",
+      "waist-up view with a light dusting of flour on fingers and apron"
+    ]
+  },
+  {
+    "id": "岑鹿",
+    "type": "char",
+    "label_en": "Cen Lu, exactly the same adult female face, hairstyle, gold hair comb, dark plum short cape with geometric woven texture, violet blouse, long dark plum skirt and small belt pouch as the reference",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of Cen Lu, exactly the same adult female face, hairstyle, gold hair comb, dark plum short cape with geometric woven texture, violet blouse, long dark plum skirt and small belt pouch as the reference. Empty relaxed hands. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows full body front view. The top right cell shows left profile. The bottom left cell shows full body back view. The bottom right cell shows waist-up face and hands view.",
+    "refs": [
+      "定稿/Seedream立体国漫定妆_v8/10_岑鹿.jpg"
+    ],
+    "seed": 880104,
+    "size": {
+      "width": 3072,
+      "height": 3072
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/岑鹿/sheet_v01.jpg",
+    "binding_ref": "资产/岑鹿/ref_v01.jpg",
+    "note": "v8脸与墨紫短披；商人基本样式",
+    "cells": [
+      "full body front view",
+      "left profile",
+      "full body back view",
+      "waist-up face and hands view"
+    ]
+  },
+  {
+    "id": "麻铎",
+    "type": "char",
+    "label_en": "Ma Duo, an adult stocky harbor overseer age forty-five, broad square face, heavy eyelids, cropped black hair under a dark brown tied headcloth, sparse moustache, weathered brown padded vest over ochre tunic, dark work trousers, stout cloth boots and belt hook",
+    "prompt": "Rebuild reference image 1 as a Chinese 3D animated feature character sheet, matching the visibly stylized sculpted face planes, expressive animated eyes, large coherent hair clumps and smooth animation skin shading of reference image 2. Reference 1 defines the distinct older male character identity, facial hair, body silhouette, clothes and four poses. Reference 2 defines rendering aesthetic. Keep the age, beard, costume and four-cell layout of reference 1. Pure white cell backgrounds. The face is an intentionally designed animated character with simplified cheek planes and groomed sculpted hair, harmonized with the animation style in reference 2. The overseer has a broad square face, sparse moustache, stocky body, dark headcloth, brown vest and ochre tunic.",
+    "refs": [
+      "制作/前三集_v8_v1/资产/麻铎/sheet_v01.jpg",
+      "制作/前三集_v8_v1/资产/陆照开篇母板/base_v01.jpg"
+    ],
+    "seed": 885105,
+    "size": {
+      "width": 3072,
+      "height": 3072
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/麻铎/sheet_v02.jpg",
+    "binding_ref": "资产/麻铎/ref_v01.jpg",
+    "note": "新增船监；原创选角，未借用葛存",
+    "cells": [
+      "full body front view",
+      "left profile",
+      "full body back view",
+      "wet front view with wrists tied together by short hemp rope"
+    ]
+  },
+  {
+    "id": "葛牙",
+    "type": "char",
+    "label_en": "Ge Ya, an adult lean dock enforcer age thirty-five, narrow face, a clearly missing upper front tooth, dark close-cropped hair under a brown cloth hood, brown sleeveless short coat over dirty grey sleeves, patched dark trousers and cloth shoes",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of Ge Ya, an adult lean dock enforcer age thirty-five, narrow face, a clearly missing upper front tooth, dark close-cropped hair under a brown cloth hood, brown sleeveless short coat over dirty grey sleeves, patched dark trousers and cloth shoes. Empty hands. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows full body front view with hood up. The top right cell shows left profile with hood up. The bottom left cell shows full body back view. The bottom right cell shows face close-up with hood lowered and mouth slightly open showing the missing tooth.",
+    "refs": [],
+    "seed": 880106,
+    "size": {
+      "width": 3072,
+      "height": 3072
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/葛牙/sheet_v01.jpg",
+    "binding_ref": "资产/葛牙/ref_v01.jpg",
+    "note": "新增绑人者；缺一牙、棕兜帽，与葛存无关",
+    "cells": [
+      "full body front view with hood up",
+      "left profile with hood up",
+      "full body back view",
+      "face close-up with hood lowered and mouth slightly open showing the missing tooth"
+    ]
+  },
+  {
+    "id": "灰胡子工人",
+    "type": "char",
+    "label_en": "an elderly male dock worker age sixty, grey short beard, sunken cheeks, thin build, faded grey linen work tunic, dark loose trousers and cloth shoes",
+    "prompt": "Rebuild reference image 1 as a Chinese 3D animated feature character sheet, matching the visibly stylized sculpted face planes, expressive animated eyes, large coherent hair clumps and smooth animation skin shading of reference image 2. Reference 1 defines the distinct older male character identity, facial hair, body silhouette, clothes and four poses. Reference 2 defines rendering aesthetic. Keep the age, beard, costume and four-cell layout of reference 1. Pure white cell backgrounds. The face is an intentionally designed animated character with simplified cheek planes and groomed sculpted hair, harmonized with the animation style in reference 2. The elderly worker has a short grey beard, thin weathered face, narrow body, grey tunic and black trousers.",
+    "refs": [
+      "制作/前三集_v8_v1/资产/灰胡子工人/sheet_v01.jpg",
+      "制作/前三集_v8_v1/资产/陆照开篇母板/base_v01.jpg"
+    ],
+    "seed": 885107,
+    "size": {
+      "width": 3072,
+      "height": 3072
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/灰胡子工人/sheet_v02.jpg",
+    "binding_ref": "资产/灰胡子工人/ref_v01.jpg",
+    "note": "新增获救工人，与授余烬老人区分",
+    "cells": [
+      "dry full body front view",
+      "dry left profile",
+      "dry full body back view",
+      "wet full body front view with drenched clothing"
+    ]
+  },
+  {
+    "id": "守船人",
+    "type": "char",
+    "label_en": "an adult male guild dock guard age thirty, broad cheekbones, tied black hair, dark slate-blue short work jacket, muted grey trousers, hemp waist cord and flat black cloth shoes",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of an adult male guild dock guard age thirty, broad cheekbones, tied black hair, dark slate-blue short work jacket, muted grey trousers, hemp waist cord and flat black cloth shoes. Empty hands. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows full body front view. The top right cell shows left profile. The bottom left cell shows full body back view. The bottom right cell shows waist-up front view.",
+    "refs": [],
+    "seed": 880108,
+    "size": {
+      "width": 3072,
+      "height": 3072
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/守船人/sheet_v01.jpg",
+    "binding_ref": "资产/守船人/ref_v01.jpg",
+    "note": "会库守船人通用身份；群演不借主角脸",
+    "cells": [
+      "full body front view",
+      "left profile",
+      "full body back view",
+      "waist-up front view"
+    ]
+  },
+  {
+    "id": "老人手部",
+    "type": "char",
+    "label_en": "a pair of frail elderly human hands with prominent tendons, deep wrinkles, warm grey skin and plain frayed linen cuffs",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of a pair of frail elderly human hands with prominent tendons, deep wrinkles, warm grey skin and plain frayed linen cuffs. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows both hands open, palms upward. The top right cell shows both hands with fingers slightly curled. The bottom left cell shows right hand palm down showing knuckles. The bottom right cell shows right hand fingers extended above a folded linen cloth.",
+    "refs": [],
+    "seed": 880109,
+    "size": {
+      "width": 3072,
+      "height": 3072
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/老人手部/sheet_v01.jpg",
+    "binding_ref": "资产/老人手部/ref_v01.jpg",
+    "note": "仅拍闪回手部，不新增露脸演员",
+    "cells": [
+      "both hands open, palms upward",
+      "both hands with fingers slightly curled",
+      "right hand palm down showing knuckles",
+      "right hand fingers extended above a folded linen cloth"
+    ]
+  },
+  {
+    "id": "码头",
+    "type": "loc",
+    "label_en": "An empty old Chinese river harbor stone landing in the architecture and material style of the reference",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. An empty old Chinese river harbor stone landing in the architecture and material style of the reference. Broad grey stone steps at frame left, rectangular mooring bollards, calm river at frame right, timber warehouse landward. Neutral afternoon daylight from upper left.",
+    "refs": [
+      "定稿/Seedream立体国漫基础场景_v8配套/01_本埠公码头.jpg"
+    ],
+    "seed": 880110,
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "grid": [
+      1,
+      1
+    ],
+    "output": "资产/码头/sheet_v01.jpg",
+    "binding_ref": "资产/码头/ref_v01.jpg",
+    "note": "v8公码头派生，空场主视图",
+    "cells": [
+      "master"
+    ]
+  },
+  {
+    "id": "闸舱",
+    "type": "loc",
+    "label_en": "An empty old timber sluice chamber of a working river dock",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. An empty old timber sluice chamber of a working river dock. Camera at the east wall facing west. Southern ladder at far left. Northern heavy timber door at right. Narrow raised repair ledge across the back west wall with two heel-bracing wooden pegs. A wooden rope winch and frame are beside the ledge near left center. Dark shallow ankle-deep water. Cool daylight from the ladder at upper left, small amber light through the door inspection opening at right. Clear open space between ladder and door. Legible mechanical layout.",
+    "refs": [
+      "定稿/Seedream立体国漫基础场景_v8配套/01_本埠公码头.jpg"
+    ],
+    "seed": 880111,
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "grid": [
+      1,
+      1
+    ],
+    "output": "资产/闸舱/sheet_v01.jpg",
+    "binding_ref": "资产/闸舱/ref_v01.jpg",
+    "note": "主轴固定：南梯左，北门右，西修台后；机关详见道具板",
+    "cells": [
+      "master"
+    ]
+  },
+  {
+    "id": "北门",
+    "type": "loc",
+    "label_en": "An empty close environment view of the northern timber sluice door inside the old chamber",
+    "prompt": "Sculpted Chinese 3D animated feature environment matching the timber sluice chamber reference. Straight-on interior close view of the CLOSED northern sluice door: a continuous solid plane of heavy vertical oak planks spans the complete frame from left to right, tightly seated in its timber jamb. A small square inspection opening is cut high in the closed door, with a tiny amber lantern glow visible through it. A rectangular bright copper locking plate is fixed directly below this opening. A narrow wet repair ledge and two short heel-bracing pegs occupy the lower left foreground, dark shallow water along the bottom. Cool soft daylight enters from camera left. Tight composition centered on the closed copper lock and inspection opening. The closed door fills the image.",
+    "refs": [
+      "制作/前三集_v8_v1/资产/闸舱/sheet_v01.jpg"
+    ],
+    "seed": 884503,
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "grid": [
+      1,
+      1
+    ],
+    "output": "资产/北门/sheet_v02.jpg",
+    "binding_ref": "资产/北门/ref_v01.jpg",
+    "note": "北门检修口和轮房视图；水位按镜头设置",
+    "cells": [
+      "master"
+    ]
+  },
+  {
+    "id": "梯口",
+    "type": "loc",
+    "label_en": "An empty old harbor sluice hatch exit at the top of a steep southern timber ladder",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. An empty old harbor sluice hatch exit at the top of a steep southern timber ladder. Ladder descends down toward frame right, open exit to dry dock toward frame left. Wooden hatch rail, hanging plain wooden worker tag, timber hook beside the ladder, stacked freight crates along the dry landing. Daylight from upper left.",
+    "refs": [
+      "定稿/Seedream立体国漫基础场景_v8配套/01_本埠公码头.jpg"
+    ],
+    "seed": 880113,
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "grid": [
+      1,
+      1
+    ],
+    "output": "资产/梯口/sheet_v01.jpg",
+    "binding_ref": "资产/梯口/ref_v01.jpg",
+    "note": "梯口出口视图，横棍由角色持入",
+    "cells": [
+      "master"
+    ]
+  },
+  {
+    "id": "住屋",
+    "type": "loc",
+    "label_en": "An empty tiny rented room attached to an old salt shed, modest rough timber and limewashed brick",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. An empty tiny rented room attached to an old salt shed, modest rough timber and limewashed brick. Low warped square dining table beside a small left window, two low stools, clay hearth at the back, plain doorway on left, narrow straw sleeping mat on right. Sparse worn household goods. Warm dusk light from left window, gentle amber fill from hearth. Same old harbor material language as reference.",
+    "refs": [
+      "定稿/Seedream立体国漫基础场景_v8配套/01_本埠公码头.jpg"
+    ],
+    "seed": 880114,
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "grid": [
+      1,
+      1
+    ],
+    "output": "资产/住屋/sheet_v01.jpg",
+    "binding_ref": "资产/住屋/ref_v01.jpg",
+    "note": "前三章盐棚借住小屋；不混用第5章旧泵坊或后期饭铺",
+    "cells": [
+      "master"
+    ]
+  },
+  {
+    "id": "盐棚外",
+    "type": "loc",
+    "label_en": "An empty narrow old harbor salt-shed alley",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. An empty narrow old harbor salt-shed alley. A small rented-room doorway is at rear left. A tall wooden net-drying rack stands at frame right, a shallow stone gutter at lower right. Rough plaster and timber walls, a wooden water trough by the doorway. Door and rack stand about two meters apart. Camera on south side of alley, neutral daylight from upper left.",
+    "refs": [
+      "定稿/Seedream立体国漫基础场景_v8配套/01_本埠公码头.jpg"
+    ],
+    "seed": 880115,
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "grid": [
+      1,
+      1
+    ],
+    "output": "资产/盐棚外/sheet_v01.jpg",
+    "binding_ref": "资产/盐棚外/ref_v01.jpg",
+    "note": "门后左、网架右、沟右下；保留三步退路",
+    "cells": [
+      "master"
+    ]
+  },
+  {
+    "id": "废船",
+    "type": "loc",
+    "label_en": "An empty close interior beneath the broken hull of an old wooden river boat at night",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. An empty close interior beneath the broken hull of an old wooden river boat at night. Curved wet ribs and low planking, rough linen cloth laid across a timber support. A narrow cool skylight enters from upper left with a small dim amber reflection. Tight intimate composition focused on a hands-sized area.",
+    "refs": [
+      "定稿/Seedream立体国漫基础场景_v8配套/01_本埠公码头.jpg"
+    ],
+    "seed": 880116,
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "grid": [
+      1,
+      1
+    ],
+    "output": "资产/废船/sheet_v01.jpg",
+    "binding_ref": "资产/废船/ref_v01.jpg",
+    "note": "三个月前闪回；只借材质，不复用后期海船",
+    "cells": [
+      "master"
+    ]
+  },
+  {
+    "id": "黑钢锥",
+    "type": "prop",
+    "label_en": "a short straight black steel awl, a single tapering spike twenty-five centimeters long including a ten-centimeter handle wrapped with old tan hemp cord, simple working tool",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of a short straight black steel awl, a single tapering spike twenty-five centimeters long including a ten-centimeter handle wrapped with old tan hemp cord, simple working tool. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows side profile of the complete awl. The right cell shows angled view revealing square-section taper and hemp-wrapped handle.",
+    "refs": [],
+    "seed": 880117,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/黑钢锥/sheet_v01.jpg",
+    "binding_ref": "资产/黑钢锥/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "side profile of the complete awl",
+      "angled view revealing square-section taper and hemp-wrapped handle"
+    ]
+  },
+  {
+    "id": "铜销",
+    "type": "prop",
+    "label_en": "one rectangular yellow copper door locking plate with a small timber latch tongue behind it",
+    "prompt": "Four equal rectangular cells in two columns and two rows. Each cell shows the same small thin flat rectangular yellow copper plate in the reference, viewed straight from the front on pure white. The plate is about 12 centimeters wide and 6 centimeters tall. Top left: its entire front face is smooth and flat. Top right: a tiny shallow circular recessed dimple, eight millimeters across, is visible on the LEFT half of the flat front surface. Bottom left: that same tiny recessed dimple remains on the LEFT, while a distinct rough puncture eight millimeters across goes through the RIGHT half. Bottom right: an oblique edge view shows the thin plate with a small wooden latch tongue aligned behind the right-hand puncture. The dimple and puncture are small relative to the broad flat copper surface. Subtle copper highlights, blank white margins.",
+    "refs": [
+      "制作/前三集_v8_v1/资产/铜销/intact_source.jpg"
+    ],
+    "seed": 886101,
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/铜销/sheet_v03.jpg",
+    "binding_ref": "资产/铜销/ref_v01.jpg",
+    "note": "原著前三章道具；4个角度／状态",
+    "cells": [
+      "intact front surface",
+      "front surface with shallow dent on left half",
+      "front surface with same left dent and a clean puncture through right half",
+      "oblique rear view showing puncture passing toward the timber tongue"
+    ]
+  },
+  {
+    "id": "绳轮机关",
+    "type": "prop",
+    "label_en": "one old sluice rope-winch assembly made of oak drum, axle, toothed wheel, pillar, overhead stone counterweight frame, removable oak brake wedge and hemp lifting line",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one old sluice rope-winch assembly made of oak drum, axle, toothed wheel, pillar, overhead stone counterweight frame, removable oak brake wedge and hemp lifting line. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows complete assembly, weight suspended a handspan above support and line ending in a loose floor loop. The top right cell shows side view showing line path from weight through drum to loop. The bottom left cell shows close view of brake wedge seated beneath toothed wheel. The bottom right cell shows released mechanism with stone resting on support and loop drawn tight.",
+    "refs": [],
+    "seed": 880119,
+    "size": {
+      "width": 3072,
+      "height": 3072
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/绳轮机关/sheet_v01.jpg",
+    "binding_ref": "资产/绳轮机关/ref_v01.jpg",
+    "note": "原著前三章道具；4个角度／状态",
+    "cells": [
+      "complete assembly, weight suspended a handspan above support and line ending in a loose floor loop",
+      "side view showing line path from weight through drum to loop",
+      "close view of brake wedge seated beneath toothed wheel",
+      "released mechanism with stone resting on support and loop drawn tight"
+    ]
+  },
+  {
+    "id": "铜轮柄",
+    "type": "prop",
+    "label_en": "one detachable L-shaped bronze crank handle with square socket, darkened grip and yellow worn edges",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one detachable L-shaped bronze crank handle with square socket, darkened grip and yellow worn edges. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows whole crank front view. The right cell shows socket end close-up.",
+    "refs": [],
+    "seed": 880120,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/铜轮柄/sheet_v01.jpg",
+    "binding_ref": "资产/铜轮柄/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "whole crank front view",
+      "socket end close-up"
+    ]
+  },
+  {
+    "id": "船叉",
+    "type": "prop",
+    "label_en": "one long wooden-shafted river work fork with a dark iron two-pronged head, worn brown shaft, compact practical proportions",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one long wooden-shafted river work fork with a dark iron two-pronged head, worn brown shaft, compact practical proportions. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows whole fork side view. The right cell shows close view of its two-pronged iron head.",
+    "refs": [],
+    "seed": 880121,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/船叉/sheet_v01.jpg",
+    "binding_ref": "资产/船叉/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "whole fork side view",
+      "close view of its two-pronged iron head"
+    ]
+  },
+  {
+    "id": "长木钩",
+    "type": "prop",
+    "label_en": "one long wooden dock hook with bent iron tip and weathered brown pole",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one long wooden dock hook with bent iron tip and weathered brown pole. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows whole hook side view. The right cell shows close view of curved iron tip.",
+    "refs": [],
+    "seed": 880122,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/长木钩/sheet_v01.jpg",
+    "binding_ref": "资产/长木钩/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "whole hook side view",
+      "close view of curved iron tip"
+    ]
+  },
+  {
+    "id": "油灯",
+    "type": "prop",
+    "label_en": "one small hand-carried river work lantern, dark brass cage, clear glass reservoir, curved carry handle and warm short wick flame",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one small hand-carried river work lantern, dark brass cage, clear glass reservoir, curved carry handle and warm short wick flame. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows complete lantern lit. The right cell shows same lantern extinguished.",
+    "refs": [],
+    "seed": 880123,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/油灯/sheet_v01.jpg",
+    "binding_ref": "资产/油灯/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "complete lantern lit",
+      "same lantern extinguished"
+    ]
+  },
+  {
+    "id": "钱袋铜钱",
+    "type": "prop",
+    "label_en": "one worn tan cloth drawstring money pouch and round copper cash coins with square holes",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one worn tan cloth drawstring money pouch and round copper cash coins with square holes. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows small pouch open with eight coins beside it. The right cell shows bulging tied pouch beside a loose cluster of matching coins.",
+    "refs": [],
+    "seed": 880124,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/钱袋铜钱/sheet_v01.jpg",
+    "binding_ref": "资产/钱袋铜钱/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "small pouch open with eight coins beside it",
+      "bulging tied pouch beside a loose cluster of matching coins"
+    ]
+  },
+  {
+    "id": "双碗",
+    "type": "prop",
+    "label_en": "one matched pair of plain cream glazed pottery rice bowls with thin brown rims, the sister bowl has one clearly chipped lip and the brother bowl has a complete smooth rim",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one matched pair of plain cream glazed pottery rice bowls with thin brown rims, the sister bowl has one clearly chipped lip and the brother bowl has a complete smooth rim. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows both bowls side by side, left chipped and right intact. The top right cell shows same pair seen from above. The bottom left cell shows same pair filled with rice and two modest meat pieces. The bottom right cell shows same two bowls nested inside a loosely opened blue-grey cloth carrying wrap.",
+    "refs": [],
+    "seed": 880125,
+    "size": {
+      "width": 3072,
+      "height": 3072
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/双碗/sheet_v01.jpg",
+    "binding_ref": "资产/双碗/ref_v01.jpg",
+    "note": "原著前三章道具；4个角度／状态",
+    "cells": [
+      "both bowls side by side, left chipped and right intact",
+      "same pair seen from above",
+      "same pair filled with rice and two modest meat pieces",
+      "same two bowls nested inside a loosely opened blue-grey cloth carrying wrap"
+    ]
+  },
+  {
+    "id": "皮鞘",
+    "type": "prop",
+    "label_en": "one plain brown leather sheath sized for a short twenty-five centimeter steel awl, narrow stitched edges, simple cloth belt loop",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one plain brown leather sheath sized for a short twenty-five centimeter steel awl, narrow stitched edges, simple cloth belt loop. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows empty sheath side view. The right cell shows angled view of sheath opening and belt loop.",
+    "refs": [],
+    "seed": 880126,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/皮鞘/sheet_v01.jpg",
+    "binding_ref": "资产/皮鞘/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "empty sheath side view",
+      "angled view of sheath opening and belt loop"
+    ]
+  },
+  {
+    "id": "药布",
+    "type": "prop",
+    "label_en": "one compact cloth medical dressing kit, cream linen strip, small ceramic ointment jar and short iron scissors arranged together",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one compact cloth medical dressing kit, cream linen strip, small ceramic ointment jar and short iron scissors arranged together. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows folded kit with closed jar. The right cell shows opened kit with rolled dressing and scissors.",
+    "refs": [],
+    "seed": 880127,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/药布/sheet_v01.jpg",
+    "binding_ref": "资产/药布/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "folded kit with closed jar",
+      "opened kit with rolled dressing and scissors"
+    ]
+  },
+  {
+    "id": "死期牌",
+    "type": "prop",
+    "label_en": "one weathered narrow wooden worker tag hanging from a short hemp loop, flat clean brown writing face",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one weathered narrow wooden worker tag hanging from a short hemp loop, flat clean brown writing face. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows front face ready for separately composited lettering. The right cell shows plain reverse face.",
+    "refs": [],
+    "seed": 880128,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/死期牌/sheet_v01.jpg",
+    "binding_ref": "资产/死期牌/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "front face ready for separately composited lettering",
+      "plain reverse face"
+    ]
+  },
+  {
+    "id": "工牌",
+    "type": "prop",
+    "label_en": "one small rectangular timber operating-instruction plaque with two corner holes and clean worn writing surface",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one small rectangular timber operating-instruction plaque with two corner holes and clean worn writing surface. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows front face ready for separately composited lettering. The right cell shows angled view showing slim wood thickness.",
+    "refs": [],
+    "seed": 880129,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/工牌/sheet_v01.jpg",
+    "binding_ref": "资产/工牌/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "front face ready for separately composited lettering",
+      "angled view showing slim wood thickness"
+    ]
+  },
+  {
+    "id": "保单货箱",
+    "type": "prop",
+    "label_en": "one practical medicine freight crate with rough pine boards, rope binding and a folded cream insurance document laid flat on its top, clean paper surface",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one practical medicine freight crate with rough pine boards, rope binding and a folded cream insurance document laid flat on its top, clean paper surface. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows dry crate and folded document. The top right cell shows same crate with lower boards water-darkened. The bottom left cell shows open crate showing wrapped medicine packages. The bottom right cell shows document unfolded on crate ready for later typeset text.",
+    "refs": [],
+    "seed": 880130,
+    "size": {
+      "width": 3072,
+      "height": 3072
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/保单货箱/sheet_v01.jpg",
+    "binding_ref": "资产/保单货箱/ref_v01.jpg",
+    "note": "原著前三章道具；4个角度／状态",
+    "cells": [
+      "dry crate and folded document",
+      "same crate with lower boards water-darkened",
+      "open crate showing wrapped medicine packages",
+      "document unfolded on crate ready for later typeset text"
+    ]
+  },
+  {
+    "id": "售船纸",
+    "type": "prop",
+    "label_en": "one folded weathered cream boat-sale document with an ink line drawing of a small river boat with a curved repaired bow, clear empty space for later lettering",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one folded weathered cream boat-sale document with an ink line drawing of a small river boat with a curved repaired bow, clear empty space for later lettering. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows unfolded paper viewed from above. The right cell shows same sheet folded in half.",
+    "refs": [],
+    "seed": 880131,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/售船纸/sheet_v01.jpg",
+    "binding_ref": "资产/售船纸/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "unfolded paper viewed from above",
+      "same sheet folded in half"
+    ]
+  },
+  {
+    "id": "退水栓",
+    "type": "prop",
+    "label_en": "one old sluice drainage stopper, tapered dark wood plug with short upright handle and a stone-lined channel socket",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one old sluice drainage stopper, tapered dark wood plug with short upright handle and a stone-lined channel socket. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows stopper seated in channel socket. The right cell shows stopper lifted beside open socket.",
+    "refs": [],
+    "seed": 880132,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/退水栓/sheet_v01.jpg",
+    "binding_ref": "资产/退水栓/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "stopper seated in channel socket",
+      "stopper lifted beside open socket"
+    ]
+  },
+  {
+    "id": "晒网架",
+    "type": "prop",
+    "label_en": "one weathered wooden fishing-net drying rack, two upright posts joined by a sturdy horizontal beam, spare short hemp cord hanging from right post",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one weathered wooden fishing-net drying rack, two upright posts joined by a sturdy horizontal beam, spare short hemp cord hanging from right post. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows whole rack front view. The top right cell shows angled side view showing solid crossbar. The bottom left cell shows close view of intact timber crossbar. The bottom right cell shows same crossbar with a narrow awl puncture through its thickness.",
+    "refs": [],
+    "seed": 880133,
+    "size": {
+      "width": 3072,
+      "height": 3072
+    },
+    "grid": [
+      2,
+      2
+    ],
+    "output": "资产/晒网架/sheet_v01.jpg",
+    "binding_ref": "资产/晒网架/ref_v01.jpg",
+    "note": "原著前三章道具；4个角度／状态",
+    "cells": [
+      "whole rack front view",
+      "angled side view showing solid crossbar",
+      "close view of intact timber crossbar",
+      "same crossbar with a narrow awl puncture through its thickness"
+    ]
+  },
+  {
+    "id": "湿网",
+    "type": "prop",
+    "label_en": "one coarse old brown hemp fishing net, wet dark strands, diamond-shaped open mesh and reinforced corner loop",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one coarse old brown hemp fishing net, wet dark strands, diamond-shaped open mesh and reinforced corner loop. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows net hanging open as a rectangle. The right cell shows net loosely folded with corner loop visible.",
+    "refs": [],
+    "seed": 880134,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/湿网/sheet_v01.jpg",
+    "binding_ref": "资产/湿网/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "net hanging open as a rectangle",
+      "net loosely folded with corner loop visible"
+    ]
+  },
+  {
+    "id": "短刀",
+    "type": "prop",
+    "label_en": "one short dock knife with a twenty-centimeter dark iron blade, straight working edge and plain brown wood handle",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one short dock knife with a twenty-centimeter dark iron blade, straight working edge and plain brown wood handle. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows complete knife side view. The right cell shows angled view of grip and blade.",
+    "refs": [],
+    "seed": 880135,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/短刀/sheet_v01.jpg",
+    "binding_ref": "资产/短刀/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "complete knife side view",
+      "angled view of grip and blade"
+    ]
+  },
+  {
+    "id": "铜鱼牌",
+    "type": "prop",
+    "label_en": "one small aged bronze waist token shaped like a fish with incised scales and a hole at its head, thin brown tie cord",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one small aged bronze waist token shaped like a fish with incised scales and a hole at its head, thin brown tie cord. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows front face showing fish silhouette. The right cell shows back face and thickness.",
+    "refs": [],
+    "seed": 880136,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/铜鱼牌/sheet_v01.jpg",
+    "binding_ref": "资产/铜鱼牌/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "front face showing fish silhouette",
+      "back face and thickness"
+    ]
+  },
+  {
+    "id": "铜塞水桶",
+    "type": "prop",
+    "label_en": "one salt-shed wooden water trough outlet with copper plug and an empty stave-built bucket placed underneath",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one salt-shed wooden water trough outlet with copper plug and an empty stave-built bucket placed underneath. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows copper plug intact over empty bucket. The right cell shows plug pierced with water streaming into same bucket.",
+    "refs": [],
+    "seed": 880137,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/铜塞水桶/sheet_v01.jpg",
+    "binding_ref": "资产/铜塞水桶/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "copper plug intact over empty bucket",
+      "plug pierced with water streaming into same bucket"
+    ]
+  },
+  {
+    "id": "清障图",
+    "type": "prop",
+    "label_en": "one coarse cream paper plan of a harbor drainage channel, a submerged timber pile, a bank boundary line, a small workboat outline with open stern area, simple black ink schematic symbols and clean space for later lettering",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one coarse cream paper plan of a harbor drainage channel, a submerged timber pile, a bank boundary line, a small workboat outline with open stern area, simple black ink schematic symbols and clean space for later lettering. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows whole plan laid flat. The right cell shows close detail of boat stern and submerged pile symbols.",
+    "refs": [],
+    "seed": 880138,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/清障图/sheet_v01.jpg",
+    "binding_ref": "资产/清障图/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "whole plan laid flat",
+      "close detail of boat stern and submerged pile symbols"
+    ]
+  },
+  {
+    "id": "新绳",
+    "type": "prop",
+    "label_en": "one newly purchased coil of pale tan hemp rope, finger-thick three-strand twist with a tied end",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one newly purchased coil of pale tan hemp rope, finger-thick three-strand twist with a tied end. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows complete neat coil. The right cell shows close detail of three-strand fibers and tied end.",
+    "refs": [],
+    "seed": 880139,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/新绳/sheet_v01.jpg",
+    "binding_ref": "资产/新绳/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "complete neat coil",
+      "close detail of three-strand fibers and tied end"
+    ]
+  },
+  {
+    "id": "工具箱",
+    "type": "prop",
+    "label_en": "one small plain wooden working-tool chest with iron latch and short rope handle",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one small plain wooden working-tool chest with iron latch and short rope handle. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows closed chest three-quarter view. The right cell shows same chest open showing separated hand-tool slots.",
+    "refs": [],
+    "seed": 880140,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/工具箱/sheet_v01.jpg",
+    "binding_ref": "资产/工具箱/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "closed chest three-quarter view",
+      "same chest open showing separated hand-tool slots"
+    ]
+  },
+  {
+    "id": "米盐包",
+    "type": "prop",
+    "label_en": "one small working-family travel bundle made from undyed rough linen, containing a tied rice sack and small wrapped salt packet",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one small working-family travel bundle made from undyed rough linen, containing a tied rice sack and small wrapped salt packet. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows tied outer bundle. The right cell shows opened bundle showing rice sack and salt packet.",
+    "refs": [],
+    "seed": 880141,
+    "size": {
+      "width": 3072,
+      "height": 1536
+    },
+    "grid": [
+      2,
+      1
+    ],
+    "output": "资产/米盐包/sheet_v01.jpg",
+    "binding_ref": "资产/米盐包/ref_v01.jpg",
+    "note": "原著前三章道具；2个角度／状态",
+    "cells": [
+      "tied outer bundle",
+      "opened bundle showing rice sack and salt packet"
+    ]
+  },
+  {
+    "id": "余烬",
+    "type": "vfx",
+    "label_en": "A restrained tiny ember-red fragment and a soft amber pinprick glow, practical subtle supernatural effect, deep black background",
+    "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. A restrained tiny ember-red fragment and a soft amber pinprick glow, practical subtle supernatural effect, deep black background. Two separate samples side by side: a thin ember-red flake at left, a small soft amber point with gentle falloff at right. Compact scale appropriate to a glow beneath clothing.",
+    "refs": [],
+    "seed": 880142,
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "grid": [
+      1,
+      1
+    ],
+    "output": "资产/余烬/sheet_v01.jpg",
+    "binding_ref": "资产/余烬/ref_v01.jpg",
+    "note": "克制胸口暖点；黑底特效参考，非外放法阵",
+    "cells": [
+      "master"
+    ]
+  }
+]

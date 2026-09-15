@@ -1,0 +1,29 @@
+{
+  "id": "EP002_SH13",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: Cen Lu, exactly the same adult female face, hairstyle, gold hair comb, dark plum short cape with geometric woven texture, violet blouse, long dark plum skirt and small belt pouch as the reference. Image 2: an adult male guild dock guard age thirty, broad cheekbones, tied black hair, dark slate-blue short work jacket, muted grey trousers, hemp waist cord and flat black cloth shoes. Image 3: An empty old harbor sluice hatch exit at the top of a steep southern timber ladder. Image 4: one practical medicine freight crate with rough pine boards, rope binding and a folded cream insurance document laid flat on its top, clean paper surface. Medium shot, 50mm lens. Cen Lu stands beside the horizontal staff, a folded insurance document in her hand and cargo behind her. ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890213,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/岑鹿/ref_v01.jpg",
+      "sha256": "f6fc3e1e9695bc828fa37c88d99b96d3eec367d6802a116031a8c497a41d9a01"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/守船人/ref_v01.jpg",
+      "sha256": "c0d1fa7ea2459f4f38ceefe1370752744ef83032f88d1fa11bbc09e810bf6f66"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/梯口/ref_v01.jpg",
+      "sha256": "81030b494cbb94fe5bc291424f8a6aba59f84ee89fe997f15e27a90d3dea99bb"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/保单货箱/ref_v01.jpg",
+      "sha256": "e940e488567a207e1437cca6d6a8967d2de26b98e6b182520f2ee1b454037cf3"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

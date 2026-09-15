@@ -1,0 +1,21 @@
+{
+  "id": "EP002_SH17",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: An empty old Chinese river harbor stone landing in the architecture and material style of the reference. Image 2: one compact cloth medical dressing kit, cream linen strip, small ceramic ointment jar and short iron scissors arranged together. Close shot, 85mm lens. Lu Zhao's abraded palm rests open above a folded cloth beside Wen Xi's hands.  ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890217,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/码头/ref_v01.jpg",
+      "sha256": "c9849de7ac36eab16429ebef25577513da031c9e6f8b2a712337425d56fa63e0"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/药布/ref_v01.jpg",
+      "sha256": "123879183b2ec02a40909d961a5314d83eb75f218bd44549aa1c17ed0ee3f257"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

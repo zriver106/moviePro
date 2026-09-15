@@ -1,0 +1,21 @@
+{
+  "id": "EP002_SH29",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: An empty tiny rented room attached to an old salt shed, modest rough timber and limewashed brick. Image 2: one worn tan cloth drawstring money pouch and round copper cash coins with square holes. Close shot, 85mm lens. Lu Zhao ties the purse cord at the table with both hands. ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890229,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/住屋/ref_v01.jpg",
+      "sha256": "da50b73939ec93a267025046b998be9a9d097dd54e379150c0507cfdead3c676"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/钱袋铜钱/ref_v01.jpg",
+      "sha256": "20fc38ad8d1cf7b21980a158ccc982afbb11f6b9a01062b38098fb75aaa2b9b6"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

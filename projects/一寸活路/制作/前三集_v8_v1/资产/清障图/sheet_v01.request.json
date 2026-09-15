@@ -1,0 +1,12 @@
+{
+  "id": "清障图",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one coarse cream paper plan of a harbor drainage channel, a submerged timber pile, a bank boundary line, a small workboat outline with open stern area, simple black ink schematic symbols and clean space for later lettering. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows whole plan laid flat. The right cell shows close detail of boat stern and submerged pile symbols.",
+  "size": {
+    "width": 3072,
+    "height": 1536
+  },
+  "seed": 880138,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

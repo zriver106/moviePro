@@ -1,0 +1,327 @@
+{
+  "scope": "内部视觉复核，非用户批准或最终关键帧验收",
+  "assets": [
+    {
+      "id": "陆照开篇母板",
+      "current": "资产/陆照开篇母板/base_v01.jpg",
+      "sha256": "6d61daf93ba1d80e2961a76f28f67be9b9e1b0ad9159572813464937e04789ed",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "陆照",
+      "current": "资产/陆照/sheet_v04.jpg",
+      "sha256": "b1900cde2e913ccde97153398dc2cb335d31b74db811f0b803744939e6688a7c",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "陆照伤势",
+      "current": "资产/陆照伤势/sheet_v01.jpg",
+      "sha256": "e412ca295562f2442350fa7aedcd8aaaa9377e16eaff2d84d0098c4031513132",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "阿砾开篇母板",
+      "current": "资产/阿砾开篇母板/base_v01.jpg",
+      "sha256": "3679e015a29f39766956b28e2e7fa08feb76da02198e54a19b37e54bc83d2650",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "闻溪",
+      "current": "资产/闻溪/sheet_v01.jpg",
+      "sha256": "e66ca3318afd5d22bd161c392e6d1569e26fe2374c57e0a3ea7b65edb663173f",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "阿砾",
+      "current": "资产/阿砾/sheet_v02.jpg",
+      "sha256": "b5ac85192d4d9bc27106d0f8b12f49ebddbf905dc7e4cf748d36c22600aa3722",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "陆禾",
+      "current": "资产/陆禾/sheet_v01.jpg",
+      "sha256": "43f23a729c8ee52ecc509c2ca1a5b44737253913fd79913b6b301358094ba22d",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "岑鹿",
+      "current": "资产/岑鹿/sheet_v01.jpg",
+      "sha256": "9ac6f105a83071053f9e9f15a9b38d0d41e04aadf17efa2c611ea7ac558eb8f8",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "麻铎",
+      "current": "资产/麻铎/sheet_v02.jpg",
+      "sha256": "aa0d77494f5548ceba07b6b2c0db67ed7d526d248fe3212ccef7756ac6cd95fa",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "葛牙",
+      "current": "资产/葛牙/sheet_v01.jpg",
+      "sha256": "3bc9a70f22336c9bdecbe2d9406ba8cd2ab4853a3062f71f6cf0e83099771b9f",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "灰胡子工人",
+      "current": "资产/灰胡子工人/sheet_v02.jpg",
+      "sha256": "f39b6570142729982d1bf420d7620113536e11055c20efdbfae5ffed898a7c76",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "守船人",
+      "current": "资产/守船人/sheet_v01.jpg",
+      "sha256": "add39f91b8590c1031221b3dfbe5110fe877be5dd4bcd6d00550cf7a267d7235",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "老人手部",
+      "current": "资产/老人手部/sheet_v01.jpg",
+      "sha256": "033ca85ec5fcf7ec843b4f3cec65567de2bd6f92b9cf70eca415150fe5ecf798",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "码头",
+      "current": "资产/码头/sheet_v01.jpg",
+      "sha256": "c0c00c1a7fd0f5e8774510b5aa7be0be83b2d6ff6b22f5089a160d3c934967af",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "闸舱",
+      "current": "资产/闸舱/sheet_v01.jpg",
+      "sha256": "5681cb405ab726c6987b291dda05338b0df95ba4d0f1868af3572ea9d56eba50",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "北门",
+      "current": "资产/北门/sheet_v02.jpg",
+      "sha256": "3ae9d1c32f0b0c4987e4ce3768b3d305408e9d010e3b7c22310f4c7cebadacae",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "梯口",
+      "current": "资产/梯口/sheet_v01.jpg",
+      "sha256": "f2dc38b16dbab92e486a279b0c5b272311b02c71672550fc259746a39813b5dd",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "住屋",
+      "current": "资产/住屋/sheet_v01.jpg",
+      "sha256": "c33bd6505ec57eefc0b4c3426fea31bd37d635bdbe060136a2bd99dbab83a423",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "盐棚外",
+      "current": "资产/盐棚外/sheet_v01.jpg",
+      "sha256": "92e8b4517875a948b6a9726e0a0dde60e2c0fef1af78833841aeca8f6a463c58",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "废船",
+      "current": "资产/废船/sheet_v01.jpg",
+      "sha256": "d2986c8844344df704dd57629f5c2610ee9952b35e201ac25313f5f07bcf0a51",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "黑钢锥",
+      "current": "资产/黑钢锥/sheet_v01.jpg",
+      "sha256": "ae868bd10d0346dedf50423e5d7f37fd394b80f6b24f5dae4326b51b91f76620",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "铜销",
+      "current": "资产/铜销/sheet_v03.jpg",
+      "sha256": "3254089bfc5f6f0ffb2757ab2b0b00feb2d7160ba9e1e5e5d142cc83e52448a3",
+      "review": "preproduction_reference",
+      "limitation": "凹痕与孔径偏大，正式特写按机关与轴线.svg缩小"
+    },
+    {
+      "id": "绳轮机关",
+      "current": "资产/绳轮机关/sheet_v01.jpg",
+      "sha256": "aca5719d475a59dda4cd71c63a1a6ce69daaf7b21b6312bb52bf4531545caa1f",
+      "review": "preproduction_reference",
+      "limitation": "绳路以机关与轴线.svg为准"
+    },
+    {
+      "id": "铜轮柄",
+      "current": "资产/铜轮柄/sheet_v01.jpg",
+      "sha256": "cc7ca1983df77aa54aff0c202357061bc91207965ede16d713dd73e17206a55b",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "船叉",
+      "current": "资产/船叉/sheet_v01.jpg",
+      "sha256": "96d807863393ce9dd604648e86f8375c6834ea57972e876b6cbcf4b89fb70f93",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "长木钩",
+      "current": "资产/长木钩/sheet_v01.jpg",
+      "sha256": "744635eafa3d2b26f87a9e6ebcf1318e2b5a32a11cbf3b760a4b7aeb4a82015b",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "油灯",
+      "current": "资产/油灯/sheet_v01.jpg",
+      "sha256": "ff19a47a660993a8ece05173dc85fc75ca7272d511d649b51a01bde783d1a9b8",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "钱袋铜钱",
+      "current": "资产/钱袋铜钱/sheet_v01.jpg",
+      "sha256": "4d655a2581deae3f305cc0ab6ffa30c4ee6c0fd6fe6b4e65bfd4497b1c62ad75",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "双碗",
+      "current": "资产/双碗/sheet_v01.jpg",
+      "sha256": "e25e29a1e27e08eea8f83a2c9e8a28c0cd269ee55cf167bcefb12f6967b024c2",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "皮鞘",
+      "current": "资产/皮鞘/sheet_v01.jpg",
+      "sha256": "8c98d5555feb593b4d0efd9a756bebc2bcce33b2d6211e59381715fc2dfd9738",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "药布",
+      "current": "资产/药布/sheet_v01.jpg",
+      "sha256": "238f353da1c0b1bceac87123a4a9da40c453b2efbe563b7b09cd9ce2af431936",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "死期牌",
+      "current": "资产/死期牌/sheet_v01.jpg",
+      "sha256": "9d68fffad262b112bcdcfe07bcf3bee2d976e6668b120252f1543e5a96900a95",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "工牌",
+      "current": "资产/工牌/sheet_v01.jpg",
+      "sha256": "3d4fdc6061f99fa4cfe430f582537d279b13f0f327d99959d63f382f46c432ca",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "保单货箱",
+      "current": "资产/保单货箱/sheet_v01.jpg",
+      "sha256": "998535dd66cc66f848433646e9fa7ca27e91c1f0764e8a48b724a31d41ef477a",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "售船纸",
+      "current": "资产/售船纸/sheet_v01.jpg",
+      "sha256": "3a50af84ceedbdb6bd75b3ae4d57f054144089947dd19e2a76c9aea6e2fc64ca",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "退水栓",
+      "current": "资产/退水栓/sheet_v01.jpg",
+      "sha256": "8acd9a7e4b3a19430c03710726701a4b62e1f63cc61e743dbf0e5ffcd6948d75",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "晒网架",
+      "current": "资产/晒网架/sheet_v01.jpg",
+      "sha256": "eb881910651b65216146b3485a3b8bd43535d265a28769f380b9741a13c5f56f",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "湿网",
+      "current": "资产/湿网/sheet_v01.jpg",
+      "sha256": "aeb36a4f00463fd984d8e7d164e68d8a546d1213af325a0e320461451024ff28",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "短刀",
+      "current": "资产/短刀/sheet_v01.jpg",
+      "sha256": "fe71b1c6e4dd6aee208af0247356f8586028845813d0d6b9f46caabcafd920f2",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "铜鱼牌",
+      "current": "资产/铜鱼牌/sheet_v01.jpg",
+      "sha256": "f12ae11e06e5e40853c7953a656b2c8cac0963be5d523d91eddd5a3fdf55616e",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "铜塞水桶",
+      "current": "资产/铜塞水桶/sheet_v01.jpg",
+      "sha256": "993a5c7908c32bcdc3085b1d4961f8fcdc6e085c074460c194b1c41c0399bda8",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "清障图",
+      "current": "资产/清障图/sheet_v01.jpg",
+      "sha256": "1d2ee007b7ae52a2d53494fd2cc45c8ae718101fe3384b1490a297ece20172b3",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "新绳",
+      "current": "资产/新绳/sheet_v01.jpg",
+      "sha256": "4d0f43d629063b8780526f2f2cbcc739d401b785641445a4f753609cf396957c",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "工具箱",
+      "current": "资产/工具箱/sheet_v01.jpg",
+      "sha256": "2562e8fb112ef7c8fc033eca4b9719ff27eab2c22b692836de642155579d6c44",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "米盐包",
+      "current": "资产/米盐包/sheet_v01.jpg",
+      "sha256": "6dcc6df6f37e448317c97051c9a3e3ee03c8eeae6640c1ce28926841a05a1b96",
+      "review": "preproduction_reference",
+      "limitation": ""
+    },
+    {
+      "id": "余烬",
+      "current": "资产/余烬/sheet_v01.jpg",
+      "sha256": "2aac0b202d1a1018a30fd436f62b1388130a2bd25a0994bf430f7c5b86a62ba3",
+      "review": "preproduction_reference",
+      "limitation": ""
+    }
+  ]
+}

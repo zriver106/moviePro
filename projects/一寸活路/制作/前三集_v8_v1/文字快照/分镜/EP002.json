@@ -1,0 +1,2084 @@
+{
+  "id": "EP002",
+  "title": "两只碗",
+  "shots": [
+    {
+      "id": "EP002_SH01",
+      "seconds": 6.0,
+      "design_seconds": 6.0,
+      "source": {
+        "chapter": 2,
+        "quote": "用肩顶住门",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "陆照肩顶门并拉闻溪",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "北门延续撞开"
+        },
+        {
+          "name": "闻溪",
+          "state": "北门延续撞开"
+        }
+      ],
+      "location": {
+        "id": "北门",
+        "desc": "北门"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "北门延续撞开",
+        "beat": "陆照肩顶门并拉闻溪",
+        "end": "闻溪登上修台"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "铜销",
+        "油灯"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic",
+        "闻溪": "wet"
+      },
+      "continuity_out": "闻溪登上修台",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "闸水、脚步、绳木摩擦；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. The northern door has just swung outward, Lu Zhao's shoulder against it and Wen Xi's hand reaching up from the water. Lu Zhao has wet boots and a water-darkened lower tunic. Wen Xi has soaked clothing and wet hair.",
+        "action_en": "The northern door has just swung outward, Lu Zhao's shoulder against it and Wen Xi's hand reaching up from the water; he pulls her onto the ledge.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH02",
+      "seconds": 6.0,
+      "design_seconds": 6.0,
+      "source": {
+        "chapter": 2,
+        "quote": "一手拖着灰胡子工人",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "灰胡子工人被拖上台",
+      "cast": [
+        {
+          "name": "闻溪",
+          "state": "闻溪夹灯扶老人"
+        },
+        {
+          "name": "灰胡子工人",
+          "state": "闻溪夹灯扶老人"
+        }
+      ],
+      "location": {
+        "id": "北门",
+        "desc": "北门"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "闻溪夹灯扶老人",
+        "beat": "灰胡子工人被拖上台",
+        "end": "她指向水下"
+      },
+      "lines": [
+        {
+          "speaker": "闻溪",
+          "text": "阿砾还在！",
+          "off_screen": false,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "油灯"
+      ],
+      "character_states": {
+        "闻溪": "wet",
+        "灰胡子工人": "wet"
+      },
+      "continuity_out": "她指向水下",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "闸水、脚步、绳木摩擦；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Wen Xi braces a lantern against her side while holding the grey-bearded worker by his forearm at the ledge. Wen Xi has soaked clothing and wet hair. the grey-bearded worker has soaked clothing and wet hair.",
+        "action_en": "Wen Xi braces a lantern against her side while holding the grey-bearded worker by his forearm at the ledge; she pulls him up and points down.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH03",
+      "seconds": 7.0,
+      "design_seconds": 7.0,
+      "source": {
+        "chapter": 2,
+        "quote": "被门槛卡住的腿",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "陆照伏低托膝窝",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "阿砾手露出水面"
+        },
+        {
+          "name": "阿砾",
+          "state": "阿砾手露出水面"
+        }
+      ],
+      "location": {
+        "id": "北门",
+        "desc": "北门"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "阿砾手露出水面",
+        "beat": "陆照伏低托膝窝",
+        "end": "阿砾腿越过门槛"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [],
+      "character_states": {
+        "陆照": "wet_lower_tunic",
+        "阿砾": "wet"
+      },
+      "continuity_out": "阿砾腿越过门槛",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "闸水、脚步、绳木摩擦；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao leans over the repair ledge toward A Li's raised hand and trapped leg at the threshold. Lu Zhao has wet boots and a water-darkened lower tunic. A Li has soaked clothing and wet hair.",
+        "action_en": "Lu Zhao leans over the repair ledge toward A Li's raised hand and trapped leg at the threshold; he supports the young man's knee and lifts the leg free.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH04",
+      "seconds": 5.0,
+      "design_seconds": 5.0,
+      "source": {
+        "chapter": 2,
+        "quote": "三个人齐了",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "阿砾伏身吐水",
+      "cast": [
+        {
+          "name": "阿砾",
+          "state": "三名获救者挤在修台"
+        },
+        {
+          "name": "闻溪",
+          "state": "三名获救者挤在修台"
+        },
+        {
+          "name": "灰胡子工人",
+          "state": "三名获救者挤在修台"
+        }
+      ],
+      "location": {
+        "id": "闸舱",
+        "desc": "闸舱"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "全景 / 35mm / 固定机位",
+      "action": {
+        "start": "三名获救者挤在修台",
+        "beat": "阿砾伏身吐水",
+        "end": "闻溪稳住老人"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "油灯"
+      ],
+      "character_states": {
+        "阿砾": "wet",
+        "闻溪": "wet",
+        "灰胡子工人": "wet"
+      },
+      "continuity_out": "闻溪稳住老人",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "闸水、脚步、绳木摩擦；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Wide shot, 35mm lens. A Li, Wen Xi and the grey-bearded worker occupy the same narrow dry ledge. A Li has soaked clothing and wet hair. Wen Xi has soaked clothing and wet hair. the grey-bearded worker has soaked clothing and wet hair.",
+        "action_en": "A Li, Wen Xi and the grey-bearded worker occupy the same narrow dry ledge; A Li folds forward and coughs water while Wen Xi steadies the elder.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 3,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH05",
+      "seconds": 6.0,
+      "design_seconds": 6.0,
+      "source": {
+        "chapter": 2,
+        "quote": "从麻铎腰上摘下",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "陆照摘下他腰上铜轮柄",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "麻铎腕仍绑立柱"
+        },
+        {
+          "name": "麻铎",
+          "state": "麻铎腕仍绑立柱"
+        }
+      ],
+      "location": {
+        "id": "闸舱",
+        "desc": "闸舱"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "麻铎腕仍绑立柱",
+        "beat": "陆照摘下他腰上铜轮柄",
+        "end": "转向北门内轮房"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "铜轮柄",
+        "绳轮机关"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic",
+        "麻铎": "dry"
+      },
+      "continuity_out": "转向北门内轮房",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "闸水、脚步、绳木摩擦；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Ma Duo sits bound to the pillar with the bronze crank still at his belt. Lu Zhao has wet boots and a water-darkened lower tunic.",
+        "action_en": "Ma Duo sits bound to the pillar with the bronze crank still at his belt; Lu Zhao unhooks the crank and turns toward the open northern door.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH06",
+      "seconds": 7.0,
+      "design_seconds": 7.0,
+      "source": {
+        "chapter": 2,
+        "quote": "涌水声断了",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "插入并双手压到底",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "轮柄对准内室轮轴"
+        }
+      ],
+      "location": {
+        "id": "北门",
+        "desc": "北门"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "轮柄对准内室轮轴",
+        "beat": "插入并双手压到底",
+        "end": "墙缝水流停止"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "铜轮柄"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "墙缝水流停止",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "闸水、脚步、绳木摩擦；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao stands inside the opened wheel room with the bronze crank aligned to its axle. Lu Zhao has wet boots and a water-darkened lower tunic.",
+        "action_en": "Lu Zhao stands inside the opened wheel room with the bronze crank aligned to its axle; he seats the crank and presses it through its full travel.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH07",
+      "seconds": 6.0,
+      "design_seconds": 6.0,
+      "source": {
+        "chapter": 2,
+        "quote": "退水栓拔起",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "陆照提栓",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "退水栓封着旁沟"
+        }
+      ],
+      "location": {
+        "id": "闸舱",
+        "desc": "闸舱"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 85mm / 固定机位",
+      "action": {
+        "start": "退水栓封着旁沟",
+        "beat": "陆照提栓",
+        "end": "浅水绕脚流入沟口"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "退水栓"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "浅水绕脚流入沟口",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "闸水、脚步、绳木摩擦；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's hand closes around the wooden drainage stopper beside the channel at ankle level. ",
+        "action_en": "Lu Zhao's hand closes around the wooden drainage stopper beside the channel at ankle level; he lifts the stopper and water curls into the channel.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP002_SH08",
+      "seconds": 6.0,
+      "design_seconds": 6.0,
+      "source": {
+        "chapter": 2,
+        "quote": "水已退到印下两指",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "水线降到印下两指",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "陆照在门槛水线处划印"
+        }
+      ],
+      "location": {
+        "id": "北门",
+        "desc": "北门"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 85mm / 固定机位",
+      "action": {
+        "start": "陆照在门槛水线处划印",
+        "beat": "水线降到印下两指",
+        "end": "露出下游货沟木板"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "黑钢锥"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "露出下游货沟木板",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "闸水、脚步、绳木摩擦；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's hand marks the wet door threshold with the tip of the short awl. ",
+        "action_en": "Lu Zhao's hand marks the wet door threshold with the tip of the short awl; the water drops two finger widths below the fresh mark.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP002_SH09",
+      "seconds": 5.0,
+      "design_seconds": 5.0,
+      "source": {
+        "chapter": 2,
+        "quote": "左边一处浅凹",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "掰下递给陆照",
+      "cast": [
+        {
+          "name": "闻溪",
+          "state": "闻溪握住松动铜销"
+        },
+        {
+          "name": "陆照",
+          "state": "闻溪握住松动铜销"
+        }
+      ],
+      "location": {
+        "id": "北门",
+        "desc": "北门"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 85mm / 固定机位",
+      "action": {
+        "start": "闻溪握住松动铜销",
+        "beat": "掰下递给陆照",
+        "end": "左凹右孔并排清楚"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "铜销"
+      ],
+      "character_states": {
+        "闻溪": "wet",
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "左凹右孔并排清楚",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "闸水、脚步、绳木摩擦；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Wen Xi's hand grips the loosened copper plate, its left dent and right puncture visible.  ",
+        "action_en": "Wen Xi's hand grips the loosened copper plate, its left dent and right puncture visible; she passes the plate into Lu Zhao's open palm.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP002_SH10",
+      "seconds": 6.0,
+      "design_seconds": 6.0,
+      "source": {
+        "chapter": 2,
+        "quote": "谁让出来的",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "守船人横棍拦路",
+      "cast": [
+        {
+          "name": "守船人",
+          "state": "众人抵梯口"
+        },
+        {
+          "name": "陆照",
+          "state": "众人抵梯口"
+        }
+      ],
+      "location": {
+        "id": "梯口",
+        "desc": "梯口"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "众人抵梯口",
+        "beat": "守船人横棍拦路",
+        "end": "陆照停步"
+      },
+      "lines": [
+        {
+          "speaker": "守船人",
+          "text": "封舱。谁让出来的？",
+          "off_screen": false,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "长木钩",
+        "铜销"
+      ],
+      "character_states": {
+        "守船人": "dry",
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "陆照停步",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "闸水、脚步、绳木摩擦；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. A dock guard stands frame left with a wooden staff across the hatch exit, Lu Zhao on the upper rung frame right. Lu Zhao has wet boots and a water-darkened lower tunic.",
+        "action_en": "A dock guard stands frame left with a wooden staff across the hatch exit, Lu Zhao on the upper rung frame right; Lu Zhao stops at the staff.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH11",
+      "seconds": 4.0,
+      "design_seconds": 4.0,
+      "source": {
+        "chapter": 2,
+        "quote": "你上去也是死人",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "凑近陆照耳旁",
+      "cast": [
+        {
+          "name": "麻铎",
+          "state": "麻铎被牵在后方"
+        },
+        {
+          "name": "陆照",
+          "state": "麻铎被牵在后方"
+        }
+      ],
+      "location": {
+        "id": "梯口",
+        "desc": "梯口"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 85mm / 固定机位",
+      "action": {
+        "start": "麻铎被牵在后方",
+        "beat": "凑近陆照耳旁",
+        "end": "陆照不回头"
+      },
+      "lines": [
+        {
+          "speaker": "麻铎",
+          "text": "你上去也是死人。",
+          "off_screen": false,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "绳轮机关"
+      ],
+      "character_states": {
+        "麻铎": "dry",
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "陆照不回头",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "闸水、脚步、绳木摩擦；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Ma Duo stands behind Lu Zhao with a rope binding his wrists. Lu Zhao has wet boots and a water-darkened lower tunic.",
+        "action_en": "Ma Duo stands behind Lu Zhao with a rope binding his wrists; Ma Duo leans toward Lu Zhao's ear.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH12",
+      "seconds": 10.0,
+      "design_seconds": 10.0,
+      "source": {
+        "chapter": 2,
+        "quote": "认水线",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "抬到日光下",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "陆照握着铜片"
+        }
+      ],
+      "location": {
+        "id": "梯口",
+        "desc": "梯口"
+      },
+      "camera": {
+        "size": "medium_close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中近景 / 65mm / 固定机位",
+      "action": {
+        "start": "陆照握着铜片",
+        "beat": "抬到日光下",
+        "end": "向下指水线"
+      },
+      "lines": [
+        {
+          "speaker": "陆照",
+          "text": "轮柄从他腰上拿的。现在关了进水，旁沟正退，你们下一个人认水线。",
+          "off_screen": false,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "铜销",
+        "铜轮柄"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "向下指水线",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "闸水、脚步、绳木摩擦；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium close shot, 65mm lens. Lu Zhao holds the copper plate at chest height beside the hatch. Lu Zhao has wet boots and a water-darkened lower tunic.",
+        "action_en": "Lu Zhao holds the copper plate at chest height beside the hatch; he raises its dent and hole into daylight and points down.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH13",
+      "seconds": 11.0,
+      "design_seconds": 11.0,
+      "source": {
+        "chapter": 2,
+        "quote": "六箱药",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "将保单拍在棍上",
+      "cast": [
+        {
+          "name": "岑鹿",
+          "state": "岑鹿走到横棍前"
+        },
+        {
+          "name": "守船人",
+          "state": "岑鹿走到横棍前"
+        }
+      ],
+      "location": {
+        "id": "梯口",
+        "desc": "梯口"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "岑鹿走到横棍前",
+        "beat": "将保单拍在棍上",
+        "end": "指向未湿货箱"
+      },
+      "lines": [
+        {
+          "speaker": "岑鹿",
+          "text": "六箱药，第三层还没湿。旁边还有布和铜。再拖，你们替谁签损单？",
+          "off_screen": false,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "保单货箱"
+      ],
+      "character_states": {
+        "岑鹿": "dry",
+        "守船人": "dry"
+      },
+      "continuity_out": "指向未湿货箱",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "闸水、脚步、绳木摩擦；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Cen Lu stands beside the horizontal staff, a folded insurance document in her hand and cargo behind her. ",
+        "action_en": "Cen Lu stands beside the horizontal staff, a folded insurance document in her hand and cargo behind her; she slaps the paper onto the staff.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH14",
+      "seconds": 7.0,
+      "design_seconds": 7.0,
+      "source": {
+        "chapter": 2,
+        "quote": "接过麻铎的牵绳",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "接过麻铎牵绳",
+      "cast": [
+        {
+          "name": "守船人",
+          "state": "守船人从舱内返上"
+        },
+        {
+          "name": "麻铎",
+          "state": "守船人从舱内返上"
+        }
+      ],
+      "location": {
+        "id": "梯口",
+        "desc": "梯口"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "全景 / 35mm / 固定机位",
+      "action": {
+        "start": "守船人从舱内返上",
+        "beat": "接过麻铎牵绳",
+        "end": "身侧湿箱移开露干箱"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "保单货箱",
+        "绳轮机关"
+      ],
+      "character_states": {
+        "守船人": "dry",
+        "麻铎": "dry"
+      },
+      "continuity_out": "身侧湿箱移开露干箱",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "闸水、脚步、绳木摩擦；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Wide shot, 35mm lens. The dock guard emerges from the hatch beside two wet crates with dry crates stacked behind. ",
+        "action_en": "The dock guard emerges from the hatch beside two wet crates with dry crates stacked behind; he takes Ma Duo's lead rope.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH15",
+      "seconds": 6.0,
+      "design_seconds": 6.0,
+      "source": {
+        "chapter": 2,
+        "quote": "我还没领工钱",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "阿砾抬头说话",
+      "cast": [
+        {
+          "name": "阿砾",
+          "state": "老人靠系船石坐下"
+        },
+        {
+          "name": "闻溪",
+          "state": "老人靠系船石坐下"
+        },
+        {
+          "name": "灰胡子工人",
+          "state": "老人靠系船石坐下"
+        }
+      ],
+      "location": {
+        "id": "码头",
+        "desc": "码头"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "全景 / 35mm / 固定机位",
+      "action": {
+        "start": "老人靠系船石坐下",
+        "beat": "阿砾抬头说话",
+        "end": "闻溪弯腰笑咳"
+      },
+      "lines": [
+        {
+          "speaker": "阿砾",
+          "text": "我还没领工钱。",
+          "off_screen": false,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "油灯"
+      ],
+      "character_states": {
+        "阿砾": "wet",
+        "闻溪": "wet",
+        "灰胡子工人": "wet"
+      },
+      "continuity_out": "闻溪弯腰笑咳",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Wide shot, 35mm lens. The grey-bearded worker sits beside a stone bollard, A Li and Wen Xi beside him in dripping clothes. A Li has soaked clothing and wet hair. Wen Xi has soaked clothing and wet hair. the grey-bearded worker has soaked clothing and wet hair.",
+        "action_en": "The grey-bearded worker sits beside a stone bollard, A Li and Wen Xi beside him in dripping clothes; A Li lifts his head and Wen Xi bends with a coughing smile.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 3,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH16",
+      "seconds": 9.0,
+      "design_seconds": 9.0,
+      "source": {
+        "chapter": 2,
+        "quote": "救货的钱",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "岑鹿放上二百四十铜",
+      "cast": [
+        {
+          "name": "岑鹿",
+          "state": "秤盘摆在箱上"
+        },
+        {
+          "name": "陆照",
+          "state": "秤盘摆在箱上"
+        }
+      ],
+      "location": {
+        "id": "码头",
+        "desc": "码头"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "秤盘摆在箱上",
+        "beat": "岑鹿放上二百四十铜",
+        "end": "陆照接下沉甸钱袋"
+      },
+      "lines": [
+        {
+          "speaker": "岑鹿",
+          "text": "干箱搬出来了。救货的钱，不买你以后替我卖命。",
+          "off_screen": false,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "钱袋铜钱",
+        "保单货箱"
+      ],
+      "character_states": {
+        "岑鹿": "dry",
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "陆照接下沉甸钱袋",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Cen Lu stands left of a small beam balance on a crate, Lu Zhao to the right. Lu Zhao has wet boots and a water-darkened lower tunic.",
+        "action_en": "Cen Lu stands left of a small beam balance on a crate, Lu Zhao to the right; she lays a purse of copper coins on the balance.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [
+        {
+          "text": "收入 240铜",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH17",
+      "seconds": 6.0,
+      "design_seconds": 6.0,
+      "source": {
+        "chapter": 2,
+        "quote": "磨破的掌心",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "闻溪涂药包布",
+      "cast": [
+        {
+          "name": "闻溪",
+          "state": "陆照摊开磨破掌心"
+        },
+        {
+          "name": "陆照",
+          "state": "陆照摊开磨破掌心"
+        }
+      ],
+      "location": {
+        "id": "码头",
+        "desc": "码头"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 85mm / 固定机位",
+      "action": {
+        "start": "陆照摊开磨破掌心",
+        "beat": "闻溪涂药包布",
+        "end": "陆照将药布钱放下"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "药布"
+      ],
+      "character_states": {
+        "闻溪": "wet",
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "陆照将药布钱放下",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's abraded palm rests open above a folded cloth beside Wen Xi's hands.  ",
+        "action_en": "Lu Zhao's abraded palm rests open above a folded cloth beside Wen Xi's hands; she wraps the palm in a narrow clean bandage.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP002_SH18",
+      "seconds": 5.0,
+      "design_seconds": 5.0,
+      "source": {
+        "chapter": 2,
+        "quote": "又买一只皮鞘",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "陆照付钱拿起",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "新皮鞘平放"
+        }
+      ],
+      "location": {
+        "id": "码头",
+        "desc": "码头"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 85mm / 固定机位",
+      "action": {
+        "start": "新皮鞘平放",
+        "beat": "陆照付钱拿起",
+        "end": "黑锥慢慢滑入鞘内"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "黑钢锥",
+        "皮鞘",
+        "钱袋铜钱"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "黑锥慢慢滑入鞘内",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's wrapped hand holds a plain brown leather sheath beside the rope-wrapped black awl. ",
+        "action_en": "Lu Zhao's wrapped hand holds a plain brown leather sheath beside the rope-wrapped black awl; he slides the awl into the sheath.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP002_SH19",
+      "seconds": 7.1,
+      "design_seconds": 7.0,
+      "source": {
+        "chapter": 2,
+        "quote": "最后一枚未用的",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "老人的手将赤薄物按在胸前伤处",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "三个月前的手部闪回"
+        },
+        {
+          "name": "老人手部",
+          "state": "三个月前的手部闪回"
+        }
+      ],
+      "location": {
+        "id": "废船",
+        "desc": "废船"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 85mm / 固定机位",
+      "action": {
+        "start": "三个月前的手部闪回",
+        "beat": "老人的手将赤薄物按在胸前伤处",
+        "end": "盒壳碎成灰"
+      },
+      "lines": [
+        {
+          "speaker": "陆照",
+          "text": "三个月前，我把老人拖出废船。他把最后一枚余烬留给了我。",
+          "off_screen": true,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "余烬"
+      ],
+      "character_states": {
+        "陆照": "dry",
+        "老人手部": "dry"
+      },
+      "continuity_out": "盒壳碎成灰",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. An elderly hand holds a thin ember-red fragment just above young Lu Zhao's linen-covered sternum inside a broken hull. ",
+        "action_en": "An elderly hand holds a thin ember-red fragment just above young Lu Zhao's linen-covered sternum inside a broken hull; the hand presses down and a small box shell crumbles.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [
+        {
+          "text": "三个月前",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP002_SH20",
+      "seconds": 13.0,
+      "design_seconds": 13.0,
+      "source": {
+        "chapter": 2,
+        "quote": "同一个敌人",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "指节缓缓蜷起",
+      "cast": [
+        {
+          "name": "老人手部",
+          "state": "老人枯瘦手搭在旧锥柄旁"
+        }
+      ],
+      "location": {
+        "id": "废船",
+        "desc": "废船"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 85mm / 固定机位",
+      "action": {
+        "start": "老人枯瘦手搭在旧锥柄旁",
+        "beat": "指节缓缓蜷起",
+        "end": "停在陆照手背上"
+      },
+      "lines": [
+        {
+          "speaker": "老人",
+          "text": "添上的痕不会消失，不会耗尽，也没有最后一道。换了锥，仍跟着你；同一个敌人，却只能留下第一次。",
+          "off_screen": true,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "黑钢锥",
+        "余烬"
+      ],
+      "character_states": {
+        "老人手部": "dry"
+      },
+      "continuity_out": "停在陆照手背上",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. An elderly hand rests beside a hemp-wrapped awl handle in the dim broken hull. ",
+        "action_en": "An elderly hand rests beside a hemp-wrapped awl handle in the dim broken hull; the fingers curl against Lu Zhao's hand.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP002_SH21",
+      "seconds": 8.0,
+      "design_seconds": 8.0,
+      "source": {
+        "chapter": 2,
+        "quote": "该躲的刀",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "听老人话呼吸起伏",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "陆照眼睛半睁"
+        }
+      ],
+      "location": {
+        "id": "废船",
+        "desc": "废船"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 85mm / 固定机位",
+      "action": {
+        "start": "陆照眼睛半睁",
+        "beat": "听老人话呼吸起伏",
+        "end": "画面淡回眼前"
+      },
+      "lines": [
+        {
+          "speaker": "老人",
+          "text": "你还是这双手、这两条腿。该躲的刀，一刀也别接。",
+          "off_screen": true,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [],
+      "character_states": {
+        "陆照": "dry"
+      },
+      "continuity_out": "画面淡回眼前",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Young Lu Zhao lies with half-open eyes against a weathered hull plank. ",
+        "action_en": "Young Lu Zhao lies with half-open eyes against a weathered hull plank; his chest rises beneath the loose linen collar.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH22",
+      "seconds": 8.0,
+      "design_seconds": 8.0,
+      "source": {
+        "chapter": 2,
+        "quote": "站门口也算住",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "陆禾从小屋探身",
+      "cast": [
+        {
+          "name": "陆禾",
+          "state": "陆照站门边恍神"
+        },
+        {
+          "name": "陆照",
+          "state": "陆照站门边恍神"
+        }
+      ],
+      "location": {
+        "id": "住屋",
+        "desc": "住屋"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "陆照站门边恍神",
+        "beat": "陆禾从小屋探身",
+        "end": "示意进屋"
+      },
+      "lines": [
+        {
+          "speaker": "陆禾",
+          "text": "站门口也算住。再站一会儿，房主要收看景钱了。",
+          "off_screen": false,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "皮鞘"
+      ],
+      "character_states": {
+        "陆禾": "dry",
+        "陆照": "dry"
+      },
+      "continuity_out": "示意进屋",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu He leans out from the small salt-shed room, Lu Zhao standing at its threshold with a plain sheath at his belt. ",
+        "action_en": "Lu He leans out from the small salt-shed room, Lu Zhao standing at its threshold with a plain sheath at his belt; she beckons him inside.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH23",
+      "seconds": 6.0,
+      "design_seconds": 6.0,
+      "source": {
+        "chapter": 2,
+        "quote": "袋里还剩二百铜",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "铜钱朝歪桌角滚",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "陆照倒出余钱"
+        }
+      ],
+      "location": {
+        "id": "住屋",
+        "desc": "住屋"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 85mm / 固定机位",
+      "action": {
+        "start": "陆照倒出余钱",
+        "beat": "铜钱朝歪桌角滚",
+        "end": "左手按平桌角"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "钱袋铜钱"
+      ],
+      "character_states": {
+        "陆照": "dry"
+      },
+      "continuity_out": "左手按平桌角",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's wrapped hand tilts his purse above a warped wooden table. ",
+        "action_en": "Lu Zhao's wrapped hand tilts his purse above a warped wooden table; he presses the raised corner flat as copper coins roll across it.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [
+        {
+          "text": "余 200铜",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP002_SH24",
+      "seconds": 7.0,
+      "design_seconds": 7.0,
+      "source": {
+        "chapter": 2,
+        "quote": "多盛一碗热饭",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "回身盛热饭",
+      "cast": [
+        {
+          "name": "陆禾",
+          "state": "陆禾闻到湿衣味"
+        }
+      ],
+      "location": {
+        "id": "住屋",
+        "desc": "住屋"
+      },
+      "camera": {
+        "size": "medium_close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中近景 / 65mm / 固定机位",
+      "action": {
+        "start": "陆禾闻到湿衣味",
+        "beat": "回身盛热饭",
+        "end": "多放一块肉"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "双碗"
+      ],
+      "character_states": {
+        "陆禾": "dry"
+      },
+      "continuity_out": "多放一块肉",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium close shot, 65mm lens. Lu He stands at the small hearth with her worn apron and a rice bowl. ",
+        "action_en": "Lu He stands at the small hearth with her worn apron and a rice bowl; she scoops rice and lays a piece of meat on top.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH25",
+      "seconds": 6.0,
+      "design_seconds": 6.0,
+      "source": {
+        "chapter": 2,
+        "quote": "活人不用吃剩的",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "陆禾收走它",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "陆照手伸向缺口碗"
+        },
+        {
+          "name": "陆禾",
+          "state": "陆照手伸向缺口碗"
+        }
+      ],
+      "location": {
+        "id": "住屋",
+        "desc": "住屋"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 85mm / 固定机位",
+      "action": {
+        "start": "陆照手伸向缺口碗",
+        "beat": "陆禾收走它",
+        "end": "完整碗换到他掌心"
+      },
+      "lines": [
+        {
+          "speaker": "陆禾",
+          "text": "活人不用吃剩的。",
+          "off_screen": false,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "双碗"
+      ],
+      "character_states": {
+        "陆照": "dry",
+        "陆禾": "dry"
+      },
+      "continuity_out": "完整碗换到他掌心",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's bandaged hand reaches toward a chipped rice bowl as Lu He's hand holds an intact matching bowl. ",
+        "action_en": "Lu Zhao's bandaged hand reaches toward a chipped rice bowl as Lu He's hand holds an intact matching bowl; she exchanges the bowls.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP002_SH26",
+      "seconds": 6.0,
+      "design_seconds": 6.0,
+      "source": {
+        "chapter": 2,
+        "quote": "送回半块",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "将肉分成两半",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "陆照低头捧热碗"
+        },
+        {
+          "name": "陆禾",
+          "state": "陆照低头捧热碗"
+        }
+      ],
+      "location": {
+        "id": "住屋",
+        "desc": "住屋"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "陆照低头捧热碗",
+        "beat": "将肉分成两半",
+        "end": "半块送回姐姐碗里"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "双碗"
+      ],
+      "character_states": {
+        "陆照": "dry",
+        "陆禾": "dry"
+      },
+      "continuity_out": "半块送回姐姐碗里",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao sits frame right and Lu He frame left at the small table, the meat resting above his rice. ",
+        "action_en": "Lu Zhao sits frame right and Lu He frame left at the small table, the meat resting above his rice; he divides it and returns half to her bowl.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH27",
+      "seconds": 8.0,
+      "design_seconds": 8.0,
+      "source": {
+        "chapter": 2,
+        "quote": "三千铜",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "指尖停在船头弧角图",
+      "cast": [
+        {
+          "name": "陆禾",
+          "state": "陆禾展开售船纸"
+        },
+        {
+          "name": "陆照",
+          "state": "陆禾展开售船纸"
+        }
+      ],
+      "location": {
+        "id": "住屋",
+        "desc": "住屋"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 85mm / 固定机位",
+      "action": {
+        "start": "陆禾展开售船纸",
+        "beat": "指尖停在船头弧角图",
+        "end": "陆照抬眼"
+      },
+      "lines": [
+        {
+          "speaker": "陆禾",
+          "text": "青蟹号。三千铜。",
+          "off_screen": false,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "售船纸",
+        "双碗"
+      ],
+      "character_states": {
+        "陆禾": "dry",
+        "陆照": "dry"
+      },
+      "continuity_out": "陆照抬眼",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu He's hand unfolds a weathered sale document with a small curved-bow boat drawing beside the two bowls. ",
+        "action_en": "Lu He's hand unfolds a weathered sale document with a small curved-bow boat drawing beside the two bowls; Lu Zhao raises his eyes toward it.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [
+        {
+          "text": "青蟹号",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        },
+        {
+          "text": "三千铜",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP002_SH28",
+      "seconds": 8.0,
+      "design_seconds": 8.0,
+      "source": {
+        "chapter": 2,
+        "quote": "父亲被押走",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "掌心扣住二百铜",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "陆照看着纸角"
+        }
+      ],
+      "location": {
+        "id": "住屋",
+        "desc": "住屋"
+      },
+      "camera": {
+        "size": "medium_close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中近景 / 65mm / 固定机位",
+      "action": {
+        "start": "陆照看着纸角",
+        "beat": "掌心扣住二百铜",
+        "end": "收回钱袋"
+      },
+      "lines": [
+        {
+          "speaker": "陆照",
+          "text": "六个月前父亲被押走，我们连船上的旧被都没能拿下来。",
+          "off_screen": true,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "钱袋铜钱",
+        "售船纸"
+      ],
+      "character_states": {
+        "陆照": "dry"
+      },
+      "continuity_out": "收回钱袋",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium close shot, 65mm lens. Lu Zhao sits with the copper coins under his right palm and the sale paper at frame left. ",
+        "action_en": "Lu Zhao sits with the copper coins under his right palm and the sale paper at frame left; he draws the purse toward himself.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP002_SH29",
+      "seconds": 6.0,
+      "design_seconds": 6.0,
+      "source": {
+        "chapter": 2,
+        "quote": "我们挣",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "抬头看姐姐",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "陆照系住袋口"
+        }
+      ],
+      "location": {
+        "id": "住屋",
+        "desc": "住屋"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 85mm / 固定机位",
+      "action": {
+        "start": "陆照系住袋口",
+        "beat": "抬头看姐姐",
+        "end": "钱袋稳稳放桌上"
+      },
+      "lines": [
+        {
+          "speaker": "陆照",
+          "text": "先不借。我们挣。",
+          "off_screen": false,
+          "at": 0.4
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "钱袋铜钱"
+      ],
+      "character_states": {
+        "陆照": "dry"
+      },
+      "continuity_out": "钱袋稳稳放桌上",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao ties the purse cord at the table with both hands. ",
+        "action_en": "Lu Zhao ties the purse cord at the table with both hands; he lifts his chin toward frame left.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP002_SH30",
+      "seconds": 6.0,
+      "design_seconds": 6.0,
+      "source": {
+        "chapter": 2,
+        "quote": "压在两只碗下面",
+        "script_path": "剧本/EP002.md",
+        "script_digest": "a8e9fc8ea94234d3"
+      },
+      "intent": "折好售船纸",
+      "cast": [
+        {
+          "name": "陆禾",
+          "state": "陆禾看着弟弟"
+        }
+      ],
+      "location": {
+        "id": "住屋",
+        "desc": "住屋"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 85mm / 固定机位",
+      "action": {
+        "start": "陆禾看着弟弟",
+        "beat": "折好售船纸",
+        "end": "压在两只碗下面"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "售船纸",
+        "双碗"
+      ],
+      "character_states": {
+        "陆禾": "dry"
+      },
+      "continuity_out": "压在两只碗下面",
+      "transition_cn": "动作承接硬切；保持本场轴线",
+      "sound": "港口轻水声与脚步；住屋为灶火、碗筷；中文对白独立录音",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu He holds the sale paper between her hands above the two bowls. ",
+        "action_en": "Lu He holds the sale paper between her hands above the two bowls; she folds the paper and slides it beneath their bases.",
+        "prompt_language": "en",
+        "status": "storyboard_preproduction"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "身份或服装阶段不符",
+          "左右手与伤势侧错误",
+          "道具提前变化"
+        ],
+        "text_policy": "可读中文后期叠加；原始图面不作为文字证据"
+      },
+      "on_screen_text": [],
+      "in_frame": "hands_or_object"
+    }
+  ],
+  "source_sha256": "ae79702150635a04e98e3d3b18477f51c4e6ad550b653707272c7a9d0f97d968",
+  "aspect_ratio": "16:9",
+  "style": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. ",
+  "note": "Seedream立体国漫定妆v8开篇派生；彩色故事板为构图预览，JSON为镜头权威。",
+  "target_seconds": 207.1,
+  "script_digest": "a8e9fc8ea94234d3"
+}

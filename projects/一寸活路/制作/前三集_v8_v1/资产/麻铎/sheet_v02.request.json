@@ -1,0 +1,21 @@
+{
+  "id": "麻铎",
+  "prompt": "Rebuild reference image 1 as a Chinese 3D animated feature character sheet, matching the visibly stylized sculpted face planes, expressive animated eyes, large coherent hair clumps and smooth animation skin shading of reference image 2. Reference 1 defines the distinct older male character identity, facial hair, body silhouette, clothes and four poses. Reference 2 defines rendering aesthetic. Keep the age, beard, costume and four-cell layout of reference 1. Pure white cell backgrounds. The face is an intentionally designed animated character with simplified cheek planes and groomed sculpted hair, harmonized with the animation style in reference 2. The overseer has a broad square face, sparse moustache, stocky body, dark headcloth, brown vest and ochre tunic.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 885105,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/麻铎/sheet_v01.jpg",
+      "sha256": "e7776f7f343805d7d8bbaefa6e36cff6c8ecba0665f77bb5f30941967f6b3751"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照开篇母板/base_v01.jpg",
+      "sha256": "6d61daf93ba1d80e2961a76f28f67be9b9e1b0ad9159572813464937e04789ed"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

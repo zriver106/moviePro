@@ -1,0 +1,52 @@
+{
+  "grid": [
+    2,
+    1
+  ],
+  "separator_x": [
+    0,
+    1535,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "tied outer bundle",
+      "bbox": [
+        8,
+        8,
+        1527,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        64,
+        86,
+        1371,
+        1338
+      ],
+      "path": "制作/前三集_v8_v1/资产/米盐包/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "opened bundle showing rice sack and salt packet",
+      "bbox": [
+        1543,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        0,
+        1494,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/米盐包/cell_02.jpg"
+    }
+  ]
+}

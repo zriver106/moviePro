@@ -1,0 +1,25 @@
+{
+  "id": "EP003_SH16",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: An empty narrow old harbor salt-shed alley. Image 2: A restrained tiny ember-red fragment and a soft amber pinprick glow, practical subtle supernatural effect, deep black background. Image 3: a short straight black steel awl, a single tapering spike twenty-five centimeters long including a ten-centimeter handle wrapped with old tan hemp cord, simple working tool. Close shot, 85mm lens. Lu Zhao's left shoulder cloth has a small dark red patch, his right hand around the awl still in the crossbar. Lu Zhao has a small dark red stain and superficial scrape at his anatomical left shoulder, the right shoulder intact.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890316,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/盐棚外/ref_v01.jpg",
+      "sha256": "5788f07c0221f6059435a38310c342e2fdf90bea46faf1778e899219712162fa"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/余烬/ref_v01.jpg",
+      "sha256": "8912dda7ad7ebec8c407cab994b5d531f4cf7831d1903403c1e9323b6aaec8bf"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/黑钢锥/ref_v01.jpg",
+      "sha256": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

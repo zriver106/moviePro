@@ -1,0 +1,33 @@
+{
+  "novel": {
+    "path": "一寸活路_第1—448章_小说阅读版.txt",
+    "sha256": "ae79702150635a04e98e3d3b18477f51c4e6ad550b653707272c7a9d0f97d968"
+  },
+  "design": {
+    "path": "制作/前三集_v8_v1/镜头设计.tsv",
+    "sha256": "0b390f528c0907be90caff1a499cbd8d6be980cef35dd02505d8841e46e93b4c"
+  },
+  "authorization": "用户指定Seedream立体国漫定妆_v8制作前三集资产与分镜",
+  "references": [
+    {
+      "path": "定稿/Seedream立体国漫定妆_v8/01_陆照.jpg",
+      "sha256": "67d721422c86fe870f1e75169a17d0fb623cb95d9b796d98e3cfac8af3b1bdd7"
+    },
+    {
+      "path": "定稿/Seedream立体国漫定妆_v8/02_闻溪.jpg",
+      "sha256": "73fdf08b1741ac8ce150fff0661c0fca183c1f455b64d4430ab5353142fbb223"
+    },
+    {
+      "path": "定稿/Seedream立体国漫定妆_v8/04_阿砾.jpg",
+      "sha256": "b7851f4ede760e0f05e8d26a804b7946a88c3683d8ea729fcfb5845d8c76904c"
+    },
+    {
+      "path": "定稿/Seedream立体国漫定妆_v8/05_陆禾.jpg",
+      "sha256": "649f2aa957c29eebb098f5155d860c05763af6f036e525d0cd0051e49fa8a7c1"
+    },
+    {
+      "path": "定稿/Seedream立体国漫定妆_v8/10_岑鹿.jpg",
+      "sha256": "eee778d0545bf6e2c33f52743caa419fe2c1e8f3b4305ef044398e1ada9ec796"
+    }
+  ]
+}

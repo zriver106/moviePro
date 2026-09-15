@@ -1,0 +1,17 @@
+{
+  "id": "梯口",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. An empty old harbor sluice hatch exit at the top of a steep southern timber ladder. Ladder descends down toward frame right, open exit to dry dock toward frame left. Wooden hatch rail, hanging plain wooden worker tag, timber hook beside the ladder, stacked freight crates along the dry landing. Daylight from upper left.",
+  "size": {
+    "width": 2560,
+    "height": 1440
+  },
+  "seed": 880113,
+  "references": [
+    {
+      "path": "定稿/Seedream立体国漫基础场景_v8配套/01_本埠公码头.jpg",
+      "sha256": "b354fb160064050d70a6648570ab16680583a562736513b86d16f4e203fa96be"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

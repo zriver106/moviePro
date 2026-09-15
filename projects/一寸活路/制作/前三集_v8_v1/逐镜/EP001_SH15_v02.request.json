@@ -1,0 +1,17 @@
+{
+  "id": "EP001_SH15",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Image 1 establishes An empty old timber sluice chamber of a working river dock. Extreme close-up of a young man's cloth-wrapped right hand holding a tiny worn cloth purse the size of his palm. The tied purse has a closed mouth and holds eight coins internally. His hand enters from the upper right, the closed little purse hangs a few centimeters above a rough hemp rope loop floating on shallow dark water. The hand, tiny closed purse and loop fill the frame.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 891115,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/闸舱/ref_v01.jpg",
+      "sha256": "e1a0eb20cc6b324b2b3e59b316ae1f4214160ddc2985f6a027ae58ba6db57573"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "EP001_SH04",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: Wen Xi, exactly the same adult female face, pinned brown-black hair, pale mint sleeveless overcoat, cream sleeves, grey pleated skirt, dark green boots and medicine pouches as the reference. Image 2: An empty close environment view of the northern timber sluice door inside the old chamber. Image 3: one small hand-carried river work lantern, dark brass cage, clear glass reservoir, curved carry handle and warm short wick flame. Close shot, 85mm lens. Wen Xi's wet face fills a small inspection opening above dark water, a lantern beside her cheek. Wen Xi has soaked clothing and wet hair.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890104,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/闻溪/cell_04.jpg",
+      "sha256": "64c1ea1e4dafba9cb6c138118bf2c5a86511039606b129d9a81c5f2d938ffecd"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/北门/ref_v01.jpg",
+      "sha256": "c04fa10bad8b2cde09270cfa91811a119f383817e3cc727b031cdd630da56c25"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/油灯/ref_v01.jpg",
+      "sha256": "a77f20faebbbb44790e9c25f18f18e125e242b33225e4329943e9c3dbb6042a7"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

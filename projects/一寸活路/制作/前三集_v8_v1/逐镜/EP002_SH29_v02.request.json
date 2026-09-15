@@ -1,0 +1,21 @@
+{
+  "id": "EP002_SH29",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, woven cloth and weathered wood. Image 1 establishes Lu Zhao's blue sleeves and dark cloth wrist wraps, image 2 establishes the rented home. Extreme close-up, top-down view of the tabletop filling the frame. Two hands in blue sleeves and dark cloth wrist wraps enter from the bottom corners, tying the drawstrings of a small brown cloth coin pouch resting on the table. Focus on the fingers, knot and little purse.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 891229,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照/ref_v01.jpg",
+      "sha256": "fae19e1d4274a88a19762e40b7f2d517a20f23a33776d97bf82a4fd3d40d74cd"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/住屋/ref_v01.jpg",
+      "sha256": "da50b73939ec93a267025046b998be9a9d097dd54e379150c0507cfdead3c676"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

@@ -1,0 +1,87 @@
+{
+  "grid": [
+    2,
+    2
+  ],
+  "separator_x": [
+    0,
+    1529,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536,
+    3072
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "full body front view",
+      "bbox": [
+        8,
+        8,
+        1521,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        40,
+        1513,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/陆禾/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "left profile",
+      "bbox": [
+        1537,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        0,
+        1527,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/陆禾/cell_02.jpg"
+    },
+    {
+      "index": 3,
+      "name": "full body back view",
+      "bbox": [
+        8,
+        1544,
+        1521,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        0,
+        1513,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/陆禾/cell_03.jpg"
+    },
+    {
+      "index": 4,
+      "name": "waist-up view with a light dusting of flour on fingers and apron",
+      "bbox": [
+        1537,
+        1544,
+        3064,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        0,
+        0,
+        1527,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/陆禾/cell_04.jpg"
+    }
+  ]
+}

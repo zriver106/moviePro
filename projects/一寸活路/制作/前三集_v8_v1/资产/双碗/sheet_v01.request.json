@@ -1,0 +1,12 @@
+{
+  "id": "双碗",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one matched pair of plain cream glazed pottery rice bowls with thin brown rims, the sister bowl has one clearly chipped lip and the brother bowl has a complete smooth rim. Exactly 2 columns and 2 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The top left cell shows both bowls side by side, left chipped and right intact. The top right cell shows same pair seen from above. The bottom left cell shows same pair filled with rice and two modest meat pieces. The bottom right cell shows same two bowls nested inside a loosely opened blue-grey cloth carrying wrap.",
+  "size": {
+    "width": 3072,
+    "height": 3072
+  },
+  "seed": 880125,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

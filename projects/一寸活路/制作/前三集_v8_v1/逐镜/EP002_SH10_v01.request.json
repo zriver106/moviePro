@@ -1,0 +1,33 @@
+{
+  "id": "EP002_SH10",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: an adult male guild dock guard age thirty, broad cheekbones, tied black hair, dark slate-blue short work jacket, muted grey trousers, hemp waist cord and flat black cloth shoes. Image 2: Lu Zhao, the same young adult face, black half-up hair and teal color identity as the reference. Image 3: An empty old harbor sluice hatch exit at the top of a steep southern timber ladder. Image 4: one long wooden dock hook with bent iron tip and weathered brown pole. Image 5: one rectangular yellow copper door locking plate with a small timber latch tongue behind it. Medium shot, 50mm lens. A dock guard stands frame left with a wooden staff across the hatch exit, Lu Zhao on the upper rung frame right. Lu Zhao has wet boots and a water-darkened lower tunic.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890210,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/守船人/ref_v01.jpg",
+      "sha256": "c0d1fa7ea2459f4f38ceefe1370752744ef83032f88d1fa11bbc09e810bf6f66"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照/cell_04.jpg",
+      "sha256": "c26e0b85281b9d63fac836f8ac30efe44850cf916dcf98e59cbf6f0185125ec0"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/梯口/ref_v01.jpg",
+      "sha256": "81030b494cbb94fe5bc291424f8a6aba59f84ee89fe997f15e27a90d3dea99bb"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/长木钩/ref_v01.jpg",
+      "sha256": "7a09f525243ecd61cdc2016112cacc06597e5b534ec297e2dc0a40cf43adc74c"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/铜销/cell_03.jpg",
+      "sha256": "94d85dd09f7679bd698174224d2a24030f18f07f0e7afaa7d75d2ce3da6cb649"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

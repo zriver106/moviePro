@@ -1,0 +1,510 @@
+{
+  "design_sha256": "0b390f528c0907be90caff1a499cbd8d6be980cef35dd02505d8841e46e93b4c",
+  "shots": {
+    "EP001_SH01": {
+      "on_screen_text": [
+        {
+          "text": "陆照",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        },
+        {
+          "text": "六个月前",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. A weathered wooden tag hangs before Lu Zhao's hovering fingers. "
+    },
+    "EP001_SH02": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium close shot, 65mm lens. Ma Duo grips the corner of the hanging tag beside the hatch. "
+    },
+    "EP001_SH03": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Wide shot, 35mm lens. Lu Zhao is on the lowest rung at frame left, the northern door at frame right and a repair ledge behind him. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP001_SH04": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Wen Xi's wet face fills a small inspection opening above dark water, a lantern beside her cheek. Wen Xi has soaked clothing and wet hair."
+    },
+    "EP001_SH05": {
+      "on_screen_text": [
+        {
+          "text": "先关进水，再开退沟",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. A new yellow copper locking plate crosses the timber door beside a blank instruction board. "
+    },
+    "EP001_SH06": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao stands on the repair ledge with both heels braced against wooden pegs and a short black awl held close to his chest. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP001_SH07": {
+      "on_screen_text": [],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Close view of Lu Zhao's two hands and the short black awl touching the left side of a copper plate. "
+    },
+    "EP001_SH08": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Wen Xi holds the lantern beside the inspection opening with her free index finger raised. Wen Xi has soaked clothing and wet hair."
+    },
+    "EP001_SH09": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Wide shot, 35mm lens. Ma Duo stands at the southern ladder, a fork in both hands and a detached bronze crank hanging at his belt. "
+    },
+    "EP001_SH10": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium close shot, 65mm lens. Lu Zhao faces screen left on the wet repair ledge, his black awl held below his ribs. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP001_SH11": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Ma Duo faces screen right with the fork shaft across his chest. "
+    },
+    "EP001_SH12": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Wide shot, 35mm lens. Ma Duo occupies frame left with his fork aimed toward Lu Zhao at frame right beside a wooden winch. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP001_SH13": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's face is beside the oak brake wedge beneath the rope winch. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP001_SH14": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium close shot, 65mm lens. Ma Duo holds the fork across his body with his head angled toward the right-hand door. "
+    },
+    "EP001_SH15": {
+      "on_screen_text": [],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's right hand holds a small worn purse containing eight copper coins above the open rope loop in shallow water. "
+    },
+    "EP001_SH16": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Ma Duo stands immediately before the rope loop with the purse inside it. "
+    },
+    "EP001_SH17": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao's torso is beside the winch axle as Ma Duo's fork approaches from frame left. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP001_SH18": {
+      "on_screen_text": [],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's two hands wrap around the oak brake wedge below the winch. "
+    },
+    "EP001_SH19": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Wide shot, 35mm lens. Ma Duo stands with both ankles inside the open loop beside the winch, the weight visible above its support. "
+    },
+    "EP001_SH20": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Ma Duo lies in shallow water beside the pillar, Lu Zhao kneeling next to his upper body. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP001_SH21": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao presses his right palm over his sternum, his wet teal collar visible. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP001_SH22": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao crouches beside the fallen purse with the short awl resting on the repair ledge. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP001_SH23": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Wen Xi's face is framed tightly by the inspection opening, water at her lower lip and a weak lantern beside her. Wen Xi has soaked clothing and wet hair."
+    },
+    "EP001_SH24": {
+      "on_screen_text": [],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's hands brace the awl against intact copper to the right of the earlier dent. "
+    },
+    "EP002_SH01": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. The northern door has just swung outward, Lu Zhao's shoulder against it and Wen Xi's hand reaching up from the water. Lu Zhao has wet boots and a water-darkened lower tunic. Wen Xi has soaked clothing and wet hair."
+    },
+    "EP002_SH02": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Wen Xi braces a lantern against her side while holding the grey-bearded worker by his forearm at the ledge. Wen Xi has soaked clothing and wet hair. the grey-bearded worker has soaked clothing and wet hair."
+    },
+    "EP002_SH03": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao leans over the repair ledge toward A Li's raised hand and trapped leg at the threshold. Lu Zhao has wet boots and a water-darkened lower tunic. A Li has soaked clothing and wet hair."
+    },
+    "EP002_SH04": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Wide shot, 35mm lens. A Li, Wen Xi and the grey-bearded worker occupy the same narrow dry ledge. A Li has soaked clothing and wet hair. Wen Xi has soaked clothing and wet hair. the grey-bearded worker has soaked clothing and wet hair."
+    },
+    "EP002_SH05": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Ma Duo sits bound to the pillar with the bronze crank still at his belt. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP002_SH06": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao stands inside the opened wheel room with the bronze crank aligned to its axle. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP002_SH07": {
+      "on_screen_text": [],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's hand closes around the wooden drainage stopper beside the channel at ankle level. "
+    },
+    "EP002_SH08": {
+      "on_screen_text": [],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's hand marks the wet door threshold with the tip of the short awl. "
+    },
+    "EP002_SH09": {
+      "on_screen_text": [],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Wen Xi's hand grips the loosened copper plate, its left dent and right puncture visible.  "
+    },
+    "EP002_SH10": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. A dock guard stands frame left with a wooden staff across the hatch exit, Lu Zhao on the upper rung frame right. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP002_SH11": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Ma Duo stands behind Lu Zhao with a rope binding his wrists. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP002_SH12": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium close shot, 65mm lens. Lu Zhao holds the copper plate at chest height beside the hatch. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP002_SH13": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Cen Lu stands beside the horizontal staff, a folded insurance document in her hand and cargo behind her. "
+    },
+    "EP002_SH14": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Wide shot, 35mm lens. The dock guard emerges from the hatch beside two wet crates with dry crates stacked behind. "
+    },
+    "EP002_SH15": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Wide shot, 35mm lens. The grey-bearded worker sits beside a stone bollard, A Li and Wen Xi beside him in dripping clothes. A Li has soaked clothing and wet hair. Wen Xi has soaked clothing and wet hair. the grey-bearded worker has soaked clothing and wet hair."
+    },
+    "EP002_SH16": {
+      "on_screen_text": [
+        {
+          "text": "收入 240铜",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Cen Lu stands left of a small beam balance on a crate, Lu Zhao to the right. Lu Zhao has wet boots and a water-darkened lower tunic."
+    },
+    "EP002_SH17": {
+      "on_screen_text": [],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's abraded palm rests open above a folded cloth beside Wen Xi's hands.  "
+    },
+    "EP002_SH18": {
+      "on_screen_text": [],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's wrapped hand holds a plain brown leather sheath beside the rope-wrapped black awl. "
+    },
+    "EP002_SH19": {
+      "on_screen_text": [
+        {
+          "text": "三个月前",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. An elderly hand holds a thin ember-red fragment just above young Lu Zhao's linen-covered sternum inside a broken hull. "
+    },
+    "EP002_SH20": {
+      "on_screen_text": [],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. An elderly hand rests beside a hemp-wrapped awl handle in the dim broken hull. "
+    },
+    "EP002_SH21": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Young Lu Zhao lies with half-open eyes against a weathered hull plank. "
+    },
+    "EP002_SH22": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu He leans out from the small salt-shed room, Lu Zhao standing at its threshold with a plain sheath at his belt. "
+    },
+    "EP002_SH23": {
+      "on_screen_text": [
+        {
+          "text": "余 200铜",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's wrapped hand tilts his purse above a warped wooden table. "
+    },
+    "EP002_SH24": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium close shot, 65mm lens. Lu He stands at the small hearth with her worn apron and a rice bowl. "
+    },
+    "EP002_SH25": {
+      "on_screen_text": [],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's bandaged hand reaches toward a chipped rice bowl as Lu He's hand holds an intact matching bowl. "
+    },
+    "EP002_SH26": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao sits frame right and Lu He frame left at the small table, the meat resting above his rice. "
+    },
+    "EP002_SH27": {
+      "on_screen_text": [
+        {
+          "text": "青蟹号",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        },
+        {
+          "text": "三千铜",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu He's hand unfolds a weathered sale document with a small curved-bow boat drawing beside the two bowls. "
+    },
+    "EP002_SH28": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium close shot, 65mm lens. Lu Zhao sits with the copper coins under his right palm and the sale paper at frame left. "
+    },
+    "EP002_SH29": {
+      "on_screen_text": [],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao ties the purse cord at the table with both hands. "
+    },
+    "EP002_SH30": {
+      "on_screen_text": [],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu He holds the sale paper between her hands above the two bowls. "
+    },
+    "EP003_SH01": {
+      "on_screen_text": [
+        {
+          "text": "翌日",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        },
+        {
+          "text": "本次收入 60铜",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's wrapped hand positions the black awl against a copper plug above an empty wooden bucket. "
+    },
+    "EP003_SH02": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao stands beside a bowl of lunch and copper coins at the salt-shed doorway, Wen Xi near the street. "
+    },
+    "EP003_SH03": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Ge Ya stands behind A Li with a knife beside his ribs and one arm twisted behind his back. "
+    },
+    "EP003_SH04": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium close shot, 65mm lens. Lu Zhao holds the lunch bowl at the threshold with his sheath at his right hip. "
+    },
+    "EP003_SH05": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Wide shot, 35mm lens. Ge Ya holds A Li frame left while Wen Xi waits near the doorway frame right. "
+    },
+    "EP003_SH06": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao reaches toward his awl as Ge Ya's knife approaches his left shoulder. "
+    },
+    "EP003_SH07": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Wide shot, 35mm lens. Lu Zhao stands between Ge Ya at frame left and the net-drying rack at frame right, his sister's door behind left. Lu Zhao has a small dark red stain and superficial scrape at his anatomical left shoulder, the right shoulder intact."
+    },
+    "EP003_SH08": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. A wet fishing net hangs low beside Lu Zhao's right foot while Ge Ya advances with his knife. Lu Zhao has a small dark red stain and superficial scrape at his anatomical left shoulder, the right shoulder intact."
+    },
+    "EP003_SH09": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Ge Ya's knife is tangled in wet mesh beside a wooden crossbar. "
+    },
+    "EP003_SH10": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's face and both hands appear beside the mesh, his short awl aligned with a rope opening and the timber crossbar. Lu Zhao has a small dark red stain and superficial scrape at his anatomical left shoulder, the right shoulder intact."
+    },
+    "EP003_SH11": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Ge Ya's knife hand is trapped in mesh next to the crossbar, Lu Zhao standing outside his right elbow. Lu Zhao has a small dark red stain and superficial scrape at his anatomical left shoulder, the right shoulder intact."
+    },
+    "EP003_SH12": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao braces Ge Ya's right elbow against the rack, the knife still in Ge Ya's hand. Lu Zhao has a small dark red stain and superficial scrape at his anatomical left shoulder, the right shoulder intact."
+    },
+    "EP003_SH13": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium close shot, 65mm lens. Ge Ya's free fist is raised beside Lu Zhao's face while Lu Zhao holds the other elbow. Lu Zhao has a small dark red stain and superficial scrape at his anatomical left shoulder, the right shoulder intact."
+    },
+    "EP003_SH14": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao pins Ge Ya's wrists against the rack post beside a hanging cord. Lu Zhao has a small dark red stain and superficial scrape at his anatomical left shoulder, the right shoulder intact."
+    },
+    "EP003_SH15": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Wide shot, 35mm lens. A Li stands beside the gutter with the dropped knife visible, Wen Xi waiting near the doorway. "
+    },
+    "EP003_SH16": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu Zhao's left shoulder cloth has a small dark red patch, his right hand around the awl still in the crossbar. Lu Zhao has a small dark red stain and superficial scrape at his anatomical left shoulder, the right shoulder intact."
+    },
+    "EP003_SH17": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Wen Xi holds a fallen brown hood above her palm while a bronze fish token rests inside it. "
+    },
+    "EP003_SH18": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium close shot, 65mm lens. Lu Zhao sits at the doorway with a shallow left-shoulder scrape beneath parted cloth, Wen Xi holding scissors and a dressing. Lu Zhao has a small dark red stain and superficial scrape at his anatomical left shoulder, the right shoulder intact."
+    },
+    "EP003_SH19": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu He stands by the open door with flour on her fingers, Lu Zhao seated with his left shoulder turned slightly away. A clean linen dressing covers Lu Zhao's anatomical left shoulder beneath the parted collar."
+    },
+    "EP003_SH20": {
+      "on_screen_text": [
+        {
+          "text": "清障酬劳 600铜",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        },
+        {
+          "text": "两名拉缆工",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        },
+        {
+          "text": "整根沉桩过会库白线",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Cen Lu stands beside Lu Zhao at a rope-stall table with a hand-drawn drainage plan and coiled ropes. A clean linen dressing covers Lu Zhao's anatomical left shoulder beneath the parted collar."
+    },
+    "EP003_SH21": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium close shot, 65mm lens. Cen Lu's hand rests on a folded payment demand beside the drainage plan. "
+    },
+    "EP003_SH22": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Cen Lu holds the near edge of the drainage plan on the rope-stall table. "
+    },
+    "EP003_SH23": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Wen Xi points at the stern space on the drainage plan while Lu Zhao's bandaged hand rests beside a small box marker. A clean linen dressing covers Lu Zhao's anatomical left shoulder beneath the parted collar."
+    },
+    "EP003_SH24": {
+      "on_screen_text": [
+        {
+          "text": "雇工两天 40铜",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao stands beside a newly coiled rope with forty copper coins on the table before A Li. A clean linen dressing covers Lu Zhao's anatomical left shoulder beneath the parted collar."
+    },
+    "EP003_SH25": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. A Li's open palm rests beside the copper coins at the rope stall. "
+    },
+    "EP003_SH26": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium close shot, 65mm lens. Lu Zhao rests his wrapped right hand on the new coil of rope. A clean linen dressing covers Lu Zhao's anatomical left shoulder beneath the parted collar."
+    },
+    "EP003_SH27": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. A Li stands frame right holding the coins, Lu Zhao frame left beside the rope coil. A clean linen dressing covers Lu Zhao's anatomical left shoulder beneath the parted collar."
+    },
+    "EP003_SH28": {
+      "on_screen_text": [
+        {
+          "text": "家用 40铜",
+          "method": "post_composite",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu He carries a cloth bundle containing two bowls and a small rice-and-salt sack, a separate purse on the table. A clean linen dressing covers Lu Zhao's anatomical left shoulder beneath the parted collar."
+    },
+    "EP003_SH29": {
+      "on_screen_text": [],
+      "in_frame": "hands_or_object",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Close shot, 85mm lens. Lu He supports a cloth bundle around the same two bowls opposite Lu Zhao's open hands. A clean linen dressing covers Lu Zhao's anatomical left shoulder beneath the parted collar."
+    },
+    "EP003_SH30": {
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment",
+      "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Medium shot, 50mm lens. Lu Zhao stands beside a small working boat with the bowl bundle set safely down and a plain sheath at his right hip. A clean linen dressing covers Lu Zhao's anatomical left shoulder beneath the parted collar."
+    }
+  }
+}

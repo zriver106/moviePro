@@ -1,0 +1,12 @@
+{
+  "id": "售船纸",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Production reference sheet of one folded weathered cream boat-sale document with an ink line drawing of a small river boat with a curved repaired bow, clear empty space for later lettering. Exactly 2 columns and 1 rows, equal cells with thin pale separators. Uniform neutral soft light and pure white background in every cell. The left cell shows unfolded paper viewed from above. The right cell shows same sheet folded in half.",
+  "size": {
+    "width": 3072,
+    "height": 1536
+  },
+  "seed": 880131,
+  "references": [],
+  "provider": "fal",
+  "model": "Seedream V5 Lite text-to-image"
+}

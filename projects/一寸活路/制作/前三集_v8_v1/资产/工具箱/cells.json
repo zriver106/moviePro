@@ -1,0 +1,52 @@
+{
+  "grid": [
+    2,
+    1
+  ],
+  "separator_x": [
+    0,
+    1536,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1536
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "closed chest three-quarter view",
+      "bbox": [
+        8,
+        8,
+        1528,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        234,
+        0,
+        1520,
+        1520
+      ],
+      "path": "制作/前三集_v8_v1/资产/工具箱/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "same chest open showing separated hand-tool slots",
+      "bbox": [
+        1544,
+        8,
+        3064,
+        1528
+      ],
+      "subject_bbox_in_cell": [
+        271,
+        206,
+        1288,
+        1289
+      ],
+      "path": "制作/前三集_v8_v1/资产/工具箱/cell_02.jpg"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "北门",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. An empty close environment view of the northern timber sluice door inside the old chamber. Heavy vertical planks, a small rectangular inspection opening high on the door, a bright brass locking plate at chest level, timber latch tongue visible inside the inspection slot, raised threshold and narrow repair ledge extending toward screen left. Cool left daylight, small amber glow through the slot. A simple wooden wheel axle occupies the interior room beyond the door.",
+  "size": {
+    "width": 2560,
+    "height": 1440
+  },
+  "seed": 880112,
+  "references": [
+    {
+      "path": "定稿/Seedream立体国漫基础场景_v8配套/01_本埠公码头.jpg",
+      "sha256": "b354fb160064050d70a6648570ab16680583a562736513b86d16f4e203fa96be"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "EP001_SH20",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: Lu Zhao, the same young adult face, black half-up hair and teal color identity as the reference. Image 2: Ma Duo, an adult stocky harbor overseer age forty-five, broad square face, heavy eyelids, cropped black hair under a dark brown tied headcloth, sparse moustache, weathered brown padded vest over ochre tunic, dark work trousers, stout cloth boots and belt hook. Image 3: An empty old timber sluice chamber of a working river dock. Image 4: one old sluice rope-winch assembly made of oak drum, axle, toothed wheel, pillar, overhead stone counterweight frame, removable oak brake wedge and hemp lifting line. Image 5: one long wooden-shafted river work fork with a dark iron two-pronged head, worn brown shaft, compact practical proportions. Medium shot, 50mm lens. Ma Duo lies in shallow water beside the pillar, Lu Zhao kneeling next to his upper body. Lu Zhao has wet boots and a water-darkened lower tunic.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890120,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/陆照/cell_04.jpg",
+      "sha256": "c26e0b85281b9d63fac836f8ac30efe44850cf916dcf98e59cbf6f0185125ec0"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/麻铎/ref_v01.jpg",
+      "sha256": "dc99a87afada14bce67464ec31134885fe1bd8ac6730b6e14b7a0b3cd8d05c84"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/闸舱/ref_v01.jpg",
+      "sha256": "e1a0eb20cc6b324b2b3e59b316ae1f4214160ddc2985f6a027ae58ba6db57573"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/绳轮机关/ref_v01.jpg",
+      "sha256": "b9c85ea6530f924790e8766bad067e4270c5d150d644bfdfe9b931260bea9bc7"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/船叉/ref_v01.jpg",
+      "sha256": "facc4ac935bb256be92235432d07a18e10f619513c6a399a55f6e4dfb7f8c84c"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

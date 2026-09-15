@@ -1,0 +1,25 @@
+{
+  "id": "EP003_SH01",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: An empty narrow old harbor salt-shed alley. Image 2: a short straight black steel awl, a single tapering spike twenty-five centimeters long including a ten-centimeter handle wrapped with old tan hemp cord, simple working tool. Image 3: one salt-shed wooden water trough outlet with copper plug and an empty stave-built bucket placed underneath. Close shot, 85mm lens. Lu Zhao's wrapped hand positions the black awl against a copper plug above an empty wooden bucket. ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890301,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/盐棚外/ref_v01.jpg",
+      "sha256": "5788f07c0221f6059435a38310c342e2fdf90bea46faf1778e899219712162fa"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/黑钢锥/ref_v01.jpg",
+      "sha256": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/铜塞水桶/ref_v01.jpg",
+      "sha256": "cc22ce31a6b9d5f6ab53d180bd4a6a6bbb2f2483fb2d82db25b71a025d5a7c9e"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

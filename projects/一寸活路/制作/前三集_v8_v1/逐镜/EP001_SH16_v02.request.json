@@ -1,0 +1,21 @@
+{
+  "id": "EP001_SH16",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. Image 1 establishes Ma Duo, an adult stocky harbor overseer age forty-five, broad square face, heavy eyelids, cropped black hair under a dark brown tied headcloth, sparse moustache, weathered brown padded vest over ochre tunic, dark work trousers, stout cloth boots and belt hook. Image 2 establishes An empty old timber sluice chamber of a working river dock. Full shot of Ma Duo carrying his two-prong boat fork, his feet immediately before an open rope loop on the wet floor of the chamber. A tiny tied closed brown coin pouch, the size of a palm, rests in the center of the rope loop. He looks down toward the pouch. The stone winch stands at frame left.",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 891116,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/麻铎/ref_v01.jpg",
+      "sha256": "dc99a87afada14bce67464ec31134885fe1bd8ac6730b6e14b7a0b3cd8d05c84"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/闸舱/ref_v01.jpg",
+      "sha256": "e1a0eb20cc6b324b2b3e59b316ae1f4214160ddc2985f6a027ae58ba6db57573"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

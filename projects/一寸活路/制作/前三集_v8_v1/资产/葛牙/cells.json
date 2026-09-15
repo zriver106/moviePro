@@ -1,0 +1,87 @@
+{
+  "grid": [
+    2,
+    2
+  ],
+  "separator_x": [
+    0,
+    1576,
+    3072
+  ],
+  "separator_y": [
+    0,
+    1569,
+    3072
+  ],
+  "method": "near-grid measured white-band maxima; candidate bounds require visual inspection",
+  "cells": [
+    {
+      "index": 1,
+      "name": "full body front view with hood up",
+      "bbox": [
+        8,
+        8,
+        1568,
+        1561
+      ],
+      "subject_bbox_in_cell": [
+        66,
+        113,
+        1008,
+        1426
+      ],
+      "path": "制作/前三集_v8_v1/资产/葛牙/cell_01.jpg"
+    },
+    {
+      "index": 2,
+      "name": "left profile with hood up",
+      "bbox": [
+        1584,
+        8,
+        3064,
+        1561
+      ],
+      "subject_bbox_in_cell": [
+        502,
+        119,
+        1042,
+        1458
+      ],
+      "path": "制作/前三集_v8_v1/资产/葛牙/cell_02.jpg"
+    },
+    {
+      "index": 3,
+      "name": "full body back view",
+      "bbox": [
+        8,
+        1577,
+        1568,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        68,
+        65,
+        1016,
+        1367
+      ],
+      "path": "制作/前三集_v8_v1/资产/葛牙/cell_03.jpg"
+    },
+    {
+      "index": 4,
+      "name": "face close-up with hood lowered and mouth slightly open showing the missing tooth",
+      "bbox": [
+        1584,
+        1577,
+        3064,
+        3064
+      ],
+      "subject_bbox_in_cell": [
+        27,
+        23,
+        1411,
+        1426
+      ],
+      "path": "制作/前三集_v8_v1/资产/葛牙/cell_04.jpg"
+    }
+  ]
+}

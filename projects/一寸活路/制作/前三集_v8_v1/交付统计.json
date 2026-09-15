@@ -1,0 +1,29 @@
+{
+  "episodes": [
+    {
+      "episode": "EP001",
+      "title": "死人领工钱",
+      "shots": 24,
+      "seconds": 126.7
+    },
+    {
+      "episode": "EP002",
+      "title": "两只碗",
+      "shots": 30,
+      "seconds": 207.1
+    },
+    {
+      "episode": "EP003",
+      "title": "门外三步",
+      "shots": 30,
+      "seconds": 208.0
+    }
+  ],
+  "assets": 46,
+  "assets_generated": 46,
+  "shot_images_generated": 84,
+  "open_visual_issues": 5,
+  "version_status": "historical_preview_pending_version_choice",
+  "storyboard_pages": 14,
+  "pages_generated": 14
+}

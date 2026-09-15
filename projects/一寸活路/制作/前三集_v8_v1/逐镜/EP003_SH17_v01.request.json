@@ -1,0 +1,29 @@
+{
+  "id": "EP003_SH17",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: Wen Xi, exactly the same adult female face, pinned brown-black hair, pale mint sleeveless overcoat, cream sleeves, grey pleated skirt, dark green boots and medicine pouches as the reference. Image 2: an adult male guild dock guard age thirty, broad cheekbones, tied black hair, dark slate-blue short work jacket, muted grey trousers, hemp waist cord and flat black cloth shoes. Image 3: An empty narrow old harbor salt-shed alley. Image 4: one small aged bronze waist token shaped like a fish with incised scales and a hole at its head, thin brown tie cord. Close shot, 85mm lens. Wen Xi holds a fallen brown hood above her palm while a bronze fish token rests inside it. ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890317,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/闻溪/ref_v01.jpg",
+      "sha256": "2754fefd3398e60ef449f9d3289d049aa223327ec49e434d1f3a46ed13e35d07"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/守船人/ref_v01.jpg",
+      "sha256": "c0d1fa7ea2459f4f38ceefe1370752744ef83032f88d1fa11bbc09e810bf6f66"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/盐棚外/ref_v01.jpg",
+      "sha256": "5788f07c0221f6059435a38310c342e2fdf90bea46faf1778e899219712162fa"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/铜鱼牌/ref_v01.jpg",
+      "sha256": "a67173962a16527adf1447d05d352fd290aad6d0df44572af0466d0934bb40ca"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

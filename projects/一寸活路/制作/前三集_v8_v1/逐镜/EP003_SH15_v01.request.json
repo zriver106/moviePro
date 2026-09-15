@@ -1,0 +1,29 @@
+{
+  "id": "EP003_SH15",
+  "prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. One cinematic narrative frame. Image 1: A Li, same young adult male face and black tied-up hair as reference, in an old blue long tunic reaching mid-thigh, patched cloth belt, dark blue trousers and cloth boots. Image 2: Wen Xi, exactly the same adult female face, pinned brown-black hair, pale mint sleeveless overcoat, cream sleeves, grey pleated skirt, dark green boots and medicine pouches as the reference. Image 3: An empty narrow old harbor salt-shed alley. Image 4: one short dock knife with a twenty-centimeter dark iron blade, straight working edge and plain brown wood handle. Wide shot, 35mm lens. A Li stands beside the gutter with the dropped knife visible, Wen Xi waiting near the doorway. ",
+  "size": {
+    "width": 2048,
+    "height": 1152
+  },
+  "seed": 890315,
+  "references": [
+    {
+      "path": "制作/前三集_v8_v1/资产/阿砾/ref_v01.jpg",
+      "sha256": "a3a218ac22307538ae4345f59290a4f43546b57c3dccab1521ef101f31c72901"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/闻溪/ref_v01.jpg",
+      "sha256": "2754fefd3398e60ef449f9d3289d049aa223327ec49e434d1f3a46ed13e35d07"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/盐棚外/ref_v01.jpg",
+      "sha256": "5788f07c0221f6059435a38310c342e2fdf90bea46faf1778e899219712162fa"
+    },
+    {
+      "path": "制作/前三集_v8_v1/资产/短刀/ref_v01.jpg",
+      "sha256": "b8df93521fbbcc65c0cf7cc1f3d7da386af2b6a95c466d6c445264e67fc181ff"
+    }
+  ],
+  "provider": "fal",
+  "model": "Seedream V5 Lite edit"
+}

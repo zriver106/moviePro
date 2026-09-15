@@ -1,0 +1,26 @@
+{
+ "EP001": {
+  "digest": "b3c46af0478baff9",
+  "locked_at": "2026-09-14 17:14:48",
+  "doctor_verdict": "FAIL",
+  "note": "本轮预制作内容锁；M3为FAIL，已按原著复核并修正机关视线、八铜诱饵和下梯动作，拒绝改写岑鹿动机及删除余烬；详见制作/前三集_v8_v1/剧本复核.md。不是视频终审。",
+  "forced": true,
+  "previous_digest": null
+ },
+ "EP002": {
+  "digest": "a8e9fc8ea94234d3",
+  "locked_at": "2026-09-14 17:14:48",
+  "doctor_verdict": "FAIL",
+  "note": "本轮预制作内容锁；M3为FAIL，原著复核确认两位老人不同、买鞘非换锥、麻铎为威胁；保留余烬规则和姐弟饭戏，详见制作/前三集_v8_v1/剧本复核.md。不是视频终审。",
+  "forced": true,
+  "previous_digest": null
+ },
+ "EP003": {
+  "digest": "005a21b80918cb59",
+  "locked_at": "2026-09-14 17:14:48",
+  "doctor_verdict": "FAIL",
+  "note": "本轮预制作内容锁；M3为FAIL，补守船人赶到，拒绝虚构阿砾债务和140铜支出，首痕在第一集；详见制作/前三集_v8_v1/剧本复核.md。不是视频终审。",
+  "forced": true,
+  "previous_digest": null
+ }
+}
