@@ -522,5 +522,37 @@
     "sha256": "82ff07a6e856fea8cdcb3de2b41fe94aea96f8e968d5b368210e7738d9d0220e",
     "reviewer": "Codex visual inspection",
     "scope": "原始国漫资产构建的家中末帧：两只完整碗、右掌药布、闭合衣领、陆禾扶平船纸、钱袋；纸上中文另做后期"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_FLASH/scene_v03.jpg": {
+    "status": "rejected_reference",
+    "sha256": "9a9997e3bef84e3de4ed7a4f9bc00a38a6a163e1f262a48de259449151c649d8",
+    "reason": "青年工具生成宽刃箭头；老人双腕红布，需纠正"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_FLASH/scene_v04.jpg": {
+    "status": "rejected_reference",
+    "sha256": "3311cd9ccd0ac18d14f37e9cef6d55a41c58dae3c2278c8d4ca46c18abdbd2ba",
+    "reason": "青年臂旁多出绳柄道具，老人双腕红布仍在，未采用"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/scene_v03.jpg": {
+    "status": "rejected_reference",
+    "sha256": "bfdc74ea2967f9fa3345d39907911e2d3010445dbf340562f6b4c8e131519265",
+    "reason": "青年左手误包白布，妹妹上臂纸卷口袋不符定妆，未采用"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_FLASH/scene_v05.jpg": {
+    "status": "accepted_reference",
+    "sha256": "f0376101b02e718d8b27ccb545a4c6cc02cf947bdfa5d02213084b82b0446bb8",
+    "scope": "3–10秒闪回人物与裸掌状态，5–10秒覆手姿态；动作按已评级时间轴",
+    "reason": "冷色废船双人同框，青年裸掌、老人无须且右腕红布，覆握锥手。仅采用为状态和身份参考，非片段验收。"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/scene_v04.jpg": {
+    "status": "rejected_reference",
+    "sha256": "a1df8311488e2530e38f51dc4280451da1867fccbd91741b163efcc94c33c15a",
+    "reason": "左右手均裸露，当前右掌包扎消失"
+  },
+  "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/scene_v05.jpg": {
+    "status": "accepted_reference",
+    "sha256": "72690bb5c6d53afe7346a66a0fd8a4f02c3efbdbf3d2cce1a79d6f07c7010e1b",
+    "scope": "10–18秒换碗前的场景身份与三碗状态",
+    "reason": "青年右掌药布、左手裸露，旧碗明显缺口，妹妹端完整热饭碗，桌上另有一只完整饭碗；袖上纸卷已移除。"
   }
 }

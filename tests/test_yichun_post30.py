@@ -51,3 +51,21 @@ def test_subtitle_preview_has_chinese_and_unapproved_notice(tmp_path):
     text=(tmp_path/'中文字幕.ass').read_text()
     assert '先不借。我们挣。' in text and '画面未通过验收' in text
     assert '0:00:01.50,0:00:03.00' in text
+
+
+def test_scoped_reference_rejects_stale_image_and_invalid_time(tmp_path,monkeypatch):
+    (tmp_path/'30秒分段方案.json').write_text('{}')
+    image=tmp_path/'image.jpg';image.write_bytes(b'approved')
+    digest=repair.sha(image)
+    (tmp_path/'参考采用.json').write_text(json.dumps({'image.jpg':{'status':'accepted_reference','sha256':digest}}))
+    spec=tmp_path/'spec.json'
+    data={'plan_sha256':repair.sha(tmp_path/'30秒分段方案.json'),'scope':'faithful_execution_repair',
+          'strategy':'scoped_references','references':[{'path':'image.jpg','sha256':digest,'start':3,'end':10}]}
+    monkeypatch.setattr(repair,'P',tmp_path);monkeypatch.setattr(repair,'K',tmp_path)
+    monkeypatch.setattr(repair,'require_plan',lambda:None)
+    spec.write_text(json.dumps(data))
+    assert repair.build(spec)['mode']=='ref'
+    data['references'][0]['end']=31;spec.write_text(json.dumps(data))
+    with pytest.raises(ValueError,match='时段越界'):repair.build(spec)
+    data['references'][0]['end']=10;spec.write_text(json.dumps(data));image.write_bytes(b'changed')
+    with pytest.raises(ValueError,match='指纹变化'):repair.build(spec)

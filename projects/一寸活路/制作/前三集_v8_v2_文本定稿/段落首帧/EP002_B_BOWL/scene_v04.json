@@ -1,0 +1,16 @@
+{
+  "id": "EP002_B_HOME_BEFORE_FIX",
+  "request_sha256": "3ac4c66818b074a7a664aaf65a8f0ae6f0df6d49600fbb3b0d808ac660178a88",
+  "spec_sha256": "335f8f68b33d885b3a84e5ec51c2b3a158c3b900bc376996d32627fe8a2bcece",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/scene_v03.jpg": "bfdc74ea2967f9fa3345d39907911e2d3010445dbf340562f6b4c8e131519265"
+  },
+  "image_sha256": "a1df8311488e2530e38f51dc4280451da1867fccbd91741b163efcc94c33c15a",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "换碗前手部细修.json",
+  "visual_status": "pending_inspection"
+}

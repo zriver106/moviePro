@@ -1,0 +1,17 @@
+{
+  "id": "EP002_B_FLASH_STATE_FIX",
+  "request_sha256": "57f602fe275abbfdcee5ef56594e9a4a1a5a4e4e789b44e889498bf477bbba80",
+  "spec_sha256": "d14bb72b3884a6d26580e53d90b08b24c549ab5e5c93a6dd5147f425e3806f69",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_FLASH/scene_v03.jpg": "9a9997e3bef84e3de4ed7a4f9bc00a38a6a163e1f262a48de259449151c649d8",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+  },
+  "image_sha256": "3311cd9ccd0ac18d14f37e9cef6d55a41c58dae3c2278c8d4ca46c18abdbd2ba",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "闪回工具腕部细修.json",
+  "visual_status": "pending_inspection"
+}

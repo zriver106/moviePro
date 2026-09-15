@@ -1,0 +1,16 @@
+{
+  "id": "EP002_B_HOME_RIGHT_DRESSING",
+  "request_sha256": "535383402bf94d7f2b878dbe51c63f7109400bf1e4b34641e6569c8861ede90a",
+  "spec_sha256": "2385b587fd2afc69326dc2ba54fb2261461b80ae636b28227b82768f2c791785",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/scene_v04.jpg": "a1df8311488e2530e38f51dc4280451da1867fccbd91741b163efcc94c33c15a"
+  },
+  "image_sha256": "72690bb5c6d53afe7346a66a0fd8a4f02c3efbdbf3d2cce1a79d6f07c7010e1b",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "右掌药布局部修正.json",
+  "visual_status": "pending_inspection"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "EP002_B_HOME_BEFORE",
+  "request_sha256": "b229d721b58b39f9e88a29b0a3c0c82ad818ca1ab2d33028233e349623261b9b",
+  "spec_sha256": "3c31c69b9defa42274586e25836ccaea0185d90adb3d248a3155defb3caa74b9",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_END/ref_v02.jpg": "82ff07a6e856fea8cdcb3de2b41fe94aea96f8e968d5b368210e7738d9d0220e",
+    "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/bowl_detail.jpg": "80e7fee9b0ed8af44afc7be22fd75a03fe1057d8a84b8b88f191fc75c91c317b"
+  },
+  "image_sha256": "bfdc74ea2967f9fa3345d39907911e2d3010445dbf340562f6b4c8e131519265",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "时态分离参考.json",
+  "visual_status": "pending_inspection"
+}

@@ -1,6 +1,6 @@
 {
   "active_version": "前三集_v8_30秒段落",
-  "stage": "候选未通过，制作待修正",
+  "stage": "30秒段落生成与验收",
   "style": "Seedream立体国漫定妆_v8",
   "video_model": "Seedance 2.5",
   "initial_resolution": "480p",
@@ -133,23 +133,10 @@
     {
       "id": "EP002_B",
       "seconds_planned": 30,
-      "seconds_actual": 30.041667,
-      "generation_status": "generated_pending_visual_and_dialogue_check",
-      "visual_status": "rejected",
-      "blocking_issues": [
-        {
-          "time": "3–9",
-          "finding": "三个月前闪回陆照手掌仍包明显白药布，违反旧伤阶段裸掌状态"
-        },
-        {
-          "time": "3–9",
-          "finding": "老人生成明显灰胡须，偏离定妆中消瘦无须老人，与灰胡子工人的区分被破坏"
-        },
-        {
-          "time": "13–18",
-          "finding": "未清楚建立被取走的缺口旧碗，呈现直接递饭碗，换掉破碗的剧情动作不完整"
-        }
-      ],
+      "seconds_actual": null,
+      "generation_status": "submitted",
+      "visual_status": "pending",
+      "blocking_issues": [],
       "history": [
         {
           "take": 1,
@@ -192,11 +179,18 @@
           "visual_status": "rejected",
           "video": "制作/前三集_v8_30秒段落/视频/EP002_B/take_06_480p.mp4",
           "qa": "制作/前三集_v8_30秒段落/视频/EP002_B/take_06_480p.验收.json"
+        },
+        {
+          "take": 7,
+          "generation_status": "submitted",
+          "visual_status": "pending",
+          "video": null,
+          "qa": null
         }
       ],
       "references_ready": true,
       "missing_references": [],
-      "video": "制作/前三集_v8_30秒段落/视频/EP002_B/take_06_480p.mp4"
+      "video": null
     },
     {
       "id": "EP003_A",

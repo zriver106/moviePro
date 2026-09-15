@@ -1,0 +1,17 @@
+{
+  "id": "EP002_B_FLASH_STATE",
+  "request_sha256": "9573514a8295fc8b224ad2aec800bd900fee8d966fb702b9932581190a24bd3e",
+  "spec_sha256": "3c31c69b9defa42274586e25836ccaea0185d90adb3d248a3155defb3caa74b9",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/repair_v03.jpg": "73270676c95e6aebe38fcbfc3a3df422079e321d81ec70af648e19cbd32b10ca",
+    "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg": "3c90442e53173653b7f3e229f006afff4831205b3d2ee40bd285f99a25654183"
+  },
+  "image_sha256": "9a9997e3bef84e3de4ed7a4f9bc00a38a6a163e1f262a48de259449151c649d8",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "时态分离参考.json",
+  "visual_status": "pending_inspection"
+}

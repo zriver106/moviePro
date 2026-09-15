@@ -1,0 +1,18 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_B_HOME_RIGHT_DRESSING",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_BOWL/scene_v04.jpg"
+      ],
+      "output": "段落首帧/EP002_B_BOWL/scene_v05.jpg",
+      "seed": 964312,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "prompt": "保留此图的全部画面，只做一处局部改变：画面左下角，青年放在自己膝盖上、距离镜头最近的那只手，缠上乳白色药布，从手腕至掌心绕三圈，拇指与四个指尖裸露。画面中心靠缺口碗的另一只手保持裸手。其余画面保持原样。"
+    }
+  ]
+}

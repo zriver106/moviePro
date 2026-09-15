@@ -1,0 +1,17 @@
+{
+  "id": "EP002_B_FLASH_COVERED_HAND",
+  "request_sha256": "ba03b0311f87ba65d240529fc07e05d055123372c75d858d38c32fa173b7dc1f",
+  "spec_sha256": "c3972afadde60d72a4738939706c4d8a53f3bcc56b8f5bdd1ccbd5ab50e64bdc",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/repair_v03.jpg": "73270676c95e6aebe38fcbfc3a3df422079e321d81ec70af648e19cbd32b10ca",
+    "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg": "3c90442e53173653b7f3e229f006afff4831205b3d2ee40bd285f99a25654183"
+  },
+  "image_sha256": "f0376101b02e718d8b27ccb545a4c6cc02cf947bdfa5d02213084b82b0446bb8",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "闪回覆手状态.json",
+  "visual_status": "pending_inspection"
+}

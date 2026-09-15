@@ -174,7 +174,8 @@ def main():
     if not 1<=a.workers<=6 or a.take<1:ap.error('并发1–6，take为正数')
     if a.command=='preflight':
         for ident in a.segment:
-            t=build(ident,a.take,a.resolution);write(K/'请求'/f'{ident}_take{a.take:02d}.json',t);print(json.dumps({'segment':ident,'refs':len(t['references']),'prompt_chars':len(t['prompt']),'seconds':t['seconds']},ensure_ascii=False))
+            # 预检只读；新版绑定不能覆写已提交take的历史请求档案。
+            t=build(ident,a.take,a.resolution);print(json.dumps({'segment':ident,'refs':len(t['references']),'prompt_chars':len(t['prompt']),'seconds':t['seconds']},ensure_ascii=False))
     elif a.command=='asr':
         for ident in a.segment:
             f=K/'视频'/ident/f'take_{a.take:02d}_{a.resolution}.mp4';out=f.with_suffix('.scribe.json' if a.decoder=='scribe' else '.asr.json')

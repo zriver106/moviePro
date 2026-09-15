@@ -1,0 +1,19 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_B_FLASH_COVERED_HAND",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/repair_v03.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg"
+      ],
+      "output": "段落首帧/EP002_B_FLASH/scene_v05.jpg",
+      "seed": 964311,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "prompt": "A single frame of a fictional sculpted Chinese 3D animated film, medium two-shot in a cold blue abandoned wooden boat cabin. The teal-clothed young man from image one sits left; the gaunt clean-shaven grey-haired elder from image two sits right. Exactly two people with their original faces and clothing. The young man chest has a small faint red healed scar and a tiny red glow beneath his sternum. His two bare hands rest together over his lap. His RIGHT hand gently curls around a small palm-sized hemp handle, with its steel point concealed below the hands. All young fingers, thumb, palm and back of hand are bare skin; black sleeves finish at wrist joints. The elder places his RIGHT palm gently over the young RIGHT hand, covering the hemp grip. A red cloth strip encircles this elder RIGHT wrist. The elder LEFT hand rests on his own knee and is partly hidden in his long grey sleeve. Camera shows the faces and the layered hands clearly, normal anatomy. The elder is finishing a grave warning, the young man listens and tightens his fingers gently. Restrained stylized animation faces, carved dimensional hair, coarse woven clothes, soft blue light through rotten ship boards."
+    }
+  ]
+}

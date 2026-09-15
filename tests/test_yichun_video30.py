@@ -52,4 +52,14 @@ class Video30Gates(unittest.TestCase):
             self.assertEqual([s['seconds'] for s in p['segments']],[30]*6)
         finally:self.patch.start()
 
+    def test_preflight_preserves_prior_request(self):
+        path=self.root/'请求/EP002_B_take01.json'
+        v.write(path,{'request_sha256':'historic'})
+        before=path.read_bytes()
+        task={'references':[{}],'prompt':'new draft','seconds':30}
+        with patch.object(sys,'argv',['video30','preflight','--segment','EP002_B']),patch.object(v,'build',return_value=task),patch.object(v.provider,'video') as paid:
+            v.main()
+            self.assertEqual(path.read_bytes(),before)
+            paid.assert_not_called()
+
 if __name__=='__main__':unittest.main()

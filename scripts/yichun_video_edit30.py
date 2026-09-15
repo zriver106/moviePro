@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""30秒修正任务：整段编辑或原始资产首尾帧约束，保留每次请求。"""
+"""30秒修正任务：整段编辑、首尾帧或按时段限定的参考，保留每次请求。"""
 import argparse
 import fcntl
 import hashlib
@@ -18,13 +18,18 @@ def build(spec_path):
     if spec['scope'] != 'faithful_execution_repair':
         raise ValueError('本工具仅执行已评级动作的忠实纠错')
     strategy=spec.get('strategy','editing')
-    if strategy=='keyframe_pair':
+    if strategy in ('keyframe_pair','scoped_references'):
         registry=read(K/'参考采用.json')
-        for key in ('first_frame','last_frame'):
-            ref=spec[key];record=registry.get(ref['path'],{})
+        refs=[spec[key] for key in ('first_frame','last_frame')] if strategy=='keyframe_pair' else spec['references']
+        if not 1<=len(refs)<=provider.capabilities('2.5')['max_refs']:
+            raise ValueError('参考数量超出模型限制')
+        for ref in refs:
+            record=registry.get(ref['path'],{})
             if record.get('status')!='accepted_reference' or record.get('sha256')!=ref['sha256'] or sha(P/ref['path'])!=ref['sha256']:
                 raise ValueError('首尾参考未采用或指纹变化')
-        task=dict(spec,model='2.5',mode='i2v',seconds=30,api_duration='30',resolution='480p',audio=True)
+            if strategy=='scoped_references' and not (0<=ref['start']<ref['end']<=30):
+                raise ValueError('参考适用时段越界')
+        task=dict(spec,model='2.5',mode='i2v' if strategy=='keyframe_pair' else 'ref',seconds=30,api_duration='30',resolution='480p',audio=True)
     elif strategy=='editing':
         source=P/spec['source']
         if sha(source)!=spec['source_sha256']:raise ValueError('源视频已变更')
@@ -53,6 +58,10 @@ def run(spec_path):
                 ref={'first_frame':task['first_frame'],'last_frame':task['last_frame']}
                 write(log,dict(task,status='uploading',started_at=time.time()))
                 kwargs={'image_url':uploaded(task['first_frame']),'end_image_url':uploaded(task['last_frame']),'aspect':'auto'}
+            elif task.get('strategy')=='scoped_references':
+                ref=task['references']
+                write(log,dict(task,status='uploading',started_at=time.time()))
+                kwargs={'image_urls':[uploaded(x) for x in ref],'aspect':'16:9'}
             else:
                 # 原片多出的1–2帧仅作容器长度收齐；不拼接不同生成片段。
                 source=P/task['source'];trim=K/'参考'/f'{task["segment"]}_edit_source_{task["source_sha256"][:12]}.mp4'
