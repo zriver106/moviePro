@@ -1,0 +1,1617 @@
+{
+  "id": "EP003",
+  "title": "门外三步",
+  "aspect_ratio": "16:9",
+  "style": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. ",
+  "note": "2026-09-14节奏与连续性重修。翌日。起始1痕，真实击败葛牙后2痕。手掌药布保留，葛牙划伤左肩，随后包扎；贯穿增强不增加闪避速度。盐棚门在画左后，晒网架在画右，石沟在右下；主角主动横移把战斗带离姐姐门口。网帘下缘松垂至脚边，上缘固定在架上；锥刺穿折起网角和横杆，使网角固定，刀仍被网裹而可被夺走。结尾六百铜为完成后支付的报价，40铜为预付阿砾两天工钱，不能写成已经挣得六百。 本文件是文字分镜；时长为剪辑预算，尚待配音和动作样片实测。旧彩色故事板、关键帧及视频均不能作为本版画面验收依据。 葛牙右手持刀，左拳被陆照抓回并折向胸前，陆照用无伤右肩和柱面维持压制；阿砾只在其已经控制两臂后协助收绳，不替代陆照的决定性击败。刀先送回半寸松网再退出，禁止刀穿网跳出。",
+  "target_seconds": 60.0,
+  "shots": [
+    {
+      "id": "EP003_SH01",
+      "seconds": 2,
+      "design_seconds": 2,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "一推即穿，清水落入桶",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "dry_bandaged_palm"
+        }
+      ],
+      "location": {
+        "id": "盐棚水槽",
+        "desc": "盐棚水槽"
+      },
+      "camera": {
+        "size": "detail",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "特写 / 65mm / 固定机位",
+      "action": {
+        "start": "角标“翌日”，陆照包扎的手已经把原锥尖抵在铜塞上",
+        "beat": "一推即穿，清水落入桶",
+        "end": "锥沿原路抽出，水声接下一镜"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "黑钢锥",
+        "皮鞘",
+        "铜塞",
+        "水桶"
+      ],
+      "character_states": {
+        "陆照": "dry_bandaged_palm"
+      },
+      "continuity_out": "锥沿原路抽出，水声接下一镜",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  detail shot, 65mm lens. Next-day caption. Lu Zhao's bandaged hand already holds the original awl against the copper plug.",
+        "action_en": "Next-day caption. Lu Zhao's bandaged hand already holds the original awl against the copper plug. Then one straight push opens it and clear water falls into the bucket; the awl withdraws along its entry path as the water sound bridges to the next shot.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "日常穿铜演示擅自增加热痕",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [
+        {
+          "text": "翌日",
+          "method": "post_composite",
+          "placement": "左上角时间字幕",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP003_SH02",
+      "seconds": 2,
+      "design_seconds": 2,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "他将钱收入腰袋，手伸向矮台上的午饭",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "dry_bandaged_palm"
+        },
+        {
+          "name": "闻溪",
+          "state": "dry"
+        },
+        {
+          "name": "水槽货主",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "盐棚门口",
+        "desc": "盐棚门口"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "切到付工钱时：原锥已经收进腰鞘，水槽货主把六十铜放入陆照手中",
+        "beat": "他将钱收入腰袋，手伸向矮台上的午饭",
+        "end": "闻溪在门外骤然站住，视线越过他的肩"
+      },
+      "lines": [
+        {
+          "speaker": "水槽货主",
+          "text": "六十铜。",
+          "off_screen": false,
+          "at": 0.1,
+          "end": 1.3
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "铜钱",
+        "饭碗",
+        "黑钢锥",
+        "皮鞘"
+      ],
+      "character_states": {
+        "陆照": "dry_bandaged_palm",
+        "闻溪": "dry",
+        "水槽货主": "dry"
+      },
+      "continuity_out": "闻溪在门外骤然站住，视线越过他的肩",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。水槽货主（同期对白）0.1—1.3秒：六十铜。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Cut to payment time: the original awl is already sheathed at Lu Zhao's belt as the trough owner places sixty copper coins in his hand.",
+        "action_en": "Cut to payment time: the original awl is already sheathed at Lu Zhao's belt as the trough owner places sixty copper coins in his hand. Then he pockets the coins and reaches toward lunch on the low stand; Wen Xi stops outside and looks past his shoulder.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              2
+            ],
+            "move": false,
+            "cn": "切到付工钱时：原锥已经收进腰鞘，水槽货主把六十铜放入陆照手中 → 他将钱收入腰袋，手伸向矮台上的午饭 → 闻溪在门外骤然站住，视线越过他的肩。声音窗口：水槽货主（同期对白） 0.1—1.3秒",
+            "action": "Cut to payment time: the original awl is already sheathed at Lu Zhao's belt as the trough owner places sixty copper coins in his hand. Then he pockets the coins and reaches toward lunch on the low stand; Wen Xi stops outside and looks past his shoulder."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 3,
+        "fail_if": [
+          "动作因果与本镜起止状态不一致",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH03",
+      "seconds": 4,
+      "design_seconds": 4,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "葛牙把阿砾推近半步，点名叫陆照",
+      "cast": [
+        {
+          "name": "葛牙",
+          "state": "dry"
+        },
+        {
+          "name": "阿砾",
+          "state": "dry"
+        },
+        {
+          "name": "陆照",
+          "state": "dry_bandaged_palm"
+        },
+        {
+          "name": "闻溪",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "盐棚外",
+        "desc": "盐棚外"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "全景 / 35mm / 固定机位",
+      "action": {
+        "start": "葛牙在画右反拧阿砾右臂，短刀贴肋；陆照与姐姐的门在画左",
+        "beat": "葛牙把阿砾推近半步，点名叫陆照",
+        "end": "闻溪靠向阿砾一侧，手已伸出准备接人"
+      },
+      "lines": [
+        {
+          "speaker": "葛牙",
+          "text": "照子，跟我走。",
+          "off_screen": false,
+          "at": 0.3,
+          "end": 2.5
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "短刀",
+        "黑钢锥",
+        "皮鞘"
+      ],
+      "character_states": {
+        "葛牙": "dry",
+        "阿砾": "dry",
+        "陆照": "dry_bandaged_palm",
+        "闻溪": "dry"
+      },
+      "continuity_out": "闻溪靠向阿砾一侧，手已伸出准备接人",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。葛牙（同期对白）0.3—2.5秒：照子，跟我走。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Ge Ya at screen right twists Ali's right arm and holds a short knife against his ribs. Lu Zhao and his sister's door remain at screen left.",
+        "action_en": "Ge Ya at screen right twists Ali's right arm and holds a short knife against his ribs. Lu Zhao and his sister's door remain at screen left. Then Ge Ya shoves Ali half a step forward and calls Lu Zhao, while Wen Xi moves within reach to receive Ali.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              4
+            ],
+            "move": false,
+            "cn": "葛牙在画右反拧阿砾右臂，短刀贴肋；陆照与姐姐的门在画左 → 葛牙把阿砾推近半步，点名叫陆照 → 闻溪靠向阿砾一侧，手已伸出准备接人。声音窗口：葛牙（同期对白） 0.3—2.5秒",
+            "action": "Ge Ya at screen right twists Ali's right arm and holds a short knife against his ribs. Lu Zhao and his sister's door remain at screen left. Then Ge Ya shoves Ali half a step forward and calls Lu Zhao, while Wen Xi moves within reach to receive Ali."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 4,
+        "fail_if": [
+          "动作因果与本镜起止状态不一致",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH04",
+      "seconds": 2,
+      "design_seconds": 2,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "他向葛牙走两步，双手离腰间的锥",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "dry_bandaged_palm"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry"
+        },
+        {
+          "name": "阿砾",
+          "state": "dry"
+        },
+        {
+          "name": "闻溪",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "盐棚外",
+        "desc": "盐棚外"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "陆照将午饭放稳在门边矮台",
+        "beat": "他向葛牙走两步，双手离腰间的锥",
+        "end": "脚停在门外，闻溪站在能接住阿砾的位置"
+      },
+      "lines": [
+        {
+          "speaker": "陆照",
+          "text": "先放他。",
+          "off_screen": false,
+          "at": 0.2,
+          "end": 1.5
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "饭碗",
+        "黑钢锥",
+        "皮鞘",
+        "短刀"
+      ],
+      "character_states": {
+        "陆照": "dry_bandaged_palm",
+        "葛牙": "dry",
+        "阿砾": "dry",
+        "闻溪": "dry"
+      },
+      "continuity_out": "脚停在门外，闻溪站在能接住阿砾的位置",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。陆照（同期对白）0.2—1.5秒：先放他。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao sets the lunch bowl firmly on the low stand by the door.",
+        "action_en": "Lu Zhao sets the lunch bowl firmly on the low stand by the door. Then he takes two steps toward Ge Ya with his hands away from the sheathed awl and stops where Wen Xi can receive Ali.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              2
+            ],
+            "move": false,
+            "cn": "陆照将午饭放稳在门边矮台 → 他向葛牙走两步，双手离腰间的锥 → 脚停在门外，闻溪站在能接住阿砾的位置。声音窗口：陆照（同期对白） 0.2—1.5秒",
+            "action": "Lu Zhao sets the lunch bowl firmly on the low stand by the door. Then he takes two steps toward Ge Ya with his hands away from the sheathed awl and stops where Wen Xi can receive Ali."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 4,
+        "fail_if": [
+          "动作因果与本镜起止状态不一致",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH05",
+      "seconds": 3.5,
+      "design_seconds": 3.5,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "陆照右手刚碰锥柄，葛牙短刀已划过他的左肩",
+      "cast": [
+        {
+          "name": "葛牙",
+          "state": "dry"
+        },
+        {
+          "name": "阿砾",
+          "state": "dry"
+        },
+        {
+          "name": "闻溪",
+          "state": "dry"
+        },
+        {
+          "name": "陆照",
+          "state": "left_shoulder_fresh_cut_bandaged_palm"
+        }
+      ],
+      "location": {
+        "id": "盐棚外",
+        "desc": "盐棚外"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "葛牙推开阿砾，闻溪接住他往门侧退",
+        "beat": "陆照右手刚碰锥柄，葛牙短刀已划过他的左肩",
+        "end": "陆照缩肩退半步，左肩裂口洇红，右手拔锥出鞘"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "短刀",
+        "黑钢锥",
+        "皮鞘"
+      ],
+      "character_states": {
+        "葛牙": "dry",
+        "阿砾": "dry",
+        "闻溪": "dry",
+        "陆照": "left_shoulder_fresh_cut_bandaged_palm"
+      },
+      "continuity_out": "陆照缩肩退半步，左肩裂口洇红，右手拔锥出鞘",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Ge Ya releases Ali into Wen Xi's arms.",
+        "action_en": "Ge Ya releases Ali into Wen Xi's arms. Then before Lu Zhao can draw, Ge Ya's knife cuts the cloth at Lu Zhao's left shoulder; Lu Zhao recoils half a step and draws the awl with his right hand as blood spreads at the left shoulder.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 4,
+        "fail_if": [
+          "伤口落在右肩；拔锥早于来刀却无故站着挨刀",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH06",
+      "seconds": 3,
+      "design_seconds": 3,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "他看一眼门，改向画右横移，葛牙持刀追过去；镜头顺势平移",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_fresh_cut_bandaged_palm"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry"
+        },
+        {
+          "name": "闻溪",
+          "state": "dry"
+        },
+        {
+          "name": "阿砾",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "盐棚外",
+        "desc": "盐棚外"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "track"
+      },
+      "camera_cn": "全景 / 35mm / 随人物平移",
+      "action": {
+        "start": "陆照退一步，左后方就是姐姐的门；门内传来碗筷声",
+        "beat": "他看一眼门，改向画右横移，葛牙持刀追过去；镜头顺势平移",
+        "end": "门与闻溪、阿砾留在左后方，晒网架进入右侧"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "黑钢锥",
+        "短刀",
+        "晒网架"
+      ],
+      "character_states": {
+        "陆照": "left_shoulder_fresh_cut_bandaged_palm",
+        "葛牙": "dry",
+        "闻溪": "dry",
+        "阿砾": "dry"
+      },
+      "continuity_out": "门与闻溪、阿砾留在左后方，晒网架进入右侧",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Lu Zhao's retreat puts his sister's door just behind his left shoulder, with crockery audible inside.",
+        "action_en": "Lu Zhao's retreat puts his sister's door just behind his left shoulder, with crockery audible inside. Then he changes direction and moves right toward the drying net frame, drawing Ge Ya after him as the camera tracks; Wen Xi and Ali remain safely by the left-hand door.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "track"
+      },
+      "qc": {
+        "headcount": 4,
+        "fail_if": [
+          "横移后姐姐门跳到敌人背后或轴线翻转",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH07",
+      "seconds": 2,
+      "design_seconds": 2,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "陆照踢起松垂网角，湿网迎面裹住葛牙追来的短刀",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_fresh_cut_bandaged_palm"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "晒网架",
+        "desc": "晒网架"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "全景 / 35mm / 固定机位",
+      "action": {
+        "start": "网帘上缘绑在横杆，下缘湿重地堆到陆照脚边",
+        "beat": "陆照踢起松垂网角，湿网迎面裹住葛牙追来的短刀",
+        "end": "陆照持锥站到网侧，葛牙隔网伸臂"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "湿网",
+        "横杆",
+        "短刀",
+        "黑钢锥"
+      ],
+      "character_states": {
+        "陆照": "left_shoulder_fresh_cut_bandaged_palm",
+        "葛牙": "dry"
+      },
+      "continuity_out": "陆照持锥站到网侧，葛牙隔网伸臂",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. The net curtain is tied along the top rail and hangs in a loose wet heap beside Lu Zhao's foot.",
+        "action_en": "The net curtain is tied along the top rail and hangs in a loose wet heap beside Lu Zhao's foot. Then he kicks its loose lower corner over Ge Ya's pursuing knife; the wet mesh wraps the blade while Lu Zhao steps beside the net with his awl.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "网全幅离架飞起；没有松垂下缘却凭空踢起",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH08",
+      "seconds": 1.5,
+      "design_seconds": 1.5,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "他横拉刀口割断两根网线，余下湿网仍裹住刀背",
+      "cast": [
+        {
+          "name": "葛牙",
+          "state": "dry"
+        },
+        {
+          "name": "陆照",
+          "state": "left_shoulder_fresh_cut_bandaged_palm"
+        }
+      ],
+      "location": {
+        "id": "晒网架",
+        "desc": "晒网架"
+      },
+      "camera": {
+        "size": "detail",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "特写 / 65mm / 固定机位",
+      "action": {
+        "start": "刀背被网眼裹住，葛牙手在网外握柄",
+        "beat": "他横拉刀口割断两根网线，余下湿网仍裹住刀背",
+        "end": "折起的网角贴到近侧木横杆，陆照锥尖进入画面"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "短刀",
+        "湿网",
+        "横杆",
+        "黑钢锥"
+      ],
+      "character_states": {
+        "葛牙": "dry",
+        "陆照": "left_shoulder_fresh_cut_bandaged_palm"
+      },
+      "continuity_out": "折起的网角贴到近侧木横杆，陆照锥尖进入画面",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  detail shot, 65mm lens. Close detail shows mesh wrapped around the knife spine while Ge Ya grips the handle outside.",
+        "action_en": "Close detail shows mesh wrapped around the knife spine while Ge Ya grips the handle outside. Then he saws through two strands but the remaining wet net stays wrapped; the folded corner reaches the near wooden rail as Lu Zhao's awl enters frame.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "动作因果与本镜起止状态不一致",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP003_SH09",
+      "seconds": 3,
+      "design_seconds": 3,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "他将折起网角压向横杆，双手直刺贯穿木杆，锥柄把网角压住",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_fresh_cut_bandaged_palm"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "晒网架",
+        "desc": "晒网架"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "侧面见陆照双手握锥、网角与横杆，左肩带血",
+        "beat": "他将折起网角压向横杆，双手直刺贯穿木杆，锥柄把网角压住",
+        "end": "葛牙回抽刀，网绷紧将持刀腕牵向横杆；陆照立即松开留在杆上的锥"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "黑钢锥",
+        "湿网",
+        "横杆",
+        "短刀"
+      ],
+      "character_states": {
+        "陆照": "left_shoulder_fresh_cut_bandaged_palm",
+        "葛牙": "dry"
+      },
+      "continuity_out": "葛牙回抽刀，网绷紧将持刀腕牵向横杆；陆照立即松开留在杆上的锥",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. A side view includes Lu Zhao's two-handed grip, the folded net corner and the wooden rail, with his injured left shoulder visible.",
+        "action_en": "A side view includes Lu Zhao's two-handed grip, the folded net corner and the wooden rail, with his injured left shoulder visible. Then he drives the awl straight through the folded mesh into and through the rail so the handle traps the corner; Ge Ya's pulling knife draws his wrist toward the now-taut net. Lu Zhao releases the awl, leaving it fixed in the rail.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "只穿网眼而没有锥柄夹住网角；锥忽然回手",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH10",
+      "seconds": 4,
+      "design_seconds": 4,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "葛牙疼得张开五指；陆照右手接握刀柄，向网内回送半寸松去张力，再沿刀背退刃",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_fresh_cut_bandaged_palm"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "晒网架",
+        "desc": "晒网架"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "葛牙右手仍握刀，网绷紧；陆照左掌将其右肘压在横杆，右手反折他的握刀腕",
+        "beat": "葛牙疼得张开五指；陆照右手接握刀柄，向网内回送半寸松去张力，再沿刀背退刃",
+        "end": "刀完全脱网，陆照松手让它落入脚旁画右下石沟；左掌始终借横杆压肘"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "短刀",
+        "湿网",
+        "横杆",
+        "黑钢锥"
+      ],
+      "character_states": {
+        "陆照": "left_shoulder_fresh_cut_bandaged_palm",
+        "葛牙": "dry"
+      },
+      "continuity_out": "刀完全脱网，陆照松手让它落入脚旁画右下石沟；左掌始终借横杆压肘",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Ge Ya still grips the knife in his right hand with the net taut. Lu Zhao braces his right elbow against the rail with his left palm and bends the knife wrist back with his right hand.",
+        "action_en": "Ge Ya still grips the knife in his right hand with the net taut. Lu Zhao braces his right elbow against the rail with his left palm and bends the knife wrist back with his right hand. Then Ge Ya opens his fingers in pain; Lu Zhao visibly takes the handle, pushes it slightly into the net to slacken the mesh and slides the blade out along its spine. Once the blade clears the mesh he releases it into the established lower-right gutter beside his foot, keeping the elbow pinned with his left palm.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "葛牙未张手刀就转移",
+          "刀刃未脱网便落沟",
+          "陆照压肘的手离开横杆却仍控制敌臂"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH11",
+      "seconds": 3,
+      "design_seconds": 3,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "葛牙左拳打中陆照耳侧；拳收回时，陆照右手抓住这只左腕，把它折向葛牙胸前",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_bleeding_ear_struck_bandaged_palm"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "晒网架",
+        "desc": "晒网架"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "陆照左掌仍借横杆压着葛牙右肘，右手刚松开落沟的刀",
+        "beat": "葛牙左拳打中陆照耳侧；拳收回时，陆照右手抓住这只左腕，把它折向葛牙胸前",
+        "end": "陆照转身用右肩和身体将葛牙挤向架柱，控制住两臂；葛牙兜帽被横杆蹭落"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "晒网架",
+        "黑钢锥",
+        "棕兜帽"
+      ],
+      "character_states": {
+        "陆照": "left_shoulder_bleeding_ear_struck_bandaged_palm",
+        "葛牙": "dry"
+      },
+      "continuity_out": "陆照转身用右肩和身体将葛牙挤向架柱，控制住两臂；葛牙兜帽被横杆蹭落",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao's left palm pins Ge Ya's right elbow against the rail; his right hand has just released the knife into the gutter.",
+        "action_en": "Lu Zhao's left palm pins Ge Ya's right elbow against the rail; his right hand has just released the knife into the gutter. Then Ge Ya's left fist hits Lu Zhao beside the ear. As the fist retracts, Lu Zhao catches that left wrist with his right hand, folds it across Ge Ya's chest and turns his body and uninjured right shoulder to wedge Ge Ya against the post, controlling both arms. Ge Ya's hood catches the rail and falls.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "动作因果与本镜起止状态不一致",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH12",
+      "seconds": 4,
+      "design_seconds": 4,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "阿砾拉紧末结，葛牙挣动，两臂仍受陆照和柱面压制；阿砾向码头喊人",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_bleeding_ear_struck_bandaged_palm"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry"
+        },
+        {
+          "name": "阿砾",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "晒网架",
+        "desc": "晒网架"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "时间省略硬切：陆照右肩仍将葛牙抵住架柱，双手分别把住两腕；阿砾已从安全侧把短绳绕过腕柱",
+        "beat": "阿砾拉紧末结，葛牙挣动，两臂仍受陆照和柱面压制；阿砾向码头喊人",
+        "end": "绳扣吃紧后陆照才松肩，葛牙留在柱边"
+      },
+      "lines": [
+        {
+          "speaker": "阿砾",
+          "text": "有人持刀！",
+          "off_screen": false,
+          "at": 2.5,
+          "end": 3.8
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "系网短绳",
+        "架柱",
+        "黑钢锥"
+      ],
+      "character_states": {
+        "陆照": "left_shoulder_bleeding_ear_struck_bandaged_palm",
+        "葛牙": "dry",
+        "阿砾": "dry"
+      },
+      "continuity_out": "绳扣吃紧后陆照才松肩，葛牙留在柱边",
+      "transition_cn": "前镜至本镜省略取绳、绕绳时间；不是瞬间自动绑好",
+      "sound": "对白独立录音，环境音随具体动作。阿砾（同期对白）：有人持刀！声音窗口：2.5—3.8秒。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. An explicit time cut skips fetching and wrapping the tie. Lu Zhao still wedges Ge Ya against the post with his uninjured right shoulder and controls one wrist in each hand; Ali has looped the short rope around wrists and post from the safe side.",
+        "action_en": "An explicit time cut skips fetching and wrapping the tie. Lu Zhao still wedges Ge Ya against the post with his uninjured right shoulder and controls one wrist in each hand; Ali has looped the short rope around wrists and post from the safe side. Then Ali tightens the last knot and calls toward the quay while Lu Zhao maintains body pressure; once the knot holds Lu Zhao eases his shoulder, leaving Ge Ya secured.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              4
+            ],
+            "move": false,
+            "cn": "时间省略硬切：陆照右肩仍将葛牙抵住架柱，双手分别把住两腕；阿砾已从安全侧把短绳绕过腕柱 → 阿砾拉紧末结，葛牙挣动，两臂仍受陆照和柱面压制；阿砾向码头喊人 → 绳扣吃紧后陆照才松肩，葛牙留在柱边。声音窗口：阿砾（同期对白） 2.5—3.8秒",
+            "action": "An explicit time cut skips fetching and wrapping the tie. Lu Zhao still wedges Ge Ya against the post with his uninjured right shoulder and controls one wrist in each hand; Ali has looped the short rope around wrists and post from the safe side. Then Ali tightens the last knot and calls toward the quay while Lu Zhao maintains body pressure; once the knot holds Lu Zhao eases his shoulder, leaving Ge Ya secured."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 3,
+        "fail_if": [
+          "阿砾协助前陆照未控制住两臂；伤侧肩承担压制",
+          "葛牙手腕未受控便自动绑好",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH13",
+      "seconds": 3,
+      "design_seconds": 3,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "闻溪指向葛牙左脚旁的掉落兜帽，铜鱼牌露出半边；另一守船人蹲下捡起帽牌",
+      "cast": [
+        {
+          "name": "阿砾",
+          "state": "dry"
+        },
+        {
+          "name": "守船人",
+          "state": "dry"
+        },
+        {
+          "name": "会库押解人",
+          "state": "dry"
+        },
+        {
+          "name": "闻溪",
+          "state": "dry"
+        },
+        {
+          "name": "葛牙",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "盐棚外",
+        "desc": "盐棚外"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "全景 / 35mm / 固定机位",
+      "action": {
+        "start": "时间省略：两名守船人已从码头路口赶到；阿砾站在石沟边把拾起的短刀刀尖向下交给一人",
+        "beat": "闻溪指向葛牙左脚旁的掉落兜帽，铜鱼牌露出半边；另一守船人蹲下捡起帽牌",
+        "end": "一人拿刀，一人拿帽牌，葛牙仍被绑在柱上"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "短刀",
+        "棕兜帽",
+        "铜鱼牌",
+        "架柱"
+      ],
+      "character_states": {
+        "阿砾": "dry",
+        "守船人": "dry",
+        "会库押解人": "dry",
+        "闻溪": "dry",
+        "葛牙": "dry"
+      },
+      "continuity_out": "一人拿刀，一人拿帽牌，葛牙仍被绑在柱上",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Time cut: two watchmen have arrived from the visible quay lane. Ali stands by the gutter handing the recovered knife point-down to one.",
+        "action_en": "Time cut: two watchmen have arrived from the visible quay lane. Ali stands by the gutter handing the recovered knife point-down to one. Then Wen Xi points at Ge Ya's fallen hood by his left foot, where half a copper fish token is visible; the second watchman stoops and collects the hood and token. One holds the knife, the other the hood and token, while Ge Ya remains tied to the post.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 5,
+        "fail_if": [
+          "刀重新出现在葛牙手里；守船人未到就接受物件",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH14",
+      "seconds": 2,
+      "design_seconds": 2,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "胸骨位置亮出两道短痕，旧的一道旁新增一道",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_bleeding_ear_struck_bandaged_palm"
+        }
+      ],
+      "location": {
+        "id": "晒网架",
+        "desc": "晒网架"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 65mm / 固定机位",
+      "action": {
+        "start": "守船人已接管葛牙，陆照低头喘气",
+        "beat": "胸骨位置亮出两道短痕，旧的一道旁新增一道",
+        "end": "他右手拔回横杆上的锥，松开的网角落下"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "余烬",
+        "黑钢锥",
+        "湿网"
+      ],
+      "character_states": {
+        "陆照": "left_shoulder_bleeding_ear_struck_bandaged_palm"
+      },
+      "continuity_out": "他右手拔回横杆上的锥，松开的网角落下",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  close shot, 65mm lens. With the watchmen taking custody of Ge Ya, Lu Zhao catches his breath.",
+        "action_en": "With the watchmen taking custody of Ge Ya, Lu Zhao catches his breath. Then two short marks glow beneath his sternum, the new one beside the old; he pulls the awl from the rail with his right hand and the freed net corner falls.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "新增超过一道；热痕画在手掌",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH15",
+      "seconds": 4,
+      "design_seconds": 4,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "闻溪压好药布，陆照试抬左臂便停住",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_dressed_bandaged_palm"
+        },
+        {
+          "name": "闻溪",
+          "state": "dry"
+        },
+        {
+          "name": "陆禾",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "盐棚门口",
+        "desc": "盐棚门口"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "时间省略：葛牙已被带走，陆照坐在门边矮台旁，锥已收鞘；闻溪剪开左肩衣料",
+        "beat": "闻溪压好药布，陆照试抬左臂便停住",
+        "end": "门从身后打开，陆禾看见血衣"
+      },
+      "lines": [
+        {
+          "speaker": "闻溪",
+          "text": "能刺，也得躲刀。",
+          "off_screen": false,
+          "at": 0.4,
+          "end": 3
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "剪刀",
+        "肩药布",
+        "皮鞘",
+        "黑钢锥",
+        "饭碗"
+      ],
+      "character_states": {
+        "陆照": "left_shoulder_dressed_bandaged_palm",
+        "闻溪": "dry",
+        "陆禾": "dry"
+      },
+      "continuity_out": "门从身后打开，陆禾看见血衣",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。闻溪（同期对白）0.4—3秒：能刺，也得躲刀。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. After the watchmen leave with Ge Ya, Lu Zhao sits by the lunch stand with the awl sheathed. Wen Xi cuts the left shoulder cloth and presses a dressing onto the shallow wound.",
+        "action_en": "After the watchmen leave with Ge Ya, Lu Zhao sits by the lunch stand with the awl sheathed. Wen Xi cuts the left shoulder cloth and presses a dressing onto the shallow wound. Then he starts to lift that arm and stops at the pain as his sister opens the door behind him.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              4
+            ],
+            "move": false,
+            "cn": "时间省略：葛牙已被带走，陆照坐在门边矮台旁，锥已收鞘；闻溪剪开左肩衣料 → 闻溪压好药布，陆照试抬左臂便停住 → 门从身后打开，陆禾看见血衣。声音窗口：闻溪（同期对白） 0.4—3秒",
+            "action": "After the watchmen leave with Ge Ya, Lu Zhao sits by the lunch stand with the awl sheathed. Wen Xi cuts the left shoulder cloth and presses a dressing onto the shallow wound. Then he starts to lift that arm and stops at the pain as his sister opens the door behind him."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 3,
+        "fail_if": [
+          "动作因果与本镜起止状态不一致",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH16",
+      "seconds": 5,
+      "design_seconds": 5,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "陆禾用沾面粉的手摊平伤侧领边，说完停一拍；陆照低低应声",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_dressed_bandaged_palm"
+        },
+        {
+          "name": "陆禾",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "盐棚门口",
+        "desc": "盐棚门口"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "陆照看见姐姐，想用右肩挡一下血衣，随即停住",
+        "beat": "陆禾用沾面粉的手摊平伤侧领边，说完停一拍；陆照低低应声",
+        "end": "她伸手把午饭往他身边推，完整碗仍在"
+      },
+      "lines": [
+        {
+          "speaker": "陆禾",
+          "text": "下次先叫我关门。",
+          "off_screen": false,
+          "at": 0.5,
+          "end": 2.9
+        },
+        {
+          "speaker": "陆照",
+          "text": "嗯。",
+          "off_screen": false,
+          "at": 3.3,
+          "end": 3.9
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "肩药布",
+        "完整饭碗",
+        "皮鞘"
+      ],
+      "character_states": {
+        "陆照": "left_shoulder_dressed_bandaged_palm",
+        "陆禾": "dry"
+      },
+      "continuity_out": "她伸手把午饭往他身边推，完整碗仍在",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。陆禾（同期对白）0.5—2.9秒：下次先叫我关门。；陆照（同期对白）3.3—3.9秒：嗯。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao starts to turn his uninjured shoulder toward his sister to hide the bloody cloth, then stops. Lu He uses flour-dusted fingers to smooth the collar away from the wound, speaks and waits; he answers quietly.",
+        "action_en": "Lu Zhao starts to turn his uninjured shoulder toward his sister to hide the bloody cloth, then stops. Lu He uses flour-dusted fingers to smooth the collar away from the wound, speaks and waits; he answers quietly. Then she slides the waiting whole lunch bowl closer to him.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              5
+            ],
+            "move": false,
+            "cn": "陆照看见姐姐，想用右肩挡一下血衣，随即停住 → 陆禾用沾面粉的手摊平伤侧领边，说完停一拍；陆照低低应声 → 她伸手把午饭往他身边推，完整碗仍在。声音窗口：陆禾（同期对白） 0.5—2.9秒；陆照（同期对白） 3.3—3.9秒",
+            "action": "Lu Zhao starts to turn his uninjured shoulder toward his sister to hide the bloody cloth, then stops. Lu He uses flour-dusted fingers to smooth the collar away from the wound, speaks and waits; he answers quietly. Then she slides the waiting whole lunch bowl closer to him."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "动作因果与本镜起止状态不一致",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH17",
+      "seconds": 6,
+      "design_seconds": 6,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "岑鹿指桩、再指白线，露出图边两名拉缆工的名字与暂未盖收讫的六百铜报价",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_dressed_bandaged_palm"
+        },
+        {
+          "name": "岑鹿",
+          "state": "dry"
+        },
+        {
+          "name": "阿砾",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "码头绳摊",
+        "desc": "码头绳摊"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "下午时间切：陆照左肩已包扎；岑鹿摊图，同框见沉桩堵主排水口、拖行白线，阿砾站旁",
+        "beat": "岑鹿指桩、再指白线，露出图边两名拉缆工的名字与暂未盖收讫的六百铜报价",
+        "end": "陆照用右手将工具箱标记移离后舷伤员空位，看向阿砾"
+      },
+      "lines": [
+        {
+          "speaker": "岑鹿",
+          "text": "六百铜。桩过白线才付，我出两个人。",
+          "off_screen": false,
+          "at": 0.4,
+          "end": 5.7
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "清障图",
+        "工具箱标记",
+        "铜钱"
+      ],
+      "character_states": {
+        "陆照": "left_shoulder_dressed_bandaged_palm",
+        "岑鹿": "dry",
+        "阿砾": "dry"
+      },
+      "continuity_out": "陆照用右手将工具箱标记移离后舷伤员空位，看向阿砾",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。岑鹿（同期对白）0.4—5.7秒：六百铜。桩过白线才付，我出两个人。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Afternoon cut: Lu Zhao's left shoulder is dressed. Cen Lu spreads a chart showing a sunken pile blocking the main drain and the white delivery line, with Ali beside them.",
+        "action_en": "Afternoon cut: Lu Zhao's left shoulder is dressed. Cen Lu spreads a chart showing a sunken pile blocking the main drain and the white delivery line, with Ali beside them. Then she points from the pile to the line; a blank caption area lists two assigned rope workers and a six-hundred-copper completion quote, still unpaid. Lu Zhao uses his right hand to move a toolbox marker away from the rear casualty space and looks at Ali.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              6
+            ],
+            "move": false,
+            "cn": "下午时间切：陆照左肩已包扎；岑鹿摊图，同框见沉桩堵主排水口、拖行白线，阿砾站旁 → 岑鹿指桩、再指白线，露出图边两名拉缆工的名字与暂未盖收讫的六百铜报价 → 陆照用右手将工具箱标记移离后舷伤员空位，看向阿砾。声音窗口：岑鹿（同期对白） 0.4—5.7秒",
+            "action": "Afternoon cut: Lu Zhao's left shoulder is dressed. Cen Lu spreads a chart showing a sunken pile blocking the main drain and the white delivery line, with Ali beside them. Then she points from the pile to the line; a blank caption area lists two assigned rope workers and a six-hundred-copper completion quote, still unpaid. Lu Zhao uses his right hand to move a toolbox marker away from the rear casualty space and looks at Ali."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 3,
+        "fail_if": [
+          "六百铜被画成到手款；伤臂瞬间恢复",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [
+        {
+          "text": "完工付600铜\n配拉缆工二名",
+          "method": "post_composite",
+          "placement": "图旁报价单",
+          "generation_surface": "blank"
+        },
+        {
+          "text": "伤员位",
+          "method": "post_composite",
+          "placement": "后舷图例",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP003_SH18",
+      "seconds": 6,
+      "design_seconds": 6,
+      "source": {
+        "chapter": 3,
+        "script_path": "剧本/EP003.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "b7b9fd37770c38e0"
+      },
+      "intent": "阿砾看一眼钱，再抬头问陆照；陆照应下，右手将绳头推近",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "left_shoulder_dressed_bandaged_palm"
+        },
+        {
+          "name": "阿砾",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "码头绳摊",
+        "desc": "码头绳摊"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "陆照把预先数好的四十铜一串交到阿砾手上，摊布已有写好两日工钱的雇工条",
+        "beat": "阿砾看一眼钱，再抬头问陆照；陆照应下，右手将绳头推近",
+        "end": "阿砾握住绳头，笑着和陆照一起看向窄水道"
+      },
+      "lines": [
+        {
+          "speaker": "陆照",
+          "text": "两天工钱。帮我看水。",
+          "off_screen": false,
+          "at": 0.1,
+          "end": 3
+        },
+        {
+          "speaker": "阿砾",
+          "text": "喊了你听？",
+          "off_screen": false,
+          "at": 3.1,
+          "end": 4.6
+        },
+        {
+          "speaker": "陆照",
+          "text": "听。",
+          "off_screen": false,
+          "at": 4.8,
+          "end": 5.5
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "铜钱",
+        "雇工条",
+        "新绳",
+        "皮鞘"
+      ],
+      "character_states": {
+        "陆照": "left_shoulder_dressed_bandaged_palm",
+        "阿砾": "dry"
+      },
+      "continuity_out": "阿砾握住绳头，笑着和陆照一起看向窄水道",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。陆照（同期对白）0.1—3秒：两天工钱。帮我看水。；阿砾（同期对白）3.1—4.6秒：喊了你听？；陆照（同期对白）4.8—5.5秒：听。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao places a pre-counted string of forty copper coins in Ali's hand beside the prepared two-day wage slip.",
+        "action_en": "Lu Zhao places a pre-counted string of forty copper coins in Ali's hand beside the prepared two-day wage slip. Then Ali glances at the coins and asks Lu Zhao his question; Lu Zhao answers and slides the rope end closer with his right hand. Ali grips the rope, smiling as they both look toward the narrow channel.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              6
+            ],
+            "move": false,
+            "cn": "陆照把预先数好的四十铜一串交到阿砾手上，摊布已有写好两日工钱的雇工条 → 阿砾看一眼钱，再抬头问陆照；陆照应下，右手将绳头推近 → 阿砾握住绳头，笑着和陆照一起看向窄水道。声音窗口：陆照（同期对白） 0.1—3秒；阿砾（同期对白） 3.1—4.6秒；陆照（同期对白） 4.8—5.5秒",
+            "action": "Lu Zhao places a pre-counted string of forty copper coins in Ali's hand beside the prepared two-day wage slip. Then Ali glances at the coins and asks Lu Zhao his question; Lu Zhao answers and slides the rope end closer with his right hand. Ali grips the rope, smiling as they both look toward the narrow channel."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "把雇工预付算成陆照收入；收钱动作早于陆照给钱",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [
+        {
+          "text": "两日工钱 40铜",
+          "method": "post_composite",
+          "placement": "雇工条",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "portrait_or_environment"
+    }
+  ],
+  "source_sha256": "ae79702150635a04e98e3d3b18477f51c4e6ad550b653707272c7a9d0f97d968",
+  "revision": "20260914_rhythm_v3",
+  "timing_validation": {
+    "status": "dialogue_scratch_tested_action_pending",
+    "voice": "macOS Tingting",
+    "rate_setting": 180,
+    "measurement": "say合成AIFF后ffprobe测长，未做倍速",
+    "dialogue_count": 11,
+    "all_dialogue_within_windows": true,
+    "dialogue_results": [
+      {
+        "id": "EP003_SH02",
+        "text": "六十铜。",
+        "duration": 0.818,
+        "window": 1.2,
+        "fits": true
+      },
+      {
+        "id": "EP003_SH03",
+        "text": "照子，跟我走。",
+        "duration": 1.508,
+        "window": 2.2,
+        "fits": true
+      },
+      {
+        "id": "EP003_SH04",
+        "text": "先放他。",
+        "duration": 0.862,
+        "window": 1.3,
+        "fits": true
+      },
+      {
+        "id": "EP003_SH12",
+        "text": "有人持刀！",
+        "duration": 0.968,
+        "window": 1.3,
+        "fits": true
+      },
+      {
+        "id": "EP003_SH15",
+        "text": "能刺，也得躲刀。",
+        "duration": 1.676,
+        "window": 2.6,
+        "fits": true
+      },
+      {
+        "id": "EP003_SH16",
+        "text": "下次先叫我关门。",
+        "duration": 1.756,
+        "window": 2.4,
+        "fits": true
+      },
+      {
+        "id": "EP003_SH16",
+        "text": "嗯。",
+        "duration": 0.261,
+        "window": 0.6,
+        "fits": true
+      },
+      {
+        "id": "EP003_SH17",
+        "text": "六百铜。桩过白线才付，我出两个人。",
+        "duration": 3.987,
+        "window": 5.3,
+        "fits": true
+      },
+      {
+        "id": "EP003_SH18",
+        "text": "两天工钱。帮我看水。",
+        "duration": 2.349,
+        "window": 2.9,
+        "fits": true
+      },
+      {
+        "id": "EP003_SH18",
+        "text": "喊了你听？",
+        "duration": 0.948,
+        "window": 1.5,
+        "fits": true
+      },
+      {
+        "id": "EP003_SH18",
+        "text": "听。",
+        "duration": 0.364,
+        "window": 0.7,
+        "fits": true
+      }
+    ],
+    "performed_readthrough": false,
+    "animatic_reviewed": false,
+    "limitation": "仅验证临时合成语音；演员停顿、打斗和救人动作仍需粗剪实测。"
+  },
+  "ability_in": 1,
+  "ability_out": 2,
+  "script_digest": "b7b9fd37770c38e0",
+  "text_review": {
+    "scope": "剧本与文字分镜",
+    "script_grade": "S",
+    "storyboard_grade": "S",
+    "review_thread_id": "01a08ea0-8c4d-74e0-ae4b-95fa647cfb4d",
+    "review_date": "2026-09-14",
+    "completion_turn_id": "01a0a283-66de-7da1-9461-704b010c9046",
+    "script_digest": "b7b9fd37770c38e0",
+    "not_a_film_grade": true
+  }
+}

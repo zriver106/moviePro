@@ -187,6 +187,9 @@ def main():
     # 上限也钉在 10（`render_seedance.py` / `gen_kf.py` 都是这个约定）。
     ap.add_argument("--jobs", type=int, default=10, help="并发路数，默认 10，上限 10")
     a = ap.parse_args()
+    if not a.dry_run:
+        import rating_gate
+        rating_gate.require(a.project, None, "gen_asset")
     jobs_n = max(1, min(10, a.jobs))
 
     proj = os.path.join(ROOT, "projects", a.project)

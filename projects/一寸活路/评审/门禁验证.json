@@ -1,0 +1,11 @@
+{
+  "unit_tests": 13,
+  "unit_tests_result": "passed",
+  "production_scope": "EP001:22/60s EP002:17/60s EP003:18/60s",
+  "rating_gate": "passed with actual external S/S and matching file hashes",
+  "active_script_locks": "independent_text_rating; forced=false",
+  "old_image_generation": "permanently blocked",
+  "unreviewed_whitemodel_panels": "blocked before provider call",
+  "live_index_links": 13,
+  "new_images_this_turn": 0
+}

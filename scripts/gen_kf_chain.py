@@ -77,6 +77,9 @@ def main():
     ap.add_argument("--seed", type=int, default=80131)
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
+    if not a.dry_run:
+        import rating_gate
+        rating_gate.require(a.project, [a.ep], "gen_kf_chain")
 
     proj = os.path.join(ROOT, "projects", a.project)
     epid = f"EP{a.ep:03d}"

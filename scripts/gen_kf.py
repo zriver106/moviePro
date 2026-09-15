@@ -342,6 +342,9 @@ def main():
     ap.add_argument("--no-plate", action="store_true",
                     help="不走底板，回到每镜独立合成（家具位置会漂，仅调试用）")
     a = ap.parse_args()
+    if not a.dry_run:
+        import rating_gate
+        rating_gate.require(a.project, [a.ep], "gen_kf")
     a.jobs = max(1, min(MAX_JOBS, a.jobs))
 
     proj = os.path.join(ROOT, "projects", a.project)

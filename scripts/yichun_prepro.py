@@ -5,17 +5,13 @@ prepare 从作者 TSV 投影剧本与分镜，render 通过 provider 出图，re
 每次请求保留输入哈希和 seed；旧输出存在但输入改变时明确拒绝覆盖。
 """
 import argparse
-import base64
-import concurrent.futures as cf
 import hashlib
 import html
 import json
 import re
 import sys
-import urllib.request
 from pathlib import Path
 
-import provider
 import script_lock
 from negwords import NEG_RE
 
@@ -200,77 +196,12 @@ def verify_sources():
 
 
 def make_image(item):
-    target = JOB / item['output']
-    record = target.with_suffix('.request.json')
-    refs = [P / x for x in item.get('refs', [])]
-    request = {k: item[k] for k in ('id', 'prompt', 'size', 'seed')}
-    request['references'] = [{'path': rel(f), 'sha256': digest(f)} for f in refs]
-    request['provider'] = provider.BACKEND
-    request['model'] = 'Seedream V5 Lite edit' if refs else 'Seedream V5 Lite text-to-image'
-    if target.exists():
-        if not record.exists() or load(record) != request:
-            raise ValueError(f'拒绝覆盖旧版本/输入改变：{target}')
-        print('REUSE', item['id'], flush=True)
-        return
-    bad = sorted(set(m.group(0) for m in NEG_RE.finditer(item['prompt'])))
-    if bad:
-        raise ValueError(f"{item['id']} prompt否定词：{bad}")
-    target.parent.mkdir(parents=True, exist_ok=True)
-    dump(record, request)
-    urls = []
-    for f in refs:
-        mime = 'image/png' if f.suffix.lower() == '.png' else 'image/jpeg'
-        urls.append(f'data:{mime};base64,' + base64.b64encode(f.read_bytes()).decode())
-    print('START ' + item['id'], flush=True)
-    if refs:
-        url, err = provider.edit_image(item['prompt'], urls, size=item['size'], seed=item['seed'])
-    else:
-        url, err = provider.text_to_image(item['prompt'], size=item['size'], seed=item['seed'])
-    if err or not url:
-        dump(target.with_suffix('.result.json'), {'status': 'failed', 'error': err or 'empty image URL'})
-        raise RuntimeError(f"{item['id']}: {err or 'empty URL'}")
-    with urllib.request.urlopen(url, timeout=120) as response:
-        data = response.read()
-    # 先检验图片，再原子落盘，网络中断的半文件不能被当成完成。
-    import io
-    from PIL import Image
-    im = Image.open(io.BytesIO(data))
-    im.verify()
-    temp = target.with_suffix('.download.tmp')
-    temp.write_bytes(data)
-    temp.replace(target)
-    dump(target.with_suffix('.result.json'), {'status': 'generated_pending_visual_review',
-         'sha256': digest(target), 'dimensions': list(Image.open(target).size), 'bytes': len(data)})
-    print('DONE ' + item['id'], flush=True)
+    # 本脚本专属84镜历史版，已被57镜定稿替代；不能用旧快照锁继续花费。
+    raise RuntimeError('84镜历史制作已退役，禁止生成图片；使用当前已评级的剧本和分镜建立新制作版本')
 
 
 def render(kind, jobs, only):
-    verify_sources()
-    manifest = load(JOB / {'assets':'资产请求.json', 'boards':'故事板请求.json', 'shots':'逐镜请求.json'}[kind])
-    items = [x for x in manifest if not only or x['id'] in only.split(',')]
-    if not items:
-        raise ValueError('没有匹配的生成任务')
-    if any('prompt' not in x for x in items):
-        raise ValueError('当前页面由单镜排版；先运行 shots，再运行 assemble')
-    failures = []
-    remaining = list(items)
-    while remaining:
-        ready = [x for x in remaining if all((P / f).exists() for f in x.get('refs', []))]
-        if not ready:
-            failures.extend({'id': x['id'], 'error': '上游参考图缺失，未提交请求'} for x in remaining)
-            break
-        with cf.ThreadPoolExecutor(max_workers=jobs) as pool:
-            futs = {pool.submit(make_image, x): x for x in ready}
-            for fut in cf.as_completed(futs):
-                try:
-                    fut.result()
-                except Exception as exc:
-                    failures.append({'id': futs[fut]['id'], 'error': str(exc)})
-                    print('FAILED', futs[fut]['id'], str(exc)[:400], flush=True)
-        remaining = [x for x in remaining if x not in ready]
-    dump(JOB / f'{kind}_本次结果.json', {'requested': len(items), 'failures': failures})
-    if failures:
-        raise SystemExit(1)
+    raise SystemExit('84镜历史版出图入口已关闭；评级通过也不能复活过期分镜。仅允许查看、归档和检查。')
 
 
 def boards():
@@ -450,7 +381,7 @@ def report():
     parts = ['<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">',
              '<title>一寸活路 · 前三集 v8</title><style>'+css+'</style><main>',
              '<p class="muted">制作版 01 · Seedream 立体国漫 v8 · 16:9</p><h1>一寸活路 / 前三集</h1>',
-             '<p style="color:#ffc68a">本页为84镜历史预览版。共享目录已有每集60秒的56镜新版；两版独立保存。当前有5镜待修，详见视觉检查；本页不能用于新版画面验收。</p>' if TEXT_ROOT != P else '',
+             '<p style="color:#ffc68a">本页为84镜历史预览版。当前采用57镜（22/17/18）、每集60秒的已评级新版。旧84镜出图入口永久关闭；本页保留5镜历史问题，不用于新版验收。请打开项目根目录制作入口.html。</p>' if TEXT_ROOT != P else '',
              '<p>角色与场景资产 · 逐镜设计 · 彩色故事板。图版为构图预览，逐镜生产以 JSON、状态带和视觉问题记录为准。</p>',
              '<nav><a href="#assets">资产</a><a href="#EP001">01 死人领工钱</a><a href="#EP002">02 两只碗</a><a href="#EP003">03 门外三步</a><a href="导演与连续性.md">导演与连续性</a><a href="机关与轴线.svg">机关与轴线</a><a href="视觉检查.md">视觉检查</a></nav>',
              '<h2 id="assets">资产参考板</h2><div class="grid">']
@@ -488,7 +419,7 @@ def report():
     dump(JOB / '交付统计.json', {'episodes': summary, 'assets': len(assets),
          'assets_generated': sum((JOB / a['output']).exists() for a in assets),
          'shot_images_generated': sum((JOB/s['output']).exists() for s in shot_images.values()),
-         'open_visual_issues': len(visual_issues), 'version_status': 'historical_preview_pending_version_choice' if TEXT_ROOT != P else 'preproduction',
+         'open_visual_issues': len(visual_issues), 'version_status': 'retired_superseded_by_rated_57_shots' if TEXT_ROOT != P else 'preproduction',
          'storyboard_pages': len(pages), 'pages_generated': sum((JOB / a['output']).exists() for a in pages)})
     print(json.dumps(load(JOB / '交付统计.json'), ensure_ascii=False), flush=True)
 

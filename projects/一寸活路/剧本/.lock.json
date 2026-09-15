@@ -1,0 +1,32 @@
+{
+ "EP001": {
+  "digest": "acefe704e7587f22",
+  "locked_at": "2026-09-14 17:45:21",
+  "doctor_verdict": "FAIL",
+  "note": "小说评级真实复评S/S；22镜60秒，指纹见评审/当前评级.json；替换旧force锁，不代表图像验收",
+  "forced": false,
+  "review_authority": "independent_text_rating",
+  "previous_digest": "b3c46af0478baff9",
+  "doctor_scope": "legacy_diagnostic_not_current_rating"
+ },
+ "EP002": {
+  "digest": "349c6458ecde5da6",
+  "locked_at": "2026-09-14 17:45:22",
+  "doctor_verdict": "FAIL",
+  "note": "小说评级真实复评S/S；17镜60秒，替换旧force锁；不代表图像验收",
+  "forced": false,
+  "review_authority": "independent_text_rating",
+  "previous_digest": "a8e9fc8ea94234d3",
+  "doctor_scope": "legacy_diagnostic_not_current_rating"
+ },
+ "EP003": {
+  "digest": "b7b9fd37770c38e0",
+  "locked_at": "2026-09-14 17:45:22",
+  "doctor_verdict": "FAIL",
+  "note": "小说评级真实复评S/S；18镜60秒，夺刀交接和同期对白已复核，替换旧force锁",
+  "forced": false,
+  "review_authority": "independent_text_rating",
+  "previous_digest": "005a21b80918cb59",
+  "doctor_scope": "legacy_diagnostic_not_current_rating"
+ }
+}

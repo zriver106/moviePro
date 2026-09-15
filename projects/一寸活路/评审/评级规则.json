@@ -1,0 +1,20 @@
+{
+  "minimum_grade": "S",
+  "review_thread_id": "01a08ea0-8c4d-74e0-ae4b-95fa647cfb4d",
+  "episodes": {
+    "EP001": {
+      "target_seconds": 60,
+      "tolerance_seconds": 0.1
+    },
+    "EP002": {
+      "target_seconds": 60,
+      "tolerance_seconds": 0.1
+    },
+    "EP003": {
+      "target_seconds": 60,
+      "tolerance_seconds": 0.1
+    }
+  },
+  "scope": "剧本与文字分镜分别评级；适用维度逐项达标，禁止平均抵消；60秒为剪辑预算，不冒充成片时长",
+  "force_allowed": false
+}

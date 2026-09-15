@@ -77,8 +77,13 @@ def state(project, ep):
 
 def require(project, ep, what="这一步"):
     """下游的闸。**不通过就退出**，别让半成品往下走。"""
+    import rating_gate
+    rating_gate.require(project, [ep], what)
     st, msg = state(project, ep)
     if st == "locked":
+        rec = load(paths(project, ep)[1]).get(f'EP{ep:03d}', {})
+        if rec.get('forced'):
+            sys.exit('✗ 历史force锁不能放行制作；须取得当前外评并重新定稿。')
         return True
     print(f"\n✗ {what}被拦下：EP{ep:03d} 的剧本没有定稿。\n  {msg}\n")
     if st == "stale":
@@ -101,8 +106,12 @@ def main():
     ap.add_argument("--relock", action="store_true", help="剧本改过之后重新定稿")
     ap.add_argument("--note", default="", help="这一稿改了什么")
     ap.add_argument("--force", action="store_true",
-                    help="剧本医生没判 PASS 也定稿。**要在 note 里写清楚为什么**")
+                    help="已停用：不允许以force绕过评级")
+    ap.add_argument("--external-review", action="store_true",
+                    help="使用当前独立剧本/文字分镜评级定稿，保留M3原判决，不伪造PASS")
     a = ap.parse_args()
+    if a.force:
+        sys.exit('✗ --force已停用。低于标准先返修、复评；备注不能替代评级。')
 
     sp, lockp, docp = paths(a.project, a.ep)
     st, msg = state(a.project, a.ep)
@@ -119,18 +128,19 @@ def main():
     if st == "locked" and not a.relock:
         sys.exit(f"EP{a.ep:03d} 已经定稿了（{msg}）。要重新定稿加 --relock")
 
+    import rating_gate
+    rating_gate.require(a.project, [a.ep], '剧本与文字分镜定稿')
+
     # 剧本医生必须判过 PASS —— 定稿是「可以开工」的承诺，不是「我看过了」
     verdict = None
     if os.path.exists(docp):
         verdict = json.load(io.open(docp, encoding="utf-8")).get("verdict")
-    if verdict != "PASS" and not a.force:
+    if verdict != "PASS" and not a.external_review:
         print(f"✗ 剧本医生的判决是 {verdict or '（没跑过）'}，不是 PASS。")
         print(f"  先跑：.venv/bin/python scripts/script_doctor.py --project {a.project} "
               f"--ep {a.ep} --out projects/{a.project}/out/doctor")
-        print(f"  确实要带着已知问题开工，用 --force 并在 --note 里写清楚为什么。")
+        print('  已有当前独立外评达标时可用 --external-review；不得伪造M3判决。')
         sys.exit(1)
-    if a.force and not a.note:
-        sys.exit("✗ --force 必须配 --note 写清楚为什么带着问题开工")
 
     d = load(lockp)
     prev = d.get(f"EP{a.ep:03d}")
@@ -138,14 +148,16 @@ def main():
         "digest": digest(sp),
         "locked_at": time.strftime("%Y-%m-%d %H:%M:%S"),
         "doctor_verdict": verdict,
+        "doctor_scope": 'legacy_diagnostic_not_current_rating' if a.external_review else 'doctor',
         "note": a.note,
         "forced": bool(a.force),
+        "review_authority": 'independent_text_rating' if a.external_review else 'doctor_and_independent_text_rating',
         "previous_digest": prev["digest"] if prev else None,
     }
     os.makedirs(os.path.dirname(lockp), exist_ok=True)
     json.dump(d, io.open(lockp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"✓ EP{a.ep:03d} 已定稿　指纹 {d[f'EP{a.ep:03d}']['digest']}　"
-          f"医生判决 {verdict}")
+    authority = '当前独立外评已达标；M3原记录仅作历史诊断' if a.external_review else f'医生判决 {verdict}'
+    print(f"✓ EP{a.ep:03d} 已定稿　指纹 {d[f'EP{a.ep:03d}']['digest']}　{authority}")
     if prev:
         print(f"  上一稿 {prev['digest']} → 这一稿 {d[f'EP{a.ep:03d}']['digest']}")
         print(f"  **改稿意味着下游全部作废** —— 分镜、资产、关键帧、成片都要重来一遍。")

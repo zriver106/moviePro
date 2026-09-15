@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "policy_sha256": "8cf0fb554ab17c30c12f3fd29a04e4819994469aeea76548b389cae6ddc33d64",
+  "external_review": {
+    "thread_id": "01a08ea0-8c4d-74e0-ae4b-95fa647cfb4d",
+    "message_id": "msg_07d663443608dd60016aa894dc4e8887d19a628fca9de53fec",
+    "evidence_path": "评审/20260914_前三集文本定稿/冻结稿外评.json",
+    "evidence_sha256": "c9c5027ed58621d7f04410f1c9c519b03732bcf414bd6ad74a5fb4eabccc9426",
+    "manifest_path": "评审/20260914_前三集文本定稿/送审指纹.json",
+    "manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b"
+  },
+  "episodes": {
+    "EP001": {
+      "script_grade": "S",
+      "storyboard_grade": "S",
+      "blocking_issues": []
+    },
+    "EP002": {
+      "script_grade": "S",
+      "storyboard_grade": "S",
+      "blocking_issues": []
+    },
+    "EP003": {
+      "script_grade": "S",
+      "storyboard_grade": "S",
+      "blocking_issues": []
+    }
+  },
+  "review_scope": "此前完整审阅九稿+后续局部复评；本轮冻结一致性与SH10—12复核，不是新一轮全文精读或图像验收"
+}

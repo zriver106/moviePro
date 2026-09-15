@@ -1,0 +1,6 @@
+{
+  "thread_id": "01a08ea0-8c4d-74e0-ae4b-95fa647cfb4d",
+  "message_id": "msg_07d663443608dd60016aa894dc4e8887d19a628fca9de53fec",
+  "timestamp": "2026-09-15T00:44:18.229Z",
+  "text": "**冻结送审稿通过文本评级门禁，三集均继承 S/S。**\n\n| 集数 | script_grade | storyboard_grade | blocking_issues |\n|---|---|---|---|\n| EP001 | S | S | [] |\n| EP002 | S | S | [] |\n| EP003 | S | S | [] |\n\n本轮核对了冻结全文的九个文件段与指纹，全部匹配；镜数为22／17／18，各60秒。局部重读 SH10—12，确认夺刀交接保留，SH12“画外”残留已清除，同期对白标注一致。\n\n评级沿用此前完整审阅与后续复评；本轮是冻结一致性及局部复核，未重新全文精读。未修改文件、未出图，不包含成片验收。\n\n`送审指纹.json` 的 SHA256：\n\n```text\nf9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b\n```\n\n结果已回传送审任务。"
+}

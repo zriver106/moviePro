@@ -1,0 +1,35 @@
+{
+  "active_version": "前三集_v8_v2_文本定稿",
+  "episodes": [
+    {
+      "id": "EP001",
+      "title": "死人领工钱",
+      "shots": 22,
+      "seconds": 60.0,
+      "script_grade": "S",
+      "storyboard_grade": "S"
+    },
+    {
+      "id": "EP002",
+      "title": "两只碗",
+      "shots": 17,
+      "seconds": 60.0,
+      "script_grade": "S",
+      "storyboard_grade": "S"
+    },
+    {
+      "id": "EP003",
+      "title": "门外三步",
+      "shots": 18,
+      "seconds": 60.0,
+      "script_grade": "S",
+      "storyboard_grade": "S"
+    }
+  ],
+  "stage": "文本评级通过；资产规划已同步；本轮不出图",
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "historical_version": "前三集_v8_v1",
+  "historical_generation_enabled": false,
+  "generated_images_this_turn": 0,
+  "assets_approved_for_new_version": 0
+}

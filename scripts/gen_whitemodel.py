@@ -223,6 +223,15 @@ def main():
     ap.add_argument("--seed", type=int, default=70701)
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
+    if not a.dry_run:
+        import rating_gate
+        rating_gate.require(a.project, [a.ep], "gen_whitemodel")
+        if a.panels:
+            raise SystemExit('✗ 外部panels未包含在本版文本评级中，禁止代替已评级分镜出图。')
+        if a.md:
+            canonical = os.path.join(ROOT, 'projects', a.project, '分镜', f'EP{a.ep:03d}_中文.md')
+            if rating_gate.sha(a.md) != rating_gate.sha(canonical):
+                raise SystemExit('✗ --md与已评级的中文分镜不同，先送审该版文本。')
 
     proj = os.path.join(ROOT, "projects", a.project)
     epid = f"EP{a.ep:03d}"

@@ -1,0 +1,1319 @@
+{
+  "source_manifest": "评审/20260914_前三集文本定稿/送审指纹.json",
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "style_reference": "Seedream立体国漫定妆_v8",
+  "text_status": "externally_rated_S_each_episode_script_and_storyboard",
+  "image_generation_this_revision": 0,
+  "assets": [
+    {
+      "type": "人物",
+      "name": "会库押解人",
+      "shots": [
+        "EP002_SH07",
+        "EP003_SH13"
+      ],
+      "candidate_asset": null,
+      "candidate_path": null,
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "新增辅助人物，需与守船人区分，先做文字规格"
+    },
+    {
+      "type": "人物",
+      "name": "余烬老人",
+      "shots": [
+        "EP002_SH11",
+        "EP002_SH12"
+      ],
+      "candidate_asset": null,
+      "candidate_path": null,
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "新版有消瘦无须、红布缠腕的可见人物；旧老人手部不足"
+    },
+    {
+      "type": "人物",
+      "name": "守船人",
+      "shots": [
+        "EP002_SH05",
+        "EP002_SH06",
+        "EP002_SH07",
+        "EP003_SH13"
+      ],
+      "candidate_asset": "守船人",
+      "candidate_path": "制作/前三集_v8_v1/资产/守船人/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "人物",
+      "name": "岑鹿",
+      "shots": [
+        "EP002_SH05",
+        "EP002_SH06",
+        "EP002_SH08",
+        "EP003_SH17"
+      ],
+      "candidate_asset": "岑鹿",
+      "candidate_path": "制作/前三集_v8_v1/资产/岑鹿/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "人物",
+      "name": "水槽货主",
+      "shots": [
+        "EP003_SH02"
+      ],
+      "candidate_asset": null,
+      "candidate_path": null,
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "新增辅助人物，确认年龄、衣着与付钱镜功能"
+    },
+    {
+      "type": "人物",
+      "name": "灰胡子工人",
+      "shots": [
+        "EP001_SH03",
+        "EP001_SH20",
+        "EP001_SH22",
+        "EP002_SH04",
+        "EP002_SH05",
+        "EP002_SH07"
+      ],
+      "candidate_asset": "灰胡子工人",
+      "candidate_path": "制作/前三集_v8_v1/资产/灰胡子工人/sheet_v02.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "人物",
+      "name": "葛牙",
+      "shots": [
+        "EP003_SH03",
+        "EP003_SH04",
+        "EP003_SH05",
+        "EP003_SH06",
+        "EP003_SH07",
+        "EP003_SH08",
+        "EP003_SH09",
+        "EP003_SH10",
+        "EP003_SH11",
+        "EP003_SH12",
+        "EP003_SH13"
+      ],
+      "candidate_asset": "葛牙",
+      "candidate_path": "制作/前三集_v8_v1/资产/葛牙/sheet_v01.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "兜帽戴/落、持刀/失刀、双腕控制状态；不能省略夺刀交接"
+    },
+    {
+      "type": "人物",
+      "name": "闻溪",
+      "shots": [
+        "EP001_SH03",
+        "EP001_SH17",
+        "EP001_SH19",
+        "EP001_SH20",
+        "EP001_SH21",
+        "EP001_SH22",
+        "EP002_SH04",
+        "EP002_SH05",
+        "EP002_SH07",
+        "EP002_SH09",
+        "EP003_SH02",
+        "EP003_SH03",
+        "EP003_SH04",
+        "EP003_SH05",
+        "EP003_SH06",
+        "EP003_SH13",
+        "EP003_SH15"
+      ],
+      "candidate_asset": "闻溪",
+      "candidate_path": "制作/前三集_v8_v1/资产/闻溪/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "人物",
+      "name": "阿砾",
+      "shots": [
+        "EP001_SH03",
+        "EP001_SH21",
+        "EP001_SH22",
+        "EP002_SH04",
+        "EP002_SH05",
+        "EP002_SH07",
+        "EP003_SH03",
+        "EP003_SH04",
+        "EP003_SH05",
+        "EP003_SH06",
+        "EP003_SH12",
+        "EP003_SH13",
+        "EP003_SH17",
+        "EP003_SH18"
+      ],
+      "candidate_asset": "阿砾",
+      "candidate_path": "制作/前三集_v8_v1/资产/阿砾/sheet_v02.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "人物",
+      "name": "陆照",
+      "shots": [
+        "EP001_SH01",
+        "EP001_SH02",
+        "EP001_SH04",
+        "EP001_SH05",
+        "EP001_SH06",
+        "EP001_SH07",
+        "EP001_SH08",
+        "EP001_SH09",
+        "EP001_SH10",
+        "EP001_SH11",
+        "EP001_SH13",
+        "EP001_SH14",
+        "EP001_SH15",
+        "EP001_SH16",
+        "EP001_SH18",
+        "EP001_SH19",
+        "EP001_SH20",
+        "EP001_SH21",
+        "EP001_SH22",
+        "EP002_SH01",
+        "EP002_SH02",
+        "EP002_SH03",
+        "EP002_SH04",
+        "EP002_SH05",
+        "EP002_SH07",
+        "EP002_SH08",
+        "EP002_SH09",
+        "EP002_SH10",
+        "EP002_SH11",
+        "EP002_SH12",
+        "EP002_SH13",
+        "EP002_SH14",
+        "EP002_SH15",
+        "EP002_SH16",
+        "EP002_SH17",
+        "EP003_SH01",
+        "EP003_SH02",
+        "EP003_SH03",
+        "EP003_SH04",
+        "EP003_SH05",
+        "EP003_SH06",
+        "EP003_SH07",
+        "EP003_SH08",
+        "EP003_SH09",
+        "EP003_SH10",
+        "EP003_SH11",
+        "EP003_SH12",
+        "EP003_SH14",
+        "EP003_SH15",
+        "EP003_SH16",
+        "EP003_SH17",
+        "EP003_SH18"
+      ],
+      "candidate_asset": "陆照",
+      "candidate_path": "制作/前三集_v8_v1/资产/陆照/sheet_v04.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "增加EP002掌心药布；EP003同时保留掌布和左肩伤/包扎，旧肩板不完整"
+    },
+    {
+      "type": "人物",
+      "name": "陆禾",
+      "shots": [
+        "EP002_SH13",
+        "EP002_SH14",
+        "EP002_SH15",
+        "EP002_SH16",
+        "EP002_SH17",
+        "EP003_SH15",
+        "EP003_SH16"
+      ],
+      "candidate_asset": "陆禾",
+      "candidate_path": "制作/前三集_v8_v1/资产/陆禾/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "人物",
+      "name": "麻铎",
+      "shots": [
+        "EP001_SH01",
+        "EP001_SH05",
+        "EP001_SH06",
+        "EP001_SH07",
+        "EP001_SH08",
+        "EP001_SH09",
+        "EP001_SH10",
+        "EP001_SH12",
+        "EP001_SH13",
+        "EP001_SH14",
+        "EP001_SH15",
+        "EP001_SH19",
+        "EP002_SH01",
+        "EP002_SH05",
+        "EP002_SH07"
+      ],
+      "candidate_asset": "麻铎",
+      "candidate_path": "制作/前三集_v8_v1/资产/麻铎/sheet_v02.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "制服后湿衣与腕/踝绳状态，EP002上梯前解除脚索"
+    },
+    {
+      "type": "场景",
+      "name": "修台",
+      "shots": [
+        "EP001_SH15",
+        "EP001_SH22",
+        "EP002_SH01"
+      ],
+      "candidate_asset": "闸舱",
+      "candidate_path": "制作/前三集_v8_v1/资产/闸舱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "场景",
+      "name": "北门",
+      "shots": [
+        "EP001_SH03",
+        "EP001_SH04",
+        "EP001_SH16",
+        "EP001_SH17",
+        "EP001_SH18",
+        "EP001_SH19",
+        "EP001_SH20",
+        "EP001_SH21"
+      ],
+      "candidate_asset": "北门",
+      "candidate_path": "制作/前三集_v8_v1/资产/北门/sheet_v02.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "场景",
+      "name": "北门轮房",
+      "shots": [
+        "EP002_SH02"
+      ],
+      "candidate_asset": "北门",
+      "candidate_path": "制作/前三集_v8_v1/资产/北门/sheet_v02.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "闸门内侧轮轴与关进水动作需单独空间说明"
+    },
+    {
+      "type": "场景",
+      "name": "废船回忆",
+      "shots": [
+        "EP002_SH11",
+        "EP002_SH12"
+      ],
+      "candidate_asset": "废船",
+      "candidate_path": "制作/前三集_v8_v1/资产/废船/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "场景",
+      "name": "晒网架",
+      "shots": [
+        "EP003_SH07",
+        "EP003_SH08",
+        "EP003_SH09",
+        "EP003_SH10",
+        "EP003_SH11",
+        "EP003_SH12",
+        "EP003_SH14"
+      ],
+      "candidate_asset": "晒网架",
+      "candidate_path": "制作/前三集_v8_v1/资产/晒网架/sheet_v01.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "网角上固定下松垂；锥将折网角钉进横杆，刀须能退刃"
+    },
+    {
+      "type": "场景",
+      "name": "梯口",
+      "shots": [
+        "EP001_SH01",
+        "EP002_SH05",
+        "EP002_SH06"
+      ],
+      "candidate_asset": "梯口",
+      "candidate_path": "制作/前三集_v8_v1/资产/梯口/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "场景",
+      "name": "盐棚住屋",
+      "shots": [
+        "EP002_SH13",
+        "EP002_SH14",
+        "EP002_SH15",
+        "EP002_SH16",
+        "EP002_SH17"
+      ],
+      "candidate_asset": "住屋",
+      "candidate_path": "制作/前三集_v8_v1/资产/住屋/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "场景",
+      "name": "盐棚外",
+      "shots": [
+        "EP003_SH03",
+        "EP003_SH04",
+        "EP003_SH05",
+        "EP003_SH06",
+        "EP003_SH13"
+      ],
+      "candidate_asset": "盐棚外",
+      "candidate_path": "制作/前三集_v8_v1/资产/盐棚外/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "场景",
+      "name": "盐棚水槽",
+      "shots": [
+        "EP003_SH01"
+      ],
+      "candidate_asset": "盐棚外",
+      "candidate_path": "制作/前三集_v8_v1/资产/盐棚外/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "场景",
+      "name": "盐棚门口",
+      "shots": [
+        "EP003_SH02",
+        "EP003_SH15",
+        "EP003_SH16"
+      ],
+      "candidate_asset": "盐棚外",
+      "candidate_path": "制作/前三集_v8_v1/资产/盐棚外/sheet_v01.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "门与晒网架、石沟的相对位置按新稿重新校验"
+    },
+    {
+      "type": "场景",
+      "name": "码头",
+      "shots": [
+        "EP002_SH07",
+        "EP002_SH08",
+        "EP002_SH09"
+      ],
+      "candidate_asset": "码头",
+      "candidate_path": "制作/前三集_v8_v1/资产/码头/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "场景",
+      "name": "码头绳摊",
+      "shots": [
+        "EP003_SH17",
+        "EP003_SH18"
+      ],
+      "candidate_asset": "码头",
+      "candidate_path": "制作/前三集_v8_v1/资产/码头/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "场景",
+      "name": "绳轮旁",
+      "shots": [
+        "EP001_SH07",
+        "EP001_SH08",
+        "EP001_SH09",
+        "EP001_SH10",
+        "EP001_SH11",
+        "EP001_SH12",
+        "EP001_SH13",
+        "EP001_SH14"
+      ],
+      "candidate_asset": "闸舱",
+      "candidate_path": "制作/前三集_v8_v1/资产/闸舱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "场景",
+      "name": "闸舱",
+      "shots": [
+        "EP001_SH02",
+        "EP001_SH05",
+        "EP001_SH06"
+      ],
+      "candidate_asset": "闸舱",
+      "candidate_path": "制作/前三集_v8_v1/资产/闸舱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "场景",
+      "name": "闸舱旁沟",
+      "shots": [
+        "EP002_SH03"
+      ],
+      "candidate_asset": "闸舱",
+      "candidate_path": "制作/前三集_v8_v1/资产/闸舱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "场景",
+      "name": "闸舱货沟",
+      "shots": [
+        "EP002_SH04"
+      ],
+      "candidate_asset": "闸舱",
+      "candidate_path": "制作/前三集_v8_v1/资产/闸舱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "场景",
+      "name": "鞘摊",
+      "shots": [
+        "EP002_SH10"
+      ],
+      "candidate_asset": "码头",
+      "candidate_path": "制作/前三集_v8_v1/资产/码头/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "两只完整碗",
+      "shots": [
+        "EP002_SH15",
+        "EP002_SH16",
+        "EP002_SH17"
+      ],
+      "candidate_asset": "双碗",
+      "candidate_path": "制作/前三集_v8_v1/资产/双碗/sheet_v01.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "新饭戏结尾两只都完整，不能直接沿用一缺一整的旧成对参考"
+    },
+    {
+      "type": "道具",
+      "name": "余烬",
+      "shots": [
+        "EP001_SH15",
+        "EP002_SH11",
+        "EP002_SH12",
+        "EP003_SH14"
+      ],
+      "candidate_asset": "余烬",
+      "candidate_path": "制作/前三集_v8_v1/资产/余烬/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "保单",
+      "shots": [
+        "EP002_SH05",
+        "EP002_SH06"
+      ],
+      "candidate_asset": "保单货箱",
+      "candidate_path": "制作/前三集_v8_v1/资产/保单货箱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "剪刀",
+      "shots": [
+        "EP003_SH15"
+      ],
+      "candidate_asset": "药布",
+      "candidate_path": "制作/前三集_v8_v1/资产/药布/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "北门",
+      "shots": [
+        "EP001_SH19",
+        "EP001_SH20",
+        "EP001_SH21",
+        "EP001_SH22"
+      ],
+      "candidate_asset": "北门",
+      "candidate_path": "制作/前三集_v8_v1/资产/北门/sheet_v02.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "售船纸",
+      "shots": [
+        "EP002_SH16",
+        "EP002_SH17"
+      ],
+      "candidate_asset": "售船纸",
+      "candidate_path": "制作/前三集_v8_v1/资产/售船纸/sheet_v01.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "青蟹号船头补丁与3000铜，文字后期排版"
+    },
+    {
+      "type": "道具",
+      "name": "固定木梁",
+      "shots": [
+        "EP001_SH10",
+        "EP001_SH12"
+      ],
+      "candidate_asset": "绳轮机关",
+      "candidate_path": "制作/前三集_v8_v1/资产/绳轮机关/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "坠石",
+      "shots": [
+        "EP001_SH07",
+        "EP001_SH12"
+      ],
+      "candidate_asset": "绳轮机关",
+      "candidate_path": "制作/前三集_v8_v1/资产/绳轮机关/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "完整饭碗",
+      "shots": [
+        "EP002_SH14",
+        "EP003_SH16"
+      ],
+      "candidate_asset": "双碗",
+      "candidate_path": "制作/前三集_v8_v1/资产/双碗/sheet_v01.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "完整碗与被收走缺口碗的交换状态必须分开"
+    },
+    {
+      "type": "道具",
+      "name": "工具箱标记",
+      "shots": [
+        "EP003_SH17"
+      ],
+      "candidate_asset": "工具箱",
+      "candidate_path": "制作/前三集_v8_v1/资产/工具箱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "搬件短绳",
+      "shots": [
+        "EP001_SH13",
+        "EP001_SH14"
+      ],
+      "candidate_asset": "新绳",
+      "candidate_path": "制作/前三集_v8_v1/资产/新绳/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "新绳",
+      "shots": [
+        "EP003_SH18"
+      ],
+      "candidate_asset": "新绳",
+      "candidate_path": "制作/前三集_v8_v1/资产/新绳/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "旁沟",
+      "shots": [
+        "EP002_SH03"
+      ],
+      "candidate_asset": "闸舱",
+      "candidate_path": "制作/前三集_v8_v1/资产/闸舱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "旧盒",
+      "shots": [
+        "EP002_SH11"
+      ],
+      "candidate_asset": null,
+      "candidate_path": null,
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "新版闪回压入与烧碎状态需建立"
+    },
+    {
+      "type": "道具",
+      "name": "晒网架",
+      "shots": [
+        "EP003_SH06",
+        "EP003_SH11"
+      ],
+      "candidate_asset": "晒网架",
+      "candidate_path": "制作/前三集_v8_v1/资产/晒网架/sheet_v01.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "网角上固定下松垂；锥将折网角钉进横杆，刀须能退刃"
+    },
+    {
+      "type": "道具",
+      "name": "木楔",
+      "shots": [
+        "EP001_SH07",
+        "EP001_SH11"
+      ],
+      "candidate_asset": "绳轮机关",
+      "candidate_path": "制作/前三集_v8_v1/资产/绳轮机关/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "木榫",
+      "shots": [
+        "EP001_SH04",
+        "EP001_SH16"
+      ],
+      "candidate_asset": "闸舱",
+      "candidate_path": "制作/前三集_v8_v1/资产/闸舱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "木舌",
+      "shots": [
+        "EP001_SH04",
+        "EP001_SH18"
+      ],
+      "candidate_asset": "北门",
+      "candidate_path": "制作/前三集_v8_v1/资产/北门/sheet_v02.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "架柱",
+      "shots": [
+        "EP003_SH12",
+        "EP003_SH13"
+      ],
+      "candidate_asset": "晒网架",
+      "candidate_path": "制作/前三集_v8_v1/资产/晒网架/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "桌",
+      "shots": [
+        "EP002_SH13"
+      ],
+      "candidate_asset": "住屋",
+      "candidate_path": "制作/前三集_v8_v1/资产/住屋/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "棕兜帽",
+      "shots": [
+        "EP003_SH11",
+        "EP003_SH13"
+      ],
+      "candidate_asset": "葛牙",
+      "candidate_path": "制作/前三集_v8_v1/资产/葛牙/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "横杆",
+      "shots": [
+        "EP003_SH07",
+        "EP003_SH08",
+        "EP003_SH09",
+        "EP003_SH10"
+      ],
+      "candidate_asset": "晒网架",
+      "candidate_path": "制作/前三集_v8_v1/资产/晒网架/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "横棍",
+      "shots": [
+        "EP002_SH05",
+        "EP002_SH06"
+      ],
+      "candidate_asset": null,
+      "candidate_path": null,
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "守船人拦路与保单压棍的尺度关系需建"
+    },
+    {
+      "type": "道具",
+      "name": "止回棘爪",
+      "shots": [
+        "EP001_SH07",
+        "EP001_SH12"
+      ],
+      "candidate_asset": "绳轮机关",
+      "candidate_path": "制作/前三集_v8_v1/资产/绳轮机关/sheet_v01.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "新反制因果的必要部件，旧绳轮板未验收此结构"
+    },
+    {
+      "type": "道具",
+      "name": "死期牌",
+      "shots": [
+        "EP001_SH01"
+      ],
+      "candidate_asset": "死期牌",
+      "candidate_path": "制作/前三集_v8_v1/资产/死期牌/sheet_v01.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "后期明确“陆照/溺亡销籍/登记于六个月前”"
+    },
+    {
+      "type": "道具",
+      "name": "水桶",
+      "shots": [
+        "EP003_SH01"
+      ],
+      "candidate_asset": "铜塞水桶",
+      "candidate_path": "制作/前三集_v8_v1/资产/铜塞水桶/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "水线印",
+      "shots": [
+        "EP002_SH04"
+      ],
+      "candidate_asset": "闸舱",
+      "candidate_path": "制作/前三集_v8_v1/资产/闸舱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "油灯",
+      "shots": [
+        "EP001_SH03",
+        "EP001_SH17",
+        "EP001_SH19"
+      ],
+      "candidate_asset": "油灯",
+      "candidate_path": "制作/前三集_v8_v1/资产/油灯/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "清障图",
+      "shots": [
+        "EP003_SH17"
+      ],
+      "candidate_asset": "清障图",
+      "candidate_path": "制作/前三集_v8_v1/资产/清障图/sheet_v01.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "沉桩、白线、伤员空位、两名缆工、600铜未收讫状态；文字后期排版"
+    },
+    {
+      "type": "道具",
+      "name": "湿网",
+      "shots": [
+        "EP003_SH07",
+        "EP003_SH08",
+        "EP003_SH09",
+        "EP003_SH10",
+        "EP003_SH14"
+      ],
+      "candidate_asset": "湿网",
+      "candidate_path": "制作/前三集_v8_v1/资产/湿网/sheet_v01.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "折起、裹刀、割断两线、绷紧、松网、落下状态"
+    },
+    {
+      "type": "道具",
+      "name": "皮鞘",
+      "shots": [
+        "EP002_SH10",
+        "EP003_SH01",
+        "EP003_SH02",
+        "EP003_SH03",
+        "EP003_SH04",
+        "EP003_SH05",
+        "EP003_SH15",
+        "EP003_SH16",
+        "EP003_SH18"
+      ],
+      "candidate_asset": "皮鞘",
+      "candidate_path": "制作/前三集_v8_v1/资产/皮鞘/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "短刀",
+      "shots": [
+        "EP003_SH03",
+        "EP003_SH04",
+        "EP003_SH05",
+        "EP003_SH06",
+        "EP003_SH07",
+        "EP003_SH08",
+        "EP003_SH09",
+        "EP003_SH10",
+        "EP003_SH13"
+      ],
+      "candidate_asset": "短刀",
+      "candidate_path": "制作/前三集_v8_v1/资产/短刀/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "短绳",
+      "shots": [
+        "EP002_SH05",
+        "EP002_SH07"
+      ],
+      "candidate_asset": "新绳",
+      "candidate_path": "制作/前三集_v8_v1/资产/新绳/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "秤",
+      "shots": [
+        "EP002_SH08"
+      ],
+      "candidate_asset": "保单货箱",
+      "candidate_path": "制作/前三集_v8_v1/资产/保单货箱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "立柱",
+      "shots": [
+        "EP001_SH13",
+        "EP001_SH14",
+        "EP001_SH19"
+      ],
+      "candidate_asset": "闸舱",
+      "candidate_path": "制作/前三集_v8_v1/资产/闸舱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "系网短绳",
+      "shots": [
+        "EP003_SH12"
+      ],
+      "candidate_asset": "新绳",
+      "candidate_path": "制作/前三集_v8_v1/资产/新绳/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "结工纸",
+      "shots": [
+        "EP002_SH08"
+      ],
+      "candidate_asset": "工牌",
+      "candidate_path": "制作/前三集_v8_v1/资产/工牌/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "绳轮机关",
+      "shots": [
+        "EP001_SH05",
+        "EP001_SH06",
+        "EP001_SH07",
+        "EP001_SH08",
+        "EP001_SH09",
+        "EP001_SH10",
+        "EP001_SH11",
+        "EP001_SH12"
+      ],
+      "candidate_asset": "绳轮机关",
+      "candidate_path": "制作/前三集_v8_v1/资产/绳轮机关/sheet_v01.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "棘爪止回、固定梁避开转轮、半尺落石、索圈需同框连通"
+    },
+    {
+      "type": "道具",
+      "name": "缺口碗",
+      "shots": [
+        "EP002_SH14"
+      ],
+      "candidate_asset": "双碗",
+      "candidate_path": "制作/前三集_v8_v1/资产/双碗/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "肉",
+      "shots": [
+        "EP002_SH14",
+        "EP002_SH15"
+      ],
+      "candidate_asset": "双碗",
+      "candidate_path": "制作/前三集_v8_v1/资产/双碗/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "肩药布",
+      "shots": [
+        "EP003_SH15",
+        "EP003_SH16"
+      ],
+      "candidate_asset": "药布",
+      "candidate_path": "制作/前三集_v8_v1/资产/药布/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "船叉",
+      "shots": [
+        "EP001_SH05",
+        "EP001_SH06",
+        "EP001_SH07",
+        "EP001_SH08",
+        "EP001_SH09",
+        "EP001_SH10",
+        "EP001_SH12",
+        "EP001_SH13",
+        "EP001_SH14"
+      ],
+      "candidate_asset": "船叉",
+      "candidate_path": "制作/前三集_v8_v1/资产/船叉/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "药布",
+      "shots": [
+        "EP002_SH09"
+      ],
+      "candidate_asset": "药布",
+      "candidate_path": "制作/前三集_v8_v1/资产/药布/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "药箱",
+      "shots": [
+        "EP002_SH04",
+        "EP002_SH06",
+        "EP002_SH07"
+      ],
+      "candidate_asset": "保单货箱",
+      "candidate_path": "制作/前三集_v8_v1/资产/保单货箱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "药钱",
+      "shots": [
+        "EP002_SH09"
+      ],
+      "candidate_asset": "钱袋铜钱",
+      "candidate_path": "制作/前三集_v8_v1/资产/钱袋铜钱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "轮轴",
+      "shots": [
+        "EP002_SH02"
+      ],
+      "candidate_asset": "铜轮柄",
+      "candidate_path": "制作/前三集_v8_v1/资产/铜轮柄/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "退水栓",
+      "shots": [
+        "EP002_SH03"
+      ],
+      "candidate_asset": "退水栓",
+      "candidate_path": "制作/前三集_v8_v1/资产/退水栓/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "钱袋铜钱",
+      "shots": [
+        "EP001_SH07",
+        "EP001_SH08",
+        "EP001_SH09",
+        "EP001_SH15",
+        "EP001_SH16",
+        "EP002_SH08",
+        "EP002_SH13",
+        "EP002_SH17"
+      ],
+      "candidate_asset": "钱袋铜钱",
+      "candidate_path": "制作/前三集_v8_v1/资产/钱袋铜钱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "铜塞",
+      "shots": [
+        "EP003_SH01"
+      ],
+      "candidate_asset": "铜塞水桶",
+      "candidate_path": "制作/前三集_v8_v1/资产/铜塞水桶/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "铜轮柄",
+      "shots": [
+        "EP001_SH05",
+        "EP002_SH01",
+        "EP002_SH02"
+      ],
+      "candidate_asset": "铜轮柄",
+      "candidate_path": "制作/前三集_v8_v1/资产/铜轮柄/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "铜钱",
+      "shots": [
+        "EP002_SH10",
+        "EP002_SH16",
+        "EP003_SH02",
+        "EP003_SH17",
+        "EP003_SH18"
+      ],
+      "candidate_asset": "钱袋铜钱",
+      "candidate_path": "制作/前三集_v8_v1/资产/钱袋铜钱/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "铜销",
+      "shots": [
+        "EP001_SH04",
+        "EP001_SH16",
+        "EP001_SH18",
+        "EP001_SH22",
+        "EP002_SH01",
+        "EP002_SH04",
+        "EP002_SH05"
+      ],
+      "candidate_asset": "铜销",
+      "candidate_path": "制作/前三集_v8_v1/资产/铜销/sheet_v03.jpg",
+      "status": "needs_spec_or_revision",
+      "approved": false,
+      "requirement": "旧板孔/凹痕偏大；新稿门上保留至EP002_SH04再摘下"
+    },
+    {
+      "type": "道具",
+      "name": "铜鱼牌",
+      "shots": [
+        "EP003_SH13"
+      ],
+      "candidate_asset": "铜鱼牌",
+      "candidate_path": "制作/前三集_v8_v1/资产/铜鱼牌/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "雇工条",
+      "shots": [
+        "EP003_SH18"
+      ],
+      "candidate_asset": "工牌",
+      "candidate_path": "制作/前三集_v8_v1/资产/工牌/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "饭碗",
+      "shots": [
+        "EP002_SH13",
+        "EP003_SH02",
+        "EP003_SH04",
+        "EP003_SH15"
+      ],
+      "candidate_asset": "双碗",
+      "candidate_path": "制作/前三集_v8_v1/资产/双碗/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    },
+    {
+      "type": "道具",
+      "name": "黑钢锥",
+      "shots": [
+        "EP001_SH02",
+        "EP001_SH04",
+        "EP001_SH05",
+        "EP001_SH06",
+        "EP001_SH07",
+        "EP001_SH08",
+        "EP001_SH09",
+        "EP001_SH10",
+        "EP001_SH11",
+        "EP001_SH13",
+        "EP001_SH14",
+        "EP001_SH15",
+        "EP001_SH16",
+        "EP001_SH18",
+        "EP001_SH19",
+        "EP001_SH20",
+        "EP001_SH21",
+        "EP001_SH22",
+        "EP002_SH01",
+        "EP002_SH02",
+        "EP002_SH10",
+        "EP002_SH11",
+        "EP002_SH12",
+        "EP003_SH01",
+        "EP003_SH02",
+        "EP003_SH03",
+        "EP003_SH04",
+        "EP003_SH05",
+        "EP003_SH06",
+        "EP003_SH07",
+        "EP003_SH08",
+        "EP003_SH09",
+        "EP003_SH10",
+        "EP003_SH11",
+        "EP003_SH12",
+        "EP003_SH14",
+        "EP003_SH15"
+      ],
+      "candidate_asset": "黑钢锥",
+      "candidate_path": "制作/前三集_v8_v1/资产/黑钢锥/sheet_v01.jpg",
+      "status": "candidate_pending_new_version_review",
+      "approved": false,
+      "requirement": "按当前镜头的服装、湿干、尺寸、轴线与前后状态逐项复核，不能按名称直接通过"
+    }
+  ]
+}

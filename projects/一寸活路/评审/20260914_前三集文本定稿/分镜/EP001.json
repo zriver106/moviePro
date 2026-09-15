@@ -1,0 +1,1738 @@
+{
+  "id": "EP001",
+  "title": "死人领工钱",
+  "aspect_ratio": "16:9",
+  "style": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting. ",
+  "note": "2026-09-14节奏与连续性重修。第一集承诺：活人被记死→救人受阻→陆照反制→一痕生效→三人获救。场景沿小说闸舱重构空间：镜头从南向北偏东观察，南梯在画左，北门画右，西壁修台沿画面后侧相连。北门下有门槛，修台比门外地坪高；内室蓄水，外室浅水。绳轮在修台近南端；麻铎倒下的位置在近南侧柱旁，离北门涌水主路有距离。搬件活套、制动楔、坠石连接必须在机关关系镜同框可辨。增层0→1，仅来自制服麻铎；不因开门或救人再增。声音中的老人是陆照对旧话的回忆，第二集交代来源。制动楔放轮、棘爪止回；坠石落架后靠棘爪锁索，不靠失去悬重的石头维持。绑腕分为压制镜与省略缠绕后的末结镜。铜片本集一直留门上。 本文件是文字分镜；时长为剪辑预算，尚待配音和动作样片实测。旧彩色故事板、关键帧及视频均不能作为本版画面验收依据。",
+  "target_seconds": 60.0,
+  "shots": [
+    {
+      "id": "EP001_SH01",
+      "seconds": 3,
+      "design_seconds": 3,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "陆照指尖压住自己的名字，指腹仍有鲜红擦口",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "dry"
+        },
+        {
+          "name": "麻铎",
+          "state": "dry"
+        }
+      ],
+      "location": {
+        "id": "梯口",
+        "desc": "梯口"
+      },
+      "camera": {
+        "size": "detail",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "特写 / 65mm / 固定机位",
+      "action": {
+        "start": "木牌正面占画面，后期贴“陆照／溺亡销籍”，小字“登记于六个月前”",
+        "beat": "陆照指尖压住自己的名字，指腹仍有鲜红擦口",
+        "end": "麻铎的手从上方翻走木牌"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "死期牌"
+      ],
+      "character_states": {
+        "陆照": "dry",
+        "麻铎": "dry"
+      },
+      "continuity_out": "麻铎的手从上方翻走木牌",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  detail shot, 65mm lens. A wooden death-register tag fills the frame; the tag carries a blank tracked surface for post-composited name and death entry. Lu Zhao's scraped fingertip presses his name.",
+        "action_en": "A wooden death-register tag fills the frame; the tag carries a blank tracked surface for post-composited name and death entry. Lu Zhao's scraped fingertip presses his name. Then Ma Duo's hand turns the tag away.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "死亡登记文字不在牌面、名字不可读或翻牌早于文字读清",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [
+        {
+          "text": "陆照\n溺亡销籍\n登记于六个月前",
+          "method": "post_composite",
+          "placement": "木牌正面",
+          "generation_surface": "blank"
+        }
+      ],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP001_SH02",
+      "seconds": 4.5,
+      "design_seconds": 4.5,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "他抬头看门，沿西壁修台靠过去；锥挂腰边",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        }
+      ],
+      "location": {
+        "id": "闸舱",
+        "desc": "闸舱"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "track"
+      },
+      "camera_cn": "全景 / 35mm / 随人物平移",
+      "action": {
+        "start": "陆照沿画左南梯下到浅水，画右北门高处传出拍击",
+        "beat": "他抬头看门，沿西壁修台靠过去；锥挂腰边",
+        "end": "右门检修口透出灯光，进水声盖住脚步"
+      },
+      "lines": [
+        {
+          "speaker": "陆照",
+          "text": "二百四十铜，够姐姐歇十二天。",
+          "off_screen": true,
+          "at": 0.1,
+          "end": 4.1
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "黑钢锥"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "右门检修口透出灯光，进水声盖住脚步",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。陆照（心声）0.1—4.1秒：二百四十铜，够姐姐歇十二天。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Lu Zhao descends the south ladder at screen left into ankle-deep water. A raised repair ledge connects the ladder area to the north door at screen right; pounding comes from its high inspection opening.",
+        "action_en": "Lu Zhao descends the south ladder at screen left into ankle-deep water. A raised repair ledge connects the ladder area to the north door at screen right; pounding comes from its high inspection opening. Then the camera tracks with him toward the lit opening; his black awl stays at his belt and his boots and lower tunic become wet.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "track",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              4.5
+            ],
+            "move": true,
+            "cn": "陆照沿画左南梯下到浅水，画右北门高处传出拍击 → 他抬头看门，沿西壁修台靠过去；锥挂腰边 → 右门检修口透出灯光，进水声盖住脚步。声音窗口：陆照（心声） 0.1—4.1秒",
+            "action": "Lu Zhao descends the south ladder at screen left into ankle-deep water. A raised repair ledge connects the ladder area to the north door at screen right; pounding comes from its high inspection opening. Then the camera tracks with him toward the lit opening; his black awl stays at his belt and his boots and lower tunic become wet."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "动作因果与本镜起止状态不一致",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH03",
+      "seconds": 2.5,
+      "design_seconds": 2.5,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "闻溪朝检修口喊“三个人！开门！”",
+      "cast": [
+        {
+          "name": "闻溪",
+          "state": "wet"
+        },
+        {
+          "name": "灰胡子工人",
+          "state": "wet"
+        },
+        {
+          "name": "阿砾",
+          "state": "wet"
+        }
+      ],
+      "location": {
+        "id": "北门",
+        "desc": "北门"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "门内朝检修口侧拍：闻溪把灯搁上沿，灰胡子工人扶门框，低处阿砾手拍门",
+        "beat": "闻溪朝检修口喊“三个人！开门！”",
+        "end": "阿砾手滑下，闻溪回身托住老人"
+      },
+      "lines": [
+        {
+          "speaker": "闻溪",
+          "text": "三个人！开门！",
+          "off_screen": false,
+          "at": 0.1,
+          "end": 2.1
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "油灯"
+      ],
+      "character_states": {
+        "闻溪": "wet",
+        "灰胡子工人": "wet",
+        "阿砾": "wet"
+      },
+      "continuity_out": "阿砾手滑下，闻溪回身托住老人",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。闻溪（同期对白）0.1—2.1秒：三个人！开门！",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Inside the flooded room, camera faces sideways toward the inspection opening. Wen Xi places the lamp on its inner ledge, a grey-bearded worker holds the jamb and Ali pounds the panel lower down.",
+        "action_en": "Inside the flooded room, camera faces sideways toward the inspection opening. Wen Xi places the lamp on its inner ledge, a grey-bearded worker holds the jamb and Ali pounds the panel lower down. Then she calls toward the opening; Ali's hand slips down and she turns to support the worker.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              2.5
+            ],
+            "move": false,
+            "cn": "门内朝检修口侧拍：闻溪把灯搁上沿，灰胡子工人扶门框，低处阿砾手拍门 → 闻溪朝检修口喊“三个人！开门！” → 阿砾手滑下，闻溪回身托住老人。声音窗口：闻溪（同期对白） 0.1—2.1秒",
+            "action": "Inside the flooded room, camera faces sideways toward the inspection opening. Wen Xi places the lamp on its inner ledge, a grey-bearded worker holds the jamb and Ali pounds the panel lower down. Then she calls toward the opening; Ali's hand slips down and she turns to support the worker."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 3,
+        "fail_if": [
+          "三名被困者的相对高低或可见手臂归属错误",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH04",
+      "seconds": 2.5,
+      "design_seconds": 2.5,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "双手直推黑锥，传来钝响，双手被顶回",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        }
+      ],
+      "location": {
+        "id": "北门",
+        "desc": "北门"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "全景 / 35mm / 固定机位",
+      "action": {
+        "start": "侧面全景同框陆照抵木榫的双脚、双手与门锁，木舌从检修口可见",
+        "beat": "双手直推黑锥，传来钝响，双手被顶回",
+        "end": "他收锥；铜面仅留浅凹，门仍锁着"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "木榫",
+        "黑钢锥",
+        "铜销",
+        "木舌"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "他收锥；铜面仅留浅凹，门仍锁着",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Side wide view shows Lu Zhao braced at the wooden foot stops, holding the awl in both hands against the door lock. The latch is visible through the inspection opening.",
+        "action_en": "Side wide view shows Lu Zhao braced at the wooden foot stops, holding the awl in both hands against the door lock. The latch is visible through the inspection opening. Then he thrusts, recoils at a dull impact and draws back; the copper is only dented and the door stays shut.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "首次铜面被穿透；双手或脚跟支撑不可见",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH05",
+      "seconds": 4,
+      "design_seconds": 4,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "他用叉封住陆照回梯的方向，逼陆照往修台南端退",
+      "cast": [
+        {
+          "name": "麻铎",
+          "state": "wet_boots"
+        },
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        }
+      ],
+      "location": {
+        "id": "闸舱",
+        "desc": "闸舱"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "全景 / 35mm / 固定机位",
+      "action": {
+        "start": "麻铎持叉踏到南梯脚，腰间铜轮柄晃动",
+        "beat": "他用叉封住陆照回梯的方向，逼陆照往修台南端退",
+        "end": "陆照停在绳轮侧，北门仍在画右"
+      },
+      "lines": [
+        {
+          "speaker": "麻铎",
+          "text": "省点力气。门不用开了。",
+          "off_screen": false,
+          "at": 0.2,
+          "end": 3.5
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "船叉",
+        "铜轮柄",
+        "黑钢锥",
+        "绳轮机关"
+      ],
+      "character_states": {
+        "麻铎": "wet_boots",
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "陆照停在绳轮侧，北门仍在画右",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。麻铎（同期对白）0.2—3.5秒：省点力气。门不用开了。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Ma Duo steps into the shallow water by the south ladder at screen left; a detached bronze crank hangs from his belt.",
+        "action_en": "Ma Duo steps into the shallow water by the south ladder at screen left; a detached bronze crank hangs from his belt. Then he blocks Lu Zhao's retreat with his fork and drives him toward the south end of the repair ledge beside the winch. The north door remains at screen right.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              4
+            ],
+            "move": false,
+            "cn": "麻铎持叉踏到南梯脚，腰间铜轮柄晃动 → 他用叉封住陆照回梯的方向，逼陆照往修台南端退 → 陆照停在绳轮侧，北门仍在画右。声音窗口：麻铎（同期对白） 0.2—3.5秒",
+            "action": "Ma Duo steps into the shallow water by the south ladder at screen left; a detached bronze crank hangs from his belt. Then he blocks Lu Zhao's retreat with his fork and drives him toward the south end of the repair ledge beside the winch. The north door remains at screen right."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "动作因果与本镜起止状态不一致",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH06",
+      "seconds": 3,
+      "design_seconds": 3,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "陆照朝北门偏一下脸；麻铎把叉再送近",
+      "cast": [
+        {
+          "name": "麻铎",
+          "state": "wet_boots"
+        },
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        }
+      ],
+      "location": {
+        "id": "闸舱",
+        "desc": "闸舱"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "麻铎画左、陆照画右，叉尖横在两人之间",
+        "beat": "陆照朝北门偏一下脸；麻铎把叉再送近",
+        "end": "陆照后腰抵上绳轮轴架"
+      },
+      "lines": [
+        {
+          "speaker": "陆照",
+          "text": "他们还活着。",
+          "off_screen": false,
+          "at": 0.1,
+          "end": 1.4
+        },
+        {
+          "speaker": "麻铎",
+          "text": "账上没有。",
+          "off_screen": false,
+          "at": 1.5,
+          "end": 2.8
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "船叉",
+        "黑钢锥",
+        "绳轮机关"
+      ],
+      "character_states": {
+        "麻铎": "wet_boots",
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "陆照后腰抵上绳轮轴架",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。陆照（同期对白）0.1—1.4秒：他们还活着。；麻铎（同期对白）1.5—2.8秒：账上没有。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Ma Duo stands left and Lu Zhao right with the fork between them. Lu Zhao glances toward the trapped people as he speaks.",
+        "action_en": "Ma Duo stands left and Lu Zhao right with the fork between them. Lu Zhao glances toward the trapped people as he speaks. Then Ma Duo answers and presses forward until Lu Zhao's hip meets the winch frame.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              3
+            ],
+            "move": false,
+            "cn": "麻铎画左、陆照画右，叉尖横在两人之间 → 陆照朝北门偏一下脸；麻铎把叉再送近 → 陆照后腰抵上绳轮轴架。声音窗口：陆照（同期对白） 0.1—1.4秒；麻铎（同期对白） 1.5—2.8秒",
+            "action": "Ma Duo stands left and Lu Zhao right with the fork between them. Lu Zhao glances toward the trapped people as he speaks. Then Ma Duo answers and presses forward until Lu Zhao's hip meets the winch frame."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "动作因果与本镜起止状态不一致",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH07",
+      "seconds": 3,
+      "design_seconds": 3,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "钱袋被陆照从腰边摸出；坠石下方承架与石底相距半尺",
+      "cast": [
+        {
+          "name": "麻铎",
+          "state": "wet_boots"
+        },
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        }
+      ],
+      "location": {
+        "id": "绳轮旁",
+        "desc": "绳轮旁"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "全景 / 35mm / 固定机位",
+      "action": {
+        "start": "低侧角同框：轮下外伸木楔、浅水里的搬件索圈、向上绕过轮轴的绳与坠石，轮边已有的止回棘爪搭住齿背；陆照在右边",
+        "beat": "钱袋被陆照从腰边摸出；坠石下方承架与石底相距半尺",
+        "end": "麻铎左脚逼近索圈边缘，叉朝陆照上身；北门拍响"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "绳轮机关",
+        "木楔",
+        "坠石",
+        "钱袋铜钱",
+        "船叉",
+        "黑钢锥",
+        "止回棘爪"
+      ],
+      "character_states": {
+        "麻铎": "wet_boots",
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "麻铎左脚逼近索圈边缘，叉朝陆照上身；北门拍响",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. A low wide side angle clearly shows one continuous rope from an open cargo loop in the shallow water over the winch to a stone weight, with a handspan gap above its catch-frame; the projecting brake wedge holds the drum. Lu Zhao at right reaches for his purse. The existing ratchet pawl rests against the gear back, permitting forward rotation and stopping reverse movement.",
+        "action_en": "A low wide side angle clearly shows one continuous rope from an open cargo loop in the shallow water over the winch to a stone weight, with a handspan gap above its catch-frame; the projecting brake wedge holds the drum. Lu Zhao at right reaches for his purse. Then Ma Duo's leading foot at left approaches the loop as the north door pounds; his fork targets Lu Zhao above the rope. An existing ratchet pawl rests on the gear back, allowing forward rotation and preventing reverse unwinding.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "绳索断接、坠石已坐承架、木楔不制动或索圈被画成另一根绳",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH08",
+      "seconds": 2.5,
+      "design_seconds": 2.5,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "钱袋落在麻铎进攻线路上的索圈中央，铜钱轻响",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_boots"
+        }
+      ],
+      "location": {
+        "id": "绳轮旁",
+        "desc": "绳轮旁"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "陆照右手掷钱袋，左手仍握锥；北门又一记拍响使麻铎偏头",
+        "beat": "钱袋落在麻铎进攻线路上的索圈中央，铜钱轻响",
+        "end": "麻铎目光落袋，立即再看陆照"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "钱袋铜钱",
+        "黑钢锥",
+        "绳轮机关",
+        "船叉"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic",
+        "麻铎": "wet_boots"
+      },
+      "continuity_out": "麻铎目光落袋，立即再看陆照",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao keeps the awl in his left hand and tosses the small purse with his right during a pounding sound from the door.",
+        "action_en": "Lu Zhao keeps the awl in his left hand and tosses the small purse with his right during a pounding sound from the door. Then the purse lands inside the cargo loop directly on Ma Duo's forward attack path; Ma Duo glances down at the clink and back at Lu Zhao.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "动作因果与本镜起止状态不一致",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH09",
+      "seconds": 2.5,
+      "design_seconds": 2.5,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "他追刺上台边的陆照，后脚踏进宽索圈",
+      "cast": [
+        {
+          "name": "麻铎",
+          "state": "wet_boots"
+        },
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        }
+      ],
+      "location": {
+        "id": "绳轮旁",
+        "desc": "绳轮旁"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "全景 / 35mm / 固定机位",
+      "action": {
+        "start": "麻铎仍以叉控制陆照，前脚越过钱袋",
+        "beat": "他追刺上台边的陆照，后脚踏进宽索圈",
+        "end": "陆照向轴架外侧让身"
+      },
+      "lines": [
+        {
+          "speaker": "麻铎",
+          "text": "这点钱买命？",
+          "off_screen": false,
+          "at": 0.1,
+          "end": 1.9
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "船叉",
+        "钱袋铜钱",
+        "绳轮机关",
+        "黑钢锥"
+      ],
+      "character_states": {
+        "麻铎": "wet_boots",
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "陆照向轴架外侧让身",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。麻铎（同期对白）0.1—1.9秒：这点钱买命？",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Ma Duo keeps the fork aimed at Lu Zhao, steps beyond the purse and brings his rear foot into the broad cargo loop while thrusting.",
+        "action_en": "Ma Duo keeps the fork aimed at Lu Zhao, steps beyond the purse and brings his rear foot into the broad cargo loop while thrusting. Then Lu Zhao pivots outside the axle frame; the fork travels toward a timber beam separate from the moving drum.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              2.5
+            ],
+            "move": false,
+            "cn": "麻铎仍以叉控制陆照，前脚越过钱袋 → 他追刺上台边的陆照，后脚踏进宽索圈 → 陆照向轴架外侧让身。声音窗口：麻铎（同期对白） 0.1—1.9秒",
+            "action": "Ma Duo keeps the fork aimed at Lu Zhao, steps beyond the purse and brings his rear foot into the broad cargo loop while thrusting. Then Lu Zhao pivots outside the axle frame; the fork travels toward a timber beam separate from the moving drum."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "动作因果与本镜起止状态不一致",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH10",
+      "seconds": 2,
+      "design_seconds": 2,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "叉尖扎进绳轮旁的固定木梁；梁与转轮之间留有清楚空隙",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_boots"
+        }
+      ],
+      "location": {
+        "id": "绳轮旁",
+        "desc": "绳轮旁"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "陆照闪开，叉尖擦过他的腰侧",
+        "beat": "叉尖扎进绳轮旁的固定木梁；梁与转轮之间留有清楚空隙",
+        "end": "麻铎两手回抽叉柄；陆照将锥横搁身侧修台"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "船叉",
+        "固定木梁",
+        "黑钢锥",
+        "绳轮机关"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic",
+        "麻铎": "wet_boots"
+      },
+      "continuity_out": "麻铎两手回抽叉柄；陆照将锥横搁身侧修台",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao slips aside; the fork embeds in a fixed wooden beam beside the winch, with a visible gap between beam and rotating drum.",
+        "action_en": "Lu Zhao slips aside; the fork embeds in a fixed wooden beam beside the winch, with a visible gap between beam and rotating drum. Then Ma Duo grips the shaft to pull it free while Lu Zhao lays the awl sideways on the ledge beside him.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "船叉插入转轮或绳索运动路径；锥悬空消失",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH11",
+      "seconds": 1.5,
+      "design_seconds": 1.5,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "双手向外抽楔",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        }
+      ],
+      "location": {
+        "id": "绳轮旁",
+        "desc": "绳轮旁"
+      },
+      "camera": {
+        "size": "detail",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "特写 / 65mm / 固定机位",
+      "action": {
+        "start": "锥已静放修台，陆照双手扣住轮下外伸木楔",
+        "beat": "双手向外抽楔",
+        "end": "转轮启动，绳瞬间绷直"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "木楔",
+        "绳轮机关",
+        "黑钢锥"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "转轮启动，绳瞬间绷直",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  detail shot, 65mm lens. The awl rests visibly on the ledge above Lu Zhao's hands.",
+        "action_en": "The awl rests visibly on the ledge above Lu Zhao's hands. Then he pulls the projecting brake wedge outward with both hands; the drum starts turning and the rope tightens.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "未抽楔绳先动；陆照仍握锥却出现第三只手",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP001_SH12",
+      "seconds": 2.5,
+      "design_seconds": 2.5,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "同根绳将麻铎双踝收拢；他仰倒浅水，松开叉柄",
+      "cast": [
+        {
+          "name": "麻铎",
+          "state": "wet_from_fall"
+        }
+      ],
+      "location": {
+        "id": "绳轮旁",
+        "desc": "绳轮旁"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "全景 / 35mm / 固定机位",
+      "action": {
+        "start": "沿已建立低侧角，坠石落到半尺下的承架，棘爪随轮跳过齿背",
+        "beat": "同根绳将麻铎双踝收拢；他仰倒浅水，松开叉柄",
+        "end": "坠石停稳，棘爪扣齿锁住回转，脚索仍紧；叉留固定梁上"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "绳轮机关",
+        "坠石",
+        "船叉",
+        "固定木梁",
+        "止回棘爪"
+      ],
+      "character_states": {
+        "麻铎": "wet_from_fall"
+      },
+      "continuity_out": "坠石停稳，棘爪扣齿锁住回转，脚索仍紧；叉留固定梁上",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Return to the established low side angle. The weight drops a handspan onto the catch-frame as the ratchet clicks forward.",
+        "action_en": "Return to the established low side angle. The weight drops a handspan onto the catch-frame as the ratchet clicks forward. Then the rope draws Ma Duo's ankles together and he falls backward into shallow water, releasing the fork. The seated pawl prevents the drum from unwinding after the stone rests on its frame; the ankle loop stays tight and the fork remains in the fixed beam.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "缺少落水动作；石继续坠落；船叉跟随人物凭空落水",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH13",
+      "seconds": 2,
+      "design_seconds": 2,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "陆照膝压胸口，把麻铎双腕牢牢压到低柱脚，麻铎脚索仍紧",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_from_fall"
+        }
+      ],
+      "location": {
+        "id": "绳轮旁",
+        "desc": "绳轮旁"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "麻铎挣着伸手够叉，陆照扑到身侧",
+        "beat": "陆照膝压胸口，把麻铎双腕牢牢压到低柱脚，麻铎脚索仍紧",
+        "end": "麻铎再挣，手离固定梁上的叉还差一截"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "搬件短绳",
+        "立柱",
+        "船叉",
+        "黑钢锥"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic",
+        "麻铎": "wet_from_fall"
+      },
+      "continuity_out": "麻铎再挣，手离固定梁上的叉还差一截",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Ma Duo struggles to reach the embedded fork.",
+        "action_en": "Ma Duo struggles to reach the embedded fork. Then Lu Zhao drops beside him, pins his chest with a knee and presses both wrists firmly against the low post while the ankle rope remains taut; another struggle still leaves the weapon out of reach.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "未绕腕柱就出现绑好状态；麻铎落水后衣服变干；船叉位置跳变",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH14",
+      "seconds": 1.5,
+      "design_seconds": 1.5,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "陆照双手收紧最后一扣",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_from_fall"
+        }
+      ],
+      "location": {
+        "id": "绳轮旁",
+        "desc": "绳轮旁"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "同机位时间省略硬切：短绳已绕腕柱，陆照仍膝压胸",
+        "beat": "陆照双手收紧最后一扣",
+        "end": "他试松膝，麻铎双腕被短绳留在柱脚"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "搬件短绳",
+        "立柱",
+        "船叉",
+        "黑钢锥"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic",
+        "麻铎": "wet_from_fall"
+      },
+      "continuity_out": "他试松膝，麻铎双腕被短绳留在柱脚",
+      "transition_cn": "前镜至本镜明确时间省略硬切；不可生成绳自动缠绕",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. An explicit same-angle time cut skips the repetitive wrapping. The short rope is already around the wrists and post and Lu Zhao still pins the chest with his knee.",
+        "action_en": "An explicit same-angle time cut skips the repetitive wrapping. The short rope is already around the wrists and post and Lu Zhao still pins the chest with his knee. Then he tightens the final knot and eases his knee; Ma Duo's wrists remain secured to the post.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "时间省略被误生成为单镜自动绑绳",
+          "麻铎落水后变干",
+          "船叉离开固定梁"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH15",
+      "seconds": 4.5,
+      "design_seconds": 4.5,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "陆照右手压胸，回忆中老人的声音响起；视线转向北门的铜销",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_from_fall"
+        }
+      ],
+      "location": {
+        "id": "修台",
+        "desc": "修台"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "陆照松开压制，胸骨内亮起一线暖红；麻铎在后景再次挣动",
+        "beat": "陆照右手压胸，回忆中老人的声音响起；视线转向北门的铜销",
+        "end": "他左手拾回钱袋扣进腰带，右手拿起台上原锥"
+      },
+      "lines": [
+        {
+          "speaker": "老人",
+          "text": "胜过真敌，直刺添一痕。",
+          "off_screen": true,
+          "at": 0.3,
+          "end": 3.8
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "余烬",
+        "钱袋铜钱",
+        "黑钢锥"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic",
+        "麻铎": "wet_from_fall"
+      },
+      "continuity_out": "他左手拾回钱袋扣进腰带，右手拿起台上原锥",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。老人（回忆画外音）0.3—3.8秒：胜过真敌，直刺添一痕。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao rises as a thin amber mark glows beneath his sternum; the bound soaked Ma Duo strains in the background.",
+        "action_en": "Lu Zhao rises as a thin amber mark glows beneath his sternum; the bound soaked Ma Duo strains in the background. Then Lu Zhao presses his chest, hears the remembered old man's voice, looks toward the copper lock, retrieves the purse with his left hand into his belt and takes the same awl from the ledge with his right.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              4.5
+            ],
+            "move": false,
+            "cn": "陆照松开压制，胸骨内亮起一线暖红；麻铎在后景再次挣动 → 陆照右手压胸，回忆中老人的声音响起；视线转向北门的铜销 → 他左手拾回钱袋扣进腰带，右手拿起台上原锥。声音窗口：老人（陆照回忆中的画外音） 0.3—3.8秒",
+            "action": "Lu Zhao rises as a thin amber mark glows beneath his sternum; the bound soaked Ma Duo strains in the background. Then Lu Zhao presses his chest, hears the remembered old man's voice, looks toward the copper lock, retrieves the purse with his left hand into his belt and takes the same awl from the ledge with his right."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 2,
+        "fail_if": [
+          "动作因果与本镜起止状态不一致",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH16",
+      "seconds": 2,
+      "design_seconds": 2,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "双脚重新抵同一木榫，双手握原锥",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        }
+      ],
+      "location": {
+        "id": "北门",
+        "desc": "北门"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "陆照回到原修台位置，钱袋已挂腰",
+        "beat": "双脚重新抵同一木榫，双手握原锥",
+        "end": "锥尖对准左凹旁右侧完好铜面"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "木榫",
+        "黑钢锥",
+        "铜销",
+        "钱袋铜钱"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "锥尖对准左凹旁右侧完好铜面",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Lu Zhao returns to the same ledge position, with the recovered purse secured at his waist.",
+        "action_en": "Lu Zhao returns to the same ledge position, with the recovered purse secured at his waist. Then he braces both heels on the same wooden stops and aligns the same awl with intact copper just right of the earlier dent.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "重刺旧凹；站位改变使增强对照失效",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH17",
+      "seconds": 1,
+      "design_seconds": 1,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "她闭唇抬眼",
+      "cast": [
+        {
+          "name": "闻溪",
+          "state": "wet"
+        }
+      ],
+      "location": {
+        "id": "北门",
+        "desc": "北门"
+      },
+      "camera": {
+        "size": "close",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "近景 / 65mm / 固定机位",
+      "action": {
+        "start": "闻溪唇边水一颤，灯在检修口上沿",
+        "beat": "她闭唇抬眼",
+        "end": "拍门手垂下，声音骤静"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "油灯"
+      ],
+      "character_states": {
+        "闻溪": "wet"
+      },
+      "continuity_out": "拍门手垂下，声音骤静",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  close shot, 65mm lens. Water trembles at Wen Xi's lower lip; her lantern rests against the upper lip of the inspection opening.",
+        "action_en": "Water trembles at Wen Xi's lower lip; her lantern rests against the upper lip of the inspection opening. Then she closes her mouth and raises her eyes as her pounding hand drops.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "动作因果与本镜起止状态不一致",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH18",
+      "seconds": 2,
+      "design_seconds": 2,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "双手直推，黑锥穿透右侧铜面，锥尖顶开后方木舌",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        }
+      ],
+      "location": {
+        "id": "北门",
+        "desc": "北门"
+      },
+      "camera": {
+        "size": "detail",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "特写 / 65mm / 固定机位",
+      "action": {
+        "start": "左凹右侧的完整铜与锥尖同框",
+        "beat": "双手直推，黑锥穿透右侧铜面，锥尖顶开后方木舌",
+        "end": "扣牙落下；锥马上沿原方向抽回"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "黑钢锥",
+        "铜销",
+        "木舌"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic"
+      },
+      "continuity_out": "扣牙落下；锥马上沿原方向抽回",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  detail shot, 65mm lens. The old dent at left and intact copper at right share the frame with the awl.",
+        "action_en": "The old dent at left and intact copper at right share the frame with the awl. Then both hands push straight; the awl pierces the intact copper and displaces the wooden tongue visible behind it. The latch tooth drops and the awl withdraws along its entry path.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 1,
+        "fail_if": [
+          "锥未穿铜木舌先开；结尾锥仍留锁中",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "hands_or_object"
+    },
+    {
+      "id": "EP001_SH19",
+      "seconds": 3,
+      "design_seconds": 3,
+      "source": {
+        "chapter": 1,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "北门被内水推开；水从中间低地冲向南梯下集水洼，麻铎在南侧柱旁高基座边、头高于冲流",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        },
+        {
+          "name": "闻溪",
+          "state": "wet"
+        },
+        {
+          "name": "麻铎",
+          "state": "wet_from_fall"
+        }
+      ],
+      "location": {
+        "id": "北门",
+        "desc": "北门"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "全景 / 35mm / 固定机位",
+      "action": {
+        "start": "接扣牙落地，陆照已侧站西壁高修台、锥插回腰环，避开门扇弧线",
+        "beat": "北门被内水推开；水从中间低地冲向南梯下集水洼，麻铎在南侧柱旁高基座边、头高于冲流",
+        "end": "陆照肩抵住门边，右手伸给闻溪；灯留门内检修口上沿"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "北门",
+        "黑钢锥",
+        "油灯",
+        "立柱"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic",
+        "闻溪": "wet",
+        "麻铎": "wet_from_fall"
+      },
+      "continuity_out": "陆照肩抵住门边，右手伸给闻溪；灯留门内检修口上沿",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Cut wider on the falling latch. Lu Zhao steps sideways on the raised west ledge and tucks the awl into his belt clear of the door swing.",
+        "action_en": "Cut wider on the falling latch. Lu Zhao steps sideways on the raised west ledge and tucks the awl into his belt clear of the door swing. Then the inside water pushes the door open and runs along the central lower floor toward the south sump. The bound Ma Duo is visible at the side of the southern post base, his head above the flow and away from its central path. Lu Zhao braces the door edge with his shoulder and reaches his right hand toward Wen Xi; the lantern stays on the inside opening ledge.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 3,
+        "fail_if": [
+          "水从低处倒流高处；门扇穿过陆照；麻铎被冲没或凭空消失",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH20",
+      "seconds": 4.5,
+      "design_seconds": 4.5,
+      "source": {
+        "chapter": 2,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "闻溪攀稳后与陆照各扶老人一侧，一起把他带上台",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        },
+        {
+          "name": "闻溪",
+          "state": "wet"
+        },
+        {
+          "name": "灰胡子工人",
+          "state": "wet"
+        }
+      ],
+      "location": {
+        "id": "北门",
+        "desc": "北门"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "全景 / 35mm / 固定机位",
+      "action": {
+        "start": "闻溪已一膝攀上修台，陆照拉住她前臂；老人贴着门槛",
+        "beat": "闻溪攀稳后与陆照各扶老人一侧，一起把他带上台",
+        "end": "老人坐稳，闻溪马上指回门内：阿砾"
+      },
+      "lines": [
+        {
+          "speaker": "闻溪",
+          "text": "阿砾！",
+          "off_screen": false,
+          "at": 3.5,
+          "end": 4.3
+        }
+      ],
+      "dialogue": null,
+      "uses": [
+        "北门",
+        "黑钢锥"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic",
+        "闻溪": "wet",
+        "灰胡子工人": "wet"
+      },
+      "continuity_out": "老人坐稳，闻溪马上指回门内：阿砾",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。闻溪（同期对白）3.5—4.3秒：阿砾！",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. Wen Xi already has one knee on the raised ledge and Lu Zhao holds her forearm; the old worker waits against the threshold.",
+        "action_en": "Wen Xi already has one knee on the raised ledge and Lu Zhao holds her forearm; the old worker waits against the threshold. Then she climbs the last step and joins Lu Zhao, each supporting one side of the worker as they bring him onto the ledge. The worker sits; she immediately points back inside for Ali.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked",
+        "beats_en": [
+          {
+            "at": [
+              0,
+              4.5
+            ],
+            "move": false,
+            "cn": "闻溪已一膝攀上修台，陆照拉住她前臂；老人贴着门槛 → 闻溪攀稳后与陆照各扶老人一侧，一起把他带上台 → 老人坐稳，闻溪马上指回门内：阿砾。声音窗口：闻溪（同期对白） 3.5—4.3秒",
+            "action": "Wen Xi already has one knee on the raised ledge and Lu Zhao holds her forearm; the old worker waits against the threshold. Then she climbs the last step and joins Lu Zhao, each supporting one side of the worker as they bring him onto the ledge. The worker sits; she immediately points back inside for Ali."
+          }
+        ]
+      },
+      "qc": {
+        "headcount": 3,
+        "fail_if": [
+          "灰胡子工人被画成赠余烬老人；扶救人数错误",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH21",
+      "seconds": 4,
+      "design_seconds": 4,
+      "source": {
+        "chapter": 2,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "陆照双膝落稳，一手抓阿砾前臂，一手托膝，将腿抬过槛",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        },
+        {
+          "name": "闻溪",
+          "state": "wet"
+        },
+        {
+          "name": "阿砾",
+          "state": "wet"
+        }
+      ],
+      "location": {
+        "id": "北门",
+        "desc": "北门"
+      },
+      "camera": {
+        "size": "medium",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "中景 / 50mm / 固定机位",
+      "action": {
+        "start": "阿砾一手抓住内门框，膝腿卡门槛；闻溪跪台边扶住陆照腰带",
+        "beat": "陆照双膝落稳，一手抓阿砾前臂，一手托膝，将腿抬过槛",
+        "end": "阿砾翻到修台吐水，陆照仍撑在他旁边"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "北门",
+        "黑钢锥"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic",
+        "闻溪": "wet",
+        "阿砾": "wet"
+      },
+      "continuity_out": "阿砾翻到修台吐水，陆照仍撑在他旁边",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  medium shot, 50mm lens. Ali clings to the inside jamb with his leg caught below the threshold. Wen Xi kneels on the ledge and anchors Lu Zhao by his belt.",
+        "action_en": "Ali clings to the inside jamb with his leg caught below the threshold. Wen Xi kneels on the ledge and anchors Lu Zhao by his belt. Then Lu Zhao plants both knees, grips Ali's forearm with one hand and lifts his knee over the sill with the other. Ali rolls onto the ledge coughing water while Lu Zhao stays braced beside him.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 3,
+        "fail_if": [
+          "陆照站着隔空提人；阿砾腿未脱槛即转移上台",
+          "角色身份、服装与本镜状态不一致"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    },
+    {
+      "id": "EP001_SH22",
+      "seconds": 2,
+      "design_seconds": 2,
+      "source": {
+        "chapter": 2,
+        "script_path": "剧本/EP001.md",
+        "adaptation": "重排原有事件；场次不机械对应小说章节",
+        "script_digest": "acefe704e7587f22"
+      },
+      "intent": "阿砾吸进第一大口气，陆照肩头松下来",
+      "cast": [
+        {
+          "name": "陆照",
+          "state": "wet_lower_tunic"
+        },
+        {
+          "name": "闻溪",
+          "state": "wet"
+        },
+        {
+          "name": "灰胡子工人",
+          "state": "wet"
+        },
+        {
+          "name": "阿砾",
+          "state": "wet"
+        }
+      ],
+      "location": {
+        "id": "修台",
+        "desc": "修台"
+      },
+      "camera": {
+        "size": "wide",
+        "angle": "level",
+        "move": "locked"
+      },
+      "camera_cn": "全景 / 35mm / 固定机位",
+      "action": {
+        "start": "三名获救者都在修台：闻溪扶老人，阿砾吐水后撑起头；铜片仍留在打开的门锁上",
+        "beat": "阿砾吸进第一大口气，陆照肩头松下来",
+        "end": "三人的喘息压过水声，切黑"
+      },
+      "lines": [],
+      "dialogue": null,
+      "uses": [
+        "北门",
+        "铜销",
+        "黑钢锥"
+      ],
+      "character_states": {
+        "陆照": "wet_lower_tunic",
+        "闻溪": "wet",
+        "灰胡子工人": "wet",
+        "阿砾": "wet"
+      },
+      "continuity_out": "三人的喘息压过水声，切黑",
+      "transition_cn": "按本镜动作结束点硬切；同场保持已建立方向",
+      "sound": "环境音依本镜动作；对白独立录音。",
+      "render": {
+        "keyframe_prompt": "Sculpted Chinese 3D animated feature aesthetic, coherent sculpted hair locks, dimensional facial planes, woven cloth, weathered wood and restrained bronze, soft physically based lighting.  wide shot, 35mm lens. All three rescued people share the raised ledge: Wen Xi supports the grey-bearded worker and Ali raises his head after coughing. The pierced copper plate remains attached to the opened lock.",
+        "action_en": "All three rescued people share the raised ledge: Wen Xi supports the grey-bearded worker and Ali raises his head after coughing. The pierced copper plate remains attached to the opened lock. Then Ali takes a full breath and Lu Zhao's shoulders relax; the survivors' breathing overtakes the water sound before the cut.",
+        "prompt_language": "en",
+        "status": "revised_text_pending_animatic",
+        "camera_move": "locked"
+      },
+      "qc": {
+        "headcount": 4,
+        "fail_if": [
+          "三名获救者缺人或多出一人",
+          "铜片无来由出现在手里"
+        ],
+        "text_policy": "中文文字后期贴于指定表面；不由图像模型生成"
+      },
+      "on_screen_text": [],
+      "in_frame": "portrait_or_environment"
+    }
+  ],
+  "source_sha256": "ae79702150635a04e98e3d3b18477f51c4e6ad550b653707272c7a9d0f97d968",
+  "revision": "20260914_rhythm_v3",
+  "timing_validation": {
+    "status": "dialogue_scratch_tested_action_pending",
+    "voice": "macOS Tingting",
+    "rate_setting": 180,
+    "measurement": "say合成AIFF后ffprobe测长，未做倍速",
+    "dialogue_count": 8,
+    "all_dialogue_within_windows": true,
+    "dialogue_results": [
+      {
+        "id": "EP001_SH02",
+        "text": "二百四十铜，够姐姐歇十二天。",
+        "duration": 3.198,
+        "window": 4.0,
+        "fits": true
+      },
+      {
+        "id": "EP001_SH03",
+        "text": "三个人！开门！",
+        "duration": 1.534,
+        "window": 2.0,
+        "fits": true
+      },
+      {
+        "id": "EP001_SH05",
+        "text": "省点力气。门不用开了。",
+        "duration": 2.207,
+        "window": 3.3,
+        "fits": true
+      },
+      {
+        "id": "EP001_SH06",
+        "text": "他们还活着。",
+        "duration": 1.036,
+        "window": 1.3,
+        "fits": true
+      },
+      {
+        "id": "EP001_SH06",
+        "text": "账上没有。",
+        "duration": 0.927,
+        "window": 1.3,
+        "fits": true
+      },
+      {
+        "id": "EP001_SH09",
+        "text": "这点钱买命？",
+        "duration": 1.276,
+        "window": 1.8,
+        "fits": true
+      },
+      {
+        "id": "EP001_SH15",
+        "text": "胜过真敌，直刺添一痕。",
+        "duration": 2.544,
+        "window": 3.5,
+        "fits": true
+      },
+      {
+        "id": "EP001_SH20",
+        "text": "阿砾！",
+        "duration": 0.333,
+        "window": 0.8,
+        "fits": true
+      }
+    ],
+    "performed_readthrough": false,
+    "animatic_reviewed": false,
+    "limitation": "仅验证临时合成语音；演员停顿、打斗和救人动作仍需粗剪实测。"
+  },
+  "ability_in": 0,
+  "ability_out": 1,
+  "script_digest": "acefe704e7587f22",
+  "text_review": {
+    "scope": "剧本与文字分镜",
+    "script_grade": "S",
+    "storyboard_grade": "S",
+    "review_thread_id": "01a08ea0-8c4d-74e0-ae4b-95fa647cfb4d",
+    "review_date": "2026-09-14",
+    "completion_turn_id": "01a0a283-66de-7da1-9461-704b010c9046",
+    "script_digest": "acefe704e7587f22",
+    "not_a_film_grade": true
+  }
+}
