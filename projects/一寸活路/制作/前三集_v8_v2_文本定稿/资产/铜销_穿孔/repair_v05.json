@@ -1,0 +1,16 @@
+{
+  "id": "铜销_穿孔_左凹修复",
+  "request_sha256": "ef2878a0135fcf94fb9b7cd96b0ce3ca821e361946d37c345aad26a86364f231",
+  "spec_sha256": "ebd5b967b863abe4d47942d347b3fc487d327782e85bd713bb8c6a0065d51cc4",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/repair_v04.jpg": "153bb7a2fe1a53c42eaa17f0b9d4a0862c08331afa9bf73f8da97d188eefb160"
+  },
+  "image_sha256": "b0698aac1261255bc82bc144766f721442b4f7bc953355558a7c5245707f3a95",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "单项细修任务.json",
+  "visual_status": "pending_inspection"
+}

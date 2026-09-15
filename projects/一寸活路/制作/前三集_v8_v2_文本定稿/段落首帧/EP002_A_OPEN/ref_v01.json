@@ -1,0 +1,18 @@
+{
+  "id": "EP002_A_OPEN",
+  "request_sha256": "9c8f7dd9c9fe3bc4da54e242c153783bb4600bebd38001864316b6b8a43df60b",
+  "spec_sha256": "045010ac80134b0496f4acd7df8af34cde3e3b6d543db47b63fcfd1a9cd9a700",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg": "874ca1a81e9b3a178d24a5370e2ad2863b42ed2e0ffbc2659a4d184906261fea",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_01.jpg": "dc99a87afada14bce67464ec31134885fe1bd8ac6730b6e14b7a0b3cd8d05c84",
+    "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg": "4f23d683569e39be9fffea0c84f0a4ccc7515fd142888251ae1064aafeca54ed"
+  },
+  "image_sha256": "20fa7c8fa77ecb930e3fc19b3bd0c176a8595a3bd9b978333f3e8faa2412fb8b",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "段落首帧任务.json",
+  "visual_status": "pending_inspection"
+}

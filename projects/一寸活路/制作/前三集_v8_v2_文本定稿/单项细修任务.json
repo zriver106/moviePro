@@ -1,0 +1,18 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "铜销_穿孔_左凹修复",
+      "prompt": "Keep this entire copper plate image unchanged in composition. Refine the small circular mark on the LEFT half into a very shallow depression in solid copper, with a clearly visible continuous copper-metal bottom reflecting warm light. The tiny square puncture on the RIGHT half remains dark and open. Preserve the original copper texture, dimensions, retaining tabs and wood.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/repair_v04.jpg"
+      ],
+      "output": "资产/铜销_穿孔/repair_v05.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 952001
+    }
+  ]
+}

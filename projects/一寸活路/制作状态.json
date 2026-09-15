@@ -1,5 +1,10 @@
 {
-  "active_version": "前三集_v8_v2_文本定稿",
+  "active_version": "前三集_v8_30秒段落",
+  "stage": "30秒段落生成与验收",
+  "style": "Seedream立体国漫定妆_v8",
+  "video_model": "Seedance 2.5 reference-to-video",
+  "initial_resolution": "480p",
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
   "episodes": [
     {
       "id": "EP001",
@@ -26,21 +31,73 @@
       "storyboard_grade": "S"
     }
   ],
-  "stage": "资源文件同步完成；图片未全部验收",
-  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
-  "historical_version": "前三集_v8_v1",
-  "historical_generation_enabled": false,
-  "generated_images_this_turn": 88,
-  "assets_approved_for_new_version": 64,
-  "approval_scope": "内部静态参考采用，不代表整集图片或成片批准",
-  "resource_sync": "complete",
-  "image_delivery_ready": false,
-  "generated_shot_candidates": 40,
-  "unique_reference_paths": 66,
-  "accepted_storyboard_frames": 10,
-  "rejected_storyboard_frames": 27,
-  "pending_close_review_frames": 3,
-  "not_generated_frames": 17,
-  "sync_audit": "制作/前三集_v8_v2_文本定稿/资源同步核验.json",
-  "visual_audit": "制作/前三集_v8_v2_文本定稿/视觉检查.json"
+  "segments": [
+    {
+      "id": "EP001_A",
+      "seconds_planned": 30,
+      "seconds_actual": null,
+      "generation_status": "not_submitted",
+      "visual_status": "pending",
+      "references_ready": true,
+      "missing_references": [],
+      "video": null
+    },
+    {
+      "id": "EP001_B",
+      "seconds_planned": 30,
+      "seconds_actual": null,
+      "generation_status": "not_submitted",
+      "visual_status": "pending",
+      "references_ready": false,
+      "missing_references": [
+        "制作/前三集_v8_30秒段落/参考/EP001_A_end.png"
+      ],
+      "video": null
+    },
+    {
+      "id": "EP002_A",
+      "seconds_planned": 30,
+      "seconds_actual": null,
+      "generation_status": "not_submitted",
+      "visual_status": "pending",
+      "references_ready": true,
+      "missing_references": [],
+      "video": null
+    },
+    {
+      "id": "EP002_B",
+      "seconds_planned": 30,
+      "seconds_actual": null,
+      "generation_status": "submitted",
+      "visual_status": "pending",
+      "references_ready": true,
+      "missing_references": [],
+      "video": null
+    },
+    {
+      "id": "EP003_A",
+      "seconds_planned": 30,
+      "seconds_actual": null,
+      "generation_status": "not_submitted",
+      "visual_status": "pending",
+      "references_ready": true,
+      "missing_references": [],
+      "video": null
+    },
+    {
+      "id": "EP003_B",
+      "seconds_planned": 30,
+      "seconds_actual": null,
+      "generation_status": "not_submitted",
+      "visual_status": "pending",
+      "references_ready": false,
+      "missing_references": [
+        "制作/前三集_v8_30秒段落/参考/EP003_A_end.png"
+      ],
+      "video": null
+    }
+  ],
+  "delivery_ready": false,
+  "rating_scope": "剧本、分镜及直接改变剧情的规划须独立评级；资产ID、技术引用和忠实修正不单独评级",
+  "historical_resource_status": "制作/前三集_v8_30秒段落/历史逐镜制作状态.json"
 }

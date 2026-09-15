@@ -1,0 +1,31 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "铜销_穿孔_修复",
+      "prompt": "Edit this same copper latch plate. Preserve its exact rectangular outline, copper material, retaining tabs, wood background and camera. Add a tiny shallow pinpoint dimple on the left half. Add one tiny square awl hole on the right half, about twice the dimple width and about one twentieth of the plate width. The two marks occupy a very small fraction of this broad smooth copper surface. The top retaining tab is released slightly; the lower tab keeps the plate attached. Behind the tiny hole the wooden tongue is shifted sideways clear of the keeper. The image remains a clean prop reference.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_完好/ref_v01.jpg"
+      ],
+      "output": "资产/铜销_穿孔/repair_v04.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 951001
+    },
+    {
+      "id": "棘爪绳轮机关_修复",
+      "prompt": "Edit this wooden winch assembly reference. Keep the same solid base, supported catch shelf, stone and upper pulley. Move the hinged metal pawl to the RIGHT side of the drum, its pivot fixed to the base and its tip visibly resting directly in a tooth of the right-hand ratchet gear. Route the left floor loop rope onto the wound center drum, visibly continuous. The rope exits from the TOP of the wound drum, travels diagonally to the upper pulley and vertically down to the hanging stone. A small removable brake wedge bears against the bottom of the ratchet rim, separate from the hinged metal pawl. Each rope segment remains clearly visible, each part fixed to its support. The fifteen-centimeter gap under the stone is maintained. Single technical reference view in sculpted Chinese 3D animation style.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/structure_v03.jpg"
+      ],
+      "output": "资产/棘爪绳轮机关/repair_v04.jpg",
+      "size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "seed": 951002
+    }
+  ]
+}

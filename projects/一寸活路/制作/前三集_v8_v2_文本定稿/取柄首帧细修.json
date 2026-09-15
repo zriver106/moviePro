@@ -1,0 +1,18 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_A_OPEN",
+      "prompt": "Create a tighter side-view detail of this exact scene, centered on the small bronze crank at Ma Duo waist and Lu Zhao bare right hand grasping it. Frame from Ma Duo belt to the nearby Lu Zhao forearm, include the little bronze ring crank, brown cloth, blue sleeve, raised wooden ledge and a thin strip of shallow water. The outer picture edges crop both Ma Duo arms, wrists, head and ankles out of the shot. Camera is still on the same side of the two men. Ma Duo is the half-reclining heavy man in brown. Lu Zhao is the kneeling young man in blue with a bare hand grasping the crank. Single little detachable bronze crank with short central square socket. Start before removal.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v02.jpg"
+      ],
+      "output": "段落首帧/EP002_A_OPEN/ref_v04.jpg",
+      "seed": 954021,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    }
+  ]
+}

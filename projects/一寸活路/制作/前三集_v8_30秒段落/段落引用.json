@@ -1,0 +1,494 @@
+{
+  "EP001_A": [
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/逐镜/EP001_SH01/frame_text_v01.jpg",
+      "role": "opening wooden death-register tag and scraped finger",
+      "kind": "opening"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+      "role": "Lu Zhao 陆照, teal clothes, lower trousers wet, bare palms",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg",
+      "role": "Ma Duo 麻铎 identity and wet brown clothing; restraint follows the timeline",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+      "role": "Wen Xi 闻溪, mint clothing wet",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+      "role": "the grey-bearded rescued worker, distinct from the flashback elder",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+      "role": "Ali 阿砾, blue clothes wet",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg",
+      "role": "lock chamber: south ladder left, north door right, raised west ledge",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/北门内室/ref_v01.jpg",
+      "role": "inner face of closed north room and inspection opening",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_完好/ref_v02.jpg",
+      "role": "same palm-sized copper plate before first thrust",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg",
+      "role": "copper left shallow dent after first failed thrust",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+      "role": "one ordinary short black awl with old hemp-wrapped grip",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/船叉_01.jpg",
+      "role": "Ma Duo fork",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜轮柄_01.jpg",
+      "role": "small detachable bronze valve crank at Ma Duo waist",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg",
+      "role": "small purse and tied strings of copper coins",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_30秒段落/参考/绳轮受力结构.png",
+      "role": "mechanical connection guide for the winch, rendered as timber and bronze inside the lock chamber",
+      "kind": "asset"
+    }
+  ],
+  "EP001_B": [
+    {
+      "path": "制作/前三集_v8_30秒段落/参考/EP001_A_end.png",
+      "role": "exact ending camera and physical state of previous segment",
+      "kind": "opening"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+      "role": "Lu Zhao 陆照, teal clothes, lower trousers wet, bare palms",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg",
+      "role": "Ma Duo 麻铎 identity and wet brown clothing; restraint follows the timeline",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+      "role": "Wen Xi 闻溪, mint clothing wet",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+      "role": "the grey-bearded rescued worker, distinct from the flashback elder",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+      "role": "Ali 阿砾, blue clothes wet",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闸舱_01.jpg",
+      "role": "same lock chamber axis",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg",
+      "role": "open north doorway, raised rescue ledge and lower water floor",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/铜销_浅凹/ref_v01.jpg",
+      "role": "copper before second thrust, left dimple and intact right face",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+      "role": "one ordinary short black awl with old hemp-wrapped grip",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg",
+      "role": "small purse and tied strings of copper coins",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/铜销_浅凹微缩/ref_v01.jpg",
+      "role": "same copper after right side pierced",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_30秒段落/参考/绳轮受力结构.png",
+      "role": "winch connectivity and pawl holding reverse rotation after stone rests",
+      "kind": "asset"
+    }
+  ],
+  "EP002_A": [
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v04.jpg",
+      "role": "Opening side detail: Lu Zhao bare hand grasps the small detachable bronze crank still hooked at Ma Duo waist. Ma Duo reclines with head above water. The complete paired-wrist binding at one low post foot is beyond the crop; retain it as the camera follows Lu away.",
+      "kind": "opening"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+      "role": "Lu Zhao 陆照, teal clothes, lower trousers wet, bare palms",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/麻铎_湿衣未绑/ref_v01.jpg",
+      "role": "Ma Duo 麻铎 identity and wet brown clothing; restraint follows the timeline",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_04.jpg",
+      "role": "Wen Xi 闻溪, mint clothing wet",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/灰胡子工人_04.jpg",
+      "role": "the grey-bearded rescued worker, distinct from the flashback elder",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_04.jpg",
+      "role": "Ali 阿砾, blue clothes wet",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg",
+      "role": "Cen Lu 岑鹿 in purple",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg",
+      "role": "blue-coated guard",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/会库押解人/ref_v01.jpg",
+      "role": "assistant escort, distinct from guard",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/北门轮房/structure_v03.jpg",
+      "role": "bare square valve spindle before crank installation",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜轮柄_01.jpg",
+      "role": "detachable small bronze crank",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/退水货沟/ref_v01.jpg",
+      "role": "drain channel and lowered water",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/退水栓_01.jpg",
+      "role": "drain stopper",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/保单货箱_01.jpg",
+      "role": "cargo crates and bond paper",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/码头_01.jpg",
+      "role": "dockside payment and guard setting",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/空白票据/ref_v01.jpg",
+      "role": "blank bond and wage slip surfaces",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/小物工具/ref_v01.jpg",
+      "role": "small balance scale and dressing tools",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg",
+      "role": "small purse and tied strings of copper coins",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌/ref_v01.jpg",
+      "role": "Lu Zhao RIGHT palm dressing at the final treatment beat",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/铜销_浅凹微缩/ref_v01.jpg",
+      "role": "loosened pierced copper cover to remove by hand",
+      "kind": "asset"
+    }
+  ],
+  "EP002_B": [
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_B_OPEN/ref_v01.jpg",
+      "role": "opening right palm, awl and empty waist sheath",
+      "kind": "opening"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/repair_v03.jpg",
+      "role": "Lu Zhao in the present, wet teal clothing, RIGHT palm bandage and small waist sheath",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_三月前旧伤/repair_v03.jpg",
+      "role": "Lu Zhao three months earlier, old CHEST wound and bare palms",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/余烬老人/ref_v01.jpg",
+      "role": "gaunt beardless elder 老人, RED strip on RIGHT wrist",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+      "role": "Lu He 陆禾, orange blouse and apron",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/废船_01.jpg",
+      "role": "abandoned wooden boat during flashback",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/住屋_01.jpg",
+      "role": "modest warm dusk home with crooked table and stove",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/双碗_01.jpg",
+      "role": "old chipped bowl for replacement",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg",
+      "role": "two intact rice and meat bowls after replacement",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/售船纸_01.jpg",
+      "role": "paper with ink drawing of a small wooden boat, its forward hull repair visible",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+      "role": "one ordinary short black awl with old hemp-wrapped grip",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg",
+      "role": "small purse and tied strings of copper coins",
+      "kind": "asset"
+    }
+  ],
+  "EP003_A": [
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/段落首帧/EP003_A_OPEN/ref_v02.jpg",
+      "role": "opening intact copper plug, right bandaged palm and awl point",
+      "kind": "opening"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v02.jpg",
+      "role": "Lu Zhao begins in dry teal clothes, intact left shoulder, bandaged RIGHT palm",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+      "role": "Lu Zhao with anatomical LEFT shoulder cut and RIGHT palm bandage, applies after the knife cut",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/葛牙_01.jpg",
+      "role": "Ge Ya 葛牙 brown hood and short hair identity",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+      "role": "Ali 阿砾 blue clothing",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+      "role": "Wen Xi 闻溪 mint clothing",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/水槽货主/ref_v01.jpg",
+      "role": "water-trough owner 水槽货主 in beige and green apron",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+      "role": "house door LEFT, net rack RIGHT, stone gutter lower right",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/网架近景/ref_v01.jpg",
+      "role": "wood rail and upper-tied net with loose heavy lower corner",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+      "role": "Ge Ya short knife",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+      "role": "one ordinary short black awl with old hemp-wrapped grip",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/落地棕兜帽/ref_v01.jpg",
+      "role": "detached brown hood after the final body pin",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg",
+      "role": "intact lunch bowl on low door stand",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg",
+      "role": "small purse and tied strings of copper coins",
+      "kind": "asset"
+    }
+  ],
+  "EP003_B": [
+    {
+      "path": "制作/前三集_v8_30秒段落/参考/EP003_A_end.png",
+      "role": "preceding battle ending body positions; next shot is explicit rope-wrapping time ellipsis",
+      "kind": "opening"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩伤包掌/ref_v01.jpg",
+      "role": "Lu Zhao with anatomical LEFT shoulder cut and RIGHT palm bandage, applies after the knife cut",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/陆照_左肩敷药包掌/ref_v01.jpg",
+      "role": "Lu Zhao LEFT shoulder dressed after treatment, RIGHT palm stays wrapped",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/葛牙_落帽束腕/ref_v01.jpg",
+      "role": "Ge Ya hood detached and wrists restrained",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/阿砾_01.jpg",
+      "role": "Ali 阿砾 blue clothing",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/闻溪_01.jpg",
+      "role": "Wen Xi 闻溪 mint clothing",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/陆禾_01.jpg",
+      "role": "Lu He 陆禾 orange apron",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/岑鹿_01.jpg",
+      "role": "Cen Lu 岑鹿 purple clothing",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/守船人_01.jpg",
+      "role": "one blue-coated guard",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/会库押解人/ref_v01.jpg",
+      "role": "second distinct custody assistant",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/盐棚门网轴线/ref_v01.jpg",
+      "role": "door and rack axis",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/码头绳摊/ref_v01.jpg",
+      "role": "afternoon rope stall",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/清障图新版/structure_v03.jpg",
+      "role": "drain obstruction chart with pile, white delivery line and boat",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/铜鱼牌_01.jpg",
+      "role": "fish token exposed beside detached hood",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/落地棕兜帽/ref_v01.jpg",
+      "role": "hood lying at Ge Ya left foot",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/短刀_01.jpg",
+      "role": "short knife handed over point down",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+      "role": "one ordinary short black awl with old hemp-wrapped grip",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/双完整饭碗/ref_v01.jpg",
+      "role": "intact lunch bowl",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/小钱袋成串铜钱/ref_v01.jpg",
+      "role": "small purse and tied strings of copper coins",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/空白票据/ref_v01.jpg",
+      "role": "two-day wage paper",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/新绳_01.jpg",
+      "role": "new rope shared with Ali",
+      "kind": "asset"
+    },
+    {
+      "path": "制作/前三集_v8_v2_文本定稿/资产/复用/工具箱_01.jpg",
+      "role": "small toolbox marker moved clear of stern injured-person space",
+      "kind": "asset"
+    }
+  ]
+}

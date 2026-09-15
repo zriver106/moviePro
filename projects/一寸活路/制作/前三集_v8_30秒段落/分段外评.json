@@ -1,0 +1,14 @@
+{
+  "thread_id": "01a08ea0-8c4d-74e0-ae4b-95fa647cfb4d",
+  "message_id": "msg_07d663443608dd60016aa89f09335487d19f3029af816c7253",
+  "evidence_path": "分段真实外评.json",
+  "evidence_sha256": "23f8a1b9f236f2bad7b839b0c0a45be443116453db352731acf7ba2c20798914",
+  "plan_sha256": "519ba536d4872865c5529bf00151e3cae66443e11ae548a1724942c10808beef",
+  "dimensions": {
+    "剧情完整": "S",
+    "动作空间与连续性": "S",
+    "节奏对白": "S",
+    "运镜转场执行": "S"
+  },
+  "blocking_issues": []
+}

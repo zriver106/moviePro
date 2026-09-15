@@ -1,0 +1,31 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_A_OPEN",
+      "prompt": "Keep the chamber, Lu Zhao, Ma Duo faces, clothing and camera exactly as in this image. Bring BOTH of Ma Duo wrists together beside his RIGHT HIP at the SAME single low wooden post. Tie the two wrists together to that one post foot with one short rope. Both arms bend naturally toward that same hip. Ma Duo remains half-reclined on the raised base with his head above water, ankles looped together. Lu Zhao hand stays at the small bronze crank on Ma Duo waist.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v01.jpg"
+      ],
+      "output": "段落首帧/EP002_A_OPEN/ref_v02.jpg",
+      "seed": 954001,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    },
+    {
+      "id": "EP003_A_OPEN",
+      "prompt": "Keep the hand, awl, trough, bucket and camera exactly as this image. Close the round dark opening of the copper plug with continuous solid copper metal so its center is a smooth unbroken copper surface. Place the awl point touching the CENTER of this smooth copper plug. This is the moment just before the copper is pierced. Preserve the right-palm cloth and tool scale.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/段落首帧/EP003_A_OPEN/ref_v01.jpg"
+      ],
+      "output": "段落首帧/EP003_A_OPEN/ref_v02.jpg",
+      "seed": 954002,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    }
+  ]
+}

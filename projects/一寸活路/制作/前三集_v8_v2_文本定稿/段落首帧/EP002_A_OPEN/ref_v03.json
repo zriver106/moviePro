@@ -1,0 +1,16 @@
+{
+  "id": "EP002_A_OPEN",
+  "request_sha256": "0c61cacfb0db875f6cf0ca3adb73dabefe327abb369c647d3c00ad35184e6186",
+  "spec_sha256": "efc0f43e688b622188a725785b1742a13fd7aea44fc3fd4e46de7d49c60675e3",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v02.jpg": "64e23f76e4b159bfd4b86cb79a9a0990f0f976c53aba36f20449ae9661887cc9"
+  },
+  "image_sha256": "ae3ab81bdfc3bd3190ca782dca83155ce69e9edf63b1e89f85d912711aacdda0",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "绑腕首帧细修.json",
+  "visual_status": "pending_inspection"
+}

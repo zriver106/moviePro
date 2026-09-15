@@ -1,0 +1,16 @@
+{
+  "id": "铜销_穿孔_修复",
+  "request_sha256": "d55ee7e4bc82e0b4f3182de12f3e9dcedbc476ba84eae58317e6082fe760df0c",
+  "spec_sha256": "69882ee163a669e202fd9e92fa4c2c00aa73cc0c985f2a962ce09c325b0b880d",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/铜销_完好/ref_v02.jpg": "53f2c1bbb4039ea40ecbc01ad39951e90758b75a8ad2175d7e04baca16b0b07b"
+  },
+  "image_sha256": "153bb7a2fe1a53c42eaa17f0b9d4a0862c08331afa9bf73f8da97d188eefb160",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "基础修复任务.json",
+  "visual_status": "pending_inspection"
+}

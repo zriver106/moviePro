@@ -1,0 +1,18 @@
+{
+  "id": "EP003_A_OPEN",
+  "request_sha256": "dbc6407856d1447789044446f476091e58d9adb7b209c1558eb1e1e172b38a54",
+  "spec_sha256": "045010ac80134b0496f4acd7df8af34cde3e3b6d543db47b63fcfd1a9cd9a700",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v02.jpg": "c98bec122745e05ddfdc0eee7c3d4d362f4ff0eeb0783bc4959a41967936bdaf",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c",
+    "制作/前三集_v8_v2_文本定稿/资产/盐棚水槽/ref_v01.jpg": "c1d14469e31b30419063722afaadc36c49eee8ef6170adfeba323c085fb64bd7"
+  },
+  "image_sha256": "e3797e8bc5a4a1a80d7cbd4d8922c935c25f38fd34dbd8fb95f1c68f3915da2c",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "段落首帧任务.json",
+  "visual_status": "pending_inspection"
+}

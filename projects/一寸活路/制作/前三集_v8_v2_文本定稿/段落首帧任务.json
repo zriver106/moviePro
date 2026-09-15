@@ -1,0 +1,62 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_A_OPEN",
+      "prompt": "Medium side view inside a shallow flooded timber lock chamber. Lu Zhao in teal kneels on a raised dry timber base beside the stocky Ma Duo. Ma Duo lies half-reclined with his head supported above shallow water, both wrists bound to the foot of the low timber post; ankles still looped. A small detachable bronze crank hangs at Ma Duo waist. Lu Zhao right hand reaches toward this crank, ready to remove it. Open north door in background, raised ledge, small stream still entering wall gap. The teal youth and stocky brown-clothed man match reference 1 and 2 identities. Reference 3 supplies timber materials and ledge. Sculpted Chinese 3D animated feature style.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_下摆湿/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/麻铎_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/北门开启修台/ref_v01.jpg"
+      ],
+      "output": "段落首帧/EP002_A_OPEN/ref_v01.jpg",
+      "seed": 953001,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    },
+    {
+      "id": "EP002_B_OPEN",
+      "prompt": "Tight cinematic crop of a teal-clothed young worker from lower ribs to upper thighs beside a modest stall table. A palm-length EMPTY narrow dark brown leather sheath is tied vertically to the tan waist sash. His right palm is wrapped in white medicinal cloth, with fingers exposed. This right hand holds a single short hemp-handled black awl, point aligned just above the sheath mouth. His left hand steadies the sheath. A few paid copper coins lie on the stall cloth in the bottom corner. The small sheath and awl are ordinary hand-tool scale. Detailed woven teal cloth and realistic small hands in sculpted Chinese 3D animation. Use reference 1 for clothing and bandaged right palm, reference 2 for the short awl.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg"
+      ],
+      "output": "段落首帧/EP002_B_OPEN/ref_v01.jpg",
+      "seed": 953002,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    },
+    {
+      "id": "EP003_A_OPEN",
+      "prompt": "Extreme close view at the end of a wooden water trough. A tiny round solid copper plug closes the outlet above a small wooden bucket. A white-bandaged RIGHT palm with exposed fingers grips a short hemp-handled black awl, whose steel point is resting directly on the solid copper center ready to push through. Solid intact copper surface at the start. Teal cuff and black wrist wrap visible at the crop edge; camera crops at wrist. Old wooden trough, bucket beneath outlet, sunlit quay timber background. One awl, one right hand, one intact copper plug. Sculpted Chinese 3D animation. Reference 1 provides hand clothing, reference 2 the small awl, reference 3 trough material.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/陆照_干衣包掌配鞘/ref_v01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg",
+        "制作/前三集_v8_v2_文本定稿/资产/盐棚水槽/ref_v01.jpg"
+      ],
+      "output": "段落首帧/EP003_A_OPEN/ref_v01.jpg",
+      "seed": 953003,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    },
+    {
+      "id": "铜销_浅凹微缩",
+      "prompt": "Reduce the circular copper depression on the LEFT half to one quarter of its present diameter. Its copper bottom stays visible. Preserve every other part of this copper plate and the small square hole on the right, retaining tabs, framing and wood.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/repair_v05.jpg"
+      ],
+      "output": "段落首帧/铜销_浅凹微缩/ref_v01.jpg",
+      "seed": 953004,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    }
+  ]
+}

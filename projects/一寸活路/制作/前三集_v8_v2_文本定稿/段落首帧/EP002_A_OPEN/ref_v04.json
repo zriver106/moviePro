@@ -1,0 +1,16 @@
+{
+  "id": "EP002_A_OPEN",
+  "request_sha256": "1ceaa9dfc847b2c23735a017f9e7103e4082cb8ba8740bb59cd8ad0ee36a2309",
+  "spec_sha256": "285dedc38c2714e93bb1c865f430b171333bc3be1ae47e5d7437055bfc2d6038",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v02.jpg": "64e23f76e4b159bfd4b86cb79a9a0990f0f976c53aba36f20449ae9661887cc9"
+  },
+  "image_sha256": "cf2b5ce42e85e0fad568373f601bbd2ff7913658711c7e14748e2a488b9aa4bf",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "取柄首帧细修.json",
+  "visual_status": "pending_inspection"
+}

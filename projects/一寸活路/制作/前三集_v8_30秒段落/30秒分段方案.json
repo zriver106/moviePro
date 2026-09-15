@@ -1,0 +1,1194 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "source_files_sha256": {
+    "分镜/EP001.json": "c457a125861b9cccadb5ec1d3fb9f6d86fd9ef61d6a0b7ca3d5682f4498aaef8",
+    "分镜/EP002.json": "45c0b7214bb04f9b9df06d9d90afb37d1b578fb35792a3af63f56382d35308fa",
+    "分镜/EP003.json": "94bc469a8c0aa6058643237c7ebaf62531124411653e9b15e7e52fbe8a312cec"
+  },
+  "format": "6个独立30秒生成单元，每集A+B；原57镜用作动作索引，不逐镜提交视频API",
+  "story_change": "情节、对白、人物、因果不变；重编运镜与转场，4处时间预算±0.5秒；需独立分镜评级",
+  "boundary_policy": {
+    "EP001_A_to_B": "A最后新增0.5秒完成接点：原锥放稳修台、双手已扣木楔、楔未移、绳未收、叉仍卡固定梁；B从相同姿态才抽楔。先渲A，抽实际末帧作为B构图连续参考，逐帧验缝；两次API各30秒。",
+    "EP002_A_to_B": "治疗最后一圈完成后明确买鞘时间省略，右掌布保留，新鞘从B开始。",
+    "EP003_A_to_B": "A结束于右肩抵柱、双腕受控；B同机位时间省略到绳已绕柱，压制持续，阿砾收末结。"
+  },
+  "segments": [
+    {
+      "id": "EP001_A",
+      "episode": "EP001",
+      "seconds": 30,
+      "model": "2.5",
+      "mode": "ref",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "camera_plan": {
+        "cn": "0–3秒牌面特写；3秒动作接切下梯全景；7.5秒切门内三人；10秒切第一次顶铜。12.5–30秒同一条低侧跟拍：从麻铎封梯跟到陆照退至轮架，缓降让索圈、石与楔同框，再随掷钱及追刺横移到固定梁。结尾叉卡梁，锥已放稳修台，新增的最后0.5秒陆照双手扣住木楔；楔未移、绳未收、叉仍卡梁，镜头定住。",
+        "en": "At 0s start in the wooden tag detail. At 3s action-cut to the ladder wide view. At 7.5s hard cut inside the flooded locked room. At 10s cut to the first awl attempt. From 12.5s to 30s use one continuous low side tracking take: follow Ma Duo blocking the ladder and Lu Zhao retreating toward the drum, lower gently to reveal the rope loop, stone, pawl and wedge together, then track the purse toss and fork thrust toward the fixed beam. Finish steady on the lodged fork, the awl resting on the ledge and Lu Zhao using the final added half-second to firmly grip the wedge with both hands. The wedge stays seated, rope remains slack and fork stays lodged."
+      },
+      "timeline": [
+        {
+          "source_shot": "EP001_SH01",
+          "start": 0,
+          "end": 3,
+          "action_cn": {
+            "start": "木牌正面占画面，后期贴“陆照／溺亡销籍”，小字“登记于六个月前”",
+            "beat": "陆照指尖压住自己的名字，指腹仍有鲜红擦口",
+            "end": "麻铎的手从上方翻走木牌"
+          },
+          "action_en": "A wooden death-register tag fills the frame; the tag carries a blank tracked surface for post-composited name and death entry. Lu Zhao's scraped fingertip presses his name. Then Ma Duo's hand turns the tag away.",
+          "lines": [],
+          "on_screen_text": [
+            {
+              "text": "陆照\n溺亡销籍\n登记于六个月前",
+              "method": "post_composite",
+              "placement": "木牌正面",
+              "generation_surface": "blank"
+            }
+          ],
+          "continuity_out": "麻铎的手从上方翻走木牌"
+        },
+        {
+          "source_shot": "EP001_SH02",
+          "start": 3,
+          "end": 7.5,
+          "action_cn": {
+            "start": "陆照沿画左南梯下到浅水，画右北门高处传出拍击",
+            "beat": "他抬头看门，沿西壁修台靠过去；锥挂腰边",
+            "end": "右门检修口透出灯光，进水声盖住脚步"
+          },
+          "action_en": "Lu Zhao descends the south ladder at screen left into ankle-deep water. A raised repair ledge connects the ladder area to the north door at screen right; pounding comes from its high inspection opening. Then the camera tracks with him toward the lit opening; his black awl stays at his belt and his boots and lower tunic become wet.",
+          "lines": [
+            {
+              "speaker": "陆照",
+              "text": "二百四十铜，够姐姐歇十二天。",
+              "off_screen": true,
+              "at": 3.1,
+              "end": 7.1
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "右门检修口透出灯光，进水声盖住脚步"
+        },
+        {
+          "source_shot": "EP001_SH03",
+          "start": 7.5,
+          "end": 10.0,
+          "action_cn": {
+            "start": "门内朝检修口侧拍：闻溪把灯搁上沿，灰胡子工人扶门框，低处阿砾手拍门",
+            "beat": "闻溪朝检修口喊“三个人！开门！”",
+            "end": "阿砾手滑下，闻溪回身托住老人"
+          },
+          "action_en": "Inside the flooded room, camera faces sideways toward the inspection opening. Wen Xi places the lamp on its inner ledge, a grey-bearded worker holds the jamb and Ali pounds the panel lower down. Then she calls toward the opening; Ali's hand slips down and she turns to support the worker.",
+          "lines": [
+            {
+              "speaker": "闻溪",
+              "text": "三个人！开门！",
+              "off_screen": false,
+              "at": 7.6,
+              "end": 9.6
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "阿砾手滑下，闻溪回身托住老人"
+        },
+        {
+          "source_shot": "EP001_SH04",
+          "start": 10.0,
+          "end": 12.5,
+          "action_cn": {
+            "start": "侧面全景同框陆照抵木榫的双脚、双手与门锁，木舌从检修口可见",
+            "beat": "双手直推黑锥，传来钝响，双手被顶回",
+            "end": "他收锥；铜面仅留浅凹，门仍锁着"
+          },
+          "action_en": "Side wide view shows Lu Zhao braced at the wooden foot stops, holding the awl in both hands against the door lock. The latch is visible through the inspection opening. Then he thrusts, recoils at a dull impact and draws back; the copper is only dented and the door stays shut.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "他收锥；铜面仅留浅凹，门仍锁着"
+        },
+        {
+          "source_shot": "EP001_SH05",
+          "start": 12.5,
+          "end": 16.5,
+          "action_cn": {
+            "start": "麻铎持叉踏到南梯脚，腰间铜轮柄晃动",
+            "beat": "他用叉封住陆照回梯的方向，逼陆照往修台南端退",
+            "end": "陆照停在绳轮侧，北门仍在画右"
+          },
+          "action_en": "Ma Duo steps into the shallow water by the south ladder at screen left; a detached bronze crank hangs from his belt. Then he blocks Lu Zhao's retreat with his fork and drives him toward the south end of the repair ledge beside the winch. The north door remains at screen right.",
+          "lines": [
+            {
+              "speaker": "麻铎",
+              "text": "省点力气。门不用开了。",
+              "off_screen": false,
+              "at": 12.7,
+              "end": 16.0
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "陆照停在绳轮侧，北门仍在画右"
+        },
+        {
+          "source_shot": "EP001_SH06",
+          "start": 16.5,
+          "end": 19.5,
+          "action_cn": {
+            "start": "麻铎画左、陆照画右，叉尖横在两人之间",
+            "beat": "陆照朝北门偏一下脸；麻铎把叉再送近",
+            "end": "陆照后腰抵上绳轮轴架"
+          },
+          "action_en": "Ma Duo stands left and Lu Zhao right with the fork between them. Lu Zhao glances toward the trapped people as he speaks. Then Ma Duo answers and presses forward until Lu Zhao's hip meets the winch frame.",
+          "lines": [
+            {
+              "speaker": "陆照",
+              "text": "他们还活着。",
+              "off_screen": false,
+              "at": 16.6,
+              "end": 17.9
+            },
+            {
+              "speaker": "麻铎",
+              "text": "账上没有。",
+              "off_screen": false,
+              "at": 18.0,
+              "end": 19.3
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "陆照后腰抵上绳轮轴架"
+        },
+        {
+          "source_shot": "EP001_SH07",
+          "start": 19.5,
+          "end": 22.5,
+          "action_cn": {
+            "start": "低侧角同框：轮下外伸木楔、浅水里的搬件索圈、向上绕过轮轴的绳与坠石，轮边已有的止回棘爪搭住齿背；陆照在右边",
+            "beat": "钱袋被陆照从腰边摸出；坠石下方承架与石底相距半尺",
+            "end": "麻铎左脚逼近索圈边缘，叉朝陆照上身；北门拍响"
+          },
+          "action_en": "A low wide side angle clearly shows one continuous rope from an open cargo loop in the shallow water over the winch to a stone weight, with a handspan gap above its catch-frame; the projecting brake wedge holds the drum. Lu Zhao at right reaches for his purse. Then Ma Duo's leading foot at left approaches the loop as the north door pounds; his fork targets Lu Zhao above the rope. An existing ratchet pawl rests on the gear back, allowing forward rotation and preventing reverse unwinding.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "麻铎左脚逼近索圈边缘，叉朝陆照上身；北门拍响"
+        },
+        {
+          "source_shot": "EP001_SH08",
+          "start": 22.5,
+          "end": 25.0,
+          "action_cn": {
+            "start": "陆照右手掷钱袋，左手仍握锥；北门又一记拍响使麻铎偏头",
+            "beat": "钱袋落在麻铎进攻线路上的索圈中央，铜钱轻响",
+            "end": "麻铎目光落袋，立即再看陆照"
+          },
+          "action_en": "Lu Zhao keeps the awl in his left hand and tosses the small purse with his right during a pounding sound from the door. Then the purse lands inside the cargo loop directly on Ma Duo's forward attack path; Ma Duo glances down at the clink and back at Lu Zhao.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "麻铎目光落袋，立即再看陆照"
+        },
+        {
+          "source_shot": "EP001_SH09",
+          "start": 25.0,
+          "end": 27.5,
+          "action_cn": {
+            "start": "麻铎仍以叉控制陆照，前脚越过钱袋",
+            "beat": "他追刺上台边的陆照，后脚踏进宽索圈",
+            "end": "陆照向轴架外侧让身"
+          },
+          "action_en": "Ma Duo keeps the fork aimed at Lu Zhao, steps beyond the purse and brings his rear foot into the broad cargo loop while thrusting. Then Lu Zhao pivots outside the axle frame; the fork travels toward a timber beam separate from the moving drum.",
+          "lines": [
+            {
+              "speaker": "麻铎",
+              "text": "这点钱买命？",
+              "off_screen": false,
+              "at": 25.1,
+              "end": 26.9
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "陆照向轴架外侧让身"
+        },
+        {
+          "source_shot": "EP001_SH10",
+          "start": 27.5,
+          "end": 30.0,
+          "action_cn": {
+            "start": "陆照闪开，叉尖擦过他的腰侧",
+            "beat": "叉尖扎进绳轮旁的固定木梁；梁与转轮之间留有清楚空隙",
+            "end": "麻铎两手握住卡梁叉柄；原锥已放稳修台，陆照双手已扣住木楔；楔未移、绳未收。"
+          },
+          "action_en": "Lu Zhao slips aside; the fork embeds in a fixed wooden beam beside the winch, with a visible gap between beam and rotating drum. Then Ma Duo grips the shaft to pull it free while Lu Zhao lays the awl sideways on the ledge beside him.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "麻铎两手回抽叉柄；陆照将锥横搁身侧修台",
+          "bridge_action_cn": "29.5–30秒：锥放稳后双手已扣住木楔，楔未移、绳未收、叉仍卡固定梁。",
+          "bridge_action_en": "During 29.5–30s, after the awl rests securely, Lu Zhao grips the wedge with both hands. The wedge remains seated, rope stays slack and fork remains lodged in the fixed beam.",
+          "source_end": "麻铎两手回抽叉柄；陆照将锥横搁身侧修台"
+        }
+      ],
+      "audio_rule": "保留原对白逐字、说话人、画内外声源和时序；环境声跨切点连续；文字符号后期排版，检查口型与ASR。",
+      "review_status": "pending"
+    },
+    {
+      "id": "EP001_B",
+      "episode": "EP001",
+      "seconds": 30,
+      "model": "2.5",
+      "mode": "ref",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "camera_plan": {
+        "cn": "0–6秒接前段同机位连续拍抽楔、坠石落架锁索、膝压控腕；6秒同机位明确时间省略到末结，避免假装瞬间缠完。7.5秒缓抬至胸痕与拾钱锥。11.5秒跟回原修台，13.5秒切闻溪唇边水；14.5秒切铜面推进到穿孔，16.5秒切外侧全景。16.5–30秒一镜到底拍门开水流、闻溪上台、合扶老人和托膝救阿砾，靠横移和微推看清手脚支点，最后四人在修台喘息。",
+        "en": "At 0s match the exact camera and body positions of the previous segment ending. Continue the take through pulling the wedge, dropping the stone onto its shelf, locking the ankle rope and pinning Ma Duo wrists. At 6s make an explicit same-angle time-ellipsis cut to the already-wrapped wrist rope and final knot. At 7.5s tilt gently to the ember mark and retrieval of purse and awl. At 11.5s track back to the established foot stops. At 13.5s cut to Wen Xi lips at water level. At 14.5s cut to the intact right copper face and follow the straight thrust and withdrawal. At 16.5s cut to the outside wide view. From 16.5s to 30s use a single continuous rescue take following the opening door, Wen Xi climbing, both helpers lifting the worker and Lu Zhao supporting Ali knee. Move sideways and slightly forward to keep hand and knee supports visible. Finish on the four people together on the raised ledge."
+      },
+      "timeline": [
+        {
+          "source_shot": "EP001_SH11",
+          "start": 0,
+          "end": 1.5,
+          "action_cn": {
+            "start": "锥已静放修台，陆照双手扣住轮下外伸木楔",
+            "beat": "双手向外抽楔",
+            "end": "转轮启动，绳瞬间绷直"
+          },
+          "action_en": "The awl rests visibly on the ledge above Lu Zhao's hands. Then he pulls the projecting brake wedge outward with both hands; the drum starts turning and the rope tightens.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "转轮启动，绳瞬间绷直"
+        },
+        {
+          "source_shot": "EP001_SH12",
+          "start": 1.5,
+          "end": 4.0,
+          "action_cn": {
+            "start": "沿已建立低侧角，坠石落到半尺下的承架，棘爪随轮跳过齿背",
+            "beat": "同根绳将麻铎双踝收拢；他仰倒浅水，松开叉柄",
+            "end": "坠石停稳，棘爪扣齿锁住回转，脚索仍紧；叉留固定梁上"
+          },
+          "action_en": "Return to the established low side angle. The weight drops a handspan onto the catch-frame as the ratchet clicks forward. Then the rope draws Ma Duo's ankles together and he falls backward into shallow water, releasing the fork. The seated pawl prevents the drum from unwinding after the stone rests on its frame; the ankle loop stays tight and the fork remains in the fixed beam.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "坠石停稳，棘爪扣齿锁住回转，脚索仍紧；叉留固定梁上"
+        },
+        {
+          "source_shot": "EP001_SH13",
+          "start": 4.0,
+          "end": 6.0,
+          "action_cn": {
+            "start": "麻铎挣着伸手够叉，陆照扑到身侧",
+            "beat": "陆照膝压胸口，把麻铎双腕牢牢压到低柱脚，麻铎脚索仍紧",
+            "end": "麻铎再挣，手离固定梁上的叉还差一截"
+          },
+          "action_en": "Ma Duo struggles to reach the embedded fork. Then Lu Zhao drops beside him, pins his chest with a knee and presses both wrists firmly against the low post while the ankle rope remains taut; another struggle still leaves the weapon out of reach.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "麻铎再挣，手离固定梁上的叉还差一截"
+        },
+        {
+          "source_shot": "EP001_SH14",
+          "start": 6.0,
+          "end": 7.5,
+          "action_cn": {
+            "start": "同机位时间省略硬切：短绳已绕腕柱，陆照仍膝压胸",
+            "beat": "陆照双手收紧最后一扣",
+            "end": "他试松膝，麻铎双腕被短绳留在柱脚"
+          },
+          "action_en": "An explicit same-angle time cut skips the repetitive wrapping. The short rope is already around the wrists and post and Lu Zhao still pins the chest with his knee. Then he tightens the final knot and eases his knee; Ma Duo's wrists remain secured to the post.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "他试松膝，麻铎双腕被短绳留在柱脚"
+        },
+        {
+          "source_shot": "EP001_SH15",
+          "start": 7.5,
+          "end": 11.5,
+          "action_cn": {
+            "start": "陆照松开压制，胸骨内亮起一线暖红；麻铎在后景再次挣动",
+            "beat": "陆照右手压胸，回忆中老人的声音响起；视线转向北门的铜销",
+            "end": "他左手拾回钱袋扣进腰带，右手拿起台上原锥"
+          },
+          "action_en": "Lu Zhao rises as a thin amber mark glows beneath his sternum; the bound soaked Ma Duo strains in the background. Then Lu Zhao presses his chest, hears the remembered old man's voice, looks toward the copper lock, retrieves the purse with his left hand into his belt and takes the same awl from the ledge with his right.",
+          "lines": [
+            {
+              "speaker": "老人",
+              "text": "胜过真敌，直刺添一痕。",
+              "off_screen": true,
+              "at": 7.8,
+              "end": 11.3
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "他左手拾回钱袋扣进腰带，右手拿起台上原锥"
+        },
+        {
+          "source_shot": "EP001_SH16",
+          "start": 11.5,
+          "end": 13.5,
+          "action_cn": {
+            "start": "陆照回到原修台位置，钱袋已挂腰",
+            "beat": "双脚重新抵同一木榫，双手握原锥",
+            "end": "锥尖对准左凹旁右侧完好铜面"
+          },
+          "action_en": "Lu Zhao returns to the same ledge position, with the recovered purse secured at his waist. Then he braces both heels on the same wooden stops and aligns the same awl with intact copper just right of the earlier dent.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "锥尖对准左凹旁右侧完好铜面"
+        },
+        {
+          "source_shot": "EP001_SH17",
+          "start": 13.5,
+          "end": 14.5,
+          "action_cn": {
+            "start": "闻溪唇边水一颤，灯在检修口上沿",
+            "beat": "她闭唇抬眼",
+            "end": "拍门手垂下，声音骤静"
+          },
+          "action_en": "Water trembles at Wen Xi's lower lip; her lantern rests against the upper lip of the inspection opening. Then she closes her mouth and raises her eyes as her pounding hand drops.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "拍门手垂下，声音骤静"
+        },
+        {
+          "source_shot": "EP001_SH18",
+          "start": 14.5,
+          "end": 16.5,
+          "action_cn": {
+            "start": "左凹右侧的完整铜与锥尖同框",
+            "beat": "双手直推，黑锥穿透右侧铜面，锥尖顶开后方木舌",
+            "end": "扣牙落下；锥马上沿原方向抽回"
+          },
+          "action_en": "The old dent at left and intact copper at right share the frame with the awl. Then both hands push straight; the awl pierces the intact copper and displaces the wooden tongue visible behind it. The latch tooth drops and the awl withdraws along its entry path.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "扣牙落下；锥马上沿原方向抽回"
+        },
+        {
+          "source_shot": "EP001_SH19",
+          "start": 16.5,
+          "end": 19.5,
+          "action_cn": {
+            "start": "接扣牙落地，陆照已侧站西壁高修台、锥插回腰环，避开门扇弧线",
+            "beat": "北门被内水推开；水从中间低地冲向南梯下集水洼，麻铎在南侧柱旁高基座边、头高于冲流",
+            "end": "陆照肩抵住门边，右手伸给闻溪；灯留门内检修口上沿"
+          },
+          "action_en": "Cut wider on the falling latch. Lu Zhao steps sideways on the raised west ledge and tucks the awl into his belt clear of the door swing. Then the inside water pushes the door open and runs along the central lower floor toward the south sump. The bound Ma Duo is visible at the side of the southern post base, his head above the flow and away from its central path. Lu Zhao braces the door edge with his shoulder and reaches his right hand toward Wen Xi; the lantern stays on the inside opening ledge.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "陆照肩抵住门边，右手伸给闻溪；灯留门内检修口上沿"
+        },
+        {
+          "source_shot": "EP001_SH20",
+          "start": 19.5,
+          "end": 24.0,
+          "action_cn": {
+            "start": "闻溪已一膝攀上修台，陆照拉住她前臂；老人贴着门槛",
+            "beat": "闻溪攀稳后与陆照各扶老人一侧，一起把他带上台",
+            "end": "老人坐稳，闻溪马上指回门内：阿砾"
+          },
+          "action_en": "Wen Xi already has one knee on the raised ledge and Lu Zhao holds her forearm; the old worker waits against the threshold. Then she climbs the last step and joins Lu Zhao, each supporting one side of the worker as they bring him onto the ledge. The worker sits; she immediately points back inside for Ali.",
+          "lines": [
+            {
+              "speaker": "闻溪",
+              "text": "阿砾！",
+              "off_screen": false,
+              "at": 23.0,
+              "end": 23.8
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "老人坐稳，闻溪马上指回门内：阿砾"
+        },
+        {
+          "source_shot": "EP001_SH21",
+          "start": 24.0,
+          "end": 28.0,
+          "action_cn": {
+            "start": "阿砾一手抓住内门框，膝腿卡门槛；闻溪跪台边扶住陆照腰带",
+            "beat": "陆照双膝落稳，一手抓阿砾前臂，一手托膝，将腿抬过槛",
+            "end": "阿砾翻到修台吐水，陆照仍撑在他旁边"
+          },
+          "action_en": "Ali clings to the inside jamb with his leg caught below the threshold. Wen Xi kneels on the ledge and anchors Lu Zhao by his belt. Then Lu Zhao plants both knees, grips Ali's forearm with one hand and lifts his knee over the sill with the other. Ali rolls onto the ledge coughing water while Lu Zhao stays braced beside him.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "阿砾翻到修台吐水，陆照仍撑在他旁边"
+        },
+        {
+          "source_shot": "EP001_SH22",
+          "start": 28.0,
+          "end": 30.0,
+          "action_cn": {
+            "start": "三名获救者都在修台：闻溪扶老人，阿砾吐水后撑起头；铜片仍留在打开的门锁上",
+            "beat": "阿砾吸进第一大口气，陆照肩头松下来",
+            "end": "三人的喘息压过水声，切黑"
+          },
+          "action_en": "All three rescued people share the raised ledge: Wen Xi supports the grey-bearded worker and Ali raises his head after coughing. The pierced copper plate remains attached to the opened lock. Then Ali takes a full breath and Lu Zhao's shoulders relax; the survivors' breathing overtakes the water sound before the cut.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "三人的喘息压过水声，切黑"
+        }
+      ],
+      "audio_rule": "保留原对白逐字、说话人、画内外声源和时序；环境声跨切点连续；文字符号后期排版，检查口型与ASR。",
+      "review_status": "pending"
+    },
+    {
+      "id": "EP002_A",
+      "episode": "EP002",
+      "seconds": 30,
+      "model": "2.5",
+      "mode": "ref",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "camera_plan": {
+        "cn": "0–3秒接前集环境声，侧拍摘麻铎轮柄；3秒跟进北门拍装柄止水；7秒切低位退水栓；10秒明确省略到水线下降并取铜片；13秒切梯口拦截，13–20秒保持同场连续侧移，从守卫转到岑鹿保单，收棍时结束。20秒省略核货转押解；24秒切秤和付工钱；28秒省略药已涂好，2秒拍掌布最后一圈及推药钱。",
+        "en": "Carry the previous episode breathing and water ambience into a side view of taking Ma Duo crank. At 3s track through the open north door to the bare spindle and shut the inlet. At 7s cut low to the drain stopper. At 10s make a clear elapsed-time cut to the lowered water mark, dry medicine crates and removal of the loosened copper plate. At 13s cut to the ladder interception. From 13s to 20s maintain a continuous side move from the guard blocking Wen Xi to Cen Lu presenting and signing the bond; finish when the pole is lowered. At 20s use an explicit cargo-inspection time ellipsis to custody transfer. At 24s cut to weighing and paying the wage purse. At 28s use a treatment time ellipsis: ointment already applied, then show the final palm-cloth turn and sliding the medical fee over two seconds."
+      },
+      "timeline": [
+        {
+          "source_shot": "EP002_SH01",
+          "start": 0,
+          "end": 3,
+          "action_cn": {
+            "start": "接前集阿砾喘息，墙缝仍注水；铜片留在门锁上",
+            "beat": "陆照蹲到麻铎身侧摘下铜轮柄",
+            "end": "麻铎伸不了手，眼看轮柄离开自己的腰"
+          },
+          "action_en": "Continue Ali's breath as water still enters through a wall gap; the pierced copper plate stays on the door. Then Lu Zhao crouches beside the soaked bound Ma Duo and unhooks the bronze crank from his belt; Ma Duo strains helplessly as it is taken away.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "麻铎伸不了手，眼看轮柄离开自己的腰"
+        },
+        {
+          "source_shot": "EP002_SH02",
+          "start": 3,
+          "end": 7,
+          "action_cn": {
+            "start": "穿过已打开的北门，空轮轴与陆照手中轮柄同框",
+            "beat": "轮柄插到轴底，他握柄向下压至止点",
+            "end": "墙缝水流断成滴；轮柄留在轴上"
+          },
+          "action_en": "Inside the opened north room, the empty valve spindle and the bronze crank in Lu Zhao's hands share the frame. Then he seats the crank fully and presses it to its stop; incoming wall flow stops and falls to drops, with the crank remaining on the spindle.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "墙缝水流断成滴；轮柄留在轴上"
+        },
+        {
+          "source_shot": "EP002_SH03",
+          "start": 7,
+          "end": 10,
+          "action_cn": {
+            "start": "低机位同框退水栓、浅水与向外河下倾的沟口",
+            "beat": "陆照提起栓，水奔入旁沟",
+            "end": "镜尾水面露出原被淹的木板角"
+          },
+          "action_en": "Low close detail shows the drain plug, shallow water and channel sloping toward the low-tide outer river. Then Lu Zhao lifts the plug and water drains along the channel, exposing a corner of submerged planking.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "镜尾水面露出原被淹的木板角"
+        },
+        {
+          "source_shot": "EP002_SH04",
+          "start": 10,
+          "end": 13,
+          "action_cn": {
+            "start": "时间省略硬切：水线已降到陆照先前划印以下两指；三名获救者沿修台走向南梯",
+            "beat": "镜头从原有箱隙看见高处第三层干药箱，前两箱外皮湿、后箱干燥",
+            "end": "闻溪经过敞门，掰下已经松脱的铜片，塞进陆照腰袋"
+          },
+          "action_en": "Elliptical cut: water now lies two fingers below Lu Zhao's earlier scratch mark while the three survivors walk along the ledge. Dry third-tier medicine crates are visible through an existing gap behind two wet crates. Then Wen Xi removes the already loose copper plate from the open lock as she passes and slips it into Lu Zhao's belt pouch.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "闻溪经过敞门，掰下已经松脱的铜片，塞进陆照腰袋"
+        },
+        {
+          "source_shot": "EP002_SH05",
+          "start": 13,
+          "end": 16,
+          "action_cn": {
+            "start": "闻溪带老人、阿砾已到梯口；陆照牵麻铎在后，麻铎脚索已解除、腕仍缚",
+            "beat": "守船人横棍截住最前面的闻溪",
+            "end": "岑鹿手持保单进入画面，棍前停下"
+          },
+          "action_en": "At the hatch, Wen Xi leads Ali and the grey-bearded worker; Lu Zhao follows holding Ma Duo's wrist tether, with his ankle rope removed after the time cut. A guard bars the hatch with a pole. Then merchant Cen Lu enters holding a cargo bond and stops before the pole.",
+          "lines": [
+            {
+              "speaker": "守船人",
+              "text": "封舱！谁让出来的？",
+              "off_screen": false,
+              "at": 13.2,
+              "end": 15.8
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "岑鹿手持保单进入画面，棍前停下"
+        },
+        {
+          "source_shot": "EP002_SH06",
+          "start": 16,
+          "end": 20,
+          "action_cn": {
+            "start": "岑鹿将保单压在横棍上，签名担保三名活人；守船人低头看她的名字",
+            "beat": "她手指从自己的签名移到空着的封舱签责栏",
+            "end": "守船人收棍，示意同伴下梯核货并听获救者说话"
+          },
+          "action_en": "Cen Lu presses her cargo bond against the blocking pole and signs to guarantee the three survivors. The guard reads her name. Then she moves her finger from her signature to the empty responsibility box for the sealed hold; he lowers the pole and signals his colleague to inspect the cargo and hear the survivors.",
+          "lines": [
+            {
+              "speaker": "岑鹿",
+              "text": "活人我保。封舱损单，你签。",
+              "off_screen": false,
+              "at": 16.2,
+              "end": 19.6
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "守船人收棍，示意同伴下梯核货并听获救者说话"
+        },
+        {
+          "source_shot": "EP002_SH07",
+          "start": 20,
+          "end": 24,
+          "action_cn": {
+            "start": "省略核货耗时：守船人已确认干药箱，在三名获救者面前接过麻铎腕绳；麻铎和陆照都在侧边",
+            "beat": "闻溪指认麻铎，守船人让同伴带他去问话",
+            "end": "麻铎回头看三名活人，押解人将他带出画面"
+          },
+          "action_en": "After the cargo inspection time cut, the guard takes Ma Duo's wrist tether in front of all three survivors, with Lu Zhao at the side. Then Wen Xi identifies Ma Duo as the man who sealed them in and the guard orders his colleague to take him for questioning. Ma Duo looks back at the living witnesses as he is led out of frame.",
+          "lines": [
+            {
+              "speaker": "闻溪",
+              "text": "他封的门。",
+              "off_screen": false,
+              "at": 20.2,
+              "end": 21.6
+            },
+            {
+              "speaker": "守船人",
+              "text": "带去问话。",
+              "off_screen": false,
+              "at": 21.9,
+              "end": 23.4
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "麻铎回头看三名活人，押解人将他带出画面"
+        },
+        {
+          "source_shot": "EP002_SH08",
+          "start": 24,
+          "end": 28,
+          "action_cn": {
+            "start": "岑鹿在秤上核足钱袋，秤旁结工纸后期贴“救货工钱240铜”",
+            "beat": "她把钱袋放进陆照掌心，重量把他的手压低",
+            "end": "陆照攥紧袋口，抬头看她，岑鹿已转去指挥搬货"
+          },
+          "action_en": "Cen Lu finishes weighing a purse next to a blank payment slip for post-composited 240-copper salvage wages. Then she places the heavy purse in Lu Zhao's hand; it drops under the weight, he tightens his grip and looks up as she turns to direct the cargo workers.",
+          "lines": [
+            {
+              "speaker": "岑鹿",
+              "text": "二百四十。你的工钱。",
+              "off_screen": false,
+              "at": 24.3,
+              "end": 27
+            }
+          ],
+          "on_screen_text": [
+            {
+              "text": "救货工钱 240铜",
+              "method": "post_composite",
+              "placement": "秤旁结工纸",
+              "generation_surface": "blank"
+            }
+          ],
+          "continuity_out": "陆照攥紧袋口，抬头看她，岑鹿已转去指挥搬货"
+        },
+        {
+          "source_shot": "EP002_SH09",
+          "start": 28,
+          "end": 30.0,
+          "action_cn": {
+            "start": "时间省略：药已涂好，掌心药布只剩最后一圈；药钱已放在桌边",
+            "beat": "闻溪收紧布尾，陆照另一手将药钱推近",
+            "end": "闻溪抬眼点头，陆照收回包扎手"
+          },
+          "action_en": "A treatment time cut: ointment has been applied and only the final bandage turn remains, with the dressing fee already on the table. Then Wen Xi tucks the cloth tail while Lu Zhao slides the fee closer; she looks up and nods as he withdraws the dressed hand.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "闻溪抬眼点头，陆照收回包扎手"
+        }
+      ],
+      "audio_rule": "保留原对白逐字、说话人、画内外声源和时序；环境声跨切点连续；文字符号后期排版，检查口型与ASR。",
+      "review_status": "pending"
+    },
+    {
+      "id": "EP002_B",
+      "episode": "EP002",
+      "seconds": 30,
+      "model": "2.5",
+      "mode": "ref",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "camera_plan": {
+        "cn": "0–3秒买鞘时间省略，系鞘已完成，锥滑入；3秒以麻绳旧柄纹理匹配切三个月前废船，冷色与角标明确。3–10秒闪回连续近中景，余烬入旧胸伤、盒碎、老人覆锥手讲话。10秒台词落点匹配切到傍晚屋内包扎右手收拢钱袋的近景，随后在10–13秒内后拉侧移，陆照将钱倒在歪桌。10–30秒家中一镜到底：从这只包扎手跟钱落歪桌，侧移见姐姐换碗，推近两碗分肉，再随纸摊桌缓俯拍船图价格与200铜，抬至姐弟说话收钱，最后手、两碗、纸和袋同框。",
+        "en": "At 0s show the already-purchased sheath tied at the waist and slide the original awl into it over three seconds. At 3s match-cut on the old hemp handle texture to the abandoned-boat flashback, cooler light and the clear time caption three months earlier. From 3s to 10s use a continuous intimate medium-close view for the ember entering the old chest wound, box breaking and elder hand over the awl hand during his speech. At 10s match-cut on the elder final syllable to a close view of Lu Zhao bandaged RIGHT hand gathering the coin purse inside the dusk home. Within 10–13s pull back and slide as he pours the tied coin strings onto the crooked table. From 10s to 30s maintain this same continuous domestic take: follow the coin strings onto the crooked table, slide sideways as the sister replaces the chipped bowl, move nearer as meat is shared, gently tilt down when the boat paper is spread beside both bowls and the two-hundred-copper strings, then rise toward their faces while Lu Zhao speaks and gathers the money. End on hands, intact bowls, paper and purse together."
+      },
+      "timeline": [
+        {
+          "source_shot": "EP002_SH10",
+          "start": 0,
+          "end": 3.0,
+          "action_cn": {
+            "start": "时间省略到买鞘后：新皮鞘已系腰，付过的铜钱留在摊布上，陆照手握原锥",
+            "beat": "原锥滑入新鞘，旧麻绳锥柄停在鞘口",
+            "end": "锥柄纹路接到回忆里的同一锥柄"
+          },
+          "action_en": "After the sheath purchase time cut, the new sheath is already fastened to Lu Zhao's belt, paid coins rest on the stall cloth and the original awl is in his hand. Then he slides it into the sheath; its old wrapped handle match-cuts to the same handle in memory.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "锥柄纹路接到回忆里的同一锥柄"
+        },
+        {
+          "source_shot": "EP002_SH11",
+          "start": 3.0,
+          "end": 5.0,
+          "action_cn": {
+            "start": "暖色变冷，角标“三个月前”；消瘦无须老人右腕缠红布，陆照衣襟有旧伤血",
+            "beat": "老人将赤红薄物压入陆照胸前伤处",
+            "end": "盒壳烧碎，红光收进胸骨"
+          },
+          "action_en": "Flashback color shifts cool with a post-composited three-months-earlier caption. A gaunt clean-shaven elder wearing a red wrist strip presses a thin ember into an old wound on Lu Zhao's chest. Then the casing crumbles to ash as the red glow settles beneath his sternum.",
+          "lines": [],
+          "on_screen_text": [
+            {
+              "text": "三个月前",
+              "method": "post_composite",
+              "placement": "左上角时间字幕",
+              "generation_surface": "blank"
+            }
+          ],
+          "continuity_out": "盒壳烧碎，红光收进胸骨"
+        },
+        {
+          "source_shot": "EP002_SH12",
+          "start": 5.0,
+          "end": 10.0,
+          "action_cn": {
+            "start": "老人手覆在陆照握锥的手上，胸口余光已暗",
+            "beat": "老人说完半句喘气，再抓紧一下指节",
+            "end": "声音落下时，切回包扎手收住钱袋"
+          },
+          "action_en": "The gaunt elder's hand rests on Lu Zhao's awl hand as the chest glow fades. Then he speaks, pauses for breath and tightens his fingers once; his final words bridge to Lu Zhao's present-day bandaged hand closing the purse.",
+          "lines": [
+            {
+              "speaker": "老人",
+              "text": "每人只算一次。痕永不消，能一直添。",
+              "off_screen": false,
+              "at": 5.1,
+              "end": 9.7
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "声音落下时，切回包扎手收住钱袋"
+        },
+        {
+          "source_shot": "EP002_SH13",
+          "start": 10.0,
+          "end": 13.0,
+          "action_cn": {
+            "start": "傍晚，陆照进窄屋，将剩下的几串铜钱倒在歪桌上，付过饭宿的纸票夹在袋边",
+            "beat": "一串钱滑向低处，他用包扎手按住桌角",
+            "end": "陆禾从灶边回身，闻到湿衣味，目光停在手上的布"
+          },
+          "action_en": "At dusk Lu Zhao enters the cramped room and tips his remaining tied coin strings onto the crooked table; a paid lodging slip sits at his purse edge. Then one string slides toward the low edge; he braces the table with his bandaged hand as Lu He turns from the stove and notices his damp clothes and dressing.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "陆禾从灶边回身，闻到湿衣味，目光停在手上的布"
+        },
+        {
+          "source_shot": "EP002_SH14",
+          "start": 13.0,
+          "end": 18.0,
+          "action_cn": {
+            "start": "陆照伸手拿缺口碗，陆禾先收走它",
+            "beat": "她把盛着热饭的完整碗塞进他包扎的掌心，往饭上拨一块肉",
+            "end": "陆照望着碗沿，喉头动了一下才坐下"
+          },
+          "action_en": "Lu Zhao reaches for a chipped bowl, but Lu He takes it away first. Then she places a whole bowl of hot rice into his bandaged palm and adds a piece of meat. He studies its unbroken rim, swallows and sits down.",
+          "lines": [
+            {
+              "speaker": "陆禾",
+              "text": "活人不用吃剩的。",
+              "off_screen": false,
+              "at": 14.2,
+              "end": 16.6
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "陆照望着碗沿，喉头动了一下才坐下"
+        },
+        {
+          "source_shot": "EP002_SH15",
+          "start": 18.0,
+          "end": 21.0,
+          "action_cn": {
+            "start": "完整碗的热气升起，陆照夹住那块肉",
+            "beat": "他把肉分开，将半块放回姐姐碗中",
+            "end": "陆禾低头吃那半块，眼睛亮了一下"
+          },
+          "action_en": "Steam rises from the whole bowl. Then Lu Zhao divides the meat and places half into his sister's bowl; Lu He lowers her head to eat it, with a brief brightness in her eyes.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "陆禾低头吃那半块，眼睛亮了一下"
+        },
+        {
+          "source_shot": "EP002_SH16",
+          "start": 21.0,
+          "end": 26.0,
+          "action_cn": {
+            "start": "陆禾把青蟹号售船纸摊在两只碗旁；船头旧补丁图与价格“三千铜”清楚",
+            "beat": "陆照指尖认出图上的补丁，陆禾按住另一角",
+            "end": "姐弟都看向桌上刚挣回的二百铜"
+          },
+          "action_en": "Lu He unfolds the sale notice for the Blue Crab beside their two bowls; a familiar repaired bow and the post-composited three-thousand-copper price are visible. Then Lu Zhao touches the patch in the drawing while she holds the opposite corner, and both look toward the two hundred coins on the table.",
+          "lines": [
+            {
+              "speaker": "陆禾",
+              "text": "爹的青蟹号。三千铜。",
+              "off_screen": false,
+              "at": 21.3,
+              "end": 24.5
+            }
+          ],
+          "on_screen_text": [
+            {
+              "text": "青蟹号\n售价 三千铜",
+              "method": "post_composite",
+              "placement": "售船纸中央",
+              "generation_surface": "blank"
+            }
+          ],
+          "continuity_out": "姐弟都看向桌上刚挣回的二百铜"
+        },
+        {
+          "source_shot": "EP002_SH17",
+          "start": 26.0,
+          "end": 30.0,
+          "action_cn": {
+            "start": "陆照把桌上已经串好的钱收进袋，放到售船纸旁",
+            "beat": "他看着姐姐说“我们挣”，陆禾伸手按住纸的另一角",
+            "end": "两人的手停在各自的完整碗边，钱袋留在纸旁"
+          },
+          "action_en": "Lu Zhao gathers the already tied coin strings into the purse beside the boat notice. Then he looks at his sister and speaks; Lu He holds the opposite corner of the paper, their hands resting by their whole bowls with the purse beside the notice.",
+          "lines": [
+            {
+              "speaker": "陆照",
+              "text": "先不借。我们挣。",
+              "off_screen": false,
+              "at": 26.5,
+              "end": 29.0
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "两人的手停在各自的完整碗边，钱袋留在纸旁"
+        }
+      ],
+      "audio_rule": "保留原对白逐字、说话人、画内外声源和时序；环境声跨切点连续；文字符号后期排版，检查口型与ASR。",
+      "review_status": "pending"
+    },
+    {
+      "id": "EP003_A",
+      "episode": "EP003",
+      "seconds": 30,
+      "model": "2.5",
+      "mode": "ref",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "camera_plan": {
+        "cn": "0–2秒铜塞手部；2秒以水声接切付钱；4秒切门左网右空间全景。4–30秒战斗一镜到底，镜头始终在门与网架轴线同侧：先侧移交人，再随陆照退向门后改向画右跟至网架；网裹刀后下移但不中断，三分之二侧角看清双手刺网角、留锥、压葛牙右肘、折右腕、接刀回送退刃落沟。保持葛牙左拳到陆照右手抓腕的动作连续，缓绕不跨轴，结尾右肩压柱、双腕被控、兜帽落地。",
+        "en": "At 0s show the copper plug hand detail. At 2s sound-bridge the water into a payment cut. At 4s cut to the spatial wide view with the house door on the left and net rack on the right. From 4s to 30s the entire confrontation is one uninterrupted tracking take on the same side of the door-to-net axis. Move sideways for the hostage handover, follow Lu Zhao backward toward the door and then rightward toward the rack. Lower continuously for the mesh catching the knife and maintain a three-quarter side angle that reveals both hands: drive the awl through folded mesh and rail, release the planted awl, press Ge Ya RIGHT elbow with Lu Zhao LEFT palm, bend Ge Ya RIGHT wrist, take the knife, push it inward to slacken mesh, slide it clear and drop it into the lower-right gutter. Maintain visible continuity through Ge Ya left punch and Lu Zhao right hand catching that left wrist. Arc gently on the same side of the axis. End with Lu Zhao uninjured right shoulder pinning Ge Ya to the post, both wrists controlled and the detached hood on the ground."
+      },
+      "timeline": [
+        {
+          "source_shot": "EP003_SH01",
+          "start": 0,
+          "end": 2,
+          "action_cn": {
+            "start": "角标“翌日”，陆照包扎的手已经把原锥尖抵在铜塞上",
+            "beat": "一推即穿，清水落入桶",
+            "end": "锥沿原路抽出，水声接下一镜"
+          },
+          "action_en": "Next-day caption. Lu Zhao's bandaged hand already holds the original awl against the copper plug. Then one straight push opens it and clear water falls into the bucket; the awl withdraws along its entry path as the water sound bridges to the next shot.",
+          "lines": [],
+          "on_screen_text": [
+            {
+              "text": "翌日",
+              "method": "post_composite",
+              "placement": "左上角时间字幕",
+              "generation_surface": "blank"
+            }
+          ],
+          "continuity_out": "锥沿原路抽出，水声接下一镜"
+        },
+        {
+          "source_shot": "EP003_SH02",
+          "start": 2,
+          "end": 4,
+          "action_cn": {
+            "start": "切到付工钱时：原锥已经收进腰鞘，水槽货主把六十铜放入陆照手中",
+            "beat": "他将钱收入腰袋，手伸向矮台上的午饭",
+            "end": "闻溪在门外骤然站住，视线越过他的肩"
+          },
+          "action_en": "Cut to payment time: the original awl is already sheathed at Lu Zhao's belt as the trough owner places sixty copper coins in his hand. Then he pockets the coins and reaches toward lunch on the low stand; Wen Xi stops outside and looks past his shoulder.",
+          "lines": [
+            {
+              "speaker": "水槽货主",
+              "text": "六十铜。",
+              "off_screen": false,
+              "at": 2.1,
+              "end": 3.3
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "闻溪在门外骤然站住，视线越过他的肩"
+        },
+        {
+          "source_shot": "EP003_SH03",
+          "start": 4,
+          "end": 8,
+          "action_cn": {
+            "start": "葛牙在画右反拧阿砾右臂，短刀贴肋；陆照与姐姐的门在画左",
+            "beat": "葛牙把阿砾推近半步，点名叫陆照",
+            "end": "闻溪靠向阿砾一侧，手已伸出准备接人"
+          },
+          "action_en": "Ge Ya at screen right twists Ali's right arm and holds a short knife against his ribs. Lu Zhao and his sister's door remain at screen left. Then Ge Ya shoves Ali half a step forward and calls Lu Zhao, while Wen Xi moves within reach to receive Ali.",
+          "lines": [
+            {
+              "speaker": "葛牙",
+              "text": "照子，跟我走。",
+              "off_screen": false,
+              "at": 4.3,
+              "end": 6.5
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "闻溪靠向阿砾一侧，手已伸出准备接人"
+        },
+        {
+          "source_shot": "EP003_SH04",
+          "start": 8,
+          "end": 10,
+          "action_cn": {
+            "start": "陆照将午饭放稳在门边矮台",
+            "beat": "他向葛牙走两步，双手离腰间的锥",
+            "end": "脚停在门外，闻溪站在能接住阿砾的位置"
+          },
+          "action_en": "Lu Zhao sets the lunch bowl firmly on the low stand by the door. Then he takes two steps toward Ge Ya with his hands away from the sheathed awl and stops where Wen Xi can receive Ali.",
+          "lines": [
+            {
+              "speaker": "陆照",
+              "text": "先放他。",
+              "off_screen": false,
+              "at": 8.2,
+              "end": 9.5
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "脚停在门外，闻溪站在能接住阿砾的位置"
+        },
+        {
+          "source_shot": "EP003_SH05",
+          "start": 10,
+          "end": 13.5,
+          "action_cn": {
+            "start": "葛牙推开阿砾，闻溪接住他往门侧退",
+            "beat": "陆照右手刚碰锥柄，葛牙短刀已划过他的左肩",
+            "end": "陆照缩肩退半步，左肩裂口洇红，右手拔锥出鞘"
+          },
+          "action_en": "Ge Ya releases Ali into Wen Xi's arms. Then before Lu Zhao can draw, Ge Ya's knife cuts the cloth at Lu Zhao's left shoulder; Lu Zhao recoils half a step and draws the awl with his right hand as blood spreads at the left shoulder.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "陆照缩肩退半步，左肩裂口洇红，右手拔锥出鞘"
+        },
+        {
+          "source_shot": "EP003_SH06",
+          "start": 13.5,
+          "end": 16.5,
+          "action_cn": {
+            "start": "陆照退一步，左后方就是姐姐的门；门内传来碗筷声",
+            "beat": "他看一眼门，改向画右横移，葛牙持刀追过去；镜头顺势平移",
+            "end": "门与闻溪、阿砾留在左后方，晒网架进入右侧"
+          },
+          "action_en": "Lu Zhao's retreat puts his sister's door just behind his left shoulder, with crockery audible inside. Then he changes direction and moves right toward the drying net frame, drawing Ge Ya after him as the camera tracks; Wen Xi and Ali remain safely by the left-hand door.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "门与闻溪、阿砾留在左后方，晒网架进入右侧"
+        },
+        {
+          "source_shot": "EP003_SH07",
+          "start": 16.5,
+          "end": 18.5,
+          "action_cn": {
+            "start": "网帘上缘绑在横杆，下缘湿重地堆到陆照脚边",
+            "beat": "陆照踢起松垂网角，湿网迎面裹住葛牙追来的短刀",
+            "end": "陆照持锥站到网侧，葛牙隔网伸臂"
+          },
+          "action_en": "The net curtain is tied along the top rail and hangs in a loose wet heap beside Lu Zhao's foot. Then he kicks its loose lower corner over Ge Ya's pursuing knife; the wet mesh wraps the blade while Lu Zhao steps beside the net with his awl.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "陆照持锥站到网侧，葛牙隔网伸臂"
+        },
+        {
+          "source_shot": "EP003_SH08",
+          "start": 18.5,
+          "end": 20.0,
+          "action_cn": {
+            "start": "刀背被网眼裹住，葛牙手在网外握柄",
+            "beat": "他横拉刀口割断两根网线，余下湿网仍裹住刀背",
+            "end": "折起的网角贴到近侧木横杆，陆照锥尖进入画面"
+          },
+          "action_en": "Close detail shows mesh wrapped around the knife spine while Ge Ya grips the handle outside. Then he saws through two strands but the remaining wet net stays wrapped; the folded corner reaches the near wooden rail as Lu Zhao's awl enters frame.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "折起的网角贴到近侧木横杆，陆照锥尖进入画面"
+        },
+        {
+          "source_shot": "EP003_SH09",
+          "start": 20.0,
+          "end": 23.0,
+          "action_cn": {
+            "start": "侧面见陆照双手握锥、网角与横杆，左肩带血",
+            "beat": "他将折起网角压向横杆，双手直刺贯穿木杆，锥柄把网角压住",
+            "end": "葛牙回抽刀，网绷紧将持刀腕牵向横杆；陆照立即松开留在杆上的锥"
+          },
+          "action_en": "A side view includes Lu Zhao's two-handed grip, the folded net corner and the wooden rail, with his injured left shoulder visible. Then he drives the awl straight through the folded mesh into and through the rail so the handle traps the corner; Ge Ya's pulling knife draws his wrist toward the now-taut net. Lu Zhao releases the awl, leaving it fixed in the rail.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "葛牙回抽刀，网绷紧将持刀腕牵向横杆；陆照立即松开留在杆上的锥"
+        },
+        {
+          "source_shot": "EP003_SH10",
+          "start": 23.0,
+          "end": 27.0,
+          "action_cn": {
+            "start": "葛牙右手仍握刀，网绷紧；陆照左掌将其右肘压在横杆，右手反折他的握刀腕",
+            "beat": "葛牙疼得张开五指；陆照右手接握刀柄，向网内回送半寸松去张力，再沿刀背退刃",
+            "end": "刀完全脱网，陆照松手让它落入脚旁画右下石沟；左掌始终借横杆压肘"
+          },
+          "action_en": "Ge Ya still grips the knife in his right hand with the net taut. Lu Zhao braces Ge Ya right elbow against the rail with Lu Zhao left palm and bends the knife wrist back with his right hand. Then Ge Ya opens his fingers in pain; Lu Zhao visibly takes the handle, pushes it slightly into the net to slacken the mesh and slides the blade out along its spine. Once the blade clears the mesh he releases it into the established lower-right gutter beside his foot, keeping the elbow pinned with his left palm.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "刀完全脱网，陆照松手让它落入脚旁画右下石沟；左掌始终借横杆压肘"
+        },
+        {
+          "source_shot": "EP003_SH11",
+          "start": 27.0,
+          "end": 30.0,
+          "action_cn": {
+            "start": "陆照左掌仍借横杆压着葛牙右肘，右手刚松开落沟的刀",
+            "beat": "葛牙左拳打中陆照耳侧；拳收回时，陆照右手抓住这只左腕，把它折向葛牙胸前",
+            "end": "陆照转身用右肩和身体将葛牙挤向架柱，控制住两臂；葛牙兜帽被横杆蹭落"
+          },
+          "action_en": "Lu Zhao's left palm pins Ge Ya's right elbow against the rail; his right hand has just released the knife into the gutter. Then Ge Ya's left fist hits Lu Zhao beside the ear. As the fist retracts, Lu Zhao catches that left wrist with his right hand, folds it across Ge Ya's chest and turns his body and uninjured right shoulder to wedge Ge Ya against the post, controlling both arms. Ge Ya's hood catches the rail and falls.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "陆照转身用右肩和身体将葛牙挤向架柱，控制住两臂；葛牙兜帽被横杆蹭落"
+        }
+      ],
+      "audio_rule": "保留原对白逐字、说话人、画内外声源和时序；环境声跨切点连续；文字符号后期排版，检查口型与ASR。",
+      "review_status": "pending"
+    },
+    {
+      "id": "EP003_B",
+      "episode": "EP003",
+      "seconds": 30,
+      "model": "2.5",
+      "mode": "ref",
+      "resolution": "480p",
+      "aspect_ratio": "16:9",
+      "camera_plan": {
+        "cn": "0秒同机位时间省略到阿砾短绳已绕柱，0–4秒拍末结和喊人；4秒时间省略到两守卫接手，4–9秒连续中景分别交刀、捡帽鱼牌、胸口添第二痕、拔回锥。9秒切门边敷药，9–18秒同一镜头从闻溪左肩敷药侧移到陆禾开门、抚领、推饭。18秒明确下午转场至绳摊，18–30秒一镜到底：岑鹿摊图指桩及白线，陆照移工具箱标记给伤员腾位；镜头侧移到陆照交40铜及雇工条给阿砾，顺视线落到窄水道结束。",
+        "en": "At 0s make an explicit same-angle time ellipsis to Ali having already wrapped the wrist-and-post rope. Show the final knot and call over 0–4s. At 4s time-cut to two guards taking custody. Keep a continuous medium view over 4–9s as Ali hands over the knife point-down, the other guard retrieves hood and fish token, the second ember appears and Lu Zhao retrieves the original awl. At 9s cut to dressing at the doorway. From 9s to 18s use one continuous shot from Wen Xi treating the anatomical left shoulder to Lu He opening the door, smoothing the collar and moving lunch nearer. At 18s make an explicit afternoon location cut to the rope stall. From 18s to 30s use a single continuous take: Cen Lu spreads the drainage chart, points at pile and delivery line, Lu Zhao shifts the toolbox marker away from the injured-person stern space; slide sideways to the forty-copper string and employment paper handed to Ali, ending along both eyelines toward the narrow waterway."
+      },
+      "timeline": [
+        {
+          "source_shot": "EP003_SH12",
+          "start": 0,
+          "end": 4,
+          "action_cn": {
+            "start": "时间省略硬切：陆照右肩仍将葛牙抵住架柱，双手分别把住两腕；阿砾已从安全侧把短绳绕过腕柱",
+            "beat": "阿砾拉紧末结，葛牙挣动，两臂仍受陆照和柱面压制；阿砾向码头喊人",
+            "end": "绳扣吃紧后陆照才松肩，葛牙留在柱边"
+          },
+          "action_en": "An explicit time cut skips fetching and wrapping the tie. Lu Zhao still wedges Ge Ya against the post with his uninjured right shoulder and controls one wrist in each hand; Ali has looped the short rope around wrists and post from the safe side. Then Ali tightens the last knot and calls toward the quay while Lu Zhao maintains body pressure; once the knot holds Lu Zhao eases his shoulder, leaving Ge Ya secured.",
+          "lines": [
+            {
+              "speaker": "阿砾",
+              "text": "有人持刀！",
+              "off_screen": false,
+              "at": 2.5,
+              "end": 3.8
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "绳扣吃紧后陆照才松肩，葛牙留在柱边"
+        },
+        {
+          "source_shot": "EP003_SH13",
+          "start": 4,
+          "end": 7,
+          "action_cn": {
+            "start": "时间省略：两名守船人已从码头路口赶到；阿砾站在石沟边把拾起的短刀刀尖向下交给一人",
+            "beat": "闻溪指向葛牙左脚旁的掉落兜帽，铜鱼牌露出半边；另一守船人蹲下捡起帽牌",
+            "end": "一人拿刀，一人拿帽牌，葛牙仍被绑在柱上"
+          },
+          "action_en": "Time cut: two watchmen have arrived from the visible quay lane. Ali stands by the gutter handing the recovered knife point-down to one. Then Wen Xi points at Ge Ya's fallen hood by his left foot, where half a copper fish token is visible; the second watchman stoops and collects the hood and token. One holds the knife, the other the hood and token, while Ge Ya remains tied to the post.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "一人拿刀，一人拿帽牌，葛牙仍被绑在柱上"
+        },
+        {
+          "source_shot": "EP003_SH14",
+          "start": 7,
+          "end": 9,
+          "action_cn": {
+            "start": "守船人已接管葛牙，陆照低头喘气",
+            "beat": "胸骨位置亮出两道短痕，旧的一道旁新增一道",
+            "end": "他右手拔回横杆上的锥，松开的网角落下"
+          },
+          "action_en": "With the watchmen taking custody of Ge Ya, Lu Zhao catches his breath. Then two short marks glow beneath his sternum, the new one beside the old; he pulls the awl from the rail with his right hand and the freed net corner falls.",
+          "lines": [],
+          "on_screen_text": [],
+          "continuity_out": "他右手拔回横杆上的锥，松开的网角落下"
+        },
+        {
+          "source_shot": "EP003_SH15",
+          "start": 9,
+          "end": 13,
+          "action_cn": {
+            "start": "时间省略：葛牙已被带走，陆照坐在门边矮台旁，锥已收鞘；闻溪剪开左肩衣料",
+            "beat": "闻溪压好药布，陆照试抬左臂便停住",
+            "end": "门从身后打开，陆禾看见血衣"
+          },
+          "action_en": "After the watchmen leave with Ge Ya, Lu Zhao sits by the lunch stand with the awl sheathed. Wen Xi cuts the left shoulder cloth and presses a dressing onto the shallow wound. Then he starts to lift that arm and stops at the pain as his sister opens the door behind him.",
+          "lines": [
+            {
+              "speaker": "闻溪",
+              "text": "能刺，也得躲刀。",
+              "off_screen": false,
+              "at": 9.4,
+              "end": 12
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "门从身后打开，陆禾看见血衣"
+        },
+        {
+          "source_shot": "EP003_SH16",
+          "start": 13,
+          "end": 18,
+          "action_cn": {
+            "start": "陆照看见姐姐，想用右肩挡一下血衣，随即停住",
+            "beat": "陆禾用沾面粉的手摊平伤侧领边，说完停一拍；陆照低低应声",
+            "end": "她伸手把午饭往他身边推，完整碗仍在"
+          },
+          "action_en": "Lu Zhao starts to turn his uninjured shoulder toward his sister to hide the bloody cloth, then stops. Lu He uses flour-dusted fingers to smooth the collar away from the wound, speaks and waits; he answers quietly. Then she slides the waiting whole lunch bowl closer to him.",
+          "lines": [
+            {
+              "speaker": "陆禾",
+              "text": "下次先叫我关门。",
+              "off_screen": false,
+              "at": 13.5,
+              "end": 15.9
+            },
+            {
+              "speaker": "陆照",
+              "text": "嗯。",
+              "off_screen": false,
+              "at": 16.3,
+              "end": 16.9
+            }
+          ],
+          "on_screen_text": [],
+          "continuity_out": "她伸手把午饭往他身边推，完整碗仍在"
+        },
+        {
+          "source_shot": "EP003_SH17",
+          "start": 18,
+          "end": 24,
+          "action_cn": {
+            "start": "下午时间切：陆照左肩已包扎；岑鹿摊图，同框见沉桩堵主排水口、拖行白线，阿砾站旁",
+            "beat": "岑鹿指桩、再指白线，露出图边两名拉缆工的名字与暂未盖收讫的六百铜报价",
+            "end": "陆照用右手将工具箱标记移离后舷伤员空位，看向阿砾"
+          },
+          "action_en": "Afternoon cut: Lu Zhao's left shoulder is dressed. Cen Lu spreads a chart showing a sunken pile blocking the main drain and the white delivery line, with Ali beside them. Then she points from the pile to the line; a blank caption area lists two assigned rope workers and a six-hundred-copper completion quote, still unpaid. Lu Zhao uses his right hand to move a toolbox marker away from the rear casualty space and looks at Ali.",
+          "lines": [
+            {
+              "speaker": "岑鹿",
+              "text": "六百铜。桩过白线才付，我出两个人。",
+              "off_screen": false,
+              "at": 18.4,
+              "end": 23.7
+            }
+          ],
+          "on_screen_text": [
+            {
+              "text": "完工付600铜\n配拉缆工二名",
+              "method": "post_composite",
+              "placement": "图旁报价单",
+              "generation_surface": "blank"
+            },
+            {
+              "text": "伤员位",
+              "method": "post_composite",
+              "placement": "后舷图例",
+              "generation_surface": "blank"
+            }
+          ],
+          "continuity_out": "陆照用右手将工具箱标记移离后舷伤员空位，看向阿砾"
+        },
+        {
+          "source_shot": "EP003_SH18",
+          "start": 24,
+          "end": 30,
+          "action_cn": {
+            "start": "陆照把预先数好的四十铜一串交到阿砾手上，摊布已有写好两日工钱的雇工条",
+            "beat": "阿砾看一眼钱，再抬头问陆照；陆照应下，右手将绳头推近",
+            "end": "阿砾握住绳头，笑着和陆照一起看向窄水道"
+          },
+          "action_en": "Lu Zhao places a pre-counted string of forty copper coins in Ali's hand beside the prepared two-day wage slip. Then Ali glances at the coins and asks Lu Zhao his question; Lu Zhao answers and slides the rope end closer with his right hand. Ali grips the rope, smiling as they both look toward the narrow channel.",
+          "lines": [
+            {
+              "speaker": "陆照",
+              "text": "两天工钱。帮我看水。",
+              "off_screen": false,
+              "at": 24.1,
+              "end": 27
+            },
+            {
+              "speaker": "阿砾",
+              "text": "喊了你听？",
+              "off_screen": false,
+              "at": 27.1,
+              "end": 28.6
+            },
+            {
+              "speaker": "陆照",
+              "text": "听。",
+              "off_screen": false,
+              "at": 28.8,
+              "end": 29.5
+            }
+          ],
+          "on_screen_text": [
+            {
+              "text": "两日工钱 40铜",
+              "method": "post_composite",
+              "placement": "雇工条",
+              "generation_surface": "blank"
+            }
+          ],
+          "continuity_out": "阿砾握住绳头，笑着和陆照一起看向窄水道"
+        }
+      ],
+      "audio_rule": "保留原对白逐字、说话人、画内外声源和时序；环境声跨切点连续；文字符号后期排版，检查口型与ASR。",
+      "review_status": "pending"
+    }
+  ]
+}

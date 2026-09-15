@@ -1,0 +1,16 @@
+{
+  "id": "棘爪绳轮机关_修复",
+  "request_sha256": "04a90be953851a3fbb6f5380c668f3e607ea416908af584bd2fcfacfddcf96b0",
+  "spec_sha256": "69882ee163a669e202fd9e92fa4c2c00aa73cc0c985f2a962ce09c325b0b880d",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/棘爪绳轮机关/structure_v03.jpg": "decd81caaccbc9499eb566e3ce04532e1d7d016db23dc7a6fbfdc5826840bb22"
+  },
+  "image_sha256": "1711fb0896daf320d5793c0ee3c7828a5cfd0832e091c4f42f96f89629c1dd44",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "基础修复任务.json",
+  "visual_status": "pending_inspection"
+}

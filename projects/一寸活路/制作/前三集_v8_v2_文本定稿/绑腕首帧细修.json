@@ -1,0 +1,18 @@
+{
+  "source_manifest_sha256": "f9d69f6cb1a654d8e9f2969ec59990bd6ed0ca6a7cbbf5d08331c54110ebc66b",
+  "assets": [
+    {
+      "id": "EP002_A_OPEN",
+      "prompt": "Edit the prisoner Ma Duo arms and wrists. Show BOTH HANDS clearly side by side on the front of his belly, fingers visible. Bend both elbows so the forearms converge together at his right hip. Wrap ONE rope around BOTH adjacent wrists, then connect that rope visibly to the foot of a SINGLE low wooden post beside that hip. A clear visible pair of bound hands is essential. Keep his half-reclined posture, face, clothing, looped ankles, raised ledge, water, chamber and Lu Zhao holding the small bronze crank unchanged.",
+      "refs": [
+        "制作/前三集_v8_v2_文本定稿/段落首帧/EP002_A_OPEN/ref_v02.jpg"
+      ],
+      "output": "段落首帧/EP002_A_OPEN/ref_v03.jpg",
+      "seed": 954011,
+      "size": {
+        "width": 2048,
+        "height": 1152
+      }
+    }
+  ]
+}

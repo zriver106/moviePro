@@ -1,0 +1,17 @@
+{
+  "id": "EP002_B_OPEN",
+  "request_sha256": "246e3d6c2b175999908401039941c651ba62368ab39b57af12d24e84cbf9062a",
+  "spec_sha256": "045010ac80134b0496f4acd7df8af34cde3e3b6d543db47b63fcfd1a9cd9a700",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/陆照_湿衣包掌配鞘/repair_v03.jpg": "da41d3a3084ac4e3ea84eb60682803141e1a4bd0bb08a3a14f469bd85f54927f",
+    "制作/前三集_v8_v2_文本定稿/资产/复用/黑钢锥_01.jpg": "2dc24505a1c31030003cf9e7639cce3c3025165ebb68cc8ea9b2a323cb09c64c"
+  },
+  "image_sha256": "4b6c19309fa1867adecf908700466cd4db55202e155ab4269764bbf94a3ae8d0",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "段落首帧任务.json",
+  "visual_status": "pending_inspection"
+}

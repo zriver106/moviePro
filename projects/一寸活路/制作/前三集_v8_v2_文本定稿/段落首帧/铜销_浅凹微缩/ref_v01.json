@@ -1,0 +1,16 @@
+{
+  "id": "铜销_浅凹微缩",
+  "request_sha256": "0195521000e306aa16f4892b30eae322133303c0256e16fff78ffe7a95a9f1b6",
+  "spec_sha256": "045010ac80134b0496f4acd7df8af34cde3e3b6d543db47b63fcfd1a9cd9a700",
+  "refs_sha256": {
+    "制作/前三集_v8_v2_文本定稿/资产/铜销_穿孔/repair_v05.jpg": "b0698aac1261255bc82bc144766f721442b4f7bc953355558a7c5245707f3a95"
+  },
+  "image_sha256": "37768fbf1aee8780f4d634f568b3e45e7f47bb8e48b9476abd4fc264eed81b71",
+  "dimensions": [
+    3416,
+    1920
+  ],
+  "provider_backend": "fal",
+  "source_spec": "段落首帧任务.json",
+  "visual_status": "pending_inspection"
+}
