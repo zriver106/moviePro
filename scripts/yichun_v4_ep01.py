@@ -15,6 +15,9 @@ def save(p,v):
 def submit(name):
     script_lock.require(PROJECT,1,'新总包素材制作')
     spec=read(P/'记录/任务规格.json')[name]
+    aspect=read(P/'来源/制作约束.json')['aspect']
+    if spec['capability']=='video' and spec['body'].get('task')!='editing' and spec['body'].get('aspect_ratio')!=aspect:
+        raise SystemExit(f'任务画幅与用户最新要求{aspect}不符；禁止提交旧画幅任务')
     policy_path=P/'记录/首版制作流程.json'
     policy=read(policy_path) if policy_path.exists() else {}
     if policy.get('status')=='make_first_cut_then_user_review' and spec['body'].get('task')=='editing':

@@ -1,5 +1,10 @@
 {
   "seconds": 98,
+  "aspect_ratio": "16:9",
+  "resolution": [
+    1280,
+    720
+  ],
   "bgm": false,
   "subtitle_layers": 1,
   "parts": [
@@ -52,5 +57,5 @@
       "available": false
     }
   ],
-  "status": "awaiting_source_videos"
+  "status": "awaiting_landscape_source_videos"
 }

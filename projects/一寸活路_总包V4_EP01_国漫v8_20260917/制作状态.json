@@ -1,5 +1,5 @@
 {
-  "stage": "首版补齐任务已提交；服务商账户TOP_UP锁定，部分结果暂不可取",
+  "stage": "用户纠正为16:9横屏；现有竖屏尚未转换",
   "source_locked": true,
   "text_review_binding": "passed",
   "shots": 19,
@@ -15,7 +15,8 @@
   "subtitle_tracks": 1,
   "active_provider_jobs": 2,
   "blockers": [
-    "首版三段新素材尚未取回；C段结果接口返回账户TOP_UP锁定"
+    "现有参考和视频按9:16制作，需完成16:9横屏适配",
+    "服务商结果接口此前返回TOP_UP账户锁定"
   ],
   "updated_at": "2026-09-17T14:21:35.478233+00:00",
   "active_jobs": [
@@ -28,10 +29,17 @@
     "S12"
   ],
   "accepted_seconds": 5,
-  "next_action_policy": "完成缺失剧情并合成首版；停止自行追加画面修复；已有视频不重新生成",
+  "next_action_policy": "停止新竖屏任务；先交完整横屏首版再等看片意见；保留已有视频，未经同意不重新生成",
   "first_cut_jobs_submitted": 3,
   "first_cut_result_error": {
     "job": "FIRSTCUT_C_S15_S19_v01",
     "reason": "HTTP 403 User is locked. Reason: TOP_UP."
-  }
+  },
+  "aspect": "16:9",
+  "target_resolution": [
+    1280,
+    720
+  ],
+  "aspect_user_instruction": "我要的是横屏的，不是竖屏",
+  "portrait_jobs_policy": "旧提交记录保留真实9:16参数，禁止继续提交竖屏；已有视频转换须采用原片编辑，不得擅自重新生成。"
 }

@@ -23,14 +23,14 @@ def subtitles():
  cues=json.loads((P/'后期/对白时间轴草稿.json').read_text())['cues']
  head='''[Script Info]
 ScriptType: v4.00+
-PlayResX: 720
-PlayResY: 1280
+PlayResX: 1280
+PlayResY: 720
 WrapStyle: 2
 ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial Unicode MS,36,&H00FFFFFF,&H00FFFFFF,&H00141414,&H80000000,0,0,0,0,100,100,0,0,1,2,0,2,40,40,110,1
+Style: Default,Arial Unicode MS,36,&H00FFFFFF,&H00FFFFFF,&H00141414,&H80000000,0,0,0,0,100,100,0,0,1,2,0,2,60,60,45,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -46,7 +46,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 def main():
  ass=subtitles()
- manifest={'seconds':98,'bgm':False,'subtitle_layers':1,'parts':[], 'status':'awaiting_source_videos'}
+ manifest={'seconds':98,'aspect_ratio':'16:9','resolution':[1280,720],'bgm':False,'subtitle_layers':1,'parts':[], 'status':'awaiting_landscape_source_videos'}
  cursor=0
  for source,duration in PARTS:
   manifest['parts'].append({'source':source,'start':cursor,'end':cursor+duration,'available':(P/source).exists()});cursor+=duration
@@ -54,11 +54,15 @@ def main():
  manifest_path=P/'后期/首版剪辑清单.json';manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
  missing=[x['source'] for x in manifest['parts'] if not x['available']]
  if missing:raise SystemExit('完整首版等待真实视频素材：\n'+'\n'.join(missing))
+ for source,_ in PARTS:
+  stream=next(s for s in probe(P/source)['streams'] if s['codec_type']=='video')
+  if abs(stream['width']/stream['height']-16/9)>.02:
+   raise SystemExit(f'等待横屏构图素材，禁止裁掉主体、拉伸或加边冒充横屏：{source}')
  temp=P/'后期/首版中间素材';temp.mkdir(exist_ok=True)
  for i,(source,duration) in enumerate(PARTS):
   info=probe(P/source);actual=float(info['format']['duration'])
   if actual+0.08<duration:raise SystemExit(f'素材不足目标时长，禁止定格或循环填充：{source} {actual} < {duration}')
-  subprocess.run([FF,'-v','error','-y','-i',str(P/source),'-an','-vf','scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,setsar=1,fps=24','-t',str(duration),'-c:v','libx264','-preset','fast','-crf','18',str(temp/f'{i:02d}.mp4')],check=True)
+  subprocess.run([FF,'-v','error','-y','-i',str(P/source),'-an','-vf','scale=1280:720,setsar=1,fps=24','-t',str(duration),'-c:v','libx264','-preset','fast','-crf','18',str(temp/f'{i:02d}.mp4')],check=True)
  concat=temp/'concat.txt';concat.write_text(''.join(f"file '{i:02d}.mp4'\n" for i in range(len(PARTS))))
  clean=temp/'画面拼接.mp4'
  subprocess.run([FF,'-v','error','-y','-f','concat','-safe','0','-i',str(concat),'-c','copy',str(clean)],check=True)

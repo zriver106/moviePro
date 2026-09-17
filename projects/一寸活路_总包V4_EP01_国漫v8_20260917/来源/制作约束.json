@@ -4,7 +4,7 @@
   "scope": "仅第一集",
   "visual_style": "Seedream立体国漫定妆_v8 + Seedream立体国漫基础场景_v8配套",
   "user_style_overrides_source_photoreal": true,
-  "aspect": "9:16",
+  "aspect": "16:9",
   "target_seconds": 98,
   "segments": {
     "G01A": 50,
@@ -15,5 +15,11 @@
   "old_script_and_storyboard_used": false,
   "authorization": "用户明确要求按新总包重新做第一集；授权本批首次生成，返修仍编辑原素材，不自动重生",
   "source_review": "R3 S及R4/剪辑/执行约束专项通过报告链；待绑定当前冻结投影",
-  "deliverable": "98秒第一集及G01A/G01B段，结尾尚未救人上台"
+  "deliverable": "98秒第一集及G01A/G01B段，结尾尚未救人上台",
+  "target_resolution": [
+    1280,
+    720
+  ],
+  "aspect_user_instruction": "我要的是横屏的，不是竖屏",
+  "portrait_jobs_policy": "旧提交记录保留真实9:16参数，禁止继续提交竖屏；已有视频转换须采用原片编辑，不得擅自重新生成。"
 }
