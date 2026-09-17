@@ -1,5 +1,5 @@
 {
-  "state": "submitted",
+  "state": "result_error",
   "started_at": "2026-09-17T19:30:26.663754+00:00",
   "spec": {
     "mode": "t2v",
@@ -25,5 +25,17 @@
     "logs": null,
     "metrics": {},
     "queue_position": 0
-  }
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0b0d9-4fe2-7930-b468-6527f2f1f345",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b0d9-4fe2-7930-b468-6527f2f1f345",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b0d9-4fe2-7930-b468-6527f2f1f345/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b0d9-4fe2-7930-b468-6527f2f1f345/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 2.559000015258789
+    }
+  },
+  "error": "队列读取 422: [{\"loc\": [\"body\", \"x_fal_caller_account_type\"], \"msg\": \"The content could not be processed because it contained material flagged by a content checker.\", \"type\": \"content_policy_violation\"}, {\"loc\": [\"body\", \"prompt\"], \"msg\": \"The content could not be processed because it contained material flagged by a content checker.\", \"type\": \"content_policy_violation\"}]"
 }

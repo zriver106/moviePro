@@ -1,5 +1,5 @@
 {
-  "state": "submitted",
+  "state": "IN_PROGRESS",
   "started_at": "2026-09-17T19:30:26.168284+00:00",
   "spec": {
     "mode": "t2v",
@@ -25,5 +25,14 @@
     "logs": null,
     "metrics": {},
     "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0b0d9-4e63-73e0-a8e7-e231a89b9190",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b0d9-4e63-73e0-a8e7-e231a89b9190",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b0d9-4e63-73e0-a8e7-e231a89b9190/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b0d9-4e63-73e0-a8e7-e231a89b9190/cancel",
+    "logs": null,
+    "metrics": {}
   }
 }

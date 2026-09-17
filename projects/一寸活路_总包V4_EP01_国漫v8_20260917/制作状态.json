@@ -1,5 +1,5 @@
 {
-  "stage": "用户授权新增两段独立30秒，纯文字虚构国漫制作中",
+  "stage": "第二段生成中；第三段纯文字请求被平台内容审核拒绝",
   "source_locked": true,
   "text_review_binding": "passed",
   "shots": 19,
@@ -13,12 +13,13 @@
   "accepted_video_shots": 2,
   "bgm": false,
   "subtitle_tracks": 1,
-  "active_provider_jobs": 2,
-  "blockers": [],
+  "active_provider_jobs": 1,
+  "blockers": [
+    "TEXT_60_90: 422 content_policy_violation，正文及账户类型字段触发审核"
+  ],
   "updated_at": "2026-09-17T18:23:32.135834+00:00",
   "active_jobs": [
-    "TEXT_30_60",
-    "TEXT_60_90"
+    "TEXT_30_60"
   ],
   "regeneration_allowed": "本次明确授权的横屏重制一次；不授权首版后自动重做",
   "accepted_shots": [
@@ -26,7 +27,7 @@
     "S12"
   ],
   "accepted_seconds": 5,
-  "next_action_policy": "新虚构文字视频，不上传被拒媒体；两段首版加字幕交用户，停止自动修片",
+  "next_action_policy": "取回已提交的第二段；第三段不改提示重试、不转服务绕过审核；交实际首版",
   "first_cut_jobs_submitted": 3,
   "first_cut_result_error": {
     "job": "FIRSTCUT_C_S15_S19_v01",
