@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:15:38.622289+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "参考/S14原片1秒.png"
+    ],
+    "output": "首帧/S14_SAME_CAMERA_BOOT_PRO_v02.png",
+    "body": {
+      "prompt": "Edit this exact movie frame. Keep the identical camera position, framing, character sizes, faces, wooden post and fork position. Change the blue-shirted man’s pose into a boot kick: his foreground right hand grips the brown man’s nearest wrist against the water; his other hand stays pressed on the brown man’s upper chest. His left knee keeps pressing the brown chest. His right leg extends forward from his right hip, and the toe of his black right boot touches the wooden fork shaft just below its black two-pronged head in the lower center of the frame. The extended leg is visibly connected from hip through bent knee to shin and boot. Both men retain two arms and two legs, anatomically connected. Preserve the original dimensional Chinese animation finish.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "参考/S14原片1秒.png": "1adfe0ce4fb9c5b3b7b7c881002b6472acfd0df0a70733a3669bad9290a60f94"
+  },
+  "body": {
+    "prompt": "Edit this exact movie frame. Keep the identical camera position, framing, character sizes, faces, wooden post and fork position. Change the blue-shirted man’s pose into a boot kick: his foreground right hand grips the brown man’s nearest wrist against the water; his other hand stays pressed on the brown man’s upper chest. His left knee keeps pressing the brown chest. His right leg extends forward from his right hip, and the toe of his black right boot touches the wooden fork shaft just below its black two-pronged head in the lower center of the frame. The extended leg is visibly connected from hip through bent knee to shin and boot. Both men retain two arms and two legs, anatomically connected. Preserve the original dimensional Chinese animation finish.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac4c5/I9dDlGNKPJ6grekCj_Nmz_S14%3F%3F1%3F.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aea6-7586-7373-b878-542a0049ff53",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aea6-7586-7373-b878-542a0049ff53",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aea6-7586-7373-b878-542a0049ff53/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aea6-7586-7373-b878-542a0049ff53/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0aea6-7586-7373-b878-542a0049ff53",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aea6-7586-7373-b878-542a0049ff53",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aea6-7586-7373-b878-542a0049ff53/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aea6-7586-7373-b878-542a0049ff53/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 110.91400003433228
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac4d0/8BLeRIxbrcBLl5s9_trsX_225fea7e2d204f729d65146b0cadc4ab.png",
+        "content_type": "image/png",
+        "file_name": "225fea7e2d204f729d65146b0cadc4ab.png",
+        "file_size": 4921529,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "76bbe08913c5364d4ed7308349ec847d01f831b3905266e4ecee3f55323f5c4e"
+}

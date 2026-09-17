@@ -1424,5 +1424,406 @@
       "num_images": 1,
       "output_format": "png"
     }
+  },
+  "PREVIS_S10_v01": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "i2v",
+    "previs": true,
+    "refs": [
+      "首帧/SF_S10_PRO_v02.png"
+    ],
+    "output": "预演/PREVIS_S10_v01.mp4",
+    "body": {
+      "duration": "4",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "generate_audio": true,
+      "prompt": "The ochre-robed man suddenly thrusts his two-pronged boat fork toward the blue-shirted man’s abdomen. The blue-shirted man immediately sidesteps to his RIGHT around the right side of the wooden winch, keeping his black awl in his right hand. The missed fork head passes beyond the fixed wooden crossbar below the rope drum; its wooden shaft lodges tightly in the corner of that fixed crossbar and vertical post. The fork stays below and clear of the rope drum. The attacker promptly raises the wooden butt and slides his hands forward into a shorter grip to free the head. The young man begins crouching beside the small brake wedge at the right rim of the drum. The stone remains suspended and both attacker’s boots remain inside the loose floor loop. A short lateral camera movement follows the dodge, one continuous Chinese 3D animated action shot."
+    }
+  },
+  "SF_S11_PRO_v03": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S12_PRO_v06.png",
+      "资产/PROP_AWL_v02.png"
+    ],
+    "output": "首帧/SF_S11_PRO_v03.png",
+    "body": {
+      "prompt": "Keep image 1’s exact scene, men, boat fork, rope and water. Change the crouching blue-shirted man’s right hand to hold the tan hemp handle at the butt of the 35-centimeter black awl from image 2. He holds this awl horizontally just above a shallow groove cut into the existing horizontal timber beam immediately BELOW the drum’s RIGHT rim, beside the small brake wedge. His left hand is open beside that same beam, ready to grasp the wedge after putting the awl down. The right foreground remains shallow rippling water exactly as in image 1. The small groove is part of the existing winch-support timber itself. Preserve the original framing and identities.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "EF_S12_CONTACT_PRO_v01": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "预演/S12_2.25s.png"
+    ],
+    "output": "首帧/EF_S12_CONTACT_PRO_v01.png",
+    "body": {
+      "prompt": "Correct three mechanical details in this exact video frame. Move the black upper pulley upward to its original fixed hanging position centered at x400 y315 in the 720x1280 input frame, with a taut supporting rope to the ceiling. Raise the gray stone until its bottom rests on the TOP horizontal wooden catch at y520, aligned over that catch. Keep the stone’s suspension rope passing over the fixed pulley. Replace the thick stack of ankle coils with ONE snug single-turn hemp rope loop around both booted ankles, preserving the same taut rope that runs diagonally up to the drum. The men, their poses, fork and water remain exactly as they are. Chinese 3D animation.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "SF_S07_PRO_v01": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S10_PRO_v02.png",
+      "首帧/SF_S04_PRO_v02.png"
+    ],
+    "output": "首帧/SF_S07_PRO_v01.png",
+    "body": {
+      "prompt": "Use image 1’s exact two men, two-pronged boat fork, winch, suspended stone and rope. A medium two-person shot: the stocky ochre man advances from the LEFT, aiming the fork a hand span short of the blue-shirted young man’s abdomen. The young man retreats toward the winch until the back edge of his waist touches its right wooden post; he holds his black awl down beside his right hip. The stocky man’s boots stand OUTSIDE the loose floor rope loop, just to its left. Place the exact closed wooden door from image 2 behind and to the RIGHT of the young man, with a gray-sleeved woman’s hand reaching through its upper square inspection opening. The small brake wedge sits beside the young man’s left knee. Preserve the characters, costumes and dimensional Chinese 3D animation style.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "SF_S15_PRO_v01": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/EF_S14_PRO_v07.png",
+      "首帧/SF_S04_PRO_v02.png"
+    ],
+    "output": "首帧/SF_S15_PRO_v01.png",
+    "body": {
+      "prompt": "A medium close-up of the young blue-shirted man from image 1 as he begins rising from his crouch. Frame his head, shoulders, chest and waist; his hands are relaxed low beside his thighs. His exact face, hair, clothing and damp sleeve texture match image 1. His torso leans slightly forward, ready to straighten and turn toward the wooden door at the right rear, matching the door in image 2. A dim amber lantern reflection is visible through the door’s small upper square aperture. Cool daylight, detailed dimensional Chinese animation, one portrait composition.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "EF_S19_PRO_v01": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S04_PRO_v02.png",
+      "首帧/SF_S03_PRO_v06.png"
+    ],
+    "output": "首帧/EF_S19_PRO_v01.png",
+    "body": {
+      "prompt": "Widen image 1 into a full scene at the same wooden door and narrow repair ledge. The young blue-shirted man stands at LEFT with his left hand braced around a vertical wooden post. The door has swung outward toward the right on its right-side hinges, exposing the flooded chamber. The exact gray-green-clothed woman from image 2 is still in the doorway water BELOW the repair ledge: her left forearm reaches toward the young man, and his right hand firmly grasps that forearm. Her right hand holds her same lantern above the rushing water. Behind her, the exact gray-bearded older man’s face is higher at left, and the exact brown-clothed young man’s face is lower at right, both still inside the room. The young hero’s short black awl is tucked horizontally into his plain gray waist sash. Water rushes out of the doorway toward the lower LEFT foreground. The hero’s shirt front and sleeves are freshly wet. The woman remains in the water with her feet below the surface; all three trapped people remain below the ledge. Clear connected arms and hands, consistent Chinese 3D animation, 9:16.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "EDIT_S14_LOCAL_BOOT_v07": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/S14原片踢叉局部.mp4",
+      "参考/S14靴尖接叉局部.png"
+    ],
+    "output": "预演/EDIT_S14_LOCAL_BOOT_v07.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit the fork-clearing action in @Video1. The young man’s right BLACK BOOT swings forward from the right side into the foreground and visibly contacts the wooden fork shaft beside its metal head, matching the boot-to-shaft contact in @Image1. His boot kicks the complete fork diagonally toward the lower-right, sending it outside the pinned man’s reaching distance. His right foot then returns to its kneeling support position. Throughout this movement his left hand keeps pinning the brown-sleeved wrist and his right hand remains on the brown-robed chest. The movement is performed by the boot. Preserve the original first and last poses, camera framing, water, people and ankle rope. Complete the boot contact and push between 0.3 and 1.4 seconds of this two-second input."
+    }
+  },
+  "PREVIS_S11_v01": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "i2v",
+    "previs": true,
+    "refs": [
+      "首帧/SF_S11_PRO_v03.png"
+    ],
+    "output": "预演/PREVIS_S11_v01.mp4",
+    "body": {
+      "duration": "4",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "generate_audio": true,
+      "prompt": "The crouching young man immediately lowers his small black awl flat into the shallow groove directly below his right hand on the existing wooden beam. He fully releases the awl; it stays lying in that groove. His two empty hands immediately grip the small brake wedge beside the drum’s right rim. This single fluid placement-and-grasp action completes during the first TWO seconds. In the same frame throughout, the ochre-robed man actively raises the butt of his trapped boat fork, meets the fixed post and changes to a short sideways pulling grip. His boots remain inside the loose floor loop. The hanging stone and drum remain in their initial positions while the wedge stays seated. Fixed camera, one continuous detailed Chinese 3D animation shot."
+    }
+  },
+  "EDIT_S12_CONTACT_v02": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/PREVIS_S12_v01.mp4",
+      "预演/S12_0s.png",
+      "参考/S12单圈脚索目标.png"
+    ],
+    "output": "预演/EDIT_S12_CONTACT_v02.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": true,
+      "prompt": "Edit the mechanical motion in @Video1. Preserve the young man’s wedge pull, the rotating drum, the attacker’s reaction, camera and complete four-second timing. Keep the black upper pulley FIXED at its initial position shown in @Image1 for the entire shot, with its ceiling support rope length fixed. After the wedge is pulled, the gray stone descends the small initial gap and stops ON TOP of the UPPERMOST wooden catch from @Image1. That wooden catch and all timber posts remain fixed in their initial positions. At 1.7-2.4 seconds the existing floor rope loop contracts around both booted ankles into the SINGLE snug loop shown in @Image2; the remainder of the rope is taken up on the turning drum. At the end the ankles have one rope turn around them, and the stone is supported on the top catch. Maintain continuous taut rope connections and the two-pronged fork beneath the drum."
+    }
+  },
+  "S14_SAME_CAMERA_WRISTS_PRO_v01": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "预演/S14原片8.5.png"
+    ],
+    "output": "首帧/S14_SAME_CAMERA_WRISTS_PRO_v01.png",
+    "body": {
+      "prompt": "Keep this exact close-up and all existing pixels of the young man, wooden post, near raised arm, rope and water as closely as possible. Add the supine brown-robed man’s OTHER ARM. Its brown-sleeved elbow is visible just below and to the LEFT of the young man’s black knee. From that elbow, a second bare forearm extends diagonally UP-LEFT toward the existing bound wrist. Its clenched hand sits visibly BESIDE the existing clenched hand, separated by three centimeters. Expand the existing rope loop to encircle these TWO adjacent wrists together, keeping the same rope attached to the same post. Both brown sleeves connect to the supine man’s own shoulders. The pair of raised forearms forms a narrow V, clearly visible in the space below the young man’s hands. Preserve the input camera angle and exact subject scale.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "EDIT_S14_SAME_CAMERA_v08": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/S14原片绑腕局部.mp4",
+      "参考/S14同机位双腕局部.png"
+    ],
+    "output": "预演/EDIT_S14_SAME_CAMERA_v08.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video1: replace the brown-robed man’s single raised arm with the PAIR OF RAISED ARMS in @Image1. @Image1 is the corrected frame of this same camera view. Transfer its two distinct fists, two forearms and shared wrist rope into the moving video. Both wrists rise together, enter the same loop together, and remain tied together to the post. Propagate the corrected two-arm anatomy across the complete tying action."
+    }
+  },
+  "EDIT_S14_LOCAL_BOOT4_v09": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/S14原片踢叉局部4秒.mp4",
+      "参考/S14靴尖接叉局部.png"
+    ],
+    "output": "预演/EDIT_S14_LOCAL_BOOT4_v09.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video1: replace the hand-sweeping movement at 0.75-1.5 seconds with a RIGHT BLACK BOOT kicking the fork. The young man extends his right leg from the right side and his boot contacts the fork shaft exactly as in @Image1. This boot pushes the entire fork diagonally away toward the lower-right, then returns to its original kneeling position. His left hand remains pinning the brown wrist and his right hand stays on the brown chest during the kick. Preserve the original continuation from second 2 onward."
+    },
+    "repair_of_failed_request": "EDIT_S14_LOCAL_BOOT_v07：422参数拒绝；改用4秒原片上下文，未对已成功视频重新生成"
+  },
+  "EDIT_S11_FORK_v02": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/PREVIS_S11_v01.mp4",
+      "首帧/SF_S11_PRO_v03.png"
+    ],
+    "output": "预演/EDIT_S11_FORK_v02.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video 1. Correct the brown-clothed man and his wooden fishing fork throughout the clip. @Image 1 defines the trapped fork position. The two-pronged iron head remains lodged under the fixed horizontal beam against the left vertical post. The shaft pivots slightly around this fixed contact point while the man slides both hands along the shaft and strains backward. His elbows bend close to his waist. The fork stays diagonally downward from his hands toward the trapped head throughout the action. Preserve the blue-clothed man placing his awl on the beam and then grasping the wedge, the camera, water, winch drum and lighting."
+    }
+  },
+  "SF_S13_PRO_v01": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "预演/S12_3.5s.png",
+      "预演/S12_0s.png",
+      "参考/S12单圈脚索目标.png"
+    ],
+    "output": "首帧/SF_S13_PRO_v01.png",
+    "body": {
+      "prompt": "Correct image 1 into the moment immediately before the brown-clothed man loses his balance backward. Preserve his face, crouching blue-clothed man, fork, drum, vertical posts, camera and scene. Place the overhead pulley at its exact original fixed position from image 2. Rest the rectangular stone directly ON TOP of the original highest wooden catch platform visible in image 2. The stone bottom contacts that top platform. Replace the stacked ankle rope coils with the single tight rope loop around BOTH boots shown in image 3. A single taut rope runs from this ankle loop diagonally up to the drum. Keep the brown man gripping the fishing fork and both feet together. Chinese dimensional 3D animation.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "SF_S07_PRO_v02": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S07_PRO_v01.png",
+      "资产/PROP_AWL_v02.png"
+    ],
+    "output": "首帧/SF_S07_PRO_v02.png",
+    "body": {
+      "prompt": "Edit image 1. The young man holds the exact SINGLE-POINT awl from image 2 in his right hand: a rounded tan hemp grip at the upper end and one straight black steel spike pointing downward. Replace the black spur projecting upward-left from his fist with the rounded hemp handle butt. Shift the loose oval floor rope loop toward the center winch so that both of the brown man’s boots stand clearly to its LEFT, with a visible gap between his boots and the rope. Move the small wooden brake wedge from the floor up into the brake slot directly under the right rim of the winch drum. Preserve both characters, threatened abdomen, faces, door, water, lighting and Chinese 3D style.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "SF_S17_PRO_v03": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S17_PRO_v02.png"
+    ],
+    "output": "首帧/SF_S17_PRO_v03.png",
+    "body": {
+      "prompt": "Edit the brass plate in this exact image: make a pea-sized concave impact dent in its LEFT half, below and left of the black awl tip. The dent is a shallow pressed-in circular hollow with a dark center and thin bright brass rim. Its location is halfway between the two left rivets and the center of the plate. Move the awl contact point a small distance rightward onto smooth intact brass in the RIGHT half. Preserve the straight steel tool, both hands, pose, exact camera, door and lighting.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "PREVIS_S13_v01": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "i2v",
+    "previs": true,
+    "refs": [
+      "首帧/SF_S13_PRO_v01.png"
+    ],
+    "output": "预演/PREVIS_S13_v01.mp4",
+    "body": {
+      "prompt": "The brown-clothed man loses balance with both ankles held together by the tight single rope loop. His upper body tips backward, his knees bend, and his back lands in the shallow water. His face remains clearly above the water surface. Both hands release the long wooden fork, which falls as one intact object onto the water to his right. The blue-clothed young man drops the small wooden wedge beside the winch and quickly turns toward the fallen man, moving into a low crouch beside his chest. The camera tilts down continuously to follow the fall. The ankle rope stays connected to the drum. The overhead pulley remains fixed and the stone rests on its wooden platform. Dim daylight, Chinese dimensional 3D animation, natural splashing water.",
+      "duration": "4",
+      "aspect_ratio": "9:16",
+      "resolution": "720p",
+      "generate_audio": false
+    }
+  },
+  "S14_SAME_CAMERA_BOOT_PRO_v02": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "参考/S14原片1秒.png"
+    ],
+    "output": "首帧/S14_SAME_CAMERA_BOOT_PRO_v02.png",
+    "body": {
+      "prompt": "Edit this exact movie frame. Keep the identical camera position, framing, character sizes, faces, wooden post and fork position. Change the blue-shirted man’s pose into a boot kick: his foreground right hand grips the brown man’s nearest wrist against the water; his other hand stays pressed on the brown man’s upper chest. His left knee keeps pressing the brown chest. His right leg extends forward from his right hip, and the toe of his black right boot touches the wooden fork shaft just below its black two-pronged head in the lower center of the frame. The extended leg is visibly connected from hip through bent knee to shin and boot. Both men retain two arms and two legs, anatomically connected. Preserve the original dimensional Chinese animation finish.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "S11_SAME_CAMERA_FORK_PRO_v01": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "参考/S11原片1.5秒.png",
+      "首帧/SF_S11_PRO_v03.png"
+    ],
+    "output": "首帧/S11_SAME_CAMERA_FORK_PRO_v01.png",
+    "body": {
+      "prompt": "Edit image 1. Keep the exact blue-clothed man and his hands on the wedge, his black awl lying on the horizontal beam, and the whole fixed winch mechanism. Correct the brown man’s fishing fork and arm pose to the trapped downward diagonal shown in image 2. Its plain wooden butt is beside his left shoulder. Both hands grip the wooden shaft close to his chest and abdomen. The shaft slopes DOWNWARD to the right. Its two-pronged black head passes just below the fixed horizontal crossbar and catches tightly against the LEFT vertical post, below the rotating drum. The man pulls backward against this trapped head. Preserve his face, costume, feet, camera and water.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "EDIT_S12_SAME_CAMERA_v03": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/PREVIS_S12_v01.mp4",
+      "首帧/SF_S13_PRO_v01.png",
+      "预演/S12_0s.png"
+    ],
+    "output": "预演/EDIT_S12_SAME_CAMERA_v03.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video 1. @Image 1 is the corrected final frame of this exact mechanism and @Image 2 is its initial frame. Propagate these corrections through the moving video: the overhead pulley stays fixed at the height in @Image 2 throughout the shot. The stone descends from its starting position and lands ON TOP of the highest wooden catch platform, exactly as in @Image 1. The floor rope contracts into the SINGLE tight ankle loop in @Image 1 around both boots. Keep the original young man pulling the wedge and the original rotating drum, camera, lighting, clothes and identities. The final mechanism matches @Image 1."
+    }
+  },
+  "EDIT_S14_SAME_CAMERA_BOOT_v10": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/S14原片前4秒完整机位.mp4",
+      "首帧/S14_SAME_CAMERA_BOOT_PRO_v02.png"
+    ],
+    "output": "预演/EDIT_S14_SAME_CAMERA_BOOT_v10.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video 1. @Image 1 is the corrected frame at second 1 from this same camera. Transfer the corrected LEG AND HAND POSE into the moving clip. At second 1 the young man has his right leg extended forward and his black boot touching the fork shaft, exactly as in @Image 1. His boot kicks the intact fork away toward the lower-right at seconds 1-1.5. His two hands keep pressing the brown man’s wrist and chest during the kick. His left knee remains on the brown chest. After the kick his right leg folds back and he reaches for the post rope, continuing the source video. Preserve the original camera, character identities, wet costumes, shallow water and timing."
+    }
+  },
+  "EDIT_S11_SAME_CAMERA_v03": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/PREVIS_S11_v01.mp4",
+      "参考/S11同机位持叉纠偏局部.png"
+    ],
+    "output": "预演/EDIT_S11_SAME_CAMERA_v03.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video 1. Replace the brown man’s raised fork and extended arm pose with the downward fork and bent arm pose in @Image 1 throughout the complete clip. @Image 1 is the corrected local pose from this same scene. The wooden fork slopes down from his shoulder toward the fixed crossbar and left post below the winch. The two-pronged iron head stays trapped at that corner. His bent arms pull against this fixed contact while his hands slide a few centimeters along the shaft. Preserve the original floor rope loop around his two boots, the original blue man placing his awl and gripping the wedge, drum, stone, camera and timing."
+    }
   }
 }

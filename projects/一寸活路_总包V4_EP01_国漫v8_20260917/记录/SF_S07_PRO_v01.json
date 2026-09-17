@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:49:07.453937+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S10_PRO_v02.png",
+      "首帧/SF_S04_PRO_v02.png"
+    ],
+    "output": "首帧/SF_S07_PRO_v01.png",
+    "body": {
+      "prompt": "Use image 1’s exact two men, two-pronged boat fork, winch, suspended stone and rope. A medium two-person shot: the stocky ochre man advances from the LEFT, aiming the fork a hand span short of the blue-shirted young man’s abdomen. The young man retreats toward the winch until the back edge of his waist touches its right wooden post; he holds his black awl down beside his right hip. The stocky man’s boots stand OUTSIDE the loose floor rope loop, just to its left. Place the exact closed wooden door from image 2 behind and to the RIGHT of the young man, with a gray-sleeved woman’s hand reaching through its upper square inspection opening. The small brake wedge sits beside the young man’s left knee. Preserve the characters, costumes and dimensional Chinese 3D animation style.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S10_PRO_v02.png": "df49d12ec52eb639e8598258594ade930fcf818cd1a9a8f58ccf850dcca68731",
+    "首帧/SF_S04_PRO_v02.png": "4f3af67bc62cd6fd03b82b7aceffe63b59dd05df935dceaf9d3082eda10e6268"
+  },
+  "body": {
+    "prompt": "Use image 1’s exact two men, two-pronged boat fork, winch, suspended stone and rope. A medium two-person shot: the stocky ochre man advances from the LEFT, aiming the fork a hand span short of the blue-shirted young man’s abdomen. The young man retreats toward the winch until the back edge of his waist touches its right wooden post; he holds his black awl down beside his right hip. The stocky man’s boots stand OUTSIDE the loose floor rope loop, just to its left. Place the exact closed wooden door from image 2 behind and to the RIGHT of the young man, with a gray-sleeved woman’s hand reaching through its upper square inspection opening. The small brake wedge sits beside the young man’s left knee. Preserve the characters, costumes and dimensional Chinese 3D animation style.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac41d/_t_ErMaH9KDk6hloUxxQ2_SF_S10_PRO_v02.png",
+      "https://v3b.fal.media/files/b/0aaac426/i2T0MKa5HO_OrDl1coRE4_SF_S04_PRO_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae8e-2f0d-7870-8b5b-2f779c5e353c",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-2f0d-7870-8b5b-2f779c5e353c",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-2f0d-7870-8b5b-2f779c5e353c/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-2f0d-7870-8b5b-2f779c5e353c/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae8e-2f0d-7870-8b5b-2f779c5e353c",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-2f0d-7870-8b5b-2f779c5e353c",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-2f0d-7870-8b5b-2f779c5e353c/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-2f0d-7870-8b5b-2f779c5e353c/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 138.07599997520447
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac434/xgtE43FTdm8Roh17eAx3j_bc0b32914ab84305acc7c594897a4ded.png",
+        "content_type": "image/png",
+        "file_name": "bc0b32914ab84305acc7c594897a4ded.png",
+        "file_size": 7042883,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "e6a2ba7e0c251b2cd8df868a8197f45640d31eded68b61830c69c9f803fe3e93"
+}

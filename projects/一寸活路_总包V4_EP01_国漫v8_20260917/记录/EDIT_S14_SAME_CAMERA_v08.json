@@ -1,0 +1,72 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:00:40.534607+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/S14原片绑腕局部.mp4",
+      "参考/S14同机位双腕局部.png"
+    ],
+    "output": "预演/EDIT_S14_SAME_CAMERA_v08.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video1: replace the brown-robed man’s single raised arm with the PAIR OF RAISED ARMS in @Image1. @Image1 is the corrected frame of this same camera view. Transfer its two distinct fists, two forearms and shared wrist rope into the moving video. Both wrists rise together, enter the same loop together, and remain tied together to the post. Propagate the corrected two-arm anatomy across the complete tying action."
+    }
+  },
+  "references": {
+    "预演/S14原片绑腕局部.mp4": "6f6fcb4cadffe0c8f4fb2de48dc4972ff7c7f00af74b284d24168ec0809692db",
+    "参考/S14同机位双腕局部.png": "8e06b406d0c93ca57a9314fd92962b20ad21c18a367876f4fa11d31b41172a14"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "720p",
+    "generate_audio": false,
+    "prompt": "Edit @Video1: replace the brown-robed man’s single raised arm with the PAIR OF RAISED ARMS in @Image1. @Image1 is the corrected frame of this same camera view. Transfer its two distinct fists, two forearms and shared wrist rope into the moving video. Both wrists rise together, enter the same loop together, and remain tied together to the post. Propagate the corrected two-arm anatomy across the complete tying action.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac46c/-TFI13w90OhsO--SYF3s2_S14%3F%3F%3F%3F%3F%3F%3F.png"
+    ],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac3ec/QwPyS34oBBfrlfji-MwnW_S14%3F%3F%3F%3F%3F%3F.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae98-c269-7562-8b65-25d1cb83112f",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae98-c269-7562-8b65-25d1cb83112f",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae98-c269-7562-8b65-25d1cb83112f/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae98-c269-7562-8b65-25d1cb83112f/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae98-c269-7562-8b65-25d1cb83112f",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae98-c269-7562-8b65-25d1cb83112f",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae98-c269-7562-8b65-25d1cb83112f/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae98-c269-7562-8b65-25d1cb83112f/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 760.6050000190735
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac4b7/TRd8ugMdL95d_m1VbQnJj_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 6777065
+    },
+    "seed": 1337268567
+  },
+  "output_sha256": "803d77ac0a677c8e2c4bdd7a1628e46e08d0a1d18927909625fe2319534ffdf5"
+}

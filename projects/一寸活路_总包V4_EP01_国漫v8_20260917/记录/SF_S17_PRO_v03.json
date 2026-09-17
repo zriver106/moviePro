@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:06:57.476660+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S17_PRO_v02.png"
+    ],
+    "output": "首帧/SF_S17_PRO_v03.png",
+    "body": {
+      "prompt": "Edit the brass plate in this exact image: make a pea-sized concave impact dent in its LEFT half, below and left of the black awl tip. The dent is a shallow pressed-in circular hollow with a dark center and thin bright brass rim. Its location is halfway between the two left rivets and the center of the plate. Move the awl contact point a small distance rightward onto smooth intact brass in the RIGHT half. Preserve the straight steel tool, both hands, pose, exact camera, door and lighting.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S17_PRO_v02.png": "b1ba57a3d3d800c0656c59d5cfef5a336302c1edba8b441cb474978cbda5efc7"
+  },
+  "body": {
+    "prompt": "Edit the brass plate in this exact image: make a pea-sized concave impact dent in its LEFT half, below and left of the black awl tip. The dent is a shallow pressed-in circular hollow with a dark center and thin bright brass rim. Its location is halfway between the two left rivets and the center of the plate. Move the awl contact point a small distance rightward onto smooth intact brass in the RIGHT half. Preserve the straight steel tool, both hands, pose, exact camera, door and lighting.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac491/YTqs2d76UhLQPkSq98MLE_SF_S17_PRO_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae9e-8315-7bd1-8e17-4a5a4642c7f0",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9e-8315-7bd1-8e17-4a5a4642c7f0",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9e-8315-7bd1-8e17-4a5a4642c7f0/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9e-8315-7bd1-8e17-4a5a4642c7f0/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae9e-8315-7bd1-8e17-4a5a4642c7f0",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9e-8315-7bd1-8e17-4a5a4642c7f0",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9e-8315-7bd1-8e17-4a5a4642c7f0/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9e-8315-7bd1-8e17-4a5a4642c7f0/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 105.50999999046326
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac49c/q9ssJadzLJVgXUsVO08Mc_4acb5e5b129042f98e8cd12cbd55ecf0.png",
+        "content_type": "image/png",
+        "file_name": "4acb5e5b129042f98e8cd12cbd55ecf0.png",
+        "file_size": 5892556,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "fdbd557813dced28f6bfd8fbf3816116babd74387f97e5b3b60dce5085a21145"
+}

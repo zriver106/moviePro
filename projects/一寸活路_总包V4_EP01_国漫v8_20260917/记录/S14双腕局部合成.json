@@ -1,0 +1,37 @@
+{
+  "source": "预演/PREVIS_S14_v01.mp4",
+  "edit_source": "预演/EDIT_S14_SAME_CAMERA_v08.mp4",
+  "output": "预演/S14双腕已修_踢叉待修.mp4",
+  "sha256": "d6b688fb09180e64a648959913095eebdc317b59e75c754694c93c9dcc1b7a6d",
+  "frames": 240,
+  "fps": 24,
+  "duration": 10,
+  "composite": {
+    "region": [
+      0,
+      200,
+      480,
+      450
+    ],
+    "starts_at_frame": 84,
+    "edit_frames": 153,
+    "target_frames": 156,
+    "edge_feather_pixels": 20
+  },
+  "subtitle_cleanup": {
+    "method": "局部光流映射原片干净皮肤与衣料纹理，替换烧入字，不改其他区域",
+    "reference_frame": 204,
+    "scan_region": [
+      190,
+      552,
+      98,
+      60
+    ],
+    "algorithm": "DIS optical flow MEDIUM / 9px feather"
+  },
+  "status": "partial_repair_not_delivery",
+  "remaining": [
+    "开头仍为手推鱼叉，等待踢叉原片编辑",
+    "整镜动作连续性尚未通过"
+  ]
+}

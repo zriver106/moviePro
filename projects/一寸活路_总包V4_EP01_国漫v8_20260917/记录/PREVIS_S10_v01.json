@@ -1,0 +1,63 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:47:36.658200+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "i2v",
+    "previs": true,
+    "refs": [
+      "首帧/SF_S10_PRO_v02.png"
+    ],
+    "output": "预演/PREVIS_S10_v01.mp4",
+    "body": {
+      "duration": "4",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "generate_audio": true,
+      "prompt": "The ochre-robed man suddenly thrusts his two-pronged boat fork toward the blue-shirted man’s abdomen. The blue-shirted man immediately sidesteps to his RIGHT around the right side of the wooden winch, keeping his black awl in his right hand. The missed fork head passes beyond the fixed wooden crossbar below the rope drum; its wooden shaft lodges tightly in the corner of that fixed crossbar and vertical post. The fork stays below and clear of the rope drum. The attacker promptly raises the wooden butt and slides his hands forward into a shorter grip to free the head. The young man begins crouching beside the small brake wedge at the right rim of the drum. The stone remains suspended and both attacker’s boots remain inside the loose floor loop. A short lateral camera movement follows the dodge, one continuous Chinese 3D animated action shot."
+    }
+  },
+  "references": {
+    "首帧/SF_S10_PRO_v02.png": "df49d12ec52eb639e8598258594ade930fcf818cd1a9a8f58ccf850dcca68731"
+  },
+  "body": {
+    "duration": "4",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "prompt": "The ochre-robed man suddenly thrusts his two-pronged boat fork toward the blue-shirted man’s abdomen. The blue-shirted man immediately sidesteps to his RIGHT around the right side of the wooden winch, keeping his black awl in his right hand. The missed fork head passes beyond the fixed wooden crossbar below the rope drum; its wooden shaft lodges tightly in the corner of that fixed crossbar and vertical post. The fork stays below and clear of the rope drum. The attacker promptly raises the wooden butt and slides his hands forward into a shorter grip to free the head. The young man begins crouching beside the small brake wedge at the right rim of the drum. The stone remains suspended and both attacker’s boots remain inside the loose floor loop. A short lateral camera movement follows the dodge, one continuous Chinese 3D animated action shot.",
+    "image_url": "https://v3b.fal.media/files/b/0aaac41d/_t_ErMaH9KDk6hloUxxQ2_SF_S10_PRO_v02.png"
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae8c-cc41-7e51-98f8-ab6398c798f9",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae8c-cc41-7e51-98f8-ab6398c798f9",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae8c-cc41-7e51-98f8-ab6398c798f9/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae8c-cc41-7e51-98f8-ab6398c798f9/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae8c-cc41-7e51-98f8-ab6398c798f9",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae8c-cc41-7e51-98f8-ab6398c798f9",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae8c-cc41-7e51-98f8-ab6398c798f9/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae8c-cc41-7e51-98f8-ab6398c798f9/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 373.15700006484985
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac442/b8weDTCV0UGmFPKCFaJAo_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 4201975
+    },
+    "seed": 1613426058
+  },
+  "output_sha256": "2a8b82088c44442abb282c8356212a5060b01b412fd75926d44e0eadc8dfd9f8"
+}

@@ -1,0 +1,63 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:52:20.314960+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "i2v",
+    "previs": true,
+    "refs": [
+      "首帧/SF_S11_PRO_v03.png"
+    ],
+    "output": "预演/PREVIS_S11_v01.mp4",
+    "body": {
+      "duration": "4",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "generate_audio": true,
+      "prompt": "The crouching young man immediately lowers his small black awl flat into the shallow groove directly below his right hand on the existing wooden beam. He fully releases the awl; it stays lying in that groove. His two empty hands immediately grip the small brake wedge beside the drum’s right rim. This single fluid placement-and-grasp action completes during the first TWO seconds. In the same frame throughout, the ochre-robed man actively raises the butt of his trapped boat fork, meets the fixed post and changes to a short sideways pulling grip. His boots remain inside the loose floor loop. The hanging stone and drum remain in their initial positions while the wedge stays seated. Fixed camera, one continuous detailed Chinese 3D animation shot."
+    }
+  },
+  "references": {
+    "首帧/SF_S11_PRO_v03.png": "8473c8cb71eb1b59605476b9d5c86f67875f8f9fc1b6d80e9cade719f2c615dc"
+  },
+  "body": {
+    "duration": "4",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "prompt": "The crouching young man immediately lowers his small black awl flat into the shallow groove directly below his right hand on the existing wooden beam. He fully releases the awl; it stays lying in that groove. His two empty hands immediately grip the small brake wedge beside the drum’s right rim. This single fluid placement-and-grasp action completes during the first TWO seconds. In the same frame throughout, the ochre-robed man actively raises the butt of his trapped boat fork, meets the fixed post and changes to a short sideways pulling grip. His boots remain inside the loose floor loop. The hanging stone and drum remain in their initial positions while the wedge stays seated. Fixed camera, one continuous detailed Chinese 3D animation shot.",
+    "image_url": "https://v3b.fal.media/files/b/0aaac43a/-M9CiPZqzL1GDZJm_RWcR_SF_S11_PRO_v03.png"
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae91-1fa3-7c01-89d3-beecf6359030",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae91-1fa3-7c01-89d3-beecf6359030",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae91-1fa3-7c01-89d3-beecf6359030/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae91-1fa3-7c01-89d3-beecf6359030/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae91-1fa3-7c01-89d3-beecf6359030",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae91-1fa3-7c01-89d3-beecf6359030",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae91-1fa3-7c01-89d3-beecf6359030/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae91-1fa3-7c01-89d3-beecf6359030/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 404.0160000324249
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac462/xx6AJcxoMODRaS09Hl5OB_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 2706266
+    },
+    "seed": 24339726
+  },
+  "output_sha256": "e1a07dd4ac2f46bb58ab61ebf7b9f43ea44d70b2d56758eefefa6f8877156853"
+}

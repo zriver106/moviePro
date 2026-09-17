@@ -1,0 +1,51 @@
+{
+  "state": "submitted",
+  "started_at": "2026-09-17T09:21:52.160692+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/PREVIS_S11_v01.mp4",
+      "参考/S11同机位持叉纠偏局部.png"
+    ],
+    "output": "预演/EDIT_S11_SAME_CAMERA_v03.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video 1. Replace the brown man’s raised fork and extended arm pose with the downward fork and bent arm pose in @Image 1 throughout the complete clip. @Image 1 is the corrected local pose from this same scene. The wooden fork slopes down from his shoulder toward the fixed crossbar and left post below the winch. The two-pronged iron head stays trapped at that corner. His bent arms pull against this fixed contact while his hands slide a few centimeters along the shaft. Preserve the original floor rope loop around his two boots, the original blue man placing his awl and gripping the wedge, drum, stone, camera and timing."
+    }
+  },
+  "references": {
+    "预演/PREVIS_S11_v01.mp4": "e1a07dd4ac2f46bb58ab61ebf7b9f43ea44d70b2d56758eefefa6f8877156853",
+    "参考/S11同机位持叉纠偏局部.png": "ae82a68463ca70c70c1578b55db0a934ccc7005f6b7d7c1581ed756b6f3451a4"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "720p",
+    "generate_audio": false,
+    "prompt": "Edit @Video 1. Replace the brown man’s raised fork and extended arm pose with the downward fork and bent arm pose in @Image 1 throughout the complete clip. @Image 1 is the corrected local pose from this same scene. The wooden fork slopes down from his shoulder toward the fixed crossbar and left post below the winch. The two-pronged iron head stays trapped at that corner. His bent arms pull against this fixed contact while his hands slide a few centimeters along the shaft. Preserve the original floor rope loop around his two boots, the original blue man placing his awl and gripping the wedge, drum, stone, camera and timing.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac4eb/m8eS1ihYtBQrAd5tTn_6U_S11%3F%3F%3F%3F%3F%3F%3F%3F%3F.png"
+    ],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac489/qVWv6xbkGbppLV09gLWre_PREVIS_S11_v01.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aeac-2895-7eb3-8f6d-330031f24fec",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeac-2895-7eb3-8f6d-330031f24fec",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeac-2895-7eb3-8f6d-330031f24fec/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeac-2895-7eb3-8f6d-330031f24fec/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  }
+}

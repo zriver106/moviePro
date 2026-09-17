@@ -1,0 +1,76 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:06:23.779124+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "预演/S12_3.5s.png",
+      "预演/S12_0s.png",
+      "参考/S12单圈脚索目标.png"
+    ],
+    "output": "首帧/SF_S13_PRO_v01.png",
+    "body": {
+      "prompt": "Correct image 1 into the moment immediately before the brown-clothed man loses his balance backward. Preserve his face, crouching blue-clothed man, fork, drum, vertical posts, camera and scene. Place the overhead pulley at its exact original fixed position from image 2. Rest the rectangular stone directly ON TOP of the original highest wooden catch platform visible in image 2. The stone bottom contacts that top platform. Replace the stacked ankle rope coils with the single tight rope loop around BOTH boots shown in image 3. A single taut rope runs from this ankle loop diagonally up to the drum. Keep the brown man gripping the fishing fork and both feet together. Chinese dimensional 3D animation.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "预演/S12_3.5s.png": "47c5b47572394dbcde218324b233eaea3353f37a52662b3d20f4314c4fee58df",
+    "预演/S12_0s.png": "97b06235b157ea5ea4ec68386d9a3d78a59eedc922481c24c664f25b55a68671",
+    "参考/S12单圈脚索目标.png": "7174db65ddf33b95105187ed7e130b4075380089c64608e6d54a988de33c37f0"
+  },
+  "body": {
+    "prompt": "Correct image 1 into the moment immediately before the brown-clothed man loses his balance backward. Preserve his face, crouching blue-clothed man, fork, drum, vertical posts, camera and scene. Place the overhead pulley at its exact original fixed position from image 2. Rest the rectangular stone directly ON TOP of the original highest wooden catch platform visible in image 2. The stone bottom contacts that top platform. Replace the stacked ankle rope coils with the single tight rope loop around BOTH boots shown in image 3. A single taut rope runs from this ankle loop diagonally up to the drum. Keep the brown man gripping the fishing fork and both feet together. Chinese dimensional 3D animation.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac48e/i2ysXnCFqbWBGbPIgLFRm_S12_3.5s.png",
+      "https://v3b.fal.media/files/b/0aaac43a/WZwdxlCG9-sxbW6SaaSxQ_S12_0s.png",
+      "https://v3b.fal.media/files/b/0aaac43a/h0mP_0Xxro57TtTa9uL0k_S12%3F%3F%3F%3F%3F%3F.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae9d-fe70-7ca2-82d2-d25cd9c6ed8e",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9d-fe70-7ca2-82d2-d25cd9c6ed8e",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9d-fe70-7ca2-82d2-d25cd9c6ed8e/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9d-fe70-7ca2-82d2-d25cd9c6ed8e/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae9d-fe70-7ca2-82d2-d25cd9c6ed8e",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9d-fe70-7ca2-82d2-d25cd9c6ed8e",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9d-fe70-7ca2-82d2-d25cd9c6ed8e/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9d-fe70-7ca2-82d2-d25cd9c6ed8e/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 106.96300005912781
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac499/fA46GFXnGSMfi6ozbFL4P_1a7afe9828d9449c9bbb9dc550fe946c.png",
+        "content_type": "image/png",
+        "file_name": "1a7afe9828d9449c9bbb9dc550fe946c.png",
+        "file_size": 6808654,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "ab1db45445bc28939f0eb7383976d6c4ab15349c7bce57c828f366bf82858c38"
+}

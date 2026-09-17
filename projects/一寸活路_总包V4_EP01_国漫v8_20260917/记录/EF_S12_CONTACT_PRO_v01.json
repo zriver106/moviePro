@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:47:38.236581+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "预演/S12_2.25s.png"
+    ],
+    "output": "首帧/EF_S12_CONTACT_PRO_v01.png",
+    "body": {
+      "prompt": "Correct three mechanical details in this exact video frame. Move the black upper pulley upward to its original fixed hanging position centered at x400 y315 in the 720x1280 input frame, with a taut supporting rope to the ceiling. Raise the gray stone until its bottom rests on the TOP horizontal wooden catch at y520, aligned over that catch. Keep the stone’s suspension rope passing over the fixed pulley. Replace the thick stack of ankle coils with ONE snug single-turn hemp rope loop around both booted ankles, preserving the same taut rope that runs diagonally up to the drum. The men, their poses, fork and water remain exactly as they are. Chinese 3D animation.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "预演/S12_2.25s.png": "39b702f8b2f6cdc91b32e29e6f8a937da9086e086c66cc8dbf141678a32df8a7"
+  },
+  "body": {
+    "prompt": "Correct three mechanical details in this exact video frame. Move the black upper pulley upward to its original fixed hanging position centered at x400 y315 in the 720x1280 input frame, with a taut supporting rope to the ceiling. Raise the gray stone until its bottom rests on the TOP horizontal wooden catch at y520, aligned over that catch. Keep the stone’s suspension rope passing over the fixed pulley. Replace the thick stack of ankle coils with ONE snug single-turn hemp rope loop around both booted ankles, preserving the same taut rope that runs diagonally up to the drum. The men, their poses, fork and water remain exactly as they are. Chinese 3D animation.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac41d/UHnivRFu-_iP_yYIixAxm_S12_2.25s.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae8c-d18e-7d83-8de2-0aec824a2def",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8c-d18e-7d83-8de2-0aec824a2def",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8c-d18e-7d83-8de2-0aec824a2def/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8c-d18e-7d83-8de2-0aec824a2def/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae8c-d18e-7d83-8de2-0aec824a2def",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8c-d18e-7d83-8de2-0aec824a2def",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8c-d18e-7d83-8de2-0aec824a2def/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8c-d18e-7d83-8de2-0aec824a2def/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 62.48299980163574
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac424/DPrVyDGyAMMAPRveGGmTq_b2d11b15d2534fa8bfea3457cc055b40.png",
+        "content_type": "image/png",
+        "file_name": "b2d11b15d2534fa8bfea3457cc055b40.png",
+        "file_size": 6200128,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "f7fcfc78b856086bdfd8e1da588447403d7cff0b1564ef6e6f2a0edb1a026a21"
+}

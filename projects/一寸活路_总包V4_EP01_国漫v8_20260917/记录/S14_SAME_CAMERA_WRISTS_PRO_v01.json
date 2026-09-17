@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:53:45.340578+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "预演/S14原片8.5.png"
+    ],
+    "output": "首帧/S14_SAME_CAMERA_WRISTS_PRO_v01.png",
+    "body": {
+      "prompt": "Keep this exact close-up and all existing pixels of the young man, wooden post, near raised arm, rope and water as closely as possible. Add the supine brown-robed man’s OTHER ARM. Its brown-sleeved elbow is visible just below and to the LEFT of the young man’s black knee. From that elbow, a second bare forearm extends diagonally UP-LEFT toward the existing bound wrist. Its clenched hand sits visibly BESIDE the existing clenched hand, separated by three centimeters. Expand the existing rope loop to encircle these TWO adjacent wrists together, keeping the same rope attached to the same post. Both brown sleeves connect to the supine man’s own shoulders. The pair of raised forearms forms a narrow V, clearly visible in the space below the young man’s hands. Preserve the input camera angle and exact subject scale.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "预演/S14原片8.5.png": "54654f90cb1e83c6816130e033d9899a050f0f3810315fe540d013b01793ccab"
+  },
+  "body": {
+    "prompt": "Keep this exact close-up and all existing pixels of the young man, wooden post, near raised arm, rope and water as closely as possible. Add the supine brown-robed man’s OTHER ARM. Its brown-sleeved elbow is visible just below and to the LEFT of the young man’s black knee. From that elbow, a second bare forearm extends diagonally UP-LEFT toward the existing bound wrist. Its clenched hand sits visibly BESIDE the existing clenched hand, separated by three centimeters. Expand the existing rope loop to encircle these TWO adjacent wrists together, keeping the same rope attached to the same post. Both brown sleeves connect to the supine man’s own shoulders. The pair of raised forearms forms a narrow V, clearly visible in the space below the young man’s hands. Preserve the input camera angle and exact subject scale.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac442/vxm00MIpHVYRCNoSkZYzm_S14%3F%3F8.5.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae92-6be7-7e93-942a-ad4d4e871477",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae92-6be7-7e93-942a-ad4d4e871477",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae92-6be7-7e93-942a-ad4d4e871477/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae92-6be7-7e93-942a-ad4d4e871477/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae92-6be7-7e93-942a-ad4d4e871477",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae92-6be7-7e93-942a-ad4d4e871477",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae92-6be7-7e93-942a-ad4d4e871477/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae92-6be7-7e93-942a-ad4d4e871477/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 115.13900017738342
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac44e/kMS_g0mMpm3UudzX16C_Z_a63f31c0567a497693afc4d60d5f394f.png",
+        "content_type": "image/png",
+        "file_name": "a63f31c0567a497693afc4d60d5f394f.png",
+        "file_size": 5522395,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "1519610b93166ea1446fc9d4de8d71d3f78ab34be58f92ca0a6e1a95a135f288"
+}

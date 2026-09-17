@@ -1,0 +1,60 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T09:19:05.472676+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/S14原片前4秒完整机位.mp4",
+      "首帧/S14_SAME_CAMERA_BOOT_PRO_v02.png"
+    ],
+    "output": "预演/EDIT_S14_SAME_CAMERA_BOOT_v10.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video 1. @Image 1 is the corrected frame at second 1 from this same camera. Transfer the corrected LEG AND HAND POSE into the moving clip. At second 1 the young man has his right leg extended forward and his black boot touching the fork shaft, exactly as in @Image 1. His boot kicks the intact fork away toward the lower-right at seconds 1-1.5. His two hands keep pressing the brown man’s wrist and chest during the kick. His left knee remains on the brown chest. After the kick his right leg folds back and he reaches for the post rope, continuing the source video. Preserve the original camera, character identities, wet costumes, shallow water and timing."
+    }
+  },
+  "references": {
+    "预演/S14原片前4秒完整机位.mp4": "e17b8fe3510d5be0c4cc552d9de1f22bcb576602fe72e8aa57e06f6791b4b523",
+    "首帧/S14_SAME_CAMERA_BOOT_PRO_v02.png": "76bbe08913c5364d4ed7308349ec847d01f831b3905266e4ecee3f55323f5c4e"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "720p",
+    "generate_audio": false,
+    "prompt": "Edit @Video 1. @Image 1 is the corrected frame at second 1 from this same camera. Transfer the corrected LEG AND HAND POSE into the moving clip. At second 1 the young man has his right leg extended forward and his black boot touching the fork shaft, exactly as in @Image 1. His boot kicks the intact fork away toward the lower-right at seconds 1-1.5. His two hands keep pressing the brown man’s wrist and chest during the kick. His left knee remains on the brown chest. After the kick his right leg folds back and he reaches for the post rope, continuing the source video. Preserve the original camera, character identities, wet costumes, shallow water and timing.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac4da/AaFeSM3W0st5HpBBLTAoo_S14_SAME_CAMERA_BOOT_PRO_v02.png"
+    ],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac4da/TMrIx6BTMmSAhdzz0Gs_y_S14%3F%3F%3F4%3F%3F%3F%3F%3F.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aea9-a26f-7231-a1ed-ae5951ebca1b",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea9-a26f-7231-a1ed-ae5951ebca1b",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea9-a26f-7231-a1ed-ae5951ebca1b/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea9-a26f-7231-a1ed-ae5951ebca1b/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0aea9-a26f-7231-a1ed-ae5951ebca1b",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea9-a26f-7231-a1ed-ae5951ebca1b",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea9-a26f-7231-a1ed-ae5951ebca1b/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea9-a26f-7231-a1ed-ae5951ebca1b/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

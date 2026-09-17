@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:17:50.458910+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "参考/S11原片1.5秒.png",
+      "首帧/SF_S11_PRO_v03.png"
+    ],
+    "output": "首帧/S11_SAME_CAMERA_FORK_PRO_v01.png",
+    "body": {
+      "prompt": "Edit image 1. Keep the exact blue-clothed man and his hands on the wedge, his black awl lying on the horizontal beam, and the whole fixed winch mechanism. Correct the brown man’s fishing fork and arm pose to the trapped downward diagonal shown in image 2. Its plain wooden butt is beside his left shoulder. Both hands grip the wooden shaft close to his chest and abdomen. The shaft slopes DOWNWARD to the right. Its two-pronged black head passes just below the fixed horizontal crossbar and catches tightly against the LEFT vertical post, below the rotating drum. The man pulls backward against this trapped head. Preserve his face, costume, feet, camera and water.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "参考/S11原片1.5秒.png": "7da85b112c4f0179bf2069ffe1149aab1cdc0380ceb837c3de06aed67089a409",
+    "首帧/SF_S11_PRO_v03.png": "8473c8cb71eb1b59605476b9d5c86f67875f8f9fc1b6d80e9cade719f2c615dc"
+  },
+  "body": {
+    "prompt": "Edit image 1. Keep the exact blue-clothed man and his hands on the wedge, his black awl lying on the horizontal beam, and the whole fixed winch mechanism. Correct the brown man’s fishing fork and arm pose to the trapped downward diagonal shown in image 2. Its plain wooden butt is beside his left shoulder. Both hands grip the wooden shaft close to his chest and abdomen. The shaft slopes DOWNWARD to the right. Its two-pronged black head passes just below the fixed horizontal crossbar and catches tightly against the LEFT vertical post, below the rotating drum. The man pulls backward against this trapped head. Preserve his face, costume, feet, camera and water.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac4d3/qQ4JgI_DO86CZBuHTFkHe_S11%3F%3F1.5%3F.png",
+      "https://v3b.fal.media/files/b/0aaac43a/-M9CiPZqzL1GDZJm_RWcR_SF_S11_PRO_v03.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aea8-78be-7802-b123-a3c9adb5b30a",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aea8-78be-7802-b123-a3c9adb5b30a",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aea8-78be-7802-b123-a3c9adb5b30a/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aea8-78be-7802-b123-a3c9adb5b30a/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0aea8-78be-7802-b123-a3c9adb5b30a",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aea8-78be-7802-b123-a3c9adb5b30a",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aea8-78be-7802-b123-a3c9adb5b30a/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aea8-78be-7802-b123-a3c9adb5b30a/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 140.83699989318848
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac4e1/Y3kwVFQzyivNjbkXa6zYl_95a5c1a27aee483faafbebeff75795f5.png",
+        "content_type": "image/png",
+        "file_name": "95a5c1a27aee483faafbebeff75795f5.png",
+        "file_size": 6937376,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "e6247c0f9e427abacb33265ae1e1e68ccd2e1ff461c5ae403c208f3993aae52f"
+}

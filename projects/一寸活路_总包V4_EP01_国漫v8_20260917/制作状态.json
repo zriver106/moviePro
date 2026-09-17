@@ -1,22 +1,30 @@
 {
-  "stage": "持续制作：S12实际预演、S14原片局部编辑，补齐其余首帧",
+  "stage": "原片编辑与关键帧补齐",
   "source_locked": true,
   "text_review_binding": "passed",
   "shots": 19,
   "seconds": 98,
-  "generated_videos": 5,
+  "generated_videos": 14,
   "delivery_ready": false,
   "approved_character_bases": 5,
   "approved_props": 2,
   "voiceover_timing": "12条人声已制作，98秒草稿轨已导出；S03关水纠音经Scribe回读正确，口型时间待视频复验",
-  "submitted_video_jobs": 7,
+  "submitted_video_jobs": 18,
   "accepted_video_shots": 0,
   "bgm": false,
   "subtitle_tracks": 1,
-  "active_provider_jobs": 7,
+  "active_provider_jobs": 3,
   "blockers": [
-    "S14四轮整段编辑未改正手扫叉及单腕；用户明确仍只编辑原片，目前改为局部视频修复",
-    "S12首帧静态通过，实际拔楔收索视频待取回验收",
-    "S10/S11道具局部修正进行中，其余镜头仍有待制作内容"
-  ]
+    "S10、S11鱼叉脱卡，S11同机位纠偏编辑处理中",
+    "S12机关运动错误，同机位目标末态编辑处理中",
+    "S14双腕局部已有改善并合回；踢叉同机位编辑处理中",
+    "S13已回片，落地朝向与S14衔接待修，其余视频未完成"
+  ],
+  "updated_at": "2026-09-17T09:22:25.360070+00:00",
+  "active_jobs": [
+    "EDIT_S11_SAME_CAMERA_v03",
+    "EDIT_S12_SAME_CAMERA_v03",
+    "EDIT_S14_SAME_CAMERA_BOOT_v10"
+  ],
+  "regeneration_allowed": false
 }

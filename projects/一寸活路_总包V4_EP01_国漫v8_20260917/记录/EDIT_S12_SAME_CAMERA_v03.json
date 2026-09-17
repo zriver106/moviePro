@@ -1,0 +1,63 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T09:17:51.616198+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/PREVIS_S12_v01.mp4",
+      "首帧/SF_S13_PRO_v01.png",
+      "预演/S12_0s.png"
+    ],
+    "output": "预演/EDIT_S12_SAME_CAMERA_v03.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video 1. @Image 1 is the corrected final frame of this exact mechanism and @Image 2 is its initial frame. Propagate these corrections through the moving video: the overhead pulley stays fixed at the height in @Image 2 throughout the shot. The stone descends from its starting position and lands ON TOP of the highest wooden catch platform, exactly as in @Image 1. The floor rope contracts into the SINGLE tight ankle loop in @Image 1 around both boots. Keep the original young man pulling the wedge and the original rotating drum, camera, lighting, clothes and identities. The final mechanism matches @Image 1."
+    }
+  },
+  "references": {
+    "预演/PREVIS_S12_v01.mp4": "b91e8e44afa756cd1abe42c397bc888e81e6aef85e829a8fafbdf894308b69c9",
+    "首帧/SF_S13_PRO_v01.png": "ab1db45445bc28939f0eb7383976d6c4ab15349c7bce57c828f366bf82858c38",
+    "预演/S12_0s.png": "97b06235b157ea5ea4ec68386d9a3d78a59eedc922481c24c664f25b55a68671"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "720p",
+    "generate_audio": false,
+    "prompt": "Edit @Video 1. @Image 1 is the corrected final frame of this exact mechanism and @Image 2 is its initial frame. Propagate these corrections through the moving video: the overhead pulley stays fixed at the height in @Image 2 throughout the shot. The stone descends from its starting position and lands ON TOP of the highest wooden catch platform, exactly as in @Image 1. The floor rope contracts into the SINGLE tight ankle loop in @Image 1 around both boots. Keep the original young man pulling the wedge and the original rotating drum, camera, lighting, clothes and identities. The final mechanism matches @Image 1.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac49f/DWWj9OX6aAPKCmh8nIn8O_SF_S13_PRO_v01.png",
+      "https://v3b.fal.media/files/b/0aaac43a/WZwdxlCG9-sxbW6SaaSxQ_S12_0s.png"
+    ],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac43a/1m6etejBvigqSnQTTIbga_PREVIS_S12_v01.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aea8-7930-7911-ac7d-324b9b2c2ed3",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea8-7930-7911-ac7d-324b9b2c2ed3",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea8-7930-7911-ac7d-324b9b2c2ed3/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea8-7930-7911-ac7d-324b9b2c2ed3/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0aea8-7930-7911-ac7d-324b9b2c2ed3",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea8-7930-7911-ac7d-324b9b2c2ed3",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea8-7930-7911-ac7d-324b9b2c2ed3/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea8-7930-7911-ac7d-324b9b2c2ed3/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

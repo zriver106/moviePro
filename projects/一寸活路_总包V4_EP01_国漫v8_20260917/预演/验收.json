@@ -1,21 +1,51 @@
 {
   "S10": {
-    "status": "pending",
-    "note": "S14已提交10秒实际预演，其余待合格起点；不得以图片通过替代视频动作通过"
+    "status": "failed",
+    "note": "S14已提交10秒实际预演，其余待合格起点；不得以图片通过替代视频动作通过",
+    "output": "预演/PREVIS_S10_v01.mp4",
+    "problems": [
+      "鱼叉未卡住固定横档与立柱，后续被自由抬起"
+    ],
+    "next": "原视频编辑固定鱼叉接触点"
   },
   "S11": {
-    "status": "pending",
-    "note": "S14已提交10秒实际预演，其余待合格起点；不得以图片通过替代视频动作通过"
+    "status": "failed",
+    "note": "S14已提交10秒实际预演，其余待合格起点；不得以图片通过替代视频动作通过",
+    "output": "预演/PREVIS_S11_v01.mp4",
+    "problems": [
+      "陆照放锥后抓楔可辨，但马丁将整支鱼叉抬离卡点"
+    ],
+    "next": "保持陆照动作，编辑马丁握叉及鱼叉卡点",
+    "editing_v02": {
+      "status": "failed",
+      "output": "预演/EDIT_S11_FORK_v02.mp4",
+      "inspection": "2fps全段：鱼叉仍离开固定横档，自由抬至肩高，未修复"
+    }
   },
   "S12": {
-    "status": "in_progress",
+    "status": "failed",
     "source": "首帧/SF_S12_PRO_v06.png",
     "output": "预演/PREVIS_S12_v01.mp4",
-    "note": "首帧单头鱼叉、索圈与楔位置已查，提交首次4秒物理预演，尚未验收"
+    "note": "首帧单头鱼叉、索圈与楔位置已查，提交首次4秒物理预演，尚未验收",
+    "inspection": "4fps全段及0/1.5/2.25秒原尺寸检查，拔楔与鼓旋转可辨",
+    "problems": [
+      "固定上吊轮跟随石下降",
+      "石穿过上层承架落到下层",
+      "脚圈收紧时增殖成多层绳"
+    ],
+    "next": "制作正确末态，原片editing修正；不重新生成",
+    "editing_v02": {
+      "status": "failed",
+      "output": "预演/EDIT_S12_CONTACT_v02.mp4",
+      "inspection": "4fps全段复核：上吊轮仍下降，重石穿上层承架，脚索增殖；不可替换原片"
+    }
   },
   "S13": {
-    "status": "pending",
-    "note": "S14已提交10秒实际预演，其余待合格起点；不得以图片通过替代视频动作通过"
+    "status": "continuity_review",
+    "source": "首帧/SF_S13_PRO_v01.png",
+    "note": "首帧已验，首次4秒后仰跌落预演准备提交",
+    "output": "预演/PREVIS_S13_v01.mp4",
+    "inspection": "4fps全段：后仰落水、松手落叉、脸露出水面可辨；落地头右脚左与S14原片头左脚右不同，需要衔接核对，未整镜放行"
   },
   "S14": {
     "status": "failed",
@@ -49,6 +79,63 @@
       "status": "failed",
       "inspected": "全段0.5秒抽帧，4—10秒仍仅单腕；纠偏静态图未转移为第二前臂，开头仍手扫叉；结尾仍烧字幕"
     },
-    "regeneration_authorization": "2026-09-17用户明确回复：仍只编辑原视频；未授权重新生成。"
+    "regeneration_authorization": "2026-09-17用户明确回复：仍只编辑原视频；未授权重新生成。",
+    "editing_v06": {
+      "output": "预演/EDIT_S14_LOCAL_WRISTS_v06.mp4",
+      "status": "failed",
+      "inspection": "原片3.5—10秒局部裁剪编辑仍保留单前臂，2fps复验可见；输出6.375秒较输入6.5秒变短，未合回原片"
+    },
+    "editing_v07": {
+      "status": "provider_invalid_request",
+      "error": "原片两秒局部编辑服务返回422 Invalid parameters；未得到视频，不按效果失败重生处理",
+      "next": "核对真实供应商入参限制，保留原始请求ID"
+    },
+    "editing_v09": {
+      "status": "failed",
+      "output": "预演/EDIT_S14_LOCAL_BOOT4_v09.mp4",
+      "inspection": "4fps全段：1秒仍以手推鱼叉；输出89帧/24fps=3.708秒，不合回原片"
+    },
+    "editing_v08": {
+      "status": "component_improved_pending_composite",
+      "output": "预演/EDIT_S14_SAME_CAMERA_v08.mp4",
+      "inspection": "全段2fps与3秒原尺寸：两前臂双拳共同入绳可见；需复验初始起腕、合成接缝和清除烧字幕；不能据此将整镜通过"
+    },
+    "wrists_composite": {
+      "source": "预演/PREVIS_S14_v01.mp4",
+      "edit_source": "预演/EDIT_S14_SAME_CAMERA_v08.mp4",
+      "output": "预演/S14双腕已修_踢叉待修.mp4",
+      "sha256": "d6b688fb09180e64a648959913095eebdc317b59e75c754694c93c9dcc1b7a6d",
+      "frames": 240,
+      "fps": 24,
+      "duration": 10,
+      "composite": {
+        "region": [
+          0,
+          200,
+          480,
+          450
+        ],
+        "starts_at_frame": 84,
+        "edit_frames": 153,
+        "target_frames": 156,
+        "edge_feather_pixels": 20
+      },
+      "subtitle_cleanup": {
+        "method": "局部光流映射原片干净皮肤与衣料纹理，替换烧入字，不改其他区域",
+        "reference_frame": 204,
+        "scan_region": [
+          190,
+          552,
+          98,
+          60
+        ],
+        "algorithm": "DIS optical flow MEDIUM / 9px feather"
+      },
+      "status": "partial_repair_not_delivery",
+      "remaining": [
+        "开头仍为手推鱼叉，等待踢叉原片编辑",
+        "整镜动作连续性尚未通过"
+      ]
+    }
   }
 }

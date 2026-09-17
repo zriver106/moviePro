@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:49:09.779956+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S04_PRO_v02.png",
+      "首帧/SF_S03_PRO_v06.png"
+    ],
+    "output": "首帧/EF_S19_PRO_v01.png",
+    "body": {
+      "prompt": "Widen image 1 into a full scene at the same wooden door and narrow repair ledge. The young blue-shirted man stands at LEFT with his left hand braced around a vertical wooden post. The door has swung outward toward the right on its right-side hinges, exposing the flooded chamber. The exact gray-green-clothed woman from image 2 is still in the doorway water BELOW the repair ledge: her left forearm reaches toward the young man, and his right hand firmly grasps that forearm. Her right hand holds her same lantern above the rushing water. Behind her, the exact gray-bearded older man’s face is higher at left, and the exact brown-clothed young man’s face is lower at right, both still inside the room. The young hero’s short black awl is tucked horizontally into his plain gray waist sash. Water rushes out of the doorway toward the lower LEFT foreground. The hero’s shirt front and sleeves are freshly wet. The woman remains in the water with her feet below the surface; all three trapped people remain below the ledge. Clear connected arms and hands, consistent Chinese 3D animation, 9:16.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S04_PRO_v02.png": "4f3af67bc62cd6fd03b82b7aceffe63b59dd05df935dceaf9d3082eda10e6268",
+    "首帧/SF_S03_PRO_v06.png": "f4cedf2e7beaf88f7d14a0250be4d6d69900a71864d90840f0fa5fb915c8c1ae"
+  },
+  "body": {
+    "prompt": "Widen image 1 into a full scene at the same wooden door and narrow repair ledge. The young blue-shirted man stands at LEFT with his left hand braced around a vertical wooden post. The door has swung outward toward the right on its right-side hinges, exposing the flooded chamber. The exact gray-green-clothed woman from image 2 is still in the doorway water BELOW the repair ledge: her left forearm reaches toward the young man, and his right hand firmly grasps that forearm. Her right hand holds her same lantern above the rushing water. Behind her, the exact gray-bearded older man’s face is higher at left, and the exact brown-clothed young man’s face is lower at right, both still inside the room. The young hero’s short black awl is tucked horizontally into his plain gray waist sash. Water rushes out of the doorway toward the lower LEFT foreground. The hero’s shirt front and sleeves are freshly wet. The woman remains in the water with her feet below the surface; all three trapped people remain below the ledge. Clear connected arms and hands, consistent Chinese 3D animation, 9:16.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac426/i2T0MKa5HO_OrDl1coRE4_SF_S04_PRO_v02.png",
+      "https://v3b.fal.media/files/b/0aaac427/xSX2ozHfgW3pcmkZG4SGW_SF_S03_PRO_v06.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae8e-37bf-7740-a783-20d98bfadc8c",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-37bf-7740-a783-20d98bfadc8c",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-37bf-7740-a783-20d98bfadc8c/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-37bf-7740-a783-20d98bfadc8c/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae8e-37bf-7740-a783-20d98bfadc8c",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-37bf-7740-a783-20d98bfadc8c",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-37bf-7740-a783-20d98bfadc8c/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-37bf-7740-a783-20d98bfadc8c/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 149.5920000076294
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac435/MqZAKuc4YfQWMaf_2AI34_5a0c5377a71540da97ad80008973076b.png",
+        "content_type": "image/png",
+        "file_name": "5a0c5377a71540da97ad80008973076b.png",
+        "file_size": 6910967,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "8129c67aaa9ac34d94ac9c4f3ede6ee1a9c6bf96d5d91c994ca4f5084183d16e"
+}

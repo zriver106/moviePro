@@ -1,0 +1,75 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:52:21.457360+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/PREVIS_S12_v01.mp4",
+      "预演/S12_0s.png",
+      "参考/S12单圈脚索目标.png"
+    ],
+    "output": "预演/EDIT_S12_CONTACT_v02.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": true,
+      "prompt": "Edit the mechanical motion in @Video1. Preserve the young man’s wedge pull, the rotating drum, the attacker’s reaction, camera and complete four-second timing. Keep the black upper pulley FIXED at its initial position shown in @Image1 for the entire shot, with its ceiling support rope length fixed. After the wedge is pulled, the gray stone descends the small initial gap and stops ON TOP of the UPPERMOST wooden catch from @Image1. That wooden catch and all timber posts remain fixed in their initial positions. At 1.7-2.4 seconds the existing floor rope loop contracts around both booted ankles into the SINGLE snug loop shown in @Image2; the remainder of the rope is taken up on the turning drum. At the end the ankles have one rope turn around them, and the stone is supported on the top catch. Maintain continuous taut rope connections and the two-pronged fork beneath the drum."
+    }
+  },
+  "references": {
+    "预演/PREVIS_S12_v01.mp4": "b91e8e44afa756cd1abe42c397bc888e81e6aef85e829a8fafbdf894308b69c9",
+    "预演/S12_0s.png": "97b06235b157ea5ea4ec68386d9a3d78a59eedc922481c24c664f25b55a68671",
+    "参考/S12单圈脚索目标.png": "7174db65ddf33b95105187ed7e130b4075380089c64608e6d54a988de33c37f0"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "720p",
+    "generate_audio": true,
+    "prompt": "Edit the mechanical motion in @Video1. Preserve the young man’s wedge pull, the rotating drum, the attacker’s reaction, camera and complete four-second timing. Keep the black upper pulley FIXED at its initial position shown in @Image1 for the entire shot, with its ceiling support rope length fixed. After the wedge is pulled, the gray stone descends the small initial gap and stops ON TOP of the UPPERMOST wooden catch from @Image1. That wooden catch and all timber posts remain fixed in their initial positions. At 1.7-2.4 seconds the existing floor rope loop contracts around both booted ankles into the SINGLE snug loop shown in @Image2; the remainder of the rope is taken up on the turning drum. At the end the ankles have one rope turn around them, and the stone is supported on the top catch. Maintain continuous taut rope connections and the two-pronged fork beneath the drum.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac43a/WZwdxlCG9-sxbW6SaaSxQ_S12_0s.png",
+      "https://v3b.fal.media/files/b/0aaac43a/h0mP_0Xxro57TtTa9uL0k_S12%3F%3F%3F%3F%3F%3F.png"
+    ],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac43a/1m6etejBvigqSnQTTIbga_PREVIS_S12_v01.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae91-2bad-7ab3-853f-c2817fa1b1ff",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae91-2bad-7ab3-853f-c2817fa1b1ff",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae91-2bad-7ab3-853f-c2817fa1b1ff/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae91-2bad-7ab3-853f-c2817fa1b1ff/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae91-2bad-7ab3-853f-c2817fa1b1ff",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae91-2bad-7ab3-853f-c2817fa1b1ff",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae91-2bad-7ab3-853f-c2817fa1b1ff/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae91-2bad-7ab3-853f-c2817fa1b1ff/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 389.17700004577637
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac461/VlBDbWp5M0sJiCYcjMnfv_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 2443807
+    },
+    "seed": 1052542752
+  },
+  "output_sha256": "3a053214ad4349f969671f6350134007ff1517677894277fb0a76fa67f200f8b"
+}

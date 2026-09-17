@@ -1,0 +1,72 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:05:37.898484+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/PREVIS_S11_v01.mp4",
+      "首帧/SF_S11_PRO_v03.png"
+    ],
+    "output": "预演/EDIT_S11_FORK_v02.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video 1. Correct the brown-clothed man and his wooden fishing fork throughout the clip. @Image 1 defines the trapped fork position. The two-pronged iron head remains lodged under the fixed horizontal beam against the left vertical post. The shaft pivots slightly around this fixed contact point while the man slides both hands along the shaft and strains backward. His elbows bend close to his waist. The fork stays diagonally downward from his hands toward the trapped head throughout the action. Preserve the blue-clothed man placing his awl on the beam and then grasping the wedge, the camera, water, winch drum and lighting."
+    }
+  },
+  "references": {
+    "预演/PREVIS_S11_v01.mp4": "e1a07dd4ac2f46bb58ab61ebf7b9f43ea44d70b2d56758eefefa6f8877156853",
+    "首帧/SF_S11_PRO_v03.png": "8473c8cb71eb1b59605476b9d5c86f67875f8f9fc1b6d80e9cade719f2c615dc"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "720p",
+    "generate_audio": false,
+    "prompt": "Edit @Video 1. Correct the brown-clothed man and his wooden fishing fork throughout the clip. @Image 1 defines the trapped fork position. The two-pronged iron head remains lodged under the fixed horizontal beam against the left vertical post. The shaft pivots slightly around this fixed contact point while the man slides both hands along the shaft and strains backward. His elbows bend close to his waist. The fork stays diagonally downward from his hands toward the trapped head throughout the action. Preserve the blue-clothed man placing his awl on the beam and then grasping the wedge, the camera, water, winch drum and lighting.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac43a/-M9CiPZqzL1GDZJm_RWcR_SF_S11_PRO_v03.png"
+    ],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac489/qVWv6xbkGbppLV09gLWre_PREVIS_S11_v01.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae9d-4b0d-76f2-9b9e-85066e494b3a",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae9d-4b0d-76f2-9b9e-85066e494b3a",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae9d-4b0d-76f2-9b9e-85066e494b3a/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae9d-4b0d-76f2-9b9e-85066e494b3a/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae9d-4b0d-76f2-9b9e-85066e494b3a",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae9d-4b0d-76f2-9b9e-85066e494b3a",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae9d-4b0d-76f2-9b9e-85066e494b3a/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae9d-4b0d-76f2-9b9e-85066e494b3a/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 444.40499997138977
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac4b6/ECKpMdypdIPsDngrpbnfe_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 2005410
+    },
+    "seed": 738884450
+  },
+  "output_sha256": "660befdedd04f3b6e7df179c4395b708473dc7da486ffc0ab71edc968af27589"
+}

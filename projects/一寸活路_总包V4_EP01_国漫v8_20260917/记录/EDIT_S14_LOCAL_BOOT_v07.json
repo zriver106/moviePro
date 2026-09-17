@@ -1,0 +1,63 @@
+{
+  "state": "result_error",
+  "started_at": "2026-09-17T08:50:50.902896+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/S14原片踢叉局部.mp4",
+      "参考/S14靴尖接叉局部.png"
+    ],
+    "output": "预演/EDIT_S14_LOCAL_BOOT_v07.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit the fork-clearing action in @Video1. The young man’s right BLACK BOOT swings forward from the right side into the foreground and visibly contacts the wooden fork shaft beside its metal head, matching the boot-to-shaft contact in @Image1. His boot kicks the complete fork diagonally toward the lower-right, sending it outside the pinned man’s reaching distance. His right foot then returns to its kneeling support position. Throughout this movement his left hand keeps pinning the brown-sleeved wrist and his right hand remains on the brown-robed chest. The movement is performed by the boot. Preserve the original first and last poses, camera framing, water, people and ankle rope. Complete the boot contact and push between 0.3 and 1.4 seconds of this two-second input."
+    }
+  },
+  "references": {
+    "预演/S14原片踢叉局部.mp4": "1c8f2c7165f6a26ff4602ff30d7eb24067c11edd4d0d584ca831ba6d8701a143",
+    "参考/S14靴尖接叉局部.png": "db829ae18094d543b4c95307387ab34ea011442cfdd454cb8b4a8dc40eabff63"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "720p",
+    "generate_audio": false,
+    "prompt": "Edit the fork-clearing action in @Video1. The young man’s right BLACK BOOT swings forward from the right side into the foreground and visibly contacts the wooden fork shaft beside its metal head, matching the boot-to-shaft contact in @Image1. His boot kicks the complete fork diagonally toward the lower-right, sending it outside the pinned man’s reaching distance. His right foot then returns to its kneeling support position. Throughout this movement his left hand keeps pinning the brown-sleeved wrist and his right hand remains on the brown-robed chest. The movement is performed by the boot. Preserve the original first and last poses, camera framing, water, people and ankle rope. Complete the boot contact and push between 0.3 and 1.4 seconds of this two-second input.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac431/IiQpMvExJTqS2xZKTi7cB_S14%3F%3F%3F%3F%3F%3F.png"
+    ],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac431/Ib3cXj324mbRaDOzYP31Z_S14%3F%3F%3F%3F%3F%3F.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae8f-c833-7602-af13-e8dc7d7e6e69",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae8f-c833-7602-af13-e8dc7d7e6e69",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae8f-c833-7602-af13-e8dc7d7e6e69/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae8f-c833-7602-af13-e8dc7d7e6e69/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae8f-c833-7602-af13-e8dc7d7e6e69",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae8f-c833-7602-af13-e8dc7d7e6e69",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae8f-c833-7602-af13-e8dc7d7e6e69/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae8f-c833-7602-af13-e8dc7d7e6e69/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 15.948999881744385
+    }
+  },
+  "error": "队列读取 422: {\"detail\":[{\"loc\":[\"body\"],\"msg\":\"Invalid parameters in input, please check inputs and try again.\",\"type\":\"invalid_request\",\"url\":\"https://docs.fal.ai/errors#invalid_request\",\"input\":{\"bitrate_mode\":\"standard\",\"prompt\":\"Edit the fork-clearing action in @Video1. The young man’s right BLACK BOOT swings forward from the right side into the foreground and visibly contacts the wooden fork shaft beside its metal head, matching the boot-to-shaft contact in @Image1. His boot kicks the complete fork diag"
+}

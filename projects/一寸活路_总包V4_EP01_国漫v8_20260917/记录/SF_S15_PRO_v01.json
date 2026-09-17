@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:49:08.613499+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/EF_S14_PRO_v07.png",
+      "首帧/SF_S04_PRO_v02.png"
+    ],
+    "output": "首帧/SF_S15_PRO_v01.png",
+    "body": {
+      "prompt": "A medium close-up of the young blue-shirted man from image 1 as he begins rising from his crouch. Frame his head, shoulders, chest and waist; his hands are relaxed low beside his thighs. His exact face, hair, clothing and damp sleeve texture match image 1. His torso leans slightly forward, ready to straighten and turn toward the wooden door at the right rear, matching the door in image 2. A dim amber lantern reflection is visible through the door’s small upper square aperture. Cool daylight, detailed dimensional Chinese animation, one portrait composition.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/EF_S14_PRO_v07.png": "390cbe7d5db82a57bbe6b7257a12a696f9df0a68ed443beed7d76678d5f12c28",
+    "首帧/SF_S04_PRO_v02.png": "4f3af67bc62cd6fd03b82b7aceffe63b59dd05df935dceaf9d3082eda10e6268"
+  },
+  "body": {
+    "prompt": "A medium close-up of the young blue-shirted man from image 1 as he begins rising from his crouch. Frame his head, shoulders, chest and waist; his hands are relaxed low beside his thighs. His exact face, hair, clothing and damp sleeve texture match image 1. His torso leans slightly forward, ready to straighten and turn toward the wooden door at the right rear, matching the door in image 2. A dim amber lantern reflection is visible through the door’s small upper square aperture. Cool daylight, detailed dimensional Chinese animation, one portrait composition.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac426/dotbDJkTyEdX6vU9k5oKH_EF_S14_PRO_v07.png",
+      "https://v3b.fal.media/files/b/0aaac427/xBzNpfSpR6ENLPjtYX-Ad_SF_S04_PRO_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae8e-39e6-7333-9aaa-afa990a4434e",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-39e6-7333-9aaa-afa990a4434e",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-39e6-7333-9aaa-afa990a4434e/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-39e6-7333-9aaa-afa990a4434e/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae8e-39e6-7333-9aaa-afa990a4434e",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-39e6-7333-9aaa-afa990a4434e",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-39e6-7333-9aaa-afa990a4434e/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8e-39e6-7333-9aaa-afa990a4434e/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 211.40499997138977
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac43c/9fWkyrYHCq5FLewIjDqLV_2a35cdd0fc1a40efaf2d66f4c0464987.png",
+        "content_type": "image/png",
+        "file_name": "2a35cdd0fc1a40efaf2d66f4c0464987.png",
+        "file_size": 6407748,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "a1d07f2dd2830652d48369afae5d58ceb68c619357e5dc01bfc9daa272263a0e"
+}

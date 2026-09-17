@@ -1,5 +1,5 @@
 {
-  "state": "IN_PROGRESS",
+  "state": "downloaded_unreviewed",
   "started_at": "2026-09-17T08:40:34.334907+00:00",
   "spec": {
     "capability": "edit",
@@ -47,12 +47,27 @@
     "queue_position": 0
   },
   "status": {
-    "status": "IN_PROGRESS",
+    "status": "COMPLETED",
     "request_id": "01a0ae86-5da6-7a92-97b3-91771e2c6ec6",
     "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-5da6-7a92-97b3-91771e2c6ec6",
     "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-5da6-7a92-97b3-91771e2c6ec6/status",
     "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-5da6-7a92-97b3-91771e2c6ec6/cancel",
     "logs": null,
-    "metrics": {}
-  }
+    "metrics": {
+      "inference_time": 147.52699995040894
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac402/S6O0m3glVgGmLnebbOJmu_9cca029014434b8fb90f2a7ceff198e6.png",
+        "content_type": "image/png",
+        "file_name": "9cca029014434b8fb90f2a7ceff198e6.png",
+        "file_size": 7070593,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "df49d12ec52eb639e8598258594ade930fcf818cd1a9a8f58ccf850dcca68731"
 }

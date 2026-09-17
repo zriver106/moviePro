@@ -1,0 +1,63 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:09:19.400982+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "i2v",
+    "previs": true,
+    "refs": [
+      "首帧/SF_S13_PRO_v01.png"
+    ],
+    "output": "预演/PREVIS_S13_v01.mp4",
+    "body": {
+      "prompt": "The brown-clothed man loses balance with both ankles held together by the tight single rope loop. His upper body tips backward, his knees bend, and his back lands in the shallow water. His face remains clearly above the water surface. Both hands release the long wooden fork, which falls as one intact object onto the water to his right. The blue-clothed young man drops the small wooden wedge beside the winch and quickly turns toward the fallen man, moving into a low crouch beside his chest. The camera tilts down continuously to follow the fall. The ankle rope stays connected to the drum. The overhead pulley remains fixed and the stone rests on its wooden platform. Dim daylight, Chinese dimensional 3D animation, natural splashing water.",
+      "duration": "4",
+      "aspect_ratio": "9:16",
+      "resolution": "720p",
+      "generate_audio": false
+    }
+  },
+  "references": {
+    "首帧/SF_S13_PRO_v01.png": "ab1db45445bc28939f0eb7383976d6c4ab15349c7bce57c828f366bf82858c38"
+  },
+  "body": {
+    "prompt": "The brown-clothed man loses balance with both ankles held together by the tight single rope loop. His upper body tips backward, his knees bend, and his back lands in the shallow water. His face remains clearly above the water surface. Both hands release the long wooden fork, which falls as one intact object onto the water to his right. The blue-clothed young man drops the small wooden wedge beside the winch and quickly turns toward the fallen man, moving into a low crouch beside his chest. The camera tilts down continuously to follow the fall. The ankle rope stays connected to the drum. The overhead pulley remains fixed and the stone rests on its wooden platform. Dim daylight, Chinese dimensional 3D animation, natural splashing water.",
+    "duration": "4",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "generate_audio": false,
+    "image_url": "https://v3b.fal.media/files/b/0aaac49f/DWWj9OX6aAPKCmh8nIn8O_SF_S13_PRO_v01.png"
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aea0-add2-74c3-86eb-671ef87363fe",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea0-add2-74c3-86eb-671ef87363fe",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea0-add2-74c3-86eb-671ef87363fe/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea0-add2-74c3-86eb-671ef87363fe/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0aea0-add2-74c3-86eb-671ef87363fe",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea0-add2-74c3-86eb-671ef87363fe",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea0-add2-74c3-86eb-671ef87363fe/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aea0-add2-74c3-86eb-671ef87363fe/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 396.00600004196167
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac4c7/H1XfQyVMZg4-o87vOJzbs_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 6200153
+    },
+    "seed": 458116958
+  },
+  "output_sha256": "1311cbbcbc3384d03f65d09b3377b19cab9b8cfaf90308d0e22ac491f8f1012d"
+}

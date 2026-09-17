@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:00:41.702998+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/S14原片踢叉局部4秒.mp4",
+      "参考/S14靴尖接叉局部.png"
+    ],
+    "output": "预演/EDIT_S14_LOCAL_BOOT4_v09.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video1: replace the hand-sweeping movement at 0.75-1.5 seconds with a RIGHT BLACK BOOT kicking the fork. The young man extends his right leg from the right side and his boot contacts the fork shaft exactly as in @Image1. This boot pushes the entire fork diagonally away toward the lower-right, then returns to its original kneeling position. His left hand remains pinning the brown wrist and his right hand stays on the brown chest during the kick. Preserve the original continuation from second 2 onward."
+    },
+    "repair_of_failed_request": "EDIT_S14_LOCAL_BOOT_v07：422参数拒绝；改用4秒原片上下文，未对已成功视频重新生成"
+  },
+  "references": {
+    "预演/S14原片踢叉局部4秒.mp4": "d7f92b4422d1ed8e39f5b9a36c00c91be23b0b199894265c12d1e881cb178a28",
+    "参考/S14靴尖接叉局部.png": "db829ae18094d543b4c95307387ab34ea011442cfdd454cb8b4a8dc40eabff63"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "720p",
+    "generate_audio": false,
+    "prompt": "Edit @Video1: replace the hand-sweeping movement at 0.75-1.5 seconds with a RIGHT BLACK BOOT kicking the fork. The young man extends his right leg from the right side and his boot contacts the fork shaft exactly as in @Image1. This boot pushes the entire fork diagonally away toward the lower-right, then returns to its original kneeling position. His left hand remains pinning the brown wrist and his right hand stays on the brown chest during the kick. Preserve the original continuation from second 2 onward.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac431/IiQpMvExJTqS2xZKTi7cB_S14%3F%3F%3F%3F%3F%3F.png"
+    ],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac46c/qGorlk_c6BPY4aLg9XaD4_S14%3F%3F%3F%3F%3F%3F4%3F.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae98-c617-7bf0-83d1-9dc902b79102",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae98-c617-7bf0-83d1-9dc902b79102",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae98-c617-7bf0-83d1-9dc902b79102/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae98-c617-7bf0-83d1-9dc902b79102/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae98-c617-7bf0-83d1-9dc902b79102",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae98-c617-7bf0-83d1-9dc902b79102",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae98-c617-7bf0-83d1-9dc902b79102/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae98-c617-7bf0-83d1-9dc902b79102/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 438.04699993133545
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac497/r_paiSf2_dWP7tdVzxSvI_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 4566133
+    },
+    "seed": 2046928071
+  },
+  "output_sha256": "41820dff2ce95d935913c0eae10f8c9a42e4301c85b8b6c1d12cf9c4b38bd149"
+}

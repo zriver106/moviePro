@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:06:56.307424+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S07_PRO_v01.png",
+      "资产/PROP_AWL_v02.png"
+    ],
+    "output": "首帧/SF_S07_PRO_v02.png",
+    "body": {
+      "prompt": "Edit image 1. The young man holds the exact SINGLE-POINT awl from image 2 in his right hand: a rounded tan hemp grip at the upper end and one straight black steel spike pointing downward. Replace the black spur projecting upward-left from his fist with the rounded hemp handle butt. Shift the loose oval floor rope loop toward the center winch so that both of the brown man’s boots stand clearly to its LEFT, with a visible gap between his boots and the rope. Move the small wooden brake wedge from the floor up into the brake slot directly under the right rim of the winch drum. Preserve both characters, threatened abdomen, faces, door, water, lighting and Chinese 3D style.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S07_PRO_v01.png": "e6a2ba7e0c251b2cd8df868a8197f45640d31eded68b61830c69c9f803fe3e93",
+    "资产/PROP_AWL_v02.png": "01272a841a1743e63309e040e30fbccdbf11b419596a67232e57306afead93e1"
+  },
+  "body": {
+    "prompt": "Edit image 1. The young man holds the exact SINGLE-POINT awl from image 2 in his right hand: a rounded tan hemp grip at the upper end and one straight black steel spike pointing downward. Replace the black spur projecting upward-left from his fist with the rounded hemp handle butt. Shift the loose oval floor rope loop toward the center winch so that both of the brown man’s boots stand clearly to its LEFT, with a visible gap between his boots and the rope. Move the small wooden brake wedge from the floor up into the brake slot directly under the right rim of the winch drum. Preserve both characters, threatened abdomen, faces, door, water, lighting and Chinese 3D style.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac491/gTLgMiGNKg_VNvw4tR1-h_SF_S07_PRO_v01.png",
+      "https://v3b.fal.media/files/b/0aaac270/oFScqdwRK_LcYa704asqK_PROP_AWL_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae9e-7dbd-7653-95b1-de49de5ac19f",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9e-7dbd-7653-95b1-de49de5ac19f",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9e-7dbd-7653-95b1-de49de5ac19f/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9e-7dbd-7653-95b1-de49de5ac19f/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae9e-7dbd-7653-95b1-de49de5ac19f",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9e-7dbd-7653-95b1-de49de5ac19f",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9e-7dbd-7653-95b1-de49de5ac19f/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae9e-7dbd-7653-95b1-de49de5ac19f/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 113.58899998664856
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac49c/OUVRfCtGCoJkU0h1ZT-32_1f0bcde5adbc43379a553d98ee338da0.png",
+        "content_type": "image/png",
+        "file_name": "1f0bcde5adbc43379a553d98ee338da0.png",
+        "file_size": 6948027,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "e2800d33bce53f11d555df76717e9ae789976ac5822c9066c50b52c135cd6233"
+}

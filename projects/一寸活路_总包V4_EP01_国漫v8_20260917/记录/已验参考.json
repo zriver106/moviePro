@@ -300,5 +300,130 @@
     "sha256": "feac532b92857561c5a66f9b8eaf8ceb6cabb885dbd5572ea8cf5267c0ffb765",
     "scope": "已看原视频0.5秒帧，左膝压身、右脚在后，用于原片脚踢姿态纠偏",
     "editing_input_only": true
+  },
+  "首帧/SF_S10_PRO_v02.png": {
+    "sha256": "df49d12ec52eb639e8598258594ade930fcf818cd1a9a8f58ccf850dcca68731",
+    "scope": "已核双齿叉指向陆照下腹前方，叉杆低于转鼓，双足在索圈，铜柄已恢复；首次动作预演参考",
+    "editing_input_only": false
+  },
+  "首帧/SF_S18_PRO_v03.png": {
+    "sha256": "99eccf9c0ec8759ec907359675d9f9e89840afa95bece1506fe0573ac92d8b4c",
+    "scope": "短锥尖从铜片反面伸出且抵住木舌，另一长杆已消除；静态接触通过",
+    "editing_input_only": false
+  },
+  "预演/PREVIS_S12_v01.mp4": {
+    "sha256": "b91e8e44afa756cd1abe42c397bc888e81e6aef85e829a8fafbdf894308b69c9",
+    "scope": "原始4秒视频：拔楔转鼓可辨，但吊轮随石下降、石穿上承架且脚绳增殖；仅作为原片编辑输入",
+    "editing_input_only": true
+  },
+  "预演/S12_2.25s.png": {
+    "sha256": "39b702f8b2f6cdc91b32e29e6f8a937da9086e086c66cc8dbf141678a32df8a7",
+    "scope": "原片末态，需纠正固定吊轮、石顶承架与单圈脚索",
+    "editing_input_only": true
+  },
+  "首帧/SF_S11_PRO_v02.png": {
+    "sha256": "44566569c0a6ba6d5c1d657e0c9de9c1da1738250fce45f9eafd1f08fa16d919",
+    "scope": "黑锥已单头，右侧额外大台与S12不一致需还原",
+    "editing_input_only": true
+  },
+  "参考/S14靴尖接叉局部.png": {
+    "sha256": "db829ae18094d543b4c95307387ab34ea011442cfdd454cb8b4a8dc40eabff63",
+    "scope": "已看局部靴底接触叉杆，脚的接触目标；不作为整个人体合格证明",
+    "editing_input_only": false
+  },
+  "预演/S14原片踢叉局部.mp4": {
+    "sha256": "1c8f2c7165f6a26ff4602ff30d7eb24067c11edd4d0d584ca831ba6d8701a143",
+    "scope": "原片0.25—2.25秒，y300/h540/w480原画裁剪，编辑输入",
+    "editing_input_only": true
+  },
+  "首帧/SF_S11_PRO_v03.png": {
+    "sha256": "8473c8cb71eb1b59605476b9d5c86f67875f8f9fc1b6d80e9cade719f2c615dc",
+    "scope": "已核同一机关横梁上的相邻浅槽；单头黑锥完整，双手可转握楔；去除了额外大台"
+  },
+  "预演/S12_0s.png": {
+    "sha256": "97b06235b157ea5ea4ec68386d9a3d78a59eedc922481c24c664f25b55a68671",
+    "scope": "原片0秒已查，固定吊轮与上承架原始正确位置"
+  },
+  "参考/S12单圈脚索目标.png": {
+    "sha256": "7174db65ddf33b95105187ed7e130b4075380089c64608e6d54a988de33c37f0",
+    "scope": "已看一圈绳束两脚的静态外观目标，仅局部道具纠正"
+  },
+  "预演/S14原片8.5.png": {
+    "sha256": "54654f90cb1e83c6816130e033d9899a050f0f3810315fe540d013b01793ccab",
+    "scope": "原片8.5秒实际机位，已查看，用作同机位添加第二前臂的静态纠偏",
+    "editing_input_only": true
+  },
+  "首帧/S14_SAME_CAMERA_WRISTS_PRO_v01.png": {
+    "sha256": "1519610b93166ea1446fc9d4de8d71d3f78ab34be58f92ca0a6e1a95a135f288",
+    "scope": "原片8.5秒同机位双腕图，两拳两前臂清楚，目标通过",
+    "editing_input_only": false
+  },
+  "参考/S14同机位双腕局部.png": {
+    "sha256": "8e06b406d0c93ca57a9314fd92962b20ad21c18a367876f4fa11d31b41172a14",
+    "scope": "同机位目标裁剪，和原片局部窗口一致，已看",
+    "editing_input_only": false
+  },
+  "预演/S14原片踢叉局部4秒.mp4": {
+    "sha256": "d7f92b4422d1ed8e39f5b9a36c00c91be23b0b199894265c12d1e881cb178a28",
+    "scope": "原片0—4秒下方区域，补足时长与上下文以修复2秒输入422；只作原片编辑",
+    "editing_input_only": true
+  },
+  "首帧/EF_S19_PRO_v01.png": {
+    "sha256": "8129c67aaa9ac34d94ac9c4f3ede6ee1a9c6bf96d5d91c994ca4f5084183d16e",
+    "scope": "末态目标：门向外打开，陆照抓住闻溪，另两人脸仍在门内，三人未上台，水向外涌；静态通过",
+    "editing_input_only": false
+  },
+  "首帧/SF_S15_PRO_v01.png": {
+    "sha256": "a1d07f2dd2830652d48369afae5d58ceb68c619357e5dc01bfc9daa272263a0e",
+    "scope": "陆照起身中近景，手空，背后闭门灯光可见，静态通过",
+    "editing_input_only": false
+  },
+  "预演/PREVIS_S11_v01.mp4": {
+    "sha256": "e1a07dd4ac2f46bb58ab61ebf7b9f43ea44d70b2d56758eefefa6f8877156853",
+    "editing_input_only": true,
+    "note": "原片保留，陆照动作沿用；马丁鱼叉脱卡待编辑"
+  },
+  "预演/S12_3.5s.png": {
+    "sha256": "47c5b47572394dbcde218324b233eaea3353f37a52662b3d20f4314c4fee58df",
+    "editing_input_only": true,
+    "scope": "原片末态纠偏底图：需修正吊轮、石承架与脚绳"
+  },
+  "首帧/SF_S07_PRO_v01.png": {
+    "sha256": "e6a2ba7e0c251b2cd8df868a8197f45640d31eded68b61830c69c9f803fe3e93",
+    "editing_input_only": true,
+    "scope": "实看待纠正图片，仅作为图像编辑底图"
+  },
+  "首帧/SF_S17_PRO_v02.png": {
+    "sha256": "b1ba57a3d3d800c0656c59d5cfef5a336302c1edba8b441cb474978cbda5efc7",
+    "editing_input_only": true,
+    "scope": "实看待纠正图片，仅作为图像编辑底图"
+  },
+  "首帧/SF_S13_PRO_v01.png": {
+    "sha256": "ab1db45445bc28939f0eb7383976d6c4ab15349c7bce57c828f366bf82858c38",
+    "scope": "已看全图：一圈脚索约束双踝，石落最高承架，固定吊轮在原高度，麻铎握完整双齿叉，陆照持拔出的楔"
+  },
+  "参考/S14原片1秒.png": {
+    "sha256": "1adfe0ce4fb9c5b3b7b7c881002b6472acfd0df0a70733a3669bad9290a60f94",
+    "editing_input_only": true,
+    "scope": "原片踢叉时刻，同机位人体纠偏底图"
+  },
+  "参考/S11原片1.5秒.png": {
+    "sha256": "7da85b112c4f0179bf2069ffe1149aab1cdc0380ceb837c3de06aed67089a409",
+    "editing_input_only": true,
+    "scope": "原视频同机位鱼叉接触修正底图"
+  },
+  "预演/S14原片前4秒完整机位.mp4": {
+    "sha256": "e17b8fe3510d5be0c4cc552d9de1f22bcb576602fe72e8aa57e06f6791b4b523",
+    "scope": "原片同机位：双手分别压腕与胸，左膝压胸，右腿伸向鱼叉；已查完整人体",
+    "editing_input_only": true
+  },
+  "首帧/S14_SAME_CAMERA_BOOT_PRO_v02.png": {
+    "sha256": "76bbe08913c5364d4ed7308349ec847d01f831b3905266e4ecee3f55323f5c4e",
+    "scope": "原片同机位：双手分别压腕与胸，左膝压胸，右腿伸向鱼叉；已查完整人体",
+    "editing_input_only": false
+  },
+  "参考/S11同机位持叉纠偏局部.png": {
+    "sha256": "ae82a68463ca70c70c1578b55db0a934ccc7005f6b7d7c1581ed756b6f3451a4",
+    "scope": "仅麻铎手臂、下斜叉杆与固定横档接触姿态；全图丢失脚索，故不采用全图"
   }
 }

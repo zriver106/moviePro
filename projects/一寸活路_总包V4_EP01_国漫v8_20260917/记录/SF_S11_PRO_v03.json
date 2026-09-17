@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:47:37.824307+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S12_PRO_v06.png",
+      "资产/PROP_AWL_v02.png"
+    ],
+    "output": "首帧/SF_S11_PRO_v03.png",
+    "body": {
+      "prompt": "Keep image 1’s exact scene, men, boat fork, rope and water. Change the crouching blue-shirted man’s right hand to hold the tan hemp handle at the butt of the 35-centimeter black awl from image 2. He holds this awl horizontally just above a shallow groove cut into the existing horizontal timber beam immediately BELOW the drum’s RIGHT rim, beside the small brake wedge. His left hand is open beside that same beam, ready to grasp the wedge after putting the awl down. The right foreground remains shallow rippling water exactly as in image 1. The small groove is part of the existing winch-support timber itself. Preserve the original framing and identities.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S12_PRO_v06.png": "afc88c65feb603988f6eb8086e610846edeffe2f35dc0889c5d536c59d03e361",
+    "资产/PROP_AWL_v02.png": "01272a841a1743e63309e040e30fbccdbf11b419596a67232e57306afead93e1"
+  },
+  "body": {
+    "prompt": "Keep image 1’s exact scene, men, boat fork, rope and water. Change the crouching blue-shirted man’s right hand to hold the tan hemp handle at the butt of the 35-centimeter black awl from image 2. He holds this awl horizontally just above a shallow groove cut into the existing horizontal timber beam immediately BELOW the drum’s RIGHT rim, beside the small brake wedge. His left hand is open beside that same beam, ready to grasp the wedge after putting the awl down. The right foreground remains shallow rippling water exactly as in image 1. The small groove is part of the existing winch-support timber itself. Preserve the original framing and identities.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3d4/ChbkM3Hy7h264yoVPu2WO_SF_S12_PRO_v06.png",
+      "https://v3b.fal.media/files/b/0aaac270/oFScqdwRK_LcYa704asqK_PROP_AWL_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae8c-cc3d-7b32-be43-3f60a739871e",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8c-cc3d-7b32-be43-3f60a739871e",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8c-cc3d-7b32-be43-3f60a739871e/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8c-cc3d-7b32-be43-3f60a739871e/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae8c-cc3d-7b32-be43-3f60a739871e",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8c-cc3d-7b32-be43-3f60a739871e",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8c-cc3d-7b32-be43-3f60a739871e/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae8c-cc3d-7b32-be43-3f60a739871e/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 124.80299997329712
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac42a/Vc3gGdhUHaea67Ikn1Xkx_813fbd98b1354901976df530527afa64.png",
+        "content_type": "image/png",
+        "file_name": "813fbd98b1354901976df530527afa64.png",
+        "file_size": 6973320,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "8473c8cb71eb1b59605476b9d5c86f67875f8f9fc1b6d80e9cade719f2c615dc"
+}
