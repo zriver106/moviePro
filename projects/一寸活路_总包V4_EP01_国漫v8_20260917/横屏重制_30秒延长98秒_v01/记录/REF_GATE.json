@@ -1,0 +1,77 @@
+{
+  "state": "downloaded_first_version",
+  "started_at": "2026-09-17T17:56:55.803826+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S02_PRO_v04.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/CHAR_MD_v02.png",
+      "资产/PROP_FORK_v01.png"
+    ],
+    "body": {
+      "prompt": "Landscape 16:9 cinematic single frame, high quality dimensional Chinese guoman 3D animated period drama. Match the supplied character faces, coarse cloth materials, stylized sculpted features and lighting. Compose a genuinely wide scene with lateral space and natural body proportions. Wide establishing view looking from the east across an old flooded sluice chamber toward the west wall. Wooden stairs descend at screen LEFT rear; heavy closed wooden gate with a small high inspection aperture and a square removable brass lock plate occupies screen RIGHT. A narrow timber maintenance ledge runs along the wall between them. A waist-high wooden rope winch stands at the ledge LEFT end. The winch has a cylindrical horizontal rope drum, a small brake wedge engaging its right edge, a fixed crossbar BELOW the drum, and a rigid left vertical post; a short rope with a ready loop hangs at waist height on that post. One continuous rope runs from a loose ankle-sized loop on the wet floor around the drum up over a fixed wall pulley to a suspended rectangular stone, with a wooden catch platform directly 15 cm below the stone. The outside water is instep-deep. Lu in blue-gray stands near the stair bottom facing the gate. Ma in dark ochre is on the higher stair, holding the intact two-pronged fork, small brass T crank at his RIGHT waist. Keep each man full-body and clearly separate from the mechanism. Lit stone walls, cold daylight from upper-left and faint warm lantern through door aperture.",
+      "image_size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "num_images": 1
+    },
+    "output": "参考/REF_GATE.png"
+  },
+  "references": {
+    "首帧/SF_S02_PRO_v04.png": "445fe6dce5cbcf276158a17d0986e81e74ee87b05e253a6f2fb3e339382d44bd",
+    "资产/CHAR_LZ_v01.png": "2dc60da20629c0babae35e2279a0ea1e51493dd634440ec6205ce5cae4f3d95f",
+    "资产/CHAR_MD_v02.png": "e78176777f377fe9654b4ac24653f43025e56d2538a99c32aa833aba1f64b2d8",
+    "资产/PROP_FORK_v01.png": "ed2256e38121de55dc463a272656f1caea0f016e79279a19279b7d58fd1b9289"
+  },
+  "body": {
+    "prompt": "Landscape 16:9 cinematic single frame, high quality dimensional Chinese guoman 3D animated period drama. Match the supplied character faces, coarse cloth materials, stylized sculpted features and lighting. Compose a genuinely wide scene with lateral space and natural body proportions. Wide establishing view looking from the east across an old flooded sluice chamber toward the west wall. Wooden stairs descend at screen LEFT rear; heavy closed wooden gate with a small high inspection aperture and a square removable brass lock plate occupies screen RIGHT. A narrow timber maintenance ledge runs along the wall between them. A waist-high wooden rope winch stands at the ledge LEFT end. The winch has a cylindrical horizontal rope drum, a small brake wedge engaging its right edge, a fixed crossbar BELOW the drum, and a rigid left vertical post; a short rope with a ready loop hangs at waist height on that post. One continuous rope runs from a loose ankle-sized loop on the wet floor around the drum up over a fixed wall pulley to a suspended rectangular stone, with a wooden catch platform directly 15 cm below the stone. The outside water is instep-deep. Lu in blue-gray stands near the stair bottom facing the gate. Ma in dark ochre is on the higher stair, holding the intact two-pronged fork, small brass T crank at his RIGHT waist. Keep each man full-body and clearly separate from the mechanism. Lit stone walls, cold daylight from upper-left and faint warm lantern through door aperture.",
+    "image_size": {
+      "width": 2048,
+      "height": 1152
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac402/6N4Nnn6OzYy0XBI6Fuc2W_ddf46616640043efb59d86749e0794ad.png",
+      "https://v3b.fal.media/files/b/0aaad0f6/l9Fkb3ExhN24BU0Fhoth5_CHAR_LZ_v01.png",
+      "https://v3b.fal.media/files/b/0aaac260/FBin0kXkxi9-ckrkAs8Mg_CHAR_MD_v02.png",
+      "https://v3b.fal.media/files/b/0aaac260/xaK679KRe-IamUsQLCEn__PROP_FORK_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0b083-b243-7361-8add-357ea23af247",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b243-7361-8add-357ea23af247",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b243-7361-8add-357ea23af247/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b243-7361-8add-357ea23af247/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0b083-b243-7361-8add-357ea23af247",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b243-7361-8add-357ea23af247",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b243-7361-8add-357ea23af247/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b243-7361-8add-357ea23af247/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 114.61299991607666
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaad108/qCbx3aTZInY1Fmv6EZeZs_202ff0ff9bbe4a44b2d17058c4b13a43.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "202ff0ff9bbe4a44b2d17058c4b13a43.jpg",
+        "file_size": 506142,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "eb9accbdb2812de8dd37fa8c96a11489824a270ca32376e585ed2747261a4c77"
+}

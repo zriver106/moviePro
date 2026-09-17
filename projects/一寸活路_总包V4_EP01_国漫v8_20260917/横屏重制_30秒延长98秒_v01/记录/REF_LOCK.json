@@ -1,0 +1,74 @@
+{
+  "state": "downloaded_first_version",
+  "started_at": "2026-09-17T17:56:56.432695+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S05_v02.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/PROP_AWL_v02.png"
+    ],
+    "body": {
+      "prompt": "Landscape 16:9 cinematic single frame, high quality dimensional Chinese guoman 3D animated period drama. Match the supplied character faces, coarse cloth materials, stylized sculpted features and lighting. Compose a genuinely wide scene with lateral space and natural body proportions. Exterior side-view medium close shot at the closed wooden gate matching image 1. Lu Zhao is frame LEFT, gate and its chest-high intact rectangular yellow-brass inspection plate are frame RIGHT. The entire plate is smooth and unbroken. Lu braces his right boot against a small wooden heel stop on the maintenance ledge, left boot in shallow water. Both bare hands grip the hemp-wrapped handle of ONE 35 cm straight black steel awl, tip pointing horizontally RIGHT toward the LEFT side of the plate. Capture the instant before the first push. His young face and two hands are clearly visible with the plate in the same focal plane. High inspection aperture is above plate, warm lantern behind. Blue-gray half sleeves, bare forearms, cloth sash, wet trouser cuffs. Use natural 50mm lens geometry and sufficient room around arms and plate.",
+      "image_size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "num_images": 1
+    },
+    "output": "参考/REF_LOCK.png"
+  },
+  "references": {
+    "首帧/SF_S05_v02.png": "5674f442bbd89b75343e914bb152ef74c5f0719d48f96fbe7818170036960a15",
+    "资产/CHAR_LZ_v01.png": "2dc60da20629c0babae35e2279a0ea1e51493dd634440ec6205ce5cae4f3d95f",
+    "资产/PROP_AWL_v02.png": "01272a841a1743e63309e040e30fbccdbf11b419596a67232e57306afead93e1"
+  },
+  "body": {
+    "prompt": "Landscape 16:9 cinematic single frame, high quality dimensional Chinese guoman 3D animated period drama. Match the supplied character faces, coarse cloth materials, stylized sculpted features and lighting. Compose a genuinely wide scene with lateral space and natural body proportions. Exterior side-view medium close shot at the closed wooden gate matching image 1. Lu Zhao is frame LEFT, gate and its chest-high intact rectangular yellow-brass inspection plate are frame RIGHT. The entire plate is smooth and unbroken. Lu braces his right boot against a small wooden heel stop on the maintenance ledge, left boot in shallow water. Both bare hands grip the hemp-wrapped handle of ONE 35 cm straight black steel awl, tip pointing horizontally RIGHT toward the LEFT side of the plate. Capture the instant before the first push. His young face and two hands are clearly visible with the plate in the same focal plane. High inspection aperture is above plate, warm lantern behind. Blue-gray half sleeves, bare forearms, cloth sash, wet trouser cuffs. Use natural 50mm lens geometry and sufficient room around arms and plate.",
+    "image_size": {
+      "width": 2048,
+      "height": 1152
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac287/WO7UXBLXWcWf0K66F8qbn_c91af91e39114082bda863b8b01dd63f.jpg",
+      "https://v3b.fal.media/files/b/0aaad0f6/l9Fkb3ExhN24BU0Fhoth5_CHAR_LZ_v01.png",
+      "https://v3b.fal.media/files/b/0aaac270/oFScqdwRK_LcYa704asqK_PROP_AWL_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0b083-b503-77d3-955d-d746854edb99",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b503-77d3-955d-d746854edb99",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b503-77d3-955d-d746854edb99/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b503-77d3-955d-d746854edb99/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0b083-b503-77d3-955d-d746854edb99",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b503-77d3-955d-d746854edb99",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b503-77d3-955d-d746854edb99/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b503-77d3-955d-d746854edb99/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 115.02199983596802
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaad109/6LvsT8157Qk5k5XaN8Iz6_ab4de58d7d4b41399257759ded8f8072.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "ab4de58d7d4b41399257759ded8f8072.jpg",
+        "file_size": 415098,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "8b3ad9a403464843c707268ddbb3008ad348263b55c69ad7eda5cd71da0ad44c"
+}

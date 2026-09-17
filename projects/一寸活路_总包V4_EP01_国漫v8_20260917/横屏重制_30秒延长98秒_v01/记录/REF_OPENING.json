@@ -1,0 +1,60 @@
+{
+  "state": "result_error",
+  "started_at": "2026-09-17T17:56:55.522770+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S01_v01.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/CHAR_MD_v02.png"
+    ],
+    "body": {
+      "prompt": "Landscape 16:9 cinematic single frame, high quality dimensional Chinese guoman 3D animated period drama. Match the supplied character faces, coarse cloth materials, stylized sculpted features and lighting. Compose a genuinely wide scene with lateral space and natural body proportions. At the riverside stair entrance, a damp wooden registration plaque fills the lower center foreground with large clear black Chinese characters 陆照 and a large red 亡 beside the name, visibly painted on wood. Young Lu Zhao in dry faded blue-gray half-sleeve cloth stands behind the plaque, his alert eyes visible immediately above its upper edge, face identity from image 2. Stocky Ma in dark ochre stands at the far LEFT, his LEFT hand reaching toward the plaque edge ready to flip it. The background shows cold daylight on a wooden river dock and the descent into an old sluice chamber. Plaque is the focus, with its four corners and mounting post clear.",
+      "image_size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "num_images": 1
+    },
+    "output": "参考/REF_OPENING.png"
+  },
+  "references": {
+    "首帧/SF_S01_v01.png": "20545b7f5e02b457c79ee5f7b8f0872cd5bc2ffc52ca49cd5b65d1892874e006",
+    "资产/CHAR_LZ_v01.png": "2dc60da20629c0babae35e2279a0ea1e51493dd634440ec6205ce5cae4f3d95f",
+    "资产/CHAR_MD_v02.png": "e78176777f377fe9654b4ac24653f43025e56d2538a99c32aa833aba1f64b2d8"
+  },
+  "body": {
+    "prompt": "Landscape 16:9 cinematic single frame, high quality dimensional Chinese guoman 3D animated period drama. Match the supplied character faces, coarse cloth materials, stylized sculpted features and lighting. Compose a genuinely wide scene with lateral space and natural body proportions. At the riverside stair entrance, a damp wooden registration plaque fills the lower center foreground with large clear black Chinese characters 陆照 and a large red 亡 beside the name, visibly painted on wood. Young Lu Zhao in dry faded blue-gray half-sleeve cloth stands behind the plaque, his alert eyes visible immediately above its upper edge, face identity from image 2. Stocky Ma in dark ochre stands at the far LEFT, his LEFT hand reaching toward the plaque edge ready to flip it. The background shows cold daylight on a wooden river dock and the descent into an old sluice chamber. Plaque is the focus, with its four corners and mounting post clear.",
+    "image_size": {
+      "width": 2048,
+      "height": 1152
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac27c/f3DGXK1C3kYAji_4QOKec_7f6f9faf8bca4498b69856b80d8f235a.jpg",
+      "https://v3b.fal.media/files/b/0aaad0f6/l9Fkb3ExhN24BU0Fhoth5_CHAR_LZ_v01.png",
+      "https://v3b.fal.media/files/b/0aaac260/FBin0kXkxi9-ckrkAs8Mg_CHAR_MD_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0b083-b120-7a71-b469-3e2fb5502c71",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b120-7a71-b469-3e2fb5502c71",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b120-7a71-b469-3e2fb5502c71/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b120-7a71-b469-3e2fb5502c71/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0b083-b120-7a71-b469-3e2fb5502c71",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b120-7a71-b469-3e2fb5502c71",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b120-7a71-b469-3e2fb5502c71/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b120-7a71-b469-3e2fb5502c71/cancel",
+    "logs": null,
+    "metrics": {}
+  },
+  "error": "队列读取 403: {\"detail\":\"User is locked. Reason: TOP_UP.\"}"
+}

@@ -1,0 +1,77 @@
+{
+  "state": "downloaded_first_version",
+  "started_at": "2026-09-17T17:56:56.153063+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S03_PRO_v06.png",
+      "资产/CHAR_WX_v01.png",
+      "资产/CHAR_GH_v01.png",
+      "资产/CHAR_AL_v01.png"
+    ],
+    "body": {
+      "prompt": "Landscape 16:9 cinematic single frame, high quality dimensional Chinese guoman 3D animated period drama. Match the supplied character faces, coarse cloth materials, stylized sculpted features and lighting. Compose a genuinely wide scene with lateral space and natural body proportions. Camera outside the closed gate looking through its high rectangular inspection aperture. The thick wooden door frame surrounds the view. Wen Xi in gray-green jacket holds a warm oil lantern above water, supporting the elderly gray-bearded dockworker with her shoulder; young adult A Li in brown jacket is beside them. All three faces are clearly visible, cramped together on a narrow submerged stair inside. Water is at their clavicles. Match the three identities in images 2, 3 and 4 and the wet state of image 1. Wen looks urgently outward toward Lu. The surrounding closed wooden door fills the side thirds of the wide composition.",
+      "image_size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "num_images": 1
+    },
+    "output": "参考/REF_TRAPPED.png"
+  },
+  "references": {
+    "首帧/SF_S03_PRO_v06.png": "f4cedf2e7beaf88f7d14a0250be4d6d69900a71864d90840f0fa5fb915c8c1ae",
+    "资产/CHAR_WX_v01.png": "e81120af9b69332c5f14c2757a6f82320d2bea8292c4021372591690282996a0",
+    "资产/CHAR_GH_v01.png": "6a1e06cdb3657d509a54abb63f4c049c345844601a05f8dfc26f45ed196d6c2e",
+    "资产/CHAR_AL_v01.png": "4bbd3506e751385169315f7e54f241cbcc087bace4b04259cb62eac81f6d55ab"
+  },
+  "body": {
+    "prompt": "Landscape 16:9 cinematic single frame, high quality dimensional Chinese guoman 3D animated period drama. Match the supplied character faces, coarse cloth materials, stylized sculpted features and lighting. Compose a genuinely wide scene with lateral space and natural body proportions. Camera outside the closed gate looking through its high rectangular inspection aperture. The thick wooden door frame surrounds the view. Wen Xi in gray-green jacket holds a warm oil lantern above water, supporting the elderly gray-bearded dockworker with her shoulder; young adult A Li in brown jacket is beside them. All three faces are clearly visible, cramped together on a narrow submerged stair inside. Water is at their clavicles. Match the three identities in images 2, 3 and 4 and the wet state of image 1. Wen looks urgently outward toward Lu. The surrounding closed wooden door fills the side thirds of the wide composition.",
+    "image_size": {
+      "width": 2048,
+      "height": 1152
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3c8/p7kNOMh77e6dqn5U_DsWz_c6604e53460c4bb68e06190466f63ddf.png",
+      "https://v3b.fal.media/files/b/0aaac27e/im_qziuN_iHS4EshSKX4D_CHAR_WX_v01.png",
+      "https://v3b.fal.media/files/b/0aaac27e/L98t9Z6fRBjXzVu0k96VY_CHAR_GH_v01.png",
+      "https://v3b.fal.media/files/b/0aaac27e/ohganKizQTmQSDNHbt-gY_CHAR_AL_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0b083-b39e-7df2-9c44-9df0bbb62410",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b39e-7df2-9c44-9df0bbb62410",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b39e-7df2-9c44-9df0bbb62410/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b39e-7df2-9c44-9df0bbb62410/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0b083-b39e-7df2-9c44-9df0bbb62410",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b39e-7df2-9c44-9df0bbb62410",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b39e-7df2-9c44-9df0bbb62410/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0b083-b39e-7df2-9c44-9df0bbb62410/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 110.49000000953674
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaad108/ctRh8DkLMbxJKDNzRVZ6X_72ccab96b10c45c2bb0b48064e7a5934.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "72ccab96b10c45c2bb0b48064e7a5934.jpg",
+        "file_size": 193323,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "ce5091f3f00bfdb46cf68c35d90b4d1807b3b0c11122130d898f9fd6fb865ab8"
+}

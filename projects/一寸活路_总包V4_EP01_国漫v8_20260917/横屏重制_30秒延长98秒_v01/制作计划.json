@@ -1,0 +1,63 @@
+{
+  "user_instruction": "重新做，按照给的制作包，先做30秒再延长到98秒。做好先别改，视频发出来我看看，这次想清楚了。",
+  "source": "来源/视频制作总包.txt",
+  "source_sha256": "83f2096ba01123498790e4561ec9c43d6f3ee341580645c82de12a530affcd08",
+  "style": "Seedream立体国漫定妆_v8 + Seedream立体国漫基础场景_v8",
+  "aspect": "16:9",
+  "resolution": "720p",
+  "seconds": 98,
+  "model": "Seedance 2.5 via fal.ai existing configured provider",
+  "image_model": "Seedream v5 Pro edit with established v8 references",
+  "sequence": [
+    {
+      "job": "VIDEO_00_30",
+      "task": "reference",
+      "start": 0,
+      "seconds": 30
+    },
+    {
+      "job": "EXTEND_30_60",
+      "task": "extension",
+      "start": 30,
+      "seconds": 30,
+      "source": "VIDEO_00_30"
+    },
+    {
+      "job": "EXTEND_60_90",
+      "task": "extension",
+      "start": 60,
+      "seconds": 30,
+      "source": "EXTEND_30_60"
+    },
+    {
+      "job": "EXTEND_90_98",
+      "task": "extension",
+      "start": 90,
+      "seconds": 8,
+      "source": "EXTEND_60_90"
+    }
+  ],
+  "authorized_jobs": [
+    "REF_OPENING",
+    "REF_GATE",
+    "REF_TRAPPED",
+    "REF_LOCK",
+    "VIDEO_00_30",
+    "EXTEND_30_60",
+    "EXTEND_60_90",
+    "EXTEND_90_98",
+    "REF_OPENING_RECOVER_ONCE"
+  ],
+  "video_request_budget": 4,
+  "first_version_only": true,
+  "auto_repairs": false,
+  "auto_regeneration": false,
+  "bgm": false,
+  "subtitle_layers": 1,
+  "extension_reference_max_seconds": 30.2,
+  "api_evidence": "https://fal.ai/models/bytedance/seedance-2.5/reference-to-video/api",
+  "workflow_override": "用户本轮明确授权重做第一集；16:9国漫替代文档原9:16写实。按用户要求每次30秒组合分镜、真实extension续接；不再单镜预演拦截首版。文本剧情对白与顺序不改。",
+  "join_policy": "每段实际末帧和音轨先做接续记录，然后从实际动作进度继续；避免动作和台词重复。不做返修。",
+  "delivery": "先把98秒完整首版发用户；问题仅记录，看片后讨论",
+  "failed_image_recovery": "开场任务403未产出图；另外三张成功，允许对此缺失输出补交一次；不是对已有素材修复重抽"
+}

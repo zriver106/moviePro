@@ -1,0 +1,59 @@
+{
+  "state": "submitted",
+  "started_at": "2026-09-17T18:02:03.826886+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "refs": [
+      "横屏重制_30秒延长98秒_v01/参考/REF_OPENING.png",
+      "横屏重制_30秒延长98秒_v01/参考/REF_GATE.png",
+      "横屏重制_30秒延长98秒_v01/参考/REF_TRAPPED.png",
+      "横屏重制_30秒延长98秒_v01/参考/REF_LOCK.png",
+      "横屏重制_30秒延长98秒_v01/音频/对白参考_00_30.wav"
+    ],
+    "body": {
+      "task": "reference",
+      "duration": "30",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "generate_audio": true,
+      "prompt": "Create exactly the first 30 seconds of this 16:9 landscape Chinese guoman 3D animated period-drama episode. Preserve the faces, stylized sculpted rendering, costume materials and locations from the references. @Image1 is the opening registration plaque and Lu Zhao, @Image2 is the wide flooded sluice chamber with stairs LEFT and closed gate RIGHT, @Image3 is Wen Xi and the two trapped workers seen from outside through the high door aperture, @Image4 is the braced stance and two-handed black awl aimed at the gate's brass lock plate. Keep the composition cinematic and horizontal, using the full width of the landscape image.\n@Audio1 provides the exact Mandarin voices and performance timing for this first 30-second section. Match its dialogue and narration timing. Off-screen narration leaves the visible characters' mouths relaxed. On-screen speech matches the named speaker's lips. The entire sound bed consists of those Mandarin voices, distant dock ambience, muffled knocking from inside the chamber, water ripples, footsteps, wood, metal contact, cloth and breath. The image contains the physical story scene, with subtitles reserved for later postproduction.\n0.0-5.0s: 50mm close-up pulling gently back. Begin directly on the wet wooden plaque hanging on a post at the stair entrance: large black 陆照 with a large red 亡 beside the name. Focus shifts from the letters to Lu's alert eyes just above the plaque. Stocky Ma's LEFT hand reaches from screen LEFT and flips the plaque over, hiding the writing by the end of the shot. Lu wears dry blue-gray half-sleeve coarse clothes with cloth sash and bare forearms. Lu off-screen says 我叫陆照。水籍上，我已经死了。 at 0.4-4.1s. Three muffled thumps from below dominate the distant dock.\nAt 5.0s hard cut with continuous muffled chamber sound. 5.0-16.0s: 24mm wide tracking shot from beside and behind Lu, following him down the three wooden stair steps into instep-deep water, then settling into a slightly elevated wide view. Establish stairs LEFT rear, wooden gate RIGHT, west-wall maintenance ledge across the middle, rope winch at its left end. Its brake wedge, floor rope loop, hanging stone and stone catch platform are visible spatial details. Ma remains above on the stairs in ochre, holding a long two-pronged boat fork, small brass crank on his RIGHT waist. Lu's shoes and trouser cuffs become wet. Lu walks toward the closed gate and looks at its aperture. Lu off-screen says 六个月前，父亲被判私开大闸，家产没了。我逃出来，名字却留在了死册上。 at 5.4-14.6s. Let the speech finish and leave a breath before the cut.\nAt 16.0s hard eyeline cut to the exterior view through the aperture, matching @Image3. 16.0-22.0s: Fixed 50mm close shot. Wen holds her lantern high and shoulders the gray-bearded elderly worker; young adult A Li in brown is beside them. All three faces are visible, water at their clavicles. Wen urgently speaks 三个人！先开门！关水的轮子在里面！ at 16.4-20.1s. Water splashes against the lantern glass and urgent knocks come from inside.\nAt 22.0s hard cut back to the same exterior axis. 22.0-27.0s: 35mm medium-close camera tracks RIGHT along the maintenance ledge as Lu steps onto it, braces his right heel against the wooden stop and draws his single 35cm straight black steel awl from his cloth sash. Both bare hands close around its short hemp-wrapped handle at chest level. He aligns the tip with the LEFT side of the unbroken yellow-brass inspection plate on the wooden gate. The complete plate is intact at this moment. Lu off-screen says 排水保货，货主答应给我二百四十铜。 at 22.25-26.64s.\nAt 27.0s match-action cut into @Image4's fixed 50mm close side view of BOTH hands, Lu's face and the complete plate. 27.0-30.0s: Begin the FIRST straight two-handed push into the LEFT half of the brass plate. The brass dents shallowly and holds against the point. Right half stays smooth. Lu's heel remains against the wooden stop. His hands strain and the awl remains aligned straight forward. At 29.0s Wen starts speaking from behind the gate, 里面有木舌，得顶过去！ following @Audio1; the utterance continues naturally across the 30-second endpoint if still in progress. End on the actual continuing failed-push action. The gate remains shut, the entire awl is intact, and the brass has a shallow left dent. The next request will continue this exact moment."
+    },
+    "output": "视频/VIDEO_00_30.mp4"
+  },
+  "references": {
+    "横屏重制_30秒延长98秒_v01/参考/REF_OPENING.png": "96abc89c54ca143aa4bd41245304f6af62fa66d7df1e2eb260a50fdf09fd9a31",
+    "横屏重制_30秒延长98秒_v01/参考/REF_GATE.png": "eb9accbdb2812de8dd37fa8c96a11489824a270ca32376e585ed2747261a4c77",
+    "横屏重制_30秒延长98秒_v01/参考/REF_TRAPPED.png": "ce5091f3f00bfdb46cf68c35d90b4d1807b3b0c11122130d898f9fd6fb865ab8",
+    "横屏重制_30秒延长98秒_v01/参考/REF_LOCK.png": "8b3ad9a403464843c707268ddbb3008ad348263b55c69ad7eda5cd71da0ad44c",
+    "横屏重制_30秒延长98秒_v01/音频/对白参考_00_30.wav": "88cab4b5921255d020f281fc2042920f3c29f21ec8920ba0ebda84c56b2f4ceb"
+  },
+  "body": {
+    "task": "reference",
+    "duration": "30",
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "prompt": "Create exactly the first 30 seconds of this 16:9 landscape Chinese guoman 3D animated period-drama episode. Preserve the faces, stylized sculpted rendering, costume materials and locations from the references. @Image1 is the opening registration plaque and Lu Zhao, @Image2 is the wide flooded sluice chamber with stairs LEFT and closed gate RIGHT, @Image3 is Wen Xi and the two trapped workers seen from outside through the high door aperture, @Image4 is the braced stance and two-handed black awl aimed at the gate's brass lock plate. Keep the composition cinematic and horizontal, using the full width of the landscape image.\n@Audio1 provides the exact Mandarin voices and performance timing for this first 30-second section. Match its dialogue and narration timing. Off-screen narration leaves the visible characters' mouths relaxed. On-screen speech matches the named speaker's lips. The entire sound bed consists of those Mandarin voices, distant dock ambience, muffled knocking from inside the chamber, water ripples, footsteps, wood, metal contact, cloth and breath. The image contains the physical story scene, with subtitles reserved for later postproduction.\n0.0-5.0s: 50mm close-up pulling gently back. Begin directly on the wet wooden plaque hanging on a post at the stair entrance: large black 陆照 with a large red 亡 beside the name. Focus shifts from the letters to Lu's alert eyes just above the plaque. Stocky Ma's LEFT hand reaches from screen LEFT and flips the plaque over, hiding the writing by the end of the shot. Lu wears dry blue-gray half-sleeve coarse clothes with cloth sash and bare forearms. Lu off-screen says 我叫陆照。水籍上，我已经死了。 at 0.4-4.1s. Three muffled thumps from below dominate the distant dock.\nAt 5.0s hard cut with continuous muffled chamber sound. 5.0-16.0s: 24mm wide tracking shot from beside and behind Lu, following him down the three wooden stair steps into instep-deep water, then settling into a slightly elevated wide view. Establish stairs LEFT rear, wooden gate RIGHT, west-wall maintenance ledge across the middle, rope winch at its left end. Its brake wedge, floor rope loop, hanging stone and stone catch platform are visible spatial details. Ma remains above on the stairs in ochre, holding a long two-pronged boat fork, small brass crank on his RIGHT waist. Lu's shoes and trouser cuffs become wet. Lu walks toward the closed gate and looks at its aperture. Lu off-screen says 六个月前，父亲被判私开大闸，家产没了。我逃出来，名字却留在了死册上。 at 5.4-14.6s. Let the speech finish and leave a breath before the cut.\nAt 16.0s hard eyeline cut to the exterior view through the aperture, matching @Image3. 16.0-22.0s: Fixed 50mm close shot. Wen holds her lantern high and shoulders the gray-bearded elderly worker; young adult A Li in brown is beside them. All three faces are visible, water at their clavicles. Wen urgently speaks 三个人！先开门！关水的轮子在里面！ at 16.4-20.1s. Water splashes against the lantern glass and urgent knocks come from inside.\nAt 22.0s hard cut back to the same exterior axis. 22.0-27.0s: 35mm medium-close camera tracks RIGHT along the maintenance ledge as Lu steps onto it, braces his right heel against the wooden stop and draws his single 35cm straight black steel awl from his cloth sash. Both bare hands close around its short hemp-wrapped handle at chest level. He aligns the tip with the LEFT side of the unbroken yellow-brass inspection plate on the wooden gate. The complete plate is intact at this moment. Lu off-screen says 排水保货，货主答应给我二百四十铜。 at 22.25-26.64s.\nAt 27.0s match-action cut into @Image4's fixed 50mm close side view of BOTH hands, Lu's face and the complete plate. 27.0-30.0s: Begin the FIRST straight two-handed push into the LEFT half of the brass plate. The brass dents shallowly and holds against the point. Right half stays smooth. Lu's heel remains against the wooden stop. His hands strain and the awl remains aligned straight forward. At 29.0s Wen starts speaking from behind the gate, 里面有木舌，得顶过去！ following @Audio1; the utterance continues naturally across the 30-second endpoint if still in progress. End on the actual continuing failed-push action. The gate remains shut, the entire awl is intact, and the brass has a shallow left dent. The next request will continue this exact moment.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaad118/qP0qK2Aa6wg-SsCBsKxt5_fa270de36f7a41e089a6bab1055510a8.jpg",
+      "https://v3b.fal.media/files/b/0aaad108/qCbx3aTZInY1Fmv6EZeZs_202ff0ff9bbe4a44b2d17058c4b13a43.jpg",
+      "https://v3b.fal.media/files/b/0aaad108/ctRh8DkLMbxJKDNzRVZ6X_72ccab96b10c45c2bb0b48064e7a5934.jpg",
+      "https://v3b.fal.media/files/b/0aaad109/6LvsT8157Qk5k5XaN8Iz6_ab4de58d7d4b41399257759ded8f8072.jpg"
+    ],
+    "video_urls": [],
+    "audio_urls": [
+      "https://v3b.fal.media/files/b/0aaad11c/38qP1PaQGla6wXIKnk3Fy_%3F%3F%3F%3F_00_30.wav"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0b088-692f-7260-820b-02098d981a17",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b088-692f-7260-820b-02098d981a17",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b088-692f-7260-820b-02098d981a17/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b088-692f-7260-820b-02098d981a17/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  }
+}

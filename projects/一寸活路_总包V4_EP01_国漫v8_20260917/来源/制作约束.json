@@ -13,7 +13,7 @@
   "bgm_added": false,
   "subtitles": "单套简体中文后期字幕",
   "old_script_and_storyboard_used": false,
-  "authorization": "用户明确要求按新总包重新做第一集；授权本批首次生成，返修仍编辑原素材，不自动重生",
+  "authorization": "本轮用户明确授权按制作包重做16:9横屏首版；首生30秒，再真实extension延长30/30/8秒至98秒；完成先发用户，不自动修复",
   "source_review": "R3 S及R4/剪辑/执行约束专项通过报告链；待绑定当前冻结投影",
   "deliverable": "98秒第一集及G01A/G01B段，结尾尚未救人上台",
   "target_resolution": [
@@ -21,5 +21,6 @@
     720
   ],
   "aspect_user_instruction": "我要的是横屏的，不是竖屏",
-  "portrait_jobs_policy": "旧提交记录保留真实9:16参数，禁止继续提交竖屏；已有视频转换须采用原片编辑，不得擅自重新生成。"
+  "portrait_jobs_policy": "旧提交记录保留真实9:16参数，禁止继续提交竖屏；已有视频转换须采用原片编辑，不得擅自重新生成。",
+  "current_workflow": "横屏重制_30秒延长98秒_v01"
 }

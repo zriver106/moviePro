@@ -1,5 +1,5 @@
 {
-  "stage": "用户纠正为16:9横屏；现有竖屏尚未转换",
+  "stage": "四张横屏参考齐备，制作首段30秒",
   "source_locked": true,
   "text_review_binding": "passed",
   "shots": 19,
@@ -13,23 +13,19 @@
   "accepted_video_shots": 2,
   "bgm": false,
   "subtitle_tracks": 1,
-  "active_provider_jobs": 2,
-  "blockers": [
-    "现有参考和视频按9:16制作，需完成16:9横屏适配",
-    "服务商结果接口此前返回TOP_UP账户锁定"
-  ],
+  "active_provider_jobs": 1,
+  "blockers": [],
   "updated_at": "2026-09-17T14:21:35.478233+00:00",
   "active_jobs": [
-    "FIRSTCUT_A_S01_S04_v01",
-    "FIRSTCUT_B_S05_S09_v01"
+    "VIDEO_00_30"
   ],
-  "regeneration_allowed": false,
+  "regeneration_allowed": "本次明确授权的横屏重制一次；不授权首版后自动重做",
   "accepted_shots": [
     "S11",
     "S12"
   ],
   "accepted_seconds": 5,
-  "next_action_policy": "停止新竖屏任务；先交完整横屏首版再等看片意见；保留已有视频，未经同意不重新生成",
+  "next_action_policy": "完整98秒首版交用户看片；停止自动修片",
   "first_cut_jobs_submitted": 3,
   "first_cut_result_error": {
     "job": "FIRSTCUT_C_S15_S19_v01",
@@ -41,5 +37,7 @@
     720
   ],
   "aspect_user_instruction": "我要的是横屏的，不是竖屏",
-  "portrait_jobs_policy": "旧提交记录保留真实9:16参数，禁止继续提交竖屏；已有视频转换须采用原片编辑，不得擅自重新生成。"
+  "portrait_jobs_policy": "旧提交记录保留真实9:16参数，禁止继续提交竖屏；已有视频转换须采用原片编辑，不得擅自重新生成。",
+  "active_workflow": "横屏重制_30秒延长98秒_v01",
+  "new_landscape_video_jobs_submitted": 1
 }

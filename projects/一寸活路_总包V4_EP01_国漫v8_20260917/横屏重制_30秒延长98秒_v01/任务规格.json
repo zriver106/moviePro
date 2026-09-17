@@ -1,0 +1,184 @@
+{
+  "REF_OPENING": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S01_v01.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/CHAR_MD_v02.png"
+    ],
+    "body": {
+      "prompt": "Landscape 16:9 cinematic single frame, high quality dimensional Chinese guoman 3D animated period drama. Match the supplied character faces, coarse cloth materials, stylized sculpted features and lighting. Compose a genuinely wide scene with lateral space and natural body proportions. At the riverside stair entrance, a damp wooden registration plaque fills the lower center foreground with large clear black Chinese characters 陆照 and a large red 亡 beside the name, visibly painted on wood. Young Lu Zhao in dry faded blue-gray half-sleeve cloth stands behind the plaque, his alert eyes visible immediately above its upper edge, face identity from image 2. Stocky Ma in dark ochre stands at the far LEFT, his LEFT hand reaching toward the plaque edge ready to flip it. The background shows cold daylight on a wooden river dock and the descent into an old sluice chamber. Plaque is the focus, with its four corners and mounting post clear.",
+      "image_size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "num_images": 1
+    },
+    "output": "参考/REF_OPENING.png"
+  },
+  "REF_GATE": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S02_PRO_v04.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/CHAR_MD_v02.png",
+      "资产/PROP_FORK_v01.png"
+    ],
+    "body": {
+      "prompt": "Landscape 16:9 cinematic single frame, high quality dimensional Chinese guoman 3D animated period drama. Match the supplied character faces, coarse cloth materials, stylized sculpted features and lighting. Compose a genuinely wide scene with lateral space and natural body proportions. Wide establishing view looking from the east across an old flooded sluice chamber toward the west wall. Wooden stairs descend at screen LEFT rear; heavy closed wooden gate with a small high inspection aperture and a square removable brass lock plate occupies screen RIGHT. A narrow timber maintenance ledge runs along the wall between them. A waist-high wooden rope winch stands at the ledge LEFT end. The winch has a cylindrical horizontal rope drum, a small brake wedge engaging its right edge, a fixed crossbar BELOW the drum, and a rigid left vertical post; a short rope with a ready loop hangs at waist height on that post. One continuous rope runs from a loose ankle-sized loop on the wet floor around the drum up over a fixed wall pulley to a suspended rectangular stone, with a wooden catch platform directly 15 cm below the stone. The outside water is instep-deep. Lu in blue-gray stands near the stair bottom facing the gate. Ma in dark ochre is on the higher stair, holding the intact two-pronged fork, small brass T crank at his RIGHT waist. Keep each man full-body and clearly separate from the mechanism. Lit stone walls, cold daylight from upper-left and faint warm lantern through door aperture.",
+      "image_size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "num_images": 1
+    },
+    "output": "参考/REF_GATE.png"
+  },
+  "REF_TRAPPED": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S03_PRO_v06.png",
+      "资产/CHAR_WX_v01.png",
+      "资产/CHAR_GH_v01.png",
+      "资产/CHAR_AL_v01.png"
+    ],
+    "body": {
+      "prompt": "Landscape 16:9 cinematic single frame, high quality dimensional Chinese guoman 3D animated period drama. Match the supplied character faces, coarse cloth materials, stylized sculpted features and lighting. Compose a genuinely wide scene with lateral space and natural body proportions. Camera outside the closed gate looking through its high rectangular inspection aperture. The thick wooden door frame surrounds the view. Wen Xi in gray-green jacket holds a warm oil lantern above water, supporting the elderly gray-bearded dockworker with her shoulder; young adult A Li in brown jacket is beside them. All three faces are clearly visible, cramped together on a narrow submerged stair inside. Water is at their clavicles. Match the three identities in images 2, 3 and 4 and the wet state of image 1. Wen looks urgently outward toward Lu. The surrounding closed wooden door fills the side thirds of the wide composition.",
+      "image_size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "num_images": 1
+    },
+    "output": "参考/REF_TRAPPED.png"
+  },
+  "REF_LOCK": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S05_v02.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/PROP_AWL_v02.png"
+    ],
+    "body": {
+      "prompt": "Landscape 16:9 cinematic single frame, high quality dimensional Chinese guoman 3D animated period drama. Match the supplied character faces, coarse cloth materials, stylized sculpted features and lighting. Compose a genuinely wide scene with lateral space and natural body proportions. Exterior side-view medium close shot at the closed wooden gate matching image 1. Lu Zhao is frame LEFT, gate and its chest-high intact rectangular yellow-brass inspection plate are frame RIGHT. The entire plate is smooth and unbroken. Lu braces his right boot against a small wooden heel stop on the maintenance ledge, left boot in shallow water. Both bare hands grip the hemp-wrapped handle of ONE 35 cm straight black steel awl, tip pointing horizontally RIGHT toward the LEFT side of the plate. Capture the instant before the first push. His young face and two hands are clearly visible with the plate in the same focal plane. High inspection aperture is above plate, warm lantern behind. Blue-gray half sleeves, bare forearms, cloth sash, wet trouser cuffs. Use natural 50mm lens geometry and sufficient room around arms and plate.",
+      "image_size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "num_images": 1
+    },
+    "output": "参考/REF_LOCK.png"
+  },
+  "VIDEO_00_30": {
+    "capability": "video",
+    "model": "2.5",
+    "refs": [
+      "横屏重制_30秒延长98秒_v01/参考/REF_OPENING.png",
+      "横屏重制_30秒延长98秒_v01/参考/REF_GATE.png",
+      "横屏重制_30秒延长98秒_v01/参考/REF_TRAPPED.png",
+      "横屏重制_30秒延长98秒_v01/参考/REF_LOCK.png",
+      "横屏重制_30秒延长98秒_v01/音频/对白参考_00_30.wav"
+    ],
+    "body": {
+      "task": "reference",
+      "duration": "30",
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "generate_audio": true,
+      "prompt": "Create exactly the first 30 seconds of this 16:9 landscape Chinese guoman 3D animated period-drama episode. Preserve the faces, stylized sculpted rendering, costume materials and locations from the references. @Image1 is the opening registration plaque and Lu Zhao, @Image2 is the wide flooded sluice chamber with stairs LEFT and closed gate RIGHT, @Image3 is Wen Xi and the two trapped workers seen from outside through the high door aperture, @Image4 is the braced stance and two-handed black awl aimed at the gate's brass lock plate. Keep the composition cinematic and horizontal, using the full width of the landscape image.\n@Audio1 provides the exact Mandarin voices and performance timing for this first 30-second section. Match its dialogue and narration timing. Off-screen narration leaves the visible characters' mouths relaxed. On-screen speech matches the named speaker's lips. The entire sound bed consists of those Mandarin voices, distant dock ambience, muffled knocking from inside the chamber, water ripples, footsteps, wood, metal contact, cloth and breath. The image contains the physical story scene, with subtitles reserved for later postproduction.\n0.0-5.0s: 50mm close-up pulling gently back. Begin directly on the wet wooden plaque hanging on a post at the stair entrance: large black 陆照 with a large red 亡 beside the name. Focus shifts from the letters to Lu's alert eyes just above the plaque. Stocky Ma's LEFT hand reaches from screen LEFT and flips the plaque over, hiding the writing by the end of the shot. Lu wears dry blue-gray half-sleeve coarse clothes with cloth sash and bare forearms. Lu off-screen says 我叫陆照。水籍上，我已经死了。 at 0.4-4.1s. Three muffled thumps from below dominate the distant dock.\nAt 5.0s hard cut with continuous muffled chamber sound. 5.0-16.0s: 24mm wide tracking shot from beside and behind Lu, following him down the three wooden stair steps into instep-deep water, then settling into a slightly elevated wide view. Establish stairs LEFT rear, wooden gate RIGHT, west-wall maintenance ledge across the middle, rope winch at its left end. Its brake wedge, floor rope loop, hanging stone and stone catch platform are visible spatial details. Ma remains above on the stairs in ochre, holding a long two-pronged boat fork, small brass crank on his RIGHT waist. Lu's shoes and trouser cuffs become wet. Lu walks toward the closed gate and looks at its aperture. Lu off-screen says 六个月前，父亲被判私开大闸，家产没了。我逃出来，名字却留在了死册上。 at 5.4-14.6s. Let the speech finish and leave a breath before the cut.\nAt 16.0s hard eyeline cut to the exterior view through the aperture, matching @Image3. 16.0-22.0s: Fixed 50mm close shot. Wen holds her lantern high and shoulders the gray-bearded elderly worker; young adult A Li in brown is beside them. All three faces are visible, water at their clavicles. Wen urgently speaks 三个人！先开门！关水的轮子在里面！ at 16.4-20.1s. Water splashes against the lantern glass and urgent knocks come from inside.\nAt 22.0s hard cut back to the same exterior axis. 22.0-27.0s: 35mm medium-close camera tracks RIGHT along the maintenance ledge as Lu steps onto it, braces his right heel against the wooden stop and draws his single 35cm straight black steel awl from his cloth sash. Both bare hands close around its short hemp-wrapped handle at chest level. He aligns the tip with the LEFT side of the unbroken yellow-brass inspection plate on the wooden gate. The complete plate is intact at this moment. Lu off-screen says 排水保货，货主答应给我二百四十铜。 at 22.25-26.64s.\nAt 27.0s match-action cut into @Image4's fixed 50mm close side view of BOTH hands, Lu's face and the complete plate. 27.0-30.0s: Begin the FIRST straight two-handed push into the LEFT half of the brass plate. The brass dents shallowly and holds against the point. Right half stays smooth. Lu's heel remains against the wooden stop. His hands strain and the awl remains aligned straight forward. At 29.0s Wen starts speaking from behind the gate, 里面有木舌，得顶过去！ following @Audio1; the utterance continues naturally across the 30-second endpoint if still in progress. End on the actual continuing failed-push action. The gate remains shut, the entire awl is intact, and the brass has a shallow left dent. The next request will continue this exact moment."
+    },
+    "output": "视频/VIDEO_00_30.mp4"
+  },
+  "REF_OPENING_RECOVER_ONCE": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S01_v01.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/CHAR_MD_v02.png"
+    ],
+    "body": {
+      "prompt": "Landscape 16:9 cinematic single frame, high quality dimensional Chinese guoman 3D animated period drama. Match the supplied character faces, coarse cloth materials, stylized sculpted features and lighting. Compose a genuinely wide scene with lateral space and natural body proportions. At the riverside stair entrance, a damp wooden registration plaque fills the lower center foreground with large clear black Chinese characters 陆照 and a large red 亡 beside the name, visibly painted on wood. Young Lu Zhao in dry faded blue-gray half-sleeve cloth stands behind the plaque, his alert eyes visible immediately above its upper edge, face identity from image 2. Stocky Ma in dark ochre stands at the far LEFT, his LEFT hand reaching toward the plaque edge ready to flip it. The background shows cold daylight on a wooden river dock and the descent into an old sluice chamber. Plaque is the focus, with its four corners and mounting post clear.",
+      "image_size": {
+        "width": 2048,
+        "height": 1152
+      },
+      "num_images": 1
+    },
+    "output": "参考/REF_OPENING.png",
+    "failed_job_recovery": {
+      "original": "REF_OPENING",
+      "reason": "403 TOP_UP completed with no image; three other new image jobs succeeded; single bounded retry for missing output",
+      "regenerate_existing_output": false
+    }
+  },
+  "EXTEND_30_60": {
+    "capability": "video",
+    "model": "2.5",
+    "refs": [
+      "横屏重制_30秒延长98秒_v01/视频/VIDEO_00_30.mp4",
+      "横屏重制_30秒延长98秒_v01/参考/REF_GATE.png",
+      "资产/CHAR_MD_v02.png",
+      "资产/PROP_FORK_v01.png",
+      "横屏重制_30秒延长98秒_v01/参考/REF_LOCK.png",
+      "横屏重制_30秒延长98秒_v01/音频/对白参考_30_60.wav"
+    ],
+    "body": {
+      "task": "extension",
+      "duration": "30",
+      "resolution": "720p",
+      "aspect_ratio": "auto",
+      "generate_audio": true,
+      "prompt": "Continue @Video1 directly from its final instant in the SAME landscape 16:9 Chinese guoman 3D animated style. Keep its established faces, costumes, set geography, lighting and physical state. Return the specified NEW continuation. Local time 0 is the first instant after the input clip ends. Each shot below is continuous, with the specified hard cuts between shots. @Audio1 is the exact voice and performance timing reference for this continuation. Off-screen voices leave the visible characters' mouths relaxed; named on-screen speakers lip-sync their Chinese lines. The entire sound bed consists of Mandarin speech, water, wood, metal, rope, footsteps, fabric and breath. The frame is reserved for the physical story, with Chinese subtitles to be composited later. At the join, completed gestures remain completed and spoken words remain spoken; carry the current action forward. @Image1 is the established wide chamber layout, @Image2 is Ma's face and costume, @Image3 is his intact two-pronged boat fork, @Image4 is the gate's brass inspection plate and Lu's awl grip. Lu remains at screen RIGHT of Ma, both outside the shut wooden gate. Ma has the brass crank at his RIGHT waist. The floor ankle loop connects to the drum and stone above its catch.\n0.0-3.0s: Continue the failed FIRST push from the actual final frame. The brass LEFT side holds with a shallow dent; the RIGHT side remains intact. Lu releases the strain and withdraws the SAME awl once, keeping it in his right hand. Finish any remaining words of Wen's line 里面有木舌，得顶过去！ already started in the source, following the remaining speech in @Audio1. Her voice comes from inside the closed gate. A single wooden-hook impact begins across the next cut.\nAt 3.0s hard cut with the hook's impact sound bridge. 3.0-7.0s: Ma descends the last stair step and completes kicking aside the long wooden hook, holding his boat fork across the exit. The small brass crank knocks his right belt once. Low 35mm medium view tilts up slightly to his face, stairs behind him. Ma says 门不用开了。 around 5.0s.\nAt 7.0s hard cut back to the established two-person axis. 7.0-12.0s: Lu takes a half-step backward until his waist meets the rope winch. Ma advances from LEFT with both hands holding the fork, its tip approaching Lu's abdomen. Lu holds his awl down in his right hand and says 他们还活着。 at 7.5s. Ma answers 账上没有。 at 10.0s. Wen's hand remains visible through the closed gate's aperture at rear RIGHT.\nAt 12.0s eyeline cut. 12.0-16.0s: A single 28mm connected short tilt begins with Lu glancing toward the brake wedge at his left knee, lowers to the loose rope loop just above the shallow water around their feet, then follows that SAME rope up to the drum and the hanging stone above its wooden catch. The stone hangs 15 cm over that catch. Lu's hand comes near the wedge at the end; Ma watches Lu's face.\nAt 16.0s hard cut back to the low two-person relation. 16.0-20.0s: Lu's LEFT hand throws his small copper coin purse into the shallow water just behind the rope loop. Ma's eyes follow it; he takes TWO steps into the slack loop while keeping his fork in both hands. Ma says 拿这点钱买命？ at 17.0s. Both boots end inside the loose loop, knees upright, ready to thrust.\nAt 20.0s match-action cut, short lateral 35mm tracking. 20.0-23.0s: Ma suddenly thrusts the two-pronged fork toward Lu's abdomen. Lu sidesteps RIGHT around the winch, still holding his awl. The fork misses and its shaft lodges at the corner of the fixed crossbar BELOW the drum and the LEFT vertical post. Ma raises the butt slightly and slides his hands forward into a shorter grip, trying to free the trapped head. The fork stays mechanically caught below the drum.\nAt 23.0s hard cut onto Lu's hands. 23.0-25.0s: Lu lays the black awl FLAT into the timber beam groove, handle visible, freeing BOTH hands. He grips and pulls the small brake wedge out of the drum's right edge. Ma continues struggling with the trapped fork behind him.\nAt 25.0s cut to a clear side medium shot of the mechanism. 25.0-28.0s: The released drum turns, tightening the SAME floor loop around BOTH Ma ankles together. The hanging stone drops 15 cm directly onto its wooden catch platform and stops. The upper pulley and supporting posts remain fixed. The moving rope visibly pulls his ankles together as he loses balance, still gripping the fork.\nAt 28.0s cut to low fixed view. 28.0-30.0s: Ma begins one backward fall into shallow water as the ankle loop binds his feet. His hands start releasing the intact fork toward his RIGHT side. Lu moves toward him from the original RIGHT position. Continue the natural fall toward the segment endpoint, leaving the exact final falling or landed pose available for the next continuation. Lu's awl stays in the beam groove."
+    },
+    "actual_join_record": "接续/30秒实际末态.json",
+    "output": "视频/EXTEND_30_60.mp4",
+    "status": "template_requires_actual_join_review"
+  },
+  "EXTEND_60_90": {
+    "capability": "video",
+    "model": "2.5",
+    "refs": [
+      "横屏重制_30秒延长98秒_v01/视频/EXTEND_30_60.mp4",
+      "横屏重制_30秒延长98秒_v01/参考/REF_GATE.png",
+      "横屏重制_30秒延长98秒_v01/参考/REF_LOCK.png",
+      "首帧/EF_S14_PRO_v07.png",
+      "横屏重制_30秒延长98秒_v01/音频/对白参考_60_90.wav"
+    ],
+    "body": {
+      "task": "extension",
+      "duration": "30",
+      "resolution": "720p",
+      "aspect_ratio": "auto",
+      "generate_audio": true,
+      "prompt": "Continue @Video1 directly from its final instant in the SAME landscape 16:9 Chinese guoman 3D animated style. Keep its established faces, costumes, set geography, lighting and physical state. Return the specified NEW continuation. Local time 0 is the first instant after the input clip ends. Each shot below is continuous, with the specified hard cuts between shots. @Audio1 is the exact voice and performance timing reference for this continuation. Off-screen voices leave the visible characters' mouths relaxed; named on-screen speakers lip-sync their Chinese lines. The entire sound bed consists of Mandarin speech, water, wood, metal, rope, footsteps, fabric and breath. The frame is reserved for the physical story, with Chinese subtitles to be composited later. At the join, completed gestures remain completed and spoken words remain spoken; carry the current action forward. @Image1 is the chamber geography and rope winch, @Image2 is Lu's stance at the brass lock plate, @Image3 shows the desired two-wrist restraint using the winch post. Preserve @Video1's actual body orientation and fork location at the join. Ma's face remains above the shallow water.\n0.0-2.0s: Continue the SAME backward fall or its immediate landing aftermath shown at @Video1's end. Ma's back meets the shallow water, the intact fork slips from his hands and lands on his RIGHT side. His ankles remain held together by the loop. The stone rests on its wooden catch. His wet sleeves and back darken. Lu closes the distance. If the source already shows the back landed or fork released, continue the settling splash and approach from that achieved state.\nAt 2.0s match-action cut to ground-level 35mm medium close view beside the winch post. 2.0-12.0s is ONE CONTINUOUS TEN-SECOND SHOT with a subtle forward camera move. First Lu pounces onto Ma's former fork arm, pinning that forearm while placing a knee firmly on his chest. Lu then extends his RIGHT LEG and uses his black boot to KICK the intact boat fork away beyond Ma's reach; both hands keep control of Ma during the kick. Lu takes the short rope hanging from the winch post, brings BOTH Ma wrists together and passes its ready loop over the PAIR of wrists. Two hands and two forearms are visible entering this single wrist loop. He wraps the rope around the post, pulls it tight and presses it into the cleat. Ma makes one strong failed struggle; BOTH wrists are secured together to the post and BOTH ankles remain tied by the separate floor loop. Ma shouts 放开！ around 10.8s. Keep the sequence in physical order: pin, boot kick, retrieve rope, loop the two wrists, wrap post, tighten, failed struggle.\nAt 12.0s hard cut to Lu rising, 50mm medium close camera tilts with him. 12.0-15.0s: Through the blue-gray cloth at his sternum, a tiny dim warm pulse appears for one instant and fades. Lu inhales, rises with hands free, then immediately turns toward the gate as the lantern light behind it lowers. The pulse is a subtle sensory cue confined beneath his shirt. A single soft heartbeat blends with his breathing.\nAt 15.0s match-action cut into a continuous 35mm lateral tracking shot. 15.0-24.0s: Lu walks past the fallen purse, scoops it up and tucks it into his cloth sash. He takes the SAME black awl from the beam groove, returns to the gate, braces his boot against the SAME wooden heel stop and brings both hands around the grip. He places the tip against the intact RIGHT half of the brass plate, beside the shallow old LEFT dent. Wen's face is visible through the high aperture with water reaching her lower lip; the lantern is raised. A dry hoarse elderly MEMORY VOICE says 每亲手击败一个新的真敌，直刺就永久添一痕。 at 17.0-21.3s. Lu's lips remain closed during this off-screen memory.\nAt 24.0s match-action cut to the exact 50mm camera of the earlier failed thrust. 24.0-28.0s: Both Lu hands push the awl STRAIGHT forward into the previously intact RIGHT half of the plate. The right side first forms a tiny pinhole, then the same black shaft pierces through. Keep the old shallow LEFT dent visible in the same frame. The stance, wooden heel stop and grip match the earlier attempt. This is one successful straight thrust; the awl stays in the fresh hole.\nAt 28.0s hard matching cut to the high-water interior of the closed gate, 65mm macro view. 28.0-30.0s: The awl tip continuing the same thrust protrudes through the plate and pushes against the wooden locking tongue, driving it off the catch. Capture the ongoing displacement of tongue and catch as water presses toward the door. The gate is starting to loosen, and the awl remains in its hole. This exact mechanism action continues into the final eight seconds."
+    },
+    "actual_join_record": "接续/60秒实际末态.json",
+    "output": "视频/EXTEND_60_90.mp4",
+    "status": "template_requires_actual_join_review"
+  },
+  "EXTEND_90_98": {
+    "capability": "video",
+    "model": "2.5",
+    "refs": [
+      "横屏重制_30秒延长98秒_v01/视频/EXTEND_60_90.mp4",
+      "首帧/EF_S19_PRO_v01.png",
+      "横屏重制_30秒延长98秒_v01/音频/对白参考_90_98.wav"
+    ],
+    "body": {
+      "task": "extension",
+      "duration": "8",
+      "resolution": "720p",
+      "aspect_ratio": "auto",
+      "generate_audio": true,
+      "prompt": "Continue @Video1 directly from its final instant in the SAME landscape 16:9 Chinese guoman 3D animated style. Keep its established faces, costumes, set geography, lighting and physical state. Return the specified NEW continuation. Local time 0 is the first instant after the input clip ends. Each shot below is continuous, with the specified hard cuts between shots. @Audio1 is the exact voice and performance timing reference for this continuation. Off-screen voices leave the visible characters' mouths relaxed; named on-screen speakers lip-sync their Chinese lines. The entire sound bed consists of Mandarin speech, water, wood, metal, rope, footsteps, fabric and breath. The frame is reserved for the physical story, with Chinese subtitles to be composited later. At the join, completed gestures remain completed and spoken words remain spoken; carry the current action forward. @Image1 establishes the final exterior open-gate composition and character identities; adapt its composition to @Video1's landscape camera and set. The final scene remains in the same flooded chamber. This request adds exactly EIGHT seconds, reaching 98 seconds total.\n0.0-2.0s: Continue the same interior macro mechanism action from @Video1's final frame. The black awl tip completes pushing the wooden tongue off its catch; the catch drops into the high water. Water presses toward the low-water outside and the door hinge begins to creak. The awl stays in the hole while the gate loosens. If a component already fell in the source, carry forward its splash and the loosening gate, retaining the achieved state.\nAt 2.0s hard cut to the exterior 24mm wide camera on the same east-side axis. 2.0-8.0s: Lu withdraws the awl ONCE and steps clear of the door swing while bracing a hand on the west ledge post. The gate swings outward toward the lower-water outer chamber and strikes its wooden stop. Water surges outward toward the SOUTH drain at screen LEFT. Lu tucks the awl horizontally back into his cloth sash, then uses the now-free hand to grasp Wen Xi's outstretched forearm. Wen remains at the threshold, supported by his grip, as the camera draws back gently. Behind her, the gray-bearded worker's face is higher and A Li's face lower, both visibly alive inside the chamber. Wen says 还有他们！ at 6.7-7.7s. End directly on the open gate, rushing water and joined arms. The three people are still being rescued and Wen has yet to climb onto the maintenance platform. Hold this living action through the last frame."
+    },
+    "actual_join_record": "接续/90秒实际末态.json",
+    "output": "视频/EXTEND_90_98.mp4",
+    "status": "template_requires_actual_join_review"
+  }
+}
