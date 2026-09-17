@@ -21,6 +21,13 @@ def submit(name):
     refs=spec.get('refs',[])
     for ref in refs:
         if approved.get(ref,{}).get('sha256')!=sha(P/ref):raise SystemExit(f'参考未验或已改变：{ref}')
+        original_for_edit=(spec['body'].get('task')=='editing' and Path(ref).suffix.lower()=='.mp4')
+        if spec['capability']=='video' and approved[ref].get('editing_input_only') and not original_for_edit:
+            raise SystemExit(f'纠偏输入尚不能作为视频参考：{ref}')
+    if spec['capability']=='video' and not spec.get('previs') and spec['body'].get('task')!='editing':
+        gate=P/'预演/验收.json'
+        if not gate.exists() or any(read(gate).get(f'S{n:02d}',{}).get('status')!='passed' for n in range(10,15)):
+            raise SystemExit('S10—S14实际预演未全部通过，禁止铺开整集视频')
     body=spec['body'].copy()
     bad=negwords.scan(body['prompt'])
     if bad:raise SystemExit(f'提示出现否定表达：{bad}')

@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:55:48.996205+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/PREVIS_S14_v01.mp4"
+    ],
+    "output": "预演/EDIT_S14_v02.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "480p",
+      "generate_audio": true,
+      "prompt": "Edit @Video1, preserving the two adult Chinese 3D animation characters, their faces and clothing, the shallow flooded courtyard, stone seated on its wooden catch, brass crank at the stocky man's waist, both booted ankles bound together, and the continuous ten-second camera movement. Correct these visible actions. At 0.0-2.0 seconds the blue-shirted young man pins the stocky man's right forearm to the floor with his left hand, places his left knee across the upper chest, and uses his right boot to kick the fallen two-pronged boat fork across the water beyond arm's reach. At 2.0-3.5 seconds his right hand takes the short coiled rope hanging on the tall wooden post next to the stocky man's head, while his left hand maintains the arm pin. At 3.5-5.0 seconds he gathers BOTH of the stocky man's hands together beside that same tall post: two separate forearms, two palms together, two wrists side by side. At 5.0-7.0 seconds he passes the existing rope loop over BOTH hands onto BOTH wrists as one bundle, then draws the rope tail around the tall post directly beside the paired wrists. At 7.0-8.5 seconds he pulls the rope snug and presses its tail into the wooden cleat on this same post. At 8.5-10.0 seconds the camera clearly shows both tied wrists together against the post, with two distinguishable forearms; the stocky man jerks his paired hands once against the secured rope. The young man's knee stays against his upper chest during the tying. Preserve the wet clothing contact and physically continuous rope path from the paired wrists around the same post. Keep the bottom of the image as clean clothing and water texture throughout, suitable for a separate subtitle track in postproduction. Sound consists of shallow splashes, strained breathing, wet cloth and rope friction; the stocky man gives one rough Mandarin shout at 8.6 seconds: “放开！”"
+    }
+  },
+  "references": {
+    "预演/PREVIS_S14_v01.mp4": "68c5574dc26cd20696389aba63f3322b918a462807cbdad483514f1cf8f78caa"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "480p",
+    "generate_audio": true,
+    "prompt": "Edit @Video1, preserving the two adult Chinese 3D animation characters, their faces and clothing, the shallow flooded courtyard, stone seated on its wooden catch, brass crank at the stocky man's waist, both booted ankles bound together, and the continuous ten-second camera movement. Correct these visible actions. At 0.0-2.0 seconds the blue-shirted young man pins the stocky man's right forearm to the floor with his left hand, places his left knee across the upper chest, and uses his right boot to kick the fallen two-pronged boat fork across the water beyond arm's reach. At 2.0-3.5 seconds his right hand takes the short coiled rope hanging on the tall wooden post next to the stocky man's head, while his left hand maintains the arm pin. At 3.5-5.0 seconds he gathers BOTH of the stocky man's hands together beside that same tall post: two separate forearms, two palms together, two wrists side by side. At 5.0-7.0 seconds he passes the existing rope loop over BOTH hands onto BOTH wrists as one bundle, then draws the rope tail around the tall post directly beside the paired wrists. At 7.0-8.5 seconds he pulls the rope snug and presses its tail into the wooden cleat on this same post. At 8.5-10.0 seconds the camera clearly shows both tied wrists together against the post, with two distinguishable forearms; the stocky man jerks his paired hands once against the secured rope. The young man's knee stays against his upper chest during the tying. Preserve the wet clothing contact and physically continuous rope path from the paired wrists around the same post. Keep the bottom of the image as clean clothing and water texture throughout, suitable for a separate subtitle track in postproduction. Sound consists of shallow splashes, strained breathing, wet cloth and rope friction; the stocky man gives one rough Mandarin shout at 8.6 seconds: “放开！”",
+    "image_urls": [],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac2e6/-uzNBa43K-yzdMrmcUja0_PREVIS_S14_v01.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae5d-633b-7613-a909-510b797c97c1",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae5d-633b-7613-a909-510b797c97c1",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae5d-633b-7613-a909-510b797c97c1/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae5d-633b-7613-a909-510b797c97c1/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae5d-633b-7613-a909-510b797c97c1",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae5d-633b-7613-a909-510b797c97c1",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae5d-633b-7613-a909-510b797c97c1/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae5d-633b-7613-a909-510b797c97c1/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 260.9189999103546
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac301/fBnKlg38vEUMBH8Eo48_2_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 2592368
+    },
+    "seed": 1831601086
+  },
+  "output_sha256": "963f68306b92e18afc99826bd907daf5717ecddaee0e51c36d529d45abc12d64"
+}

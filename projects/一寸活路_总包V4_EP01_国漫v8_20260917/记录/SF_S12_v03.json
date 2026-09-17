@@ -1,0 +1,71 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:47:39.327673+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "首帧/SF_S12_v02.png",
+      "资产/PROP_FORK_v01.png"
+    ],
+    "body": {
+      "prompt": "Correct the boat fork contact in image 1. The ochre man holds the complete wooden boat fork from image 2 in his existing two-handed grip. Its shaft slopes farther down toward the FIXED rectangular front wooden crossbeam BELOW the round rope drum. Its black two-pronged head extends beyond that fixed crossbeam and is caught against the inside edge of the front left upright. Show both black prongs visibly at the fixed beam level below the rope drum, with a clear visible gap between the entire fork and the rotating drum. The catch point is the fixed beam-and-post corner. Preserve the people, rope loop surrounding both boots, wedge held by the blue man, drum, hanging stone and lighting.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "首帧/SF_S12_v03.png"
+  },
+  "references": {
+    "首帧/SF_S12_v02.png": "e71405e972c569eec69e7fb4a1cb0dad9afd2d6e589e8ed655f7de099b95910f",
+    "资产/PROP_FORK_v01.png": "ed2256e38121de55dc463a272656f1caea0f016e79279a19279b7d58fd1b9289"
+  },
+  "body": {
+    "prompt": "Correct the boat fork contact in image 1. The ochre man holds the complete wooden boat fork from image 2 in his existing two-handed grip. Its shaft slopes farther down toward the FIXED rectangular front wooden crossbeam BELOW the round rope drum. Its black two-pronged head extends beyond that fixed crossbeam and is caught against the inside edge of the front left upright. Show both black prongs visibly at the fixed beam level below the rope drum, with a clear visible gap between the entire fork and the rotating drum. The catch point is the fixed beam-and-post corner. Preserve the people, rope loop surrounding both boots, wedge held by the blue man, drum, hanging stone and lighting.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac2b5/BtPGbUf0w4BxloqIJc89g_SF_S12_v02.png",
+      "https://v3b.fal.media/files/b/0aaac260/xaK679KRe-IamUsQLCEn__PROP_FORK_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae55-e886-71a2-bde8-45c19dba1d86",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae55-e886-71a2-bde8-45c19dba1d86",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae55-e886-71a2-bde8-45c19dba1d86/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae55-e886-71a2-bde8-45c19dba1d86/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae55-e886-71a2-bde8-45c19dba1d86",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae55-e886-71a2-bde8-45c19dba1d86",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae55-e886-71a2-bde8-45c19dba1d86/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae55-e886-71a2-bde8-45c19dba1d86/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 48.34699988365173
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac2ba/qwDJYSx_9pp97Btk0zc8M_067fbc877d40468188d5ba8f535e82ab.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "067fbc877d40468188d5ba8f535e82ab.jpg",
+        "file_size": 463621,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 1155973456
+  },
+  "output_sha256": "7a2abf8cfc9019d2f4302919757cde844a83fb189fa5f2094b2f8803c11337a5"
+}

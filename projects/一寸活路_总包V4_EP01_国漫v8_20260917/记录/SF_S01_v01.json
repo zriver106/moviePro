@@ -1,0 +1,75 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:37:13.851943+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/CHAR_LZ_v01.png",
+      "资产/CHAR_MD_v02.png",
+      "参考/场景/01_本埠公码头.jpg"
+    ],
+    "body": {
+      "prompt": "Opening cinematic frame of a Chinese 3D animated period drama, vertical 9:16, extreme close-up fifty-millimeter lens at an old river sluice ladder entrance in natural cool daylight. A flat rectangular worn wooden registry plaque attached to a short vertical wooden post fills the central sixty percent of the frame width. Its smooth front face points directly toward camera, warm pale woodgrain, clean uninterrupted blank surface prepared for calligraphy added in compositing. Above the plaque top edge, reveal the eyes and brow of the young man from reference 1, retaining his exact face and black short tied hair. At the left edge, the stocky man from reference 2 places his left hand on the plaque left edge, his dark ochre coarse robe cuff visible. The plaque remains front-facing, poised to be turned by this hand. Shallow depth of field, blurred old river-port timber and gray brick behind, same 3D rendering as reference 3, soft natural light. A clean readable rectangular plane with four visible corners is the focal point.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "首帧/SF_S01_v01.png",
+    "scope": "木牌文字后期跟踪叠制；当前图刻意留白"
+  },
+  "references": {
+    "资产/CHAR_LZ_v01.png": "2dc60da20629c0babae35e2279a0ea1e51493dd634440ec6205ce5cae4f3d95f",
+    "资产/CHAR_MD_v02.png": "e78176777f377fe9654b4ac24653f43025e56d2538a99c32aa833aba1f64b2d8",
+    "参考/场景/01_本埠公码头.jpg": "b354fb160064050d70a6648570ab16680583a562736513b86d16f4e203fa96be"
+  },
+  "body": {
+    "prompt": "Opening cinematic frame of a Chinese 3D animated period drama, vertical 9:16, extreme close-up fifty-millimeter lens at an old river sluice ladder entrance in natural cool daylight. A flat rectangular worn wooden registry plaque attached to a short vertical wooden post fills the central sixty percent of the frame width. Its smooth front face points directly toward camera, warm pale woodgrain, clean uninterrupted blank surface prepared for calligraphy added in compositing. Above the plaque top edge, reveal the eyes and brow of the young man from reference 1, retaining his exact face and black short tied hair. At the left edge, the stocky man from reference 2 places his left hand on the plaque left edge, his dark ochre coarse robe cuff visible. The plaque remains front-facing, poised to be turned by this hand. Shallow depth of field, blurred old river-port timber and gray brick behind, same 3D rendering as reference 3, soft natural light. A clean readable rectangular plane with four visible corners is the focal point.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac25f/t4rGy2Kz8Q9gANtsAxVxq_CHAR_LZ_v01.png",
+      "https://v3b.fal.media/files/b/0aaac260/FBin0kXkxi9-ckrkAs8Mg_CHAR_MD_v02.png",
+      "https://v3b.fal.media/files/b/0aaac277/H3LGqx-t4fztUee5h7rOz_01_%3F%3F%3F%3F%3F.jpg"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae4c-5e54-7100-9708-f48f0ee6c222",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4c-5e54-7100-9708-f48f0ee6c222",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4c-5e54-7100-9708-f48f0ee6c222/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4c-5e54-7100-9708-f48f0ee6c222/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae4c-5e54-7100-9708-f48f0ee6c222",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4c-5e54-7100-9708-f48f0ee6c222",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4c-5e54-7100-9708-f48f0ee6c222/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4c-5e54-7100-9708-f48f0ee6c222/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 47.72699999809265
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac27c/f3DGXK1C3kYAji_4QOKec_7f6f9faf8bca4498b69856b80d8f235a.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "7f6f9faf8bca4498b69856b80d8f235a.jpg",
+        "file_size": 337990,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 1165221456
+  },
+  "output_sha256": "20545b7f5e02b457c79ee5f7b8f0872cd5bc2ffc52ca49cd5b65d1892874e006"
+}

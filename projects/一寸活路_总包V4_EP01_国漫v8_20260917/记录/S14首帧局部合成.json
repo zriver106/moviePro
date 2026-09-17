@@ -1,0 +1,13 @@
+{
+  "input": "首帧/SF_S14_v04.png",
+  "crop_xywh": [
+    470,
+    940,
+    360,
+    400
+  ],
+  "edited_patch": "首帧/S14_石架局部编辑.png",
+  "output": "首帧/SF_S14_v05.png",
+  "method": "Seedream局部编辑后ffmpeg按原位置合回，12px边缘羽化；保持原人物及动作起点",
+  "output_sha256": "dee6e5ad03ad990db18862edb1de3c4851d3c8364b8c075ec636f28c4e2073a5"
+}

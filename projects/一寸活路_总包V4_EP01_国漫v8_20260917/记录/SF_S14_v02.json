@@ -1,0 +1,71 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:35:24.662454+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "首帧/SF_S14_v01.png",
+      "资产/SET_GATE_v03.png"
+    ],
+    "body": {
+      "prompt": "Correct the rope continuity in image 1 while preserving its camera, two men, identities, costumes, hands and boat fork. Bring the ochre man two lower legs tightly side by side, his two ankles touching each other at screen-right. A single tight hemp loop goes once around both ankles together, with one taut tail leading toward the winch. His ankles are bound together as one pair. The background hanging rope in the center leads down to the rectangular stone counterweight resting firmly on its wooden catch cradle, using exactly the stone and cradle design in image 2. The short wrist rope remains hanging on the LEFT timber post. Preserve the empty wrists and the young man reaching forward just before making contact.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "首帧/SF_S14_v02.png"
+  },
+  "references": {
+    "首帧/SF_S14_v01.png": "a56d949ba6938f6738579e1745db58a13e2fa3ee150b0a7303039b39e56954bd",
+    "资产/SET_GATE_v03.png": "307ef54e3425cbcd6e73e0fc327a51b8b26874947316319447a63297e7912f2d"
+  },
+  "body": {
+    "prompt": "Correct the rope continuity in image 1 while preserving its camera, two men, identities, costumes, hands and boat fork. Bring the ochre man two lower legs tightly side by side, his two ankles touching each other at screen-right. A single tight hemp loop goes once around both ankles together, with one taut tail leading toward the winch. His ankles are bound together as one pair. The background hanging rope in the center leads down to the rectangular stone counterweight resting firmly on its wooden catch cradle, using exactly the stone and cradle design in image 2. The short wrist rope remains hanging on the LEFT timber post. Preserve the empty wrists and the young man reaching forward just before making contact.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac26c/bKllB5URQMQ6RXME3Qz8C_SF_S14_v01.png",
+      "https://v3b.fal.media/files/b/0aaac265/wNGsLA57OEDqYhHeVOcEy_SET_GATE_v03.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae4a-b1ee-7ab2-9054-e5d08d3de0a9",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4a-b1ee-7ab2-9054-e5d08d3de0a9",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4a-b1ee-7ab2-9054-e5d08d3de0a9/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4a-b1ee-7ab2-9054-e5d08d3de0a9/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae4a-b1ee-7ab2-9054-e5d08d3de0a9",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4a-b1ee-7ab2-9054-e5d08d3de0a9",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4a-b1ee-7ab2-9054-e5d08d3de0a9/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4a-b1ee-7ab2-9054-e5d08d3de0a9/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 61.61199998855591
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac272/0uTtjGa8r_ru0lwWGfnF-_c686f3a2f88c4581943e2a957013b633.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "c686f3a2f88c4581943e2a957013b633.jpg",
+        "file_size": 462296,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 1177740354
+  },
+  "output_sha256": "0e077fc24c8112216d21971045d9d6056c4e874b83cd9dd21f27dd078a747e13"
+}

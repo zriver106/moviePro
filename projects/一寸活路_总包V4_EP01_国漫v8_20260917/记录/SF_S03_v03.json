@@ -1,0 +1,77 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:57:12.029106+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/CHAR_WX_v01.png",
+      "资产/CHAR_GH_v01.png",
+      "资产/CHAR_AL_v01.png",
+      "资产/SET_WHEEL_INTERIOR_v01.png"
+    ],
+    "body": {
+      "prompt": "Create one cinematic Chinese 3D animation frame, vertical 9:16. Preserve the exact woman from image 1, gray-bearded old worker from image 2, and brown-shirted young adult man from image 3. The enclosed gray-brick flooded chamber from image 4 provides the lighting and materials. Camera outside a dark wooden door looks through its high rectangular inspection opening. Tight portrait composition: THREE adult heads clustered close together at almost the same height. Their clavicles are immersed in the SAME continuous brown water surface spanning the image, water touches the bottom of all three necks. The woman in the front center supports the exhausted old man's head on her left shoulder, his head tilts sideways onto that shoulder. The young man's head appears immediately behind her right shoulder, adjacent to her face; his eyebrows drawn together, lips tightly pressed together, wet hair against forehead. All three have worried wide eyes looking toward the camera through the opening. The woman's raised right forearm lifts a small glowing caged oil lantern above this waterline at image left. Water ripples physically intersect all three collars at neck level. Frame all three heads, shoulders, water and raised lantern closely inside the wooden aperture; the distant interior wall fills the background. Cool dim daylight on faces, small warm lantern light, high-end dimensional guoman rendering, realistic wet fabric. The submerged staircase supports the clustered adults beneath the opaque water surface.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "首帧/SF_S03_v03.png"
+  },
+  "references": {
+    "资产/CHAR_WX_v01.png": "e81120af9b69332c5f14c2757a6f82320d2bea8292c4021372591690282996a0",
+    "资产/CHAR_GH_v01.png": "6a1e06cdb3657d509a54abb63f4c049c345844601a05f8dfc26f45ed196d6c2e",
+    "资产/CHAR_AL_v01.png": "4bbd3506e751385169315f7e54f241cbcc087bace4b04259cb62eac81f6d55ab",
+    "资产/SET_WHEEL_INTERIOR_v01.png": "773cab5ee21e8d144aa4153bd9b05e471fe6e2367008c191988c71afdeee5d2c"
+  },
+  "body": {
+    "prompt": "Create one cinematic Chinese 3D animation frame, vertical 9:16. Preserve the exact woman from image 1, gray-bearded old worker from image 2, and brown-shirted young adult man from image 3. The enclosed gray-brick flooded chamber from image 4 provides the lighting and materials. Camera outside a dark wooden door looks through its high rectangular inspection opening. Tight portrait composition: THREE adult heads clustered close together at almost the same height. Their clavicles are immersed in the SAME continuous brown water surface spanning the image, water touches the bottom of all three necks. The woman in the front center supports the exhausted old man's head on her left shoulder, his head tilts sideways onto that shoulder. The young man's head appears immediately behind her right shoulder, adjacent to her face; his eyebrows drawn together, lips tightly pressed together, wet hair against forehead. All three have worried wide eyes looking toward the camera through the opening. The woman's raised right forearm lifts a small glowing caged oil lantern above this waterline at image left. Water ripples physically intersect all three collars at neck level. Frame all three heads, shoulders, water and raised lantern closely inside the wooden aperture; the distant interior wall fills the background. Cool dim daylight on faces, small warm lantern light, high-end dimensional guoman rendering, realistic wet fabric. The submerged staircase supports the clustered adults beneath the opaque water surface.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac27e/im_qziuN_iHS4EshSKX4D_CHAR_WX_v01.png",
+      "https://v3b.fal.media/files/b/0aaac27e/L98t9Z6fRBjXzVu0k96VY_CHAR_GH_v01.png",
+      "https://v3b.fal.media/files/b/0aaac27e/ohganKizQTmQSDNHbt-gY_CHAR_AL_v01.png",
+      "https://v3b.fal.media/files/b/0aaac2b6/riDKaw9_U59n6ojR2_Z6N_SET_WHEEL_INTERIOR_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae5e-a0a4-7743-803e-10a764f637f3",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae5e-a0a4-7743-803e-10a764f637f3",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae5e-a0a4-7743-803e-10a764f637f3/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae5e-a0a4-7743-803e-10a764f637f3/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae5e-a0a4-7743-803e-10a764f637f3",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae5e-a0a4-7743-803e-10a764f637f3",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae5e-a0a4-7743-803e-10a764f637f3/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae5e-a0a4-7743-803e-10a764f637f3/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 74.59400010108948
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac2f6/zjCJmRLsBZq8D7fE6zMcV_733739345d734d338d817ff3d4370b0a.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "733739345d734d338d817ff3d4370b0a.jpg",
+        "file_size": 330925,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 1874940554
+  },
+  "output_sha256": "fd2abb4978f5be617fb21515ca0bb0354d8fea727753b6aa4d6466b7ab2172af"
+}

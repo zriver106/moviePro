@@ -1,0 +1,71 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:57:48.884793+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "首帧/S12_叉杆接触局部输入.png",
+      "资产/PROP_FORK_v01.png"
+    ],
+    "body": {
+      "prompt": "Precisely edit the close view in image 1. Preserve the two people's clothing, hands, brass crank, wooden drum, frame and brake wedge. Replace the plain stick held by the ochre-robed man with the wooden shaft and black iron TWO-pronged boat fork from image 2. Angle the held shaft downward so it passes UNDER the FIXED horizontal front crossbar at the bottom of the drum, then its two-pronged head projects beyond that crossbar at lower image center. Its shaft is caught between the left fixed vertical post and the underside of that crossbar. Show a clear open air gap between this trapped fork and the rope-covered rotating cylinder above it. The fork iron head has exactly two sharp prongs. Route the thick vertical rope from the bottom edge directly onto the far LEFT rim of the rotating cylinder, separated from the fork shaft by visible air. The rope wraps around the drum and continues upward. Render the corrected physical contacts clearly with the same detailed 3D Chinese animation materials and lighting. Match the original image framing and preserve the border pixels for insertion as a local patch.",
+      "image_size": {
+        "width": 2300,
+        "height": 1625
+      },
+      "num_images": 1
+    },
+    "output": "首帧/S12_叉杆接触局部编辑.png"
+  },
+  "references": {
+    "首帧/S12_叉杆接触局部输入.png": "614a4d19bc439e511322b2f67d87854810bee3128d9f25b1914808603bf7244e",
+    "资产/PROP_FORK_v01.png": "ed2256e38121de55dc463a272656f1caea0f016e79279a19279b7d58fd1b9289"
+  },
+  "body": {
+    "prompt": "Precisely edit the close view in image 1. Preserve the two people's clothing, hands, brass crank, wooden drum, frame and brake wedge. Replace the plain stick held by the ochre-robed man with the wooden shaft and black iron TWO-pronged boat fork from image 2. Angle the held shaft downward so it passes UNDER the FIXED horizontal front crossbar at the bottom of the drum, then its two-pronged head projects beyond that crossbar at lower image center. Its shaft is caught between the left fixed vertical post and the underside of that crossbar. Show a clear open air gap between this trapped fork and the rope-covered rotating cylinder above it. The fork iron head has exactly two sharp prongs. Route the thick vertical rope from the bottom edge directly onto the far LEFT rim of the rotating cylinder, separated from the fork shaft by visible air. The rope wraps around the drum and continues upward. Render the corrected physical contacts clearly with the same detailed 3D Chinese animation materials and lighting. Match the original image framing and preserve the border pixels for insertion as a local patch.",
+    "image_size": {
+      "width": 2300,
+      "height": 1625
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac2f2/QDST0TEwRW5NRuHZ30Cn9_S12_%3F%3F%3F%3F%3F%3F%3F%3F.png",
+      "https://v3b.fal.media/files/b/0aaac260/xaK679KRe-IamUsQLCEn__PROP_FORK_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae5f-3446-7661-a7b0-9983e88dfb0c",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae5f-3446-7661-a7b0-9983e88dfb0c",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae5f-3446-7661-a7b0-9983e88dfb0c/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae5f-3446-7661-a7b0-9983e88dfb0c/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae5f-3446-7661-a7b0-9983e88dfb0c",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae5f-3446-7661-a7b0-9983e88dfb0c",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae5f-3446-7661-a7b0-9983e88dfb0c/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae5f-3446-7661-a7b0-9983e88dfb0c/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 52.039000034332275
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac2f8/v0vhdjCLHAx7ZUZS3oTBa_3d73b4f29f6942528e0ffecf3f7313c5.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "3d73b4f29f6942528e0ffecf3f7313c5.jpg",
+        "file_size": 390545,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 600695848
+  },
+  "output_sha256": "900743df6dd697891f03fbbc1385d02fe782b17a1c0b405824f9ff35cea4f509"
+}

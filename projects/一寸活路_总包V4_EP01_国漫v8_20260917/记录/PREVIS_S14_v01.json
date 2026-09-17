@@ -1,0 +1,64 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:48:52.955215+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "i2v",
+    "previs": true,
+    "refs": [
+      "首帧/SF_S14_v05.png"
+    ],
+    "body": {
+      "prompt": "One continuous ten-second Chinese 3D animated shot continuing directly from this frame. A ground-level camera slowly pushes closer to the two men. During seconds zero to two the blue-clothed young man lunges over the prone ochre man, pins his right forearm to the floor and plants a knee firmly on his chest, then kicks the whole boat fork farther away across the foreground beyond arm reach. During seconds two to four he takes the SHORT rope hanging on the tall wooden winch post at left while keeping the prone man pinned. During seconds four to eight he gathers BOTH wrists together beside that post, slips the existing rope loop over the paired wrists, wraps its free end around the SAME post base, pulls it tight and presses the tail into the small wooden rope cleat. Show actual hands manipulating the actual rope continuously. During seconds eight to ten the ochre man jerks once against the completed wrist restraint and fails to free himself. His two booted ankles remain bound together throughout, his back stays on the shallow-water floor and his head stays above water. The stone remains supported on its wooden cradle. The brass crank remains on his waist. The blue man sleeves and shirt front become wet through physical contact. Soundtrack: water splashes, breathing, wet cloth movement and rope scraping timber. The ochre man shouts in a low rough adult male Mandarin voice: “放开！” The shot ends with BOTH wrists visibly secured to the left post and BOTH ankles still secured, young man knee maintaining control. Natural real-time motion, exact original identities and clothing.",
+      "duration": "10",
+      "resolution": "480p",
+      "aspect_ratio": "auto",
+      "generate_audio": true
+    },
+    "output": "预演/PREVIS_S14_v01.mp4",
+    "EF_input": "不采用未通过的EF草图；此次仅测试连续动作能力，真实末帧另行对照总包验收"
+  },
+  "references": {
+    "首帧/SF_S14_v05.png": "dee6e5ad03ad990db18862edb1de3c4851d3c8364b8c075ec636f28c4e2073a5"
+  },
+  "body": {
+    "prompt": "One continuous ten-second Chinese 3D animated shot continuing directly from this frame. A ground-level camera slowly pushes closer to the two men. During seconds zero to two the blue-clothed young man lunges over the prone ochre man, pins his right forearm to the floor and plants a knee firmly on his chest, then kicks the whole boat fork farther away across the foreground beyond arm reach. During seconds two to four he takes the SHORT rope hanging on the tall wooden winch post at left while keeping the prone man pinned. During seconds four to eight he gathers BOTH wrists together beside that post, slips the existing rope loop over the paired wrists, wraps its free end around the SAME post base, pulls it tight and presses the tail into the small wooden rope cleat. Show actual hands manipulating the actual rope continuously. During seconds eight to ten the ochre man jerks once against the completed wrist restraint and fails to free himself. His two booted ankles remain bound together throughout, his back stays on the shallow-water floor and his head stays above water. The stone remains supported on its wooden cradle. The brass crank remains on his waist. The blue man sleeves and shirt front become wet through physical contact. Soundtrack: water splashes, breathing, wet cloth movement and rope scraping timber. The ochre man shouts in a low rough adult male Mandarin voice: “放开！” The shot ends with BOTH wrists visibly secured to the left post and BOTH ankles still secured, young man knee maintaining control. Natural real-time motion, exact original identities and clothing.",
+    "duration": "10",
+    "resolution": "480p",
+    "aspect_ratio": "auto",
+    "generate_audio": true,
+    "image_url": "https://v3b.fal.media/files/b/0aaac2bd/gF81C1zzQYI-Gy3J0eVrU_SF_S14_v05.png"
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae57-08f5-7923-b3ed-1fa458d0cb54",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae57-08f5-7923-b3ed-1fa458d0cb54",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae57-08f5-7923-b3ed-1fa458d0cb54/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae57-08f5-7923-b3ed-1fa458d0cb54/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae57-08f5-7923-b3ed-1fa458d0cb54",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae57-08f5-7923-b3ed-1fa458d0cb54",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae57-08f5-7923-b3ed-1fa458d0cb54/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae57-08f5-7923-b3ed-1fa458d0cb54/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 361.29900002479553
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac2e1/Tuz46i0DxShMfdRuHJIVh_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 8444202
+    },
+    "seed": 988531803
+  },
+  "output_sha256": "68c5574dc26cd20696389aba63f3322b918a462807cbdad483514f1cf8f78caa"
+}

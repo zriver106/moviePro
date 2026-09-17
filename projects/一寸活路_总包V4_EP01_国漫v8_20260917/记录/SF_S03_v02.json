@@ -1,0 +1,77 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:47:40.914598+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/SET_WHEEL_INTERIOR_v01.png",
+      "资产/CHAR_WX_v01.png",
+      "资产/CHAR_GH_v01.png",
+      "资产/CHAR_AL_v01.png"
+    ],
+    "body": {
+      "prompt": "Chinese 3D animated drama, vertical 9:16, fifty millimeter fixed camera looking THROUGH the wooden inspection aperture of the CLOSED door into the flooded enclosed wheel room in image 1. Exactly three adults in the room, faces and clothes fixed to images 2, 3 and 4. Place the woman closest to the aperture, the elderly worker immediately behind her left shoulder and the brown-clothed youth slightly higher on the narrow submerged steps at rear right. Raise the murky water surface so it reaches the woman collarbones at the base of her neck and covers her chest. Her soaked gray-green shoulders and neck remain visible. She holds a small enclosed warm oil lantern high in her right hand. The old gray-bearded man leans his weight against her left shoulder, his face barely above the water. The youth has pressed lips and widened eyes, leaning forward from the submerged higher step. The woman brow is knitted, lips parted mid-breath, looking toward camera to call urgently. Their three faces fit within the foreground wooden aperture frame, back wall is the enclosed damp brick wall from image 1. Cool aperture light and warm lantern illumination, detailed wet cloth and waterline.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "首帧/SF_S03_v02.png"
+  },
+  "references": {
+    "资产/SET_WHEEL_INTERIOR_v01.png": "773cab5ee21e8d144aa4153bd9b05e471fe6e2367008c191988c71afdeee5d2c",
+    "资产/CHAR_WX_v01.png": "e81120af9b69332c5f14c2757a6f82320d2bea8292c4021372591690282996a0",
+    "资产/CHAR_GH_v01.png": "6a1e06cdb3657d509a54abb63f4c049c345844601a05f8dfc26f45ed196d6c2e",
+    "资产/CHAR_AL_v01.png": "4bbd3506e751385169315f7e54f241cbcc087bace4b04259cb62eac81f6d55ab"
+  },
+  "body": {
+    "prompt": "Chinese 3D animated drama, vertical 9:16, fifty millimeter fixed camera looking THROUGH the wooden inspection aperture of the CLOSED door into the flooded enclosed wheel room in image 1. Exactly three adults in the room, faces and clothes fixed to images 2, 3 and 4. Place the woman closest to the aperture, the elderly worker immediately behind her left shoulder and the brown-clothed youth slightly higher on the narrow submerged steps at rear right. Raise the murky water surface so it reaches the woman collarbones at the base of her neck and covers her chest. Her soaked gray-green shoulders and neck remain visible. She holds a small enclosed warm oil lantern high in her right hand. The old gray-bearded man leans his weight against her left shoulder, his face barely above the water. The youth has pressed lips and widened eyes, leaning forward from the submerged higher step. The woman brow is knitted, lips parted mid-breath, looking toward camera to call urgently. Their three faces fit within the foreground wooden aperture frame, back wall is the enclosed damp brick wall from image 1. Cool aperture light and warm lantern illumination, detailed wet cloth and waterline.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac2b6/riDKaw9_U59n6ojR2_Z6N_SET_WHEEL_INTERIOR_v01.png",
+      "https://v3b.fal.media/files/b/0aaac27e/im_qziuN_iHS4EshSKX4D_CHAR_WX_v01.png",
+      "https://v3b.fal.media/files/b/0aaac27e/L98t9Z6fRBjXzVu0k96VY_CHAR_GH_v01.png",
+      "https://v3b.fal.media/files/b/0aaac27e/ohganKizQTmQSDNHbt-gY_CHAR_AL_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae55-ed74-7c01-9700-c0b3ea9d453f",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae55-ed74-7c01-9700-c0b3ea9d453f",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae55-ed74-7c01-9700-c0b3ea9d453f/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae55-ed74-7c01-9700-c0b3ea9d453f/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae55-ed74-7c01-9700-c0b3ea9d453f",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae55-ed74-7c01-9700-c0b3ea9d453f",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae55-ed74-7c01-9700-c0b3ea9d453f/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae55-ed74-7c01-9700-c0b3ea9d453f/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 58.82599997520447
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac2bc/UYeKSsQnRcxnvIX-mvDa-_cf90ee035e3746c3b0559ae4e567b88f.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "cf90ee035e3746c3b0559ae4e567b88f.jpg",
+        "file_size": 359272,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 1535100330
+  },
+  "output_sha256": "a75e103fb92ba9c884adc3b587abf704a6d1eb5081e09b5d6ebcbc00c5acf2ad"
+}

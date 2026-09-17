@@ -1,0 +1,71 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:37:48.530946+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "首帧/SF_S14_v02.png",
+      "资产/CHAR_MD_v02.png"
+    ],
+    "body": {
+      "prompt": "Correct the lower-right feet region of image 1. The prone ochre-robed man wears the exact black cloth boots shown in image 2 on BOTH feet. His two booted ankles are tightly pressed together, touching side by side. One broad simple oval of beige hemp rope encircles the OUTSIDE of both boots together at ankle level, binding them as a single pair. The visible shape is one large shared rope oval enclosing the combined pair of ankles. Preserve the two people faces, bodies, hands, weapons, camera, light and all background geometry.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "首帧/SF_S14_v03.png"
+  },
+  "references": {
+    "首帧/SF_S14_v02.png": "0e077fc24c8112216d21971045d9d6056c4e874b83cd9dd21f27dd078a747e13",
+    "资产/CHAR_MD_v02.png": "e78176777f377fe9654b4ac24653f43025e56d2538a99c32aa833aba1f64b2d8"
+  },
+  "body": {
+    "prompt": "Correct the lower-right feet region of image 1. The prone ochre-robed man wears the exact black cloth boots shown in image 2 on BOTH feet. His two booted ankles are tightly pressed together, touching side by side. One broad simple oval of beige hemp rope encircles the OUTSIDE of both boots together at ankle level, binding them as a single pair. The visible shape is one large shared rope oval enclosing the combined pair of ankles. Preserve the two people faces, bodies, hands, weapons, camera, light and all background geometry.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac27a/o5V2FW4BNmfat8lQplFkq_SF_S14_v02.png",
+      "https://v3b.fal.media/files/b/0aaac260/FBin0kXkxi9-ckrkAs8Mg_CHAR_MD_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae4c-e3f9-71e2-8dd0-3eb9be9cbac1",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4c-e3f9-71e2-8dd0-3eb9be9cbac1",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4c-e3f9-71e2-8dd0-3eb9be9cbac1/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4c-e3f9-71e2-8dd0-3eb9be9cbac1/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae4c-e3f9-71e2-8dd0-3eb9be9cbac1",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4c-e3f9-71e2-8dd0-3eb9be9cbac1",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4c-e3f9-71e2-8dd0-3eb9be9cbac1/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4c-e3f9-71e2-8dd0-3eb9be9cbac1/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 39.263999938964844
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac27e/jQCuYHT0ok-Jg8pRw20Re_001aba6e5c894accb81ea100f0e99820.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "001aba6e5c894accb81ea100f0e99820.jpg",
+        "file_size": 497664,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 1790316058
+  },
+  "output_sha256": "6befa611185c8fa1a3b1bb79ce5a9cb721f40ca189af07f64a2a28e19dd8d0e4"
+}

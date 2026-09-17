@@ -1,0 +1,77 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:39:17.631219+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/SET_GATE_v05.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/CHAR_MD_v02.png",
+      "资产/PROP_FORK_v01.png"
+    ],
+    "body": {
+      "prompt": "Vertical 9:16, Chinese 3D animated drama, thirty-five millimeter SIDE medium view of the winch mechanism from reference 1. Exactly two adults, identities and clothes from references 2 and 3. The slim blue-gray young man crouches at screen-right of the winch. Both bare hands firmly grip the thick rectangular end of a triangular wooden brake wedge. The wedge narrow tip is visibly inserted directly underneath the round winch drum right flange, pressed tightly between the drum underside and a fixed support block. He is poised to pull that wedge horizontally toward himself. At screen-left, the ochre man stands in ankle-deep water with his two black boots inside one loose beige running rope loop; this same rope visibly leads upward onto the drum. His hands grip the wooden boat-fork shaft from image 4 which is caught between the separate fixed front crossbrace and left post. That crossbrace sits forward and below the rotating drum, mechanically separate. His shoulders strain upward as he tries to lift the fork butt. At the UPPER edge of frame show the stone counterweight suspended a handspan above its wooden catch cradle; the stone rope leads up and back to the drum. Compose all three causal contacts clearly in one frame: hands on wedge at right, drum at center, both ankles within loose connected rope at left, suspended stone at upper edge. Cool readable daylight, shallow water. Distinct identity faces, same original wooden architecture and door in soft background.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "首帧/SF_S12_v01.png"
+  },
+  "references": {
+    "资产/SET_GATE_v05.png": "a1da6724524e1843c0b22fb0e5ecbf930589d45c8598d74269cf6cd1e9a08bf2",
+    "资产/CHAR_LZ_v01.png": "2dc60da20629c0babae35e2279a0ea1e51493dd634440ec6205ce5cae4f3d95f",
+    "资产/CHAR_MD_v02.png": "e78176777f377fe9654b4ac24653f43025e56d2538a99c32aa833aba1f64b2d8",
+    "资产/PROP_FORK_v01.png": "ed2256e38121de55dc463a272656f1caea0f016e79279a19279b7d58fd1b9289"
+  },
+  "body": {
+    "prompt": "Vertical 9:16, Chinese 3D animated drama, thirty-five millimeter SIDE medium view of the winch mechanism from reference 1. Exactly two adults, identities and clothes from references 2 and 3. The slim blue-gray young man crouches at screen-right of the winch. Both bare hands firmly grip the thick rectangular end of a triangular wooden brake wedge. The wedge narrow tip is visibly inserted directly underneath the round winch drum right flange, pressed tightly between the drum underside and a fixed support block. He is poised to pull that wedge horizontally toward himself. At screen-left, the ochre man stands in ankle-deep water with his two black boots inside one loose beige running rope loop; this same rope visibly leads upward onto the drum. His hands grip the wooden boat-fork shaft from image 4 which is caught between the separate fixed front crossbrace and left post. That crossbrace sits forward and below the rotating drum, mechanically separate. His shoulders strain upward as he tries to lift the fork butt. At the UPPER edge of frame show the stone counterweight suspended a handspan above its wooden catch cradle; the stone rope leads up and back to the drum. Compose all three causal contacts clearly in one frame: hands on wedge at right, drum at center, both ankles within loose connected rope at left, suspended stone at upper edge. Cool readable daylight, shallow water. Distinct identity faces, same original wooden architecture and door in soft background.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac283/YBTTeiyA1_021I-SLc5hN_SET_GATE_v05.png",
+      "https://v3b.fal.media/files/b/0aaac25f/t4rGy2Kz8Q9gANtsAxVxq_CHAR_LZ_v01.png",
+      "https://v3b.fal.media/files/b/0aaac260/FBin0kXkxi9-ckrkAs8Mg_CHAR_MD_v02.png",
+      "https://v3b.fal.media/files/b/0aaac260/xaK679KRe-IamUsQLCEn__PROP_FORK_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae4e-3f88-7342-8036-e1442c34881a",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4e-3f88-7342-8036-e1442c34881a",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4e-3f88-7342-8036-e1442c34881a/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4e-3f88-7342-8036-e1442c34881a/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae4e-3f88-7342-8036-e1442c34881a",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4e-3f88-7342-8036-e1442c34881a",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4e-3f88-7342-8036-e1442c34881a/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4e-3f88-7342-8036-e1442c34881a/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 95.71000003814697
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac28d/XYZpzeYNxyu5U812m8cRi_0877a5d2dcd646e2b9279cdb143c8cd1.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "0877a5d2dcd646e2b9279cdb143c8cd1.jpg",
+        "file_size": 574279,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 38599636
+  },
+  "output_sha256": "7bfc1efed9340df111438299e43fd7346ddb92387727012a57d68dcaee20042d"
+}

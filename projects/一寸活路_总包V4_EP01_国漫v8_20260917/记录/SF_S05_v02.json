@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:39:16.438342+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "首帧/SF_S05_v01.png"
+    ],
+    "body": {
+      "prompt": "Adjust the hand-tool contact in this frame. The awl tip touches the brass plate at a point twenty-five percent across the plate width from its left edge and exactly halfway down the plate height, visibly within the flat brass surface. The right hand grips the rope-wrapped handle; the left palm presses against the back end of that same handle, forming a two-handed straight-push grip along the awl axis. Both elbows are bent, ready to push. The entire brass surface is intact. Keep this young man face, clothing, camera angle, door and lighting consistent.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "首帧/SF_S05_v02.png"
+  },
+  "references": {
+    "首帧/SF_S05_v01.png": "21a7c2cf4533eab6f32542d7f748551aff9c3d3d75036866a903064d820889f9"
+  },
+  "body": {
+    "prompt": "Adjust the hand-tool contact in this frame. The awl tip touches the brass plate at a point twenty-five percent across the plate width from its left edge and exactly halfway down the plate height, visibly within the flat brass surface. The right hand grips the rope-wrapped handle; the left palm presses against the back end of that same handle, forming a two-handed straight-push grip along the awl axis. Both elbows are bent, ready to push. The entire brass surface is intact. Keep this young man face, clothing, camera angle, door and lighting consistent.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac283/hXi20_u_PR9kJ45IHo130_SF_S05_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae4e-3a9a-7ca2-8c14-9690997fa17b",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4e-3a9a-7ca2-8c14-9690997fa17b",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4e-3a9a-7ca2-8c14-9690997fa17b/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4e-3a9a-7ca2-8c14-9690997fa17b/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae4e-3a9a-7ca2-8c14-9690997fa17b",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4e-3a9a-7ca2-8c14-9690997fa17b",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4e-3a9a-7ca2-8c14-9690997fa17b/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4e-3a9a-7ca2-8c14-9690997fa17b/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 38.70799994468689
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac287/WO7UXBLXWcWf0K66F8qbn_c91af91e39114082bda863b8b01dd63f.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "c91af91e39114082bda863b8b01dd63f.jpg",
+        "file_size": 510537,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 1169487958
+  },
+  "output_sha256": "5674f442bbd89b75343e914bb152ef74c5f0719d48f96fbe7818170036960a15"
+}

@@ -1,0 +1,75 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:36:00.570400+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/SET_GATE_v03.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/PROP_AWL_v02.png"
+    ],
+    "body": {
+      "prompt": "A single vertical 9:16 cinematic frame for a Chinese 3D animated period drama. Preserve the exact young man from image 2, door design and cool daylight from image 1, and hand awl from image 3. Fifty-millimeter side close view at chest height on the outside of the closed wooden door. The young man stands at screen-left in profile facing the wooden door at screen-right. His right hand grips the hemp-wrapped handle of the short black awl, left palm braces the back of his right hand in a two-handed straight pushing grip. The tip of the thirty-five-centimeter awl touches the LEFT half of a small rectangular brass inspection plate screwed to the door, directly in front of his chest. The brass plate is fully intact and smooth on both halves. His elbows are bent, beginning the push. His empty waist cloth sash, bare uninjured forearms, blue-gray coarse linen shirt, fixed planted stance on the dry timber repair ledge are consistent with reference. The head-height open viewing aperture is visible ABOVE the plate, anatomically separate from where the awl touches. Clearly show the precise tip-to-brass contact, both hands and the entire awl. Cold soft left-side river light, woodgrain and brass readable.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "首帧/SF_S05_v01.png",
+    "scope": "门板接触参考草案；正式视频仍等待S10—S14预演通过"
+  },
+  "references": {
+    "资产/SET_GATE_v03.png": "307ef54e3425cbcd6e73e0fc327a51b8b26874947316319447a63297e7912f2d",
+    "资产/CHAR_LZ_v01.png": "2dc60da20629c0babae35e2279a0ea1e51493dd634440ec6205ce5cae4f3d95f",
+    "资产/PROP_AWL_v02.png": "01272a841a1743e63309e040e30fbccdbf11b419596a67232e57306afead93e1"
+  },
+  "body": {
+    "prompt": "A single vertical 9:16 cinematic frame for a Chinese 3D animated period drama. Preserve the exact young man from image 2, door design and cool daylight from image 1, and hand awl from image 3. Fifty-millimeter side close view at chest height on the outside of the closed wooden door. The young man stands at screen-left in profile facing the wooden door at screen-right. His right hand grips the hemp-wrapped handle of the short black awl, left palm braces the back of his right hand in a two-handed straight pushing grip. The tip of the thirty-five-centimeter awl touches the LEFT half of a small rectangular brass inspection plate screwed to the door, directly in front of his chest. The brass plate is fully intact and smooth on both halves. His elbows are bent, beginning the push. His empty waist cloth sash, bare uninjured forearms, blue-gray coarse linen shirt, fixed planted stance on the dry timber repair ledge are consistent with reference. The head-height open viewing aperture is visible ABOVE the plate, anatomically separate from where the awl touches. Clearly show the precise tip-to-brass contact, both hands and the entire awl. Cold soft left-side river light, woodgrain and brass readable.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac265/wNGsLA57OEDqYhHeVOcEy_SET_GATE_v03.png",
+      "https://v3b.fal.media/files/b/0aaac25f/t4rGy2Kz8Q9gANtsAxVxq_CHAR_LZ_v01.png",
+      "https://v3b.fal.media/files/b/0aaac270/oFScqdwRK_LcYa704asqK_PROP_AWL_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae4b-3f07-70c1-bdb0-416fca216d13",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4b-3f07-70c1-bdb0-416fca216d13",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4b-3f07-70c1-bdb0-416fca216d13/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4b-3f07-70c1-bdb0-416fca216d13/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae4b-3f07-70c1-bdb0-416fca216d13",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4b-3f07-70c1-bdb0-416fca216d13",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4b-3f07-70c1-bdb0-416fca216d13/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4b-3f07-70c1-bdb0-416fca216d13/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 66.43099999427795
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac276/hS707NL-rs7obcvVFmUMF_fb8511ca3a544e7aa60187e34dc85574.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "fb8511ca3a544e7aa60187e34dc85574.jpg",
+        "file_size": 487715,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 155411995
+  },
+  "output_sha256": "21a7c2cf4533eab6f32542d7f748551aff9c3d3d75036866a903064d820889f9"
+}

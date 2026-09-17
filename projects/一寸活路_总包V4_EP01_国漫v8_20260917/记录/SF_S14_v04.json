@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:40:38.816448+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "首帧/SF_S14_v03.png"
+    ],
+    "body": {
+      "prompt": "Edit the wooden catch cradle in the middle background. Increase the height of its wooden legs so its top square rails firmly CONTACT and SUPPORT the bottom face of the gray rectangular stone. The stone is resting directly on the top of the cradle, the wooden rails touch its underside edge all around, the suspension rope is slightly slack. Preserve the people, bound booted ankles, hands, fork, left post, camera and lighting.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "首帧/SF_S14_v04.png"
+  },
+  "references": {
+    "首帧/SF_S14_v03.png": "6befa611185c8fa1a3b1bb79ce5a9cb721f40ca189af07f64a2a28e19dd8d0e4"
+  },
+  "body": {
+    "prompt": "Edit the wooden catch cradle in the middle background. Increase the height of its wooden legs so its top square rails firmly CONTACT and SUPPORT the bottom face of the gray rectangular stone. The stone is resting directly on the top of the cradle, the wooden rails touch its underside edge all around, the suspension rope is slightly slack. Preserve the people, bound booted ankles, hands, fork, left post, camera and lighting.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac28b/SOo2ZGgTIubWiTn_HHvC8_SF_S14_v03.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae4f-7cfe-7ee2-9a45-733c2ff08325",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4f-7cfe-7ee2-9a45-733c2ff08325",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4f-7cfe-7ee2-9a45-733c2ff08325/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4f-7cfe-7ee2-9a45-733c2ff08325/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae4f-7cfe-7ee2-9a45-733c2ff08325",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4f-7cfe-7ee2-9a45-733c2ff08325",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4f-7cfe-7ee2-9a45-733c2ff08325/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4f-7cfe-7ee2-9a45-733c2ff08325/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 38.40400004386902
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac28f/1wmPL-3TWK_5lNAq-fJYE_3e6a9c67afa74c0f8d4a35e1b2f77726.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "3e6a9c67afa74c0f8d4a35e1b2f77726.jpg",
+        "file_size": 623604,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 1241216312
+  },
+  "output_sha256": "402fbeeb07caa7ae02dada7efd6e04c55a9ae3777b966807db9812d7f396fa80"
+}

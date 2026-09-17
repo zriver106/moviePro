@@ -1,0 +1,77 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:44:21.369705+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "预演/布局/S12接触布局.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/CHAR_MD_v02.png",
+      "参考/场景/03_南仓账房与货架.jpg"
+    ],
+    "body": {
+      "prompt": "Transform the precise blocking diagram in image 1 into a finished cinematic 3D Chinese animated scene. Image 1 controls ALL object positions and physical contacts. Replace its blue figure with the exact young man from image 2, crouching and holding the protruding right end of the small brake wedge with BOTH hands. Replace its ochre figure with the exact adult man from image 3. Keep BOTH of his black boots inside the SINGLE loose rope loop on the floor at left. Preserve the continuous rope path from that loop up onto the horizontal drum, then up through the pulley to the suspended rectangular stone and its nearby catch stand. The boat fork stays angled horizontally across his body with its head trapped beyond the separate fixed front crossbrace beside the left post, his hands trying to lift its butt. The small triangular wedge is tightly inserted beneath the RIGHT drum flange, directly touched by the young man hands. The fixed crossbrace remains separate from the rotating drum. Use image 4 for the shaded gray-brick and timber material rendering and cool daylight. Ankle-deep muddy water floor, readable contacts, 35mm side medium view, vertical 9:16. Turn diagram shapes into robust dimensional wooden hardware, rope, stone and naturally posed adults while preserving the diagram contact topology.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "首帧/SF_S12_v02.png"
+  },
+  "references": {
+    "预演/布局/S12接触布局.png": "501adf3bb1fe20bbf8bb701a9d3abea849fcc8c5d61d9dab99333b1abf35301f",
+    "资产/CHAR_LZ_v01.png": "2dc60da20629c0babae35e2279a0ea1e51493dd634440ec6205ce5cae4f3d95f",
+    "资产/CHAR_MD_v02.png": "e78176777f377fe9654b4ac24653f43025e56d2538a99c32aa833aba1f64b2d8",
+    "参考/场景/03_南仓账房与货架.jpg": "a86625b3cf51b0a90ca2981196857fdeb1f84017f320bd015d77317e53c6dadd"
+  },
+  "body": {
+    "prompt": "Transform the precise blocking diagram in image 1 into a finished cinematic 3D Chinese animated scene. Image 1 controls ALL object positions and physical contacts. Replace its blue figure with the exact young man from image 2, crouching and holding the protruding right end of the small brake wedge with BOTH hands. Replace its ochre figure with the exact adult man from image 3. Keep BOTH of his black boots inside the SINGLE loose rope loop on the floor at left. Preserve the continuous rope path from that loop up onto the horizontal drum, then up through the pulley to the suspended rectangular stone and its nearby catch stand. The boat fork stays angled horizontally across his body with its head trapped beyond the separate fixed front crossbrace beside the left post, his hands trying to lift its butt. The small triangular wedge is tightly inserted beneath the RIGHT drum flange, directly touched by the young man hands. The fixed crossbrace remains separate from the rotating drum. Use image 4 for the shaded gray-brick and timber material rendering and cool daylight. Ankle-deep muddy water floor, readable contacts, 35mm side medium view, vertical 9:16. Turn diagram shapes into robust dimensional wooden hardware, rope, stone and naturally posed adults while preserving the diagram contact topology.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac2a2/9-npTFr9dK3aYewJ6qYmM_S12%3F%3F%3F%3F.png",
+      "https://v3b.fal.media/files/b/0aaac25f/t4rGy2Kz8Q9gANtsAxVxq_CHAR_LZ_v01.png",
+      "https://v3b.fal.media/files/b/0aaac260/FBin0kXkxi9-ckrkAs8Mg_CHAR_MD_v02.png",
+      "https://v3b.fal.media/files/b/0aaac239/lUGJ--qaSDiZ3BL-rZN2y_03_%3F%3F%3F%3F%3F%3F%3F.jpg"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae52-e1e0-7873-8ad8-96afae06edcd",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae52-e1e0-7873-8ad8-96afae06edcd",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae52-e1e0-7873-8ad8-96afae06edcd/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae52-e1e0-7873-8ad8-96afae06edcd/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae52-e1e0-7873-8ad8-96afae06edcd",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae52-e1e0-7873-8ad8-96afae06edcd",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae52-e1e0-7873-8ad8-96afae06edcd/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae52-e1e0-7873-8ad8-96afae06edcd/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 77.6340000629425
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac2a9/KslUISyimREZYomomSLJq_beca37ba6b2140108d8bf95e5988e2e4.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "beca37ba6b2140108d8bf95e5988e2e4.jpg",
+        "file_size": 432237,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 1581146152
+  },
+  "output_sha256": "e71405e972c569eec69e7fb4a1cb0dad9afd2d6e589e8ed655f7de099b95910f"
+}

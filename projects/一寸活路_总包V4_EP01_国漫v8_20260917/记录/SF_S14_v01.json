@@ -1,0 +1,78 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:33:18.731061+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/SET_GATE_v02.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/CHAR_MD_v02.png",
+      "资产/PROP_FORK_v01.png"
+    ],
+    "body": {
+      "prompt": "A cinematic still, vertical 9:16, Chinese 3D animated drama matching all reference identities and materials. Ground-level 35mm medium two-person composition at the base of the front winch post in reference 1. The two adult men are from reference 2 and reference 3. The ochre-robed stocky man has just fallen flat on his back in ankle-deep water at the base of the winch post; his head at screen-left stays entirely above water, his torso diagonally across the lower center and his feet toward screen-right. His wet sleeves and back cling darkly. A taut beige hemp sliding rope loop encircles BOTH ankles together, its tail leads visibly to the winch behind his feet. Both wrists are still loose and his right forearm lies closest to camera. The complete boat fork from image 4 lies in shallow water on his anatomical right side, nearer camera, within hand reach. His brass crank remains on his waist sash. The slim blue-gray-clothed young man from image 2 approaches from screen-right, leans forward with both bare hands reaching toward the prone man right forearm, just before contact. His lower trousers and boots are wet; his shirt front is still dry. On the nearby post at upper left hangs a short hemp restraint rope with an existing open sliding loop; a small wooden rope cleat sits at the post foot. The post, wrist rope, loose wrists, both bound ankles and whole boat fork are all readable. Cropped winch drum in upper background, wooden repair ledge behind, cold daylight from left, shallow muddy water ripples. Faces retain the exact distinct reference identities.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "首帧/SF_S14_v01.png",
+    "scope": "风险镜首帧草案；必须目视核对接触、绳索、人数后才能预演"
+  },
+  "references": {
+    "资产/SET_GATE_v02.png": "0ebca8a9c0e6c84080856a9d5a78b11a5c107e92ce1eb14f838ba010c8a6c97f",
+    "资产/CHAR_LZ_v01.png": "2dc60da20629c0babae35e2279a0ea1e51493dd634440ec6205ce5cae4f3d95f",
+    "资产/CHAR_MD_v02.png": "e78176777f377fe9654b4ac24653f43025e56d2538a99c32aa833aba1f64b2d8",
+    "资产/PROP_FORK_v01.png": "ed2256e38121de55dc463a272656f1caea0f016e79279a19279b7d58fd1b9289"
+  },
+  "body": {
+    "prompt": "A cinematic still, vertical 9:16, Chinese 3D animated drama matching all reference identities and materials. Ground-level 35mm medium two-person composition at the base of the front winch post in reference 1. The two adult men are from reference 2 and reference 3. The ochre-robed stocky man has just fallen flat on his back in ankle-deep water at the base of the winch post; his head at screen-left stays entirely above water, his torso diagonally across the lower center and his feet toward screen-right. His wet sleeves and back cling darkly. A taut beige hemp sliding rope loop encircles BOTH ankles together, its tail leads visibly to the winch behind his feet. Both wrists are still loose and his right forearm lies closest to camera. The complete boat fork from image 4 lies in shallow water on his anatomical right side, nearer camera, within hand reach. His brass crank remains on his waist sash. The slim blue-gray-clothed young man from image 2 approaches from screen-right, leans forward with both bare hands reaching toward the prone man right forearm, just before contact. His lower trousers and boots are wet; his shirt front is still dry. On the nearby post at upper left hangs a short hemp restraint rope with an existing open sliding loop; a small wooden rope cleat sits at the post foot. The post, wrist rope, loose wrists, both bound ankles and whole boat fork are all readable. Cropped winch drum in upper background, wooden repair ledge behind, cold daylight from left, shallow muddy water ripples. Faces retain the exact distinct reference identities.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac259/rEDFBTMMoyzzlaqskYwph_SET_GATE_v02.png",
+      "https://v3b.fal.media/files/b/0aaac25f/t4rGy2Kz8Q9gANtsAxVxq_CHAR_LZ_v01.png",
+      "https://v3b.fal.media/files/b/0aaac260/FBin0kXkxi9-ckrkAs8Mg_CHAR_MD_v02.png",
+      "https://v3b.fal.media/files/b/0aaac260/xaK679KRe-IamUsQLCEn__PROP_FORK_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae48-cd1a-7dd1-82f1-a4fc8e72b933",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae48-cd1a-7dd1-82f1-a4fc8e72b933",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae48-cd1a-7dd1-82f1-a4fc8e72b933/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae48-cd1a-7dd1-82f1-a4fc8e72b933/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae48-cd1a-7dd1-82f1-a4fc8e72b933",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae48-cd1a-7dd1-82f1-a4fc8e72b933",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae48-cd1a-7dd1-82f1-a4fc8e72b933/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae48-cd1a-7dd1-82f1-a4fc8e72b933/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 63.40999984741211
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac266/tjaicwZD_4P0MHMKoMvps_37e0866a2e37464384177dbb78e39a7e.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "37e0866a2e37464384177dbb78e39a7e.jpg",
+        "file_size": 444576,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 1195175850
+  },
+  "output_sha256": "a56d949ba6938f6738579e1745db58a13e2fa3ee150b0a7303039b39e56954bd"
+}

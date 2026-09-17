@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:45:48.426586+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "首帧/S14_石架局部输入.png"
+    ],
+    "body": {
+      "prompt": "Lower the gray stone block until its flat bottom sits directly ON the top of the four wooden posts and upper rails. The stone overlaps the very tops of the wood support visually, with a dark contact shadow at the junction. The block weight is supported firmly by this wooden stand. The support wood, human hand, clothing edges, water and framing remain consistent.",
+      "image_size": {
+        "width": 1800,
+        "height": 2000
+      },
+      "num_images": 1
+    },
+    "output": "首帧/S14_石架局部编辑.png"
+  },
+  "references": {
+    "首帧/S14_石架局部输入.png": "3c09fae30b8f54e1f7648395a2f131c2ba0a91da523695bfc7f61c2d8e2c44e7"
+  },
+  "body": {
+    "prompt": "Lower the gray stone block until its flat bottom sits directly ON the top of the four wooden posts and upper rails. The stone overlaps the very tops of the wood support visually, with a dark contact shadow at the junction. The block weight is supported firmly by this wooden stand. The support wood, human hand, clothing edges, water and framing remain consistent.",
+    "image_size": {
+      "width": 1800,
+      "height": 2000
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac2aa/x2w0EFpxn3Ckij_aZHOAM_S14_%3F%3F%3F%3F%3F%3F.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae54-363c-77f1-808d-36132cc114f3",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae54-363c-77f1-808d-36132cc114f3",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae54-363c-77f1-808d-36132cc114f3/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae54-363c-77f1-808d-36132cc114f3/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae54-363c-77f1-808d-36132cc114f3",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae54-363c-77f1-808d-36132cc114f3",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae54-363c-77f1-808d-36132cc114f3/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae54-363c-77f1-808d-36132cc114f3/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 41.07300019264221
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac2ae/BFehaME5kuh2SzK1CDNtD_5e30804e246e4a8c8a993d9dd3f2c7e3.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "5e30804e246e4a8c8a993d9dd3f2c7e3.jpg",
+        "file_size": 464663,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 875219417
+  },
+  "output_sha256": "037b2c40025855bbd626520d20b7a90326bdc6488071ddb81bf5188686fb17be"
+}

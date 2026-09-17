@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:36:27.610202+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/SET_GATE_v04.png"
+    ],
+    "body": {
+      "prompt": "Keep this scene exactly. Reposition the existing triangular wooden brake wedge so its narrow pointed end presses firmly into the gap between the UNDERSIDE of the winch drum right circular flange and the fixed timber support directly beneath it. The wedge physically touches the drum and prevents its rotation. The thicker rectangular handgrip end projects to the right, visibly reachable by crouching hands. The fixed front crossbrace remains lower and separate from the drum. Preserve every rope path, stone, cradle, ladder, door, ledge and lighting.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/SET_GATE_v05.png"
+  },
+  "references": {
+    "资产/SET_GATE_v04.png": "a52a9cdb004727bddb86afc0f800c67c9291bf038893c9c3030dad993b7f4593"
+  },
+  "body": {
+    "prompt": "Keep this scene exactly. Reposition the existing triangular wooden brake wedge so its narrow pointed end presses firmly into the gap between the UNDERSIDE of the winch drum right circular flange and the fixed timber support directly beneath it. The wedge physically touches the drum and prevents its rotation. The thicker rectangular handgrip end projects to the right, visibly reachable by crouching hands. The fixed front crossbrace remains lower and separate from the drum. Preserve every rope path, stone, cradle, ladder, door, ledge and lighting.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac272/TpF0vK25GNmaMUPBsEZXt_SET_GATE_v04.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae4b-a928-7251-a2dd-2a2f3295030d",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4b-a928-7251-a2dd-2a2f3295030d",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4b-a928-7251-a2dd-2a2f3295030d/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4b-a928-7251-a2dd-2a2f3295030d/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae4b-a928-7251-a2dd-2a2f3295030d",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4b-a928-7251-a2dd-2a2f3295030d",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4b-a928-7251-a2dd-2a2f3295030d/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4b-a928-7251-a2dd-2a2f3295030d/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 38.51700019836426
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac276/QBoZPCHEaHZ9FkU1yQR_1_8c521925717a4c77b474dbf3665fa45a.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "8c521925717a4c77b474dbf3665fa45a.jpg",
+        "file_size": 661082,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 677877489
+  },
+  "output_sha256": "a1da6724524e1843c0b22fb0e5ecbf930589d45c8598d74269cf6cd1e9a08bf2"
+}

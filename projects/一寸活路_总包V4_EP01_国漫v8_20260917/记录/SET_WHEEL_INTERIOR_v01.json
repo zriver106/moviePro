@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:41:38.193137+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "参考/场景/03_南仓账房与货架.jpg"
+    ],
+    "body": {
+      "prompt": "Empty interior wheel-control room of an ancient Chinese river sluice, high-quality Chinese 3D animated environment matching the timber and gray brick MATERIALS of the reference. Vertical 9:16, eye-level view from an open inspection aperture in the closed door into this enclosed small room. Interior back wall is solid damp gray brick, close and enclosed, ceiling low with dark wooden beams. A narrow flight of three submerged stone steps rises against the back wall. Deep murky floodwater fills most of the room, surface close below the inspection aperture. A heavy horizontal water-control spindle projects from the right brick wall above the water with its bare square brass socket visible. The walls, steps and timber are plain practical sluice construction. Cool daylight enters from the camera-side aperture and reflects on the water, dim warm reflected lamp light. Clearly enclosed interior geography, the back wall occupies the whole background. Empty room architecture study.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/SET_WHEEL_INTERIOR_v01.png"
+  },
+  "references": {
+    "参考/场景/03_南仓账房与货架.jpg": "a86625b3cf51b0a90ca2981196857fdeb1f84017f320bd015d77317e53c6dadd"
+  },
+  "body": {
+    "prompt": "Empty interior wheel-control room of an ancient Chinese river sluice, high-quality Chinese 3D animated environment matching the timber and gray brick MATERIALS of the reference. Vertical 9:16, eye-level view from an open inspection aperture in the closed door into this enclosed small room. Interior back wall is solid damp gray brick, close and enclosed, ceiling low with dark wooden beams. A narrow flight of three submerged stone steps rises against the back wall. Deep murky floodwater fills most of the room, surface close below the inspection aperture. A heavy horizontal water-control spindle projects from the right brick wall above the water with its bare square brass socket visible. The walls, steps and timber are plain practical sluice construction. Cool daylight enters from the camera-side aperture and reflects on the water, dim warm reflected lamp light. Clearly enclosed interior geography, the back wall occupies the whole background. Empty room architecture study.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac239/lUGJ--qaSDiZ3BL-rZN2y_03_%3F%3F%3F%3F%3F%3F%3F.jpg"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae50-611a-7b71-ab06-a438f6d71f4e",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae50-611a-7b71-ab06-a438f6d71f4e",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae50-611a-7b71-ab06-a438f6d71f4e/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae50-611a-7b71-ab06-a438f6d71f4e/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae50-611a-7b71-ab06-a438f6d71f4e",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae50-611a-7b71-ab06-a438f6d71f4e",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae50-611a-7b71-ab06-a438f6d71f4e/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae50-611a-7b71-ab06-a438f6d71f4e/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 65.58100008964539
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac298/ef5OWk5jMFZ8cwTGe7x54_fb11f80b0a8a4d66aac096902e9103f6.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "fb11f80b0a8a4d66aac096902e9103f6.jpg",
+        "file_size": 398747,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 1650086928
+  },
+  "output_sha256": "773cab5ee21e8d144aa4153bd9b05e471fe6e2367008c191988c71afdeee5d2c"
+}

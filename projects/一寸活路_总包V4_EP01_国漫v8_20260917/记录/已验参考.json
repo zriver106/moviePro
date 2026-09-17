@@ -66,5 +66,86 @@
     "sha256": "0ebca8a9c0e6c84080856a9d5a78b11a5c107e92ce1eb14f838ba010c8a6c97f",
     "scope": "已目视的布局纠偏输入；低位索圈仍断开，待单项修改",
     "editing_input_only": true
+  },
+  "资产/PROP_FORK_v01.png": {
+    "sha256": "ed2256e38121de55dc463a272656f1caea0f016e79279a19279b7d58fd1b9289",
+    "scope": "完整双齿船叉道具主板目视通过"
+  },
+  "资产/SET_GATE_v03.png": {
+    "sha256": "307ef54e3425cbcd6e73e0fc327a51b8b26874947316319447a63297e7912f2d",
+    "scope": "索圈已接续；继续补固定横撑，完整机关未放行",
+    "editing_input_only": true
+  },
+  "首帧/SF_S14_v01.png": {
+    "sha256": "a56d949ba6938f6738579e1745db58a13e2fa3ee150b0a7303039b39e56954bd",
+    "scope": "待纠偏：双脚应并住；中景多出悬空索环且坠石消失",
+    "editing_input_only": true
+  },
+  "资产/SET_GATE_v04.png": {
+    "sha256": "a52a9cdb004727bddb86afc0f800c67c9291bf038893c9c3030dad993b7f4593",
+    "scope": "固定横撑及独立转轮已可辨；制动楔接触位置仍需校正",
+    "editing_input_only": true
+  },
+  "首帧/SF_S14_v02.png": {
+    "sha256": "0e077fc24c8112216d21971045d9d6056c4e874b83cd9dd21f27dd078a747e13",
+    "scope": "待纠偏：模型新增赤脚，双脚绳仍分绕，坠石未落架",
+    "editing_input_only": true
+  },
+  "资产/SET_GATE_v05.png": {
+    "sha256": "a1da6724524e1843c0b22fb0e5ecbf930589d45c8598d74269cf6cd1e9a08bf2",
+    "scope": "旧闸建筑/材料可用；远景楔位置仍不清楚，S12近景必须证明接触",
+    "editing_input_only": true
+  },
+  "首帧/SF_S05_v01.png": {
+    "sha256": "21a7c2cf4533eab6f32542d7f748551aff9c3d3d75036866a903064d820889f9",
+    "scope": "锥尖触到铜片左缘、左掌未抵握柄，需纠偏",
+    "editing_input_only": true
+  },
+  "首帧/SF_S14_v03.png": {
+    "sha256": "6befa611185c8fa1a3b1bb79ce5a9cb721f40ca189af07f64a2a28e19dd8d0e4",
+    "scope": "靴子恢复、双脚并住；坠石与承架仍有间隙，待修正",
+    "editing_input_only": true
+  },
+  "首帧/SF_S01_v01.png": {
+    "sha256": "20545b7f5e02b457c79ee5f7b8f0872cd5bc2ffc52ca49cd5b65d1892874e006",
+    "scope": "木牌平面和两人身份通过；可供后拉后构图，开镜需更近"
+  },
+  "预演/布局/S12接触布局.png": {
+    "sha256": "501adf3bb1fe20bbf8bb701a9d3abea849fcc8c5d61d9dab99333b1abf35301f",
+    "scope": "总包既定动作的接触结构示意：脚在圈内、叉接固定撑、双手接制动楔、石落承架；非最终画面"
+  },
+  "首帧/S14_石架局部输入.png": {
+    "sha256": "3c09fae30b8f54e1f7648395a2f131c2ba0a91da523695bfc7f61c2d8e2c44e7",
+    "scope": "原图裁出的局部编辑输入，修石架接触后合回原尺寸",
+    "editing_input_only": true
+  },
+  "首帧/SF_S12_v02.png": {
+    "sha256": "e71405e972c569eec69e7fb4a1cb0dad9afd2d6e589e8ed655f7de099b95910f",
+    "scope": "布局图成功固定人物、索圈与楔；叉头接触需下移至独立横撑",
+    "editing_input_only": true
+  },
+  "资产/SET_WHEEL_INTERIOR_v01.png": {
+    "sha256": "773cab5ee21e8d144aa4153bd9b05e471fe6e2367008c191988c71afdeee5d2c",
+    "scope": "内轮房建筑及水面参考通过；角色镜另核颈部水位",
+    "editing_input_only": true
+  },
+  "首帧/SF_S14_v05.png": {
+    "sha256": "dee6e5ad03ad990db18862edb1de3c4851d3c8364b8c075ec636f28c4e2073a5",
+    "scope": "S14动作预演起点已验：两人身份、仰卧浅水、靴及脚索、短绳挂柱、叉在可及处、石落承架；末态须由实际运动验证"
+  },
+  "预演/PREVIS_S14_v01.mp4": {
+    "sha256": "68c5574dc26cd20696389aba63f3322b918a462807cbdad483514f1cf8f78caa",
+    "editing_input_only": true,
+    "scope": "原视频纠错输入；2fps全段抽帧已验，单腕束缚及扫叉动作失败，禁止作成片"
+  },
+  "首帧/S12_叉杆接触局部输入.png": {
+    "sha256": "614a4d19bc439e511322b2f67d87854810bee3128d9f25b1914808603bf7244e",
+    "editing_input_only": true,
+    "scope": "已查看局部裁图：叉缺头且杆叠在轮前，绳错误套杆，需要纠偏"
+  },
+  "预演/S14edit_09.0s.jpg": {
+    "sha256": "166cb426299e43f2ee867dfaae22240e1e4ba499c17f156932fe43634831043a",
+    "editing_input_only": true,
+    "scope": "编辑失败片9秒原帧，用于制作双腕纠偏参考"
   }
 }

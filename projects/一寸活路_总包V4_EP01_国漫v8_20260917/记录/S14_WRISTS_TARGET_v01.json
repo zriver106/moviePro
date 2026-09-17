@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:01:53.654894+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "预演/S14edit_09.0s.jpg"
+    ],
+    "output": "首帧/S14_双腕修正参考_v01.png",
+    "body": {
+      "prompt": "Correct the stocky brown-robed man's arms in this exact frame. His TWO forearms rise together in parallel from his chest toward the tall wooden post. Show TWO anatomically distinct hands side by side with palms pressed together, TWO separate wrists touching side by side, and one common hemp-rope loop wrapped around BOTH wrists as a single bundle. The young man in blue tightens this shared rope around the pair of wrists and the adjacent wooden post. Both brown sleeves remain visible, each connected to its own elbow and forearm. Position the newly visible far hand immediately to the RIGHT of the existing hand in the image, its fingers pointing upward next to the existing fingers. Keep the same two characters, camera angle, wooden post, shallow water and 3D Chinese animation rendering. Restore the small white characters at the lower center to the underlying brown wet clothing texture. This is a precise pose correction of the two bound arms.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    }
+  },
+  "references": {
+    "预演/S14edit_09.0s.jpg": "166cb426299e43f2ee867dfaae22240e1e4ba499c17f156932fe43634831043a"
+  },
+  "body": {
+    "prompt": "Correct the stocky brown-robed man's arms in this exact frame. His TWO forearms rise together in parallel from his chest toward the tall wooden post. Show TWO anatomically distinct hands side by side with palms pressed together, TWO separate wrists touching side by side, and one common hemp-rope loop wrapped around BOTH wrists as a single bundle. The young man in blue tightens this shared rope around the pair of wrists and the adjacent wooden post. Both brown sleeves remain visible, each connected to its own elbow and forearm. Position the newly visible far hand immediately to the RIGHT of the existing hand in the image, its fingers pointing upward next to the existing fingers. Keep the same two characters, camera angle, wooden post, shallow water and 3D Chinese animation rendering. Restore the small white characters at the lower center to the underlying brown wet clothing texture. This is a precise pose correction of the two bound arms.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac30b/UIEF_4wMjBdDcEh_cwR_d_S14edit_09.0s.jpg"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae62-ef5a-7340-88f4-4c2520792055",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae62-ef5a-7340-88f4-4c2520792055",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae62-ef5a-7340-88f4-4c2520792055/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae62-ef5a-7340-88f4-4c2520792055/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae62-ef5a-7340-88f4-4c2520792055",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae62-ef5a-7340-88f4-4c2520792055",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae62-ef5a-7340-88f4-4c2520792055/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae62-ef5a-7340-88f4-4c2520792055/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 37.532999992370605
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac30f/sFYoDBR1tthCIneq_Gg85_0296388d2f63480bb825abd532625b7c.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "0296388d2f63480bb825abd532625b7c.jpg",
+        "file_size": 368841,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 852721910
+  },
+  "output_sha256": "51f46eda312106c556513a7573554aa94afc9cd0c07b74bef2e6e205545a7250"
+}

@@ -1,0 +1,77 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:38:20.227520+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/SET_GATE_v03.png",
+      "资产/CHAR_WX_v01.png",
+      "资产/CHAR_GH_v01.png",
+      "资产/CHAR_AL_v01.png"
+    ],
+    "body": {
+      "prompt": "Vertical 9:16 single cinematic frame, Chinese 3D animated period drama. Camera is outside the closed wooden wheel-room door seen in image 1, at the open head-height inspection aperture, fifty millimeter fixed view looking through the aperture into the small flooded room. Visible wooden aperture edges form a close foreground frame. Exactly three adults with the identities from images 2, 3, 4 crowd narrow submerged interior steps at staggered depths. The young woman from image 2 is closest, gray-green plain jacket soaked dark, water at her clavicle. She raises a small warm-glowing enclosed oil lantern above the water with her right hand. Her left shoulder supports the gray-bearded elderly worker from image 3 who stands immediately behind and slightly left, his face and upper shoulders visible. The nineteen-year-old brown-clothed youth from image 4 stands behind and slightly higher right, his face above the water. Three clearly distinct faces are simultaneously readable through the aperture, all look toward the outside camera. The woman lips part as she draws breath to call. Cool reflected river light through the opening and warm lantern light across wet faces, physically shaded 3D animated faces and fabric matching the reference. The water is deep INSIDE this room.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "首帧/SF_S03_v01.png"
+  },
+  "references": {
+    "资产/SET_GATE_v03.png": "307ef54e3425cbcd6e73e0fc327a51b8b26874947316319447a63297e7912f2d",
+    "资产/CHAR_WX_v01.png": "e81120af9b69332c5f14c2757a6f82320d2bea8292c4021372591690282996a0",
+    "资产/CHAR_GH_v01.png": "6a1e06cdb3657d509a54abb63f4c049c345844601a05f8dfc26f45ed196d6c2e",
+    "资产/CHAR_AL_v01.png": "4bbd3506e751385169315f7e54f241cbcc087bace4b04259cb62eac81f6d55ab"
+  },
+  "body": {
+    "prompt": "Vertical 9:16 single cinematic frame, Chinese 3D animated period drama. Camera is outside the closed wooden wheel-room door seen in image 1, at the open head-height inspection aperture, fifty millimeter fixed view looking through the aperture into the small flooded room. Visible wooden aperture edges form a close foreground frame. Exactly three adults with the identities from images 2, 3, 4 crowd narrow submerged interior steps at staggered depths. The young woman from image 2 is closest, gray-green plain jacket soaked dark, water at her clavicle. She raises a small warm-glowing enclosed oil lantern above the water with her right hand. Her left shoulder supports the gray-bearded elderly worker from image 3 who stands immediately behind and slightly left, his face and upper shoulders visible. The nineteen-year-old brown-clothed youth from image 4 stands behind and slightly higher right, his face above the water. Three clearly distinct faces are simultaneously readable through the aperture, all look toward the outside camera. The woman lips part as she draws breath to call. Cool reflected river light through the opening and warm lantern light across wet faces, physically shaded 3D animated faces and fabric matching the reference. The water is deep INSIDE this room.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac265/wNGsLA57OEDqYhHeVOcEy_SET_GATE_v03.png",
+      "https://v3b.fal.media/files/b/0aaac27e/im_qziuN_iHS4EshSKX4D_CHAR_WX_v01.png",
+      "https://v3b.fal.media/files/b/0aaac27e/L98t9Z6fRBjXzVu0k96VY_CHAR_GH_v01.png",
+      "https://v3b.fal.media/files/b/0aaac27e/ohganKizQTmQSDNHbt-gY_CHAR_AL_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae4d-65fa-7a90-a578-7c36ef51694e",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4d-65fa-7a90-a578-7c36ef51694e",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4d-65fa-7a90-a578-7c36ef51694e/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4d-65fa-7a90-a578-7c36ef51694e/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae4d-65fa-7a90-a578-7c36ef51694e",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4d-65fa-7a90-a578-7c36ef51694e",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4d-65fa-7a90-a578-7c36ef51694e/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4d-65fa-7a90-a578-7c36ef51694e/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 70.34600019454956
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac285/Ef8JZMN64d-2NMN91F3DO_9bbf56204d034db8815b960bdb4b5155.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "9bbf56204d034db8815b960bdb4b5155.jpg",
+        "file_size": 337117,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 16969850
+  },
+  "output_sha256": "b17d4bbf065740ac7478fecca8ff3396f5dfa3c2e49d676703fccbcba19f677d"
+}

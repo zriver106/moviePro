@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:34:19.003136+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/SET_GATE_v03.png"
+    ],
+    "body": {
+      "prompt": "Preserve this image layout exactly. Add one sturdy rectangular horizontal wooden crossbrace across the FRONT of the winch, joining the two upright posts twenty centimeters BELOW the rotating drum axle. This fixed crossbrace sits forward from the round drum with a clear open gap between them. The crossbrace meets the front left upright leaving a narrow open slot for a wooden pole to catch against. Show the brace and its separation from the drum clearly. Preserve the continuous rope path, hanging stone, its catch cradle, ladder, door, lighting and water.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/SET_GATE_v04.png"
+  },
+  "references": {
+    "资产/SET_GATE_v03.png": "307ef54e3425cbcd6e73e0fc327a51b8b26874947316319447a63297e7912f2d"
+  },
+  "body": {
+    "prompt": "Preserve this image layout exactly. Add one sturdy rectangular horizontal wooden crossbrace across the FRONT of the winch, joining the two upright posts twenty centimeters BELOW the rotating drum axle. This fixed crossbrace sits forward from the round drum with a clear open gap between them. The crossbrace meets the front left upright leaving a narrow open slot for a wooden pole to catch against. Show the brace and its separation from the drum clearly. Preserve the continuous rope path, hanging stone, its catch cradle, ladder, door, lighting and water.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac265/wNGsLA57OEDqYhHeVOcEy_SET_GATE_v03.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae49-b146-79a3-b49d-ecc1be091ae8",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae49-b146-79a3-b49d-ecc1be091ae8",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae49-b146-79a3-b49d-ecc1be091ae8/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae49-b146-79a3-b49d-ecc1be091ae8/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae49-b146-79a3-b49d-ecc1be091ae8",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae49-b146-79a3-b49d-ecc1be091ae8",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae49-b146-79a3-b49d-ecc1be091ae8/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae49-b146-79a3-b49d-ecc1be091ae8/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 56.16200017929077
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac26b/Q9dDLCPxP4-1SFpXBIaqf_cd60cc934b7f47e48315b96c64e0ba87.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "cd60cc934b7f47e48315b96c64e0ba87.jpg",
+        "file_size": 594629,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 511267540
+  },
+  "output_sha256": "a52a9cdb004727bddb86afc0f800c67c9291bf038893c9c3030dad993b7f4593"
+}

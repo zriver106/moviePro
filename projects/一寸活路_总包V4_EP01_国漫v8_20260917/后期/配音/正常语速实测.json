@@ -3,24 +3,28 @@
     "shot": "S01",
     "duration": 3.703594,
     "shot_budget": 5,
-    "fits": true
+    "fits": true,
+    "note": "时长适配已通过；ASR有同音字偏差，S16两种听写不同，保留待最终音频验收，不据此改词"
   },
   {
     "shot": "S02",
     "duration": 9.206719,
     "shot_budget": 11,
-    "fits": true
+    "fits": true,
+    "note": "时长适配已通过；ASR有同音字偏差，S16两种听写不同，保留待最终音频验收，不据此改词"
   },
   {
     "shot": "S04",
     "duration": 4.388594,
     "shot_budget": 5,
-    "fits": true
+    "fits": true,
+    "note": "时长适配已通过；ASR有同音字偏差，S16两种听写不同，保留待最终音频验收，不据此改词"
   },
   {
     "shot": "S16",
     "duration": 4.260875,
     "shot_budget": 9,
-    "fits": true
+    "fits": true,
+    "note": "时长适配已通过；ASR有同音字偏差，S16两种听写不同，保留待最终音频验收，不据此改词"
   }
 ]

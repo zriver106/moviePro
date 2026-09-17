@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:40:40.244974+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "首帧/SF_S14_v03.png"
+    ],
+    "body": {
+      "prompt": "Show the completed restraint end state of this exact two-person scene, Chinese 3D animation. Same ground-level camera gently closer. The blue-gray young man is now kneeling over the prone ochre man with one knee pressed on his upper chest and wet sleeve and shirt front. The ochre man remains flat on his back, head above shallow water. His two wrists are pressed together beside his head at the BASE of the left winch post. The short hemp rope previously hanging on that post is now looped around his joined wrists, wrapped tightly around the post foot, and its tail held firmly in the small wooden rope cleat. Both arms are visibly restrained by that actual rope-to-post connection. His two booted ankles remain bound tightly together in the exact existing rope. His brass crank stays on the waist sash. The boat fork lies farther into the foreground, a full arm length beyond his fingertips. The stone in the middle background rests directly on the top rails of its wooden catch cradle. Preserve both faces, the original costumes, water depth and light. A tense still at the end of his failed struggle, young man looking down at the secured wrists.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "首帧/EF_S14_v01.png"
+  },
+  "references": {
+    "首帧/SF_S14_v03.png": "6befa611185c8fa1a3b1bb79ce5a9cb721f40ca189af07f64a2a28e19dd8d0e4"
+  },
+  "body": {
+    "prompt": "Show the completed restraint end state of this exact two-person scene, Chinese 3D animation. Same ground-level camera gently closer. The blue-gray young man is now kneeling over the prone ochre man with one knee pressed on his upper chest and wet sleeve and shirt front. The ochre man remains flat on his back, head above shallow water. His two wrists are pressed together beside his head at the BASE of the left winch post. The short hemp rope previously hanging on that post is now looped around his joined wrists, wrapped tightly around the post foot, and its tail held firmly in the small wooden rope cleat. Both arms are visibly restrained by that actual rope-to-post connection. His two booted ankles remain bound tightly together in the exact existing rope. His brass crank stays on the waist sash. The boat fork lies farther into the foreground, a full arm length beyond his fingertips. The stone in the middle background rests directly on the top rails of its wooden catch cradle. Preserve both faces, the original costumes, water depth and light. A tense still at the end of his failed struggle, young man looking down at the secured wrists.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac28b/SOo2ZGgTIubWiTn_HHvC8_SF_S14_v03.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae4f-7e6c-72d3-aced-f618b8b2266e",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4f-7e6c-72d3-aced-f618b8b2266e",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4f-7e6c-72d3-aced-f618b8b2266e/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4f-7e6c-72d3-aced-f618b8b2266e/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae4f-7e6c-72d3-aced-f618b8b2266e",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4f-7e6c-72d3-aced-f618b8b2266e",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4f-7e6c-72d3-aced-f618b8b2266e/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae4f-7e6c-72d3-aced-f618b8b2266e/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 63.65400004386902
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac292/XbSE8w33rd1vNZXL1eT10_bef3925a0966451dac5938a1bda5db54.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "bef3925a0966451dac5938a1bda5db54.jpg",
+        "file_size": 525794,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 2010245911
+  },
+  "output_sha256": "1ec53f5dab4cf5e7e38e3b50cce56607b879f202ac7854b0689141458b698415"
+}

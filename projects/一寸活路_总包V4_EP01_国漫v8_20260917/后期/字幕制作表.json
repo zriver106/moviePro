@@ -1,0 +1,85 @@
+{
+  "status": "文字来源已核，尚非成片字幕时间轴",
+  "burn_in_tracks": 1,
+  "bgm": false,
+  "remove_model_burned_text_before_assembly": true,
+  "entries": [
+    {
+      "shot": "EP01-S01",
+      "episode_window": "00:00—00:05",
+      "source_text": "陆照画外音：“我叫陆照。水籍上，我已经死了。”",
+      "timing_status": "待视频及最终声音验收后对齐",
+      "single_track": true
+    },
+    {
+      "shot": "EP01-S02",
+      "episode_window": "00:05—00:16",
+      "source_text": "陆照画外音：“六个月前，父亲被判私开大闸，家产没了。我逃出来，名字却留在了死册上。”",
+      "timing_status": "待视频及最终声音验收后对齐",
+      "single_track": true
+    },
+    {
+      "shot": "EP01-S03",
+      "episode_window": "00:16—00:22",
+      "source_text": "闻溪：“三个人！先开门！关水的轮子在里面！”",
+      "timing_status": "待视频及最终声音验收后对齐",
+      "single_track": true
+    },
+    {
+      "shot": "EP01-S04",
+      "episode_window": "00:22—00:27",
+      "source_text": "陆照画外音：“排水保货，货主答应给我二百四十铜。”",
+      "timing_status": "待视频及最终声音验收后对齐",
+      "single_track": true
+    },
+    {
+      "shot": "EP01-S05",
+      "episode_window": "00:27—00:33",
+      "source_text": "闻溪隔门：“里面有木舌，得顶过去！”",
+      "timing_status": "待视频及最终声音验收后对齐",
+      "single_track": true
+    },
+    {
+      "shot": "EP01-S06",
+      "episode_window": "00:33—00:37",
+      "source_text": "麻铎：“门不用开了。”",
+      "timing_status": "待视频及最终声音验收后对齐",
+      "single_track": true
+    },
+    {
+      "shot": "EP01-S07",
+      "episode_window": "00:37—00:42",
+      "source_text": "陆照：“他们还活着。”麻铎：“账上没有。”",
+      "timing_status": "待视频及最终声音验收后对齐",
+      "single_track": true
+    },
+    {
+      "shot": "EP01-S09",
+      "episode_window": "00:46—00:50",
+      "source_text": "麻铎：“拿这点钱买命？”",
+      "timing_status": "待视频及最终声音验收后对齐",
+      "single_track": true
+    },
+    {
+      "shot": "EP01-S14",
+      "episode_window": "01:02—01:12",
+      "source_text": "麻铎：“放开！”",
+      "timing_status": "待视频及最终声音验收后对齐",
+      "single_track": true
+    },
+    {
+      "shot": "EP01-S16",
+      "episode_window": "01:15—01:24",
+      "source_text": "老人记忆画外音：“每亲手击败一个新的真敌，直刺就永久添一痕。”",
+      "timing_status": "待视频及最终声音验收后对齐",
+      "single_track": true
+    },
+    {
+      "shot": "EP01-S19",
+      "episode_window": "01:32—01:38",
+      "source_text": "闻溪：“还有他们！”",
+      "timing_status": "待视频及最终声音验收后对齐",
+      "single_track": true
+    }
+  ]
+}

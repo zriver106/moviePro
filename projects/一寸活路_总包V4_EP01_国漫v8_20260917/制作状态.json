@@ -1,9 +1,22 @@
 {
-  "stage": "第一集状态资产制作",
+  "stage": "画面执行受阻：S14原片编辑未修好双腕，S12机构接触未成立；本轮停止新增付费调用",
   "source_locked": true,
   "text_review_binding": "passed",
   "shots": 19,
   "seconds": 98,
-  "generated_videos": 0,
-  "delivery_ready": false
+  "generated_videos": 2,
+  "delivery_ready": false,
+  "approved_character_bases": 5,
+  "approved_props": 2,
+  "voiceover_timing": "4条正常语速均在本镜预算内",
+  "submitted_video_jobs": 2,
+  "accepted_video_shots": 0,
+  "bgm": false,
+  "subtitle_tracks": 1,
+  "active_provider_jobs": 0,
+  "blockers": [
+    "S14原片与编辑版均为单腕束缚、手扫叉；修正静帧的双前臂连接亦不清",
+    "S12叉杆/吊索/绳轮接触不成立，静态纠偏尚未通过",
+    "S03高水位、肩部支撑与持灯手臂关系仍需修正"
+  ]
 }
