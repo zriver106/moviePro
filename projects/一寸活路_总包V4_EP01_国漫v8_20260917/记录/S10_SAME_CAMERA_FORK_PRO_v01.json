@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:26:26.885601+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "参考/S10原片2秒.png"
+    ],
+    "output": "首帧/S10_SAME_CAMERA_FORK_PRO_v01.png",
+    "body": {
+      "prompt": "Edit this exact frame. Lower the brown man’s fishing fork into a steep downward diagonal: the plain wooden butt stays beside his left shoulder, his hands grip the shaft at chest and waist height, and the black two-pronged head points downward-right through the inside corner between the winch LEFT vertical post and the fixed horizontal crossbar just BELOW the rotating rope drum. The wooden shaft is jammed firmly at that corner. His elbows bend as he tries pulling the trapped fork toward his body. Preserve his feet and rope loop. Keep the blue-clothed man at the right holding the exact awl in his exact pose. Preserve the whole winch, suspended stone, pulley, camera and lighting.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "参考/S10原片2秒.png": "00298c3b3c040e8c734c3f264c27614deb1c36a7b757be8cd3ae9a08c565325f"
+  },
+  "body": {
+    "prompt": "Edit this exact frame. Lower the brown man’s fishing fork into a steep downward diagonal: the plain wooden butt stays beside his left shoulder, his hands grip the shaft at chest and waist height, and the black two-pronged head points downward-right through the inside corner between the winch LEFT vertical post and the fixed horizontal crossbar just BELOW the rotating rope drum. The wooden shaft is jammed firmly at that corner. His elbows bend as he tries pulling the trapped fork toward his body. Preserve his feet and rope loop. Keep the blue-clothed man at the right holding the exact awl in his exact pose. Preserve the whole winch, suspended stone, pulley, camera and lighting.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac506/7Z77L1Yft5iVihFzB2DHG_S10%3F%3F2%3F.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aeb0-59eb-7580-a29f-cfe622b555eb",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb0-59eb-7580-a29f-cfe622b555eb",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb0-59eb-7580-a29f-cfe622b555eb/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb0-59eb-7580-a29f-cfe622b555eb/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0aeb0-59eb-7580-a29f-cfe622b555eb",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb0-59eb-7580-a29f-cfe622b555eb",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb0-59eb-7580-a29f-cfe622b555eb/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb0-59eb-7580-a29f-cfe622b555eb/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 114.19400000572205
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac512/QwhLUvgoGAcpvcf3W70l6_657f894ecd284106be962e142dc3737b.png",
+        "content_type": "image/png",
+        "file_name": "657f894ecd284106be962e142dc3737b.png",
+        "file_size": 6021292,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "07590cb0676a80ed05fd501f4669aa5b00904880c703fb3d8850d67652413814"
+}

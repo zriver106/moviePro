@@ -6,10 +6,20 @@
     "problems": [
       "鱼叉未卡住固定横档与立柱，后续被自由抬起"
     ],
-    "next": "原视频编辑固定鱼叉接触点"
+    "next": "保留原片与已审参考；当前编辑方法未修好卡点，停止同方向重复付费尝试",
+    "editing_v02": {
+      "status": "failed",
+      "output": "预演/EDIT_S10_SAME_CAMERA_v02.mp4",
+      "inspection": "2fps全段：低卡点未落实，尾段仍整叉举过头顶；未取用"
+    },
+    "editing_v03": {
+      "status": "failed",
+      "output": "预演/EDIT_S10_FORK_LOCAL_REF_v03.mp4",
+      "inspection": "4fps全段：仅首帧低叉姿势，随后平刺再举过头顶，未建立固定卡点"
+    }
   },
   "S11": {
-    "status": "failed",
+    "status": "passed",
     "note": "S14已提交10秒实际预演，其余待合格起点；不得以图片通过替代视频动作通过",
     "output": "预演/PREVIS_S11_v01.mp4",
     "problems": [
@@ -20,14 +30,28 @@
       "status": "failed",
       "output": "预演/EDIT_S11_FORK_v02.mp4",
       "inspection": "2fps全段：鱼叉仍离开固定横档，自由抬至肩高，未修复"
+    },
+    "approved_output": "预演/EDIT_S11_SAME_CAMERA_v03.mp4",
+    "use_range_seconds": [
+      0,
+      2
+    ],
+    "inspection": "全段2fps与0/0.75/1.5/2秒原尺寸：前2秒完成放锥、双手抓楔；叉保持斜下卡在固定横档与左柱下方，未抬离；双脚仍在原圈中。",
+    "editing_v03": {
+      "status": "passed",
+      "use_range_seconds": [
+        0,
+        2
+      ],
+      "output": "预演/EDIT_S11_SAME_CAMERA_v03.mp4"
     }
   },
   "S12": {
-    "status": "failed",
+    "status": "passed",
     "source": "首帧/SF_S12_PRO_v06.png",
     "output": "预演/PREVIS_S12_v01.mp4",
     "note": "首帧单头鱼叉、索圈与楔位置已查，提交首次4秒物理预演，尚未验收",
-    "inspection": "4fps全段及0/1.5/2.25秒原尺寸检查，拔楔与鼓旋转可辨",
+    "inspection": "最终3秒72帧：4fps全段检查；先拔楔，转鼓与单圈收双踝，重石落最高承架，固定吊轮用局部合成稳定。",
     "problems": [
       "固定上吊轮跟随石下降",
       "石穿过上层承架落到下层",
@@ -38,6 +62,31 @@
       "status": "failed",
       "output": "预演/EDIT_S12_CONTACT_v02.mp4",
       "inspection": "4fps全段复核：上吊轮仍下降，重石穿上层承架，脚索增殖；不可替换原片"
+    },
+    "editing_v03": {
+      "status": "component_improved",
+      "output": "预演/EDIT_S12_SAME_CAMERA_v03.mp4",
+      "inspection": "2fps全段：脚索已变为一圈束双踝；吊轮仍下降、石仍落低一层，转局部机关编辑"
+    },
+    "approved_output": "视频/已验/EP001_S12.mp4",
+    "local_composite": {
+      "base": "预演/EDIT_S12_SAME_CAMERA_v03.mp4",
+      "mechanism": "预演/EDIT_S12_MECHANISM_LOCAL_v04.mp4",
+      "region": [
+        300,
+        200,
+        240,
+        450
+      ],
+      "pulley_fixed_region": [
+        365,
+        230,
+        68,
+        143
+      ],
+      "mechanism_delay_frames": 15,
+      "speed_factor": 1.3333333333333333,
+      "sha256": "38c6ad0472651943efa1e2b290b21c00aff0ca4eda1659b5746feb4234b4e6ae"
     }
   },
   "S13": {
@@ -56,7 +105,7 @@
       "4—10秒仅单腕被束，另一只腕没有并拢",
       "8.5秒后模型烧入中文字幕，需恢复干净画面供后期统一字幕"
     ],
-    "next": "原片局部时段+空间裁剪，集中修正第二前臂，验收后再无缝合成；其余镜头并行推进。",
+    "next": "保留双腕已修局部和原片，踢叉编辑仍受阻；不重新生成",
     "editing_v02": {
       "output": "预演/EDIT_S14_v02.mp4",
       "status": "failed",
@@ -136,6 +185,16 @@
         "开头仍为手推鱼叉，等待踢叉原片编辑",
         "整镜动作连续性尚未通过"
       ]
+    },
+    "editing_v10": {
+      "status": "failed",
+      "output": "预演/EDIT_S14_SAME_CAMERA_BOOT_v10.mp4",
+      "inspection": "4fps全段：0—0.25秒出现靴尖接叉，0.5秒收回，1—1.25秒仍是手推叉；未形成脚踢事件，不替换原片"
+    },
+    "editing_v11": {
+      "status": "failed",
+      "output": "预演/EDIT_S14_NATIVE_MOTION_v11.mp4",
+      "inspection": "4fps全段：同机位局部动作引导未转移，1—1.25秒仍手推叉，未形成脚踢"
     }
   }
 }

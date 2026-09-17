@@ -1,5 +1,5 @@
 {
-  "state": "submitted",
+  "state": "downloaded_unreviewed",
   "started_at": "2026-09-17T09:21:52.160692+00:00",
   "spec": {
     "capability": "video",
@@ -47,5 +47,26 @@
     "logs": null,
     "metrics": {},
     "queue_position": 0
-  }
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0aeac-2895-7eb3-8f6d-330031f24fec",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeac-2895-7eb3-8f6d-330031f24fec",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeac-2895-7eb3-8f6d-330031f24fec/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeac-2895-7eb3-8f6d-330031f24fec/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 420.5
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac515/o1GvmzSSMGCM_dHCE--9n_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 1876707
+    },
+    "seed": 492963582
+  },
+  "output_sha256": "cf80bf97e680a5235c2d9c01d500cbecb8fcaa16b323340f05cd82a3476e856f"
 }

@@ -1,30 +1,32 @@
 {
-  "stage": "原片编辑与关键帧补齐",
+  "stage": "原片关键动作编辑受阻，整集未完成",
   "source_locked": true,
   "text_review_binding": "passed",
   "shots": 19,
   "seconds": 98,
-  "generated_videos": 14,
+  "generated_videos": 21,
   "delivery_ready": false,
   "approved_character_bases": 5,
   "approved_props": 2,
   "voiceover_timing": "12条人声已制作，98秒草稿轨已导出；S03关水纠音经Scribe回读正确，口型时间待视频复验",
-  "submitted_video_jobs": 18,
-  "accepted_video_shots": 0,
+  "submitted_video_jobs": 22,
+  "accepted_video_shots": 2,
   "bgm": false,
   "subtitle_tracks": 1,
-  "active_provider_jobs": 3,
+  "active_provider_jobs": 0,
   "blockers": [
-    "S10、S11鱼叉脱卡，S11同机位纠偏编辑处理中",
-    "S12机关运动错误，同机位目标末态编辑处理中",
-    "S14双腕局部已有改善并合回；踢叉同机位编辑处理中",
-    "S13已回片，落地朝向与S14衔接待修，其余视频未完成"
+    "S10卡叉：两轮原片编辑仍举叉脱卡",
+    "S14脚踢：原片编辑及同机位动作引导仍输出手推",
+    "S13落地朝向与S14原片接续未解决",
+    "其余14镜视频未制作，静态参考存在未闭环项"
   ],
-  "updated_at": "2026-09-17T09:22:25.360070+00:00",
-  "active_jobs": [
-    "EDIT_S11_SAME_CAMERA_v03",
-    "EDIT_S12_SAME_CAMERA_v03",
-    "EDIT_S14_SAME_CAMERA_BOOT_v10"
+  "updated_at": "2026-09-17T09:59:36.114832+00:00",
+  "active_jobs": [],
+  "regeneration_allowed": false,
+  "accepted_shots": [
+    "S11",
+    "S12"
   ],
-  "regeneration_allowed": false
+  "accepted_seconds": 5,
+  "next_action_policy": "没有新的有效编辑依据时不重复付费；已有视频只编辑，不自动重生或改成reference"
 }

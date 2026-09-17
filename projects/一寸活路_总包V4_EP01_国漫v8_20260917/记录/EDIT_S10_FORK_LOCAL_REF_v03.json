@@ -1,0 +1,72 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:48:04.570655+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/PREVIS_S10_v01.mp4",
+      "参考/S10同机位持叉纠偏局部.png"
+    ],
+    "output": "预演/EDIT_S10_FORK_LOCAL_REF_v03.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video 1. Replace the brown man’s fork orientation and arm pose throughout the clip with the LOW DOWNWARD DIAGONAL shown in @Image 1. At 0-0.8 seconds his hands thrust this downward-pointing fork forward. Its head passes below the fixed crossbar and the shaft strikes the inside corner of the left post. At 0.8-4 seconds the head stays trapped at this corner, below the drum, while his elbows bend and he tugs backward on the shaft. Keep the blue man’s original rightward dodge, his awl, character identities, boots, loose floor rope loop, camera and lighting."
+    }
+  },
+  "references": {
+    "预演/PREVIS_S10_v01.mp4": "2a8b82088c44442abb282c8356212a5060b01b412fd75926d44e0eadc8dfd9f8",
+    "参考/S10同机位持叉纠偏局部.png": "fee680de35444f504f05ef13c477ce95cb105f3fff3330c4d022f16e23c511bc"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "720p",
+    "generate_audio": false,
+    "prompt": "Edit @Video 1. Replace the brown man’s fork orientation and arm pose throughout the clip with the LOW DOWNWARD DIAGONAL shown in @Image 1. At 0-0.8 seconds his hands thrust this downward-pointing fork forward. Its head passes below the fixed crossbar and the shaft strikes the inside corner of the left post. At 0.8-4 seconds the head stays trapped at this corner, below the drum, while his elbows bend and he tugs backward on the shaft. Keep the blue man’s original rightward dodge, his awl, character identities, boots, loose floor rope loop, camera and lighting.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac588/lwIYb-fAQh03o1y2SRPlh_S10%3F%3F%3F%3F%3F%3F%3F%3F%3F.png"
+    ],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac539/njXiGEmywPZ04qFQDa5FH_PREVIS_S10_v01.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aec4-26f3-7552-8cf9-6358788755b4",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aec4-26f3-7552-8cf9-6358788755b4",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aec4-26f3-7552-8cf9-6358788755b4/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aec4-26f3-7552-8cf9-6358788755b4/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0aec4-26f3-7552-8cf9-6358788755b4",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aec4-26f3-7552-8cf9-6358788755b4",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aec4-26f3-7552-8cf9-6358788755b4/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aec4-26f3-7552-8cf9-6358788755b4/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 426.12199997901917
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac5b3/e5-XtNq8H88DO3X4lKY5B_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 3072859
+    },
+    "seed": 2006421038
+  },
+  "output_sha256": "429bc2ffc5526093bcad98c663e73999e255b687e790db5124333ba165799ac3"
+}

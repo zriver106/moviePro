@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:44:31.501771+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S07_PRO_v03.png"
+    ],
+    "output": "首帧/SF_S07_PRO_v04.png",
+    "body": {
+      "prompt": "Move the small wooden brake wedge into the winch brake: insert its thin tapered end tightly between the BOTTOM of the rotating rope cylinder and the TOP of the fixed support crossbar at the cylinder’s RIGHT rim. Its thicker grip projects toward the blue-clothed man. The former floor location of this wedge becomes continuous shallow rippling water. Preserve every other object, both men and their exact poses, loose rope, fork, awl, door and stone.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S07_PRO_v03.png": "349c6a6dfe2749b3c9a01b9e4c11aec97e169970824c6a531787420408cd4ba6"
+  },
+  "body": {
+    "prompt": "Move the small wooden brake wedge into the winch brake: insert its thin tapered end tightly between the BOTTOM of the rotating rope cylinder and the TOP of the fixed support crossbar at the cylinder’s RIGHT rim. Its thicker grip projects toward the blue-clothed man. The former floor location of this wedge becomes continuous shallow rippling water. Preserve every other object, both men and their exact poses, loose rope, fork, awl, door and stone.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac573/OYhjC_JSl3HW_V_4azyrv_SF_S07_PRO_v03.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aec0-e74e-73b3-8627-41cbea65ccce",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aec0-e74e-73b3-8627-41cbea65ccce",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aec0-e74e-73b3-8627-41cbea65ccce/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aec0-e74e-73b3-8627-41cbea65ccce/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0aec0-e74e-73b3-8627-41cbea65ccce",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aec0-e74e-73b3-8627-41cbea65ccce",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aec0-e74e-73b3-8627-41cbea65ccce/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aec0-e74e-73b3-8627-41cbea65ccce/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 255.98800015449524
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac58c/OfZ2vPhuXEiNPycRJKgqg_44c93aa601ac4340a78c989115e4c501.png",
+        "content_type": "image/png",
+        "file_name": "44c93aa601ac4340a78c989115e4c501.png",
+        "file_size": 6385212,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "da28ae480cc874971628f7dd4025c05e36359b85c1d8f04a60d7ad3ff97b7ceb"
+}

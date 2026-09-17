@@ -425,5 +425,74 @@
   "参考/S11同机位持叉纠偏局部.png": {
     "sha256": "ae82a68463ca70c70c1578b55db0a934ccc7005f6b7d7c1581ed756b6f3451a4",
     "scope": "仅麻铎手臂、下斜叉杆与固定横档接触姿态；全图丢失脚索，故不采用全图"
+  },
+  "预演/S12机关原片局部.mp4": {
+    "sha256": "c3c9d51bde0c3c937f451df7ac58dab194798e2541da68e07acc7bb9c6df42db",
+    "scope": "原片机关同区域裁剪：初态固定吊轮，末态重石接触最高承架",
+    "editing_input_only": true
+  },
+  "参考/S12机关初态局部.png": {
+    "sha256": "f4e5cd0dc3393d468fc07e7a2dfee5797406e012b453d3e95de0ce69a31f5788",
+    "scope": "原片机关同区域裁剪：初态固定吊轮，末态重石接触最高承架",
+    "editing_input_only": false
+  },
+  "参考/S12机关末态局部.png": {
+    "sha256": "b72f115f3696c6be2e125d6b1014211dce3c2eb2322c728a347c5abfcaf33f95",
+    "scope": "原片机关同区域裁剪：初态固定吊轮，末态重石接触最高承架",
+    "editing_input_only": false
+  },
+  "参考/S10原片2秒.png": {
+    "sha256": "00298c3b3c040e8c734c3f264c27614deb1c36a7b757be8cd3ae9a08c565325f",
+    "editing_input_only": true,
+    "scope": "实际原片，鱼叉抬起待纠偏，陆照闪至右侧姿态保留"
+  },
+  "首帧/S10_SAME_CAMERA_FORK_PRO_v01.png": {
+    "sha256": "07590cb0676a80ed05fd501f4669aa5b00904880c703fb3d8850d67652413814",
+    "editing_input_only": true,
+    "scope": "持叉角度改善，但头仍重叠转鼓且卡点偏右，待下移"
+  },
+  "参考/S17铜片待修局部.png": {
+    "sha256": "d937845e24c1e35309fc6fd556cb655bc547226f1f7c1c46b42ef0ef8f9d9434",
+    "editing_input_only": true,
+    "scope": "局部检查确认左凹中央穿孔，需恢复浅凹实心铜底"
+  },
+  "首帧/SF_S07_PRO_v02.png": {
+    "sha256": "e2800d33bce53f11d555df76717e9ae789976ac5822c9066c50b52c135cd6233",
+    "editing_input_only": true,
+    "scope": "单尖黑锥正确，脚圈及楔位置待纠正"
+  },
+  "预演/PREVIS_S10_v01.mp4": {
+    "sha256": "2a8b82088c44442abb282c8356212a5060b01b412fd75926d44e0eadc8dfd9f8",
+    "editing_input_only": true,
+    "scope": "原片纠正输入；同机位目标已见叉杆与左柱横档接触、叉头在固定横档下方、转鼓独立"
+  },
+  "首帧/S10_SAME_CAMERA_FORK_PRO_v02.png": {
+    "sha256": "0adb079c98bd48f605da037dec6050f71c9c84f0cb35daa9092b66eaafbf38d4",
+    "editing_input_only": false,
+    "scope": "原片纠正输入；同机位目标已见叉杆与左柱横档接触、叉头在固定横档下方、转鼓独立"
+  },
+  "参考/S13原片2.5秒.png": {
+    "sha256": "8f124fc8e6389cf6258d591eba56dedcfc7d38b18b75603af6e0552b0442115d",
+    "editing_input_only": true,
+    "scope": "实际落地姿态，头脚方向需衔接S14"
+  },
+  "首帧/SF_S07_PRO_v03.png": {
+    "sha256": "349c6a6dfe2749b3c9a01b9e4c11aec97e169970824c6a531787420408cd4ba6",
+    "editing_input_only": true,
+    "scope": "继续局部纠正：S07仅楔位置；S17仅浅凹大小与明暗"
+  },
+  "首帧/S17_PLATE_LOCAL_PRO_v04.png": {
+    "sha256": "48986da53669a10818ea9172328d91f24b7c7ccea494806a88fed4a112d03992",
+    "editing_input_only": true,
+    "scope": "继续局部纠正：S07仅楔位置；S17仅浅凹大小与明暗"
+  },
+  "参考/S10同机位持叉纠偏局部.png": {
+    "sha256": "fee680de35444f504f05ef13c477ce95cb105f3fff3330c4d022f16e23c511bc",
+    "scope": "已见麻铎低斜持叉，左柱横档下的正确卡点，仅姿态与道具局部"
+  },
+  "预演/布局/S14同机位局部踢叉动作引导_v04.mp4": {
+    "sha256": "2281416d03ad1b901470573c60cb13e71c9313d7269142780de7fe645824b9cd",
+    "editing_input_only": true,
+    "scope": "局部腿部动作引导；靴底在1秒接触叉杆并踢离，髋部连接保留；背景修补属引导辅助，不作交付，不复制其纹理"
   }
 }

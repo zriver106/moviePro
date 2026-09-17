@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:32:11.578386+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S07_PRO_v02.png"
+    ],
+    "output": "首帧/SF_S07_PRO_v03.png",
+    "body": {
+      "prompt": "Correct the floor rope and wooden brake wedge in this frame. Bring the brown-clothed man’s two boots close together under his torso at the far LEFT. Place the empty loose oval rope loop on the water BETWEEN the two men, immediately in front of the left winch post, with clearly visible water separating every boot from the loop. The blue man’s boots remain on the RIGHT. Seat the small wooden brake wedge tightly beneath the RIGHT rim of the rotating drum, in its wooden brake slot at the young man’s knee level. The water at the former wedge position is clear rippling water. Preserve the single-point awl, threatened abdomen, two faces, clothing, wooden door and lighting.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S07_PRO_v02.png": "e2800d33bce53f11d555df76717e9ae789976ac5822c9066c50b52c135cd6233"
+  },
+  "body": {
+    "prompt": "Correct the floor rope and wooden brake wedge in this frame. Bring the brown-clothed man’s two boots close together under his torso at the far LEFT. Place the empty loose oval rope loop on the water BETWEEN the two men, immediately in front of the left winch post, with clearly visible water separating every boot from the loop. The blue man’s boots remain on the RIGHT. Seat the small wooden brake wedge tightly beneath the RIGHT rim of the rotating drum, in its wooden brake slot at the young man’s knee level. The water at the former wedge position is clear rippling water. Preserve the single-point awl, threatened abdomen, two faces, clothing, wooden door and lighting.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac529/0nQeGJZgJeeTgIVjhJUoW_SF_S07_PRO_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aeb5-9c24-7e73-ab14-ac766ddd9335",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb5-9c24-7e73-ab14-ac766ddd9335",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb5-9c24-7e73-ab14-ac766ddd9335/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb5-9c24-7e73-ab14-ac766ddd9335/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0aeb5-9c24-7e73-ab14-ac766ddd9335",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb5-9c24-7e73-ab14-ac766ddd9335",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb5-9c24-7e73-ab14-ac766ddd9335/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb5-9c24-7e73-ab14-ac766ddd9335/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 119.73799991607666
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac535/v0A8_wpR38mHtrl95dm46_ea6ec3f2840e464aa354fa2fd7c047f5.png",
+        "content_type": "image/png",
+        "file_name": "ea6ec3f2840e464aa354fa2fd7c047f5.png",
+        "file_size": 6349284,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "349c6a6dfe2749b3c9a01b9e4c11aec97e169970824c6a531787420408cd4ba6"
+}

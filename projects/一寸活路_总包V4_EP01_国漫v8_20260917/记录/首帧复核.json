@@ -102,5 +102,29 @@
     "issues": [
       "左侧出现深圆坑疑似穿孔，与首次失败仅浅凹不符；不作为视频起点"
     ]
+  },
+  {
+    "asset": "首帧/S13_SAME_CAMERA_LANDING_PRO_v01.png",
+    "status": "pending_or_rejected",
+    "sha256": "947a4ada6b963e664c154aa25b1182dc15b9c5c463538c4eadf55d84a4964704",
+    "issues": [
+      "头位改善，但腿未按目标朝右，增加膝部绳圈；不能用于视频编辑"
+    ]
+  },
+  {
+    "asset": "首帧/SF_S17_局部合成_v06.png",
+    "status": "pending_or_rejected",
+    "sha256": "a98ad330122fc9611e78bf896314bd64ba45c11b6890de55964cea3774b02cfc",
+    "issues": [
+      "左侧凹痕仍呈明显深孔观感，未达到首次失败浅凹状态"
+    ]
+  },
+  {
+    "asset": "首帧/SF_S07_PRO_v04.png",
+    "status": "pending_or_rejected",
+    "sha256": "da28ae480cc874971628f7dd4025c05e36359b85c1d8f04a60d7ad3ff97b7ceb",
+    "issues": [
+      "木楔已移离地面，但外形呈分叉长木，静态仍需核实与已验S11/S12制动楔一致性"
+    ]
   }
 ]

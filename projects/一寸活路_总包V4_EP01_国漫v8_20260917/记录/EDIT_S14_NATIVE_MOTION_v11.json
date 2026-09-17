@@ -1,0 +1,71 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:49:31.259430+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/S14原片前4秒完整机位.mp4",
+      "预演/布局/S14同机位局部踢叉动作引导_v04.mp4"
+    ],
+    "output": "预演/EDIT_S14_NATIVE_MOTION_v11.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video 1, the original master clip. Replace the fork-displacing action with the RIGHT LEG KICK demonstrated in @Video 2. @Video 2 is a same-camera movement guide: the black boot extends, its sole contacts the wooden shaft at second 1, and its kick sends the intact fork sliding away toward the lower-right. Transfer this leg and fork movement into @Video 1 at seconds 0.5-1.5. Both young man’s hands remain pressing the brown man’s wrist and chest during the kick. Keep @Video 1 as the source of faces, body anatomy, costumes, water texture, lighting, camera movement and the subsequent reach for the rope. Render the corrected leg continuously connected to the right hip and knee through the kick and recovery."
+    }
+  },
+  "references": {
+    "预演/S14原片前4秒完整机位.mp4": "e17b8fe3510d5be0c4cc552d9de1f22bcb576602fe72e8aa57e06f6791b4b523",
+    "预演/布局/S14同机位局部踢叉动作引导_v04.mp4": "2281416d03ad1b901470573c60cb13e71c9313d7269142780de7fe645824b9cd"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "720p",
+    "generate_audio": false,
+    "prompt": "Edit @Video 1, the original master clip. Replace the fork-displacing action with the RIGHT LEG KICK demonstrated in @Video 2. @Video 2 is a same-camera movement guide: the black boot extends, its sole contacts the wooden shaft at second 1, and its kick sends the intact fork sliding away toward the lower-right. Transfer this leg and fork movement into @Video 1 at seconds 0.5-1.5. Both young man’s hands remain pressing the brown man’s wrist and chest during the kick. Keep @Video 1 as the source of faces, body anatomy, costumes, water texture, lighting, camera movement and the subsequent reach for the rope. Render the corrected leg continuously connected to the right hip and knee through the kick and recovery.",
+    "image_urls": [],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac4da/TMrIx6BTMmSAhdzz0Gs_y_S14%3F%3F%3F4%3F%3F%3F%3F%3F.mp4",
+      "https://v3b.fal.media/files/b/0aaac591/WugcLl0kv5B81KcsYC594_S14%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F_v04.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aec5-78ac-7423-9a2b-43a643c0db82",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aec5-78ac-7423-9a2b-43a643c0db82",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aec5-78ac-7423-9a2b-43a643c0db82/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aec5-78ac-7423-9a2b-43a643c0db82/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0aec5-78ac-7423-9a2b-43a643c0db82",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aec5-78ac-7423-9a2b-43a643c0db82",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aec5-78ac-7423-9a2b-43a643c0db82/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aec5-78ac-7423-9a2b-43a643c0db82/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 395.28600001335144
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac5b8/FY3BHpEE6ttH-hrpG8wOV_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 4091659
+    },
+    "seed": 1524299377
+  },
+  "output_sha256": "1feff3d9af409b12b4c804ec3b39c585193afc4c1a661ce820ebb5587b4e3fc9"
+}

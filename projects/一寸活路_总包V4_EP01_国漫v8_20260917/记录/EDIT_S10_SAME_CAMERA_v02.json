@@ -1,0 +1,72 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:34:54.357721+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/PREVIS_S10_v01.mp4",
+      "首帧/S10_SAME_CAMERA_FORK_PRO_v02.png"
+    ],
+    "output": "预演/EDIT_S10_SAME_CAMERA_v02.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video 1. Keep the brown man’s initial thrust and the young man dodging to the right. Correct the fishing fork trajectory: after the thrust its iron head passes BELOW the fixed wooden crossbar and the shaft catches in the corner with the LEFT vertical post. From second 1 onward use the exact downward shaft and bent arm pose in @Image 1, the corrected frame from this same camera. The head stays trapped below the crossbar while the brown man makes a short unsuccessful upward tug and slides his grip down the shaft. The rotating rope drum stays clearly separate above the trapped shaft. Preserve both character identities, the young man’s dodge and awl, boots, floor rope loop, camera, lighting and duration."
+    }
+  },
+  "references": {
+    "预演/PREVIS_S10_v01.mp4": "2a8b82088c44442abb282c8356212a5060b01b412fd75926d44e0eadc8dfd9f8",
+    "首帧/S10_SAME_CAMERA_FORK_PRO_v02.png": "0adb079c98bd48f605da037dec6050f71c9c84f0cb35daa9092b66eaafbf38d4"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "720p",
+    "generate_audio": false,
+    "prompt": "Edit @Video 1. Keep the brown man’s initial thrust and the young man dodging to the right. Correct the fishing fork trajectory: after the thrust its iron head passes BELOW the fixed wooden crossbar and the shaft catches in the corner with the LEFT vertical post. From second 1 onward use the exact downward shaft and bent arm pose in @Image 1, the corrected frame from this same camera. The head stays trapped below the crossbar while the brown man makes a short unsuccessful upward tug and slides his grip down the shaft. The rotating rope drum stays clearly separate above the trapped shaft. Preserve both character identities, the young man’s dodge and awl, boots, floor rope loop, camera, lighting and duration.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac539/mFE5B2GVZqD5RGrEuxKUH_S10_SAME_CAMERA_FORK_PRO_v02.png"
+    ],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac539/njXiGEmywPZ04qFQDa5FH_PREVIS_S10_v01.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aeb8-1ebc-7850-beca-5ba3780b12be",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeb8-1ebc-7850-beca-5ba3780b12be",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeb8-1ebc-7850-beca-5ba3780b12be/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeb8-1ebc-7850-beca-5ba3780b12be/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0aeb8-1ebc-7850-beca-5ba3780b12be",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeb8-1ebc-7850-beca-5ba3780b12be",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeb8-1ebc-7850-beca-5ba3780b12be/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeb8-1ebc-7850-beca-5ba3780b12be/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 437.1870000362396
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac565/oGuWZQh8g5jPd5mjWuiDb_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 3140344
+    },
+    "seed": 96587136
+  },
+  "output_sha256": "0c75da562de01cb22c875b54393bfb4c436ed09acb995c66cbab9f36a1f76a1e"
+}

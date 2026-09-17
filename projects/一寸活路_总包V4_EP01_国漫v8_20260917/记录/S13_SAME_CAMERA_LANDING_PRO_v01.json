@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:41:48.004599+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "参考/S13原片2.5秒.png",
+      "首帧/SF_S14_v05.png"
+    ],
+    "output": "首帧/S13_SAME_CAMERA_LANDING_PRO_v01.png",
+    "body": {
+      "prompt": "Edit image 1 to correct the fallen man’s orientation for the next shot shown in image 2. Keep the exact camera and winch from image 1. The brown man lies on his back across the foreground with his HEAD AT THE LEFT beside the left wooden post and his TIED ANKLES AT THE RIGHT. His face stays above shallow water. His two arms lie open beside his torso, both wrists free. The single rope loop joins both ankles and its taut lead returns to the winch. Place the intact two-pronged fork on the water in the lower-RIGHT foreground beside his right hand. The blue-clothed young man remains crouched at the RIGHT, turning left toward the fallen man’s chest, with his hands hovering just above the chest and nearest wrist as he approaches. Preserve identities, wet costumes, lighting, stone resting on the top catch and original frame composition.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "参考/S13原片2.5秒.png": "8f124fc8e6389cf6258d591eba56dedcfc7d38b18b75603af6e0552b0442115d",
+    "首帧/SF_S14_v05.png": "dee6e5ad03ad990db18862edb1de3c4851d3c8364b8c075ec636f28c4e2073a5"
+  },
+  "body": {
+    "prompt": "Edit image 1 to correct the fallen man’s orientation for the next shot shown in image 2. Keep the exact camera and winch from image 1. The brown man lies on his back across the foreground with his HEAD AT THE LEFT beside the left wooden post and his TIED ANKLES AT THE RIGHT. His face stays above shallow water. His two arms lie open beside his torso, both wrists free. The single rope loop joins both ankles and its taut lead returns to the winch. Place the intact two-pronged fork on the water in the lower-RIGHT foreground beside his right hand. The blue-clothed young man remains crouched at the RIGHT, turning left toward the fallen man’s chest, with his hands hovering just above the chest and nearest wrist as he approaches. Preserve identities, wet costumes, lighting, stone resting on the top catch and original frame composition.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac562/b20wJuHVJaCVrW4DckSTY_S13%3F%3F2.5%3F.png",
+      "https://v3b.fal.media/files/b/0aaac2bd/gF81C1zzQYI-Gy3J0eVrU_SF_S14_v05.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aebe-6865-7222-8a69-0b90a86f2e17",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aebe-6865-7222-8a69-0b90a86f2e17",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aebe-6865-7222-8a69-0b90a86f2e17/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aebe-6865-7222-8a69-0b90a86f2e17/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0aebe-6865-7222-8a69-0b90a86f2e17",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aebe-6865-7222-8a69-0b90a86f2e17",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aebe-6865-7222-8a69-0b90a86f2e17/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aebe-6865-7222-8a69-0b90a86f2e17/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 114.32599997520447
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac56e/j40D_LZNHTL3B5LiYhEOp_3aa45a1da3de4014947753ac809011b9.png",
+        "content_type": "image/png",
+        "file_name": "3aa45a1da3de4014947753ac809011b9.png",
+        "file_size": 6053588,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "947a4ada6b963e664c154aa25b1182dc15b9c5c463538c4eadf55d84a4964704"
+}

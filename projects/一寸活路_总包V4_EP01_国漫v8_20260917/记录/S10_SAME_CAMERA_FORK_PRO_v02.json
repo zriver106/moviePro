@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:30:40.094332+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/S10_SAME_CAMERA_FORK_PRO_v01.png",
+      "参考/S11同机位持叉纠偏局部.png"
+    ],
+    "output": "首帧/S10_SAME_CAMERA_FORK_PRO_v02.png",
+    "body": {
+      "prompt": "Correct the fishing fork in image 1 to the contact structure shown in image 2. Shift its iron head DOWNWARD and LEFTWARD, below the fixed front horizontal beam and immediately beside the LEFT vertical post. The entire iron head is BELOW that fixed horizontal beam. Its wooden shaft presses into the inner right face of the left post just under the beam, forming a trapped corner. The rope-wrapped rotating drum is clearly above the fork shaft with an open air gap. Adjust the brown man’s hands to retain their grip on the lowered diagonal shaft. Preserve the young man at the right, exact winch dimensions, stone, rope loop, feet, camera and lighting.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/S10_SAME_CAMERA_FORK_PRO_v01.png": "07590cb0676a80ed05fd501f4669aa5b00904880c703fb3d8850d67652413814",
+    "参考/S11同机位持叉纠偏局部.png": "ae82a68463ca70c70c1578b55db0a934ccc7005f6b7d7c1581ed756b6f3451a4"
+  },
+  "body": {
+    "prompt": "Correct the fishing fork in image 1 to the contact structure shown in image 2. Shift its iron head DOWNWARD and LEFTWARD, below the fixed front horizontal beam and immediately beside the LEFT vertical post. The entire iron head is BELOW that fixed horizontal beam. Its wooden shaft presses into the inner right face of the left post just under the beam, forming a trapped corner. The rope-wrapped rotating drum is clearly above the fork shaft with an open air gap. Adjust the brown man’s hands to retain their grip on the lowered diagonal shaft. Preserve the young man at the right, exact winch dimensions, stone, rope loop, feet, camera and lighting.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac520/YO6D1IiKfNSDupu-d17uW_S10_SAME_CAMERA_FORK_PRO_v01.png",
+      "https://v3b.fal.media/files/b/0aaac4eb/m8eS1ihYtBQrAd5tTn_6U_S11%3F%3F%3F%3F%3F%3F%3F%3F%3F.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aeb4-3756-77b1-9de7-98b869ba75c6",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb4-3756-77b1-9de7-98b869ba75c6",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb4-3756-77b1-9de7-98b869ba75c6/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb4-3756-77b1-9de7-98b869ba75c6/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0aeb4-3756-77b1-9de7-98b869ba75c6",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb4-3756-77b1-9de7-98b869ba75c6",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb4-3756-77b1-9de7-98b869ba75c6/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb4-3756-77b1-9de7-98b869ba75c6/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 132.28099989891052
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac52d/IAke4rPToXUwFzwlPv4XU_a54ccadffe7e496881712cf3e4ce5bc4.png",
+        "content_type": "image/png",
+        "file_name": "a54ccadffe7e496881712cf3e4ce5bc4.png",
+        "file_size": 7085469,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "0adb079c98bd48f605da037dec6050f71c9c84f0cb35daa9092b66eaafbf38d4"
+}

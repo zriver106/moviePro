@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:32:10.438996+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "参考/S17铜片待修局部.png"
+    ],
+    "output": "首帧/S17_PLATE_LOCAL_PRO_v04.png",
+    "body": {
+      "prompt": "Repair the circular indentation at the lower-left of this brass plate. Its center is solid continuous golden brass with the same metallic grain as the rest of the plate. The indentation is extremely shallow, half a millimeter deep, a small pressed oval with a faint highlight on its rim. Flatten the large dark bowl into this subtle shallow dent. Preserve the four rivets, black awl tip and shadow, rectangular plate outline, wooden door and exact camera perspective.",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "参考/S17铜片待修局部.png": "d937845e24c1e35309fc6fd556cb655bc547226f1f7c1c46b42ef0ef8f9d9434"
+  },
+  "body": {
+    "prompt": "Repair the circular indentation at the lower-left of this brass plate. Its center is solid continuous golden brass with the same metallic grain as the rest of the plate. The indentation is extremely shallow, half a millimeter deep, a small pressed oval with a faint highlight on its rim. Flatten the large dark bowl into this subtle shallow dent. Preserve the four rivets, black awl tip and shadow, rectangular plate outline, wooden door and exact camera perspective.",
+    "image_size": {
+      "width": 1024,
+      "height": 1024
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac529/pQji8aMdWfvVSuQWhQA9C_S17%3F%3F%3F%3F%3F%3F.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aeb5-9790-7cb2-9768-807c652e7f35",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb5-9790-7cb2-9768-807c652e7f35",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb5-9790-7cb2-9768-807c652e7f35/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb5-9790-7cb2-9768-807c652e7f35/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0aeb5-9790-7cb2-9768-807c652e7f35",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb5-9790-7cb2-9768-807c652e7f35",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb5-9790-7cb2-9768-807c652e7f35/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0aeb5-9790-7cb2-9768-807c652e7f35/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 106.5149998664856
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac533/tauRTnoOW2ZDTxpX3hpaA_2be2df76e0b44afb8eb1a8ffdc510a67.png",
+        "content_type": "image/png",
+        "file_name": "2be2df76e0b44afb8eb1a8ffdc510a67.png",
+        "file_size": 1707189,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "48986da53669a10818ea9172328d91f24b7c7ccea494806a88fed4a112d03992"
+}

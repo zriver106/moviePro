@@ -1,0 +1,75 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T09:24:47.254663+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/S12机关原片局部.mp4",
+      "参考/S12机关初态局部.png",
+      "参考/S12机关末态局部.png"
+    ],
+    "output": "预演/EDIT_S12_MECHANISM_LOCAL_v04.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video 1. Correct the mechanism movement between the exact initial state in @Image 1 and final state in @Image 2. The small black overhead pulley is fixed to the ceiling and stays at its initial height throughout all frames. The rectangular stone moves straight down a short distance until its bottom lands on TOP of the highest wooden catch platform, as in @Image 2. It stays on that platform for the rest of the clip. The pulley rope turns around the stationary pulley. Preserve the original brick wall, wooden frame, lighting and camera."
+    }
+  },
+  "references": {
+    "预演/S12机关原片局部.mp4": "c3c9d51bde0c3c937f451df7ac58dab194798e2541da68e07acc7bb9c6df42db",
+    "参考/S12机关初态局部.png": "f4e5cd0dc3393d468fc07e7a2dfee5797406e012b453d3e95de0ce69a31f5788",
+    "参考/S12机关末态局部.png": "b72f115f3696c6be2e125d6b1014211dce3c2eb2322c728a347c5abfcaf33f95"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "720p",
+    "generate_audio": false,
+    "prompt": "Edit @Video 1. Correct the mechanism movement between the exact initial state in @Image 1 and final state in @Image 2. The small black overhead pulley is fixed to the ceiling and stays at its initial height throughout all frames. The rectangular stone moves straight down a short distance until its bottom lands on TOP of the highest wooden catch platform, as in @Image 2. It stays on that platform for the rest of the clip. The pulley rope turns around the stationary pulley. Preserve the original brick wall, wooden frame, lighting and camera.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac4fc/RBvvBYent08-VRebgYrVV_S12%3F%3F%3F%3F%3F%3F.png",
+      "https://v3b.fal.media/files/b/0aaac4fc/hzoohmzuRHWkEcD7ixqeQ_S12%3F%3F%3F%3F%3F%3F.png"
+    ],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac4fc/KcfQA-BtsljQllHidCMpg_S12%3F%3F%3F%3F%3F%3F.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0aeae-dd3d-7941-93a8-3b0331eb562c",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeae-dd3d-7941-93a8-3b0331eb562c",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeae-dd3d-7941-93a8-3b0331eb562c/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeae-dd3d-7941-93a8-3b0331eb562c/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0aeae-dd3d-7941-93a8-3b0331eb562c",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeae-dd3d-7941-93a8-3b0331eb562c",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeae-dd3d-7941-93a8-3b0331eb562c/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0aeae-dd3d-7941-93a8-3b0331eb562c/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 712.0310001373291
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac544/qt6NTMsp45e2YN5_yP15n_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 2240182
+    },
+    "seed": 85524767
+  },
+  "output_sha256": "e7c82a93a62bb1d0a7d6062401c06ab1c01e58deb4e96c4a607d12bd10d8c5dd"
+}
