@@ -1,0 +1,56 @@
+{
+  "seconds": 98,
+  "bgm": false,
+  "subtitle_layers": 1,
+  "parts": [
+    {
+      "source": "视频/首版素材/FIRSTCUT_A_S01_S04_v01.mp4",
+      "start": 0,
+      "end": 27,
+      "available": false
+    },
+    {
+      "source": "视频/首版素材/FIRSTCUT_B_S05_S09_v01.mp4",
+      "start": 27,
+      "end": 50,
+      "available": false
+    },
+    {
+      "source": "预演/PREVIS_S10_v01.mp4",
+      "start": 50,
+      "end": 53,
+      "available": true
+    },
+    {
+      "source": "视频/已验/EP001_S11.mp4",
+      "start": 53,
+      "end": 55,
+      "available": true
+    },
+    {
+      "source": "视频/已验/EP001_S12.mp4",
+      "start": 55,
+      "end": 58,
+      "available": true
+    },
+    {
+      "source": "预演/PREVIS_S13_v01.mp4",
+      "start": 58,
+      "end": 62,
+      "available": true
+    },
+    {
+      "source": "预演/S14双腕已修_踢叉待修.mp4",
+      "start": 62,
+      "end": 72,
+      "available": true
+    },
+    {
+      "source": "视频/首版素材/FIRSTCUT_C_S15_S19_v01.mp4",
+      "start": 72,
+      "end": 98,
+      "available": false
+    }
+  ],
+  "status": "awaiting_source_videos"
+}

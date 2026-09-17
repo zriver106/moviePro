@@ -1,0 +1,65 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T14:20:03.116527+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "first_cut": true,
+    "refs": [
+      "首帧/SF_S05_v02.png",
+      "首帧/SF_S06_v01.png",
+      "首帧/SF_S07_PRO_v04.png",
+      "首帧/SF_S12_PRO_v06.png"
+    ],
+    "output": "视频/首版素材/FIRSTCUT_B_S05_S09_v01.mp4",
+    "body": {
+      "task": "reference",
+      "duration": "23",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "generate_audio": true,
+      "prompt": "A finished sequence of Chinese 3D animated period drama, vertical 9:16. Sculpted expressive faces, physically shaded coarse linen and wet wood, cinematic restrained lighting, matching the supplied Seedream guoman character and set references. Keep the same faces, clothes, tools and room geography across every cut. Moving dramatic footage throughout. Use precisely the following timed shots and hard cuts. Each individual shot has continuous physically connected action. The frame contains the story world. Spoken Chinese lines are performed by the named character; narration belongs to the external narrator. Reference image 1 is Lu and the gate lock plate before the first failed thrust. Image 2 is Ma descending the stairs, his ochre costume and intact two-pronged fork. Image 3 is their face-off by the rope winch, Ma screen LEFT and Lu screen RIGHT. Image 4 shows the rope drum mechanism, overhead fixed pulley, hanging stone on its upper catch and floor ankle loop; it establishes the mechanism's layout for a later camera move. The fork has one intact wooden shaft and exactly two iron prongs. Lu carries one straight single-point black awl with hemp grip.\n0.0-6.0 seconds: Match image 1 camera, right boot braced against heel stop. Lu grips the awl with both hands and pushes it straight into the LEFT side of the brass lock plate. It leaves a shallow dent; the brass holds. His shoulders strain, then he withdraws the awl once. Through the aperture Wen speaks 里面有木舌，得顶过去！ at seconds 2.0-4.2. Keep the door closed and brass intact except the shallow left dent.\nHard cut at 6.0 seconds. 6.0-10.0 seconds: Match image 2. Ma descends the final step, kicks a wooden hook aside and bars Lu's path with the fork held horizontally. The small brass T crank at his right waist swings and clinks. At second 8.0 Ma says 门不用开了。\nHard cut at 10.0 seconds. 10.0-15.0 seconds: Match image 3. Lu retreats toward the waist-high wooden winch, keeping the awl at his waist. Ma follows at screen LEFT with fork tip near Lu's abdomen. Lu says 他们还活着。 at 10.5 seconds. Ma answers 账上没有。 at 13.0 seconds. Ma's boots stand outside the loose floor rope loop at this point.\nHard cut at 15.0 seconds. 15.0-19.0 seconds: A connected camera move follows Lu's brief glance to the brake wedge beside the rope drum, then tilts down to the loose ankle loop on the wet floor, then traces the SAME taut rope upward over its fixed pulley to the stone resting at the upper catch. Show a comprehensible single mechanical trap and its path.\nHard cut at 19.0 seconds. 19.0-23.0 seconds: Return to the face-off geometry, Lu screen RIGHT, Ma screen LEFT. Lu throws his small copper coin purse with his LEFT hand onto the wet floor just behind the loose rope loop. Ma tracks the purse with his eyes and takes two greedy steps into the loop while keeping both hands on his fork. Ma says 拿这点钱买命？ around seconds 20-21.8. End with both Ma boots planted inside the still-loose loop, fork aimed toward Lu, Lu's awl in his right hand."
+    }
+  },
+  "references": {
+    "首帧/SF_S05_v02.png": "5674f442bbd89b75343e914bb152ef74c5f0719d48f96fbe7818170036960a15",
+    "首帧/SF_S06_v01.png": "faae9fa453b427f0027c394bf5b21d404256e7ff013fc20acfdde8bca2e140f1",
+    "首帧/SF_S07_PRO_v04.png": "da28ae480cc874971628f7dd4025c05e36359b85c1d8f04a60d7ad3ff97b7ceb",
+    "首帧/SF_S12_PRO_v06.png": "afc88c65feb603988f6eb8086e610846edeffe2f35dc0889c5d536c59d03e361"
+  },
+  "body": {
+    "task": "reference",
+    "duration": "23",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "prompt": "A finished sequence of Chinese 3D animated period drama, vertical 9:16. Sculpted expressive faces, physically shaded coarse linen and wet wood, cinematic restrained lighting, matching the supplied Seedream guoman character and set references. Keep the same faces, clothes, tools and room geography across every cut. Moving dramatic footage throughout. Use precisely the following timed shots and hard cuts. Each individual shot has continuous physically connected action. The frame contains the story world. Spoken Chinese lines are performed by the named character; narration belongs to the external narrator. Reference image 1 is Lu and the gate lock plate before the first failed thrust. Image 2 is Ma descending the stairs, his ochre costume and intact two-pronged fork. Image 3 is their face-off by the rope winch, Ma screen LEFT and Lu screen RIGHT. Image 4 shows the rope drum mechanism, overhead fixed pulley, hanging stone on its upper catch and floor ankle loop; it establishes the mechanism's layout for a later camera move. The fork has one intact wooden shaft and exactly two iron prongs. Lu carries one straight single-point black awl with hemp grip.\n0.0-6.0 seconds: Match image 1 camera, right boot braced against heel stop. Lu grips the awl with both hands and pushes it straight into the LEFT side of the brass lock plate. It leaves a shallow dent; the brass holds. His shoulders strain, then he withdraws the awl once. Through the aperture Wen speaks 里面有木舌，得顶过去！ at seconds 2.0-4.2. Keep the door closed and brass intact except the shallow left dent.\nHard cut at 6.0 seconds. 6.0-10.0 seconds: Match image 2. Ma descends the final step, kicks a wooden hook aside and bars Lu's path with the fork held horizontally. The small brass T crank at his right waist swings and clinks. At second 8.0 Ma says 门不用开了。\nHard cut at 10.0 seconds. 10.0-15.0 seconds: Match image 3. Lu retreats toward the waist-high wooden winch, keeping the awl at his waist. Ma follows at screen LEFT with fork tip near Lu's abdomen. Lu says 他们还活着。 at 10.5 seconds. Ma answers 账上没有。 at 13.0 seconds. Ma's boots stand outside the loose floor rope loop at this point.\nHard cut at 15.0 seconds. 15.0-19.0 seconds: A connected camera move follows Lu's brief glance to the brake wedge beside the rope drum, then tilts down to the loose ankle loop on the wet floor, then traces the SAME taut rope upward over its fixed pulley to the stone resting at the upper catch. Show a comprehensible single mechanical trap and its path.\nHard cut at 19.0 seconds. 19.0-23.0 seconds: Return to the face-off geometry, Lu screen RIGHT, Ma screen LEFT. Lu throws his small copper coin purse with his LEFT hand onto the wet floor just behind the loose rope loop. Ma tracks the purse with his eyes and takes two greedy steps into the loop while keeping both hands on his fork. Ma says 拿这点钱买命？ around seconds 20-21.8. End with both Ma boots planted inside the still-loose loop, fork aimed toward Lu, Lu's awl in his right hand.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac287/WO7UXBLXWcWf0K66F8qbn_c91af91e39114082bda863b8b01dd63f.jpg",
+      "https://v3b.fal.media/files/b/0aaac341/-5xc2IZwC6LcXJHs0M2gO_5b42df09dc294f21930e4d7689e76ce1.jpg",
+      "https://v3b.fal.media/files/b/0aaac58c/OfZ2vPhuXEiNPycRJKgqg_44c93aa601ac4340a78c989115e4c501.png",
+      "https://v3b.fal.media/files/b/0aaac3c7/J-BMXMFLhENijsuZ0mcJO_94098a9b08e84f468190dbbb6ef2ca21.png"
+    ],
+    "video_urls": []
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0afbd-2387-7f33-858a-bb7c58290710",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-2387-7f33-858a-bb7c58290710",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-2387-7f33-858a-bb7c58290710/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-2387-7f33-858a-bb7c58290710/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0afbd-2387-7f33-858a-bb7c58290710",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-2387-7f33-858a-bb7c58290710",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-2387-7f33-858a-bb7c58290710/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-2387-7f33-858a-bb7c58290710/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

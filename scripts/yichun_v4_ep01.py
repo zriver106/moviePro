@@ -15,6 +15,14 @@ def save(p,v):
 def submit(name):
     script_lock.require(PROJECT,1,'新总包素材制作')
     spec=read(P/'记录/任务规格.json')[name]
+    policy_path=P/'记录/首版制作流程.json'
+    policy=read(policy_path) if policy_path.exists() else {}
+    if policy.get('status')=='make_first_cut_then_user_review' and spec['body'].get('task')=='editing':
+        raise SystemExit('先交完整首版供用户看片；暂停新增画面编辑任务')
+    first_cut=False
+    if spec.get('first_cut'):
+        first_cut=policy.get('status')=='make_first_cut_then_user_review' and name in policy.get('missing_video_jobs',[])
+        if not first_cut:raise SystemExit('缺少首版缺失片段制作授权记录')
     log=P/'记录'/f'{name}.json'
     if log.exists():raise SystemExit(f'{name}已有提交记录，禁止重复生成；poll取回原任务')
     approved=read(P/'记录/已验参考.json')
@@ -32,11 +40,13 @@ def submit(name):
         if len(audio_refs)>10 or sum(durations)>30.2:
             raise SystemExit('配音参考总数或总时长超出官方限制')
     for ref in refs:
-        if approved.get(ref,{}).get('sha256')!=sha(P/ref):raise SystemExit(f'参考未验或已改变：{ref}')
+        entry=approved.get(ref,{})
+        cut_ref=policy.get('reference_hashes',{}).get(ref) if first_cut else None
+        if entry.get('sha256')!=sha(P/ref) and cut_ref!=sha(P/ref):raise SystemExit(f'参考未验或已改变：{ref}')
         original_for_edit=(spec['body'].get('task')=='editing' and Path(ref).suffix.lower()=='.mp4')
-        if spec['capability']=='video' and approved[ref].get('editing_input_only') and not original_for_edit:
+        if spec['capability']=='video' and entry.get('editing_input_only') and not original_for_edit and cut_ref!=sha(P/ref):
             raise SystemExit(f'纠偏输入尚不能作为视频参考：{ref}')
-    if spec['capability']=='video' and not spec.get('previs') and spec['body'].get('task')!='editing':
+    if spec['capability']=='video' and not first_cut and not spec.get('previs') and spec['body'].get('task')!='editing':
         gate=P/'预演/验收.json'
         if not gate.exists() or any(read(gate).get(f'S{n:02d}',{}).get('status')!='passed' for n in range(10,15)):
             raise SystemExit('S10—S14实际预演未全部通过，禁止铺开整集视频')

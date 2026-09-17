@@ -1,0 +1,30 @@
+{
+  "status": "make_first_cut_then_user_review",
+  "user_instruction": "流程有问题，98 秒做好了第一版视频应该发出来给我看看，修改什么问题等我看了再谈",
+  "missing_video_jobs": [
+    "FIRSTCUT_A_S01_S04_v01",
+    "FIRSTCUT_B_S05_S09_v01",
+    "FIRSTCUT_C_S15_S19_v01"
+  ],
+  "reference_hashes": {
+    "首帧/SF_S01_v01.png": "20545b7f5e02b457c79ee5f7b8f0872cd5bc2ffc52ca49cd5b65d1892874e006",
+    "首帧/SF_S02_PRO_v04.png": "445fe6dce5cbcf276158a17d0986e81e74ee87b05e253a6f2fb3e339382d44bd",
+    "首帧/SF_S03_PRO_v06.png": "f4cedf2e7beaf88f7d14a0250be4d6d69900a71864d90840f0fa5fb915c8c1ae",
+    "首帧/SF_S04_PRO_v02.png": "4f3af67bc62cd6fd03b82b7aceffe63b59dd05df935dceaf9d3082eda10e6268",
+    "首帧/SF_S05_v02.png": "5674f442bbd89b75343e914bb152ef74c5f0719d48f96fbe7818170036960a15",
+    "首帧/SF_S06_v01.png": "faae9fa453b427f0027c394bf5b21d404256e7ff013fc20acfdde8bca2e140f1",
+    "首帧/SF_S07_PRO_v04.png": "da28ae480cc874971628f7dd4025c05e36359b85c1d8f04a60d7ad3ff97b7ceb",
+    "首帧/SF_S12_PRO_v06.png": "afc88c65feb603988f6eb8086e610846edeffe2f35dc0889c5d536c59d03e361",
+    "首帧/SF_S15_PRO_v01.png": "a1d07f2dd2830652d48369afae5d58ceb68c619357e5dc01bfc9daa272263a0e",
+    "首帧/SF_S17_PRO_v02.png": "b1ba57a3d3d800c0656c59d5cfef5a336302c1edba8b441cb474978cbda5efc7",
+    "首帧/SF_S18_PRO_v03.png": "99eccf9c0ec8759ec907359675d9f9e89840afa95bece1506fe0573ac92d8b4c",
+    "首帧/EF_S19_PRO_v01.png": "8129c67aaa9ac34d94ac9c4f3ede6ee1a9c6bf96d5d91c994ca4f5084183d16e",
+    "首帧/SF_S11_PRO_v03.png": "8473c8cb71eb1b59605476b9d5c86f67875f8f9fc1b6d80e9cade719f2c615dc"
+  },
+  "scope": "首版参考；不代表旧画面问题已修好。仅制作此前缺失的0–50秒及72–98秒，已有50–72秒复用。",
+  "regenerate_existing_video": false,
+  "additional_repairs_before_user_review": false,
+  "seconds": 98,
+  "bgm": false,
+  "subtitle_tracks": 1
+}

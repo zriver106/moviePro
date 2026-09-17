@@ -1,0 +1,65 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T14:19:55.123800+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "first_cut": true,
+    "refs": [
+      "首帧/SF_S01_v01.png",
+      "首帧/SF_S02_PRO_v04.png",
+      "首帧/SF_S03_PRO_v06.png",
+      "首帧/SF_S04_PRO_v02.png"
+    ],
+    "output": "视频/首版素材/FIRSTCUT_A_S01_S04_v01.mp4",
+    "body": {
+      "task": "reference",
+      "duration": "27",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "generate_audio": true,
+      "prompt": "A finished sequence of Chinese 3D animated period drama, vertical 9:16. Sculpted expressive faces, physically shaded coarse linen and wet wood, cinematic restrained lighting, matching the supplied Seedream guoman character and set references. Keep the same faces, clothes, tools and room geography across every cut. Moving dramatic footage throughout. Use precisely the following timed shots and hard cuts. Each individual shot has continuous physically connected action. The frame contains the story world. Spoken Chinese lines are performed by the named character; narration belongs to the external narrator. Reference image 1 establishes the opening wooden registration plaque and Lu Zhao's face; image 2 establishes the stairs and flooded gate room; image 3 establishes the three trapped people through the small door aperture; image 4 establishes Lu at the gate and the intact brass lock plate.\n0.0-5.0 seconds: Tight close-up of the wooden plaque, clearly legible large black Chinese characters 陆照 and one large red Chinese character 亡. Ma's ochre-sleeved LEFT hand flips the plaque. Camera draws back gently to reveal young Lu's alert eyes above it. Hold the emotional reveal through second 5.\nHard cut at 5.0 seconds. 5.0-16.0 seconds: Follow Lu from the top of the three wooden stairs down into instep-deep water. Establish stairs at screen LEFT, heavy wooden gate at screen RIGHT, narrow standing ledge by the gate, wooden winch to the left of that ledge. Stocky Ma in ochre stays on the landing above with his long wooden two-pronged boat fork. A small brass T crank hangs at Ma's RIGHT waist. Lu looks toward the closed gate and advances through the water. The rope drum, hanging stone and loose floor rope loop are visible as spatial details. Let the eleven-second descent and advance play with natural movement and suspense.\nHard cut at 16.0 seconds. 16.0-22.0 seconds: From outside, frame the three trapped faces through the gate aperture matching image 3. Wen Xi in gray-green holds an oil lantern high and supports the elderly gray-bearded worker on her shoulder; young adult A Li is beside her. Water reaches their clavicles. Wen urgently speaks 三个人！先开门！关水的轮子在里面！ Her mouth starts moving at 16.4 and finishes about 20.1 seconds. The old man's head stays raised as water ripples.\nHard cut at 22.0 seconds. 22.0-27.0 seconds: Match image 4 composition. Lu places his right boot against the ledge's wooden heel stop, left boot braced in shallow water. He draws his single straight black steel awl, hemp-wrapped handle, and lifts it with both hands toward the intact brass lock plate at chest height. End poised at the left side of the plate. Door stays closed, lantern glows through the small aperture."
+    }
+  },
+  "references": {
+    "首帧/SF_S01_v01.png": "20545b7f5e02b457c79ee5f7b8f0872cd5bc2ffc52ca49cd5b65d1892874e006",
+    "首帧/SF_S02_PRO_v04.png": "445fe6dce5cbcf276158a17d0986e81e74ee87b05e253a6f2fb3e339382d44bd",
+    "首帧/SF_S03_PRO_v06.png": "f4cedf2e7beaf88f7d14a0250be4d6d69900a71864d90840f0fa5fb915c8c1ae",
+    "首帧/SF_S04_PRO_v02.png": "4f3af67bc62cd6fd03b82b7aceffe63b59dd05df935dceaf9d3082eda10e6268"
+  },
+  "body": {
+    "task": "reference",
+    "duration": "27",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "prompt": "A finished sequence of Chinese 3D animated period drama, vertical 9:16. Sculpted expressive faces, physically shaded coarse linen and wet wood, cinematic restrained lighting, matching the supplied Seedream guoman character and set references. Keep the same faces, clothes, tools and room geography across every cut. Moving dramatic footage throughout. Use precisely the following timed shots and hard cuts. Each individual shot has continuous physically connected action. The frame contains the story world. Spoken Chinese lines are performed by the named character; narration belongs to the external narrator. Reference image 1 establishes the opening wooden registration plaque and Lu Zhao's face; image 2 establishes the stairs and flooded gate room; image 3 establishes the three trapped people through the small door aperture; image 4 establishes Lu at the gate and the intact brass lock plate.\n0.0-5.0 seconds: Tight close-up of the wooden plaque, clearly legible large black Chinese characters 陆照 and one large red Chinese character 亡. Ma's ochre-sleeved LEFT hand flips the plaque. Camera draws back gently to reveal young Lu's alert eyes above it. Hold the emotional reveal through second 5.\nHard cut at 5.0 seconds. 5.0-16.0 seconds: Follow Lu from the top of the three wooden stairs down into instep-deep water. Establish stairs at screen LEFT, heavy wooden gate at screen RIGHT, narrow standing ledge by the gate, wooden winch to the left of that ledge. Stocky Ma in ochre stays on the landing above with his long wooden two-pronged boat fork. A small brass T crank hangs at Ma's RIGHT waist. Lu looks toward the closed gate and advances through the water. The rope drum, hanging stone and loose floor rope loop are visible as spatial details. Let the eleven-second descent and advance play with natural movement and suspense.\nHard cut at 16.0 seconds. 16.0-22.0 seconds: From outside, frame the three trapped faces through the gate aperture matching image 3. Wen Xi in gray-green holds an oil lantern high and supports the elderly gray-bearded worker on her shoulder; young adult A Li is beside her. Water reaches their clavicles. Wen urgently speaks 三个人！先开门！关水的轮子在里面！ Her mouth starts moving at 16.4 and finishes about 20.1 seconds. The old man's head stays raised as water ripples.\nHard cut at 22.0 seconds. 22.0-27.0 seconds: Match image 4 composition. Lu places his right boot against the ledge's wooden heel stop, left boot braced in shallow water. He draws his single straight black steel awl, hemp-wrapped handle, and lifts it with both hands toward the intact brass lock plate at chest height. End poised at the left side of the plate. Door stays closed, lantern glows through the small aperture.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac27c/f3DGXK1C3kYAji_4QOKec_7f6f9faf8bca4498b69856b80d8f235a.jpg",
+      "https://v3b.fal.media/files/b/0aaac402/6N4Nnn6OzYy0XBI6Fuc2W_ddf46616640043efb59d86749e0794ad.png",
+      "https://v3b.fal.media/files/b/0aaac3c8/p7kNOMh77e6dqn5U_DsWz_c6604e53460c4bb68e06190466f63ddf.png",
+      "https://v3b.fal.media/files/b/0aaac3c9/2pbTpIaQysm2G_VJ0V9gx_4c10f6aa1c864307b79743926d8e01a1.png"
+    ],
+    "video_urls": []
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0afbd-0459-7190-8bad-0ecf56b7c857",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-0459-7190-8bad-0ecf56b7c857",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-0459-7190-8bad-0ecf56b7c857/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-0459-7190-8bad-0ecf56b7c857/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0afbd-0459-7190-8bad-0ecf56b7c857",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-0459-7190-8bad-0ecf56b7c857",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-0459-7190-8bad-0ecf56b7c857/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-0459-7190-8bad-0ecf56b7c857/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

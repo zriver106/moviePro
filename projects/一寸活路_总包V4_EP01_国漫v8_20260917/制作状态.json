@@ -1,5 +1,5 @@
 {
-  "stage": "原片关键动作编辑受阻，整集未完成",
+  "stage": "首版补齐任务已提交；服务商账户TOP_UP锁定，部分结果暂不可取",
   "source_locked": true,
   "text_review_binding": "passed",
   "shots": 19,
@@ -13,20 +13,25 @@
   "accepted_video_shots": 2,
   "bgm": false,
   "subtitle_tracks": 1,
-  "active_provider_jobs": 0,
+  "active_provider_jobs": 2,
   "blockers": [
-    "S10卡叉：两轮原片编辑仍举叉脱卡",
-    "S14脚踢：原片编辑及同机位动作引导仍输出手推",
-    "S13落地朝向与S14原片接续未解决",
-    "其余14镜视频未制作，静态参考存在未闭环项"
+    "首版三段新素材尚未取回；C段结果接口返回账户TOP_UP锁定"
   ],
-  "updated_at": "2026-09-17T09:59:36.114832+00:00",
-  "active_jobs": [],
+  "updated_at": "2026-09-17T14:21:35.478233+00:00",
+  "active_jobs": [
+    "FIRSTCUT_A_S01_S04_v01",
+    "FIRSTCUT_B_S05_S09_v01"
+  ],
   "regeneration_allowed": false,
   "accepted_shots": [
     "S11",
     "S12"
   ],
   "accepted_seconds": 5,
-  "next_action_policy": "没有新的有效编辑依据时不重复付费；已有视频只编辑，不自动重生或改成reference"
+  "next_action_policy": "完成缺失剧情并合成首版；停止自行追加画面修复；已有视频不重新生成",
+  "first_cut_jobs_submitted": 3,
+  "first_cut_result_error": {
+    "job": "FIRSTCUT_C_S15_S19_v01",
+    "reason": "HTTP 403 User is locked. Reason: TOP_UP."
+  }
 }

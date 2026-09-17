@@ -1,0 +1,69 @@
+{
+  "state": "result_error",
+  "started_at": "2026-09-17T14:20:03.517139+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "first_cut": true,
+    "refs": [
+      "首帧/SF_S15_PRO_v01.png",
+      "首帧/SF_S17_PRO_v02.png",
+      "首帧/SF_S18_PRO_v03.png",
+      "首帧/EF_S19_PRO_v01.png",
+      "首帧/SF_S11_PRO_v03.png"
+    ],
+    "output": "视频/首版素材/FIRSTCUT_C_S15_S19_v01.mp4",
+    "body": {
+      "task": "reference",
+      "duration": "26",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "generate_audio": true,
+      "prompt": "A finished sequence of Chinese 3D animated period drama, vertical 9:16. Sculpted expressive faces, physically shaded coarse linen and wet wood, cinematic restrained lighting, matching the supplied Seedream guoman character and set references. Keep the same faces, clothes, tools and room geography across every cut. Moving dramatic footage throughout. Use precisely the following timed shots and hard cuts. Each individual shot has continuous physically connected action. The frame contains the story world. Spoken Chinese lines are performed by the named character; narration belongs to the external narrator. Reference image 1 establishes Lu's damp face and blue-gray clothes after subduing Ma beside the gate. Image 2 establishes the exterior lock plate camera and awl grip. Image 3 shows the interior wooden locking tongue behind that same brass plate. Image 4 establishes the final open-gate composition, Lu outside at LEFT, Wen at the doorway, the elderly worker and A Li still inside behind her. Image 5 establishes the rope winch and groove holding Lu's awl. The unconscious-looking position of Ma is actually a conscious restrained man: he remains breathing in shallow water, both wrists roped together to the winch post, ankles looped together, face above water.\n0.0-3.0 seconds: Matching image 1, Lu rises from the completed restraint with empty hands. A faint warm pulse flickers once beneath the cloth at his sternum; tiny dim marks N0 change to N1 briefly as part of the pulse. He immediately turns toward the gate where the lantern is sinking. His hands remain free at his sides through the rise.\nHard cut at 3.0 seconds. 3.0-12.0 seconds: In a fluid connected movement Lu picks his coin purse from the floor and tucks it into his cloth waist sash, retrieves the SAME straight black awl from the winch beam groove, then returns to the gate and braces his right boot against the wooden heel stop. Through the aperture Wen's water level reaches her lower lip and she raises the lantern higher. Lu brings both hands around the awl grip and aims at the undamaged RIGHT side of the brass lock plate. An external memory voice accompanies seconds 5-9.3: 每亲手击败一个新的真敌，直刺就永久添一痕。 Lu keeps his lips closed while concentrating. End firmly braced for the thrust.\nHard cut at 12.0 seconds. 12.0-16.0 seconds: Exact exterior medium close camera established in image 2, matching the episode's earlier failed-thrust composition. The plate bears a shallow dent on its LEFT side. Lu pushes the awl straight through the intact RIGHT side with both hands and full body pressure, clearly piercing the brass. His boots remain braced and the awl remains in the fresh hole.\nHard cut at 16.0 seconds. 16.0-20.0 seconds: Interior close-up matching image 3. The black awl tip protrudes through the plate's right-side hole and pushes the wooden locking tongue completely off its catch. The wooden tongue drops into the water; the gate loosens. The tip remains through the brass at the end of this shot.\nHard cut at 20.0 seconds. 20.0-26.0 seconds: Exterior wide shot moving toward image 4 final composition. Lu withdraws the awl ONCE, hooks it at his waist and braces one hand against the doorpost. He pulls the gate outward once. Water spills outward toward screen LEFT, away from the opening. His freed hand immediately grasps Wen's forearm to keep her upright. The elderly man's face remains high and A Li's face remains lower inside the chamber behind her. Wen urgently says 还有他们！ at seconds 24.7-25.7. End on their joined arms and the two people still waiting inside, with the open gate and running water visible."
+    }
+  },
+  "references": {
+    "首帧/SF_S15_PRO_v01.png": "a1d07f2dd2830652d48369afae5d58ceb68c619357e5dc01bfc9daa272263a0e",
+    "首帧/SF_S17_PRO_v02.png": "b1ba57a3d3d800c0656c59d5cfef5a336302c1edba8b441cb474978cbda5efc7",
+    "首帧/SF_S18_PRO_v03.png": "99eccf9c0ec8759ec907359675d9f9e89840afa95bece1506fe0573ac92d8b4c",
+    "首帧/EF_S19_PRO_v01.png": "8129c67aaa9ac34d94ac9c4f3ede6ee1a9c6bf96d5d91c994ca4f5084183d16e",
+    "首帧/SF_S11_PRO_v03.png": "8473c8cb71eb1b59605476b9d5c86f67875f8f9fc1b6d80e9cade719f2c615dc"
+  },
+  "body": {
+    "task": "reference",
+    "duration": "26",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "prompt": "A finished sequence of Chinese 3D animated period drama, vertical 9:16. Sculpted expressive faces, physically shaded coarse linen and wet wood, cinematic restrained lighting, matching the supplied Seedream guoman character and set references. Keep the same faces, clothes, tools and room geography across every cut. Moving dramatic footage throughout. Use precisely the following timed shots and hard cuts. Each individual shot has continuous physically connected action. The frame contains the story world. Spoken Chinese lines are performed by the named character; narration belongs to the external narrator. Reference image 1 establishes Lu's damp face and blue-gray clothes after subduing Ma beside the gate. Image 2 establishes the exterior lock plate camera and awl grip. Image 3 shows the interior wooden locking tongue behind that same brass plate. Image 4 establishes the final open-gate composition, Lu outside at LEFT, Wen at the doorway, the elderly worker and A Li still inside behind her. Image 5 establishes the rope winch and groove holding Lu's awl. The unconscious-looking position of Ma is actually a conscious restrained man: he remains breathing in shallow water, both wrists roped together to the winch post, ankles looped together, face above water.\n0.0-3.0 seconds: Matching image 1, Lu rises from the completed restraint with empty hands. A faint warm pulse flickers once beneath the cloth at his sternum; tiny dim marks N0 change to N1 briefly as part of the pulse. He immediately turns toward the gate where the lantern is sinking. His hands remain free at his sides through the rise.\nHard cut at 3.0 seconds. 3.0-12.0 seconds: In a fluid connected movement Lu picks his coin purse from the floor and tucks it into his cloth waist sash, retrieves the SAME straight black awl from the winch beam groove, then returns to the gate and braces his right boot against the wooden heel stop. Through the aperture Wen's water level reaches her lower lip and she raises the lantern higher. Lu brings both hands around the awl grip and aims at the undamaged RIGHT side of the brass lock plate. An external memory voice accompanies seconds 5-9.3: 每亲手击败一个新的真敌，直刺就永久添一痕。 Lu keeps his lips closed while concentrating. End firmly braced for the thrust.\nHard cut at 12.0 seconds. 12.0-16.0 seconds: Exact exterior medium close camera established in image 2, matching the episode's earlier failed-thrust composition. The plate bears a shallow dent on its LEFT side. Lu pushes the awl straight through the intact RIGHT side with both hands and full body pressure, clearly piercing the brass. His boots remain braced and the awl remains in the fresh hole.\nHard cut at 16.0 seconds. 16.0-20.0 seconds: Interior close-up matching image 3. The black awl tip protrudes through the plate's right-side hole and pushes the wooden locking tongue completely off its catch. The wooden tongue drops into the water; the gate loosens. The tip remains through the brass at the end of this shot.\nHard cut at 20.0 seconds. 20.0-26.0 seconds: Exterior wide shot moving toward image 4 final composition. Lu withdraws the awl ONCE, hooks it at his waist and braces one hand against the doorpost. He pulls the gate outward once. Water spills outward toward screen LEFT, away from the opening. His freed hand immediately grasps Wen's forearm to keep her upright. The elderly man's face remains high and A Li's face remains lower inside the chamber behind her. Wen urgently says 还有他们！ at seconds 24.7-25.7. End on their joined arms and the two people still waiting inside, with the open gate and running water visible.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac43c/9fWkyrYHCq5FLewIjDqLV_2a35cdd0fc1a40efaf2d66f4c0464987.png",
+      "https://v3b.fal.media/files/b/0aaac3cc/YY4xm_YeoStJH0J0R1EeM_66aa25e8a5d547a1b5ca2c6f9315985a.png",
+      "https://v3b.fal.media/files/b/0aaac400/Xap-ab6a6gTrhwLxDnkJm_6bab1d8013fc45639149cc2bdf58963a.png",
+      "https://v3b.fal.media/files/b/0aaac435/MqZAKuc4YfQWMaf_2AI34_5a0c5377a71540da97ad80008973076b.png",
+      "https://v3b.fal.media/files/b/0aaac42a/Vc3gGdhUHaea67Ikn1Xkx_813fbd98b1354901976df530527afa64.png"
+    ],
+    "video_urls": []
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0afbd-2507-7083-889a-4efe4618c52f",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-2507-7083-889a-4efe4618c52f",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-2507-7083-889a-4efe4618c52f/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-2507-7083-889a-4efe4618c52f/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0afbd-2507-7083-889a-4efe4618c52f",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-2507-7083-889a-4efe4618c52f",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-2507-7083-889a-4efe4618c52f/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-2507-7083-889a-4efe4618c52f/cancel",
+    "logs": null,
+    "metrics": {}
+  },
+  "error": "队列读取 403: {\"detail\":\"User is locked. Reason: TOP_UP.\"}"
+}
