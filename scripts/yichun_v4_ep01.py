@@ -59,7 +59,10 @@ def poll():
         if rec['state']=='COMPLETED':
             try:
                 result=provider.queue_read(rec['handle'],result=True);rec['result']=result
-                media=result.get('images',[{}])[0].get('url') if rec['spec']['capability']!='video' else result.get('video',{}).get('url')
+                capability=rec['spec']['capability']
+                if capability=='video':media=result.get('video',{}).get('url')
+                elif capability=='tts':media=result.get('audio',{}).get('url')
+                else:media=result.get('images',[{}])[0].get('url')
                 if not media:raise RuntimeError('服务完成但缺少素材地址')
                 target=P/rec['spec']['output'];target.parent.mkdir(parents=True,exist_ok=True)
                 provider.fetch(media,str(target));rec.update(state='downloaded_unreviewed',output_sha256=sha(target))

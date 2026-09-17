@@ -55,6 +55,7 @@ BACKENDS = {
         "edit": "https://fal.run/fal-ai/bytedance/seedream/v5/lite/edit",
         "asr": "https://fal.run/fal-ai/whisper",
         "asr_scribe": "https://fal.run/fal-ai/elevenlabs/speech-to-text/scribe-v2",
+        "tts": "https://fal.run/fal-ai/minimax/speech-2.8-hd",
         "video": {
             ("2.0", "i2v"): "https://fal.run/bytedance/seedance-2.0/fast/image-to-video",
             ("2.0", "ref"): "https://fal.run/bytedance/seedance-2.0/reference-to-video",
@@ -219,6 +220,10 @@ def queue_submit(capability, body, *, model="2.5", mode="i2v"):
                 "square_hd", "square", "portrait_4_3", "portrait_16_9",
                 "landscape_4_3", "landscape_16_9", "auto_2K", "auto_3K", "auto_4K"):
             raise ValueError("Seedream尺寸枚举无效，请使用官方枚举或width/height对象")
+    elif capability == "tts":
+        endpoint = _cfg()["tts"]
+        if not body.get("voice_setting", {}).get("voice_id"):
+            raise ValueError("配音必须指定固定voice_id")
     else:
         raise ValueError("不支持的队列能力")
     result, error = _post(endpoint.replace("https://fal.run/", "https://queue.fal.run/"), body, timeout=60)

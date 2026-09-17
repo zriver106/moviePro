@@ -1,0 +1,62 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:29:23.965323+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/PROP_AWL_v01.png"
+    ],
+    "body": {
+      "prompt": "Present the same single black steel awl with hemp-cord wrapped wooden handle on a completely plain uniformly light gray studio backdrop. The handle occupies two sevenths of its overall length; the four-sided black steel spike occupies five sevenths and gradually tapers along its entire length to a slender sharp point. Preserve materials, horizontal side view, lighting and total object proportions. All background space above and below the tool is flat uninterrupted light gray.",
+      "image_size": "landscape_16_9",
+      "num_images": 1
+    },
+    "output": "资产/PROP_AWL_v02.png"
+  },
+  "references": {
+    "资产/PROP_AWL_v01.png": "3664d5c2e8f901fe8fe424b011dde2237f69eaaf9dec1af781036d4a7a41b833"
+  },
+  "body": {
+    "prompt": "Present the same single black steel awl with hemp-cord wrapped wooden handle on a completely plain uniformly light gray studio backdrop. The handle occupies two sevenths of its overall length; the four-sided black steel spike occupies five sevenths and gradually tapers along its entire length to a slender sharp point. Preserve materials, horizontal side view, lighting and total object proportions. All background space above and below the tool is flat uninterrupted light gray.",
+    "image_size": "landscape_16_9",
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac248/44bk9i6gWe5kFlGP4RAeh_PROP_AWL_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae45-3056-7382-a43f-d195aa7a9ea2",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-3056-7382-a43f-d195aa7a9ea2",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-3056-7382-a43f-d195aa7a9ea2/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-3056-7382-a43f-d195aa7a9ea2/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 1
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae45-3056-7382-a43f-d195aa7a9ea2",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-3056-7382-a43f-d195aa7a9ea2",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-3056-7382-a43f-d195aa7a9ea2/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-3056-7382-a43f-d195aa7a9ea2/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 37.824000120162964
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac24c/3EJwNH6ireFDOIH9kgcwV_27c6c1aa3db44602b2d7173fde093366.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "27c6c1aa3db44602b2d7173fde093366.jpg",
+        "file_size": 257895,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 1017360091
+  },
+  "output_sha256": "01272a841a1743e63309e040e30fbccdbf11b419596a67232e57306afead93e1"
+}

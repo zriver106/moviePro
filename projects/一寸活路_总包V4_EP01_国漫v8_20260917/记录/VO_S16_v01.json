@@ -1,0 +1,65 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:30:23.516076+00:00",
+  "spec": {
+    "capability": "tts",
+    "refs": [],
+    "body": {
+      "prompt": "每亲手击败一个新的真敌，直刺就永久添一痕。",
+      "voice_setting": {
+        "voice_id": "male-qn-jingying",
+        "speed": 1.0,
+        "vol": 1.0,
+        "pitch": -3
+      },
+      "language_boost": "Chinese",
+      "output_format": "url"
+    },
+    "output": "后期/配音/VO_S16_v01.mp3",
+    "shot": "EP01-S16",
+    "purpose": "画外音正常语速试读，需实测时长及独立听写；正式对白逐字不改"
+  },
+  "references": {},
+  "body": {
+    "prompt": "每亲手击败一个新的真敌，直刺就永久添一痕。",
+    "voice_setting": {
+      "voice_id": "male-qn-jingying",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": -3
+    },
+    "language_boost": "Chinese",
+    "output_format": "url"
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae46-1602-7970-ad1c-c1e61d6608c9",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1602-7970-ad1c-c1e61d6608c9",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1602-7970-ad1c-c1e61d6608c9/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1602-7970-ad1c-c1e61d6608c9/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae46-1602-7970-ad1c-c1e61d6608c9",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1602-7970-ad1c-c1e61d6608c9",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1602-7970-ad1c-c1e61d6608c9/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1602-7970-ad1c-c1e61d6608c9/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 1.9279999732971191
+    }
+  },
+  "result": {
+    "audio": {
+      "url": "https://v3b.fal.media/files/b/0aaac24e/WpFa6qs6H6jECNj5ACV71_speech.mp3",
+      "content_type": "audio/mpeg",
+      "file_name": "speech.mp3",
+      "file_size": 70836
+    },
+    "duration_ms": 4320
+  },
+  "output_sha256": "7169e8b0a2cedcee82c93a6cf00fa7a47353d75c33f952b79667e555535310bf"
+}

@@ -1,5 +1,5 @@
 {
-  "state": "IN_PROGRESS",
+  "state": "downloaded_unreviewed",
   "started_at": "2026-09-17T07:27:41.716513+00:00",
   "spec": {
     "capability": "edit",
@@ -41,12 +41,28 @@
     "queue_position": 0
   },
   "status": {
-    "status": "IN_PROGRESS",
+    "status": "COMPLETED",
     "request_id": "01a0ae43-9df1-74b3-9d75-7490e27140e9",
     "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9df1-74b3-9d75-7490e27140e9",
     "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9df1-74b3-9d75-7490e27140e9/status",
     "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9df1-74b3-9d75-7490e27140e9/cancel",
     "logs": null,
-    "metrics": {}
-  }
+    "metrics": {
+      "inference_time": 46.39400005340576
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac243/XZaiRoxFzIaPVCh-HzeQj_2c1ae27675b347f796c722618d4ba6f9.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "2c1ae27675b347f796c722618d4ba6f9.jpg",
+        "file_size": 300340,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 1350724688
+  },
+  "output_sha256": "6a1e06cdb3657d509a54abb63f4c049c345844601a05f8dfc26f45ed196d6c2e"
 }

@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:29:22.764459+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/CHAR_MD_v01.png"
+    ],
+    "body": {
+      "prompt": "Preserve this adult man face, hair, body, pose, trousers, boots and rendering exactly. Replace his coat with a plain dark ochre yellow coarse linen ancient Chinese cross-collar knee-length robe, broad overlapping diagonal lapel across the torso, tied closed with a plain dark brown fabric sash at the waist. The robe is cut as a traditional working Hanfu. A small L-shaped brass winch crank with two short perpendicular segments hangs securely from the sash at his right hip. Neutral gray studio background.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/CHAR_MD_v02.png"
+  },
+  "references": {
+    "资产/CHAR_MD_v01.png": "bfc93371d5082c94e81a5e5cabf090131a23875c68b36c590abe8291aad9f04c"
+  },
+  "body": {
+    "prompt": "Preserve this adult man face, hair, body, pose, trousers, boots and rendering exactly. Replace his coat with a plain dark ochre yellow coarse linen ancient Chinese cross-collar knee-length robe, broad overlapping diagonal lapel across the torso, tied closed with a plain dark brown fabric sash at the waist. The robe is cut as a traditional working Hanfu. A small L-shaped brass winch crank with two short perpendicular segments hangs securely from the sash at his right hip. Neutral gray studio background.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac248/x1rCvx-At806AGY8enj77_CHAR_MD_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae45-2c45-7a63-a567-be3cb118f5bd",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-2c45-7a63-a567-be3cb118f5bd",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-2c45-7a63-a567-be3cb118f5bd/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-2c45-7a63-a567-be3cb118f5bd/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae45-2c45-7a63-a567-be3cb118f5bd",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-2c45-7a63-a567-be3cb118f5bd",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-2c45-7a63-a567-be3cb118f5bd/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-2c45-7a63-a567-be3cb118f5bd/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 39.83699989318848
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac24c/gA1OP8CX4itKTV09NJlbV_6befb829f0c947eab9aef9a97fffb9af.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "6befb829f0c947eab9aef9a97fffb9af.jpg",
+        "file_size": 302665,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 974821926
+  },
+  "output_sha256": "e78176777f377fe9654b4ac24653f43025e56d2538a99c32aa833aba1f64b2d8"
+}

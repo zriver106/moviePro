@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:30:01.448043+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/SET_GATE_v01.png"
+    ],
+    "body": {
+      "prompt": "Edit this empty 3D Chinese sluice chamber, preserving the camera view, ladder left, single wooden door right, timber ledge, stone walls and light. Correct the winch mechanics so each connection is clearly visible. The low circular rope loop in foreground is an open running snare: a visible rope tail leads continuously from its sliding eye diagonally up to the wooden winch drum. It is part of the same rope wound around the drum, whose other end rises over the overhead pulley and descends to the suspended rectangular stone. Fit the brake wedge firmly between the right end of the drum and its fixed right support at knee height, with its handgrip sticking out to screen-right for a crouching man. Build a separate rigid horizontal wooden crossbrace between the two front uprights, fifteen centimeters in front of the drum, with a narrow slot beside the left upright where a boat-fork shaft can catch. The drum retains clear rotation space behind this brace. A short wrist rope with a ready-made sliding loop hangs from the front left upright at waist height. Add a small wooden rope cleat at the foot of this upright. Raise the catch cradle so its top is fifteen centimeters below the stone. Lower the dry ledge height to a single step above the shallow water floor. The door is adult-size 1.9 meters high, brass plate at chest level for a man standing on the ledge, viewing hole above it at adult head level. Shallow water floor extends clear across the foreground, gentle water ripples. The entire lower right region is a continuous shallow water surface. Keep the whole mechanism grouped on the left, leaving a clear walking space to the right-hand door.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/SET_GATE_v02.png"
+  },
+  "references": {
+    "资产/SET_GATE_v01.png": "4c33bae8687d7a9e347cf3123ffb14b841730a9fa821d3d3e91b62158529c5e7"
+  },
+  "body": {
+    "prompt": "Edit this empty 3D Chinese sluice chamber, preserving the camera view, ladder left, single wooden door right, timber ledge, stone walls and light. Correct the winch mechanics so each connection is clearly visible. The low circular rope loop in foreground is an open running snare: a visible rope tail leads continuously from its sliding eye diagonally up to the wooden winch drum. It is part of the same rope wound around the drum, whose other end rises over the overhead pulley and descends to the suspended rectangular stone. Fit the brake wedge firmly between the right end of the drum and its fixed right support at knee height, with its handgrip sticking out to screen-right for a crouching man. Build a separate rigid horizontal wooden crossbrace between the two front uprights, fifteen centimeters in front of the drum, with a narrow slot beside the left upright where a boat-fork shaft can catch. The drum retains clear rotation space behind this brace. A short wrist rope with a ready-made sliding loop hangs from the front left upright at waist height. Add a small wooden rope cleat at the foot of this upright. Raise the catch cradle so its top is fifteen centimeters below the stone. Lower the dry ledge height to a single step above the shallow water floor. The door is adult-size 1.9 meters high, brass plate at chest level for a man standing on the ledge, viewing hole above it at adult head level. Shallow water floor extends clear across the foreground, gentle water ripples. The entire lower right region is a continuous shallow water surface. Keep the whole mechanism grouped on the left, leaving a clear walking space to the right-hand door.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac24c/4-SvYaNVMGqlf8fv3wNJm_SET_GATE_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae45-c3c5-7190-97fe-79a6d9807770",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-c3c5-7190-97fe-79a6d9807770",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-c3c5-7190-97fe-79a6d9807770/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-c3c5-7190-97fe-79a6d9807770/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae45-c3c5-7190-97fe-79a6d9807770",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-c3c5-7190-97fe-79a6d9807770",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-c3c5-7190-97fe-79a6d9807770/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae45-c3c5-7190-97fe-79a6d9807770/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 74.23800015449524
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac253/aMUiSy3WrK_wHfJkhSkNA_933a3b43af8d4fbf88748eb6ba757173.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "933a3b43af8d4fbf88748eb6ba757173.jpg",
+        "file_size": 499783,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 530931325
+  },
+  "output_sha256": "0ebca8a9c0e6c84080856a9d5a78b11a5c107e92ce1eb14f838ba010c8a6c97f"
+}

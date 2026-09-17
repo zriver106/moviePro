@@ -1,0 +1,65 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:30:22.816153+00:00",
+  "spec": {
+    "capability": "tts",
+    "refs": [],
+    "body": {
+      "prompt": "六个月前，父亲被判私开大闸，家产没了。我逃出来，名字却留在了死册上。",
+      "voice_setting": {
+        "voice_id": "male-qn-qingse",
+        "speed": 1.0,
+        "vol": 1.0,
+        "pitch": 0
+      },
+      "language_boost": "Chinese",
+      "output_format": "url"
+    },
+    "output": "后期/配音/VO_S02_v01.mp3",
+    "shot": "EP01-S02",
+    "purpose": "画外音正常语速试读，需实测时长及独立听写；正式对白逐字不改"
+  },
+  "references": {},
+  "body": {
+    "prompt": "六个月前，父亲被判私开大闸，家产没了。我逃出来，名字却留在了死册上。",
+    "voice_setting": {
+      "voice_id": "male-qn-qingse",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "language_boost": "Chinese",
+    "output_format": "url"
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae46-1392-7682-8887-030e22ad5394",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1392-7682-8887-030e22ad5394",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1392-7682-8887-030e22ad5394/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1392-7682-8887-030e22ad5394/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae46-1392-7682-8887-030e22ad5394",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1392-7682-8887-030e22ad5394",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1392-7682-8887-030e22ad5394/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1392-7682-8887-030e22ad5394/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 2.7239999771118164
+    }
+  },
+  "result": {
+    "audio": {
+      "url": "https://v3b.fal.media/files/b/0aaac24e/7bGB0-UYj7XvjRdo2sX8s_speech.mp3",
+      "content_type": "audio/mpeg",
+      "file_name": "speech.mp3",
+      "file_size": 149748
+    },
+    "duration_ms": 9252
+  },
+  "output_sha256": "377a5a6fbc128b0b7f9d22879ae57ef4bb89a059724231b5578e34c6b609b1ec"
+}

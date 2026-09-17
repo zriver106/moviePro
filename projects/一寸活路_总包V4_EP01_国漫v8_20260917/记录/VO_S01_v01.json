@@ -1,0 +1,65 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:30:22.546286+00:00",
+  "spec": {
+    "capability": "tts",
+    "refs": [],
+    "body": {
+      "prompt": "我叫陆照。水籍上，我已经死了。",
+      "voice_setting": {
+        "voice_id": "male-qn-qingse",
+        "speed": 1.0,
+        "vol": 1.0,
+        "pitch": 0
+      },
+      "language_boost": "Chinese",
+      "output_format": "url"
+    },
+    "output": "后期/配音/VO_S01_v01.mp3",
+    "shot": "EP01-S01",
+    "purpose": "画外音正常语速试读，需实测时长及独立听写；正式对白逐字不改"
+  },
+  "references": {},
+  "body": {
+    "prompt": "我叫陆照。水籍上，我已经死了。",
+    "voice_setting": {
+      "voice_id": "male-qn-qingse",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "language_boost": "Chinese",
+    "output_format": "url"
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae46-1232-7c82-9741-7d6a9c97296a",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1232-7c82-9741-7d6a9c97296a",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1232-7c82-9741-7d6a9c97296a/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1232-7c82-9741-7d6a9c97296a/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae46-1232-7c82-9741-7d6a9c97296a",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1232-7c82-9741-7d6a9c97296a",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1232-7c82-9741-7d6a9c97296a/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-1232-7c82-9741-7d6a9c97296a/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 1.9910001754760742
+    }
+  },
+  "result": {
+    "audio": {
+      "url": "https://v3b.fal.media/files/b/0aaac24e/4mTO1-_lTzgAednKmHcwP_speech.mp3",
+      "content_type": "audio/mpeg",
+      "file_name": "speech.mp3",
+      "file_size": 61620
+    },
+    "duration_ms": 3744
+  },
+  "output_sha256": "6d227e6ae8b8f4717f362fd0d0436af72c10139b311c60d909831780305d1b68"
+}

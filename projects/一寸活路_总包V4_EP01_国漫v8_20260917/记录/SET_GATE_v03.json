@@ -1,0 +1,52 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T07:32:13.999020+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/SET_GATE_v02.png"
+    ],
+    "body": {
+      "prompt": "Edit the rope at the bottom of this image. The circular loop lying in the foreground water must visibly connect to the rope coming from the winch. Make a continuous beige hemp rope tail run from the upper left side of the foreground circular loop across the water to the rope at the foot of the front left winch post, then continue upward into the winch drum. The foreground circle becomes a sliding rope loop with its running eye visible at the junction. Preserve every other pixel composition, architecture, wooden objects and lighting.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/SET_GATE_v03.png"
+  },
+  "references": {
+    "资产/SET_GATE_v02.png": "0ebca8a9c0e6c84080856a9d5a78b11a5c107e92ce1eb14f838ba010c8a6c97f"
+  },
+  "body": {
+    "prompt": "Edit the rope at the bottom of this image. The circular loop lying in the foreground water must visibly connect to the rope coming from the winch. Make a continuous beige hemp rope tail run from the upper left side of the foreground circular loop across the water to the rope at the foot of the front left winch post, then continue upward into the winch drum. The foreground circle becomes a sliding rope loop with its running eye visible at the junction. Preserve every other pixel composition, architecture, wooden objects and lighting.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac259/rEDFBTMMoyzzlaqskYwph_SET_GATE_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae47-c9d9-7180-81ba-9a88d961568a",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae47-c9d9-7180-81ba-9a88d961568a",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae47-c9d9-7180-81ba-9a88d961568a/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae47-c9d9-7180-81ba-9a88d961568a/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0ae47-c9d9-7180-81ba-9a88d961568a",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae47-c9d9-7180-81ba-9a88d961568a",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae47-c9d9-7180-81ba-9a88d961568a/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae47-c9d9-7180-81ba-9a88d961568a/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

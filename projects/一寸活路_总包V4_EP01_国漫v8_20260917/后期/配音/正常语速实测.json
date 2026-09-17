@@ -1,0 +1,26 @@
+[
+  {
+    "shot": "S01",
+    "duration": 3.703594,
+    "shot_budget": 5,
+    "fits": true
+  },
+  {
+    "shot": "S02",
+    "duration": 9.206719,
+    "shot_budget": 11,
+    "fits": true
+  },
+  {
+    "shot": "S04",
+    "duration": 4.388594,
+    "shot_budget": 5,
+    "fits": true
+  },
+  {
+    "shot": "S16",
+    "duration": 4.260875,
+    "shot_budget": 9,
+    "fits": true
+  }
+]

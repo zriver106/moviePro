@@ -1,0 +1,65 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:30:23.173594+00:00",
+  "spec": {
+    "capability": "tts",
+    "refs": [],
+    "body": {
+      "prompt": "排水保货，货主答应给我二百四十铜。",
+      "voice_setting": {
+        "voice_id": "male-qn-qingse",
+        "speed": 1.0,
+        "vol": 1.0,
+        "pitch": 0
+      },
+      "language_boost": "Chinese",
+      "output_format": "url"
+    },
+    "output": "后期/配音/VO_S04_v01.mp3",
+    "shot": "EP01-S04",
+    "purpose": "画外音正常语速试读，需实测时长及独立听写；正式对白逐字不改"
+  },
+  "references": {},
+  "body": {
+    "prompt": "排水保货，货主答应给我二百四十铜。",
+    "voice_setting": {
+      "voice_id": "male-qn-qingse",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "language_boost": "Chinese",
+    "output_format": "url"
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae46-14a2-7161-bc4a-d8950c8d56e7",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-14a2-7161-bc4a-d8950c8d56e7",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-14a2-7161-bc4a-d8950c8d56e7/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-14a2-7161-bc4a-d8950c8d56e7/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae46-14a2-7161-bc4a-d8950c8d56e7",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-14a2-7161-bc4a-d8950c8d56e7",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-14a2-7161-bc4a-d8950c8d56e7/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae46-14a2-7161-bc4a-d8950c8d56e7/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 2.128000020980835
+    }
+  },
+  "result": {
+    "audio": {
+      "url": "https://v3b.fal.media/files/b/0aaac24e/wuVYaaEyElMqq2fMTUhbf_speech.mp3",
+      "content_type": "audio/mpeg",
+      "file_name": "speech.mp3",
+      "file_size": 72564
+    },
+    "duration_ms": 4428
+  },
+  "output_sha256": "89ecff38cbad46a24ec34f8ffc794e2b5c0465f1ad10d1d79e18e400bd186c98"
+}

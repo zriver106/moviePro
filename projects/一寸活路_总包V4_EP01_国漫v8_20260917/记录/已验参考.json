@@ -22,5 +22,49 @@
   "参考/场景/04_旧泵坊临水住屋.jpg": {
     "sha256": "895a49deb15dc880b86d7e72a4c2785cf533ba72b602ec0479673af2ffe183c0",
     "scope": "目视确认v8身份/材质风格；旧服饰和房间布局不能直接用于EP01"
+  },
+  "资产/CHAR_LZ_v01.png": {
+    "sha256": "2dc60da20629c0babae35e2279a0ea1e51493dd634440ec6205ce5cae4f3d95f",
+    "scope": "目视已验，身份常服主图，湿衣由同一主图派生"
+  },
+  "资产/CHAR_WX_v01.png": {
+    "sha256": "e81120af9b69332c5f14c2757a6f82320d2bea8292c4021372591690282996a0",
+    "scope": "目视已验，身份常服主图，湿衣由同一主图派生"
+  },
+  "资产/CHAR_AL_v01.png": {
+    "sha256": "4bbd3506e751385169315f7e54f241cbcc087bace4b04259cb62eac81f6d55ab",
+    "scope": "目视已验，身份常服主图，湿衣由同一主图派生"
+  },
+  "资产/CHAR_GH_v01.png": {
+    "sha256": "6a1e06cdb3657d509a54abb63f4c049c345844601a05f8dfc26f45ed196d6c2e",
+    "scope": "目视已验，身份常服主图，湿衣由同一主图派生"
+  },
+  "资产/CHAR_MD_v01.png": {
+    "sha256": "bfc93371d5082c94e81a5e5cabf090131a23875c68b36c590abe8291aad9f04c",
+    "scope": "已目视的编辑输入；存在偏差，尚非可拍摄主板",
+    "editing_input_only": true
+  },
+  "资产/PROP_AWL_v01.png": {
+    "sha256": "3664d5c2e8f901fe8fe424b011dde2237f69eaaf9dec1af781036d4a7a41b833",
+    "scope": "已目视的编辑输入；存在偏差，尚非可拍摄主板",
+    "editing_input_only": true
+  },
+  "资产/SET_GATE_v01.png": {
+    "sha256": "4c33bae8687d7a9e347cf3123ffb14b841730a9fa821d3d3e91b62158529c5e7",
+    "scope": "布局纠偏输入；索圈断开、楔未接触轮、缺固定横撑，禁止用于视频",
+    "editing_input_only": true
+  },
+  "资产/CHAR_MD_v02.png": {
+    "sha256": "e78176777f377fe9654b4ac24653f43025e56d2538a99c32aa833aba1f64b2d8",
+    "scope": "目视已验的身份/道具主板；v02纠偏完成"
+  },
+  "资产/PROP_AWL_v02.png": {
+    "sha256": "01272a841a1743e63309e040e30fbccdbf11b419596a67232e57306afead93e1",
+    "scope": "目视已验的身份/道具主板；v02纠偏完成"
+  },
+  "资产/SET_GATE_v02.png": {
+    "sha256": "0ebca8a9c0e6c84080856a9d5a78b11a5c107e92ce1eb14f838ba010c8a6c97f",
+    "scope": "已目视的布局纠偏输入；低位索圈仍断开，待单项修改",
+    "editing_input_only": true
   }
 }

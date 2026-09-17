@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T07:30:40.188068+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "参考/场景/03_南仓账房与货架.jpg"
+    ],
+    "body": {
+      "prompt": "Studio asset photograph rendered as high-quality 3D Chinese animated period drama, matching the wood and metal materials in the reference. A single complete traditional boat fork lies diagonally on a plain light gray backdrop. Long straight aged dark brown wooden pole, adult shoulder height, at its top a compact dark iron U-shaped head with two short parallel pointed prongs. The metal socket securely encloses the pole end. Both prongs are twenty centimeters long, the wooden pole is one and a half meters long. Show the entire tool with clear empty margins. Clean continuous blank background.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/PROP_FORK_v01.png"
+  },
+  "references": {
+    "参考/场景/03_南仓账房与货架.jpg": "a86625b3cf51b0a90ca2981196857fdeb1f84017f320bd015d77317e53c6dadd"
+  },
+  "body": {
+    "prompt": "Studio asset photograph rendered as high-quality 3D Chinese animated period drama, matching the wood and metal materials in the reference. A single complete traditional boat fork lies diagonally on a plain light gray backdrop. Long straight aged dark brown wooden pole, adult shoulder height, at its top a compact dark iron U-shaped head with two short parallel pointed prongs. The metal socket securely encloses the pole end. Both prongs are twenty centimeters long, the wooden pole is one and a half meters long. Show the entire tool with clear empty margins. Clean continuous blank background.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac239/lUGJ--qaSDiZ3BL-rZN2y_03_%3F%3F%3F%3F%3F%3F%3F.jpg"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae46-5727-7ca3-b857-0a5d7a06d10b",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae46-5727-7ca3-b857-0a5d7a06d10b",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae46-5727-7ca3-b857-0a5d7a06d10b/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae46-5727-7ca3-b857-0a5d7a06d10b/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae46-5727-7ca3-b857-0a5d7a06d10b",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae46-5727-7ca3-b857-0a5d7a06d10b",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae46-5727-7ca3-b857-0a5d7a06d10b/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae46-5727-7ca3-b857-0a5d7a06d10b/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 42.128000020980835
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac254/7jhFmXn7bJ7U4_cPTQ6DS_8b0004f77bf6418fb5475b4149e246e0.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "8b0004f77bf6418fb5475b4149e246e0.jpg",
+        "file_size": 134047,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 765483134
+  },
+  "output_sha256": "ed2256e38121de55dc463a272656f1caea0f016e79279a19279b7d58fd1b9289"
+}

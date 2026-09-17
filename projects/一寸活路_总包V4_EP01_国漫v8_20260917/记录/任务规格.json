@@ -150,5 +150,149 @@
     },
     "output": "资产/SET_GATE_v01.png",
     "retry_reason": "原任务尺寸枚举422拒绝，未产出图片；改为文档支持的1440×2560"
+  },
+  "CHAR_MD_v02": {
+    "capability": "edit",
+    "refs": [
+      "资产/CHAR_MD_v01.png"
+    ],
+    "body": {
+      "prompt": "Preserve this adult man face, hair, body, pose, trousers, boots and rendering exactly. Replace his coat with a plain dark ochre yellow coarse linen ancient Chinese cross-collar knee-length robe, broad overlapping diagonal lapel across the torso, tied closed with a plain dark brown fabric sash at the waist. The robe is cut as a traditional working Hanfu. A small L-shaped brass winch crank with two short perpendicular segments hangs securely from the sash at his right hip. Neutral gray studio background.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/CHAR_MD_v02.png"
+  },
+  "PROP_AWL_v02": {
+    "capability": "edit",
+    "refs": [
+      "资产/PROP_AWL_v01.png"
+    ],
+    "body": {
+      "prompt": "Present the same single black steel awl with hemp-cord wrapped wooden handle on a completely plain uniformly light gray studio backdrop. The handle occupies two sevenths of its overall length; the four-sided black steel spike occupies five sevenths and gradually tapers along its entire length to a slender sharp point. Preserve materials, horizontal side view, lighting and total object proportions. All background space above and below the tool is flat uninterrupted light gray.",
+      "image_size": "landscape_16_9",
+      "num_images": 1
+    },
+    "output": "资产/PROP_AWL_v02.png"
+  },
+  "SET_GATE_v02": {
+    "capability": "edit",
+    "refs": [
+      "资产/SET_GATE_v01.png"
+    ],
+    "body": {
+      "prompt": "Edit this empty 3D Chinese sluice chamber, preserving the camera view, ladder left, single wooden door right, timber ledge, stone walls and light. Correct the winch mechanics so each connection is clearly visible. The low circular rope loop in foreground is an open running snare: a visible rope tail leads continuously from its sliding eye diagonally up to the wooden winch drum. It is part of the same rope wound around the drum, whose other end rises over the overhead pulley and descends to the suspended rectangular stone. Fit the brake wedge firmly between the right end of the drum and its fixed right support at knee height, with its handgrip sticking out to screen-right for a crouching man. Build a separate rigid horizontal wooden crossbrace between the two front uprights, fifteen centimeters in front of the drum, with a narrow slot beside the left upright where a boat-fork shaft can catch. The drum retains clear rotation space behind this brace. A short wrist rope with a ready-made sliding loop hangs from the front left upright at waist height. Add a small wooden rope cleat at the foot of this upright. Raise the catch cradle so its top is fifteen centimeters below the stone. Lower the dry ledge height to a single step above the shallow water floor. The door is adult-size 1.9 meters high, brass plate at chest level for a man standing on the ledge, viewing hole above it at adult head level. Shallow water floor extends clear across the foreground, gentle water ripples. The entire lower right region is a continuous shallow water surface. Keep the whole mechanism grouped on the left, leaving a clear walking space to the right-hand door.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/SET_GATE_v02.png"
+  },
+  "VO_S01_v01": {
+    "capability": "tts",
+    "refs": [],
+    "body": {
+      "prompt": "我叫陆照。水籍上，我已经死了。",
+      "voice_setting": {
+        "voice_id": "male-qn-qingse",
+        "speed": 1.0,
+        "vol": 1.0,
+        "pitch": 0
+      },
+      "language_boost": "Chinese",
+      "output_format": "url"
+    },
+    "output": "后期/配音/VO_S01_v01.mp3",
+    "shot": "EP01-S01",
+    "purpose": "画外音正常语速试读，需实测时长及独立听写；正式对白逐字不改"
+  },
+  "VO_S02_v01": {
+    "capability": "tts",
+    "refs": [],
+    "body": {
+      "prompt": "六个月前，父亲被判私开大闸，家产没了。我逃出来，名字却留在了死册上。",
+      "voice_setting": {
+        "voice_id": "male-qn-qingse",
+        "speed": 1.0,
+        "vol": 1.0,
+        "pitch": 0
+      },
+      "language_boost": "Chinese",
+      "output_format": "url"
+    },
+    "output": "后期/配音/VO_S02_v01.mp3",
+    "shot": "EP01-S02",
+    "purpose": "画外音正常语速试读，需实测时长及独立听写；正式对白逐字不改"
+  },
+  "VO_S04_v01": {
+    "capability": "tts",
+    "refs": [],
+    "body": {
+      "prompt": "排水保货，货主答应给我二百四十铜。",
+      "voice_setting": {
+        "voice_id": "male-qn-qingse",
+        "speed": 1.0,
+        "vol": 1.0,
+        "pitch": 0
+      },
+      "language_boost": "Chinese",
+      "output_format": "url"
+    },
+    "output": "后期/配音/VO_S04_v01.mp3",
+    "shot": "EP01-S04",
+    "purpose": "画外音正常语速试读，需实测时长及独立听写；正式对白逐字不改"
+  },
+  "VO_S16_v01": {
+    "capability": "tts",
+    "refs": [],
+    "body": {
+      "prompt": "每亲手击败一个新的真敌，直刺就永久添一痕。",
+      "voice_setting": {
+        "voice_id": "male-qn-jingying",
+        "speed": 1.0,
+        "vol": 1.0,
+        "pitch": -3
+      },
+      "language_boost": "Chinese",
+      "output_format": "url"
+    },
+    "output": "后期/配音/VO_S16_v01.mp3",
+    "shot": "EP01-S16",
+    "purpose": "画外音正常语速试读，需实测时长及独立听写；正式对白逐字不改"
+  },
+  "PROP_FORK_v01": {
+    "capability": "edit",
+    "refs": [
+      "参考/场景/03_南仓账房与货架.jpg"
+    ],
+    "body": {
+      "prompt": "Studio asset photograph rendered as high-quality 3D Chinese animated period drama, matching the wood and metal materials in the reference. A single complete traditional boat fork lies diagonally on a plain light gray backdrop. Long straight aged dark brown wooden pole, adult shoulder height, at its top a compact dark iron U-shaped head with two short parallel pointed prongs. The metal socket securely encloses the pole end. Both prongs are twenty centimeters long, the wooden pole is one and a half meters long. Show the entire tool with clear empty margins. Clean continuous blank background.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/PROP_FORK_v01.png"
+  },
+  "SET_GATE_v03": {
+    "capability": "edit",
+    "refs": [
+      "资产/SET_GATE_v02.png"
+    ],
+    "body": {
+      "prompt": "Edit the rope at the bottom of this image. The circular loop lying in the foreground water must visibly connect to the rope coming from the winch. Make a continuous beige hemp rope tail run from the upper left side of the foreground circular loop across the water to the rope at the foot of the front left winch post, then continue upward into the winch drum. The foreground circle becomes a sliding rope loop with its running eye visible at the junction. Preserve every other pixel composition, architecture, wooden objects and lighting.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/SET_GATE_v03.png"
   }
 }
