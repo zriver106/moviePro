@@ -1,5 +1,5 @@
 {
-  "stage": "四张横屏参考齐备，制作首段30秒",
+  "stage": "横屏首段已返回；30—60秒extension参数调整后运行中",
   "source_locked": true,
   "text_review_binding": "passed",
   "shots": 19,
@@ -15,9 +15,9 @@
   "subtitle_tracks": 1,
   "active_provider_jobs": 1,
   "blockers": [],
-  "updated_at": "2026-09-17T14:21:35.478233+00:00",
+  "updated_at": "2026-09-17T18:18:25.829943+00:00",
   "active_jobs": [
-    "VIDEO_00_30"
+    "EXTEND_30_60_COMPAT"
   ],
   "regeneration_allowed": "本次明确授权的横屏重制一次；不授权首版后自动重做",
   "accepted_shots": [
@@ -39,5 +39,15 @@
   "aspect_user_instruction": "我要的是横屏的，不是竖屏",
   "portrait_jobs_policy": "旧提交记录保留真实9:16参数，禁止继续提交竖屏；已有视频转换须采用原片编辑，不得擅自重新生成。",
   "active_workflow": "横屏重制_30秒延长98秒_v01",
-  "new_landscape_video_jobs_submitted": 1
+  "new_landscape_video_jobs_submitted": 3,
+  "landscape_seconds_returned": 30,
+  "successful_landscape_segments": 1,
+  "video_request_failures": [
+    {
+      "job": "EXTEND_30_60",
+      "error": "422 invalid_request",
+      "output_returned": false,
+      "next": "去掉音频参考，以video+image兼容参数继续extension"
+    }
+  ]
 }

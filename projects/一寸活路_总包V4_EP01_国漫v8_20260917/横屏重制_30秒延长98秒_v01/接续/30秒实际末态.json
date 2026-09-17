@@ -1,0 +1,12 @@
+{
+  "source": "视频/VIDEO_00_30.mp4",
+  "sha256": "437a4f16698ca0114426d917dd52cab08f7b997f2e582c5e0ef39110cc12e608",
+  "frame": "30秒末帧.png",
+  "duration": 30.041667,
+  "aspect": "16:9",
+  "actual_pose": "固定近景，双手仍握锥抵铜片，尚未收锥；门仍闭",
+  "dialogue_completed": "里面有木舌，得顶过去！于28.22—29.90秒全部说完",
+  "continuation": "先收锥一次，0—3秒不重复门内台词；3秒硬切麻铎下梯",
+  "reference_audio_adjustment": "移除次段参考音频0—1.3秒重复残句，其他新对白保持",
+  "repairs": false
+}

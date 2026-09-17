@@ -46,7 +46,8 @@
     "EXTEND_30_60",
     "EXTEND_60_90",
     "EXTEND_90_98",
-    "REF_OPENING_RECOVER_ONCE"
+    "REF_OPENING_RECOVER_ONCE",
+    "EXTEND_30_60_COMPAT"
   ],
   "video_request_budget": 4,
   "first_version_only": true,
@@ -59,5 +60,7 @@
   "workflow_override": "用户本轮明确授权重做第一集；16:9国漫替代文档原9:16写实。按用户要求每次30秒组合分镜、真实extension续接；不再单镜预演拦截首版。文本剧情对白与顺序不改。",
   "join_policy": "每段实际末帧和音轨先做接续记录，然后从实际动作进度继续；避免动作和台词重复。不做返修。",
   "delivery": "先把98秒完整首版发用户；问题仅记录，看片后讨论",
-  "failed_image_recovery": "开场任务403未产出图；另外三张成功，允许对此缺失输出补交一次；不是对已有素材修复重抽"
+  "failed_image_recovery": "开场任务403未产出图；另外三张成功，允许对此缺失输出补交一次；不是对已有素材修复重抽",
+  "video_successful_segments_target": 4,
+  "video_parameter_failure_recovery": "首个extension请求422未产出；去掉音频参考按既有成功video+image模式补交一次，仍task:extension，不重生前30秒"
 }

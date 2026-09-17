@@ -1,0 +1,77 @@
+{
+  "state": "result_error",
+  "started_at": "2026-09-17T18:14:48.346452+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "refs": [
+      "横屏重制_30秒延长98秒_v01/视频/VIDEO_00_30.mp4",
+      "横屏重制_30秒延长98秒_v01/参考/REF_GATE.png",
+      "资产/CHAR_MD_v02.png",
+      "资产/PROP_FORK_v01.png",
+      "横屏重制_30秒延长98秒_v01/参考/REF_LOCK.png",
+      "横屏重制_30秒延长98秒_v01/音频/对白参考_30_60_按实际末态.wav"
+    ],
+    "body": {
+      "task": "extension",
+      "duration": "30",
+      "resolution": "720p",
+      "aspect_ratio": "auto",
+      "generate_audio": true,
+      "prompt": "ACTUAL JOIN: @Video1 ends in a fixed close side view with BOTH Lu hands still gripping the awl, its tip pressed against the brass plate. The failed push is complete, his hands are still forward, and he has yet to withdraw it. Begin by easing pressure and withdrawing ONCE from this exact pose. Wen's complete instruction has already been spoken. Continue @Video1 directly from its final instant in the SAME landscape 16:9 Chinese guoman 3D animated style. Keep its established faces, costumes, set geography, lighting and physical state. Return the specified NEW continuation. Local time 0 is the first instant after the input clip ends. Each shot below is continuous, with the specified hard cuts between shots. @Audio1 is the exact voice and performance timing reference for this continuation. Off-screen voices leave the visible characters' mouths relaxed; named on-screen speakers lip-sync their Chinese lines. The entire sound bed consists of Mandarin speech, water, wood, metal, rope, footsteps, fabric and breath. The frame is reserved for the physical story, with Chinese subtitles to be composited later. At the join, completed gestures remain completed and spoken words remain spoken; carry the current action forward. @Image1 is the established wide chamber layout, @Image2 is Ma's face and costume, @Image3 is his intact two-pronged boat fork, @Image4 is the gate's brass inspection plate and Lu's awl grip. Lu remains at screen RIGHT of Ma, both outside the shut wooden gate. Ma has the brass crank at his RIGHT waist. The floor ankle loop connects to the drum and stone above its catch.\n0.0-3.0s: Continue the failed FIRST push from the actual final frame. The brass LEFT side holds with a shallow dent; the RIGHT side remains intact. Lu releases the strain and withdraws the SAME awl once, keeping it in his right hand. Wen has COMPLETED her entire lock instruction by the source endpoint at 29.90s. The opening three seconds of this continuation contain Lu's breath, metal release and water sounds. The next spoken sentence belongs to Ma after the cut, as timed below. A single wooden-hook impact begins across the next cut.\nAt 3.0s hard cut with the hook's impact sound bridge. 3.0-7.0s: Ma descends the last stair step and completes kicking aside the long wooden hook, holding his boat fork across the exit. The small brass crank knocks his right belt once. Low 35mm medium view tilts up slightly to his face, stairs behind him. Ma says 门不用开了。 around 5.0s.\nAt 7.0s hard cut back to the established two-person axis. 7.0-12.0s: Lu takes a half-step backward until his waist meets the rope winch. Ma advances from LEFT with both hands holding the fork, its tip approaching Lu's abdomen. Lu holds his awl down in his right hand and says 他们还活着。 at 7.5s. Ma answers 账上没有。 at 10.0s. Wen's hand remains visible through the closed gate's aperture at rear RIGHT.\nAt 12.0s eyeline cut. 12.0-16.0s: A single 28mm connected short tilt begins with Lu glancing toward the brake wedge at his left knee, lowers to the loose rope loop just above the shallow water around their feet, then follows that SAME rope up to the drum and the hanging stone above its wooden catch. The stone hangs 15 cm over that catch. Lu's hand comes near the wedge at the end; Ma watches Lu's face.\nAt 16.0s hard cut back to the low two-person relation. 16.0-20.0s: Lu's LEFT hand throws his small copper coin purse into the shallow water just behind the rope loop. Ma's eyes follow it; he takes TWO steps into the slack loop while keeping his fork in both hands. Ma says 拿这点钱买命？ at 17.0s. Both boots end inside the loose loop, knees upright, ready to thrust.\nAt 20.0s match-action cut, short lateral 35mm tracking. 20.0-23.0s: Ma suddenly thrusts the two-pronged fork toward Lu's abdomen. Lu sidesteps RIGHT around the winch, still holding his awl. The fork misses and its shaft lodges at the corner of the fixed crossbar BELOW the drum and the LEFT vertical post. Ma raises the butt slightly and slides his hands forward into a shorter grip, trying to free the trapped head. The fork stays mechanically caught below the drum.\nAt 23.0s hard cut onto Lu's hands. 23.0-25.0s: Lu lays the black awl FLAT into the timber beam groove, handle visible, freeing BOTH hands. He grips and pulls the small brake wedge out of the drum's right edge. Ma continues struggling with the trapped fork behind him.\nAt 25.0s cut to a clear side medium shot of the mechanism. 25.0-28.0s: The released drum turns, tightening the SAME floor loop around BOTH Ma ankles together. The hanging stone drops 15 cm directly onto its wooden catch platform and stops. The upper pulley and supporting posts remain fixed. The moving rope visibly pulls his ankles together as he loses balance, still gripping the fork.\nAt 28.0s cut to low fixed view. 28.0-30.0s: Ma begins one backward fall into shallow water as the ankle loop binds his feet. His hands start releasing the intact fork toward his RIGHT side. Lu moves toward him from the original RIGHT position. Continue the natural fall toward the segment endpoint, leaving the exact final falling or landed pose available for the next continuation. Lu's awl stays in the beam groove."
+    },
+    "actual_join_record": "接续/30秒实际末态.json",
+    "output": "视频/EXTEND_30_60.mp4",
+    "status": "ready_after_actual_join_review"
+  },
+  "references": {
+    "横屏重制_30秒延长98秒_v01/视频/VIDEO_00_30.mp4": "437a4f16698ca0114426d917dd52cab08f7b997f2e582c5e0ef39110cc12e608",
+    "横屏重制_30秒延长98秒_v01/参考/REF_GATE.png": "eb9accbdb2812de8dd37fa8c96a11489824a270ca32376e585ed2747261a4c77",
+    "资产/CHAR_MD_v02.png": "e78176777f377fe9654b4ac24653f43025e56d2538a99c32aa833aba1f64b2d8",
+    "资产/PROP_FORK_v01.png": "ed2256e38121de55dc463a272656f1caea0f016e79279a19279b7d58fd1b9289",
+    "横屏重制_30秒延长98秒_v01/参考/REF_LOCK.png": "8b3ad9a403464843c707268ddbb3008ad348263b55c69ad7eda5cd71da0ad44c",
+    "横屏重制_30秒延长98秒_v01/音频/对白参考_30_60_按实际末态.wav": "f9d70bc3c3cbb213251ec40ffe43fb376516103882e9051b324a718694d25cd8"
+  },
+  "body": {
+    "task": "extension",
+    "duration": "30",
+    "resolution": "720p",
+    "aspect_ratio": "auto",
+    "generate_audio": true,
+    "prompt": "ACTUAL JOIN: @Video1 ends in a fixed close side view with BOTH Lu hands still gripping the awl, its tip pressed against the brass plate. The failed push is complete, his hands are still forward, and he has yet to withdraw it. Begin by easing pressure and withdrawing ONCE from this exact pose. Wen's complete instruction has already been spoken. Continue @Video1 directly from its final instant in the SAME landscape 16:9 Chinese guoman 3D animated style. Keep its established faces, costumes, set geography, lighting and physical state. Return the specified NEW continuation. Local time 0 is the first instant after the input clip ends. Each shot below is continuous, with the specified hard cuts between shots. @Audio1 is the exact voice and performance timing reference for this continuation. Off-screen voices leave the visible characters' mouths relaxed; named on-screen speakers lip-sync their Chinese lines. The entire sound bed consists of Mandarin speech, water, wood, metal, rope, footsteps, fabric and breath. The frame is reserved for the physical story, with Chinese subtitles to be composited later. At the join, completed gestures remain completed and spoken words remain spoken; carry the current action forward. @Image1 is the established wide chamber layout, @Image2 is Ma's face and costume, @Image3 is his intact two-pronged boat fork, @Image4 is the gate's brass inspection plate and Lu's awl grip. Lu remains at screen RIGHT of Ma, both outside the shut wooden gate. Ma has the brass crank at his RIGHT waist. The floor ankle loop connects to the drum and stone above its catch.\n0.0-3.0s: Continue the failed FIRST push from the actual final frame. The brass LEFT side holds with a shallow dent; the RIGHT side remains intact. Lu releases the strain and withdraws the SAME awl once, keeping it in his right hand. Wen has COMPLETED her entire lock instruction by the source endpoint at 29.90s. The opening three seconds of this continuation contain Lu's breath, metal release and water sounds. The next spoken sentence belongs to Ma after the cut, as timed below. A single wooden-hook impact begins across the next cut.\nAt 3.0s hard cut with the hook's impact sound bridge. 3.0-7.0s: Ma descends the last stair step and completes kicking aside the long wooden hook, holding his boat fork across the exit. The small brass crank knocks his right belt once. Low 35mm medium view tilts up slightly to his face, stairs behind him. Ma says 门不用开了。 around 5.0s.\nAt 7.0s hard cut back to the established two-person axis. 7.0-12.0s: Lu takes a half-step backward until his waist meets the rope winch. Ma advances from LEFT with both hands holding the fork, its tip approaching Lu's abdomen. Lu holds his awl down in his right hand and says 他们还活着。 at 7.5s. Ma answers 账上没有。 at 10.0s. Wen's hand remains visible through the closed gate's aperture at rear RIGHT.\nAt 12.0s eyeline cut. 12.0-16.0s: A single 28mm connected short tilt begins with Lu glancing toward the brake wedge at his left knee, lowers to the loose rope loop just above the shallow water around their feet, then follows that SAME rope up to the drum and the hanging stone above its wooden catch. The stone hangs 15 cm over that catch. Lu's hand comes near the wedge at the end; Ma watches Lu's face.\nAt 16.0s hard cut back to the low two-person relation. 16.0-20.0s: Lu's LEFT hand throws his small copper coin purse into the shallow water just behind the rope loop. Ma's eyes follow it; he takes TWO steps into the slack loop while keeping his fork in both hands. Ma says 拿这点钱买命？ at 17.0s. Both boots end inside the loose loop, knees upright, ready to thrust.\nAt 20.0s match-action cut, short lateral 35mm tracking. 20.0-23.0s: Ma suddenly thrusts the two-pronged fork toward Lu's abdomen. Lu sidesteps RIGHT around the winch, still holding his awl. The fork misses and its shaft lodges at the corner of the fixed crossbar BELOW the drum and the LEFT vertical post. Ma raises the butt slightly and slides his hands forward into a shorter grip, trying to free the trapped head. The fork stays mechanically caught below the drum.\nAt 23.0s hard cut onto Lu's hands. 23.0-25.0s: Lu lays the black awl FLAT into the timber beam groove, handle visible, freeing BOTH hands. He grips and pulls the small brake wedge out of the drum's right edge. Ma continues struggling with the trapped fork behind him.\nAt 25.0s cut to a clear side medium shot of the mechanism. 25.0-28.0s: The released drum turns, tightening the SAME floor loop around BOTH Ma ankles together. The hanging stone drops 15 cm directly onto its wooden catch platform and stops. The upper pulley and supporting posts remain fixed. The moving rope visibly pulls his ankles together as he loses balance, still gripping the fork.\nAt 28.0s cut to low fixed view. 28.0-30.0s: Ma begins one backward fall into shallow water as the ankle loop binds his feet. His hands start releasing the intact fork toward his RIGHT side. Lu moves toward him from the original RIGHT position. Continue the natural fall toward the segment endpoint, leaving the exact final falling or landed pose available for the next continuation. Lu's awl stays in the beam groove.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaad108/qCbx3aTZInY1Fmv6EZeZs_202ff0ff9bbe4a44b2d17058c4b13a43.jpg",
+      "https://v3b.fal.media/files/b/0aaac260/FBin0kXkxi9-ckrkAs8Mg_CHAR_MD_v02.png",
+      "https://v3b.fal.media/files/b/0aaac260/xaK679KRe-IamUsQLCEn__PROP_FORK_v01.png",
+      "https://v3b.fal.media/files/b/0aaad109/6LvsT8157Qk5k5XaN8Iz6_ab4de58d7d4b41399257759ded8f8072.jpg"
+    ],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaad158/nET9JlPydKPTarXRcOhhJ_video.mp4"
+    ],
+    "audio_urls": [
+      "https://v3b.fal.media/files/b/0aaad168/fwZgRruggzpmqKBCDQk5z_%3F%3F%3F%3F_30_60_%3F%3F%3F%3F%3F.wav"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0b094-150f-7a80-9415-4e7b7e2e9623",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b094-150f-7a80-9415-4e7b7e2e9623",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b094-150f-7a80-9415-4e7b7e2e9623/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b094-150f-7a80-9415-4e7b7e2e9623/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0b094-150f-7a80-9415-4e7b7e2e9623",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b094-150f-7a80-9415-4e7b7e2e9623",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b094-150f-7a80-9415-4e7b7e2e9623/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b094-150f-7a80-9415-4e7b7e2e9623/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 83.23399996757507
+    }
+  },
+  "error": "队列读取 422: {\"detail\":[{\"loc\":[\"body\"],\"msg\":\"Invalid parameters in input, please check inputs and try again.\",\"type\":\"invalid_request\",\"url\":\"https://docs.fal.ai/errors#invalid_request\",\"input\":{\"bitrate_mode\":\"standard\",\"prompt\":\"ACTUAL JOIN: @Video1 ends in a fixed close side view with BOTH Lu hands still gripping the awl, its tip pressed against the brass plate. The failed push is complete, his hands are still forward, and he has yet to withdraw it. Begin by easing pressure and withdrawing ONCE from thi"
+}

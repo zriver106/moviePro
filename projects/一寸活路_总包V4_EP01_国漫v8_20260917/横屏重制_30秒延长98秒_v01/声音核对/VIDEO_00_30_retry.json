@@ -1,0 +1,5 @@
+{
+  "source_sha256": "437a4f16698ca0114426d917dd52cab08f7b997f2e582c5e0ef39110cc12e608",
+  "result": null,
+  "error": "422 {\"detail\":[{\"loc\":[\"body\",\"audio_url\"],\"msg\":\"Unsupported audio format. Supported formats are .mp3, .wav, .m4a, .ogg, .flac, .aac.\",\"type\":\"unsupported_audio_format\",\"url\":\"https://docs.fal.ai/errors#unsupported_audio_format\",\"ctx\":{\"supported_formats\":[\".mp3\",\".wav\",\".m4a\",\".ogg\",\".flac\",\".aac\"]},\""
+}

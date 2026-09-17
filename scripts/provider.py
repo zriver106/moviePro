@@ -256,4 +256,15 @@ def queue_read(handle, *, result=False):
         with urllib.request.urlopen(req, timeout=60) as response:
             return json.loads(response.read())
     except urllib.error.HTTPError as exc:
-        raise RuntimeError(f"队列读取 {exc.code}: {exc.read().decode('utf-8', 'replace')[:500]}") from exc
+        raw = exc.read().decode('utf-8', 'replace')
+        # Validation errors echo the entire prompt/input before useful context.
+        # Keep diagnostic fields, rather than truncating inside that large echo.
+        try:
+            detail = json.loads(raw).get('detail')
+            if isinstance(detail, list):
+                detail = [{k: item[k] for k in ('loc', 'msg', 'type', 'ctx') if k in item}
+                          if isinstance(item, dict) else item for item in detail]
+            diagnostic = json.dumps(detail, ensure_ascii=False) if detail is not None else raw
+        except (ValueError, AttributeError):
+            diagnostic = raw
+        raise RuntimeError(f"队列读取 {exc.code}: {diagnostic[:2000]}") from exc
