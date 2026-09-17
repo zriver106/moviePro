@@ -1,5 +1,5 @@
 {
-  "stage": "横屏首段已返回；30—60秒extension参数调整后运行中",
+  "stage": "横屏前30秒已制作；真实extension被服务商素材审核拒绝，98秒未完成",
   "source_locked": true,
   "text_review_binding": "passed",
   "shots": 19,
@@ -13,19 +13,19 @@
   "accepted_video_shots": 2,
   "bgm": false,
   "subtitle_tracks": 1,
-  "active_provider_jobs": 1,
-  "blockers": [],
-  "updated_at": "2026-09-17T18:18:25.829943+00:00",
-  "active_jobs": [
-    "EXTEND_30_60_COMPAT"
+  "active_provider_jobs": 0,
+  "blockers": [
+    "EXTEND_30_60_COMPAT: 422 content_policy_violation，疑似真人相似形象/隐私素材，partner_validation_failed"
   ],
+  "updated_at": "2026-09-17T18:23:32.135834+00:00",
+  "active_jobs": [],
   "regeneration_allowed": "本次明确授权的横屏重制一次；不授权首版后自动重做",
   "accepted_shots": [
     "S11",
     "S12"
   ],
   "accepted_seconds": 5,
-  "next_action_policy": "完整98秒首版交用户看片；停止自动修片",
+  "next_action_policy": "交付已完成30秒首版供用户看片；停止追加请求，不规避平台审核、不换reference冒充extension、不自动修片",
   "first_cut_jobs_submitted": 3,
   "first_cut_result_error": {
     "job": "FIRSTCUT_C_S15_S19_v01",
@@ -49,5 +49,6 @@
       "output_returned": false,
       "next": "去掉音频参考，以video+image兼容参数继续extension"
     }
-  ]
+  ],
+  "partial_delivery_ready": true
 }

@@ -1,5 +1,5 @@
 {
-  "state": "IN_PROGRESS",
+  "state": "superseded_completed_not_downloaded",
   "started_at": "2026-09-17T14:20:03.116527+00:00",
   "spec": {
     "capability": "video",
@@ -61,5 +61,7 @@
     "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0afbd-2387-7f33-858a-bb7c58290710/cancel",
     "logs": null,
     "metrics": {}
-  }
+  },
+  "last_known_remote_status": "COMPLETED",
+  "superseded_reason": "用户明确重新做16:9横屏、首生30秒后真实延长98秒；这两个旧竖屏任务已查询完成但不纳入新片"
 }

@@ -62,5 +62,9 @@
   "delivery": "先把98秒完整首版发用户；问题仅记录，看片后讨论",
   "failed_image_recovery": "开场任务403未产出图；另外三张成功，允许对此缺失输出补交一次；不是对已有素材修复重抽",
   "video_successful_segments_target": 4,
-  "video_parameter_failure_recovery": "首个extension请求422未产出；去掉音频参考按既有成功video+image模式补交一次，仍task:extension，不重生前30秒"
+  "video_parameter_failure_recovery": "首个extension请求422未产出；去掉音频参考按既有成功video+image模式补交一次，仍task:extension，不重生前30秒",
+  "status": "blocked_by_provider_content_policy_after_first_30_seconds",
+  "first_version_delivered_seconds": 30,
+  "target_seconds": 98,
+  "further_requests_paused": true
 }

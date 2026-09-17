@@ -1,5 +1,5 @@
 {
-  "state": "IN_PROGRESS",
+  "state": "result_error",
   "started_at": "2026-09-17T18:17:12.485575+00:00",
   "spec": {
     "capability": "video",
@@ -65,12 +65,15 @@
     "queue_position": 0
   },
   "status": {
-    "status": "IN_PROGRESS",
+    "status": "COMPLETED",
     "request_id": "01a0b096-4348-74c2-970a-feb89cb34152",
     "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b096-4348-74c2-970a-feb89cb34152",
     "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b096-4348-74c2-970a-feb89cb34152/status",
     "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b096-4348-74c2-970a-feb89cb34152/cancel",
     "logs": null,
-    "metrics": {}
-  }
+    "metrics": {
+      "inference_time": 251.12900018692017
+    }
+  },
+  "error": "队列读取 422: [{\"loc\": [\"body\", \"image_urls\"], \"msg\": \"The images or videos provided may contain likenesses of real people or other private information that cannot be processed.\", \"type\": \"content_policy_violation\", \"ctx\": {\"extra_info\": {\"reason\": \"partner_validation_failed\"}}}]"
 }
