@@ -1,0 +1,31 @@
+{
+  "user_instruction": "既然如此那就再做两个30秒",
+  "jobs": [
+    "TEXT_30_60",
+    "TEXT_60_90"
+  ],
+  "seconds_each": 30,
+  "episode_windows": [
+    [
+      30,
+      60
+    ],
+    [
+      60,
+      90
+    ]
+  ],
+  "aspect": "16:9",
+  "model": "Seedance 2.5 text-to-video",
+  "api_evidence": "https://fal.ai/models/bytedance/seedance-2.5/text-to-video/api",
+  "source_sha256": "83f2096ba01123498790e4561ec9c43d6f3ee341580645c82de12a530affcd08",
+  "media_inputs": [],
+  "approach": "新虚构文字创作，采用总包人物服装与场景设计，不处理或重投被拒媒体，不复刻任何真人身份",
+  "identity_limit": "纯文字人物外观可能与现有前30秒不同，已明确告知用户",
+  "first_version_only": true,
+  "bgm_added": false,
+  "subtitles": "single Chinese layer",
+  "target_episode_seconds": 98,
+  "remaining_seconds_after_this_batch": 8,
+  "repairs": false
+}

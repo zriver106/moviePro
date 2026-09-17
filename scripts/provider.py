@@ -62,6 +62,7 @@ BACKENDS = {
             ("2.0", "ref"): "https://fal.run/bytedance/seedance-2.0/reference-to-video",
             ("2.5", "i2v"): "https://fal.run/bytedance/seedance-2.5/image-to-video",
             ("2.5", "ref"): "https://fal.run/bytedance/seedance-2.5/reference-to-video",
+            ("2.5", "t2v"): "https://fal.run/bytedance/seedance-2.5/text-to-video",
         },
     },
     # official: 官方直连待接。加一个同构的条目即可，业务脚本不用动。
@@ -206,6 +207,8 @@ def queue_submit(capability, body, *, model="2.5", mode="i2v"):
     if BACKEND != "fal":
         raise ValueError("当前队列适配仅支持fal")
     if capability == "video":
+        if mode == "t2v" and any(k in body for k in ('image_url', 'image_urls', 'video_urls', 'audio_urls', 'end_image_url', 'task')):
+            raise ValueError("纯文字视频请求不得携带素材或reference/editing/extension任务参数")
         endpoint = _cfg()["video"][(model, mode)]
         if body.get("resolution") not in capabilities(model)["resolutions"]:
             raise ValueError("视频分辨率不支持")
