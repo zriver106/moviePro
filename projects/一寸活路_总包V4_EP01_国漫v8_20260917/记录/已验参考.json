@@ -147,5 +147,158 @@
     "sha256": "166cb426299e43f2ee867dfaae22240e1e4ba499c17f156932fe43634831043a",
     "editing_input_only": true,
     "scope": "编辑失败片9秒原帧，用于制作双腕纠偏参考"
+  },
+  "首帧/EF_S14_v02.png": {
+    "sha256": "1f4e9b81030eda2449b6e82bb820860c36583f1fbaf7bb4d0906eb8092da7a58",
+    "editing_input_only": true,
+    "scope": "两条前臂已明确；双腕分开、未系柱、膝未压胸，继续纠偏"
+  },
+  "首帧/EF_S14_v03.png": {
+    "sha256": "9bf083b36c1307d481fd419d517007154fc1a956a64546a708c584c69de8682e",
+    "scope": "两前臂和并腕已清楚，仍需同圈绕柱及膝压胸",
+    "editing_input_only": true
+  },
+  "首帧/SF_S06_v01.png": {
+    "sha256": "faae9fa453b427f0027c394bf5b21d404256e7ff013fc20acfdde8bca2e140f1",
+    "scope": "堵梯口首帧：双齿叉、右腰轮柄、同脸同衣、木钩和末阶可辨",
+    "editing_input_only": false
+  },
+  "首帧/SF_S02_v01.png": {
+    "sha256": "e9f541cb033e26de8e1beaefa1e3488a96d298fcd048f1f593d601248786c466",
+    "scope": "新增上层门且叉三齿和双轮柄，待局部纠偏",
+    "editing_input_only": true
+  },
+  "首帧/S12_叉杆接触局部编辑.png": {
+    "sha256": "900743df6dd697891f03fbbc1385d02fe782b17a1c0b405824f9ff35cea4f509",
+    "editing_input_only": true,
+    "scope": "双齿已恢复，继续修固定夹杆与索线遮挡"
+  },
+  "预演/S14_00.5s.jpg": {
+    "sha256": "59c9935824003f5567f5857a8f1bfe9b94ef88b47d46b7e7e7d77be4e536403b",
+    "editing_input_only": true,
+    "scope": "原片0.5秒压臂屈膝动作参考，已查看全段取样"
+  },
+  "预演/布局/S14动作接触示意.mp4": {
+    "sha256": "7108b7045d3d510ff913f1b528a99814cb08d0e6ba25efff052ba9a417f3e596",
+    "editing_input_only": true,
+    "scope": "程序动作示意已检查关键时刻：足触叉杆、双臂V形并腕、套环绕同柱；只作编辑动作参考，禁止直接入片"
+  },
+  "首帧/EF_S14_v05.png": {
+    "sha256": "853eb37c02252cf2770f1c70ada669c042a8529fc86aedc28f3de780d5d4c26a",
+    "editing_input_only": true,
+    "scope": "已复核失败图，供Pro局部纠偏"
+  },
+  "首帧/SF_S03_v03.png": {
+    "sha256": "fd2abb4978f5be617fb21515ca0bb0354d8fea727753b6aa4d6466b7ab2172af",
+    "editing_input_only": true,
+    "scope": "已复核失败图，供Pro局部纠偏"
+  },
+  "预演/布局/S12接触布局_v02.png": {
+    "sha256": "bb7d5d8e4c46d030909c12cd7e909844ce537ea0e2a693d300adc0c3515e5541",
+    "scope": "接触示意：叉位于轮下方独立固定撑柱，绳线避开叉杆，两手持叉；非成片"
+  },
+  "参考/旧闸墙面材质.png": {
+    "sha256": "e3f82fdbe460daf5f3a190ed1718afe7858f78989d1ff16bf6c796c19c558001",
+    "scope": "已查看纯墙面材质裁图，用于避免背景整套机关被复制"
+  },
+  "首帧/EF_S14_PRO_v06.png": {
+    "sha256": "b2783c8d41c7ece5b6d89b06d012b797e00ee1d7f31db17b0e9ab98a685a1219",
+    "editing_input_only": true,
+    "scope": "Pro局部变化已检查；仍需双臂/水位纠偏"
+  },
+  "首帧/SF_S03_PRO_v04.png": {
+    "sha256": "0a421d72deb47d84035878e0e40990bee14c85e2c12c3bb95a912839514848b7",
+    "editing_input_only": true,
+    "scope": "Pro局部变化已检查；仍需双臂/水位纠偏"
+  },
+  "首帧/SF_S05_v02.png": {
+    "sha256": "5674f442bbd89b75343e914bb152ef74c5f0719d48f96fbe7818170036960a15",
+    "scope": "已核：同陆照、黑锥双手施力，锥尖在铜片左侧范围；铜片完整，门孔与门轴位置固定。无需自行增加左侧25%精确点限制。"
+  },
+  "首帧/EF_S14_PRO_v07.png": {
+    "sha256": "390cbe7d5db82a57bbe6b7257a12a696f9df0a68ed443beed7d76678d5f12c28",
+    "scope": "已查双前臂、共圈绑腕、同柱系绳的静态纠偏目标；不是动作验收",
+    "editing_input_only": false
+  },
+  "首帧/SF_S03_PRO_v05.png": {
+    "sha256": "47e860cf1a88b0feca89c67340312281bc6a330d7a42a79a0491052898aa53d0",
+    "scope": "人物和灯手归属正确，水位待上抬",
+    "editing_input_only": true
+  },
+  "首帧/SF_S12_PRO_v05.png": {
+    "sha256": "5a38f1390fb3ff971fa750d3c07d6141f9bb7abc8f83b3347e3ebc32a0d384db",
+    "scope": "机关布局接近；鱼叉两端双头需修",
+    "editing_input_only": true
+  },
+  "首帧/SF_S04_PRO_v01.png": {
+    "sha256": "f6d5ec3a347a40d3af427ff61660684d61624201006fa885af3ffb036c330d07",
+    "scope": "门方向及双头锥需修",
+    "editing_input_only": true
+  },
+  "首帧/SF_S17_PRO_v01.png": {
+    "sha256": "7cac9d93248481561d7edd4ad2e790a6646a99aecc9d5c6c5347d11172b0ef86",
+    "scope": "左侧凹痕未明确，锥尖位置需微调",
+    "editing_input_only": true
+  },
+  "首帧/SF_S18_PRO_v01.png": {
+    "sha256": "4ed7a3f14b9ee6952a6d12ff8c24934bc3ee46f55156b0cabbd41c980771ca0a",
+    "scope": "反面锥尖方向错误，木舌接触待修",
+    "editing_input_only": true
+  },
+  "首帧/SF_S02_v02.png": {
+    "sha256": "b9302a34c15a26105aebf91fc7cfab2a388fdd3e896d19e4aef8b27aa040cc00",
+    "editing_input_only": true,
+    "scope": "已看，额外大轮盘、上层门、陆照腰上错挂铜柄待修"
+  },
+  "后期/配音/DIA_S03_v02.mp3": {
+    "sha256": "0f93b2032a3505e7c729879c77fb6cc0c07ca0d7f94bc2c0eee8ca011df3d071",
+    "scope": "Scribe独立回读逐字正确：三个人，先开门，关水的轮子在里面。实测3.662秒；声音身份female-shaonv。"
+  },
+  "首帧/SF_S03_PRO_v06.png": {
+    "sha256": "f4cedf2e7beaf88f7d14a0250be4d6d69900a71864d90840f0fa5fb915c8c1ae",
+    "scope": "三人脸与闻溪提灯归属清楚，水到颈根；静态首帧通过"
+  },
+  "首帧/SF_S04_PRO_v02.png": {
+    "sha256": "4f3af67bc62cd6fd03b82b7aceffe63b59dd05df935dceaf9d3082eda10e6268",
+    "scope": "陆照左、门右，同门铜片完整，单头黑锥握于腰前，右足踏台；静态通过"
+  },
+  "首帧/SF_S12_PRO_v06.png": {
+    "sha256": "afc88c65feb603988f6eb8086e610846edeffe2f35dc0889c5d536c59d03e361",
+    "scope": "叉为单头两齿，杆与固定横撑立柱相接且在转鼓下方；双脚在索圈，双手握右侧楔，石下承架；首帧通过，收索物理仍待实际视频"
+  },
+  "预演/S14原片绑腕局部.mp4": {
+    "sha256": "6f6fcb4cadffe0c8f4fb2de48dc4972ff7c7f00af74b284d24168ec0809692db",
+    "scope": "原片3.5—10.0秒，x0/y200/w480/h450局部裁剪；画面已按源8.5秒核对，用于原片局部编辑",
+    "editing_input_only": true
+  },
+  "参考/S14双腕纠偏局部.png": {
+    "sha256": "63575ed3e01101760a59beb9bc9e1b5dd1195e8ac8373bf41e97247cb5c3edab",
+    "scope": "双腕目标图局部：两只棕袖前臂进入同圈，已查看",
+    "editing_input_only": false
+  },
+  "首帧/SF_S10_PRO_v01.png": {
+    "sha256": "8c56d897dfd74401debf856b959aed542260de871225db75c6915ea49d2fb104",
+    "editing_input_only": true,
+    "scope": "已查，局部道具接触/数量待修正"
+  },
+  "首帧/SF_S11_PRO_v01.png": {
+    "sha256": "d1abab1a96c66e312cf7360cb8e493b04bc1f6b5bbe4c24f22d426b9d6e11d2e",
+    "editing_input_only": true,
+    "scope": "已查，局部道具接触/数量待修正"
+  },
+  "首帧/SF_S02_PRO_v03.png": {
+    "sha256": "96438050a4c5a0f66358d2d5643cddf1a8616a04ac170907c2a98f016b1ca04a",
+    "editing_input_only": true,
+    "scope": "已查，局部道具接触/数量待修正"
+  },
+  "首帧/SF_S18_PRO_v02.png": {
+    "sha256": "c3032308d46b47102c4d95372ca37f4e83e54855d24841deed37474abc9c21f4",
+    "editing_input_only": true,
+    "scope": "已查，局部道具接触/数量待修正"
+  },
+  "参考/S14原片0.5秒.png": {
+    "sha256": "feac532b92857561c5a66f9b8eaf8ceb6cabb885dbd5572ea8cf5267c0ffb765",
+    "scope": "已看原视频0.5秒帧，左膝压身、右脚在后，用于原片脚踢姿态纠偏",
+    "editing_input_only": true
   }
 }

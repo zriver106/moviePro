@@ -1,0 +1,71 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:14:12.651935+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "首帧/SF_S02_v01.png",
+      "资产/PROP_FORK_v01.png"
+    ],
+    "output": "首帧/SF_S02_v02.png",
+    "body": {
+      "prompt": "Correct three prop details in image 1. Replace the stocky man's three-pronged fork with the exact black iron TWO-pronged boat fork in image 2. His brass wheel crank hangs at his RIGHT waist; his LEFT waist is plain ochre robe and cloth belt. Replace the large door on the upper landing behind him with the continuation of the gray brick wall and timber railing. Preserve the small original wheel-room door at lower right, both characters, stairway, winch, ropes, stone, water and camera composition.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    }
+  },
+  "references": {
+    "首帧/SF_S02_v01.png": "e9f541cb033e26de8e1beaefa1e3488a96d298fcd048f1f593d601248786c466",
+    "资产/PROP_FORK_v01.png": "ed2256e38121de55dc463a272656f1caea0f016e79279a19279b7d58fd1b9289"
+  },
+  "body": {
+    "prompt": "Correct three prop details in image 1. Replace the stocky man's three-pronged fork with the exact black iron TWO-pronged boat fork in image 2. His brass wheel crank hangs at his RIGHT waist; his LEFT waist is plain ochre robe and cloth belt. Replace the large door on the upper landing behind him with the continuation of the gray brick wall and timber railing. Preserve the small original wheel-room door at lower right, both characters, stairway, winch, ropes, stone, water and camera composition.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac355/jsttbN4S8AOkv6kAgD-b9_SF_S02_v01.png",
+      "https://v3b.fal.media/files/b/0aaac260/xaK679KRe-IamUsQLCEn__PROP_FORK_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae6e-380b-7791-8b8c-0825416c08f3",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6e-380b-7791-8b8c-0825416c08f3",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6e-380b-7791-8b8c-0825416c08f3/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6e-380b-7791-8b8c-0825416c08f3/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae6e-380b-7791-8b8c-0825416c08f3",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6e-380b-7791-8b8c-0825416c08f3",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6e-380b-7791-8b8c-0825416c08f3/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6e-380b-7791-8b8c-0825416c08f3/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 64.23799991607666
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac35b/9f9EDoAECM0ufYszptwzg_403fc3bbbf4445d78c7fc9d0c90fb769.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "403fc3bbbf4445d78c7fc9d0c90fb769.jpg",
+        "file_size": 571340,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 48016156
+  },
+  "output_sha256": "b9302a34c15a26105aebf91fc7cfab2a388fdd3e896d19e4aef8b27aa040cc00"
+}

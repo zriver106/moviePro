@@ -1,0 +1,64 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:12:43.761158+00:00",
+  "spec": {
+    "capability": "tts",
+    "refs": [],
+    "body": {
+      "prompt": "里面有木舌，得顶过去！",
+      "voice_setting": {
+        "voice_id": "female-shaonv",
+        "speed": 1.0,
+        "vol": 1.0,
+        "pitch": 0
+      },
+      "language_boost": "Chinese",
+      "output_format": "url"
+    },
+    "output": "后期/配音/DIA_S05_v01.mp3",
+    "purpose": "总包原文固定音色正常语速对白，最终对齐口型"
+  },
+  "references": {},
+  "body": {
+    "prompt": "里面有木舌，得顶过去！",
+    "voice_setting": {
+      "voice_id": "female-shaonv",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "language_boost": "Chinese",
+    "output_format": "url"
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae6c-d819-7b01-8e60-b3d480bc930d",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-d819-7b01-8e60-b3d480bc930d",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-d819-7b01-8e60-b3d480bc930d/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-d819-7b01-8e60-b3d480bc930d/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae6c-d819-7b01-8e60-b3d480bc930d",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-d819-7b01-8e60-b3d480bc930d",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-d819-7b01-8e60-b3d480bc930d/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-d819-7b01-8e60-b3d480bc930d/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 2.379000186920166
+    }
+  },
+  "result": {
+    "audio": {
+      "url": "https://v3b.fal.media/files/b/0aaac34d/sGKxUanxtD236Whf-AxBj_speech.mp3",
+      "content_type": "audio/mpeg",
+      "file_name": "speech.mp3",
+      "file_size": 37428
+    },
+    "duration_ms": 2232
+  },
+  "output_sha256": "663e05e535fbdd7cee545198cc01bc9c4e9bbe5e00eea6a164be89d312b13e25"
+}

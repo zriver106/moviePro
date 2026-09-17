@@ -1,0 +1,58 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T08:40:35.474934+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S11_PRO_v01.png",
+      "资产/PROP_AWL_v02.png"
+    ],
+    "output": "首帧/SF_S11_PRO_v02.png",
+    "body": {
+      "prompt": "Replace the small tool held in the young man’s right fist with the EXACT one-ended awl from image 2: his fist wraps around its tan hemp HANDLE at its LEFT END; a single straight pointed black shaft projects RIGHT from his fist. The round wooden butt is visible just to the left of his fist, ending there. The complete tool is 35 centimeters long. Keep all other parts of image 1 unchanged, including the groove immediately below the tool.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S11_PRO_v01.png": "d1abab1a96c66e312cf7360cb8e493b04bc1f6b5bbe4c24f22d426b9d6e11d2e",
+    "资产/PROP_AWL_v02.png": "01272a841a1743e63309e040e30fbccdbf11b419596a67232e57306afead93e1"
+  },
+  "body": {
+    "prompt": "Replace the small tool held in the young man’s right fist with the EXACT one-ended awl from image 2: his fist wraps around its tan hemp HANDLE at its LEFT END; a single straight pointed black shaft projects RIGHT from his fist. The round wooden butt is visible just to the left of his fist, ending there. The complete tool is 35 centimeters long. Keep all other parts of image 1 unchanged, including the groove immediately below the tool.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3f3/Cc4NJ6xB0M7VZDpuwW8qj_SF_S11_PRO_v01.png",
+      "https://v3b.fal.media/files/b/0aaac270/oFScqdwRK_LcYa704asqK_PROP_AWL_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae86-5eb3-7b02-9e46-59095f49bb91",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-5eb3-7b02-9e46-59095f49bb91",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-5eb3-7b02-9e46-59095f49bb91/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-5eb3-7b02-9e46-59095f49bb91/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0ae86-5eb3-7b02-9e46-59095f49bb91",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-5eb3-7b02-9e46-59095f49bb91",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-5eb3-7b02-9e46-59095f49bb91/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-5eb3-7b02-9e46-59095f49bb91/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

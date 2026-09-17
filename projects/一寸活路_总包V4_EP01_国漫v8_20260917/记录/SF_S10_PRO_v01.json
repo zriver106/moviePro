@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:35:23.750408+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S12_PRO_v06.png",
+      "资产/PROP_AWL_v02.png"
+    ],
+    "output": "首帧/SF_S10_PRO_v01.png",
+    "body": {
+      "prompt": "Use image 1 as the exact scene and character master. Both men are standing. The young blue-shirted man stands immediately in front of the winch, holding the exact small black awl from image 2 in his right hand beside his waist, its point directed down. His left hand is open beside his hip. The ochre-robed man stands at left with both boots inside the existing loose floor loop. He aims his long two-pronged fork horizontally toward the young man’s abdomen; its tip stops a hand span before the blue shirt. The fixed wooden crossbar and vertical post of the winch stand behind this aim line, beneath the rotating rope drum. Keep the stone suspended above its catch, all rope paths, identities, costumes, lighting and the 3D guoman style.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S12_PRO_v06.png": "afc88c65feb603988f6eb8086e610846edeffe2f35dc0889c5d536c59d03e361",
+    "资产/PROP_AWL_v02.png": "01272a841a1743e63309e040e30fbccdbf11b419596a67232e57306afead93e1"
+  },
+  "body": {
+    "prompt": "Use image 1 as the exact scene and character master. Both men are standing. The young blue-shirted man stands immediately in front of the winch, holding the exact small black awl from image 2 in his right hand beside his waist, its point directed down. His left hand is open beside his hip. The ochre-robed man stands at left with both boots inside the existing loose floor loop. He aims his long two-pronged fork horizontally toward the young man’s abdomen; its tip stops a hand span before the blue shirt. The fixed wooden crossbar and vertical post of the winch stand behind this aim line, beneath the rotating rope drum. Keep the stone suspended above its catch, all rope paths, identities, costumes, lighting and the 3D guoman style.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3d4/ChbkM3Hy7h264yoVPu2WO_SF_S12_PRO_v06.png",
+      "https://v3b.fal.media/files/b/0aaac270/oFScqdwRK_LcYa704asqK_PROP_AWL_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae81-9cb1-7192-8437-5bc2b1163e3f",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae81-9cb1-7192-8437-5bc2b1163e3f",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae81-9cb1-7192-8437-5bc2b1163e3f/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae81-9cb1-7192-8437-5bc2b1163e3f/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae81-9cb1-7192-8437-5bc2b1163e3f",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae81-9cb1-7192-8437-5bc2b1163e3f",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae81-9cb1-7192-8437-5bc2b1163e3f/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae81-9cb1-7192-8437-5bc2b1163e3f/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 147.20000004768372
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac3e3/G8tFWkcNk68FTDJ6jq1P4_b3abe324deab491793cd069dea18979b.png",
+        "content_type": "image/png",
+        "file_name": "b3abe324deab491793cd069dea18979b.png",
+        "file_size": 7051979,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "8c56d897dfd74401debf856b959aed542260de871225db75c6915ea49d2fb104"
+}

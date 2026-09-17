@@ -1,0 +1,71 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:14:11.500321+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "预演/S14_00.5s.jpg",
+      "首帧/EF_S14_v03.png"
+    ],
+    "output": "首帧/EF_S14_v05.png",
+    "body": {
+      "prompt": "Edit image 1. Keep the blue-shirted young man's kneeling leg pose, with his bent knee pressing the stocky man's upper chest. Change the brown-robed man's arms to the raised two-arm pose shown in image 2: BOTH visible brown-sleeved elbows bent, BOTH separate forearms leading to touching wrists beside the tall post at left. Bind these two touching wrists together with ONE common rope loop, and run that rope around the tall wooden post directly behind them. The blue-shirted man's hands tighten this rope at the joined wrists. Preserve the two separate forearms and hands, their original faces, the shallow water, camera viewpoint and lighting of image 1. The bound booted ankles stay together.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    }
+  },
+  "references": {
+    "预演/S14_00.5s.jpg": "59c9935824003f5567f5857a8f1bfe9b94ef88b47d46b7e7e7d77be4e536403b",
+    "首帧/EF_S14_v03.png": "9bf083b36c1307d481fd419d517007154fc1a956a64546a708c584c69de8682e"
+  },
+  "body": {
+    "prompt": "Edit image 1. Keep the blue-shirted young man's kneeling leg pose, with his bent knee pressing the stocky man's upper chest. Change the brown-robed man's arms to the raised two-arm pose shown in image 2: BOTH visible brown-sleeved elbows bent, BOTH separate forearms leading to touching wrists beside the tall post at left. Bind these two touching wrists together with ONE common rope loop, and run that rope around the tall wooden post directly behind them. The blue-shirted man's hands tighten this rope at the joined wrists. Preserve the two separate forearms and hands, their original faces, the shallow water, camera viewpoint and lighting of image 1. The bound booted ankles stay together.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac355/9Tv3ycyvHW9zwEhvaqh3A_S14_00.5s.jpg",
+      "https://v3b.fal.media/files/b/0aaac34c/SfCDkegZg66G-LpNli5AH_EF_S14_v03.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae6e-3247-79a2-815d-00491343fc12",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6e-3247-79a2-815d-00491343fc12",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6e-3247-79a2-815d-00491343fc12/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6e-3247-79a2-815d-00491343fc12/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 1
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae6e-3247-79a2-815d-00491343fc12",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6e-3247-79a2-815d-00491343fc12",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6e-3247-79a2-815d-00491343fc12/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6e-3247-79a2-815d-00491343fc12/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 50.17899990081787
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac35a/loOXCbC-t7sJhYd0Z2IMC_3ae1db96e1a14c629af4a8ff152db59d.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "3ae1db96e1a14c629af4a8ff152db59d.jpg",
+        "file_size": 621855,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 269541053
+  },
+  "output_sha256": "853eb37c02252cf2770f1c70ada669c042a8529fc86aedc28f3de780d5d4c26a"
+}

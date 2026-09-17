@@ -1,0 +1,64 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:12:44.561943+00:00",
+  "spec": {
+    "capability": "tts",
+    "refs": [],
+    "body": {
+      "prompt": "拿这点钱买命？",
+      "voice_setting": {
+        "voice_id": "male-qn-badao",
+        "speed": 1.0,
+        "vol": 1.0,
+        "pitch": -2
+      },
+      "language_boost": "Chinese",
+      "output_format": "url"
+    },
+    "output": "后期/配音/DIA_S09_v01.mp3",
+    "purpose": "总包原文固定音色正常语速对白，最终对齐口型"
+  },
+  "references": {},
+  "body": {
+    "prompt": "拿这点钱买命？",
+    "voice_setting": {
+      "voice_id": "male-qn-badao",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": -2
+    },
+    "language_boost": "Chinese",
+    "output_format": "url"
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae6c-db73-7bb1-969a-06fede517800",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-db73-7bb1-969a-06fede517800",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-db73-7bb1-969a-06fede517800/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-db73-7bb1-969a-06fede517800/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae6c-db73-7bb1-969a-06fede517800",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-db73-7bb1-969a-06fede517800",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-db73-7bb1-969a-06fede517800/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-db73-7bb1-969a-06fede517800/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 2.4140000343322754
+    }
+  },
+  "result": {
+    "audio": {
+      "url": "https://v3b.fal.media/files/b/0aaac34d/UL7AiC_If_hRzVbbOwYAg_speech.mp3",
+      "content_type": "audio/mpeg",
+      "file_name": "speech.mp3",
+      "file_size": 31092
+    },
+    "duration_ms": 1836
+  },
+  "output_sha256": "26ea9691e20a10b6eaf11cb019d00e002449fda2e837d0a6c0ff6188ce88b922"
+}

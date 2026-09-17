@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:18:19.576229+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/EF_S14_v03.png",
+      "预演/S14_00.5s.jpg"
+    ],
+    "output": "首帧/EF_S14_PRO_v06.png",
+    "body": {
+      "prompt": "Edit image 1. The blue-shirted man kneels across the brown-robed man's upper chest, with the bent knee and shin position shown in image 2. Keep the brown man's TWO separate forearms and paired wrists at the tall post in image 1. One shared rope loop binds BOTH touching wrists as one bundle to that tall post. The blue man's hands pull its tail tight and press the tail into the cleat on that same post. Preserve the two faces, clothes, bound booted ankles, stone resting on wooden catch, flooded courtyard and camera angle. Show clear knee-to-chest contact and wrist-rope-post contact.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/EF_S14_v03.png": "9bf083b36c1307d481fd419d517007154fc1a956a64546a708c584c69de8682e",
+    "预演/S14_00.5s.jpg": "59c9935824003f5567f5857a8f1bfe9b94ef88b47d46b7e7e7d77be4e536403b"
+  },
+  "body": {
+    "prompt": "Edit image 1. The blue-shirted man kneels across the brown-robed man's upper chest, with the bent knee and shin position shown in image 2. Keep the brown man's TWO separate forearms and paired wrists at the tall post in image 1. One shared rope loop binds BOTH touching wrists as one bundle to that tall post. The blue man's hands pull its tail tight and press the tail into the cleat on that same post. Preserve the two faces, clothes, bound booted ankles, stone resting on wooden catch, flooded courtyard and camera angle. Show clear knee-to-chest contact and wrist-rope-post contact.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac34c/SfCDkegZg66G-LpNli5AH_EF_S14_v03.png",
+      "https://v3b.fal.media/files/b/0aaac355/9Tv3ycyvHW9zwEhvaqh3A_S14_00.5s.jpg"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae71-f84e-7901-a777-dbc6f0de0e6d",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae71-f84e-7901-a777-dbc6f0de0e6d",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae71-f84e-7901-a777-dbc6f0de0e6d/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae71-f84e-7901-a777-dbc6f0de0e6d/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae71-f84e-7901-a777-dbc6f0de0e6d",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae71-f84e-7901-a777-dbc6f0de0e6d",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae71-f84e-7901-a777-dbc6f0de0e6d/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae71-f84e-7901-a777-dbc6f0de0e6d/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 121.38399982452393
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac37a/cu839L6KiKNvGZ7stj8Ig_8d19a337cf634cbf92a6ad54ea7e31ac.png",
+        "content_type": "image/png",
+        "file_name": "8d19a337cf634cbf92a6ad54ea7e31ac.png",
+        "file_size": 6906997,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "b2783c8d41c7ece5b6d89b06d012b797e00ee1d7f31db17b0e9ab98a685a1219"
+}

@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:12:40.986091+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "首帧/EF_S14_v03.png"
+    ],
+    "output": "首帧/EF_S14_v04.png",
+    "body": {
+      "prompt": "The young man in blue kneels down and presses his LEFT knee firmly onto the brown-robed man's upper chest. His hands reach over to the pair of tied wrists at image left. One continuous rope wraps around BOTH touching wrists together and the tall post immediately behind them. His right hand pushes the rope tail into the small cleat on that post. Preserve the brown man's two visible elbows and two distinct forearms, paired hands, tied booted ankles, faces, stone on its catch, and the rest of the scene.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    }
+  },
+  "references": {
+    "首帧/EF_S14_v03.png": "9bf083b36c1307d481fd419d517007154fc1a956a64546a708c584c69de8682e"
+  },
+  "body": {
+    "prompt": "The young man in blue kneels down and presses his LEFT knee firmly onto the brown-robed man's upper chest. His hands reach over to the pair of tied wrists at image left. One continuous rope wraps around BOTH touching wrists together and the tall post immediately behind them. His right hand pushes the rope tail into the small cleat on that post. Preserve the brown man's two visible elbows and two distinct forearms, paired hands, tied booted ankles, faces, stone on its catch, and the rest of the scene.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac34c/SfCDkegZg66G-LpNli5AH_EF_S14_v03.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae6c-d171-7f31-9e6c-e3545bc8c8ff",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6c-d171-7f31-9e6c-e3545bc8c8ff",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6c-d171-7f31-9e6c-e3545bc8c8ff/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6c-d171-7f31-9e6c-e3545bc8c8ff/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae6c-d171-7f31-9e6c-e3545bc8c8ff",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6c-d171-7f31-9e6c-e3545bc8c8ff",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6c-d171-7f31-9e6c-e3545bc8c8ff/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6c-d171-7f31-9e6c-e3545bc8c8ff/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 42.99900007247925
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac350/qV2pfUQ6LpKq6FK8AjeSJ_273898ba22ca4fdf8fc6073358ff88f8.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "273898ba22ca4fdf8fc6073358ff88f8.jpg",
+        "file_size": 609785,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 1718933783
+  },
+  "output_sha256": "7f5c5f659c39191d9c401796fc94679f918f2cee6f79e21e81e615e3d47488bc"
+}

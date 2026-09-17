@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:10:14.457842+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "首帧/EF_S14_v02.png"
+    ],
+    "output": "首帧/EF_S14_v03.png",
+    "body": {
+      "prompt": "Move the brown-robed man's fist on the RIGHT side of this image all the way LEFT until it touches his other fist next to the tall wooden post. BOTH fists and BOTH wrists are pressed side by side beside that post at image left. The right-side forearm extends diagonally across his upper chest to reach this shared position. Keep both elbows and both separate brown sleeves visibly connected to their own forearms. Replace the connecting slack rope with one snug shared rope loop around the PAIR of touching wrists, continuing around the adjacent tall wooden post. The two tied wrists touch the front face of that post. Keep every other object, the two faces, feet and water identical to this image. Precise pose correction, cinematic Chinese 3D animation.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    }
+  },
+  "references": {
+    "首帧/EF_S14_v02.png": "1f4e9b81030eda2449b6e82bb820860c36583f1fbaf7bb4d0906eb8092da7a58"
+  },
+  "body": {
+    "prompt": "Move the brown-robed man's fist on the RIGHT side of this image all the way LEFT until it touches his other fist next to the tall wooden post. BOTH fists and BOTH wrists are pressed side by side beside that post at image left. The right-side forearm extends diagonally across his upper chest to reach this shared position. Keep both elbows and both separate brown sleeves visibly connected to their own forearms. Replace the connecting slack rope with one snug shared rope loop around the PAIR of touching wrists, continuing around the adjacent tall wooden post. The two tied wrists touch the front face of that post. Keep every other object, the two faces, feet and water identical to this image. Precise pose correction, cinematic Chinese 3D animation.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac33d/sdUNwEzZngPtuq4ZY8DUH_EF_S14_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae6a-9581-7de0-a7e1-3c7fc0b60e07",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-9581-7de0-a7e1-3c7fc0b60e07",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-9581-7de0-a7e1-3c7fc0b60e07/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-9581-7de0-a7e1-3c7fc0b60e07/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae6a-9581-7de0-a7e1-3c7fc0b60e07",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-9581-7de0-a7e1-3c7fc0b60e07",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-9581-7de0-a7e1-3c7fc0b60e07/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-9581-7de0-a7e1-3c7fc0b60e07/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 48.009000062942505
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac342/QkHj8sSuMCjaVt61LOLzv_d54f89852c194c1abcc9a37a3129097d.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "d54f89852c194c1abcc9a37a3129097d.jpg",
+        "file_size": 592016,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 672805267
+  },
+  "output_sha256": "9bf083b36c1307d481fd419d517007154fc1a956a64546a708c584c69de8682e"
+}

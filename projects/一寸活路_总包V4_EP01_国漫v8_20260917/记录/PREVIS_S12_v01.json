@@ -1,0 +1,51 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T08:35:22.603769+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "i2v",
+    "previs": true,
+    "refs": [
+      "首帧/SF_S12_PRO_v06.png"
+    ],
+    "output": "预演/PREVIS_S12_v01.mp4",
+    "body": {
+      "duration": "4",
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "generate_audio": true,
+      "prompt": "The kneeling young man pulls the small wooden brake wedge free with both hands. As the wedge slides out, the heavy suspended stone drops fifteen centimeters onto the wooden catch and stops firmly. Its taut rope turns the wooden drum about a quarter turn. The same drum reels in the rope leading down to the shallow-water floor loop. That loop contracts tightly around BOTH of the standing man’s booted ankles, pulling his feet together. He continues gripping and trying to lift his long fork from the fixed post-and-crossbar corner beneath the drum. The camera holds the simultaneous wedge, turning drum, closing ankle loop and short stone drop in one continuous shot. The fork and fixed crossbar stay below the rotating drum with clear separation. Detailed Chinese 3D animation, daylight, shallow water ripples. Action completes by second three, then holds the resulting physical tension through the final second."
+    }
+  },
+  "references": {
+    "首帧/SF_S12_PRO_v06.png": "afc88c65feb603988f6eb8086e610846edeffe2f35dc0889c5d536c59d03e361"
+  },
+  "body": {
+    "duration": "4",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "generate_audio": true,
+    "prompt": "The kneeling young man pulls the small wooden brake wedge free with both hands. As the wedge slides out, the heavy suspended stone drops fifteen centimeters onto the wooden catch and stops firmly. Its taut rope turns the wooden drum about a quarter turn. The same drum reels in the rope leading down to the shallow-water floor loop. That loop contracts tightly around BOTH of the standing man’s booted ankles, pulling his feet together. He continues gripping and trying to lift his long fork from the fixed post-and-crossbar corner beneath the drum. The camera holds the simultaneous wedge, turning drum, closing ankle loop and short stone drop in one continuous shot. The fork and fixed crossbar stay below the rotating drum with clear separation. Detailed Chinese 3D animation, daylight, shallow water ripples. Action completes by second three, then holds the resulting physical tension through the final second.",
+    "image_url": "https://v3b.fal.media/files/b/0aaac3d4/IKSYK-snA45BMxcKpSCD9_SF_S12_PRO_v06.png"
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae81-98d4-7b42-a54a-6a794396f0a9",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae81-98d4-7b42-a54a-6a794396f0a9",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae81-98d4-7b42-a54a-6a794396f0a9/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae81-98d4-7b42-a54a-6a794396f0a9/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0ae81-98d4-7b42-a54a-6a794396f0a9",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae81-98d4-7b42-a54a-6a794396f0a9",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae81-98d4-7b42-a54a-6a794396f0a9/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae81-98d4-7b42-a54a-6a794396f0a9/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

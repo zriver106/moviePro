@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:30:54.856585+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S18_PRO_v01.png"
+    ],
+    "output": "首帧/SF_S18_PRO_v02.png",
+    "body": {
+      "prompt": "An interior macro view behind the same door. A short triangular black steel TIP projects TWO CENTIMETERS out of the hole in the brass plate toward the camera. The rest of the steel shaft is on the far side of the door. Place the wooden latch tongue immediately against this projecting tip, aligned with it. The tongue sits in a shallow wooden retaining socket attached to the door frame. The metal tip presses the back of this small tongue, ready to push it out of the socket. Water ripples below the mechanism. Tight macro, detailed dimensional Chinese animation.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S18_PRO_v01.png": "4ed7a3f14b9ee6952a6d12ff8c24934bc3ee46f55156b0cabbd41c980771ca0a"
+  },
+  "body": {
+    "prompt": "An interior macro view behind the same door. A short triangular black steel TIP projects TWO CENTIMETERS out of the hole in the brass plate toward the camera. The rest of the steel shaft is on the far side of the door. Place the wooden latch tongue immediately against this projecting tip, aligned with it. The tongue sits in a shallow wooden retaining socket attached to the door frame. The metal tip presses the back of this small tongue, ready to push it out of the socket. Water ripples below the mechanism. Tight macro, detailed dimensional Chinese animation.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3b9/eDLFpM5SAKRpPRgYOUMit_SF_S18_PRO_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae7d-819f-7402-9a8e-6003b050ab96",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-819f-7402-9a8e-6003b050ab96",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-819f-7402-9a8e-6003b050ab96/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-819f-7402-9a8e-6003b050ab96/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae7d-819f-7402-9a8e-6003b050ab96",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-819f-7402-9a8e-6003b050ab96",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-819f-7402-9a8e-6003b050ab96/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-819f-7402-9a8e-6003b050ab96/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 181.15300011634827
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac3cb/gJCa7uCcYk1PqCOKz128R_b12b8bb3d42d4626b161ce53063a6baa.png",
+        "content_type": "image/png",
+        "file_name": "b12b8bb3d42d4626b161ce53063a6baa.png",
+        "file_size": 5880752,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "c3032308d46b47102c4d95372ca37f4e83e54855d24841deed37474abc9c21f4"
+}

@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:22:11.907898+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/EF_S14_PRO_v06.png"
+    ],
+    "output": "首帧/EF_S14_PRO_v07.png",
+    "body": {
+      "prompt": "Make the brown-robed man's LEFT ARM clearly visible: its brown sleeve starts at his far shoulder, its elbow bends over his chest, and its bare forearm extends diagonally upward-left to place its hand BESIDE his already raised right hand. Show TWO separate bare forearms and TWO hands side by side inside the SAME rope loop at the post. His left forearm crosses in front of his face below his chin, then reaches up to the paired wrists. Keep the young man's current kneeling pose, face, clothes and entire scene exactly as they are.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/EF_S14_PRO_v06.png": "b2783c8d41c7ece5b6d89b06d012b797e00ee1d7f31db17b0e9ab98a685a1219"
+  },
+  "body": {
+    "prompt": "Make the brown-robed man's LEFT ARM clearly visible: its brown sleeve starts at his far shoulder, its elbow bends over his chest, and its bare forearm extends diagonally upward-left to place its hand BESIDE his already raised right hand. Show TWO separate bare forearms and TWO hands side by side inside the SAME rope loop at the post. His left forearm crosses in front of his face below his chin, then reaches up to the paired wrists. Keep the young man's current kneeling pose, face, clothes and entire scene exactly as they are.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac385/SlfyBnEBJWRPHKnEHDIhx_EF_S14_PRO_v06.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae75-882a-7ab0-9d52-b7e376ce6eda",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae75-882a-7ab0-9d52-b7e376ce6eda",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae75-882a-7ab0-9d52-b7e376ce6eda/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae75-882a-7ab0-9d52-b7e376ce6eda/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae75-882a-7ab0-9d52-b7e376ce6eda",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae75-882a-7ab0-9d52-b7e376ce6eda",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae75-882a-7ab0-9d52-b7e376ce6eda/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae75-882a-7ab0-9d52-b7e376ce6eda/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 137.19400000572205
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac392/ZXq2oN9QasKXHz8InDCpd_a8e2ebbfc5c24023b5ce5b75619d6705.png",
+        "content_type": "image/png",
+        "file_name": "a8e2ebbfc5c24023b5ce5b75619d6705.png",
+        "file_size": 6194768,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "390cbe7d5db82a57bbe6b7257a12a696f9df0a68ed443beed7d76678d5f12c28"
+}

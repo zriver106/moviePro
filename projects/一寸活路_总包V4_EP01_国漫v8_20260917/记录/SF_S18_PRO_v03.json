@@ -1,0 +1,55 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T08:40:37.807283+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S18_PRO_v02.png"
+    ],
+    "output": "首帧/SF_S18_PRO_v03.png",
+    "body": {
+      "prompt": "The space to the RIGHT of the short triangular steel tip is the same vertical wooden door plank surface as the surrounding door. Keep the short triangular tip protruding from the brass hole. Raise the wooden latch tongue so its BACK FACE touches the sharp point of this short steel tip. The tongue sits loosely in its shallow wooden retaining socket, poised to be pushed toward the camera. Tight mechanical macro shot with a single short visible tip and the contacting wooden tongue, detailed dimensional Chinese animation.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S18_PRO_v02.png": "c3032308d46b47102c4d95372ca37f4e83e54855d24841deed37474abc9c21f4"
+  },
+  "body": {
+    "prompt": "The space to the RIGHT of the short triangular steel tip is the same vertical wooden door plank surface as the surrounding door. Keep the short triangular tip protruding from the brass hole. Raise the wooden latch tongue so its BACK FACE touches the sharp point of this short steel tip. The tongue sits loosely in its shallow wooden retaining socket, poised to be pushed toward the camera. Tight mechanical macro shot with a single short visible tip and the contacting wooden tongue, detailed dimensional Chinese animation.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3f3/c1prKu9kSJlg_adEaF8F3_SF_S18_PRO_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae86-680f-7072-866f-8e609f02c004",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-680f-7072-866f-8e609f02c004",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-680f-7072-866f-8e609f02c004/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-680f-7072-866f-8e609f02c004/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0ae86-680f-7072-866f-8e609f02c004",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-680f-7072-866f-8e609f02c004",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-680f-7072-866f-8e609f02c004/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-680f-7072-866f-8e609f02c004/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

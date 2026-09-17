@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:12:42.320317+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "首帧/S12_叉杆接触局部编辑.png"
+    ],
+    "output": "首帧/S12_叉杆接触局部编辑_v02.png",
+    "body": {
+      "prompt": "Move the entire fork shaft and its two-pronged iron head downward so the shaft is firmly wedged into the right-angle corner between the fixed LEFT vertical wooden post and the fixed horizontal beam beneath the drum. Its two iron prongs project below and beyond that beam. The rope from the bottom-left edge runs BEHIND the left wooden post onto the rope cylinder. Show the post occluding this rope where the fork crosses it. Preserve the drum, hands, clothing and brake wedge. Physical close-up with clear solid contact between wooden fork shaft, fixed post and fixed beam.",
+      "image_size": {
+        "width": 2300,
+        "height": 1625
+      },
+      "num_images": 1
+    }
+  },
+  "references": {
+    "首帧/S12_叉杆接触局部编辑.png": "900743df6dd697891f03fbbc1385d02fe782b17a1c0b405824f9ff35cea4f509"
+  },
+  "body": {
+    "prompt": "Move the entire fork shaft and its two-pronged iron head downward so the shaft is firmly wedged into the right-angle corner between the fixed LEFT vertical wooden post and the fixed horizontal beam beneath the drum. Its two iron prongs project below and beyond that beam. The rope from the bottom-left edge runs BEHIND the left wooden post onto the rope cylinder. Show the post occluding this rope where the fork crosses it. Preserve the drum, hands, clothing and brake wedge. Physical close-up with clear solid contact between wooden fork shaft, fixed post and fixed beam.",
+    "image_size": {
+      "width": 2300,
+      "height": 1625
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac34c/1nfAxb7fOn_uLyCFT26Cv_S12_%3F%3F%3F%3F%3F%3F%3F%3F.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae6c-d608-7e10-bef5-16a3da048df9",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6c-d608-7e10-bef5-16a3da048df9",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6c-d608-7e10-bef5-16a3da048df9/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6c-d608-7e10-bef5-16a3da048df9/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae6c-d608-7e10-bef5-16a3da048df9",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6c-d608-7e10-bef5-16a3da048df9",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6c-d608-7e10-bef5-16a3da048df9/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6c-d608-7e10-bef5-16a3da048df9/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 82.35999989509583
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac354/oWHq2-UmBi1YPIjeQAd-E_d68d1c5123a8439d9c885d188cd6666d.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "d68d1c5123a8439d9c885d188cd6666d.jpg",
+        "file_size": 512231,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 412800627
+  },
+  "output_sha256": "2a9468291678891109ececdd48db0945140d8486eac59a062d73dc3b8087d3f4"
+}

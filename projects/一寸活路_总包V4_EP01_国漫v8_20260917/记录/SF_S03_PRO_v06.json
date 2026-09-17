@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:30:51.007575+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S03_PRO_v05.png"
+    ],
+    "output": "首帧/SF_S03_PRO_v06.png",
+    "body": {
+      "prompt": "Raise the water surface to touch the base of the woman’s neck, covering her entire white inner collar and her gray jacket shoulders. The three faces and the raised lantern stay exactly where they are. The water surrounds their necks. Preserve the exact faces, framing and Chinese 3D animation appearance.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S03_PRO_v05.png": "47e860cf1a88b0feca89c67340312281bc6a330d7a42a79a0491052898aa53d0"
+  },
+  "body": {
+    "prompt": "Raise the water surface to touch the base of the woman’s neck, covering her entire white inner collar and her gray jacket shoulders. The three faces and the raised lantern stay exactly where they are. The water surrounds their necks. Preserve the exact faces, framing and Chinese 3D animation appearance.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3b9/bJg_ofqYhL72aSWn9_35b_SF_S03_PRO_v05.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae7d-734b-7582-b03a-5c8b4b806aca",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-734b-7582-b03a-5c8b4b806aca",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-734b-7582-b03a-5c8b4b806aca/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-734b-7582-b03a-5c8b4b806aca/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae7d-734b-7582-b03a-5c8b4b806aca",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-734b-7582-b03a-5c8b4b806aca",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-734b-7582-b03a-5c8b4b806aca/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-734b-7582-b03a-5c8b4b806aca/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 154.70700001716614
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac3c8/p7kNOMh77e6dqn5U_DsWz_c6604e53460c4bb68e06190466f63ddf.png",
+        "content_type": "image/png",
+        "file_name": "c6604e53460c4bb68e06190466f63ddf.png",
+        "file_size": 5422985,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "f4cedf2e7beaf88f7d14a0250be4d6d69900a71864d90840f0fa5fb915c8c1ae"
+}

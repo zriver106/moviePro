@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:22:13.389545+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S03_PRO_v04.png"
+    ],
+    "output": "首帧/SF_S03_PRO_v05.png",
+    "body": {
+      "prompt": "Move the gray-bearded man's entire head upward by 220 pixels in this 1440x2560 frame. His cheek now rests on the TOP of the woman's shoulder, beside her cheek, his eyes at approximately the height of her mouth. Preserve his exact facial identity. Then raise the horizontal water surface by 180 pixels so it reaches the base of the woman's neck at her clavicles. All three mouths remain above the surface. Keep the woman, lantern and young man's face and their current positions unchanged. Natural shoulder support, coherent neck anatomy, detailed Chinese 3D animation.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S03_PRO_v04.png": "0a421d72deb47d84035878e0e40990bee14c85e2c12c3bb95a912839514848b7"
+  },
+  "body": {
+    "prompt": "Move the gray-bearded man's entire head upward by 220 pixels in this 1440x2560 frame. His cheek now rests on the TOP of the woman's shoulder, beside her cheek, his eyes at approximately the height of her mouth. Preserve his exact facial identity. Then raise the horizontal water surface by 180 pixels so it reaches the base of the woman's neck at her clavicles. All three mouths remain above the surface. Keep the woman, lantern and young man's face and their current positions unchanged. Natural shoulder support, coherent neck anatomy, detailed Chinese 3D animation.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac385/orARWW5ycCxUfUofbo3Py_SF_S03_PRO_v04.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae75-8ed8-7010-aa0c-e41fcb273f2b",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae75-8ed8-7010-aa0c-e41fcb273f2b",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae75-8ed8-7010-aa0c-e41fcb273f2b/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae75-8ed8-7010-aa0c-e41fcb273f2b/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae75-8ed8-7010-aa0c-e41fcb273f2b",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae75-8ed8-7010-aa0c-e41fcb273f2b",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae75-8ed8-7010-aa0c-e41fcb273f2b/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae75-8ed8-7010-aa0c-e41fcb273f2b/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 149.55499982833862
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac394/_8Pm2LTeNXwoBbYZnd0bm_ee6cdbeeb4754f0780a62eebd67791c6.png",
+        "content_type": "image/png",
+        "file_name": "ee6cdbeeb4754f0780a62eebd67791c6.png",
+        "file_size": 5569443,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "47e860cf1a88b0feca89c67340312281bc6a330d7a42a79a0491052898aa53d0"
+}

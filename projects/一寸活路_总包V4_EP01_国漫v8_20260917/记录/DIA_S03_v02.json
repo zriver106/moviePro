@@ -1,0 +1,74 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:23:47.373837+00:00",
+  "spec": {
+    "capability": "tts",
+    "refs": [],
+    "body": {
+      "prompt": "三个人！<#0.2#>先开门！<#0.2#>关水的轮子在里面！",
+      "voice_setting": {
+        "voice_id": "female-shaonv",
+        "speed": 1.0,
+        "vol": 1.0,
+        "pitch": 0
+      },
+      "language_boost": "Chinese",
+      "output_format": "url",
+      "pronunciation_dict": {
+        "tone_list": [
+          "关水/(guan1)(shui3)"
+        ]
+      }
+    },
+    "output": "后期/配音/DIA_S03_v02.mp3",
+    "purpose": "两个独立ASR均未辨清关字，指定声调，原文不改；自然停顿仍在6秒预算内"
+  },
+  "references": {},
+  "body": {
+    "prompt": "三个人！<#0.2#>先开门！<#0.2#>关水的轮子在里面！",
+    "voice_setting": {
+      "voice_id": "female-shaonv",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "language_boost": "Chinese",
+    "output_format": "url",
+    "pronunciation_dict": {
+      "tone_list": [
+        "关水/(guan1)(shui3)"
+      ]
+    }
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae76-f86f-7682-a648-9fcf96892198",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae76-f86f-7682-a648-9fcf96892198",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae76-f86f-7682-a648-9fcf96892198/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae76-f86f-7682-a648-9fcf96892198/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae76-f86f-7682-a648-9fcf96892198",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae76-f86f-7682-a648-9fcf96892198",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae76-f86f-7682-a648-9fcf96892198/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae76-f86f-7682-a648-9fcf96892198/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 2.9560000896453857
+    }
+  },
+  "result": {
+    "audio": {
+      "url": "https://v3b.fal.media/files/b/0aaac38e/TPjeNt4SMhWKsIjcULhRt_speech.mp3",
+      "content_type": "audio/mpeg",
+      "file_name": "speech.mp3",
+      "file_size": 61044
+    },
+    "duration_ms": 3708
+  },
+  "output_sha256": "0f93b2032a3505e7c729879c77fb6cc0c07ca0d7f94bc2c0eee8ca011df3d071"
+}

@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:25:36.448404+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S05_v02.png"
+    ],
+    "output": "首帧/SF_S17_PRO_v01.png",
+    "body": {
+      "prompt": "Keep this exact camera angle, young adult, black awl and wooden door. The left third of the brass plate now has one shallow round dent. The black awl tip touches the INTACT RIGHT HALF of that same brass plate, to the right of the old dent. Shift the young man's torso and both braced hands slightly closer to the door to reach that point with the same short awl. The old left dent remains clearly visible beside the tip. His blue sleeves and front shirt are soaked darker, black pants wet. The brass plate is still solid at the right contact point, ready for the straight push. Preserve facial identity and 3D guoman style.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S05_v02.png": "5674f442bbd89b75343e914bb152ef74c5f0719d48f96fbe7818170036960a15"
+  },
+  "body": {
+    "prompt": "Keep this exact camera angle, young adult, black awl and wooden door. The left third of the brass plate now has one shallow round dent. The black awl tip touches the INTACT RIGHT HALF of that same brass plate, to the right of the old dent. Shift the young man's torso and both braced hands slightly closer to the door to reach that point with the same short awl. The old left dent remains clearly visible beside the tip. His blue sleeves and front shirt are soaked darker, black pants wet. The brass plate is still solid at the right contact point, ready for the straight push. Preserve facial identity and 3D guoman style.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac399/f59_A8baUiJ5ORpZNJpBX_SF_S05_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae78-a69e-7f01-bc33-f41a79371df4",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a69e-7f01-bc33-f41a79371df4",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a69e-7f01-bc33-f41a79371df4/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a69e-7f01-bc33-f41a79371df4/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae78-a69e-7f01-bc33-f41a79371df4",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a69e-7f01-bc33-f41a79371df4",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a69e-7f01-bc33-f41a79371df4/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a69e-7f01-bc33-f41a79371df4/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 193.39399981498718
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac3ad/L9UlVu5Xgcj9PUDyTD5A8_9913df3091fc41e399d59bed8783314c.png",
+        "content_type": "image/png",
+        "file_name": "9913df3091fc41e399d59bed8783314c.png",
+        "file_size": 5931070,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "7cac9d93248481561d7edd4ad2e790a6646a99aecc9d5c6c5347d11172b0ef86"
+}

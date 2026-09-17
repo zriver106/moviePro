@@ -1,0 +1,64 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:12:43.944008+00:00",
+  "spec": {
+    "capability": "tts",
+    "refs": [],
+    "body": {
+      "prompt": "门不用开了。",
+      "voice_setting": {
+        "voice_id": "male-qn-badao",
+        "speed": 1.0,
+        "vol": 1.0,
+        "pitch": -2
+      },
+      "language_boost": "Chinese",
+      "output_format": "url"
+    },
+    "output": "后期/配音/DIA_S06_v01.mp3",
+    "purpose": "总包原文固定音色正常语速对白，最终对齐口型"
+  },
+  "references": {},
+  "body": {
+    "prompt": "门不用开了。",
+    "voice_setting": {
+      "voice_id": "male-qn-badao",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": -2
+    },
+    "language_boost": "Chinese",
+    "output_format": "url"
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae6c-d8cc-7ee1-8a77-b01e9d82fee7",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-d8cc-7ee1-8a77-b01e9d82fee7",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-d8cc-7ee1-8a77-b01e9d82fee7/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-d8cc-7ee1-8a77-b01e9d82fee7/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae6c-d8cc-7ee1-8a77-b01e9d82fee7",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-d8cc-7ee1-8a77-b01e9d82fee7",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-d8cc-7ee1-8a77-b01e9d82fee7/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-d8cc-7ee1-8a77-b01e9d82fee7/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 1.6429998874664307
+    }
+  },
+  "result": {
+    "audio": {
+      "url": "https://v3b.fal.media/files/b/0aaac34d/MILCuz0Uony61VUORNjZx_speech.mp3",
+      "content_type": "audio/mpeg",
+      "file_name": "speech.mp3",
+      "file_size": 18996
+    },
+    "duration_ms": 1080
+  },
+  "output_sha256": "2cdf8644995548f40943b158231c9d776c89195f18824102a80207bf25d34118"
+}

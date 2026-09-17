@@ -1,0 +1,77 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:09:43.754276+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/SET_GATE_v05.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/CHAR_MD_v02.png",
+      "资产/PROP_FORK_v01.png"
+    ],
+    "output": "首帧/SF_S12_v04.png",
+    "body": {
+      "prompt": "A low SIDE medium shot of the mechanism in image 1 in the exact shaded shallow-water gate chamber, camera at knee height, vertical 9:16. Crop the standing stocky man from image 3 at his waist: ochre robe hem, dark pants, two black boots close together at image LEFT, both boots inside ONE small loose hemp noose lying in ankle-deep water. The loop connects by ONE clearly visible rope to the wooden winding drum in the CENTER. The suspended rectangular stone and its low wooden catch are at upper center-right, with a narrow fifteen-centimeter air gap between stone bottom and catch top. The stone's rope rises over a pulley and descends onto this same drum. The young man from image 2 crouches at image RIGHT; both his hands grip the protruding end of a small triangular brake wedge jammed tightly under the drum's right rim. His blue sleeves and bent right knee are visible. The stocky man's full two-pronged fork from image 4 runs horizontally across the UPPER LEFT foreground, its shaft trapped at a separate fixed wooden crossbrace beside the left upright. That fixed crossbrace stands well to the LEFT of the winding cylinder, with open visible air separating fork and drum. The fork head points out past the outer left upright and its wooden butt extends back into the stocky man's hands beyond the upper-left edge. Keep the rope line from foot loop to drum clearly behind this separate crossbrace. Focus on both boots inside the small loop, hands on wedge, drum and short stone-drop gap together. Detailed realistic wooden hardware in Chinese 3D animation style, coherent mechanical contacts, gray brick background and shallow water from image 1.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    }
+  },
+  "references": {
+    "资产/SET_GATE_v05.png": "a1da6724524e1843c0b22fb0e5ecbf930589d45c8598d74269cf6cd1e9a08bf2",
+    "资产/CHAR_LZ_v01.png": "2dc60da20629c0babae35e2279a0ea1e51493dd634440ec6205ce5cae4f3d95f",
+    "资产/CHAR_MD_v02.png": "e78176777f377fe9654b4ac24653f43025e56d2538a99c32aa833aba1f64b2d8",
+    "资产/PROP_FORK_v01.png": "ed2256e38121de55dc463a272656f1caea0f016e79279a19279b7d58fd1b9289"
+  },
+  "body": {
+    "prompt": "A low SIDE medium shot of the mechanism in image 1 in the exact shaded shallow-water gate chamber, camera at knee height, vertical 9:16. Crop the standing stocky man from image 3 at his waist: ochre robe hem, dark pants, two black boots close together at image LEFT, both boots inside ONE small loose hemp noose lying in ankle-deep water. The loop connects by ONE clearly visible rope to the wooden winding drum in the CENTER. The suspended rectangular stone and its low wooden catch are at upper center-right, with a narrow fifteen-centimeter air gap between stone bottom and catch top. The stone's rope rises over a pulley and descends onto this same drum. The young man from image 2 crouches at image RIGHT; both his hands grip the protruding end of a small triangular brake wedge jammed tightly under the drum's right rim. His blue sleeves and bent right knee are visible. The stocky man's full two-pronged fork from image 4 runs horizontally across the UPPER LEFT foreground, its shaft trapped at a separate fixed wooden crossbrace beside the left upright. That fixed crossbrace stands well to the LEFT of the winding cylinder, with open visible air separating fork and drum. The fork head points out past the outer left upright and its wooden butt extends back into the stocky man's hands beyond the upper-left edge. Keep the rope line from foot loop to drum clearly behind this separate crossbrace. Focus on both boots inside the small loop, hands on wedge, drum and short stone-drop gap together. Detailed realistic wooden hardware in Chinese 3D animation style, coherent mechanical contacts, gray brick background and shallow water from image 1.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac283/YBTTeiyA1_021I-SLc5hN_SET_GATE_v05.png",
+      "https://v3b.fal.media/files/b/0aaac25f/t4rGy2Kz8Q9gANtsAxVxq_CHAR_LZ_v01.png",
+      "https://v3b.fal.media/files/b/0aaac260/FBin0kXkxi9-ckrkAs8Mg_CHAR_MD_v02.png",
+      "https://v3b.fal.media/files/b/0aaac260/xaK679KRe-IamUsQLCEn__PROP_FORK_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae6a-1926-7961-b185-44a45b0335d3",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-1926-7961-b185-44a45b0335d3",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-1926-7961-b185-44a45b0335d3/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-1926-7961-b185-44a45b0335d3/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae6a-1926-7961-b185-44a45b0335d3",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-1926-7961-b185-44a45b0335d3",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-1926-7961-b185-44a45b0335d3/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-1926-7961-b185-44a45b0335d3/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 72.60899996757507
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac342/tsNVyPzcS5ZuZ7FV00eKY_1779bcc37fc24e0586f0775919a45e8b.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "1779bcc37fc24e0586f0775919a45e8b.jpg",
+        "file_size": 629805,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 2103371014
+  },
+  "output_sha256": "70a093b57f70f66660ee638097e87a029e2ff255ccdc6dc810ac3f37e34a458c"
+}

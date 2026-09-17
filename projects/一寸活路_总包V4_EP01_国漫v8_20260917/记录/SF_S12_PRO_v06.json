@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:30:52.160037+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S12_PRO_v05.png"
+    ],
+    "output": "首帧/SF_S12_PRO_v06.png",
+    "body": {
+      "prompt": "Correct the wooden boat fork. Its upper-left end beside the standing man’s shoulder is a plain rounded wooden butt, matching the brown shaft. Its lower-right end retains the black two-pronged iron head. Seat the shaft just above that lower iron head tightly into the inside corner formed by the fixed horizontal wooden crossbar and the LEFT vertical post below the winch. The head projects beyond this fixed corner. The rotating rope cylinder is visibly higher than this trapped shaft, with a wide clear air gap. Preserve the men, the drum, wedge, foot loop, stone, pulley and their current positions. Chinese 3D animation.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S12_PRO_v05.png": "5a38f1390fb3ff971fa750d3c07d6141f9bb7abc8f83b3347e3ebc32a0d384db"
+  },
+  "body": {
+    "prompt": "Correct the wooden boat fork. Its upper-left end beside the standing man’s shoulder is a plain rounded wooden butt, matching the brown shaft. Its lower-right end retains the black two-pronged iron head. Seat the shaft just above that lower iron head tightly into the inside corner formed by the fixed horizontal wooden crossbar and the LEFT vertical post below the winch. The head projects beyond this fixed corner. The rotating rope cylinder is visibly higher than this trapped shaft, with a wide clear air gap. Preserve the men, the drum, wedge, foot loop, stone, pulley and their current positions. Chinese 3D animation.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3b9/G3L9qkA_mhfQ2GE6Q7YpT_SF_S12_PRO_v05.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae7d-7780-7d03-9338-58cae635b065",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7780-7d03-9338-58cae635b065",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7780-7d03-9338-58cae635b065/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7780-7d03-9338-58cae635b065/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae7d-7780-7d03-9338-58cae635b065",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7780-7d03-9338-58cae635b065",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7780-7d03-9338-58cae635b065/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7780-7d03-9338-58cae635b065/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 145.83599996566772
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac3c7/J-BMXMFLhENijsuZ0mcJO_94098a9b08e84f468190dbbb6ef2ca21.png",
+        "content_type": "image/png",
+        "file_name": "94098a9b08e84f468190dbbb6ef2ca21.png",
+        "file_size": 6443883,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "afc88c65feb603988f6eb8086e610846edeffe2f35dc0889c5d536c59d03e361"
+}

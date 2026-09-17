@@ -1,0 +1,71 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:17:41.711574+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/PREVIS_S14_v01.mp4",
+      "预演/布局/S14动作接触示意.mp4"
+    ],
+    "output": "预演/EDIT_S14_GUIDED_v04.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "480p",
+      "generate_audio": true,
+      "prompt": "Edit @Video1. Replace the blue-shirted man's fork-clearing movement and the brown-robed man's arm positions with the physical action sequence demonstrated in @Video2. @Video1 is the editing master for the finished characters, faces, clothing, flooded courtyard, camera movement and ten-second duration. @Video2 is a coarse motion correction guide: its blue body maps to the young man, its brown supine body maps to the stocky man, its brown vertical post maps to the tall post beside the stocky man's head, and its black two-pronged tool maps to the boat fork. Transfer these corrections: at 0.75-1.5 seconds the blue man's BOOT contacts and kicks the fork away while his left hand pins the near wrist; at 3.3-5.0 seconds BOTH brown-sleeved forearms rise and their TWO wrists converge together beside that post; at 4.3-6.0 seconds a shared loop encircles BOTH wrists; at 6.0-8.3 seconds the rope wraps around the SAME post and its tail enters the cleat; at 8.6 seconds one brief unsuccessful struggle leaves both wrists fixed. Keep the blue man's bent knee pressing the upper chest during the restraint. Use the original detailed Chinese 3D animation appearance throughout. Restore the white letter shapes near the lower center to the original wet clothing surface. Retain the spoken Mandarin shout “放开！” and water sounds from @Video1."
+    }
+  },
+  "references": {
+    "预演/PREVIS_S14_v01.mp4": "68c5574dc26cd20696389aba63f3322b918a462807cbdad483514f1cf8f78caa",
+    "预演/布局/S14动作接触示意.mp4": "7108b7045d3d510ff913f1b528a99814cb08d0e6ba25efff052ba9a417f3e596"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "480p",
+    "generate_audio": true,
+    "prompt": "Edit @Video1. Replace the blue-shirted man's fork-clearing movement and the brown-robed man's arm positions with the physical action sequence demonstrated in @Video2. @Video1 is the editing master for the finished characters, faces, clothing, flooded courtyard, camera movement and ten-second duration. @Video2 is a coarse motion correction guide: its blue body maps to the young man, its brown supine body maps to the stocky man, its brown vertical post maps to the tall post beside the stocky man's head, and its black two-pronged tool maps to the boat fork. Transfer these corrections: at 0.75-1.5 seconds the blue man's BOOT contacts and kicks the fork away while his left hand pins the near wrist; at 3.3-5.0 seconds BOTH brown-sleeved forearms rise and their TWO wrists converge together beside that post; at 4.3-6.0 seconds a shared loop encircles BOTH wrists; at 6.0-8.3 seconds the rope wraps around the SAME post and its tail enters the cleat; at 8.6 seconds one brief unsuccessful struggle leaves both wrists fixed. Keep the blue man's bent knee pressing the upper chest during the restraint. Use the original detailed Chinese 3D animation appearance throughout. Restore the white letter shapes near the lower center to the original wet clothing surface. Retain the spoken Mandarin shout “放开！” and water sounds from @Video1.",
+    "image_urls": [],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac2e6/-uzNBa43K-yzdMrmcUja0_PREVIS_S14_v01.mp4",
+      "https://v3b.fal.media/files/b/0aaac36a/okr2J5kBTEbCCbBcq8-SI_S14%3F%3F%3F%3F%3F%3F.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae71-67ee-7c62-8c10-4bf424007fbf",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae71-67ee-7c62-8c10-4bf424007fbf",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae71-67ee-7c62-8c10-4bf424007fbf/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae71-67ee-7c62-8c10-4bf424007fbf/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae71-67ee-7c62-8c10-4bf424007fbf",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae71-67ee-7c62-8c10-4bf424007fbf",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae71-67ee-7c62-8c10-4bf424007fbf/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae71-67ee-7c62-8c10-4bf424007fbf/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 279.220999956131
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac386/BNi92JdGvY6WBE5Wyq703_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 6043647
+    },
+    "seed": 447823567
+  },
+  "output_sha256": "0dc5846693ad788ae723982c3e6074cbbf828dd54b1dc1755f421dfe2d3b555f"
+}

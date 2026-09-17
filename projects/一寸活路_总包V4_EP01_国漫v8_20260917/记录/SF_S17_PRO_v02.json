@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:30:53.331550+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S17_PRO_v01.png"
+    ],
+    "output": "首帧/SF_S17_PRO_v02.png",
+    "body": {
+      "prompt": "Put a clearly visible small shallow circular depression on the LEFT half of the brass plate, about one quarter of the plate width from its left edge. Move the black awl tip to touch the intact RIGHT half at three quarters of the plate width from its left edge. Keep the plate intact at the right contact point. Keep the same young man, the same two-handed straight grip, his pose, camera, door, lighting and wet clothes.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S17_PRO_v01.png": "7cac9d93248481561d7edd4ad2e790a6646a99aecc9d5c6c5347d11172b0ef86"
+  },
+  "body": {
+    "prompt": "Put a clearly visible small shallow circular depression on the LEFT half of the brass plate, about one quarter of the plate width from its left edge. Move the black awl tip to touch the intact RIGHT half at three quarters of the plate width from its left edge. Keep the plate intact at the right contact point. Keep the same young man, the same two-handed straight grip, his pose, camera, door, lighting and wet clothes.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3b9/afQOxt1FEQ4AzUJNYhk6j_SF_S17_PRO_v01.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae7d-7d86-72e3-89c5-4c892a6987fc",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7d86-72e3-89c5-4c892a6987fc",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7d86-72e3-89c5-4c892a6987fc/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7d86-72e3-89c5-4c892a6987fc/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae7d-7d86-72e3-89c5-4c892a6987fc",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7d86-72e3-89c5-4c892a6987fc",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7d86-72e3-89c5-4c892a6987fc/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7d86-72e3-89c5-4c892a6987fc/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 186.45700001716614
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac3cc/YY4xm_YeoStJH0J0R1EeM_66aa25e8a5d547a1b5ca2c6f9315985a.png",
+        "content_type": "image/png",
+        "file_name": "66aa25e8a5d547a1b5ca2c6f9315985a.png",
+        "file_size": 5932254,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "b1ba57a3d3d800c0656c59d5cfef5a336302c1edba8b441cb474978cbda5efc7"
+}

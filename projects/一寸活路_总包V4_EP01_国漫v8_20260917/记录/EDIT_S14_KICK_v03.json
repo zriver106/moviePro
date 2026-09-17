@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:08:37.396981+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/PREVIS_S14_v01.mp4"
+    ],
+    "output": "预演/EDIT_S14_KICK_v03.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "480p",
+      "generate_audio": true,
+      "prompt": "Edit the physical action at 0.5–2.0 seconds in @Video1. The blue-shirted man keeps his LEFT hand pressing the brown-robed man's right wrist against the floor. He extends his RIGHT LEG and his RIGHT BOOT physically kicks the wooden shaft of the fallen boat fork, sending the whole fork sliding away across the shallow water toward the bottom right corner. His right hand stays raised near his chest during the kick. Show the boot-to-shaft contact and the whole fork sliding away. Continue into the original rope-taking action at 2.0 seconds and keep the remaining camera movement and setting continuous."
+    }
+  },
+  "references": {
+    "预演/PREVIS_S14_v01.mp4": "68c5574dc26cd20696389aba63f3322b918a462807cbdad483514f1cf8f78caa"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "480p",
+    "generate_audio": true,
+    "prompt": "Edit the physical action at 0.5–2.0 seconds in @Video1. The blue-shirted man keeps his LEFT hand pressing the brown-robed man's right wrist against the floor. He extends his RIGHT LEG and his RIGHT BOOT physically kicks the wooden shaft of the fallen boat fork, sending the whole fork sliding away across the shallow water toward the bottom right corner. His right hand stays raised near his chest during the kick. Show the boot-to-shaft contact and the whole fork sliding away. Continue into the original rope-taking action at 2.0 seconds and keep the remaining camera movement and setting continuous.",
+    "image_urls": [],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac2e6/-uzNBa43K-yzdMrmcUja0_PREVIS_S14_v01.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae69-15c4-7ca1-a708-4040b9d501fd",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae69-15c4-7ca1-a708-4040b9d501fd",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae69-15c4-7ca1-a708-4040b9d501fd/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae69-15c4-7ca1-a708-4040b9d501fd/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae69-15c4-7ca1-a708-4040b9d501fd",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae69-15c4-7ca1-a708-4040b9d501fd",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae69-15c4-7ca1-a708-4040b9d501fd/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae69-15c4-7ca1-a708-4040b9d501fd/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 266.18099999427795
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac34e/IZ7pePabA936hPTAOY6vc_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 6546939
+    },
+    "seed": 543856224
+  },
+  "output_sha256": "fd52e5384eafce8243fb673c6db109724d94e9100a3c9e40fe202976d6195dc0"
+}

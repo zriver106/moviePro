@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:30:54.491746+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S05_v02.png",
+      "资产/PROP_AWL_v02.png"
+    ],
+    "output": "首帧/SF_S04_PRO_v02.png",
+    "body": {
+      "prompt": "Use image 1 as the exact scene master. Keep the young man on the LEFT looking toward the door on the RIGHT, with the same door and its single rectangular brass plate. Widen the camera to show his whole body. His right boot rests on a narrow repair ledge with a heel stop behind it, his left boot in the shallow water. His right hand holds the hemp handle of the exact awl from image 2 at his own waist, ready to raise it. His left hand rests over his own abdomen. The awl is a straight single pointed black steel shaft extending from its hemp handle toward the door. Both halves of the brass plate are intact. Chinese 3D animation, vertical 9:16.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S05_v02.png": "5674f442bbd89b75343e914bb152ef74c5f0719d48f96fbe7818170036960a15",
+    "资产/PROP_AWL_v02.png": "01272a841a1743e63309e040e30fbccdbf11b419596a67232e57306afead93e1"
+  },
+  "body": {
+    "prompt": "Use image 1 as the exact scene master. Keep the young man on the LEFT looking toward the door on the RIGHT, with the same door and its single rectangular brass plate. Widen the camera to show his whole body. His right boot rests on a narrow repair ledge with a heel stop behind it, his left boot in the shallow water. His right hand holds the hemp handle of the exact awl from image 2 at his own waist, ready to raise it. His left hand rests over his own abdomen. The awl is a straight single pointed black steel shaft extending from its hemp handle toward the door. Both halves of the brass plate are intact. Chinese 3D animation, vertical 9:16.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac399/f59_A8baUiJ5ORpZNJpBX_SF_S05_v02.png",
+      "https://v3b.fal.media/files/b/0aaac270/oFScqdwRK_LcYa704asqK_PROP_AWL_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae7d-7d0e-7080-977b-f8d41d4393c6",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7d0e-7080-977b-f8d41d4393c6",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7d0e-7080-977b-f8d41d4393c6/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7d0e-7080-977b-f8d41d4393c6/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae7d-7d0e-7080-977b-f8d41d4393c6",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7d0e-7080-977b-f8d41d4393c6",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7d0e-7080-977b-f8d41d4393c6/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7d-7d0e-7080-977b-f8d41d4393c6/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 163.60399985313416
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac3c9/2pbTpIaQysm2G_VJ0V9gx_4c10f6aa1c864307b79743926d8e01a1.png",
+        "content_type": "image/png",
+        "file_name": "4c10f6aa1c864307b79743926d8e01a1.png",
+        "file_size": 6474825,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "4f3af67bc62cd6fd03b82b7aceffe63b59dd05df935dceaf9d3082eda10e6268"
+}

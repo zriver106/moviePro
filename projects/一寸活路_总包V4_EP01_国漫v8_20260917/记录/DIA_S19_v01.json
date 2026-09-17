@@ -1,0 +1,64 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:12:44.986888+00:00",
+  "spec": {
+    "capability": "tts",
+    "refs": [],
+    "body": {
+      "prompt": "还有他们！",
+      "voice_setting": {
+        "voice_id": "female-shaonv",
+        "speed": 1.0,
+        "vol": 1.0,
+        "pitch": 0
+      },
+      "language_boost": "Chinese",
+      "output_format": "url"
+    },
+    "output": "后期/配音/DIA_S19_v01.mp3",
+    "purpose": "总包原文固定音色正常语速对白，最终对齐口型"
+  },
+  "references": {},
+  "body": {
+    "prompt": "还有他们！",
+    "voice_setting": {
+      "voice_id": "female-shaonv",
+      "speed": 1.0,
+      "vol": 1.0,
+      "pitch": 0
+    },
+    "language_boost": "Chinese",
+    "output_format": "url"
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae6c-dcdd-7443-bbcb-4f515019c4e7",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-dcdd-7443-bbcb-4f515019c4e7",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-dcdd-7443-bbcb-4f515019c4e7/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-dcdd-7443-bbcb-4f515019c4e7/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae6c-dcdd-7443-bbcb-4f515019c4e7",
+    "response_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-dcdd-7443-bbcb-4f515019c4e7",
+    "status_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-dcdd-7443-bbcb-4f515019c4e7/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/minimax/requests/01a0ae6c-dcdd-7443-bbcb-4f515019c4e7/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 2.6410000324249268
+    }
+  },
+  "result": {
+    "audio": {
+      "url": "https://v3b.fal.media/files/b/0aaac34d/8Rcub-SI1Ldf4SaV37VBJ_speech.mp3",
+      "content_type": "audio/mpeg",
+      "file_name": "speech.mp3",
+      "file_size": 18420
+    },
+    "duration_ms": 1044
+  },
+  "output_sha256": "8dfa494db33718e0ff1dca69170000cd6136fee6d9f97569874345fbf95bd54e"
+}

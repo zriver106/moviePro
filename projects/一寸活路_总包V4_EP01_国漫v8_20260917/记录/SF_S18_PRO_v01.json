@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:25:38.108345+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "资产/PROP_AWL_v02.png",
+      "首帧/SF_S05_v02.png"
+    ],
+    "output": "首帧/SF_S18_PRO_v01.png",
+    "body": {
+      "prompt": "Extreme close-up from INSIDE the flooded wheel room, showing the inner face of the same wooden door and brass inspection plate from image 2. The pointed tip of the exact black steel awl from image 1 protrudes TWO centimeters through a tiny fresh hole in the brass sheet from outside toward the interior. Directly in front of the tip is a thick short wooden sliding latch tongue, currently seated against its small separate wooden catch tooth fixed to the jamb. The steel point TOUCHES the wooden tongue, aligned to push it sideways out of the catch. One clear physical contact between steel point and wooden tongue. High brown water laps just below this mechanism, warm lantern reflection on the water, close macro framing of the copper, wood and steel. Detailed Chinese 3D animation materials, vertical 9:16.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "资产/PROP_AWL_v02.png": "01272a841a1743e63309e040e30fbccdbf11b419596a67232e57306afead93e1",
+    "首帧/SF_S05_v02.png": "5674f442bbd89b75343e914bb152ef74c5f0719d48f96fbe7818170036960a15"
+  },
+  "body": {
+    "prompt": "Extreme close-up from INSIDE the flooded wheel room, showing the inner face of the same wooden door and brass inspection plate from image 2. The pointed tip of the exact black steel awl from image 1 protrudes TWO centimeters through a tiny fresh hole in the brass sheet from outside toward the interior. Directly in front of the tip is a thick short wooden sliding latch tongue, currently seated against its small separate wooden catch tooth fixed to the jamb. The steel point TOUCHES the wooden tongue, aligned to push it sideways out of the catch. One clear physical contact between steel point and wooden tongue. High brown water laps just below this mechanism, warm lantern reflection on the water, close macro framing of the copper, wood and steel. Detailed Chinese 3D animation materials, vertical 9:16.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac270/oFScqdwRK_LcYa704asqK_PROP_AWL_v02.png",
+      "https://v3b.fal.media/files/b/0aaac399/f59_A8baUiJ5ORpZNJpBX_SF_S05_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae78-a901-7112-a8b5-8051eaae8ea9",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a901-7112-a8b5-8051eaae8ea9",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a901-7112-a8b5-8051eaae8ea9/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a901-7112-a8b5-8051eaae8ea9/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae78-a901-7112-a8b5-8051eaae8ea9",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a901-7112-a8b5-8051eaae8ea9",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a901-7112-a8b5-8051eaae8ea9/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a901-7112-a8b5-8051eaae8ea9/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 129.02099990844727
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac3a6/ZVYYursxsC-JcD3O7oAUl_54aa815f83fb49229f86924f63b31ba1.png",
+        "content_type": "image/png",
+        "file_name": "54aa815f83fb49229f86924f63b31ba1.png",
+        "file_size": 5607625,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "4ed7a3f14b9ee6952a6d12ff8c24934bc3ee46f55156b0cabbd41c980771ca0a"
+}

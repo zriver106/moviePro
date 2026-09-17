@@ -1,0 +1,129 @@
+[
+  {
+    "text": "三个人。先开门，关水的轮子在里面。",
+    "language_code": "zho",
+    "language_probability": 1.0,
+    "words": [
+      {
+        "text": "三",
+        "start": 0.4,
+        "end": 0.48,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "个",
+        "start": 0.5,
+        "end": 0.76,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "人",
+        "start": 0.76,
+        "end": 0.78,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 0.78,
+        "end": 0.78,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "先",
+        "start": 1.42,
+        "end": 1.54,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "开",
+        "start": 1.54,
+        "end": 1.78,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "门",
+        "start": 1.78,
+        "end": 1.82,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "，",
+        "start": 1.82,
+        "end": 2.4,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "关",
+        "start": 2.4,
+        "end": 2.54,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "水",
+        "start": 2.54,
+        "end": 2.68,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "的",
+        "start": 2.68,
+        "end": 2.84,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "轮",
+        "start": 2.84,
+        "end": 2.94,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "子",
+        "start": 2.94,
+        "end": 3.12,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "在",
+        "start": 3.12,
+        "end": 3.22,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "里",
+        "start": 3.28,
+        "end": 3.48,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "面",
+        "start": 3.48,
+        "end": 3.5,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 3.5,
+        "end": 3.5,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      }
+    ]
+  },
+  null
+]

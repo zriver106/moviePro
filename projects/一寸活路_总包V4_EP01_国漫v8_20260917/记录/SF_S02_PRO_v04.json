@@ -1,0 +1,55 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T08:40:36.647242+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S02_PRO_v03.png"
+    ],
+    "output": "首帧/SF_S02_PRO_v04.png",
+    "body": {
+      "prompt": "Reconstruct the area around the upper man’s LEFT hand as a relaxed empty hand beside plain ochre robe fabric and empty air. The large upper wooden doorway behind him becomes a continuous gray-brick wall matching the neighboring bricks. The young man’s waist sash is plain gray cloth holding a small black pointed awl with a tan hemp handle. Preserve the exact faces, positions, left staircase, lower-right wooden door, winch, ropes, stone, shallow water and camera.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S02_PRO_v03.png": "96438050a4c5a0f66358d2d5643cddf1a8616a04ac170907c2a98f016b1ca04a"
+  },
+  "body": {
+    "prompt": "Reconstruct the area around the upper man’s LEFT hand as a relaxed empty hand beside plain ochre robe fabric and empty air. The large upper wooden doorway behind him becomes a continuous gray-brick wall matching the neighboring bricks. The young man’s waist sash is plain gray cloth holding a small black pointed awl with a tan hemp handle. Preserve the exact faces, positions, left staircase, lower-right wooden door, winch, ropes, stone, shallow water and camera.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3f3/0lopalt-yW1masMKNSrCY_SF_S02_PRO_v03.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae86-64e1-7963-91ec-37b6bec594d3",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-64e1-7963-91ec-37b6bec594d3",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-64e1-7963-91ec-37b6bec594d3/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-64e1-7963-91ec-37b6bec594d3/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0ae86-64e1-7963-91ec-37b6bec594d3",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-64e1-7963-91ec-37b6bec594d3",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-64e1-7963-91ec-37b6bec594d3/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae86-64e1-7963-91ec-37b6bec594d3/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

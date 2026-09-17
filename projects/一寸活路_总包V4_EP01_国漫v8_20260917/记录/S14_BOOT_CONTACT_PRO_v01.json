@@ -1,0 +1,55 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T08:41:59.918750+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "参考/S14原片0.5秒.png"
+    ],
+    "output": "首帧/S14_BOOT_CONTACT_PRO_v01.png",
+    "body": {
+      "prompt": "Change the young man’s RIGHT LEG pose. His left knee stays pressed across the brown-robed man’s upper chest, and his left hand keeps pinning the near brown-sleeved wrist. His right hip opens toward the camera, his right knee lifts, and his right shin extends diagonally down-left into the foreground. The toe and outer edge of his RIGHT BLACK BOOT visibly touch the long wooden fork shaft immediately beside its iron fork head in the water. His right hand rests at his own waist. This is the instant his boot pushes the fork away. His body has two naturally articulated legs. Keep the exact faces, clothing, brown-robed man, ankle binding, tall post, water and camera framing from the reference. Chinese 3D animation.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "参考/S14原片0.5秒.png": "feac532b92857561c5a66f9b8eaf8ceb6cabb885dbd5572ea8cf5267c0ffb765"
+  },
+  "body": {
+    "prompt": "Change the young man’s RIGHT LEG pose. His left knee stays pressed across the brown-robed man’s upper chest, and his left hand keeps pinning the near brown-sleeved wrist. His right hip opens toward the camera, his right knee lifts, and his right shin extends diagonally down-left into the foreground. The toe and outer edge of his RIGHT BLACK BOOT visibly touch the long wooden fork shaft immediately beside its iron fork head in the water. His right hand rests at his own waist. This is the instant his boot pushes the fork away. His body has two naturally articulated legs. Keep the exact faces, clothing, brown-robed man, ankle binding, tall post, water and camera framing from the reference. Chinese 3D animation.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3fc/uwJn01vjPvox6H4-p0iOg_S14%3F%3F0.5%3F.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae87-a869-7e42-b8e5-17b250b6407a",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae87-a869-7e42-b8e5-17b250b6407a",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae87-a869-7e42-b8e5-17b250b6407a/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae87-a869-7e42-b8e5-17b250b6407a/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0ae87-a869-7e42-b8e5-17b250b6407a",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae87-a869-7e42-b8e5-17b250b6407a",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae87-a869-7e42-b8e5-17b250b6407a/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae87-a869-7e42-b8e5-17b250b6407a/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

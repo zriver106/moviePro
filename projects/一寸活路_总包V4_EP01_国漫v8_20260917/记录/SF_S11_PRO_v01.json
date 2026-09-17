@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:35:24.920153+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S12_PRO_v06.png",
+      "资产/PROP_AWL_v02.png"
+    ],
+    "output": "首帧/SF_S11_PRO_v01.png",
+    "body": {
+      "prompt": "Preserve image 1, the winch and stone layout, standing stocky man, his trapped fork and both boots in the loose floor loop. Change the young man’s hands: he is crouching just to the right of the fixed winch post and holds the exact black awl from image 2 horizontally above a shallow dry groove on the outer edge of the wooden repair ledge immediately next to that post. His left palm balances on the ledge. The brake wedge remains seated under the right drum rim, within reach of both hands after placing the awl into that adjacent groove. The ledge runs from this winch toward the right edge of the image. Chinese 3D animation, preserve exact faces and materials.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S12_PRO_v06.png": "afc88c65feb603988f6eb8086e610846edeffe2f35dc0889c5d536c59d03e361",
+    "资产/PROP_AWL_v02.png": "01272a841a1743e63309e040e30fbccdbf11b419596a67232e57306afead93e1"
+  },
+  "body": {
+    "prompt": "Preserve image 1, the winch and stone layout, standing stocky man, his trapped fork and both boots in the loose floor loop. Change the young man’s hands: he is crouching just to the right of the fixed winch post and holds the exact black awl from image 2 horizontally above a shallow dry groove on the outer edge of the wooden repair ledge immediately next to that post. His left palm balances on the ledge. The brake wedge remains seated under the right drum rim, within reach of both hands after placing the awl into that adjacent groove. The ledge runs from this winch toward the right edge of the image. Chinese 3D animation, preserve exact faces and materials.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3d4/ChbkM3Hy7h264yoVPu2WO_SF_S12_PRO_v06.png",
+      "https://v3b.fal.media/files/b/0aaac270/oFScqdwRK_LcYa704asqK_PROP_AWL_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae81-9d37-7110-8999-7d46da58fc5a",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae81-9d37-7110-8999-7d46da58fc5a",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae81-9d37-7110-8999-7d46da58fc5a/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae81-9d37-7110-8999-7d46da58fc5a/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae81-9d37-7110-8999-7d46da58fc5a",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae81-9d37-7110-8999-7d46da58fc5a",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae81-9d37-7110-8999-7d46da58fc5a/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae81-9d37-7110-8999-7d46da58fc5a/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 155.94400000572205
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac3e4/i2WzuFXIim6d529XPIV_s_5f11493bef01438bb457bffb15eb198f.png",
+        "content_type": "image/png",
+        "file_name": "5f11493bef01438bb457bffb15eb198f.png",
+        "file_size": 7056341,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "d1abab1a96c66e312cf7360cb8e493b04bc1f6b5bbe4c24f22d426b9d6e11d2e"
+}

@@ -1,0 +1,73 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:31:54.298855+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S02_v02.png",
+      "资产/PROP_AWL_v02.png"
+    ],
+    "output": "首帧/SF_S02_PRO_v03.png",
+    "body": {
+      "prompt": "Repair image 1 while preserving its staircase, young man, winch, suspended stone, floor loop, lower-right door and composition. The stocky man on the upper platform holds the two-pronged fork in his right hand; his LEFT hand hangs EMPTY beside his hip. His right waist carries his existing small brass T crank. The surface behind him on the upper platform is a continuous gray brick wall. The young man’s waist carries the exact black steel awl from image 2, a hemp handle and a single straight black point tucked horizontally into his gray fabric sash. Preserve both faces and the detailed Chinese 3D animation look.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S02_v02.png": "b9302a34c15a26105aebf91fc7cfab2a388fdd3e896d19e4aef8b27aa040cc00",
+    "资产/PROP_AWL_v02.png": "01272a841a1743e63309e040e30fbccdbf11b419596a67232e57306afead93e1"
+  },
+  "body": {
+    "prompt": "Repair image 1 while preserving its staircase, young man, winch, suspended stone, floor loop, lower-right door and composition. The stocky man on the upper platform holds the two-pronged fork in his right hand; his LEFT hand hangs EMPTY beside his hip. His right waist carries his existing small brass T crank. The surface behind him on the upper platform is a continuous gray brick wall. The young man’s waist carries the exact black steel awl from image 2, a hemp handle and a single straight black point tucked horizontally into his gray fabric sash. Preserve both faces and the detailed Chinese 3D animation look.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3bf/gSySZuilYiOKfKklTjwWs_SF_S02_v02.png",
+      "https://v3b.fal.media/files/b/0aaac270/oFScqdwRK_LcYa704asqK_PROP_AWL_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae7e-6a9d-72f0-9218-a5ecf93ae99f",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7e-6a9d-72f0-9218-a5ecf93ae99f",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7e-6a9d-72f0-9218-a5ecf93ae99f/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7e-6a9d-72f0-9218-a5ecf93ae99f/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae7e-6a9d-72f0-9218-a5ecf93ae99f",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7e-6a9d-72f0-9218-a5ecf93ae99f",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7e-6a9d-72f0-9218-a5ecf93ae99f/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae7e-6a9d-72f0-9218-a5ecf93ae99f/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 135.66499996185303
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac3cd/m3eIeyVspgR1nmMb2wrSm_f00297e0ab9b4539a5831f3c93d588e1.png",
+        "content_type": "image/png",
+        "file_name": "f00297e0ab9b4539a5831f3c93d588e1.png",
+        "file_size": 6642970,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "96438050a4c5a0f66358d2d5643cddf1a8616a04ac170907c2a98f016b1ca04a"
+}

@@ -1,0 +1,76 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:25:37.779821+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S05_v02.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/PROP_AWL_v02.png"
+    ],
+    "output": "首帧/SF_S04_PRO_v01.png",
+    "body": {
+      "prompt": "A wider full-body shot of this same young man from images 1 and 2 at the SAME wooden door in image 1. His right boot has just stepped up from ankle-deep water onto the narrow wooden repair ledge, his left boot follows. A small fixed wooden heel-stop peg is immediately behind his right heel. His right hand reaches toward the 35cm black awl from image 3 tucked horizontally inside his plain cloth waist sash. His left hand is empty at chest height. Both halves of the brass inspection plate on the door are intact; its small high viewing aperture remains above it and right-hand hinges stay fixed. His boots and lower pants are wet, shirt front dry. Cool daylight, dimensional Chinese animation, vertical 9:16.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S05_v02.png": "5674f442bbd89b75343e914bb152ef74c5f0719d48f96fbe7818170036960a15",
+    "资产/CHAR_LZ_v01.png": "2dc60da20629c0babae35e2279a0ea1e51493dd634440ec6205ce5cae4f3d95f",
+    "资产/PROP_AWL_v02.png": "01272a841a1743e63309e040e30fbccdbf11b419596a67232e57306afead93e1"
+  },
+  "body": {
+    "prompt": "A wider full-body shot of this same young man from images 1 and 2 at the SAME wooden door in image 1. His right boot has just stepped up from ankle-deep water onto the narrow wooden repair ledge, his left boot follows. A small fixed wooden heel-stop peg is immediately behind his right heel. His right hand reaches toward the 35cm black awl from image 3 tucked horizontally inside his plain cloth waist sash. His left hand is empty at chest height. Both halves of the brass inspection plate on the door are intact; its small high viewing aperture remains above it and right-hand hinges stay fixed. His boots and lower pants are wet, shirt front dry. Cool daylight, dimensional Chinese animation, vertical 9:16.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac399/f59_A8baUiJ5ORpZNJpBX_SF_S05_v02.png",
+      "https://v3b.fal.media/files/b/0aaac25f/t4rGy2Kz8Q9gANtsAxVxq_CHAR_LZ_v01.png",
+      "https://v3b.fal.media/files/b/0aaac270/oFScqdwRK_LcYa704asqK_PROP_AWL_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae78-a7a9-7900-88c5-c7f31bfd063d",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a7a9-7900-88c5-c7f31bfd063d",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a7a9-7900-88c5-c7f31bfd063d/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a7a9-7900-88c5-c7f31bfd063d/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae78-a7a9-7900-88c5-c7f31bfd063d",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a7a9-7900-88c5-c7f31bfd063d",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a7a9-7900-88c5-c7f31bfd063d/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae78-a7a9-7900-88c5-c7f31bfd063d/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 163.15400004386902
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac3aa/SaKSNYHV5bzf1jQW2PZ1q_bc7dc2acf69f41df925f204cef905906.png",
+        "content_type": "image/png",
+        "file_name": "bc7dc2acf69f41df925f204cef905906.png",
+        "file_size": 6617282,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "f6d5ec3a347a40d3af427ff61660684d61624201006fa885af3ffb036c330d07"
+}

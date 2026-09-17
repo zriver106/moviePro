@@ -1,0 +1,444 @@
+[
+  {
+    "text": "三个人先开门，刮水的轮子在里面，里面有木蛇得顶过去。 门不用开了。 他们还活着。 账上没有，拿这点钱买命。放开。 还有他们。",
+    "language_code": "zho",
+    "language_probability": 1.0,
+    "words": [
+      {
+        "text": "三",
+        "start": 0.28,
+        "end": 0.38,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "个",
+        "start": 0.38,
+        "end": 0.58,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "人",
+        "start": 0.58,
+        "end": 1.16,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "先",
+        "start": 1.16,
+        "end": 1.32,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "开",
+        "start": 1.32,
+        "end": 1.54,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "门",
+        "start": 1.54,
+        "end": 1.56,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "，",
+        "start": 1.94,
+        "end": 2.08,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "刮",
+        "start": 2.1,
+        "end": 2.24,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "水",
+        "start": 2.24,
+        "end": 2.36,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "的",
+        "start": 2.36,
+        "end": 2.5,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "轮",
+        "start": 2.5,
+        "end": 2.62,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "子",
+        "start": 2.62,
+        "end": 2.78,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "在",
+        "start": 2.78,
+        "end": 2.92,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "里",
+        "start": 2.92,
+        "end": 3.1,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "面",
+        "start": 3.1,
+        "end": 3.14,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "，",
+        "start": 3.14,
+        "end": 3.24,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "里",
+        "start": 4.24,
+        "end": 4.38,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "面",
+        "start": 4.38,
+        "end": 4.54,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "有",
+        "start": 4.54,
+        "end": 4.68,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "木",
+        "start": 4.68,
+        "end": 4.96,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "蛇",
+        "start": 4.96,
+        "end": 5.34,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "得",
+        "start": 5.34,
+        "end": 5.48,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "顶",
+        "start": 5.48,
+        "end": 5.66,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "过",
+        "start": 5.66,
+        "end": 5.9,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "去",
+        "start": 5.9,
+        "end": 5.96,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 5.96,
+        "end": 5.96,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": " ",
+        "start": 5.96,
+        "end": 5.96,
+        "type": "spacing",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "门",
+        "start": 7.02,
+        "end": 7.12,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "不",
+        "start": 7.12,
+        "end": 7.24,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "用",
+        "start": 7.24,
+        "end": 7.42,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "开",
+        "start": 7.42,
+        "end": 7.56,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "了",
+        "start": 7.56,
+        "end": 7.6,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 7.6,
+        "end": 7.6,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": " ",
+        "start": 7.6,
+        "end": 7.6,
+        "type": "spacing",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "他",
+        "start": 8.72,
+        "end": 8.96,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "们",
+        "start": 8.96,
+        "end": 9.46,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "还",
+        "start": 9.46,
+        "end": 9.74,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "活",
+        "start": 9.74,
+        "end": 9.9,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "着",
+        "start": 9.9,
+        "end": 10.02,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "。",
+        "start": 10.02,
+        "end": 10.02,
+        "type": "word",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": " ",
+        "start": 10.02,
+        "end": 10.02,
+        "type": "spacing",
+        "speaker_id": "speaker_2"
+      },
+      {
+        "text": "账",
+        "start": 11.18,
+        "end": 11.32,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "上",
+        "start": 11.32,
+        "end": 11.44,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "没",
+        "start": 11.44,
+        "end": 11.6,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "有",
+        "start": 11.6,
+        "end": 11.66,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "，",
+        "start": 11.66,
+        "end": 11.74,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "拿",
+        "start": 12.8,
+        "end": 13.02,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "这",
+        "start": 13.02,
+        "end": 13.22,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "点",
+        "start": 13.22,
+        "end": 13.52,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "钱",
+        "start": 13.52,
+        "end": 13.72,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "买",
+        "start": 13.72,
+        "end": 13.98,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "命",
+        "start": 13.98,
+        "end": 14.02,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 14.02,
+        "end": 14.02,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "放",
+        "start": 15.14,
+        "end": 15.28,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "开",
+        "start": 15.28,
+        "end": 15.38,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 15.38,
+        "end": 15.38,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": " ",
+        "start": 15.38,
+        "end": 15.38,
+        "type": "spacing",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "还",
+        "start": 16.46,
+        "end": 16.58,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "有",
+        "start": 16.58,
+        "end": 16.8,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "他",
+        "start": 16.8,
+        "end": 16.98,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "们",
+        "start": 16.98,
+        "end": 17.0,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 17.0,
+        "end": 17.0,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      }
+    ]
+  },
+  null
+]

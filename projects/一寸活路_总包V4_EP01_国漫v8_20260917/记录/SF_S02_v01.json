@@ -1,0 +1,74 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:09:44.374445+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "资产/SET_GATE_v05.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/CHAR_MD_v02.png"
+    ],
+    "output": "首帧/SF_S02_v01.png",
+    "body": {
+      "prompt": "Use image 1 as the exact gate chamber layout, architecture and camera axis: entrance wooden stair at image left, wooden wheel-room door at image right, horizontal repair ledge between them and the winch at its left end. Place the young man from image 2 on the third stair above the shallow water at image LEFT, beginning to descend the last three steps. His empty right hand brushes the handrail; a short 35cm black awl sits horizontally inside his plain cloth waist sash. Keep his blue-gray shirt dry at this starting moment. The stocky ochre-robed man from image 3 stands on the upper entrance landing behind him, holding his long wooden two-pronged fork and wearing the brass crank at his right waist. Wide establishing perspective at stair height across the room, showing the door, raised ledge, wooden winch with brake wedge, dangling stone above low catch, floor loop and short rope hanging on the post. Dimensional Chinese animation, identical faces and costumes, cool natural daylight, vertical 9:16.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    }
+  },
+  "references": {
+    "资产/SET_GATE_v05.png": "a1da6724524e1843c0b22fb0e5ecbf930589d45c8598d74269cf6cd1e9a08bf2",
+    "资产/CHAR_LZ_v01.png": "2dc60da20629c0babae35e2279a0ea1e51493dd634440ec6205ce5cae4f3d95f",
+    "资产/CHAR_MD_v02.png": "e78176777f377fe9654b4ac24653f43025e56d2538a99c32aa833aba1f64b2d8"
+  },
+  "body": {
+    "prompt": "Use image 1 as the exact gate chamber layout, architecture and camera axis: entrance wooden stair at image left, wooden wheel-room door at image right, horizontal repair ledge between them and the winch at its left end. Place the young man from image 2 on the third stair above the shallow water at image LEFT, beginning to descend the last three steps. His empty right hand brushes the handrail; a short 35cm black awl sits horizontally inside his plain cloth waist sash. Keep his blue-gray shirt dry at this starting moment. The stocky ochre-robed man from image 3 stands on the upper entrance landing behind him, holding his long wooden two-pronged fork and wearing the brass crank at his right waist. Wide establishing perspective at stair height across the room, showing the door, raised ledge, wooden winch with brake wedge, dangling stone above low catch, floor loop and short rope hanging on the post. Dimensional Chinese animation, identical faces and costumes, cool natural daylight, vertical 9:16.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac283/YBTTeiyA1_021I-SLc5hN_SET_GATE_v05.png",
+      "https://v3b.fal.media/files/b/0aaac25f/t4rGy2Kz8Q9gANtsAxVxq_CHAR_LZ_v01.png",
+      "https://v3b.fal.media/files/b/0aaac260/FBin0kXkxi9-ckrkAs8Mg_CHAR_MD_v02.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae6a-1b64-75a3-b87e-262222eb4391",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-1b64-75a3-b87e-262222eb4391",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-1b64-75a3-b87e-262222eb4391/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-1b64-75a3-b87e-262222eb4391/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae6a-1b64-75a3-b87e-262222eb4391",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-1b64-75a3-b87e-262222eb4391",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-1b64-75a3-b87e-262222eb4391/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae6a-1b64-75a3-b87e-262222eb4391/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 68.78999996185303
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac342/l_AW4DBZ8xshQ_hSp1DAk_8ec4dbed34034b4693c52319e3741f52.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "8ec4dbed34034b4693c52319e3741f52.jpg",
+        "file_size": 553087,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 878781995
+  },
+  "output_sha256": "e9f541cb033e26de8e1beaefa1e3488a96d298fcd048f1f593d601248786c466"
+}

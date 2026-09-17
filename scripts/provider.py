@@ -53,6 +53,7 @@ BACKENDS = {
         "upload_init": "https://rest.alpha.fal.ai/storage/upload/initiate",
         "t2i": "https://fal.run/fal-ai/bytedance/seedream/v5/lite/text-to-image",
         "edit": "https://fal.run/fal-ai/bytedance/seedream/v5/lite/edit",
+        "edit_pro": "https://fal.run/bytedance/seedream/v5/pro/edit",
         "asr": "https://fal.run/fal-ai/whisper",
         "asr_scribe": "https://fal.run/fal-ai/elevenlabs/speech-to-text/scribe-v2",
         "tts": "https://fal.run/fal-ai/minimax/speech-2.8-hd",
@@ -214,11 +215,21 @@ def queue_submit(capability, body, *, model="2.5", mode="i2v"):
         if body.get("task") in ("editing", "extension") and not body.get("video_urls"):
             raise ValueError("编辑/延展必须提供原视频")
     elif capability in ("edit", "t2i"):
-        endpoint = _cfg()[capability]
+        use_pro = capability == "edit" and model == "seedream-5-pro"
+        endpoint = _cfg()["edit_pro" if use_pro else capability]
         size = body.get("image_size", "auto_2K")
+        if len(body.get("image_urls", [])) > 10:
+            raise ValueError("Seedream最多10张参考，禁止供应商静默截断")
+        if use_pro:
+            if isinstance(size, dict):
+                width, height = size["width"], size["height"]
+                if not 1024**2 <= width*height <= 2048**2 or not 1/16 <= width/height <= 16:
+                    raise ValueError("Seedream Pro尺寸超出官方像素或比例范围")
+            elif size not in ("square_hd", "square", "portrait_4_3", "portrait_16_9", "landscape_4_3", "landscape_16_9", "auto_1K", "auto_2K"):
+                raise ValueError("Seedream Pro尺寸枚举无效")
         if isinstance(size, str) and size not in (
                 "square_hd", "square", "portrait_4_3", "portrait_16_9",
-                "landscape_4_3", "landscape_16_9", "auto_2K", "auto_3K", "auto_4K"):
+                "landscape_4_3", "landscape_16_9", "auto_1K", "auto_2K", "auto_3K", "auto_4K"):
             raise ValueError("Seedream尺寸枚举无效，请使用官方枚举或width/height对象")
     elif capability == "tts":
         endpoint = _cfg()["tts"]

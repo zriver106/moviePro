@@ -1,0 +1,68 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:08:36.974205+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "首帧/SF_S14_v05.png"
+    ],
+    "output": "首帧/EF_S14_v02.png",
+    "body": {
+      "prompt": "Advance the exact scene in this image to the completed restraint pose. Keep the full-body wide framing, shallow water, two adult characters, stone on its catch and bound booted ankles. The stocky brown-robed man lies on his back with BOTH elbows bent. His right elbow and brown sleeve are visible at lower left; his left elbow and its separate brown sleeve are visible above his chest at center. His TWO separate forearms form a clear V, converging at TWO wrists side by side next to the tall wooden post at image left beside his head. Each forearm connects continuously from its own elbow to its own wrist and hand. His two hands are loosely clenched, side by side, thumbs pointing upward. A common hemp rope encircles BOTH wrists together and wraps around that same tall post, its tail wedged into the small wooden cleat. The blue-shirted young man kneels beside the stocky man's right side, knee on upper chest, right hand pulling the rope tail, left hand resting across both tied wrists. Keep both brown forearms and both elbows clearly visible around the blue man's hands. The whole two-pronged boat fork lies in the water at the far lower right corner beyond arm's reach. Detailed dimensional Chinese animation, identical faces and clothes.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    }
+  },
+  "references": {
+    "首帧/SF_S14_v05.png": "dee6e5ad03ad990db18862edb1de3c4851d3c8364b8c075ec636f28c4e2073a5"
+  },
+  "body": {
+    "prompt": "Advance the exact scene in this image to the completed restraint pose. Keep the full-body wide framing, shallow water, two adult characters, stone on its catch and bound booted ankles. The stocky brown-robed man lies on his back with BOTH elbows bent. His right elbow and brown sleeve are visible at lower left; his left elbow and its separate brown sleeve are visible above his chest at center. His TWO separate forearms form a clear V, converging at TWO wrists side by side next to the tall wooden post at image left beside his head. Each forearm connects continuously from its own elbow to its own wrist and hand. His two hands are loosely clenched, side by side, thumbs pointing upward. A common hemp rope encircles BOTH wrists together and wraps around that same tall post, its tail wedged into the small wooden cleat. The blue-shirted young man kneels beside the stocky man's right side, knee on upper chest, right hand pulling the rope tail, left hand resting across both tied wrists. Keep both brown forearms and both elbows clearly visible around the blue man's hands. The whole two-pronged boat fork lies in the water at the far lower right corner beyond arm's reach. Detailed dimensional Chinese animation, identical faces and clothes.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac2bd/gF81C1zzQYI-Gy3J0eVrU_SF_S14_v05.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae69-1449-7710-88bb-3ff1d92e9b15",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae69-1449-7710-88bb-3ff1d92e9b15",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae69-1449-7710-88bb-3ff1d92e9b15/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae69-1449-7710-88bb-3ff1d92e9b15/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae69-1449-7710-88bb-3ff1d92e9b15",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae69-1449-7710-88bb-3ff1d92e9b15",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae69-1449-7710-88bb-3ff1d92e9b15/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae69-1449-7710-88bb-3ff1d92e9b15/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 68.22399997711182
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac33a/wnZ2f9T-hCAerwkv6NxPZ_04855c47512f47a09ee8cdfc2c190f06.jpg",
+        "content_type": "image/jpeg",
+        "file_name": "04855c47512f47a09ee8cdfc2c190f06.jpg",
+        "file_size": 582488,
+        "width": null,
+        "height": null
+      }
+    ],
+    "seed": 965599515
+  },
+  "output_sha256": "1f4e9b81030eda2449b6e82bb820860c36583f1fbaf7bb4d0906eb8092da7a58"
+}

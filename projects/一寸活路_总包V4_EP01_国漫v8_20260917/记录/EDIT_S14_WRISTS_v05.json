@@ -1,0 +1,72 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:30:49.847708+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/PREVIS_S14_v01.mp4",
+      "首帧/EF_S14_PRO_v07.png"
+    ],
+    "output": "预演/EDIT_S14_WRISTS_v05.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "480p",
+      "generate_audio": true,
+      "prompt": "Edit @Video1 using @Image1 as the corrected anatomy and final restraint pose. At seconds 3 through 10, replace the brown-robed man’s raised arm with TWO distinct bent arms, both forearms rising from his own shoulders, and TWO hands meeting side by side beside the tall wooden post. The young man gathers both wrists into the same rope loop and secures this shared loop to that post. At second 9 the final paired-wrist pose matches @Image1. Keep the young man kneeling across the brown-robed man’s upper body. The camera, identities, clothes, ankle rope, water and background remain continuous with @Video1. The rendered surface at the lower center is wet clothing and water. Preserve the original duration and Mandarin vocal performance."
+    }
+  },
+  "references": {
+    "预演/PREVIS_S14_v01.mp4": "68c5574dc26cd20696389aba63f3322b918a462807cbdad483514f1cf8f78caa",
+    "首帧/EF_S14_PRO_v07.png": "390cbe7d5db82a57bbe6b7257a12a696f9df0a68ed443beed7d76678d5f12c28"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "480p",
+    "generate_audio": true,
+    "prompt": "Edit @Video1 using @Image1 as the corrected anatomy and final restraint pose. At seconds 3 through 10, replace the brown-robed man’s raised arm with TWO distinct bent arms, both forearms rising from his own shoulders, and TWO hands meeting side by side beside the tall wooden post. The young man gathers both wrists into the same rope loop and secures this shared loop to that post. At second 9 the final paired-wrist pose matches @Image1. Keep the young man kneeling across the brown-robed man’s upper body. The camera, identities, clothes, ankle rope, water and background remain continuous with @Video1. The rendered surface at the lower center is wet clothing and water. Preserve the original duration and Mandarin vocal performance.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3b9/Q6RMjt0fF6O2eNut3Q57a_EF_S14_PRO_v07.png"
+    ],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac2e6/-uzNBa43K-yzdMrmcUja0_PREVIS_S14_v01.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae7d-6f73-73a3-9b40-a8b91844e63b",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae7d-6f73-73a3-9b40-a8b91844e63b",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae7d-6f73-73a3-9b40-a8b91844e63b/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae7d-6f73-73a3-9b40-a8b91844e63b/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae7d-6f73-73a3-9b40-a8b91844e63b",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae7d-6f73-73a3-9b40-a8b91844e63b",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae7d-6f73-73a3-9b40-a8b91844e63b/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae7d-6f73-73a3-9b40-a8b91844e63b/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 240.14400005340576
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaac3d1/z_TRDPWOezMOZKv0WsO4Y_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 6346352
+    },
+    "seed": 1210092751
+  },
+  "output_sha256": "fa27d760712163e7225c80c82e9874887ba2ce330051840d06580c25b87654fe"
+}

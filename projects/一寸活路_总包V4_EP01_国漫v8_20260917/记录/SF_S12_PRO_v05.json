@@ -1,0 +1,82 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:21:05.188373+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "预演/布局/S12接触布局_v02.png",
+      "资产/CHAR_LZ_v01.png",
+      "资产/CHAR_MD_v02.png",
+      "资产/PROP_FORK_v01.png",
+      "参考/旧闸墙面材质.png"
+    ],
+    "output": "首帧/SF_S12_PRO_v05.png",
+    "body": {
+      "prompt": "Render image 1's exact physical layout as a cinematic 3D Chinese animated scene. The blue kneeling figure is the exact young adult from image 2; the standing ochre figure is the exact stocky adult from image 3. His two black boots stand inside the same small loose floor loop. The wooden shaft he holds has the exact TWO-pronged iron head from image 4. Its shaft is trapped in the separate fixed post-and-crossbar corner BELOW and to the LEFT of the rotating rope cylinder, as drawn; the fork head extends beyond the fixed bar with visible air separating it from the cylinder. The loop's rope rises on the opposite side of that fixed corner and winds onto the drum. The same drum supports the rope through the upper pulley to the suspended stone, whose bottom is fifteen centimeters above the catch. The kneeling man's TWO hands grip the small brake wedge pressed beneath the drum's right rim. Keep all these drawn positions and contacts. Image 5 supplies the gray-brick and timber surface materials. Water reaches boot insteps. The finished frame has naturally posed adult anatomy and detailed dimensional guoman rendering, vertical 9:16.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "预演/布局/S12接触布局_v02.png": "bb7d5d8e4c46d030909c12cd7e909844ce537ea0e2a693d300adc0c3515e5541",
+    "资产/CHAR_LZ_v01.png": "2dc60da20629c0babae35e2279a0ea1e51493dd634440ec6205ce5cae4f3d95f",
+    "资产/CHAR_MD_v02.png": "e78176777f377fe9654b4ac24653f43025e56d2538a99c32aa833aba1f64b2d8",
+    "资产/PROP_FORK_v01.png": "ed2256e38121de55dc463a272656f1caea0f016e79279a19279b7d58fd1b9289",
+    "参考/旧闸墙面材质.png": "e3f82fdbe460daf5f3a190ed1718afe7858f78989d1ff16bf6c796c19c558001"
+  },
+  "body": {
+    "prompt": "Render image 1's exact physical layout as a cinematic 3D Chinese animated scene. The blue kneeling figure is the exact young adult from image 2; the standing ochre figure is the exact stocky adult from image 3. His two black boots stand inside the same small loose floor loop. The wooden shaft he holds has the exact TWO-pronged iron head from image 4. Its shaft is trapped in the separate fixed post-and-crossbar corner BELOW and to the LEFT of the rotating rope cylinder, as drawn; the fork head extends beyond the fixed bar with visible air separating it from the cylinder. The loop's rope rises on the opposite side of that fixed corner and winds onto the drum. The same drum supports the rope through the upper pulley to the suspended stone, whose bottom is fifteen centimeters above the catch. The kneeling man's TWO hands grip the small brake wedge pressed beneath the drum's right rim. Keep all these drawn positions and contacts. Image 5 supplies the gray-brick and timber surface materials. Water reaches boot insteps. The finished frame has naturally posed adult anatomy and detailed dimensional guoman rendering, vertical 9:16.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac37e/r_S52n0WSfgZna-tMpxc2_S12%3F%3F%3F%3F_v02.png",
+      "https://v3b.fal.media/files/b/0aaac25f/t4rGy2Kz8Q9gANtsAxVxq_CHAR_LZ_v01.png",
+      "https://v3b.fal.media/files/b/0aaac260/FBin0kXkxi9-ckrkAs8Mg_CHAR_MD_v02.png",
+      "https://v3b.fal.media/files/b/0aaac260/xaK679KRe-IamUsQLCEn__PROP_FORK_v01.png",
+      "https://v3b.fal.media/files/b/0aaac37e/wuE-YM0XszVvjYVUwhj5K_%3F%3F%3F%3F%3F%3F.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae74-86f7-7211-aab2-2ad29dd90483",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae74-86f7-7211-aab2-2ad29dd90483",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae74-86f7-7211-aab2-2ad29dd90483/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae74-86f7-7211-aab2-2ad29dd90483/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae74-86f7-7211-aab2-2ad29dd90483",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae74-86f7-7211-aab2-2ad29dd90483",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae74-86f7-7211-aab2-2ad29dd90483/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae74-86f7-7211-aab2-2ad29dd90483/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 155.7699999809265
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac38e/jc7xapLq_o_OFvRUY5Z_l_683e2a1aa85f44e9a13d1e840220368b.png",
+        "content_type": "image/png",
+        "file_name": "683e2a1aa85f44e9a13d1e840220368b.png",
+        "file_size": 6757999,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "5a38f1390fb3ff971fa750d3c07d6141f9bb7abc8f83b3347e3ebc32a0d384db"
+}

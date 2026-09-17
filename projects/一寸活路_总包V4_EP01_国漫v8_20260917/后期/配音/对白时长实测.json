@@ -1,0 +1,50 @@
+[
+  {
+    "file": "后期/配音/DIA_S03_v01.mp3",
+    "seconds": 3.413344,
+    "check_start": 0,
+    "check_end": 3.413344
+  },
+  {
+    "file": "后期/配音/DIA_S05_v01.mp3",
+    "seconds": 2.171094,
+    "check_start": 4.013344,
+    "check_end": 6.184438
+  },
+  {
+    "file": "后期/配音/DIA_S06_v01.mp3",
+    "seconds": 1.021688,
+    "check_start": 6.784438,
+    "check_end": 7.806126
+  },
+  {
+    "file": "后期/配音/DIA_S07_LZ_v01.mp3",
+    "seconds": 1.834406,
+    "check_start": 8.406126,
+    "check_end": 10.240532
+  },
+  {
+    "file": "后期/配音/DIA_S07_MD_v01.mp3",
+    "seconds": 1.021688,
+    "check_start": 10.840532,
+    "check_end": 11.862219999999999
+  },
+  {
+    "file": "后期/配音/DIA_S09_v01.mp3",
+    "seconds": 1.787938,
+    "check_start": 12.462219999999999,
+    "check_end": 14.250157999999999
+  },
+  {
+    "file": "后期/配音/DIA_S14_v01.mp3",
+    "seconds": 0.766281,
+    "check_start": 14.850157999999999,
+    "check_end": 15.616438999999998
+  },
+  {
+    "file": "后期/配音/DIA_S19_v01.mp3",
+    "seconds": 0.97525,
+    "check_start": 16.216438999999998,
+    "check_end": 17.191688999999997
+  }
+]

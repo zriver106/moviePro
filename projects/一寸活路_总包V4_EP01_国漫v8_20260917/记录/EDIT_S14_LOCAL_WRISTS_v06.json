@@ -1,0 +1,60 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T08:39:28.843466+00:00",
+  "spec": {
+    "capability": "video",
+    "model": "2.5",
+    "mode": "ref",
+    "previs": true,
+    "refs": [
+      "预演/S14原片绑腕局部.mp4",
+      "参考/S14双腕纠偏局部.png"
+    ],
+    "output": "预演/EDIT_S14_LOCAL_WRISTS_v06.mp4",
+    "body": {
+      "task": "editing",
+      "duration": "auto",
+      "aspect_ratio": "auto",
+      "resolution": "720p",
+      "generate_audio": false,
+      "prompt": "Edit @Video1. Add the brown-robed man’s second forearm and hand beside his existing raised forearm. His second brown sleeve rises from his far shoulder, then his bare forearm bends diagonally upward toward his already raised wrist. His two fists touch side by side. The rope loop visibly encircles BOTH wrists together. @Image1 demonstrates the two-arm anatomy and paired-wrist rope contact. During the entire tying movement, the young man gathers and holds BOTH of these wrists together and tightens the shared loop to the wooden post. Preserve the exact camera motion, framing, young man, post and surrounding water from @Video1. The extra arm is continuous and attached to the supine brown-robed man’s own far shoulder."
+    }
+  },
+  "references": {
+    "预演/S14原片绑腕局部.mp4": "6f6fcb4cadffe0c8f4fb2de48dc4972ff7c7f00af74b284d24168ec0809692db",
+    "参考/S14双腕纠偏局部.png": "63575ed3e01101760a59beb9bc9e1b5dd1195e8ac8373bf41e97247cb5c3edab"
+  },
+  "body": {
+    "task": "editing",
+    "duration": "auto",
+    "aspect_ratio": "auto",
+    "resolution": "720p",
+    "generate_audio": false,
+    "prompt": "Edit @Video1. Add the brown-robed man’s second forearm and hand beside his existing raised forearm. His second brown sleeve rises from his far shoulder, then his bare forearm bends diagonally upward toward his already raised wrist. His two fists touch side by side. The rope loop visibly encircles BOTH wrists together. @Image1 demonstrates the two-arm anatomy and paired-wrist rope contact. During the entire tying movement, the young man gathers and holds BOTH of these wrists together and tightens the shared loop to the wooden post. Preserve the exact camera motion, framing, young man, post and surrounding water from @Video1. The extra arm is continuous and attached to the supine brown-robed man’s own far shoulder.",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac3ed/nMu-i0HxV83We54_ymYFY_S14%3F%3F%3F%3F%3F%3F.png"
+    ],
+    "video_urls": [
+      "https://v3b.fal.media/files/b/0aaac3ec/QwPyS34oBBfrlfji-MwnW_S14%3F%3F%3F%3F%3F%3F.mp4"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae85-5edf-7763-9d02-ffd7a1178055",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae85-5edf-7763-9d02-ffd7a1178055",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae85-5edf-7763-9d02-ffd7a1178055/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae85-5edf-7763-9d02-ffd7a1178055/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0ae85-5edf-7763-9d02-ffd7a1178055",
+    "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae85-5edf-7763-9d02-ffd7a1178055",
+    "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae85-5edf-7763-9d02-ffd7a1178055/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0ae85-5edf-7763-9d02-ffd7a1178055/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

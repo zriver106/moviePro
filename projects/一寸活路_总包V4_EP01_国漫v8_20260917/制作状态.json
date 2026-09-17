@@ -1,22 +1,22 @@
 {
-  "stage": "画面执行受阻：S14原片编辑未修好双腕，S12机构接触未成立；本轮停止新增付费调用",
+  "stage": "持续制作：S12实际预演、S14原片局部编辑，补齐其余首帧",
   "source_locked": true,
   "text_review_binding": "passed",
   "shots": 19,
   "seconds": 98,
-  "generated_videos": 2,
+  "generated_videos": 5,
   "delivery_ready": false,
   "approved_character_bases": 5,
   "approved_props": 2,
-  "voiceover_timing": "4条正常语速均在本镜预算内",
-  "submitted_video_jobs": 2,
+  "voiceover_timing": "12条人声已制作，98秒草稿轨已导出；S03关水纠音经Scribe回读正确，口型时间待视频复验",
+  "submitted_video_jobs": 7,
   "accepted_video_shots": 0,
   "bgm": false,
   "subtitle_tracks": 1,
-  "active_provider_jobs": 0,
+  "active_provider_jobs": 7,
   "blockers": [
-    "S14原片与编辑版均为单腕束缚、手扫叉；修正静帧的双前臂连接亦不清",
-    "S12叉杆/吊索/绳轮接触不成立，静态纠偏尚未通过",
-    "S03高水位、肩部支撑与持灯手臂关系仍需修正"
+    "S14四轮整段编辑未改正手扫叉及单腕；用户明确仍只编辑原片，目前改为局部视频修复",
+    "S12首帧静态通过，实际拔楔收索视频待取回验收",
+    "S10/S11道具局部修正进行中，其余镜头仍有待制作内容"
   ]
 }

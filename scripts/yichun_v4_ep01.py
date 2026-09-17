@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """总包V4独立项目执行器：评级、已验参考、任务留痕、防重复提交。"""
-import argparse, hashlib, json
+import argparse, hashlib, json, subprocess
 from pathlib import Path
 from datetime import datetime, timezone
 import provider, script_lock, negwords
@@ -19,6 +19,18 @@ def submit(name):
     if log.exists():raise SystemExit(f'{name}已有提交记录，禁止重复生成；poll取回原任务')
     approved=read(P/'记录/已验参考.json')
     refs=spec.get('refs',[])
+    audio_refs=[r for r in refs if Path(r).suffix.lower() in ('.mp3','.wav')]
+    if audio_refs and not (spec['capability']=='video' and spec.get('mode')=='ref'):
+        raise SystemExit('配音参考必须使用多模态视频模式')
+    if audio_refs:
+        durations=[]
+        for r in audio_refs:
+            duration=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',str(P/r)],text=True))
+            if not 1.8<=duration<=30.2 or (P/r).stat().st_size>15*1024*1024:
+                raise SystemExit(f'配音参考超出官方时长或文件大小限制：{r}')
+            durations.append(duration)
+        if len(audio_refs)>10 or sum(durations)>30.2:
+            raise SystemExit('配音参考总数或总时长超出官方限制')
     for ref in refs:
         if approved.get(ref,{}).get('sha256')!=sha(P/ref):raise SystemExit(f'参考未验或已改变：{ref}')
         original_for_edit=(spec['body'].get('task')=='editing' and Path(ref).suffix.lower()=='.mp4')
@@ -48,8 +60,9 @@ def submit(name):
             body['image_url']=urls[0]
             if len(urls)==2:body['end_image_url']=urls[1]
         else:
-            body['image_urls']=[u for r,u in zip(refs,urls) if not r.endswith('.mp4')]
-            body['video_urls']=[u for r,u in zip(refs,urls) if r.endswith('.mp4')]
+            body['image_urls']=[u for r,u in zip(refs,urls) if Path(r).suffix.lower() in ('.jpg','.jpeg','.png','.webp')]
+            body['video_urls']=[u for r,u in zip(refs,urls) if Path(r).suffix.lower() in ('.mp4','.mov')]
+            if audio_refs:body['audio_urls']=[u for r,u in zip(refs,urls) if r in audio_refs]
     record['body']=body;save(log,record)
     try:
         handle=provider.queue_submit(spec['capability'],body,model=spec.get('model','2.5'),mode=spec.get('mode','i2v'))

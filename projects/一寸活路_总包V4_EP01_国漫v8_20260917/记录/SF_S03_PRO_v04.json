@@ -1,0 +1,70 @@
+{
+  "state": "downloaded_unreviewed",
+  "started_at": "2026-09-17T08:18:19.959469+00:00",
+  "spec": {
+    "capability": "edit",
+    "model": "seedream-5-pro",
+    "refs": [
+      "首帧/SF_S03_v03.png"
+    ],
+    "output": "首帧/SF_S03_PRO_v04.png",
+    "body": {
+      "prompt": "Correct the three adults' support and waterline in this image. Raise the gray-bearded man's head until his cheek rests ON TOP of the woman's left shoulder, beside her face. The young man's head remains beside her right shoulder. Raise the waterline to touch the base of the woman's neck at the clavicles, with all three mouths clearly above water. The lantern is held by the WOMAN'S raised right hand: show her gray-green sleeve and forearm visibly connected to her right shoulder across image left, ending in the hand holding the lantern. Her eyebrows draw together and her mouth opens to call urgently. Preserve the three faces, plain costumes, wooden viewing aperture and flooded gray brick room.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1,
+      "output_format": "png"
+    }
+  },
+  "references": {
+    "首帧/SF_S03_v03.png": "fd2abb4978f5be617fb21515ca0bb0354d8fea727753b6aa4d6466b7ab2172af"
+  },
+  "body": {
+    "prompt": "Correct the three adults' support and waterline in this image. Raise the gray-bearded man's head until his cheek rests ON TOP of the woman's left shoulder, beside her face. The young man's head remains beside her right shoulder. Raise the waterline to touch the base of the woman's neck at the clavicles, with all three mouths clearly above water. The lantern is held by the WOMAN'S raised right hand: show her gray-green sleeve and forearm visibly connected to her right shoulder across image left, ending in the hand holding the lantern. Her eyebrows draw together and her mouth opens to call urgently. Preserve the three faces, plain costumes, wooden viewing aperture and flooded gray brick room.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "output_format": "png",
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac36e/nlaYDyFmgtMg1rbNzrg9M_SF_S03_v03.png"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae71-fdd3-7712-af0c-49bd55e73fb0",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae71-fdd3-7712-af0c-49bd55e73fb0",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae71-fdd3-7712-af0c-49bd55e73fb0/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae71-fdd3-7712-af0c-49bd55e73fb0/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae71-fdd3-7712-af0c-49bd55e73fb0",
+    "response_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae71-fdd3-7712-af0c-49bd55e73fb0",
+    "status_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae71-fdd3-7712-af0c-49bd55e73fb0/status",
+    "cancel_url": "https://queue.fal.run/bytedance/seedream/requests/01a0ae71-fdd3-7712-af0c-49bd55e73fb0/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 147.97399997711182
+    }
+  },
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0aaac37c/izuCDiW9nTqVpADTRnl4s_67ba0d7a62214110ab2f0731eadb5975.png",
+        "content_type": "image/png",
+        "file_name": "67ba0d7a62214110ab2f0731eadb5975.png",
+        "file_size": 5439410,
+        "width": null,
+        "height": null
+      }
+    ]
+  },
+  "output_sha256": "0a421d72deb47d84035878e0e40990bee14c85e2c12c3bb95a912839514848b7"
+}
