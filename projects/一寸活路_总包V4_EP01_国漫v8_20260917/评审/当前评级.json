@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "policy_sha256": "57cda5fb9fbd8d7220f2e6108b67723efe7a365e7e75347fe465aaaf1ad53dbf",
+  "external_review": {
+    "thread_id": "01a08ea0-8c4d-74e0-ae4b-95fa647cfb4d",
+    "message_id": "01a0ae3e-a952-7092-92e9-0b12b8728fcf",
+    "identifier_type": "completed_review_turn_id",
+    "evidence_path": "评审/本轮来源复核.txt",
+    "evidence_sha256": "48d72a433334bbf01dcae1c2744d315d250943a72594915dc1d7d8aab0fa9f8c",
+    "manifest_path": "评审/送审清单.json",
+    "manifest_sha256": "f592a837f9185ef92408b7dbf0697ed3b55a2728fed21514a42c9f73b57eb33a"
+  },
+  "episodes": {
+    "EP001": {
+      "script_grade": "S",
+      "storyboard_grade": "S",
+      "blocking_issues": [],
+      "scope": "既有S级文本基线继承及来源投影核验，不代表资产或成片验收"
+    }
+  }
+}

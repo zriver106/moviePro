@@ -1,0 +1,53 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T07:27:38.046339+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "参考/人物/01_陆照.jpg"
+    ],
+    "body": {
+      "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Create a distinct adult male ship supervisor aged forty: broad stocky shoulders, square heavy jaw, wide nose, narrow deep-set eyes, thick eyebrows, short black mustache and coarse chin stubble. Black hair in a tight topknot, weathered tan skin. His own facial features differ clearly from the reference young man. Wears a plain dark ochre yellow boat-warden knee-length coat, dark brown narrow trousers, worn black cloth boots. A palm-size L-shaped brass crank handle with two perpendicular short segments hangs from his left waist belt. Empty hands rest at sides. The reference provides the 3D rendering style.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/CHAR_MD_v01.png",
+    "retry_reason": "原任务尺寸枚举422拒绝，未产出图片；改为文档支持的1440×2560"
+  },
+  "references": {
+    "参考/人物/01_陆照.jpg": "67d721422c86fe870f1e75169a17d0fb623cb95d9b796d98e3cfac8af3b1bdd7"
+  },
+  "body": {
+    "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Create a distinct adult male ship supervisor aged forty: broad stocky shoulders, square heavy jaw, wide nose, narrow deep-set eyes, thick eyebrows, short black mustache and coarse chin stubble. Black hair in a tight topknot, weathered tan skin. His own facial features differ clearly from the reference young man. Wears a plain dark ochre yellow boat-warden knee-length coat, dark brown narrow trousers, worn black cloth boots. A palm-size L-shaped brass crank handle with two perpendicular short segments hangs from his left waist belt. Empty hands rest at sides. The reference provides the 3D rendering style.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac239/4PN-PkwiAhwQ9h6fRmhqS_01_%3F%3F.jpg"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae43-8f99-7ad3-9f00-97b1ef9a1f27",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-8f99-7ad3-9f00-97b1ef9a1f27",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-8f99-7ad3-9f00-97b1ef9a1f27/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-8f99-7ad3-9f00-97b1ef9a1f27/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0ae43-8f99-7ad3-9f00-97b1ef9a1f27",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-8f99-7ad3-9f00-97b1ef9a1f27",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-8f99-7ad3-9f00-97b1ef9a1f27/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-8f99-7ad3-9f00-97b1ef9a1f27/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

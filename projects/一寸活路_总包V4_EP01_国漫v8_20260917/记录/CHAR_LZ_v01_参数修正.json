@@ -1,0 +1,53 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T07:27:37.690227+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "参考/人物/01_陆照.jpg"
+    ],
+    "body": {
+      "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Preserve exactly the young adult man face, eyes and hairline in image 1. His black hair is gathered into a compact short tied bun. Change his entire outfit to an unadorned faded blue-gray coarse linen cross-collar shirt with plain folded sleeves ending at mid-forearm, plain charcoal narrow trousers, a thin gray cloth waist sash and worn black cloth ankle boots. Both forearms and both hands show bare skin. Both empty hands rest loosely at his sides. The waist sash is a simple single fabric band. This is the dry-clothes base identity.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/CHAR_LZ_v01.png",
+    "retry_reason": "原任务尺寸枚举422拒绝，未产出图片；改为文档支持的1440×2560"
+  },
+  "references": {
+    "参考/人物/01_陆照.jpg": "67d721422c86fe870f1e75169a17d0fb623cb95d9b796d98e3cfac8af3b1bdd7"
+  },
+  "body": {
+    "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Preserve exactly the young adult man face, eyes and hairline in image 1. His black hair is gathered into a compact short tied bun. Change his entire outfit to an unadorned faded blue-gray coarse linen cross-collar shirt with plain folded sleeves ending at mid-forearm, plain charcoal narrow trousers, a thin gray cloth waist sash and worn black cloth ankle boots. Both forearms and both hands show bare skin. Both empty hands rest loosely at his sides. The waist sash is a simple single fabric band. This is the dry-clothes base identity.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac239/4PN-PkwiAhwQ9h6fRmhqS_01_%3F%3F.jpg"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae43-8e7d-7260-a09b-a3c6a2353b03",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-8e7d-7260-a09b-a3c6a2353b03",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-8e7d-7260-a09b-a3c6a2353b03/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-8e7d-7260-a09b-a3c6a2353b03/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0ae43-8e7d-7260-a09b-a3c6a2353b03",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-8e7d-7260-a09b-a3c6a2353b03",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-8e7d-7260-a09b-a3c6a2353b03/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-8e7d-7260-a09b-a3c6a2353b03/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

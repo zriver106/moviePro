@@ -1,0 +1,10 @@
+{
+  "review_thread_id": "01a08ea0-8c4d-74e0-ae4b-95fa647cfb4d",
+  "minimum_grade": "S",
+  "episodes": {
+    "EP001": {
+      "target_seconds": 98,
+      "tolerance_seconds": 0.1
+    }
+  }
+}

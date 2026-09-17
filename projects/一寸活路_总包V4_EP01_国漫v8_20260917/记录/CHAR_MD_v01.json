@@ -1,0 +1,49 @@
+{
+  "state": "result_error",
+  "started_at": "2026-09-17T07:26:58.800217+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "参考/人物/01_陆照.jpg"
+    ],
+    "body": {
+      "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Create a distinct adult male ship supervisor aged forty: broad stocky shoulders, square heavy jaw, wide nose, narrow deep-set eyes, thick eyebrows, short black mustache and coarse chin stubble. Black hair in a tight topknot, weathered tan skin. His own facial features differ clearly from the reference young man. Wears a plain dark ochre yellow boat-warden knee-length coat, dark brown narrow trousers, worn black cloth boots. A palm-size L-shaped brass crank handle with two perpendicular short segments hangs from his left waist belt. Empty hands rest at sides. The reference provides the 3D rendering style.",
+      "image_size": "portrait_9_16",
+      "num_images": 1
+    },
+    "output": "资产/CHAR_MD_v01.png"
+  },
+  "references": {
+    "参考/人物/01_陆照.jpg": "67d721422c86fe870f1e75169a17d0fb623cb95d9b796d98e3cfac8af3b1bdd7"
+  },
+  "body": {
+    "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Create a distinct adult male ship supervisor aged forty: broad stocky shoulders, square heavy jaw, wide nose, narrow deep-set eyes, thick eyebrows, short black mustache and coarse chin stubble. Black hair in a tight topknot, weathered tan skin. His own facial features differ clearly from the reference young man. Wears a plain dark ochre yellow boat-warden knee-length coat, dark brown narrow trousers, worn black cloth boots. A palm-size L-shaped brass crank handle with two perpendicular short segments hangs from his left waist belt. Empty hands rest at sides. The reference provides the 3D rendering style.",
+    "image_size": "portrait_9_16",
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac239/4PN-PkwiAhwQ9h6fRmhqS_01_%3F%3F.jpg"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae42-f689-75f1-9c87-8bcc712da2c1",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae42-f689-75f1-9c87-8bcc712da2c1",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae42-f689-75f1-9c87-8bcc712da2c1/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae42-f689-75f1-9c87-8bcc712da2c1/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae42-f689-75f1-9c87-8bcc712da2c1",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae42-f689-75f1-9c87-8bcc712da2c1",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae42-f689-75f1-9c87-8bcc712da2c1/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae42-f689-75f1-9c87-8bcc712da2c1/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 0.11500000953674316
+    }
+  },
+  "error": "队列读取 422: {\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\",\"image_size\",\"ImageSize\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"portrait_9_16\"},{\"type\":\"literal_error\",\"loc\":[\"body\",\"image_size\",\"literal['square_hd','square','portrait_4_3','portrait_16_9','landscape_4_3','landscape_16_9','auto_2K','auto_3K','auto_4K']\"],\"msg\":\"Input should be 'square_hd', 'square', 'portrait_4_3', 'portrait_16_9', 'landscape_4_3', 'landscape_16_9', 'auto_2K', 'auto_3K' or "
+}

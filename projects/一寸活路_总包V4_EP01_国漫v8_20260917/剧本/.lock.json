@@ -1,0 +1,12 @@
+{
+ "EP001": {
+  "digest": "fc85d14125e6c21a",
+  "locked_at": "2026-09-17 00:25:53",
+  "doctor_verdict": null,
+  "doctor_scope": "legacy_diagnostic_not_current_rating",
+  "note": "小说评级本轮真实来源复核通过；继承总包S级文本基线，98秒19镜",
+  "forced": false,
+  "review_authority": "independent_text_rating",
+  "previous_digest": null
+ }
+}

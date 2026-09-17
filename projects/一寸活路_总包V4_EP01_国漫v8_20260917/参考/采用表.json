@@ -1,0 +1,44 @@
+[
+  {
+    "path": "参考/人物/01_陆照.jpg",
+    "source": "/Users/andy/moviePro/projects/一寸活路/定稿/Seedream立体国漫定妆_v8/01_陆照.jpg",
+    "sha256": "67d721422c86fe870f1e75169a17d0fb623cb95d9b796d98e3cfac8af3b1bdd7",
+    "use": "身份与国漫画风基准；第一集衣物/旧闸布局另作忠实派生",
+    "status": "pending_visual_check"
+  },
+  {
+    "path": "参考/人物/02_闻溪.jpg",
+    "source": "/Users/andy/moviePro/projects/一寸活路/定稿/Seedream立体国漫定妆_v8/02_闻溪.jpg",
+    "sha256": "73fdf08b1741ac8ce150fff0661c0fca183c1f455b64d4430ab5353142fbb223",
+    "use": "身份与国漫画风基准；第一集衣物/旧闸布局另作忠实派生",
+    "status": "pending_visual_check"
+  },
+  {
+    "path": "参考/人物/04_阿砾.jpg",
+    "source": "/Users/andy/moviePro/projects/一寸活路/定稿/Seedream立体国漫定妆_v8/04_阿砾.jpg",
+    "sha256": "b7851f4ede760e0f05e8d26a804b7946a88c3683d8ea729fcfb5845d8c76904c",
+    "use": "身份与国漫画风基准；第一集衣物/旧闸布局另作忠实派生",
+    "status": "pending_visual_check"
+  },
+  {
+    "path": "参考/场景/01_本埠公码头.jpg",
+    "source": "/Users/andy/moviePro/projects/一寸活路/定稿/Seedream立体国漫基础场景_v8配套/01_本埠公码头.jpg",
+    "sha256": "b354fb160064050d70a6648570ab16680583a562736513b86d16f4e203fa96be",
+    "use": "身份与国漫画风基准；第一集衣物/旧闸布局另作忠实派生",
+    "status": "pending_visual_check"
+  },
+  {
+    "path": "参考/场景/03_南仓账房与货架.jpg",
+    "source": "/Users/andy/moviePro/projects/一寸活路/定稿/Seedream立体国漫基础场景_v8配套/03_南仓账房与货架.jpg",
+    "sha256": "a86625b3cf51b0a90ca2981196857fdeb1f84017f320bd015d77317e53c6dadd",
+    "use": "身份与国漫画风基准；第一集衣物/旧闸布局另作忠实派生",
+    "status": "pending_visual_check"
+  },
+  {
+    "path": "参考/场景/04_旧泵坊临水住屋.jpg",
+    "source": "/Users/andy/moviePro/projects/一寸活路/定稿/Seedream立体国漫基础场景_v8配套/04_旧泵坊临水住屋.jpg",
+    "sha256": "895a49deb15dc880b86d7e72a4c2785cf533ba72b602ec0479673af2ffe183c0",
+    "use": "身份与国漫画风基准；第一集衣物/旧闸布局另作忠实派生",
+    "status": "pending_visual_check"
+  }
+]

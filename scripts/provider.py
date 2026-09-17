@@ -40,6 +40,7 @@ import os
 import sys
 import urllib.error
 import urllib.request
+import urllib.parse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import keys
@@ -196,3 +197,47 @@ def transcribe_scribe(path, language="zho"):
 def fetch(url, dst):
     urllib.request.urlretrieve(url, dst)
     return dst
+
+
+def queue_submit(capability, body, *, model="2.5", mode="i2v"):
+    """显式提交一次并返回真实任务ID；调用端先落锁，失败不自动重投。"""
+    if BACKEND != "fal":
+        raise ValueError("当前队列适配仅支持fal")
+    if capability == "video":
+        endpoint = _cfg()["video"][(model, mode)]
+        if body.get("resolution") not in capabilities(model)["resolutions"]:
+            raise ValueError("视频分辨率不支持")
+        duration = body.get("duration", "auto")
+        if duration != "auto" and not 4 <= int(duration) <= capabilities(model)["max_seconds"]:
+            raise ValueError("视频素材必须在接口时长范围内；短镜通过剪辑取完整动作")
+        if body.get("task") in ("editing", "extension") and not body.get("video_urls"):
+            raise ValueError("编辑/延展必须提供原视频")
+    elif capability in ("edit", "t2i"):
+        endpoint = _cfg()[capability]
+        size = body.get("image_size", "auto_2K")
+        if isinstance(size, str) and size not in (
+                "square_hd", "square", "portrait_4_3", "portrait_16_9",
+                "landscape_4_3", "landscape_16_9", "auto_2K", "auto_3K", "auto_4K"):
+            raise ValueError("Seedream尺寸枚举无效，请使用官方枚举或width/height对象")
+    else:
+        raise ValueError("不支持的队列能力")
+    result, error = _post(endpoint.replace("https://fal.run/", "https://queue.fal.run/"), body, timeout=60)
+    if error:
+        raise RuntimeError(error)
+    if not result.get("request_id"):
+        raise RuntimeError("服务未返回任务ID；禁止盲目重投")
+    return result
+
+
+def queue_read(handle, *, result=False):
+    """读取已提交任务，限制鉴权请求到供应商队列域名。"""
+    url = handle["response_url" if result else "status_url"]
+    parsed = urllib.parse.urlparse(url)
+    if parsed.scheme != "https" or parsed.netloc != "queue.fal.run":
+        raise ValueError("非法队列地址")
+    req = urllib.request.Request(url, headers={"Authorization": _cfg()["auth"]()})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as response:
+            return json.loads(response.read())
+    except urllib.error.HTTPError as exc:
+        raise RuntimeError(f"队列读取 {exc.code}: {exc.read().decode('utf-8', 'replace')[:500]}") from exc

@@ -1,0 +1,52 @@
+{
+  "state": "result_error",
+  "started_at": "2026-09-17T07:26:59.162409+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "参考/场景/03_南仓账房与货架.jpg",
+      "参考/场景/04_旧泵坊临水住屋.jpg"
+    ],
+    "body": {
+      "prompt": "Chinese 3D animated period-drama environment matching the wood, stone, rope, cool daylight and warm brown material rendering of the reference images. Empty old river sluice chamber, vertical wide establishing view from east toward the west wall. At far screen-left back a narrow wooden ladder descends from a high daylight opening to an ankle-deep shallow muddy-water floor. A raised dry timber repair ledge runs horizontally across the west wall through the midground. At the right end of this ledge stands a closed single-leaf wooden wheel-room door with hinges at its right edge, a rectangular brass inspection plate at waist height and an open small viewing aperture at head height. A stout fixed wooden post stands beside the door. At the left end of the ledge: a waist-height horizontal wooden winch drum between two upright posts, a removable wooden brake wedge beside the drum at knee height, and a separate fixed crossbrace between the upright posts in front of the drum. A hemp rope winds on the drum, leads upwards through a pulley and down to one suspended rectangular stone counterweight. A stout wooden catch cradle stands directly fifteen centimeters below the counterweight. A low loose rope loop lies in shallow foreground water in front of the winch. A short wrist-length rope hangs from the nearer upright post at waist height. A shallow straight tool groove is cut into the dry ledge beside the wedge. Readable arrangement, plausible robust wooden mechanical construction, gentle cool daylight from high screen-left opening, detailed readable shadows. Foreground water drains toward screen-left. Architectural reference image supplies materials and style; this chamber has its own described layout.",
+      "image_size": "portrait_9_16",
+      "num_images": 1
+    },
+    "output": "资产/SET_GATE_v01.png"
+  },
+  "references": {
+    "参考/场景/03_南仓账房与货架.jpg": "a86625b3cf51b0a90ca2981196857fdeb1f84017f320bd015d77317e53c6dadd",
+    "参考/场景/04_旧泵坊临水住屋.jpg": "895a49deb15dc880b86d7e72a4c2785cf533ba72b602ec0479673af2ffe183c0"
+  },
+  "body": {
+    "prompt": "Chinese 3D animated period-drama environment matching the wood, stone, rope, cool daylight and warm brown material rendering of the reference images. Empty old river sluice chamber, vertical wide establishing view from east toward the west wall. At far screen-left back a narrow wooden ladder descends from a high daylight opening to an ankle-deep shallow muddy-water floor. A raised dry timber repair ledge runs horizontally across the west wall through the midground. At the right end of this ledge stands a closed single-leaf wooden wheel-room door with hinges at its right edge, a rectangular brass inspection plate at waist height and an open small viewing aperture at head height. A stout fixed wooden post stands beside the door. At the left end of the ledge: a waist-height horizontal wooden winch drum between two upright posts, a removable wooden brake wedge beside the drum at knee height, and a separate fixed crossbrace between the upright posts in front of the drum. A hemp rope winds on the drum, leads upwards through a pulley and down to one suspended rectangular stone counterweight. A stout wooden catch cradle stands directly fifteen centimeters below the counterweight. A low loose rope loop lies in shallow foreground water in front of the winch. A short wrist-length rope hangs from the nearer upright post at waist height. A shallow straight tool groove is cut into the dry ledge beside the wedge. Readable arrangement, plausible robust wooden mechanical construction, gentle cool daylight from high screen-left opening, detailed readable shadows. Foreground water drains toward screen-left. Architectural reference image supplies materials and style; this chamber has its own described layout.",
+    "image_size": "portrait_9_16",
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac239/lUGJ--qaSDiZ3BL-rZN2y_03_%3F%3F%3F%3F%3F%3F%3F.jpg",
+      "https://v3b.fal.media/files/b/0aaac23a/SgAUJqg97x2LqTvEpguu-_04_%3F%3F%3F%3F%3F%3F%3F.jpg"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae43-000d-7b62-be3f-c3f88948e48b",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-000d-7b62-be3f-c3f88948e48b",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-000d-7b62-be3f-c3f88948e48b/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-000d-7b62-be3f-c3f88948e48b/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "COMPLETED",
+    "request_id": "01a0ae43-000d-7b62-be3f-c3f88948e48b",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-000d-7b62-be3f-c3f88948e48b",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-000d-7b62-be3f-c3f88948e48b/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-000d-7b62-be3f-c3f88948e48b/cancel",
+    "logs": null,
+    "metrics": {
+      "inference_time": 0.12800002098083496
+    }
+  },
+  "error": "队列读取 422: {\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\",\"image_size\",\"ImageSize\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"portrait_9_16\"},{\"type\":\"literal_error\",\"loc\":[\"body\",\"image_size\",\"literal['square_hd','square','portrait_4_3','portrait_16_9','landscape_4_3','landscape_16_9','auto_2K','auto_3K','auto_4K']\"],\"msg\":\"Input should be 'square_hd', 'square', 'portrait_4_3', 'portrait_16_9', 'landscape_4_3', 'landscape_16_9', 'auto_2K', 'auto_3K' or "
+}

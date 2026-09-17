@@ -1,0 +1,154 @@
+{
+  "CHAR_LZ_v01": {
+    "capability": "edit",
+    "refs": [
+      "参考/人物/01_陆照.jpg"
+    ],
+    "body": {
+      "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Preserve exactly the young adult man face, eyes and hairline in image 1. His black hair is gathered into a compact short tied bun. Change his entire outfit to an unadorned faded blue-gray coarse linen cross-collar shirt with plain folded sleeves ending at mid-forearm, plain charcoal narrow trousers, a thin gray cloth waist sash and worn black cloth ankle boots. Both forearms and both hands show bare skin. Both empty hands rest loosely at his sides. The waist sash is a simple single fabric band. This is the dry-clothes base identity.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/CHAR_LZ_v01.png"
+  },
+  "CHAR_WX_v01": {
+    "capability": "edit",
+    "refs": [
+      "参考/人物/02_闻溪.jpg"
+    ],
+    "body": {
+      "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Preserve exactly the adult woman face, eyes and hairline in image 1. Her black hair forms a simple practical bun fastened with a thin wooden hairpin. She wears a plain gray-green coarse cloth cross-collar jacket with practical short cuffs, a charcoal gray ankle-length skirt, and gray cloth shoes. A small worn cloth medicine bag hangs from a plain fabric waist sash. Both empty hands rest loosely at her sides. This is the dry-clothes identity base.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/CHAR_WX_v01.png"
+  },
+  "CHAR_AL_v01": {
+    "capability": "edit",
+    "refs": [
+      "参考/人物/04_阿砾.jpg"
+    ],
+    "body": {
+      "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Preserve exactly the young adult male face and black tied hair in image 1. Age nineteen, slim adult proportions. He wears a plain short brown coarse linen jacket, charcoal narrow trousers, a simple hemp rope waist belt, worn dark cloth shoes. Both empty hands rest loosely at his sides, healthy bare skin on palms and fingers. This is the dry-clothes identity base.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/CHAR_AL_v01.png"
+  },
+  "CHAR_MD_v01": {
+    "capability": "edit",
+    "refs": [
+      "参考/人物/01_陆照.jpg"
+    ],
+    "body": {
+      "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Create a distinct adult male ship supervisor aged forty: broad stocky shoulders, square heavy jaw, wide nose, narrow deep-set eyes, thick eyebrows, short black mustache and coarse chin stubble. Black hair in a tight topknot, weathered tan skin. His own facial features differ clearly from the reference young man. Wears a plain dark ochre yellow boat-warden knee-length coat, dark brown narrow trousers, worn black cloth boots. A palm-size L-shaped brass crank handle with two perpendicular short segments hangs from his left waist belt. Empty hands rest at sides. The reference provides the 3D rendering style.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/CHAR_MD_v01.png"
+  },
+  "CHAR_GH_v01": {
+    "capability": "edit",
+    "refs": [
+      "参考/人物/01_陆照.jpg"
+    ],
+    "body": {
+      "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Create a distinct elderly adult Chinese male dockworker aged sixty: thin frame, deeply creased cheekbones, short gray beard and gray eyebrows, gray hair in a small practical bun. Plain patched dull brown work jacket with rolled cuffs, gray trousers, worn cloth shoes, simple hemp waist belt. Empty hands at sides. Reference provides the 3D rendering style.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/CHAR_GH_v01.png"
+  },
+  "PROP_AWL_v01": {
+    "capability": "edit",
+    "refs": [
+      "参考/场景/03_南仓账房与货架.jpg"
+    ],
+    "body": {
+      "prompt": "A single 35 centimeter black steel awl, period Chinese hand tool, ten centimeter cylindrical handle tightly wrapped in old beige hemp cord and twenty-five centimeter slender tapering four-sided black steel spike ending in a sharp point. One straight piece, side profile laid horizontally on a plain light gray studio background, exactly matching the Chinese 3D animated material rendering of the reference, neutral daylight.",
+      "image_size": "landscape_16_9",
+      "num_images": 1
+    },
+    "output": "资产/PROP_AWL_v01.png"
+  },
+  "SET_GATE_v01": {
+    "capability": "edit",
+    "refs": [
+      "参考/场景/03_南仓账房与货架.jpg",
+      "参考/场景/04_旧泵坊临水住屋.jpg"
+    ],
+    "body": {
+      "prompt": "Chinese 3D animated period-drama environment matching the wood, stone, rope, cool daylight and warm brown material rendering of the reference images. Empty old river sluice chamber, vertical wide establishing view from east toward the west wall. At far screen-left back a narrow wooden ladder descends from a high daylight opening to an ankle-deep shallow muddy-water floor. A raised dry timber repair ledge runs horizontally across the west wall through the midground. At the right end of this ledge stands a closed single-leaf wooden wheel-room door with hinges at its right edge, a rectangular brass inspection plate at waist height and an open small viewing aperture at head height. A stout fixed wooden post stands beside the door. At the left end of the ledge: a waist-height horizontal wooden winch drum between two upright posts, a removable wooden brake wedge beside the drum at knee height, and a separate fixed crossbrace between the upright posts in front of the drum. A hemp rope winds on the drum, leads upwards through a pulley and down to one suspended rectangular stone counterweight. A stout wooden catch cradle stands directly fifteen centimeters below the counterweight. A low loose rope loop lies in shallow foreground water in front of the winch. A short wrist-length rope hangs from the nearer upright post at waist height. A shallow straight tool groove is cut into the dry ledge beside the wedge. Readable arrangement, plausible robust wooden mechanical construction, gentle cool daylight from high screen-left opening, detailed readable shadows. Foreground water drains toward screen-left. Architectural reference image supplies materials and style; this chamber has its own described layout.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/SET_GATE_v01.png"
+  },
+  "CHAR_LZ_v01_参数修正": {
+    "capability": "edit",
+    "refs": [
+      "参考/人物/01_陆照.jpg"
+    ],
+    "body": {
+      "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Preserve exactly the young adult man face, eyes and hairline in image 1. His black hair is gathered into a compact short tied bun. Change his entire outfit to an unadorned faded blue-gray coarse linen cross-collar shirt with plain folded sleeves ending at mid-forearm, plain charcoal narrow trousers, a thin gray cloth waist sash and worn black cloth ankle boots. Both forearms and both hands show bare skin. Both empty hands rest loosely at his sides. The waist sash is a simple single fabric band. This is the dry-clothes base identity.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/CHAR_LZ_v01.png",
+    "retry_reason": "原任务尺寸枚举422拒绝，未产出图片；改为文档支持的1440×2560"
+  },
+  "CHAR_MD_v01_参数修正": {
+    "capability": "edit",
+    "refs": [
+      "参考/人物/01_陆照.jpg"
+    ],
+    "body": {
+      "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Create a distinct adult male ship supervisor aged forty: broad stocky shoulders, square heavy jaw, wide nose, narrow deep-set eyes, thick eyebrows, short black mustache and coarse chin stubble. Black hair in a tight topknot, weathered tan skin. His own facial features differ clearly from the reference young man. Wears a plain dark ochre yellow boat-warden knee-length coat, dark brown narrow trousers, worn black cloth boots. A palm-size L-shaped brass crank handle with two perpendicular short segments hangs from his left waist belt. Empty hands rest at sides. The reference provides the 3D rendering style.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/CHAR_MD_v01.png",
+    "retry_reason": "原任务尺寸枚举422拒绝，未产出图片；改为文档支持的1440×2560"
+  },
+  "SET_GATE_v01_参数修正": {
+    "capability": "edit",
+    "refs": [
+      "参考/场景/03_南仓账房与货架.jpg",
+      "参考/场景/04_旧泵坊临水住屋.jpg"
+    ],
+    "body": {
+      "prompt": "Chinese 3D animated period-drama environment matching the wood, stone, rope, cool daylight and warm brown material rendering of the reference images. Empty old river sluice chamber, vertical wide establishing view from east toward the west wall. At far screen-left back a narrow wooden ladder descends from a high daylight opening to an ankle-deep shallow muddy-water floor. A raised dry timber repair ledge runs horizontally across the west wall through the midground. At the right end of this ledge stands a closed single-leaf wooden wheel-room door with hinges at its right edge, a rectangular brass inspection plate at waist height and an open small viewing aperture at head height. A stout fixed wooden post stands beside the door. At the left end of the ledge: a waist-height horizontal wooden winch drum between two upright posts, a removable wooden brake wedge beside the drum at knee height, and a separate fixed crossbrace between the upright posts in front of the drum. A hemp rope winds on the drum, leads upwards through a pulley and down to one suspended rectangular stone counterweight. A stout wooden catch cradle stands directly fifteen centimeters below the counterweight. A low loose rope loop lies in shallow foreground water in front of the winch. A short wrist-length rope hangs from the nearer upright post at waist height. A shallow straight tool groove is cut into the dry ledge beside the wedge. Readable arrangement, plausible robust wooden mechanical construction, gentle cool daylight from high screen-left opening, detailed readable shadows. Foreground water drains toward screen-left. Architectural reference image supplies materials and style; this chamber has its own described layout.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/SET_GATE_v01.png",
+    "retry_reason": "原任务尺寸枚举422拒绝，未产出图片；改为文档支持的1440×2560"
+  }
+}

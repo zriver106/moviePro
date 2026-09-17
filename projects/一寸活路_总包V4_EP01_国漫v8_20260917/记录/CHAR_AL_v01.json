@@ -1,0 +1,52 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T07:27:40.104521+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "参考/人物/04_阿砾.jpg"
+    ],
+    "body": {
+      "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Preserve exactly the young adult male face and black tied hair in image 1. Age nineteen, slim adult proportions. He wears a plain short brown coarse linen jacket, charcoal narrow trousers, a simple hemp rope waist belt, worn dark cloth shoes. Both empty hands rest loosely at his sides, healthy bare skin on palms and fingers. This is the dry-clothes identity base.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/CHAR_AL_v01.png"
+  },
+  "references": {
+    "参考/人物/04_阿砾.jpg": "b7851f4ede760e0f05e8d26a804b7946a88c3683d8ea729fcfb5845d8c76904c"
+  },
+  "body": {
+    "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Preserve exactly the young adult male face and black tied hair in image 1. Age nineteen, slim adult proportions. He wears a plain short brown coarse linen jacket, charcoal narrow trousers, a simple hemp rope waist belt, worn dark cloth shoes. Both empty hands rest loosely at his sides, healthy bare skin on palms and fingers. This is the dry-clothes identity base.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac23e/dsfxmz77fGEpTO2p8dHP7_04_%3F%3F.jpg"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae43-9cd1-7c72-ac32-3d4a438e4010",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9cd1-7c72-ac32-3d4a438e4010",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9cd1-7c72-ac32-3d4a438e4010/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9cd1-7c72-ac32-3d4a438e4010/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0ae43-9cd1-7c72-ac32-3d4a438e4010",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9cd1-7c72-ac32-3d4a438e4010",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9cd1-7c72-ac32-3d4a438e4010/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9cd1-7c72-ac32-3d4a438e4010/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

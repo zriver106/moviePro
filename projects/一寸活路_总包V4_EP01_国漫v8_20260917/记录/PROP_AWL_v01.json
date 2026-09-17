@@ -1,0 +1,46 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T07:27:42.074390+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "参考/场景/03_南仓账房与货架.jpg"
+    ],
+    "body": {
+      "prompt": "A single 35 centimeter black steel awl, period Chinese hand tool, ten centimeter cylindrical handle tightly wrapped in old beige hemp cord and twenty-five centimeter slender tapering four-sided black steel spike ending in a sharp point. One straight piece, side profile laid horizontally on a plain light gray studio background, exactly matching the Chinese 3D animated material rendering of the reference, neutral daylight.",
+      "image_size": "landscape_16_9",
+      "num_images": 1
+    },
+    "output": "资产/PROP_AWL_v01.png"
+  },
+  "references": {
+    "参考/场景/03_南仓账房与货架.jpg": "a86625b3cf51b0a90ca2981196857fdeb1f84017f320bd015d77317e53c6dadd"
+  },
+  "body": {
+    "prompt": "A single 35 centimeter black steel awl, period Chinese hand tool, ten centimeter cylindrical handle tightly wrapped in old beige hemp cord and twenty-five centimeter slender tapering four-sided black steel spike ending in a sharp point. One straight piece, side profile laid horizontally on a plain light gray studio background, exactly matching the Chinese 3D animated material rendering of the reference, neutral daylight.",
+    "image_size": "landscape_16_9",
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac239/lUGJ--qaSDiZ3BL-rZN2y_03_%3F%3F%3F%3F%3F%3F%3F.jpg"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae43-9f5c-70b3-81dc-432f9c6c483f",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9f5c-70b3-81dc-432f9c6c483f",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9f5c-70b3-81dc-432f9c6c483f/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9f5c-70b3-81dc-432f9c6c483f/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0ae43-9f5c-70b3-81dc-432f9c6c483f",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9f5c-70b3-81dc-432f9c6c483f",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9f5c-70b3-81dc-432f9c6c483f/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-9f5c-70b3-81dc-432f9c6c483f/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}

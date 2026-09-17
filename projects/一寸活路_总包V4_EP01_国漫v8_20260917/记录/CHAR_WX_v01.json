@@ -1,0 +1,52 @@
+{
+  "state": "IN_PROGRESS",
+  "started_at": "2026-09-17T07:27:38.699645+00:00",
+  "spec": {
+    "capability": "edit",
+    "refs": [
+      "参考/人物/02_闻溪.jpg"
+    ],
+    "body": {
+      "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Preserve exactly the adult woman face, eyes and hairline in image 1. Her black hair forms a simple practical bun fastened with a thin wooden hairpin. She wears a plain gray-green coarse cloth cross-collar jacket with practical short cuffs, a charcoal gray ankle-length skirt, and gray cloth shoes. A small worn cloth medicine bag hangs from a plain fabric waist sash. Both empty hands rest loosely at her sides. This is the dry-clothes identity base.",
+      "image_size": {
+        "width": 1440,
+        "height": 2560
+      },
+      "num_images": 1
+    },
+    "output": "资产/CHAR_WX_v01.png"
+  },
+  "references": {
+    "参考/人物/02_闻溪.jpg": "73fdf08b1741ac8ce150fff0661c0fca183c1f455b64d4430ab5353142fbb223"
+  },
+  "body": {
+    "prompt": "High-quality Chinese 3D animated period drama, sculpted stylized adult face, physically shaded cloth and hair, clean dimensional guoman rendering matching the reference, neutral soft studio daylight, full body standing front view, plain warm gray background. Preserve exactly the adult woman face, eyes and hairline in image 1. Her black hair forms a simple practical bun fastened with a thin wooden hairpin. She wears a plain gray-green coarse cloth cross-collar jacket with practical short cuffs, a charcoal gray ankle-length skirt, and gray cloth shoes. A small worn cloth medicine bag hangs from a plain fabric waist sash. Both empty hands rest loosely at her sides. This is the dry-clothes identity base.",
+    "image_size": {
+      "width": 1440,
+      "height": 2560
+    },
+    "num_images": 1,
+    "image_urls": [
+      "https://v3b.fal.media/files/b/0aaac23d/fJbMiTnHdPX3C9nVOCc8c_02_%3F%3F.jpg"
+    ]
+  },
+  "handle": {
+    "status": "IN_QUEUE",
+    "request_id": "01a0ae43-967c-7ea1-b9d5-97742746eb54",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-967c-7ea1-b9d5-97742746eb54",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-967c-7ea1-b9d5-97742746eb54/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-967c-7ea1-b9d5-97742746eb54/cancel",
+    "logs": null,
+    "metrics": {},
+    "queue_position": 0
+  },
+  "status": {
+    "status": "IN_PROGRESS",
+    "request_id": "01a0ae43-967c-7ea1-b9d5-97742746eb54",
+    "response_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-967c-7ea1-b9d5-97742746eb54",
+    "status_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-967c-7ea1-b9d5-97742746eb54/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/bytedance/requests/01a0ae43-967c-7ea1-b9d5-97742746eb54/cancel",
+    "logs": null,
+    "metrics": {}
+  }
+}
