@@ -1,5 +1,5 @@
 {
-  "stage": "第二段生成中；第三段纯文字请求被平台内容审核拒绝",
+  "stage": "累计60秒横屏字幕首版已导出；本轮一段成功、一段审核拒绝",
   "source_locked": true,
   "text_review_binding": "passed",
   "shots": 19,
@@ -13,14 +13,12 @@
   "accepted_video_shots": 2,
   "bgm": false,
   "subtitle_tracks": 1,
-  "active_provider_jobs": 1,
+  "active_provider_jobs": 0,
   "blockers": [
     "TEXT_60_90: 422 content_policy_violation，正文及账户类型字段触发审核"
   ],
   "updated_at": "2026-09-17T18:23:32.135834+00:00",
-  "active_jobs": [
-    "TEXT_30_60"
-  ],
+  "active_jobs": [],
   "regeneration_allowed": "本次明确授权的横屏重制一次；不授权首版后自动重做",
   "accepted_shots": [
     "S11",
@@ -42,7 +40,7 @@
   "portrait_jobs_policy": "旧提交记录保留真实9:16参数，禁止继续提交竖屏；已有视频转换须采用原片编辑，不得擅自重新生成。",
   "active_workflow": "横屏独立两段30秒_v01",
   "new_landscape_video_jobs_submitted": 3,
-  "landscape_seconds_returned": 30,
+  "landscape_seconds_returned": 60,
   "successful_landscape_segments": 1,
   "video_request_failures": [
     {
@@ -55,5 +53,8 @@
   "partial_delivery_ready": true,
   "target_this_batch_seconds": 60,
   "expected_total_seconds": 90,
-  "remaining_to_98_seconds": 8
+  "remaining_to_98_seconds": 38,
+  "successful_new_independent_clips": 1,
+  "failed_new_independent_clips": 1,
+  "partial_output": "/Users/andy/moviePro/projects/一寸活路_总包V4_EP01_国漫v8_20260917/横屏独立两段30秒_v01/成片/一寸活路_第一集_横屏前60秒_首版.mp4"
 }

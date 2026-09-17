@@ -1,5 +1,5 @@
 {
-  "state": "IN_PROGRESS",
+  "state": "downloaded_first_version",
   "started_at": "2026-09-17T19:30:26.168284+00:00",
   "spec": {
     "mode": "t2v",
@@ -27,12 +27,158 @@
     "queue_position": 0
   },
   "status": {
-    "status": "IN_PROGRESS",
+    "status": "COMPLETED",
     "request_id": "01a0b0d9-4e63-73e0-a8e7-e231a89b9190",
     "response_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b0d9-4e63-73e0-a8e7-e231a89b9190",
     "status_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b0d9-4e63-73e0-a8e7-e231a89b9190/status",
     "cancel_url": "https://queue.fal.run/bytedance/seedance-2.5/requests/01a0b0d9-4e63-73e0-a8e7-e231a89b9190/cancel",
     "logs": null,
-    "metrics": {}
+    "metrics": {
+      "inference_time": 496.0350000858307
+    }
+  },
+  "result": {
+    "video": {
+      "url": "https://v3b.fal.media/files/b/0aaad360/YqjyZX7--jfqFxCXwdWtx_video.mp4",
+      "content_type": "video/mp4",
+      "file_name": "video.mp4",
+      "file_size": 9670572
+    },
+    "seed": 1729646874
+  },
+  "sha256": "37a0304e4af788db7612e6c2f9f59b865ce138be05ec0b6a98e1c69714666b9c",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001f",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 31,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 369152,
+        "duration": "30.041667",
+        "bit_rate": "2375174",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "721",
+        "extradata_size": 45,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/44100",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1327101,
+        "duration": "30.092993",
+        "bit_rate": "193214",
+        "nb_frames": "1297",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/andy/moviePro/projects/一寸活路_总包V4_EP01_国漫v8_20260917/横屏独立两段30秒_v01/视频/TEXT_30_60.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "30.092993",
+      "size": "9670572",
+      "bit_rate": "2570850",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41"
+      }
+    }
   }
 }

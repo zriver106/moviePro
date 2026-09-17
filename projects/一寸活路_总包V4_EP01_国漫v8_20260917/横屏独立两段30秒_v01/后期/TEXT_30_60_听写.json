@@ -1,0 +1,214 @@
+{
+  "source_sha256": "37a0304e4af788db7612e6c2f9f59b865ce138be05ec0b6a98e1c69714666b9c",
+  "result": {
+    "text": "门不用开了。 他们还活着。 账上没有。哼，拿这点钱卖命。 ",
+    "language_code": "zho",
+    "language_probability": 1.0,
+    "words": [
+      {
+        "text": "门",
+        "start": 6.02,
+        "end": 6.08,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "不",
+        "start": 6.14,
+        "end": 6.28,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "用",
+        "start": 6.28,
+        "end": 6.5,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "开",
+        "start": 6.5,
+        "end": 6.54,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "了",
+        "start": 6.62,
+        "end": 6.68,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 6.68,
+        "end": 6.68,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": " ",
+        "start": 6.68,
+        "end": 6.68,
+        "type": "spacing",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "他",
+        "start": 8.74,
+        "end": 8.8,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "们",
+        "start": 8.82,
+        "end": 8.94,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "还",
+        "start": 8.94,
+        "end": 9.16,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "活",
+        "start": 9.16,
+        "end": 9.28,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "着",
+        "start": 9.3,
+        "end": 9.4,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "。",
+        "start": 9.4,
+        "end": 9.4,
+        "type": "word",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": " ",
+        "start": 9.4,
+        "end": 9.4,
+        "type": "spacing",
+        "speaker_id": "speaker_1"
+      },
+      {
+        "text": "账",
+        "start": 11.02,
+        "end": 11.16,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "上",
+        "start": 11.16,
+        "end": 11.28,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "没",
+        "start": 11.3,
+        "end": 11.4,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "有",
+        "start": 11.48,
+        "end": 11.56,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 11.56,
+        "end": 11.56,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "哼",
+        "start": 17.34,
+        "end": 17.44,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "，",
+        "start": 17.44,
+        "end": 17.44,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "拿",
+        "start": 18.3,
+        "end": 18.46,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "这",
+        "start": 18.46,
+        "end": 18.58,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "点",
+        "start": 18.58,
+        "end": 18.9,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "钱",
+        "start": 18.9,
+        "end": 19.06,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "卖",
+        "start": 19.06,
+        "end": 19.22,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "命",
+        "start": 19.26,
+        "end": 19.3,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": "。",
+        "start": 19.3,
+        "end": 19.3,
+        "type": "word",
+        "speaker_id": "speaker_0"
+      },
+      {
+        "text": " ",
+        "start": 19.3,
+        "end": 19.34,
+        "type": "spacing",
+        "speaker_id": "speaker_0"
+      }
+    ]
+  },
+  "error": null
+}

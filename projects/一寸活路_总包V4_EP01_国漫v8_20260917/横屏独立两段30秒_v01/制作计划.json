@@ -27,5 +27,14 @@
   "subtitles": "single Chinese layer",
   "target_episode_seconds": 98,
   "remaining_seconds_after_this_batch": 8,
-  "repairs": false
+  "repairs": false,
+  "status": "one_clip_returned_one_clip_policy_rejected",
+  "success": [
+    "TEXT_30_60"
+  ],
+  "failed": [
+    "TEXT_60_90"
+  ],
+  "requests_submitted": 2,
+  "further_requests": false
 }
