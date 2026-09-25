@@ -101,6 +101,56 @@ def arkcli_image(*, project, episodes, endpoint, profile, prompt, inputs,
     finally:
         record.write_text(json.dumps(state, ensure_ascii=False, indent=2))
 
+def arkcli_video_submit(*, project, episode, endpoint, profile, prompt, inputs,
+                        duration, record_path):
+    """提交已核验的2.0系列视频；独占记录防重提，异步任务立即保存ID。"""
+    from pathlib import Path
+    import rating_gate
+    if not endpoint.startswith("ep-") or not 4 <= duration <= 15:
+        raise ValueError("必须指定已核验的2.0系列Endpoint及4至15秒时长")
+    rating_gate.require(project, [episode], "Ark CLI视频生成")
+    refs = [Path(p).resolve(strict=True) for p in inputs]
+    record = Path(record_path)
+    record.parent.mkdir(parents=True, exist_ok=True)
+    state = dict(status="submitting", endpoint=endpoint, profile=profile,
+                 prompt=prompt, inputs=[str(p) for p in refs], duration=duration)
+    with record.open("x") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+    argv = ["arkcli", "+gen", "--model", endpoint, "--profile", profile,
+            "--modality", "video", "--duration", str(duration), "--ratio", "16:9",
+            "--resolution", "480p", "--generate-audio=true", "--watermark=false",
+            "--no-open", "--format", "json", "--save-to="]
+    for ref in refs:
+        argv += ["--input", "reference_image:@" + str(ref)]
+    argv.append(prompt)
+    try:
+        result = _arkcli_video_call(argv)
+        if not result.get("task_id"):
+            raise RuntimeError("提交未返回task_id，须核对原调用，禁止重提")
+        state.update(status="submitted", result=result, task_id=result["task_id"])
+        return result
+    except BaseException as exc:
+        state.update(status="unknown_requires_reconciliation", error=str(exc))
+        raise
+    finally:
+        record.write_text(json.dumps(state, ensure_ascii=False, indent=2))
+
+
+def _arkcli_video_call(argv):
+    env = dict(os.environ, ARKCLI_NO_UPDATE_NOTIFIER="1", ARKCLI_CALLER_TYPE="ai_agent",
+               ARKCLI_CALLER_NAME="codex", ARKCLI_SKILL_NAME="arkcli-gen")
+    run = subprocess.run(argv, env=env, capture_output=True, text=True, timeout=180)
+    if run.returncode:
+        raise RuntimeError(run.stdout + "\n" + run.stderr)
+    return json.loads(run.stdout)
+
+
+def arkcli_video_get(*, task_id, profile, output_dir=""):
+    """查询原任务；空目录只查询，成功后指定目录下载，绝不重新生成。"""
+    return _arkcli_video_call(["arkcli", "gen", "get", task_id, "--profile", profile,
+                              "--format", "json", "--no-open", "--save-to=" + str(output_dir)])
+
+
 BACKEND = os.environ.get("MOVIEPRO_BACKEND", "fal")
 
 BACKENDS = {
