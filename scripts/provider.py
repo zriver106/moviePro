@@ -37,6 +37,7 @@ fal.ai 是中介。正式做项目会直接对接官方 API（火山引擎 / 即
 """
 import json
 import os
+import subprocess
 import sys
 import urllib.error
 import urllib.request
@@ -44,6 +45,61 @@ import urllib.parse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import keys
+
+
+def arkcli_image(*, project, episodes, endpoint, profile, prompt, inputs,
+                 output_dir, record_path, size="1536x2560"):
+    """单张 Ark CLI 图片入口；保留评级闸与独占调用记录，未知结果不重提。
+
+    调用者先核对精确模型的参数、参考图及预算。凭证由 Ark CLI 管理。
+    此入口不改变历史 fal 路由，也不提供失败后的供应商回落。
+    """
+    from pathlib import Path
+    import rating_gate
+
+    if not episodes or not endpoint.startswith("ep-") or not profile:
+        raise ValueError("必须指定评级集数、已核验Endpoint和Profile")
+    rating_gate.require(project, episodes, "Ark CLI定妆生成")
+    refs = [Path(f).resolve(strict=True) for f in inputs]
+    dest = Path(output_dir).resolve()
+    dest.mkdir(parents=True, exist_ok=True)
+    record = Path(record_path)
+    record.parent.mkdir(parents=True, exist_ok=True)
+    state = {"status": "submitting", "endpoint": endpoint, "profile": profile,
+             "prompt": prompt, "inputs": [str(f) for f in refs], "size": size}
+    # 独占创建：同一调用即使超时也必须先人工对账，不能再次提交。
+    with record.open("x") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+    argv = ["arkcli", "+gen", "--model", endpoint, "--profile", profile,
+            "--modality", "image", "--size", size, "--output-format", "png",
+            "--watermark=false", "--no-open", "--format", "json",
+            "--save-to", str(dest)]
+    for ref in refs:
+        argv.extend(["--input", "@" + str(ref)])
+    argv.append(prompt)
+    env = dict(os.environ, ARKCLI_NO_UPDATE_NOTIFIER="1",
+               ARKCLI_CALLER_TYPE="ai_agent", ARKCLI_CALLER_NAME="codex",
+               ARKCLI_SKILL_NAME="arkcli-gen")
+    try:
+        run = subprocess.run(argv, env=env, capture_output=True, text=True, timeout=600)
+        state.update(stdout=run.stdout, stderr=run.stderr, exit_code=run.returncode)
+        if run.returncode:
+            raise RuntimeError("Ark CLI调用失败，查看调用记录；禁止自动重提")
+        result = json.loads(run.stdout)
+        if result.get("status") != "succeeded":
+            raise RuntimeError("图片未明确成功，需核对原调用")
+        paths = result.get("local_paths") or [result.get("local_path")]
+        if len(paths) != 1 or not paths[0] or not Path(paths[0]).is_file():
+            state["status"] = "generated_delivery_unverified"
+            raise RuntimeError("服务端已生成，但单张本地交付未核实；禁止重提")
+        state.update(status="succeeded", result=result)
+        return result
+    except BaseException:
+        if state["status"] == "submitting":
+            state["status"] = "unknown_requires_reconciliation"
+        raise
+    finally:
+        record.write_text(json.dumps(state, ensure_ascii=False, indent=2))
 
 BACKEND = os.environ.get("MOVIEPRO_BACKEND", "fal")
 
