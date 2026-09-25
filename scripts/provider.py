@@ -139,7 +139,9 @@ def arkcli_video_submit(*, project, episode, endpoint, profile, prompt, inputs,
 def _arkcli_video_call(argv):
     env = dict(os.environ, ARKCLI_NO_UPDATE_NOTIFIER="1", ARKCLI_CALLER_TYPE="ai_agent",
                ARKCLI_CALLER_NAME="codex", ARKCLI_SKILL_NAME="arkcli-gen")
-    run = subprocess.run(argv, env=env, capture_output=True, text=True, timeout=180)
+    # 素材校验和网络重连可能超过三分钟；给CLI返回原任务ID的机会。
+    # 超时仍由调用方保留未知记录，不自动重提。
+    run = subprocess.run(argv, env=env, capture_output=True, text=True, timeout=600)
     if run.returncode:
         raise RuntimeError(run.stdout + "\n" + run.stderr)
     return json.loads(run.stdout)
