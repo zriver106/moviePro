@@ -66,6 +66,9 @@ def arkcli_image(*, project, episodes, endpoint, profile, prompt, inputs,
     refs = [Path(f).resolve(strict=True) for f in inputs]
     dest = Path(output_dir).resolve()
     dest.mkdir(parents=True, exist_ok=True)
+    target = dest / "ark-gen.png"
+    if target.exists():
+        raise FileExistsError("目标图片已存在，先核对原调用，禁止覆盖或重提")
     record = Path(record_path)
     record.parent.mkdir(parents=True, exist_ok=True)
     state = {"status": "submitting", "endpoint": endpoint, "profile": profile,
@@ -78,7 +81,7 @@ def arkcli_image(*, project, episodes, endpoint, profile, prompt, inputs,
     argv = ["arkcli", "+gen", "--model", endpoint, "--profile", profile,
             "--modality", "image", "--size", size, "--output-format", "png",
             "--watermark=false", "--no-open", "--format", "json",
-            "--save-to", str(dest)]
+            "--save-to="]
     for ref in refs:
         argv.extend(["--input", "@" + str(ref)])
     argv.append(prompt)
@@ -86,8 +89,7 @@ def arkcli_image(*, project, episodes, endpoint, profile, prompt, inputs,
                ARKCLI_CALLER_TYPE="ai_agent", ARKCLI_CALLER_NAME="codex",
                ARKCLI_SKILL_NAME="arkcli-gen")
     try:
-        # 同步出图包括素材上传、排队、生成和下载；十分钟曾多次截断有效调用。
-        # 延长本地等待不增加重试，仍由独占记录阻止重复付费提交。
+        # 先拿生成回执并持久化，再下载；CLI自动下载失败不能拖住或丢失成功证据。
         run = subprocess.run(argv, env=env, capture_output=True, text=True, timeout=timeout_seconds)
         state.update(stdout=run.stdout, stderr=run.stderr, exit_code=run.returncode)
         if run.returncode:
@@ -95,10 +97,27 @@ def arkcli_image(*, project, episodes, endpoint, profile, prompt, inputs,
         result = json.loads(run.stdout)
         if result.get("status") != "succeeded":
             raise RuntimeError("图片未明确成功，需核对原调用")
-        paths = result.get("local_paths") or [result.get("local_path")]
-        if len(paths) != 1 or not paths[0] or not Path(paths[0]).is_file():
-            state["status"] = "generated_delivery_unverified"
-            raise RuntimeError("服务端已生成，但单张本地交付未核实；禁止重提")
+        state.update(status="generated_delivery_unverified", result=result)
+        record.write_text(json.dumps(state, ensure_ascii=False, indent=2))
+        urls = result.get("output_urls") or []
+        if not urls and result.get("output_url"):
+            urls = [result["output_url"]]
+        if not urls:
+            urls = [item.get("url") for item in result.get("images", {}).get("items", [])]
+        if len(urls) != 1 or not isinstance(urls[0], str) or not urls[0].startswith("https://"):
+            raise RuntimeError("服务端已生成，但单张下载地址未核实；只核对原回执，禁止重提")
+        partial = dest / "ark-gen.png.download"
+        try:
+            fetch(urls[0], partial)
+            from PIL import Image
+            with Image.open(partial) as downloaded:
+                downloaded.verify()
+            # 独占创建成品，避免与另一个调用覆盖同一输出路径。
+            os.link(partial, target)
+        finally:
+            if partial.exists():
+                partial.unlink()
+        result.update(local_path=str(target), local_paths=[str(target)])
         state.update(status="succeeded", result=result)
         return result
     except subprocess.TimeoutExpired as exc:
