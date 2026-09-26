@@ -339,7 +339,36 @@ def transcribe_scribe(path, language="zho"):
 
 
 def fetch(url, dst):
-    urllib.request.urlretrieve(url, dst)
+    # 下载停顿必须有界；未完成文件不能覆盖已存在的原片。
+    from pathlib import Path
+    import tempfile
+    import time
+    dest = Path(dst)
+    partial = None
+    started = time.monotonic()
+    try:
+        with urllib.request.urlopen(url, timeout=60) as response:
+            expected = response.headers.get("Content-Length")
+            expected = int(expected) if expected is not None else None
+            received = 0
+            with tempfile.NamedTemporaryFile(dir=dest.parent, prefix=dest.name + ".",
+                                             suffix=".download", delete=False) as target:
+                partial = Path(target.name)
+                while True:
+                    if time.monotonic() - started > 600:
+                        raise TimeoutError("原任务媒体下载超过600秒；保留回执，只重试下载")
+                    chunk = response.read(65536)
+                    if not chunk:
+                        break
+                    target.write(chunk)
+                    received += len(chunk)
+            if not received or (expected is not None and received != expected):
+                raise IOError(f"媒体下载不完整：收到{received}字节，预期{expected}")
+        os.replace(partial, dest)
+        partial = None
+    finally:
+        if partial is not None:
+            partial.unlink(missing_ok=True)
     return dst
 
 
