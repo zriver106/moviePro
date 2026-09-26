@@ -48,15 +48,18 @@ import keys
 
 
 def arkcli_image(*, project, episodes, endpoint, profile, prompt, inputs,
-                 output_dir, record_path, size="1536x2560"):
+                 output_dir, record_path, size="1536x2560", timeout_seconds=1800):
     """单张 Ark CLI 图片入口；保留评级闸与独占调用记录，未知结果不重提。
 
     调用者先核对精确模型的参数、参考图及预算。凭证由 Ark CLI 管理。
     此入口不改变历史 fal 路由，也不提供失败后的供应商回落。
     """
     from pathlib import Path
+    from datetime import datetime, timezone
     import rating_gate
 
+    if isinstance(timeout_seconds, bool) or not isinstance(timeout_seconds, int) or not 60 <= timeout_seconds <= 3600:
+        raise ValueError("图片调用等待时间必须为60至3600秒整数")
     if not episodes or not endpoint.startswith("ep-") or not profile:
         raise ValueError("必须指定评级集数、已核验Endpoint和Profile")
     rating_gate.require(project, episodes, "Ark CLI定妆生成")
@@ -66,7 +69,9 @@ def arkcli_image(*, project, episodes, endpoint, profile, prompt, inputs,
     record = Path(record_path)
     record.parent.mkdir(parents=True, exist_ok=True)
     state = {"status": "submitting", "endpoint": endpoint, "profile": profile,
-             "prompt": prompt, "inputs": [str(f) for f in refs], "size": size}
+             "prompt": prompt, "inputs": [str(f) for f in refs], "size": size,
+             "started_at": datetime.now(timezone.utc).isoformat(),
+             "timeout_seconds": timeout_seconds}
     # 独占创建：同一调用即使超时也必须先人工对账，不能再次提交。
     with record.open("x") as f:
         json.dump(state, f, ensure_ascii=False, indent=2)
@@ -81,7 +86,9 @@ def arkcli_image(*, project, episodes, endpoint, profile, prompt, inputs,
                ARKCLI_CALLER_TYPE="ai_agent", ARKCLI_CALLER_NAME="codex",
                ARKCLI_SKILL_NAME="arkcli-gen")
     try:
-        run = subprocess.run(argv, env=env, capture_output=True, text=True, timeout=600)
+        # 同步出图包括素材上传、排队、生成和下载；十分钟曾多次截断有效调用。
+        # 延长本地等待不增加重试，仍由独占记录阻止重复付费提交。
+        run = subprocess.run(argv, env=env, capture_output=True, text=True, timeout=timeout_seconds)
         state.update(stdout=run.stdout, stderr=run.stderr, exit_code=run.returncode)
         if run.returncode:
             raise RuntimeError("Ark CLI调用失败，查看调用记录；禁止自动重提")
@@ -94,6 +101,13 @@ def arkcli_image(*, project, episodes, endpoint, profile, prompt, inputs,
             raise RuntimeError("服务端已生成，但单张本地交付未核实；禁止重提")
         state.update(status="succeeded", result=result)
         return result
+    except subprocess.TimeoutExpired as exc:
+        def partial_text(value):
+            return value.decode("utf-8", errors="replace") if isinstance(value, bytes) else (value or "")
+        state.update(status="unknown_requires_reconciliation", error_type="local_process_timeout",
+                     stdout=partial_text(exc.stdout), stderr=partial_text(exc.stderr),
+                     error="本地等待超时；服务端结果未知，禁止自动重提")
+        raise
     except BaseException:
         if state["status"] == "submitting":
             state["status"] = "unknown_requires_reconciliation"
