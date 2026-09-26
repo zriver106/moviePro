@@ -47,6 +47,45 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import keys
 
 
+def _arkcli_run(argv, *, env, timeout):
+    """把原调用回执直接落盘；等待超时不杀包装进程，也不重提请求。"""
+    import hashlib
+    import time
+    import uuid
+    from pathlib import Path
+
+    receipt = Path(__file__).resolve().parent.parent / "tmp" / "arkcli_receipts" / uuid.uuid4().hex
+    receipt.mkdir(parents=True, mode=0o700)
+    stdout_path, stderr_path = receipt / "stdout.json", receipt / "stderr.log"
+    metadata = {"started_at": time.time(), "status": "starting",
+                "request_sha256": hashlib.sha256(json.dumps(argv).encode()).hexdigest()}
+    meta_path = receipt / "receipt.json"
+    meta_path.write_text(json.dumps(metadata, indent=2))
+    with stdout_path.open("wb") as stdout, stderr_path.open("wb") as stderr:
+        process = subprocess.Popen(argv, env=env, stdout=stdout, stderr=stderr,
+                                   start_new_session=True)
+        metadata.update(pid=process.pid, status="running")
+        meta_path.write_text(json.dumps(metadata, indent=2))
+        try:
+            code = process.wait(timeout=timeout)
+        except subprocess.TimeoutExpired:
+            metadata.update(status="unknown_requires_reconciliation", timed_out_at=time.time())
+            meta_path.write_text(json.dumps(metadata, indent=2))
+            # 子进程仍持有文件描述符，后续输出可从原回执目录找回。
+            error = subprocess.TimeoutExpired(
+                f"Ark CLI原调用 回执目录 {receipt} 禁止自动重提", timeout,
+                output=stdout_path.read_text(errors="replace"),
+                stderr=stderr_path.read_text(errors="replace"))
+            error.receipt_dir = str(receipt)
+            raise error
+    metadata.update(status="completed", exit_code=code, completed_at=time.time())
+    meta_path.write_text(json.dumps(metadata, indent=2))
+    result = subprocess.CompletedProcess(argv, code, stdout_path.read_text(errors="replace"),
+                                         stderr_path.read_text(errors="replace"))
+    result.receipt_dir = str(receipt)
+    return result
+
+
 def arkcli_image(*, project, episodes, endpoint, profile, prompt, inputs,
                  output_dir, record_path, size="1536x2560", timeout_seconds=1800):
     """单张 Ark CLI 图片入口；保留评级闸与独占调用记录，未知结果不重提。
@@ -90,8 +129,9 @@ def arkcli_image(*, project, episodes, endpoint, profile, prompt, inputs,
                ARKCLI_SKILL_NAME="arkcli-gen")
     try:
         # 先拿生成回执并持久化，再下载；CLI自动下载失败不能拖住或丢失成功证据。
-        run = subprocess.run(argv, env=env, capture_output=True, text=True, timeout=timeout_seconds)
-        state.update(stdout=run.stdout, stderr=run.stderr, exit_code=run.returncode)
+        run = _arkcli_run(argv, env=env, timeout=timeout_seconds)
+        state.update(stdout=run.stdout, stderr=run.stderr, exit_code=run.returncode,
+                     receipt_dir=run.receipt_dir)
         if run.returncode:
             raise RuntimeError("Ark CLI调用失败，查看调用记录；禁止自动重提")
         result = json.loads(run.stdout)
@@ -125,6 +165,7 @@ def arkcli_image(*, project, episodes, endpoint, profile, prompt, inputs,
             return value.decode("utf-8", errors="replace") if isinstance(value, bytes) else (value or "")
         state.update(status="unknown_requires_reconciliation", error_type="local_process_timeout",
                      stdout=partial_text(exc.stdout), stderr=partial_text(exc.stderr),
+                     receipt_dir=getattr(exc, "receipt_dir", None),
                      error="本地等待超时；服务端结果未知，禁止自动重提")
         raise
     except BaseException:
@@ -174,7 +215,7 @@ def _arkcli_video_call(argv):
                ARKCLI_CALLER_NAME="codex", ARKCLI_SKILL_NAME="arkcli-gen")
     # 素材校验和网络重连可能超过三分钟；给CLI返回原任务ID的机会。
     # 超时仍由调用方保留未知记录，不自动重提。
-    run = subprocess.run(argv, env=env, capture_output=True, text=True, timeout=600)
+    run = _arkcli_run(argv, env=env, timeout=600)
     if run.returncode:
         raise RuntimeError(run.stdout + "\n" + run.stderr)
     return json.loads(run.stdout)
